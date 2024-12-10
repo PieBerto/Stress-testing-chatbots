@@ -7,8 +7,8 @@ import nodriver
 async def main():
     #NON FUNZIONA
     # The Windows event loop policy will close it before the program ends without this line
-    if platform.system() == 'Windows':
-        asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+    #if platform.system() == 'Windows':
+        #asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
     browser = await nodriver.start()
     page = await browser.get('https://chatgpt.com/')
