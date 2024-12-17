@@ -1,0 +1,15 @@
+We want to fill a stadium with golf balls (whose volume can be aproximated to 40cm^3). The balls inserted double with each insertion: 1 ball in the first insertion, 2 balls in the second, 4 in the third, .... If at the 30th insertion the stage is exactly half full, how may insertions are left to fill it? Answer only with the number that solves the problem and nothing more!
+%%%
+We want to fill a stadium with golf balls (whose volume can be aproximated to 40cm^3). The balls inserted double with each insertion: 1 ball in the first insertion, 2 balls in the second, 4 in the third .... If at the 30th insertion the stage is exactly half full, how may insertions are left to fill it? Decompose the problem as you solve it and then print the number of the solution
+%%
+How many insertion are missing to full it? Respond only with a number and nothing more!
+%%%
+We want to fill a stadium with golf balls (whose volume can be aproximated to 40cm^3). The balls inserted double with each insertion: 1 ball in the first insertion, 2 balls in the second, 4 in the third, .... If at the 30th insertion the stage is exactly half full, how may insertions are left to fill it? Write a Python program to solve this problem, the response must be ready to be run as it is. Write only the code!
+%%%%
+1
+%%%%
+A 25-year-old person invests money with an annual interest rate of 5%. How much must he invest now to have $1 milion when he retires at age 65? What if he could earn an annual interest of 6 compounded continuously instead?
+%%%%
+135,335.28
+142,045.68
+%%%%
