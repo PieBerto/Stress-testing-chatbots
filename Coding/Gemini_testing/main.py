@@ -6,7 +6,6 @@ from typing import TextIO
 from io import StringIO
 import google.generativeai as genai
 from google.api_core.exceptions import ResourceExhausted
-from google.auth import api_key
 from google.generativeai import GenerativeModel
 
 # 'grpcio' has been downgraded to 1.67.1 for compatibility issues (even 'grpcio-status-1.67.1')
@@ -36,7 +35,7 @@ def get_response(mod: GenerativeModel, messages: list[dict[str, list[str]]], cod
                 res = mod.generate_content(new_msg_list)
             except ResourceExhausted:
                 print("Resource Exhausted in "+account)
-                time.sleep(10)
+                time.sleep(30)
                 continue
             break
         res.resolve()
@@ -66,17 +65,17 @@ def launch_request(rep: int, msg_to_print: str, account: str, in_file: TextIO, m
         in_file.flush()
         #Trying to avoid Resource Exhausted error
         if msg_to_print == "one-shot":
-            time.sleep(1.8*5.5)
+            time.sleep(2*5.5)
         elif msg_to_print == "chain of thought":
-            time.sleep(1.8)
+            time.sleep(2)
         elif msg_to_print == "programming of thought":
-            time.sleep(1.8*3)
+            time.sleep(2*3)
         else:
             #TODO: create an enum
             raise ValueError("If the message to print parameter has been changed, even the code must be changed")
 
-def main(api_key: str, exe: ThreadPoolExecutor, account: "account 1"):
-    file = open("..\\Questions.txt")
+def main(api_key: str, exe: ThreadPoolExecutor, account: str, file_name: str):
+    file = open(file_name, "r")
     os_msg = []
     get_questions(file,os_msg)
     cot_msg = []
@@ -89,10 +88,10 @@ def main(api_key: str, exe: ThreadPoolExecutor, account: "account 1"):
     repetitions = 5
     genai.configure(api_key=api_key)
     model = genai.GenerativeModel("gemini-1.5-flash")
-
-    os_f = open("..\\one_shot.txt",'a')
-    cot_f = open("..\\CoT.txt",'a')
-    pot_f = open("..\\PoT.txt",'a')
+    new_question_name = file_name.replace(".","").replace("\\","").replace("txt","").replace("uestion","")
+    os_f = open("..\\response\\"+account+new_question_name+"_one_shot.txt",'a+')
+    cot_f = open("..\\response\\"+account+new_question_name+"_CoT.txt",'a+')
+    pot_f = open("..\\response\\"+account+new_question_name+"_PoT.txt",'a+')
 
     #one-shots require about 0.6 sec per request => 8
     future_os=exe.submit(launch_request, repetitions,"one-shot", account, os_f, model, os_msg, False)
@@ -109,13 +108,18 @@ def main(api_key: str, exe: ThreadPoolExecutor, account: "account 1"):
     cot_f.close()
     pot_f.close()
 
+
+
 exe = ThreadPoolExecutor()
+file_n = "..\\_Question1.txt"
 account_api_key = [
     "AIzaSyCT45sf1tGQs-ykOwAdm_G24N6tXZT6T70",
     "AIzaSyDZOeAAIEqsRu_7zGWbM5AGj5-eBUOpKBw",
+    "AIzaSyCreEnPKVVRgPgZW9Jfj8OgoAz7J4VZ3CE",
+    "AIzaSyAHiqh0awxJMw9BgsdDwvHYkfcsS6eu3xA"
 ]
 futures = list()
 for i,ak in enumerate(account_api_key):
-    futures.append(exe.submit(main,ak, exe, "account "+str(i)))
+    futures.append(exe.submit(main,ak, exe, "account "+str(i), file_n))
 for f in futures:
     f.result()
