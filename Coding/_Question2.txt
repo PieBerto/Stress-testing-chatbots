@@ -1,8 +1,0 @@
-A 25-year-old person invests money with an annual interest rate of 5%. How much must he invest now to have $1 milion when he retires at age 65? What if he could earn an annual interest of 6 compounded continuously instead? Answer only with the number that solves the problem and nothing more!
-%%%
-A 25-year-old person invests money with an annual interest rate of 5%. How much must he invest now to have $1 milion when he retires at age 65? What if he could earn an annual interest of 6 compounded continuously instead? Decompose the problem as you solve it and then print the number of the solution
-%%
-Write only the two answers on two different lines and avoid adding more text.
-%%%
-A 25-year-old person invests money with an annual interest rate of 5%. How much must he invest now to have $1 milion when he retires at age 65? What if he could earn an annual interest of 6 compounded continuously instead? Write a Python program to solve this problem, the response must be ready to be run as it is. Write only the code!
-%%%%
