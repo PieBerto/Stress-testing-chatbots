@@ -1,0 +1,1 @@
+Sum the number of horizontal stripes and the number of different colors in the flag of Mozambique. Answer only with the solution.

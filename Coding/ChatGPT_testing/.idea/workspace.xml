@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8a22741-48a5-41c4-b7fa-7d6c611a3780" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Gemini_testing/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Gemini_testing/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLMs_testing/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLMs_testing/.idea/LLMs_testing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ChatGPT_testing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLMs_testing/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLMs_testing/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLMs_testing/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLMs_testing/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LLMs_testing/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResponsesClean/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ResponsesClean/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questions/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../questions/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account0/Question1/CoT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account0/Question1/PoT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account0/Question1/one_shot.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account1/Question1/CoT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account1/Question1/PoT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account1/Question1/one_shot.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account2/Question1/CoT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account2/Question1/PoT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account2/Question1/one_shot.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account3/Question1/CoT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account3/Question1/PoT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account3/Question1/one_shot.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account4/Question1/CoT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account4/Question1/PoT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account4/Question1/one_shot.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account5/Question1/CoT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account5/Question1/PoT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../response/account5/Question1/one_shot.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2r5LDHu7TKvGn1c4VILwrvBzAlJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "coding",
+    "ignore.virus.scanning.warn.message": "true",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-PY-243.22562.180" />
+        <option value="bundled-python-sdk-85c76a3b01b3-9a18a617cbe4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.22562.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8a22741-48a5-41c4-b7fa-7d6c611a3780" name="Changes" comment="" />
+      <created>1735843868258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735843868258</updated>
+      <workItem from="1735843869122" duration="100000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ChatGPT_testing$main.coverage" NAME="main Coverage Results" MODIFIED="1735843928556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

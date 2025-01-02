@@ -31,14 +31,14 @@ def get_questions(file_f: TextIO, messages: list[dict[str, list[str]]]):
         if line == "%%\n":
             messages.append({'role': 'user', 'parts': [question]})
             return get_questions(file_f, messages)
-        elif line == "%%%\n" or line == "%%%%\n":
+        elif line == "%%%\n" or line == "%%%%\n" or line == "%%%%":
             messages.append({'role': 'user', 'parts': [question]})
             return
         else:
             question += line
 
 
-def get_response(mod: GenerativeModel, messages: list[dict[str, list[str]]], code: bool, account: str) -> str:
+def get_response(mod: GenerativeModel, messages: list[dict[str, list[str]]], code: bool, account: str, count: int) -> str:
     new_msg_list = []
     res: GenerateContentResponse
     for m in messages:
@@ -46,16 +46,20 @@ def get_response(mod: GenerativeModel, messages: list[dict[str, list[str]]], cod
         while True:
             try:
                 res = mod.generate_content(new_msg_list)
+                count=0
             except ResourceExhausted:
-                print("Resource Exhausted in " + account)
-                time.sleep(random.randint(5, 20))
+                print("Resource Exhausted in " + account + " " +str(count), flush=True)
+                if count == 30:
+                    raise ResourceWarning("The resource in " + account + " are exhausted.")
+                time.sleep(random.randint(count, count+5))
+                count += 1
                 continue
             except InternalServerError:
-                print("Google server is not available")
+                print("Google server is not available", flush=True)
                 time.sleep(30)
                 continue
             except DeadlineExceeded:
-                print("Deadline Exceeded - timeout reached while waiting response")
+                print("Deadline Exceeded - timeout reached while waiting response", flush=True)
                 time.sleep(2)
                 continue
             break
@@ -71,59 +75,50 @@ def get_response(mod: GenerativeModel, messages: list[dict[str, list[str]]], cod
             exec(answer)
             answer = sys.stdout.getvalue().replace(' ',"").replace('\t',"").replace('\n',"").replace('\r',"")
         except:
-            print("Gemini wrote a wrong code!")
+            print("Gemini wrote a wrong code!", flush=True)
             answer = ""
         sys.stdout = old_stdout
     # TODO check if there are different candidates!
     out = re.sub("[a-zA-Z:|!£$%&/()='§#°ç@;_<>?+*^ ]", "", answer).replace(' ',"").replace('\t',"").replace('\n',"").replace('\r',"")
-    return out + ","
+    return out + ";"
 
 
-def launch_request(rep: int, msg_to_print: QuestionTypology, account: str, in_file: TextIO, mod: GenerativeModel,
+def launch_request(msg_to_print: QuestionTypology, account: str, in_file: TextIO, mod: GenerativeModel,
                    msg: list[dict[str, list[str]]], code: bool = False):
-    for i in range(rep):
-        response = get_response(mod, msg, code, account)
-        print("In " + account + " launched " + msg_to_print.value + ", repetition: " + str(i))
-        in_file.write(response)
-        in_file.flush()
-        #Trying to avoid Resource Exhausted error
-        if msg_to_print is QuestionTypology.OS:
-            time.sleep(1 * 5.5)
-        elif msg_to_print is QuestionTypology.COT:
-            time.sleep(1)
-        elif msg_to_print is QuestionTypology.POT:
-            time.sleep(1 * 3)
-        else:
-            #TODO: create an enum
-            raise ValueError("Error in QuestionTypology enum while looking for the type")
-
+    count = 0
+    response = get_response(mod, msg, code, account, count)
+    in_file.write(response)
+    in_file.flush()
+    #Trying to avoid Resource Exhausted error
+    if msg_to_print is QuestionTypology.OS:
+        time.sleep(0.2 * 5.5)
+    elif msg_to_print is QuestionTypology.COT:
+        time.sleep(0.2)
+    elif msg_to_print is QuestionTypology.POT:
+        time.sleep(0.2 * 3)
+    else:
+        #TODO: create an enum
+        raise ValueError("Error in QuestionTypology enum while looking for the type")
 
 def main(api_key: str, model: GenerativeModel, question_name: str, account: str, os_msg: list[dict[str, list[str]]],
          cot_msg: list[dict[str, list[str]]], pot_msg: list[dict[str, list[str]]]):
     #NUMBER OF REPETITIONS! <---------------------------------------------------------------------------------------------
-    repetitions = 10
+    repetitions = 100
     genai.configure(api_key=api_key)
 
-    print(question_name)
-    Path("..\\response\\" + account + "\\" + question_name).mkdir(parents=True, exist_ok=True)
-    os_f = open("..\\response\\" + account + "\\" + question_name + "\\" + "one_shot.txt", 'a+')
-    cot_f = open("..\\response\\" + account + "\\" + question_name + "\\" + "CoT.txt", 'a+')
-    pot_f = open("..\\response\\" + account + "\\" + question_name + "\\" + "PoT.txt", 'a+')
-
-    exe = ThreadPoolExecutor()
-    #one-shots require about 0.6 sec per request => 8
-    future_os = exe.submit(launch_request, repetitions, QuestionTypology.OS, account, os_f, model, os_msg, False)
-    time.sleep(2.5)
-    #Chain of Thoughts require about 5.2 sec => 1
-    future_cot = exe.submit(launch_request, repetitions, QuestionTypology.COT, account, cot_f, model, cot_msg, False)
-    time.sleep(2.5)
-    #Programming of Thoughts require about 1.9 sec => 3
-    future_pot = exe.submit(launch_request, repetitions, QuestionTypology.POT, account, pot_f, model, pot_msg, True)
-
-    future_os.result()
-    future_cot.result()
-    future_pot.result()
-
+    Path("..\\response\\Gemini-1.5-flash\\" + account + "\\" + question_name).mkdir(parents=True, exist_ok=True)
+    os_f = open("..\\response\\Gemini-1.5-flash\\" + account + "\\" + question_name + "\\" + "one_shot.txt", 'a+')
+    cot_f = open("..\\response\\Gemini-1.5-flash\\" + account + "\\" + question_name + "\\" + "CoT.txt", 'a+')
+    pot_f = open("..\\response\\Gemini-1.5-flash\\" + account + "\\" + question_name + "\\" + "PoT.txt", 'a+')
+    for i in range(repetitions):
+        #one-shots require about 0.6 sec per request => 8
+        launch_request(QuestionTypology.OS, account, os_f, model, os_msg, False)
+        #Chain of Thoughts require about 5.2 sec => 1
+        launch_request(QuestionTypology.COT, account, cot_f, model, cot_msg, False)
+        #Programming of Thoughts require about 1.9 sec => 3
+        launch_request(QuestionTypology.POT, account, pot_f, model, pot_msg, True)
+        print("In " + account + ", repetition: " + str(i), flush=True)
+    print(account + " done", flush=True)
     os_f.close()
     cot_f.close()
     pot_f.close()
@@ -139,7 +134,7 @@ if __name__ == '__main__':
         "AIzaSyBXZcf_W2y_OShJ7otGKQThR0VCO4FvTp0"
     ]
 
-    file_name = "..\\questions\\typology1\\Question1.txt"
+    file_name = "..\\questions\\typology1\\Question3.txt"
     file = open(file_name, "r")
     one_shot_msg = []
     get_questions(file, one_shot_msg)
