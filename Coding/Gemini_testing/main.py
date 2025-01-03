@@ -2,7 +2,6 @@ import random
 import re
 import sys
 import time
-from concurrent.futures.thread import ThreadPoolExecutor
 from multiprocessing import Process
 from typing import TextIO
 from io import StringIO
@@ -12,7 +11,6 @@ from google.api_core.exceptions import ResourceExhausted, InternalServerError, D
 from google.generativeai import GenerativeModel
 from pathlib import Path
 from enum import Enum
-
 
 class QuestionTypology(Enum):
     OS = "one-shot"
@@ -46,12 +44,12 @@ def get_response(mod: GenerativeModel, messages: list[dict[str, list[str]]], cod
         while True:
             try:
                 res = mod.generate_content(new_msg_list)
-                count=0
+                count=1
             except ResourceExhausted:
                 print("Resource Exhausted in " + account + " " +str(count), flush=True)
-                if count == 30:
+                if count == 10:
                     raise ResourceWarning("The resource in " + account + " are exhausted.")
-                time.sleep(random.randint(count, count+5))
+                time.sleep(random.randint(int(pow(count,2))+3, int(pow(count,2))+7))
                 count += 1
                 continue
             except InternalServerError:
@@ -85,25 +83,25 @@ def get_response(mod: GenerativeModel, messages: list[dict[str, list[str]]], cod
 
 def launch_request(msg_to_print: QuestionTypology, account: str, in_file: TextIO, mod: GenerativeModel,
                    msg: list[dict[str, list[str]]], code: bool = False):
-    count = 0
+    count = 1
     response = get_response(mod, msg, code, account, count)
     in_file.write(response)
     in_file.flush()
     #Trying to avoid Resource Exhausted error
     if msg_to_print is QuestionTypology.OS:
-        time.sleep(0.2 * 5.5)
+        time.sleep(4) #15 requests per minute
     elif msg_to_print is QuestionTypology.COT:
-        time.sleep(0.2)
+        time.sleep(8)
     elif msg_to_print is QuestionTypology.POT:
-        time.sleep(0.2 * 3)
+        time.sleep(4)
     else:
-        #TODO: create an enum
         raise ValueError("Error in QuestionTypology enum while looking for the type")
 
-def main(api_key: str, model: GenerativeModel, question_name: str, account: str, os_msg: list[dict[str, list[str]]],
-         cot_msg: list[dict[str, list[str]]], pot_msg: list[dict[str, list[str]]]):
+def main(api_key: str, question_name: str, account: str, os_msg: list[dict[str, list[str]]],
+         cot_msg: list[dict[str, list[str]]], pot_msg: list[dict[str, list[str]]] | None = None):
     #NUMBER OF REPETITIONS! <---------------------------------------------------------------------------------------------
     repetitions = 100
+    model = genai.GenerativeModel("gemini-1.5-flash")
     genai.configure(api_key=api_key)
 
     Path("..\\response\\Gemini-1.5-flash\\" + account + "\\" + question_name).mkdir(parents=True, exist_ok=True)
@@ -116,7 +114,7 @@ def main(api_key: str, model: GenerativeModel, question_name: str, account: str,
         #Chain of Thoughts require about 5.2 sec => 1
         launch_request(QuestionTypology.COT, account, cot_f, model, cot_msg, False)
         #Programming of Thoughts require about 1.9 sec => 3
-        launch_request(QuestionTypology.POT, account, pot_f, model, pot_msg, True)
+        #launch_request(QuestionTypology.POT, account, pot_f, model, pot_msg, True)
         print("In " + account + ", repetition: " + str(i), flush=True)
     print(account + " done", flush=True)
     os_f.close()
@@ -134,27 +132,26 @@ if __name__ == '__main__':
         "AIzaSyBXZcf_W2y_OShJ7otGKQThR0VCO4FvTp0"
     ]
 
-    file_name = "..\\questions\\typology1\\Question3.txt"
+    file_name = "..\\questions\\typology2\\Question101.txt"
     file = open(file_name, "r")
     one_shot_msg = []
     get_questions(file, one_shot_msg)
     chain_of_thoughts_msg = []
     get_questions(file, chain_of_thoughts_msg)
-    programming_of_thoughts_msg = []
-    get_questions(file, programming_of_thoughts_msg)
+    #programming_of_thoughts_msg = []
+    #get_questions(file, programming_of_thoughts_msg)
     file.close()
 
-    model = genai.GenerativeModel("gemini-1.5-flash")
-
-    question_name = file_name.replace("..\\questions\\typology1\\", "").replace(".txt", "")
+    question_name = file_name.replace("..\\questions\\typology2\\", "").replace(".txt", "")
 
     processes = list()
     for i, ak in enumerate(account_api_key):
         processes.append(Process(target=main, args=(
-            ak, model, question_name, "account" + str(i), one_shot_msg, chain_of_thoughts_msg,
-            programming_of_thoughts_msg), name="account" + str(i)))
+            ak, question_name, "account" + str(i), one_shot_msg, chain_of_thoughts_msg,
+            #programming_of_thoughts_msg
+            ), name="account" + str(i)))
     for p in processes:
         p.start()
-        time.sleep(2.5)
+        time.sleep(1.2)
     for p in processes:
         p.join()
