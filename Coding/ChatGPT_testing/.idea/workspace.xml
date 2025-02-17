@@ -4,50 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8a22741-48a5-41c4-b7fa-7d6c611a3780" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api_testing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Gemini_testing/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Gemini_testing/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../questions/typology1/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../questions/typology1/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../questions/typology2/Question101.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../questions/typology2/Question101.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account0/Question2/CoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account0/Question2/CoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account0/Question2/PoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account0/Question2/PoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account0/Question2/one_shot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account0/Question2/one_shot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account0/Question3/CoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account0/Question3/CoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account0/Question3/PoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account0/Question3/PoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account0/Question3/one_shot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account0/Question3/one_shot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account1/Question2/CoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account1/Question2/CoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account1/Question2/PoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account1/Question2/PoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account1/Question2/one_shot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account1/Question2/one_shot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account1/Question3/CoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account1/Question3/CoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account1/Question3/PoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account1/Question3/PoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account1/Question3/one_shot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account1/Question3/one_shot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account2/Question2/CoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account2/Question2/CoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account2/Question2/PoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account2/Question2/PoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account2/Question2/one_shot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account2/Question2/one_shot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account2/Question3/CoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account2/Question3/CoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account2/Question3/PoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account2/Question3/PoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account2/Question3/one_shot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account2/Question3/one_shot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account3/Question2/CoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account3/Question2/CoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account3/Question2/PoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account3/Question2/PoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account3/Question2/one_shot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account3/Question2/one_shot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account3/Question3/CoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account3/Question3/CoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account3/Question3/PoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account3/Question3/PoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account3/Question3/one_shot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account3/Question3/one_shot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account4/Question2/CoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account4/Question2/CoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account4/Question2/PoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account4/Question2/PoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account4/Question2/one_shot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account4/Question2/one_shot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account4/Question3/CoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account4/Question3/CoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account4/Question3/PoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account4/Question3/PoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account4/Question3/one_shot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account4/Question3/one_shot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account5/Question2/CoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account5/Question2/CoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account5/Question2/PoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account5/Question2/PoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account5/Question2/one_shot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account5/Question2/one_shot.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account5/Question3/CoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account5/Question3/CoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account5/Question3/PoT.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account5/Question3/PoT.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account5/Question3/one_shot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../response/Gemini-1.5-flash/account5/Question3/one_shot.txt" afterDir="false" />
-    </list>
+    <list default="true" id="a8a22741-48a5-41c4-b7fa-7d6c611a3780" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,22 +28,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.api_testing.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "coding",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.api_testing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;coding&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -108,6 +65,7 @@
       <workItem from="1735844162192" duration="31000" />
       <workItem from="1735908472697" duration="4871000" />
       <workItem from="1735916874348" duration="6081000" />
+      <workItem from="1737109702198" duration="17000" />
     </task>
     <servers />
   </component>

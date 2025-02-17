@@ -1,23 +1,8 @@
-Italy is in population decline, from 2011 to 2023 births have decreased from 0.55 to 0.38 million while mortality can be considered stable at 0.63 million since 2015 excluding the Covid period. Assuming that the birth rate decrease continues linearly how many years must pass for the 2011 population of 59 million to be halved? Answer only with the year in which the population will be halved from 2011.
+What is the maximum point in the interval x = 0 and x = pi of the function y = x*sin(x) ? Answer only with the coordinates in the form: (x0, y0) and avoiding adding more text!
 %%%
-Italy is in population decline, from 2011 to 2023 births have decreased from 0.55 to 0.38 million while mortality can be considered stable at 0.63 million since 2015 excluding the Covid period. Assuming that the birth rate decrease continues linearly how many years must pass for the 2011 population of 59 million to be halved? Decompose the problem as you solve it and then print the year in which the population will be halved from 2011.
+What is the maximum point in the interval x = 0 and x = pi of the function y = x*sin(x) ? Decompose the problem as you solve it and then print the coordinates in the form: (x0, y0).
 %%
-Write only the year in which the population will be halved from 2011.
+Write only the coordinates in the form: (x0, y0) and avoiding adding more text!
 %%%
-Italy is in population decline, from 2011 to 2023 births have decreased from 0.55 to 0.38 million while mortality can be considered stable at 0.63 million since 2015 excluding the Covid period. Assuming that the birth rate decrease continues linearly how many years must pass for the 2011 population of 59 million to be halved? Write a Python program to solve this problem, the response must be ready to be run as it is. Write only the code!
+What is the maximum point in the interval x = 0 and x = pi of the function y = x*sin(x) ?  Write a Python program to solve this problem; the answer must be formatted so that an external compiler can run it as is. Just write the code!
 %%%%
-
-***annotazioni***
-
-L'Italia è in decrescita demografica, dal 2011 al 2023 le nascite si sono ridotte da 0.55 a 0.38 milioni mentre la mortalità si può considerare stabile a 0.63 milioni dal 2015 escludendo il periodo Covid. Ipotizzando che la decrescita della natalità continui linearmente quanti anni devono passare per il dimezzamento della popolazione del 2011 che era 59 milioni? Rispondi unicamente con l'anno in cui la popolazione sarà dimezzata rispetto al 2011.
-
-primi 30 anni la natalità decresce fino a 0:
-0.38- N*((0.55-0.38)/13) = 0 per N=30
-la popolazione al 30esimo anno sarà:
-P30=P0-30*Mortalità+30*Natalità-(30(30+1)/2)*((0.55-0.38)/13)=50.555 milioni
-poi gli anni restanti si trovano così:
-50.555-X*Mortalità = 49/2
-X=41
-quindi 30+41 = 71 anni => 2082 oppure 2081-2083 accettabili
-
-60.828 anni dal 2011 è la risposta giusta => 2072 oppure 2071 (accetta entrambi)

@@ -1,0 +1,18 @@
+A farmer must carry a cabbage, a goat and a wolf across the river. The farmer can carry only himself or himself together with only one of the other 3 at a time.
+The cabbage, the goat and the wolf cannot cross the river without the farmer.
+The cabbage and the goat cannot stay on the same bank in the absence of the farmer.
+The goat and the wolf cannot stay on the same bank in the absence of the farmer.
+Solve the problem by calling:
+Cabbage -> A
+Goat -> B
+Wolf -> C
+Farmer -> Z
+and simulating that the two banks of the river are two arrays between which you move the 4 elements following the rules.
+Example:
+[A,B,C,Z] -> []
+[A,C] -> [B,Z]
+Write all configurations: initial, intermediate and final of the array.
+%%
+Now format the next output so that only the steps you used in the previous answer are present in the form: array1 -> array2, with each step separated by a semicolon character. Do not add any other letters.
+%%%%
+Dovrebbe uscire giusto tutte le volte.

@@ -77,7 +77,7 @@ def get_response(mod: GenerativeModel, messages: list[dict[str, list[str]]], cod
             answer = ""
         sys.stdout = old_stdout
     # TODO check if there are different candidates!
-    out = re.sub("[a-zA-Z:|!£$%&/()='§#°ç@;_<>?+*^ ]", "", answer).replace(' ',"").replace('\t',"").replace('\n',"").replace('\r',"")
+    out = re.sub("[a-zA-Z:|!£$%&/='§#ç@;_<>?+*^ ]", "", answer).replace(' ',"").replace('\t',"").replace('\n',"").replace('\r',"")
     return out + ";"
 
 
