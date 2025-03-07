@@ -1,3 +1,4 @@
+%COT
 A farmer must carry a cabbage, a goat and a wolf across the river. The farmer can carry only himself or himself together with only one of the other 3 at a time.
 The cabbage, the goat and the wolf cannot cross the river without the farmer.
 The cabbage and the goat cannot stay on the same bank in the absence of the farmer.

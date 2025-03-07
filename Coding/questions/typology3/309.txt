@@ -1,3 +1,4 @@
+%COT
 There are 3 stacks whose graphic representation has the elements ordered from left to right: [first inserted, second inserted, third inserted, 4th inserted, ...], two are empty while one contains 4 elements:
 Stack1: [B,A,D,C]
 Stack2: []

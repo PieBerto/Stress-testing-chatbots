@@ -1,3 +1,4 @@
+%COT
 Stacks are ordered queues whose main feature in computer science are the two operations: pop and push. Push inserts an element at the end of the stack so that it is the last one, while pop removes the last inserted element. Example: by pushing an element B into a stack from the initial configuration [A] the result will be: [A,B]
 
 There are three corresponding stacks:

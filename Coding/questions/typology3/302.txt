@@ -1,3 +1,4 @@
+%COT
 Z must carry A, B and a C across two arrays, so that all three are on the second array. Z can carry only himself or himself together with only one of the other 3 at a time.
 A, B and C cannot change array without Z.
 A and B cannot stay on the same array in the absence of Z.

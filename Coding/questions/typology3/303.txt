@@ -1,3 +1,4 @@
+%COT
 Three blocks (labeled A, B, and C) rest on a table. The blocks must be stacked such that block A is atop block B, and block B is atop block C. The problem starts with the following configuration:
 
 [B], [A, C], []

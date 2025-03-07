@@ -1,0 +1,8 @@
+%OS
+How many subsections of Article 140 of the Italian Constitution are there? Respond only with the number.
+%%%
+%COT
+How many subsections of Article 140 of the Italian Constitution are there? Decompose the problem as you solve it and then print the number of the solution.
+%%
+What is the number of subsections? Respond only with the number.
+%%%%
