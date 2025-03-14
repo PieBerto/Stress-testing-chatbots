@@ -1,0 +1,14 @@
+This file explains when the tests were carried out, the dates are expressed: [year-month-day].
+
+Question101
+	2025-03-14
+		POT 100
+		COT 100
+		OS 100
+
+Question106
+	2025-03-14
+		POT 10
+		COT 10
+		OS 10
+
