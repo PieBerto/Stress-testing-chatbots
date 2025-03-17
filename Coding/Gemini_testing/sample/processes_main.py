@@ -3,7 +3,7 @@ import sys
 import threading
 import time
 from io import StringIO
-from multiprocessing import Queue as MultiQueue
+from multiprocessing import Queue as MultiQueue, Process
 from queue import Queue
 from time import sleep
 from typing import TextIO
@@ -15,6 +15,23 @@ from google.genai.errors import ServerError,ClientError
 
 from sample.counter_process_thread import counter
 from sample.structures.question_typology_class import QuestionTypology
+
+def exec_generated_code(code_container: list[str]):
+    code = code_container.pop()
+    answer = re.sub(r"```python" + "|" + r"`", "", code)
+    old_stdout = sys.stdout
+    new_stdout = StringIO()
+    sys.stdout = new_stdout
+    try:
+
+        exec(answer, dict())
+        answer = re.sub("[#@?]", "", sys.stdout.getvalue())
+        sys.stdout = old_stdout
+    except Exception as e:
+        sys.stdout = old_stdout
+        print("Gemini wrote a wrong code!\nThe following exception has raise:\n" + str(e) + "\n", flush=True)
+        answer = "#"
+    code_container.append(answer)
 
 #TODO: 0- trova gli errori generati da Gemini, poco alla volta quando sorgono poi gestiscili
 def get_response(client: Client, messages, code: bool, account: str, model: str, send_queue, receive_queue) -> str:
@@ -59,23 +76,23 @@ def get_response(client: Client, messages, code: bool, account: str, model: str,
     if res is None:
         raise RuntimeError("No message has been found in the file.")
     #Handle code
-    answer: str = res.text
+    answer = res.text
+    code_container = list(answer)
     if code:
-        answer = re.sub(r"```python" + "|" + r"`", "", answer)
-        old_stdout = sys.stdout
-        new_stdout = StringIO()
-        sys.stdout = new_stdout
-        try:
-            exec(answer, dict())
-            answer = re.sub("[\t\n\r\s]", "", sys.stdout.getvalue())
-            sys.stdout = old_stdout
-        except Exception as e:
-            sys.stdout = old_stdout
-            print("Gemini wrote a wrong code!\nThe following exception has raise:\n" + str(e) + "\n", flush=True)
-            answer = "#"
-
+        exec_p = Process(target=exec_generated_code, args=(code_container,), name =account + "_exec_generated_code")
+        exec_p.start()
+        exec_p.join(90)
+        if exec_p.is_alive():
+            exec_p.terminate()
+            exec_p.join(10)
+            if exec_p.is_alive():
+                exec_p.kill()
+            answer = "@"
+        else:
+            answer = code_container.pop()
+        exec_p.close()
     #Cleaning output
-    out = re.sub("[|!$%&/'§#ç@;_<>?+*^ \t\n\r\s]", "", answer)
+    out = re.sub("[?]", "", answer)
     return out + "?"
 
 
