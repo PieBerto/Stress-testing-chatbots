@@ -1,0 +1,66 @@
+90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?Problem: A 25-year-old person invests money with an annual interest of 6% compounded continuously. How much must he invest now to have $1 million when he retires at age 65
+
+Let P be the principal amount (the amount to invest now).
+Let r be the annual interest rate, which is 6% or 0.06.
+Let t be the number of years the money is invested.
+Let A be the amount after t years, which is $1 million.
+
+The person is currently 25 years old and retires at age 65.
+The number of years of investment is t = 65 - 25 = 40 years.
+The annual interest rate is r = 6% = 0.06.
+The desired amount at retirement is A = $1,000,000.
+
+The formula for continuous compound interest is A = Pe^(rt).
+We need to find P.
+Given A = 1,000,000, r = 0.06, t = 40.
+1,000,000 = Pe^(0.06 * 40)
+1,000,000 = Pe^(2.4)
+
+To solve for P, divide both sides by e^(2.4):
+P = 1,000,000 / e^(2.4)
+
+Using a calculator, e^(2.4)  11.02317638.
+P = 1,000,000 / 11.02317638
+P  90,717.95329
+
+Rounding to two decimal places for currency:
+P  90,717.95
+
+Final Answer: The final answer is $\boxed{90717.95}$?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?The problem involves continuous compound interest, and we need to find the principal amount needed to reach a future value.
+The formula for continuous compound interest is given by:
+A = Pe^(rt)
+Where:
+A = the future value of the investment
+P = the principal amount (the initial investment)
+r = the annual interest rate (as a decimal)
+t = the time in years
+
+In this problem, we are given:
+A = $1,000,000 (the desired amount at retirement)
+r = 6% = 0.06 (annual interest rate)
+The person is currently 25 years old and will retire at age 65, so the time period is:
+t = 65 - 25 = 40 years
+
+We need to find the principal amount P. We can rearrange the formula to solve for P:
+P = A / e^(rt)
+
+Substitute the given values into the formula:
+P = 1,000,000 / e^(0.06 * 40)
+P = 1,000,000 / e^(2.4)
+
+Now we need to calculate the value of e^(2.4). Using a calculator, we find:
+e^(2.4)  11.023176375
+
+Now, we can calculate P:
+P = 1,000,000 / 11.023176375
+P  90717.95329
+
+Since we are dealing with money, it is appropriate to round the answer to two decimal places (cents).
+P  90717.95
+
+Therefore, the person must invest approximately $90,717.95 now to have $1 million when he retires at age 65.
+
+We are asked to answer only with the number that solves the problem and nothing more.
+The number that solves the problem is 90717.95 (rounded to two decimal places).
+
+Final Answer: The final answer is $\boxed{90717.95}$?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?90717.95?

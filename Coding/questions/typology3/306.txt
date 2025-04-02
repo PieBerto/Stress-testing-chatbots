@@ -1,6 +1,0 @@
-%COT
-Solve this exercise of the Hanoi tower: there are three rods called stack1, stack2 and stack3. Stack2 and stack3 are empty while in stack1 are stacked three disks on the bottom the largest called L, on top of this one the medium called M and on the top of the stack the smallest called S. The goal is to stack in the same order all the disks in stack3. Solve the problem writing a maxium of 19 steps and writing all the steps extensively and justifying them.
-%%
-Now format the next output so that only the steps you used in the previous answer are present in the form: stack1,stack2,stack3 (example: "[L,M,S],[],[]"), with each step separated by a semicolon character. Do not add any other letters.
-%%%%
-come il 305 ma senza immagine

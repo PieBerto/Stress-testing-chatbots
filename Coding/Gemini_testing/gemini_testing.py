@@ -1,12 +1,10 @@
 import argparse
 import os
 
-from sample.main import main
+from API_testing.main import main
 
-#TODO: URGENTE - Per qualche race condition non mi rilascia la linea di comando al termine, solo 1 su 5 l'ha rilasciata. La race condition si presenta quando eseguo un PoT in process_main.py
 #TODO: 1- catch SIGNINT (ctrl + c) e chiudere i processi gracefully.
 #TODO: 2- un programma che avvii tutte le richieste, per tutti i modelli selezionando la domanda
-#TODO: 3- Fare gestire al file di log le iterazioni mancanti (forse?)
 
 # python .\gemini_testing.py -q 106 -r 1 -m gemini-2.0-flash-001 -k C:\Users\pietr\Desktop\Gemini_API_key.txt
 

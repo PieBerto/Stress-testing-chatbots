@@ -1,5 +1,0 @@
-%COT
-Solve the example in the image of the Hanoi tower, in which three cylinders are stacked on the first of three columns. Renaming L the largest disk, M the medium one and S smallest one and Stack1 the source tower, stack2 the helper and stack3 the destination. Write a maximum of 19 steps. Write all the steps extensively and justify them.
-%%
-Now format the next output so that only the steps you used in the previous answer are present in the form: stack1,stack2,stack3 (example: "[L,M,S],[],[]"), with each step separated by a semicolon character. Do not add any other letters.
-%%%%

@@ -1,0 +1,27 @@
+(2.03, 1.83)?(2.029, 1.833)?Final answer: (2.02876, 1.83237)?Final answer: (2.029, 1.833)?Final answer: (2.02876, 1.83234)?(2.02876, 1.81936)?Final Answer: (2.03, 1.82)?(2.0288, 1.8323)?Final answer: (2.03, 1.83)?(2.029, 1.832)?(2.02876, 1.84475)?(2.0288, 1.8149)?(2.029, 1.832)?(2.03, 1.84)?(2.03, 1.83)?(2.029, 1.832)?(2.03, 1.83)?(2.029, 1.832)?(2.03, 1.82)?Final answer: (2.03, 1.82)?Final answer: (2.03, 1.83)?Final answer: (2.02876, 1.82067)?(2.02876, 1.81965)?(2.029, 1.833)?Final answer: (2.029, 1.822)?(2.03, 1.84)?(2.029, 1.845)?Final answer: (2.029, 1.833)?Final answer: (2.03, 1.84)?(2.029, 1.832)?Final answer: (2.02876, 1.83563)?(2.029, 1.832)?(2.03, 1.83)?Final answer: (2.02876, 1.8383)?Final answer: (2.029, 1.821)?Final answer: (2.02876, 1.82164)?(2.072, 1.848)?Final answer: (2.02876, 1.82164)?(2.029, 1.820)?Final answer: (2.029, 1.832)?Final answer: (2.02876, 1.83259)?(2.03, 1.82)?Final answer: (2.02876, 1.83237)?(2.029, 1.823)?(2.029, 1.820)?(2.03, 1.82)?(2.02876, 1.83237)?(2.029, 1.822)?Final answer: (2.02876, 1.83235)?Final answer: (2.02876, 1.82120)?Final answer: (2.029, 1.832)?Final answer: (2.03, 1.82)?(2.02876, 1.83255)?(2.03, 1.83)?(2.029, 1.819)?Final answer: (2.02876, 1.84466)?Final answer: (2.029, 1.820)?Final answer: (2.03, 1.83)?(2.03, 1.84)?Final answer: (2.02876, 1.84150)?(2.02876, 1.83235)?To find the maximum point of the function y = x*sin(x) in the interval [0, pi], we first find the derivative of y with respect to x:
+dy/dx = d/dx (x*sin(x)) = sin(x) + x*cos(x)
+
+To find the critical points, we set dy/dx = 0:
+sin(x) + x*cos(x) = 0
+tan(x) = -x
+
+We need to solve tan(x) = -x in the interval [0, pi].
+We know that in the interval [0, pi/2), tan(x) >= 0 and -x <= 0, so the only possible intersection is at x = 0, where tan(0) = 0 and -0 = 0. However, we are looking for maximum, not necessarily at x=0.
+In the interval (pi/2, pi], tan(x) is negative and -x is negative. There is a solution in this interval.
+Let's numerically find the solution of tan(x) = -x in (pi/2, pi]. Approximately, x  2.02876.
+
+Now we evaluate the function y = x*sin(x) at the critical point and the endpoints of the interval [0, pi].
+At x = 0: y = 0*sin(0) = 0
+At x = pi: y = pi*sin(pi) = pi*0 = 0
+At x  2.02876: y  2.02876 * sin(2.02876)  2.02876 * 0.909297  1.84466
+
+Comparing the values, the maximum value occurs at x  2.02876.
+The maximum point is approximately (2.02876, 1.84466).
+Rounding to 5 decimal places for x and y, we have (2.02876, 1.84466).
+For the requested format, we can keep a few decimal places. Let's use 2 decimal places for x and y after rounding for simplicity, but we need to be accurate enough to identify the maximum. Let's use 4 decimal places for x and y.
+x  2.0288
+y  1.8447
+
+The maximum point is approximately (2.0288, 1.8447).
+
+Final Answer: (2.0288, 1.8447)?(2.03, 1.83)?(2.029, 1.819)?Final answer: (2.029, 1.833)?(2.0288, 1.8217)?Final answer: (2.02876, 1.83237)?Final answer: (2.03, 1.85)?Final answer: (2.02876, 1.83235)?Final answer: (2.03, 1.83)?(2.029, 1.833)?(2.0288, 1.8323)?(2.029, 1.833)?Final answer: (2.029, 1.832)?(2.03, 1.83)?(2.029, 1.832)?(2.02876, 1.81927)?(2.02876, 1.81965)?Final answer: (2.02876, 1.83253)?Final answer: (2.02876, 1.84475)?Final answer: (2.03, 1.83)?(2.029, 1.833)?(2.029, 1.832)?(2.03, 1.84)?Final answer: (2.02876, 1.82313)?Final Answer: (2.029, 1.832)?(2.03, 1.82)?(2.03, 1.83)?(2.029, 1.818)?(2.029, 1.822)?Final answer: (2.029, 1.819)?(2.029, 1.882)?Final answer: (2.02876, 1.83238)?Final answer: (2.029, 1.820)?(2.029, 1.822)?(2.029, 1.837)?Final answer: (2.03, 1.85)?Final answer: (2.02876, 1.82916)?(2.029, 1.832)?Final answer: (2.0288, 1.8323)?

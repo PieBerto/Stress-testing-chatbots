@@ -1,0 +1,6 @@
+%COT
+Solve the tower of Hanoi with 4 disks, naming the disks, from largest to smallest: d1, d2, d3 and d4. Also name the source peg stack1, the auxiliary peg stack2 and the destination peg stack3.
+Don't write a code to solve the problem! Write the steps in the specified format.
+%%
+Now format the next output so that only the steps you used in the previous answer are present in the form: stack1,stack2,stack3 (example: "[L,M,S],[],[]"), with each step separated by a semicolon character. Do not add any other letters
+%%%%

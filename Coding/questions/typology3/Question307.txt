@@ -1,0 +1,8 @@
+%COT
+Solve this problem that I just invented and called "poles and cylinders": there are three poles called stack1, stack2 and stack3. Stack2 and stack3 are empty while in stack1 are stacked three cylinders on the bottom The largest one called L, on top of this one the medium called M and on the top of the stack the smallest called S. The goal is to stack in the same order all the cylinders.
+In order to move cylinders, certain rules must be followed: cylinders can only be stacked in order of width from largest to smallest so S or M can be on top of L, only S can be on top of M, and no cylinder can be on top of S. In addition, cylinders can be moved from one pole to any of the other two, but only the cylinder from the top of a pole can be removed in order to move it, while those below are blocked as long as there is one on top. Solve the problem writing a maxium of 19 steps and writing all the steps extensively and justifying them.
+Don't write a code to solve the problem! Write the steps in the specified format.
+%%
+Now format the next output so that only the steps you used in the previous answer are present in the form: stack1,stack2,stack3 (example: "[L,M,S],[],[]"), with each step separated by a semicolon character. Do not add any other letters.
+%%%%
+come 306 ma cercando di non farlo ricondurre a tower of Hanoi.

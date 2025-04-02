@@ -1,0 +1,188 @@
+(2.03, 1.83)?(2.03, 1.83)?Final answer: (2.029, 1.833)?Final answer: (2.029, 1.819)?Final answer: (2.03, 1.82)?Final Answer: (2.03, 1.83)?(2.03, 1.83)?Final answer: (2.02876, 1.82015)?Final answer: (2.029, 1.832)?Final answer: (2.029, 1.822)?(2.03, 1.82)?Final answer: (2.03, 1.83)?Final answer: (2.029, 1.832)?Final answer: (2.03, 1.82)?Final answer: (2.03, 1.85)?(2.029, 1.820)?(2.03, 1.84)?Final answer: (2.029, 1.832)?To find the maximum point of the function y = x*sin(x) in the interval [0, pi], we first find the derivative of y with respect to x:
+dy/dx = d/dx (x*sin(x)) = sin(x) + x*cos(x)
+
+To find the critical points, we set dy/dx = 0:
+sin(x) + x*cos(x) = 0
+sin(x) = -x*cos(x)
+tan(x) = -x
+
+We need to solve tan(x) = -x in the interval [0, pi].
+We can graphically analyze the intersection of y = tan(x) and y = -x in the interval [0, pi].
+In the interval [0, pi/2), tan(x) >= 0 and -x <= 0, they intersect at x = 0.
+In the interval (pi/2, pi), tan(x) goes from -infinity to 0, and -x goes from -pi/2 to -pi. There is an intersection in this interval.
+
+We check the value of the function at the endpoints and critical points.
+At x = 0, y = 0*sin(0) = 0.
+At x = pi, y = pi*sin(pi) = 0.
+
+We need to find the solution of tan(x) = -x in (pi/2, pi). Let's call this solution x0.
+Numerically solving tan(x) = -x in (pi/2, pi), we find x0  2.0287578.
+At x = x0, y0 = x0*sin(x0)  2.0287578 * sin(2.0287578)  1.8216593.
+
+Comparing the values at the endpoints and the critical point:
+y(0) = 0
+y(pi) = 0
+y(x0)  1.8216593
+
+The maximum value occurs at x = x0  2.0287578, and the maximum value is y0  1.8216593.
+We are asked to give the answer in the form (x0, y0).
+Rounding to 5 decimal places, we get (2.02876, 1.82166).
+
+Final Answer: (2.02876, 1.82166)?Final answer: (2.0288, 1.8264)?(2.03, 1.83)?(2.02876, 1.84476)?Final answer: (2.02876, 1.82159)?(2.03, 1.83)?(2.03, 1.83)?Final answer: (2.0288, 1.8323)?Final answer: (2.0288, 1.8196)?(2.03, 1.83)?Final answer: (2.029, 1.819)?(2.03, 1.82)?Final answer: (2.0288, 1.8359)?Final answer: (2.0288, 1.8195)?(2.029, 1.832)?Final Answer: (2.029, 1.832)?(2.029, 1.832)?Final answer: (2.03, 1.83)?Final answer: (2.02876, 1.81955)?(2.03, 1.83)?Final answer: (2.02876, 1.81965)?Final answer: (2.03, 1.83)?To find the maximum point of the function y = x*sin(x) in the interval [0, pi], we first find the derivative of y with respect to x:
+dy/dx = sin(x) + x*cos(x)
+
+Set the derivative to zero to find critical points:
+sin(x) + x*cos(x) = 0
+tan(x) = -x
+
+We need to solve tan(x) = -x in the interval [0, pi].
+We know that x=0 is a solution, as tan(0) = 0 and -0 = 0.
+For x in (0, pi/2), tan(x) > 0 and -x < 0, so there is no solution in (0, pi/2).
+For x in (pi/2, pi), tan(x) is negative and varies from -infinity to 0, while -x is negative and varies from -pi/2 to -pi. There is one solution in (pi/2, pi).
+Using numerical methods or a calculator, we find the approximate solution to tan(x) = -x in (pi/2, pi) to be x  2.02876.
+
+Now we evaluate the function y = x*sin(x) at the critical points and endpoints:
+At x = 0, y = 0*sin(0) = 0.
+At x = pi, y = pi*sin(pi) = 0.
+At x  2.02876, y  2.02876 * sin(2.02876).
+sin(2.02876)  0.89854.
+y  2.02876 * 0.89854  1.82292.
+
+Comparing the values, the maximum value is approximately 1.82292 at x  2.02876.
+The maximum point is approximately (2.02876, 1.82292).
+
+Rounding to 3 decimal places for simplicity and clarity, we get x  2.029 and y  1.823.
+The maximum point is approximately (2.029, 1.823).
+For more precision, we use 5 decimal places.
+The maximum point is approximately (2.02876, 1.82292).
+
+Final Answer: (2.02876, 1.82292)?(2.029, 1.832)?(2.029, 1.832)?Final answer: (2.02876, 1.83257)?(2.02876, 1.84475)?Final answer: (2.03, 1.83)?Final Answer: (2.03, 1.85)?To find the maximum point of the function y = x*sin(x) in the interval [0, pi], we first need to find the derivative of y with respect to x and set it to zero to find the critical points.
+
+dy/dx = d/dx (x*sin(x))
+Using the product rule, we get:
+dy/dx = (1)*sin(x) + x*cos(x) = sin(x) + x*cos(x)
+
+To find the critical points, we set dy/dx = 0:
+sin(x) + x*cos(x) = 0
+sin(x) = -x*cos(x)
+tan(x) = -x
+
+We need to solve for x in the interval [0, pi]. We can see that x=0 is not a solution as tan(0) = 0 and -0 = 0, but we need to check if this is a maximum or minimum later by checking the second derivative or by evaluating function values at endpoints and critical points.
+However, let's examine the equation tan(x) = -x again in the interval [0, pi]. We are interested in non-zero solutions.
+In the interval (0, pi/2), tan(x) > 0 and -x < 0, so there is no solution in (0, pi/2).
+In the interval (pi/2, pi), tan(x) goes from -infinity to 0, and -x goes from -pi/2 to -pi. There should be one intersection in this interval.
+
+Using a numerical solver, we find the solution to tan(x) = -x in (pi/2, pi) is approximately x  2.02876.
+
+Now we evaluate the function y = x*sin(x) at the endpoints and the critical point.
+At x = 0: y = 0*sin(0) = 0
+At x = pi: y = pi*sin(pi) = pi*0 = 0
+At x  2.02876: y = 2.02876 * sin(2.02876)  2.02876 * 0.924376  1.87515
+
+Comparing the values, the maximum value is approximately 1.87515 at x  2.02876.
+Rounding to 3 decimal places, x  2.029 and y  1.875.
+
+The maximum point is approximately (2.02876, 1.87515). Let's round to 5 decimal places.
+
+Final Answer: (2.02876, 1.87515)?(2.029, 1.832)?(2.02876, 1.82315)?(2.029, 1.845)?Final answer: (2.02876, 1.83237)?(2.0288, 1.8232)?(2.03, 1.82)?(2.03, 1.85)?(2.029, 1.822)?Final answer: (2.029, 1.832)?Final answer: (2.02876, 1.83254)?Final answer: (2.029, 1.845)?(2.029, 1.821)?(2.03, 1.83)?(2.029, 1.832)?(2.02876, 1.83246)?To find the maximum point of the function y = x*sin(x) in the interval [0, pi], we first find the derivative of y with respect to x:
+dy/dx = d/dx (x*sin(x)) = sin(x) + x*cos(x)
+
+To find the critical points, we set dy/dx = 0:
+sin(x) + x*cos(x) = 0
+tan(x) = -x
+
+We need to find the solutions of tan(x) = -x in the interval [0, pi].
+We can see that x = 0 is a solution since tan(0) = 0 and -0 = 0.
+In the interval (0, pi/2), tan(x) > 0 and -x < 0, so there is no solution in this interval.
+In the interval (pi/2, pi), tan(x) ranges from -infinity to 0, and -x ranges from -pi/2 to -pi. There is exactly one solution in this interval.
+Let's call this solution x0. Numerically, x0  2.02876.
+
+Now we evaluate the function y = x*sin(x) at the critical points and the endpoints of the interval [0, pi]:
+At x = 0, y = 0*sin(0) = 0.
+At x = pi, y = pi*sin(pi) = pi*0 = 0.
+At x = x0  2.02876, y = x0*sin(x0)  2.02876 * sin(2.02876)  2.02876 * 0.909297  1.84476.
+
+Comparing the values, the maximum value is approximately 1.84476, which occurs at x  2.02876.
+The maximum point is approximately (2.02876, 1.84476).
+Rounding to 3 decimal places for both x and y, we get (2.029, 1.845).
+
+Final Answer: (2.02876, 1.84476)?Final answer: (2.02876, 1.81935)?(2.02876, 1.83237)?(2.029, 1.820)?Final answer: (2.03, 1.84)?(2.029, 1.819)?Final answer: (2.03, 1.82)?Final answer: (2.029, 1.819)?Final answer: (2.03, 1.83)?(2.029, 1.879)?(2.029, 1.819)?(2.02876, 1.84478)?Final answer: (2.02876, 1.83246)?Final answer: (2.02876, 1.83234)?Final answer: (2.02876, 1.83259)?(2.029, 1.832)?To find the maximum point of the function y = x*sin(x) in the interval [0, pi], we first find the derivative of y with respect to x:
+dy/dx = d/dx (x*sin(x)) = sin(x) + x*cos(x).
+
+To find critical points, we set dy/dx = 0:
+sin(x) + x*cos(x) = 0
+tan(x) = -x
+
+We need to solve tan(x) = -x in the interval [0, pi]. We can observe that x=0 is a solution since tan(0) = 0 and -0 = 0.
+For x in (0, pi], we examine the graphs of tan(x) and -x. We know there is a solution in the interval (pi/2, pi). Using a numerical solver, we find the approximate solution to be x  2.0287578.
+
+Now we need to evaluate the function y = x*sin(x) at the critical points and the endpoints of the interval [0, pi].
+At x = 0, y = 0*sin(0) = 0.
+At x = pi, y = pi*sin(pi) = pi*0 = 0.
+At x  2.0287578, y  2.0287578 * sin(2.0287578)  2.0287578 * 0.894792  1.815247.
+
+Comparing the values, the maximum value is approximately 1.815247 at x  2.0287578.
+Rounding x to 3 decimal places, x  2.029.
+y  2.029 * sin(2.029)  1.815.
+Rounding x to 2 decimal places, x  2.03.
+y  2.03 * sin(2.03)  1.82.
+
+Let's use 2 decimal places for the answer.
+x0  2.03
+y0  1.82
+
+Final Answer: The final answer is $\boxed{(2.03, 1.82)}$?(2.029, 1.845)?(2.03, 1.82)?(2.029, 1.832)?(2.0288, 1.8323)?To find the maximum point of the function y = x*sin(x) in the interval [0, pi], we first find the derivative of y with respect to x:
+dy/dx = d/dx (x*sin(x)) = sin(x) + x*cos(x)
+
+Set the derivative equal to zero to find critical points:
+sin(x) + x*cos(x) = 0
+tan(x) = -x
+
+We need to find the solution of tan(x) = -x in the interval [0, pi]. We can observe graphically or numerically that there is a solution in the interval (pi/2, pi). Let's call this solution x0.
+Using a numerical solver, we find that x0  2.0287578 radians.
+
+Now we need to evaluate the function y = x*sin(x) at the critical point x0 and the endpoints of the interval x=0 and x=pi.
+At x = 0: y = 0*sin(0) = 0
+At x = pi: y = pi*sin(pi) = pi*0 = 0
+At x = x0  2.0287578:
+y0 = x0*sin(x0)  2.0287578 * sin(2.0287578)
+y0  2.0287578 * 0.9092974
+y0  1.844759
+
+Comparing the values, we have:
+y(0) = 0
+y(pi) = 0
+y(x0)  1.844759
+
+The maximum value is approximately 1.844759, which occurs at x0  2.0287578.
+Rounding to 5 decimal places for x0 and y0, we get x0  2.02876 and y0  1.84476.
+The maximum point is approximately (2.02876, 1.84476).
+
+Final Answer: The final answer is $\boxed{(2.02876, 1.84476)}$?(2.0288, 1.8326)?Final answer: (2.02876, 1.83234)?(2.03, 1.85)?Final answer: (2.03, 1.82)?(2.02876, 1.83253)?(2.03, 1.82)?(2.02876, 1.83237)?Final answer: (2.02876, 1.83233)?Final answer: (2.0288, 1.8197)?To find the maximum point of the function y = x*sin(x) in the interval [0, pi], we first find the derivative of y with respect to x:
+dy/dx = d/dx (x*sin(x)) = sin(x) + x*cos(x)
+
+To find the critical points, we set the derivative to zero:
+sin(x) + x*cos(x) = 0
+sin(x) = -x*cos(x)
+tan(x) = -x
+
+We need to find the solution of tan(x) = -x in the interval [0, pi].
+We know that there is a solution in the interval (pi/2, pi). Let's call this solution x0.
+Using numerical methods or a calculator, we find that x0  2.0287578.
+
+Now we evaluate the function y = x*sin(x) at the critical point x0 and the endpoints of the interval x = 0 and x = pi.
+For x = 0, y = 0*sin(0) = 0.
+For x = pi, y = pi*sin(pi) = pi*0 = 0.
+For x = x0  2.0287578, y = x0*sin(x0)  2.0287578 * sin(2.0287578)  2.0287578 * 0.8946515  1.8149353.
+
+Comparing the values, the maximum value occurs at x = x0  2.0287578, and the maximum value is y0  1.8149353.
+Rounding to 5 decimal places, x0  2.02876 and y0  1.81494.
+
+Therefore, the maximum point is approximately (2.02876, 1.81494).
+Rounding to 3 decimal places, x0  2.029 and y0  1.815.
+
+We will use a higher precision for the final answer.
+Using more precise values x0  2.0287578386 and y0  1.814935376.
+Rounding to 6 decimal places: x0  2.028758 and y0  1.814935.
+
+Final Answer: The final answer is $\boxed{(2.02876, 1.8149)}$?(2.0288, 1.8192)?(2.03, 1.82)?Final answer: (2.02876, 1.83236)?Final answer: (2.03, 1.83)?(2.03, 1.82)?
