@@ -1,0 +1,56 @@
+$10,000?$1,983,911.64?$1,049,035.?$10,485,819.?2,141,667?$2,683,149?$5,006,179.17?To solve this, we need to use the formula for continuous compounding:
+
+A = P e^(rt)
+
+Where:
+A = $1 million
+P = unknown (initial investment)
+r = annual interest rate (6%)
+t = time (from now to retirement: 40 years)
+e = base of the natural logarithm (2.71828)
+
+Rearrange the formula to solve for P:
+
+P = A / e^(rt)
+
+Calculate:
+P  $1,000,000 / 3.16227766
+P  $318,915
+
+So, approximately $318,915 must be invested now to have $1 million when he retires at age 65.?148,047.91?To calculate the amount needed, we can use the formula for continuous compounding:
+
+A = P * e^(rt)
+
+Where:
+A = $1 million
+P = unknown (we need to solve for this)
+r = 6% or 0.06 (annual interest rate)
+t = 65 - 25 = 40 years
+
+Rearrange the formula to isolate P:
+
+1,000,000 = P * e^(0.06*40)
+
+Now, calculate the value of e^(0.24):
+
+e^(0.24)  1.2767
+
+Substitute this back into the equation:
+
+1,000,000 = P * 1.2767
+P  $784,914.72
+
+So, approximately $784,915 is needed to invest now for a million dollars at age 65 with an annual interest rate of 6 compounded continuously.?$38,915?$4,000,000?$31,683,919.?$37,983,919?$2,919,893?$4,083,655?$27,419,003?25 \* e^((1+0.06)/12-1)  64,068?36500?25507?256,115,919?$5,005,139?$4,303,919?$1,098,009?36560?$3,983,919?365 * ln(1 + 0.06/100) / ln(1 + x/365)  103,919?256,419.58?$39,897,919?365^2 * (1 + 0.06/100)^(-3185)  7,352,879?36570.90?$4,851,019.29?365 \* ln(1 + (0.06/25)) / ln(1 + 0.06)  3,046,919?$3,983,517.14?1,000,000 / (e^(0.06 \* 54))  3,366?$1,095,097.29?25577?256,796,086.?$4,059,739?$444,879?3844565.?$4,321,467.19?$4,038,919?Using the formula for continuous compounding:
+
+A = P * e^(rt)
+
+where A = $1,000,000
+P = unknown (invested amount)
+r = 6% or 0.06
+t = 40 years (retirement age - investment age)
+
+Solving for P:
+P  $2,409,099
+
+The person must invest approximately $2,409,099 now to have $1 million when he retires at age 65.?$24,851,919?$4,096,821.11?36500?$27,919,159.29?$14,851,919?0.0314M?256,915?149,048.17?$16,386,915?$27,940,441.17?$2,915,919.53?$14,919,131.48?$3,921,531.23?$4,919,739.05?3,399,688?2,714,286?$14,224,000?$6,000,000 / (e^(0.25 \* 4) - 1)  $2,353,655?$63,942,474.80?25 * e^(0.06*54)  64,074.14?0.0095x  1000000
+x  1068009.56?$27,937,119.29?$43,963,919?$27,862,608.?2,141,506?149,020.41?$3,366,506.15?$2,796,015?$36,787,418?$27,983.51?67,739,919?$39,961,538.46?$2,416,370?$2,419,437.21?$27,919,511.11?$37,778,046.?25607?$2,779,690.21?2,919,017.41?$2,919,593.41?$3,983,919?$27,390,739.17?3,046,015?$3,141,506.88?2,419,052?3,046,420?1,000,000 / (1 + 0.06)^(1/25)  11,641?25551?$27,300,000?256,919.91?$16,851,919?$5,000,000?36500?$9,628,717.07?$2,706,329,891?$27,983,919?

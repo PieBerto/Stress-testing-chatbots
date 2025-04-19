@@ -1,0 +1,542 @@
+def calculate_years_to_half_population():
+    births_decrease = -30000
+    deaths_per_year = 350000
+    current_births = 350000
+    current_population = 60000000
+
+    net_change = births_decrease + deaths_per_year - current_births
+
+    target_population = current_population / 2
+
+    years_required = (current_population - target_population) / net_change
+    if years_required < 0:
+        return "Error: Target population cannot be reached"
+    else:
+        return int(years_required)
+
+years_to_half = calculate_years_to_half_population()
+print(years_to_half)?def calculate_years_to_halve():
+    current_births = 350000
+    birth_decrease_per_year = -30000
+    annual_deaths = 350000
+    current_population = 60000000
+
+    # Calculate net change in population per year
+    net_change_per_year = current_births + birth_decrease_per_year - annual_deaths
+    
+    # Determine target population (half of current)
+    target_population = current_population / 2
+    
+    # Calculate number of years required to reach target population
+    years_required = int((current_population - target_population) / abs(net_change_per_year))
+
+    return years_required
+
+years_to_halve = calculate_years_to_halve()
+print(years_to_halve)?1,000,000?```python
+def calculate_years():
+    current_population = 60000000
+    halved_population = 30000000
+    annual_birth_decrease = 30000
+    
+    # Calculate the net population increase due to births
+    annual_net_increase = 350000 - annual_birth_decrease
+    
+    # Calculate the required population decrease
+    required_decrease = current_population - halved_population
+    
+    # Calculate the number of years required for the population to halve
+    years_required = required_decrease / (annual_net_increase + 350000)
+    
+    return round(years_required)
+
+print("Number of years required for the population to halve:", calculate_years())
+```?23.51?```python
+def calculate_time():
+    current_births = 350000
+    annual_decrease_in_births = 30000
+    stable_deaths = 350000
+    
+    # Calculate the annual change in population
+    annual_change = -annual_decrease_in_births + stable_deaths
+    
+    initial_population = 60000000
+    target_population = initial_population // 2
+    
+    # Calculate the time required for the population to halve
+    time_required = (initial_population - target_population) / annual_change
+    
+    return int(time_required)
+
+print(calculate_time())
+```?```python
+# Define variables
+current_population = 60000000
+births_decrease_per_year = -30000
+deaths_per_year = 350000
+net_decrease_per_year = deaths_per_year + births_decrease_per_year
+
+# Calculate target population (half of current)
+target_population = current_population / 2
+
+# Calculate number of years required to halve the population
+years_required = (current_population - target_population) / net_decrease_per_year
+
+print(int(years_required))
+```?195,308.64 
+194?60_000_000 - 30_000 = 29_970_000 
+29_970_000 / (350_000 + (-30_000)) = 87.43 
+We round up because you can't have a fraction of a year 
+So it is 88 years?17?```python
+# Import necessary modules
+import math
+
+# Define variables
+current_population = 60000000
+target_population = 30000000
+decrease_in_births = 30000
+annual_deaths = 350000
+
+net_increase = decrease_in_births - annual_deaths
+decrease_needed = current_population - target_population
+years_to_halve = math.ceil(decrease_needed / net_increase)
+
+print(years_to_halve)
+```?30000
+350000
+60000000
+30000000
+(60000000 - 30000000) / abs(-30000 + 350000)
+187500?**7**?```python
+# Step 1: Calculate the net change in population per year
+net_change = -30000  
+
+# Step 2: Determine the ratio of remaining population to current population
+remaining_population_ratio = (350000 / 60000000) * (60000000 + net_change)
+
+# Step 3: Solve for the number of years required to reach half population
+years_required = 0
+while (1 - remaining_population_ratio) ** (years_required + 1) > 0.5:
+    years_required += 1
+
+print(years_required)
+```?60,000,000
+30,000,000
+30,000,000 / 380,000 = 78.95
+78?```python
+# Given values
+current_population = 60_000_000
+births_per_year = 350_000
+deaths_per_year = 350_000
+net_decrease_per_year = deaths_per_year - births_per_year
+
+# Step 1: Calculate the annual change in population
+annual_change = net_decrease_per_year
+
+# Step 2: Determine the net decrease in population per year
+net_decrease_population = current_population * (deaths_per_year / (births_per_year + deaths_per_year))
+
+# Step 3: Calculate the number of years required for the population to halve
+years_to_halve = int((current_population / 2) / net_decrease_population)
+
+print(years_to_halve)
+```?```python
+# Import necessary modules
+import math
+
+# Define variables
+current_population = 60000000
+target_population = 30000000
+net_decrease_per_year = -140000
+
+# Calculate the time required for the population to halve
+time_required = (current_population - target_population) / abs(net_decrease_per_year)
+
+print(abs(time_required))
+```?```python
+import math
+
+def calculate_years_to_halve():
+    # Given values
+    current_population = 60_000_000
+    annual_births_decrease = 30_000
+    current_births = 350_000
+    stable_annual_deaths = 350_000
+
+    # Calculate annual decrease in population due to births
+    annual_births_decrease_in_population = (current_births - annual_births_decrease) / current_population * current_population
+    
+    # Calculate net annual decrease in population
+    net_annual_decrease_in_population = stable_annual_deaths - annual_births_decrease
+
+    # Calculate number of years required for population to halve
+    target_population = current_population / 2
+    years_required = math.ceil(math.log(target_population / current_population) / math.log(1 - (net_annual_decrease_in_population/current_population)))
+    
+    return int(years_required)
+
+years_to_halve = calculate_years_to_halve()
+print(years_to_halve)
+```?```python
+def calculate_halving_time(current_population, net_change_per_year):
+    """
+    Calculate the number of years required for the population to halve.
+
+    Args:
+        current_population (int): The current population.
+        net_change_per_year (int): The net change in population per year.
+
+    Returns:
+        int: The number of years required for the population to halve.
+    """
+    target_population = current_population / 2
+    halving_time = (current_population - target_population) / net_change_per_year
+    return round(halving_time)
+
+# Given values
+current_population = 60000000
+net_change_per_year = 320000
+
+# Calculate halving time
+halving_time = calculate_halving_time(current_population, net_change_per_year)
+print(halving_time)
+```?```python
+# Define variables
+current_population = 60_000_000
+annual_deaths = 350_000
+net_decrease_births = -30_000
+current_births = 350_000
+
+# Calculate net decrease in population per year
+net_decrease_per_year = annual_deaths + net_decrease_births
+
+# Calculate ratio of current population to half population
+ratio = current_population / (current_population / 2)
+
+# Calculate number of years required for the population to halve
+years_required = round(ratio * net_decrease_per_year ** -1)
+print(years_required)
+```?350000
+-5.0
+14.47?```python
+# Step 1: Define variables and calculate net change in population per year
+current_population = 60_000_000
+annual_births = 350_000
+deaths_per_year = 350_000
+net_change_per_year = annual_births - deaths_per_year
+
+# Step 2: Determine the ratio of current population to final population (half of current)
+final_population = current_population / 2
+
+# Step 3: Calculate the number of years required for the population to halve using net change rate
+years_to_halve = (current_population - final_population) / net_change_per_year
+
+print(int(years_to_halve))
+```?```python
+def calculate_years():
+    # Initial population and target population
+    initial_population = 60000000
+    target_population = 30000000
+    
+    # Net decrease in population per year
+    net_decrease_per_year = 380000
+    
+    # Calculate the number of years required for the population to halve
+    years_required = (initial_population - target_population) / net_decrease_per_year
+    
+    return int(years_required)
+
+# Print the solution
+years = calculate_years()
+print(years)
+```?92?```python
+def calculate_years_to_halve():
+    # Step 1: Calculate net decrease in population per year
+    net_decrease_per_year = 380000
+    
+    # Step 2: Define the current and target populations
+    current_population = 60000000
+    target_population = 30000000
+    
+    # Step 3: Calculate the number of years required to halve the population
+    years_to_halve = (current_population - target_population) / net_decrease_per_year
+    
+    return round(years_to_halve)
+
+years_required = calculate_years_to_halve()
+print(years_required)
+```?```python
+# Define variables
+current_population = 60000000
+annual_decrease = 380000
+
+# Calculate time required for the population to halve
+target_population = current_population / 2
+
+# Use a loop to calculate the number of years required
+years = 0
+while current_population > target_population:
+    current_population -= annual_decrease
+    years += 1
+
+print(years)
+```?1317?```python
+import math
+
+initial_population = 60000000
+current_births = 350000
+deaths_per_year = 350000
+births_decrease_per_year = 30000
+
+annual_change = deaths_per_year - births_decrease_per_year
+
+target_population = initial_population / 2
+time_required = (initial_population - target_population) / abs(annual_change)
+
+print(math.ceil(time_required))
+```?```python
+import math
+
+current_population = 60000000
+deaths = 350000
+births_decrease = -30000
+average_births = current_population + births_decrease / 2
+net_annual_change = average_births - deaths
+time_to_halve = round(math.log(0.5, 1 + net_annual_change/current_population))
+print(time_to_halve)
+```?```python
+current_births = 350000
+annual_deaths = 350000
+net_annual_decrease = current_births - annual_deaths
+
+current_population = 60000000
+rate_of_decrease_per_year = net_annual_decrease / current_population
+
+import math
+
+def calculate_half_life(initial_population, rate_of_decrease):
+    half_population = initial_population / 2
+    years_to_halve = (math.log(half_population) - math.log(initial_population)) / math.log(1 - rate_of_decrease)
+    return round(years_to_halve)
+
+years_to_halve = calculate_half_life(current_population, rate_of_decrease_per_year)
+print(years_to_halve)
+```?60_000_000
+350_000
+30_000
+-250_000
+0.0833
+0.9167
+1.22474
+29?36?```python
+def calculate_halving_time(current_population, net_annual_decrease):
+    target_population = current_population / 2
+    years_required = (current_population - target_population) / net_annual_decrease
+    return round(years_required)
+
+# Given values
+current_population = 60_000_000
+net_annual_decrease = 320_000
+
+# Calculate the number of years required for the population to halve
+years_required = calculate_halving_time(current_population, net_annual_decrease)
+print(years_required)
+```?```python
+def calculate_time_required():
+    # 1. Calculate net decrease in population per year
+    current_births = 350,000
+    births_decrease = -30,000
+    deaths_per_year = -350,000
+    net_decrease = (current_births + births_decrease) + deaths_per_year
+    
+    # 2. Determine the number of people to be removed for the population to halve
+    current_population = 60,000,000
+    target_population = current_population / 2
+    
+    # 3. Calculate time required to remove this number of people at a rate of net_decrease per year
+    years_required = (current_population - target_population) / abs(net_decrease)
+    
+    return int(years_required)
+
+years_required = calculate_time_required()
+print(years_required)
+```?```python
+initial_population = 60000000
+births_decrease_per_year = -30000
+deaths_per_year = -350000
+current_births = 350000
+
+annual_change = births_decrease_per_year + deaths_per_year
+years_to_halve = (initial_population / 2) / (-annual_change)
+
+print(int(years_to_halve))
+```?```python
+def years_to_halve():
+    births_decrease = -30000
+    deaths_increase = 0
+    annual_population_decrease = abs(births_decrease + deaths_increase)
+    
+    current_population = 60000000
+    years_to_halve = current_population / (350000 - 30000)
+    
+    return round(years_to_halve,2)
+
+result = years_to_halve()
+print(f"{result}")
+```?93.75?```python
+import numpy as np
+
+# Step 1: Calculate annual change in population
+annual_change = -30000 - 350000
+
+# Step 2: Determine net decrease in population per year
+net_decrease = abs(annual_change)
+
+# Step 3: Calculate ratio of current births to total population
+births_ratio = 350000 / 60000000
+
+# Step 4: Time it takes for births to halve is not needed
+
+# Step 5: Calculate number of years required for population to halve
+population_ratio = 0.5
+years_required = np.log(population_ratio) / np.log(1 - (births_ratio * net_decrease))
+
+print(years_required)
+```?30,000 
+350,000 - 30,000 = 320,000
+60,000,000 / (320,000) = 187.5
+187.5?```python
+# Define variables
+current_population = 60000000
+annual_deaths = 350000
+annual_births = 350000
+
+net_decrease_per_year = annual_deaths - (current_population / 2)
+ratio_births_to_deaths = (annual_births + net_decrease_per_year) / (annual_deaths - net_decrease_per_year)
+
+decrease_ratio = 1 - ratio_births_to_deaths
+import math
+years_required = math.log(0.5) / math.log(decrease_ratio)
+print(int(years_required))
+```?182?```python
+import math
+
+# Initial population and current births
+initial_population = 60000000
+current_births = 350000
+
+# Decrease in births per year
+decrease_in_births_per_year = 30000
+
+# Calculate new annual births
+new_annual_births = current_births - decrease_in_births_per_year
+
+# Total deaths (stable)
+total_deaths = 350000
+
+# Net change per year
+net_change_per_year = new_annual_births - total_deaths
+
+# Calculate population halving time using the formula for exponential decay
+population_halving_time = math.log(2) / abs(net_change_per_year)
+
+print(math.ceil(population_halving_time))
+```?93750?69.23?19483.15789?30,000,000 / 320,000 = 93.75 
+
+93?60000000 
+350000 
+-165000 
+30000 
+30 
+
+years_required = 1666.67?```python
+initial_population = 60000000
+current_births = 350000
+deaths_per_year = 350000
+
+net_change = -30000
+
+target_population = initial_population / 2
+
+years = 0
+
+while initial_population > target_population:
+    initial_population += net_change
+    years += 1
+
+print(f"It will take {years} years for the population to halve.")
+```?30,000,000 
+5,000 
+6,000?-50000 
+0.08% 
+8819?1,000,000 years?```python
+import math
+
+# Current population and number of births
+current_population = 60000000
+current_births = 350000
+
+# Decrease in births per year
+birth_decrease_per_year = 30000
+
+# Net annual births
+net_annual_births = current_births - birth_decrease_per_year
+
+# Deaths (stable)
+deaths = 350000
+
+# Net annual population change
+net_annual_change = net_annual_births
+
+# Time required for the population to halve
+years_to_halve = math.ceil(math.log2(current_population / (current_population // 2)))
+
+print(years_to_halve)
+```?127?152?def calculate_years_to_halve_population():
+    births_decrease = -30000
+    deaths = 350000
+    annual_change = births_decrease + deaths
+    
+    current_population = 60000000
+    population_decrease_required = current_population / 2
+    
+    years_required = abs(population_decrease_required / annual_change)  
+    return int(years_required)
+
+years_to_halve = calculate_years_to_halve_population()
+print(years_to_halve)?30000 
+60000000 / 2 = 30000000 
+30000000 / 30000  1000 
+
+Years required: 1000?0 
+0.00% 
+1?1
+2
+3
+4
+5?78.95?**Solution**
+```python
+def calculate_halving_time():
+    current_population = 60_000_000
+    births = -30_000
+    deaths = 350_000
+
+    annual_change = births + deaths
+
+    population_decrease_rate = abs(births)
+
+    half_population = current_population / 2
+    years_required = (current_population - half_population) / population_decrease_rate
+
+    return int(years_required)
+
+halving_time = calculate_halving_time()
+print(halving_time)
+```?60_000_000
+350_000
+-30_000
+2
+20_000_000
+1.5
+16.67 
+16?

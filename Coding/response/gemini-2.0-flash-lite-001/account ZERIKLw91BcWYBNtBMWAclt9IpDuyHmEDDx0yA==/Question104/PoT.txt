@@ -1,0 +1,202 @@
+1.8197057381857922
+?1.8197057381857922
+?1.8197057410630522
+?1.819705738185792
+?-1.8197057381857922
+?1.8197057381857922
+?1.8197057410630522
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 17
+         Function evaluations: 34
+1.8197057381857922
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 17
+         Function evaluations: 34
+1.8197057381857922
+?1.8197057410630522
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 17
+         Function evaluations: 34
+1.8197057381857922
+?1.8197057381857922
+?1.8197057410630522
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 11
+         Function evaluations: 22
+1.819705738185792
+?1.8197057410630522
+?1.8197057381857922
+?1.8197057410630522
+?1.8197057381857922
+?1.8197057410630522
+?1.8197057410630522
+?1.8197057381857922
+?-1.8197057381857922
+?1.8197057381857922
+?1.8197057411596518
+?1.8197057410630522
+?1.8197057410630522
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 11
+         Function evaluations: 22
+1.819705738185792
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 11
+         Function evaluations: 22
+1.819705738185792
+?1.819705738185792
+?1.8197057411596531
+?1.8197057410630522
+?1.8197057411595818
+?1.8197057381857922
+?1.8197057381857922
+?1.8197057381857922
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 11
+         Function evaluations: 22
+1.819705738185792
+?1.8197057381857922
+?1.8197057410630522
+?1.8197057410630522
+?1.8197057381857922
+?1.8197057381857922
+?1.8197057381857922
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 17
+         Function evaluations: 34
+1.8197057381857922
+?1.8197057381857922
+?1.8197057381857922
+?1.8197057410630522
+?1.8197057410630522
+?1.8197057381857922
+?1.8197057411595818
+?1.8197057381857922
+?1.8197057411595818
+?1.8197057410630522
+?1.8197057404760382
+?1.8197057410630522
+?-1.8197057381857922
+?-1.8197057381857922
+?1.8197057410630522
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 11
+         Function evaluations: 22
+1.819705738185792
+?1.8197057410630522
+?1.8197057381857922
+?1.8197057410630522
+?1.8197057411595818
+?1.8197057410630522
+?1.8197057410630522
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 17
+         Function evaluations: 34
+1.8197057381857922
+?-1.8197057381857922
+?1.8197057381857922
+?1.8197057381857922
+?1.8197057409792905
+?1.8197057381857922
+?1.8197057381857922
+?1.8197057410630522
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 11
+         Function evaluations: 22
+1.819705738185792
+?1.8197057381857922
+?1.8197057410630522
+?1.8197057410630522
+?1.8197057411595818
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 17
+         Function evaluations: 34
+1.8197057381857922
+?1.8197057381857922
+?1.8197057410630522
+?1.8197057381857922
+?1.8197057381857922
+?1.8197057381857922
+?1.8197057410630522
+?1.8197057381857922
+?#?1.8197057381857922
+?1.8197057410630522
+?1.8197057410630522
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 11
+         Function evaluations: 22
+1.819705738185792
+?1.8197057381857922
+?1.819705738185792
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 11
+         Function evaluations: 22
+1.819705738185792
+?1.819705738185792
+?1.8197057381857922
+?1.8197057381857922
+?1.8197057381857922
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 11
+         Function evaluations: 22
+1.819705738185792
+?1.8197057381857922
+?1.8197057381857922
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 17
+         Function evaluations: 34
+1.8197057381857922
+?1.819705738185792
+?1.819706
+?-1.8197057381857922
+?1.8197057381857922
+?1.8197057410630522
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 11
+         Function evaluations: 22
+1.819705738185792
+?-1.8197057381857922
+?1.8197057381857922
+?1.8197057381857922
+?1.8197057381857922
+?1.8197057381857922
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 17
+         Function evaluations: 34
+1.8197057381857922
+?1.8197057381857922
+?1.8197057381857922
+?1.8197057381857922
+?1.8197057381857922
+?1.8197057381857922
+?-1.8197057381857922
+?1.8197057381857922
+?Optimization terminated successfully.
+         Current function value: -1.819706
+         Iterations: 17
+         Function evaluations: 34
+1.8197057381857922
+?1.8197057381857922
+?1.8197057411595818
+?1.8197057381857922
+?1.8197057381857922
+?1.8197057410630522
+?

@@ -1,0 +1,28 @@
+25.7 years.?360,000,000 / (350,000 - 30,000) = approximately 11.43 years
+(60,000,000 / 2) / (350,000 - 30,000) = approximately 6.71 years?10.71 years?34000 years?2.94 years?200 years.?10.66 years?15 years?40.6 years?5 years?360,000 years?45 years.?2000 years?The population decreases by 30,000 - 35,000 = -5,000 per year.
+
+To find when it will halve: 60,000,000 / 2 = 30,000,000. Then subtract the annual decrease until the population reaches half:
+
+30,000,000 / -5,000 = 6,000 years to reach 15,000,000.
+15,000,000 / -5,000 = 3,000 years to reach 10,000,000.
+10,000,000 / -5,000 = 2,000 years to reach 5,000,000.
+5,000,000 / -5,000 = 1,000 years to reach 0.
+
+The population will halve in approximately 6,000 + 3,000 + 2,000 + 1,000 = 12,000 years.?25 years?25 years?40 years?18 years?25 years?50 years?450,000 years?50.35 years?18 years?2,941 years?22 years?The population will decrease by 30,000 births per year and remain stable at 350,000 deaths per year.
+
+Net decrease: 30,000/year
+Stable deaths: 350,000/year
+Current population: 60,000,000
+Births: 350,000/year
+
+Effective rate of decline:
+(350,000 - 350,000) / 60,000,000 = -0.005833 (per year)
+
+Time for the population to halve:
+t = ln(1/2) / (-0.005833)
+t  119 years?Approximately 44.5 years.?360,000,000 / (350,000 - 30,000) = 11.88 years 
+
+10 years will be enough to halve the number of births and then another year to halve the overall population.?20 years?10.71 years?20 years.?50 years.?42.86 years?150 years.?60,000,000 / (350,000 - 30,000) = 185.71 years
+Divide by 2: 
+92.855 years?360,000 / (30,000 + 350,000) = 0.85
+1/0.85 = 1.1765  4.6?1,111 years.?12000 years?1500 years?18.5 years?2,333 years?42000 years?12.96 years?12,31 years.?20 years?22.5 years?20000 years?35 years.?1500 years?1,080 years.?25 years.?2500 years?25 years?1,111 years?42000 years.?22.6 years.?15.38 years?15 years.?25 years.?340 years?5 years?

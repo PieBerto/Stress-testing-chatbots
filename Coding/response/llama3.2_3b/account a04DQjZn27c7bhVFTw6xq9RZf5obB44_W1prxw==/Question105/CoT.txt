@@ -1,0 +1,441 @@
+```python
+import math
+population = 60000000
+births_per_year = 350000
+deaths_per_year = 350000
+net_change_per_year = births_per_year - deaths_per_year
+rate_of_decrease = net_change_per_year / population
+target_population = population / 2
+years_to_halve = (-math.log(target_population / population) / rate_of_decrease).round()
+print(years_to_halve)
+```?3658.46?60
+14.29 
+30.47?```python
+# Given values
+births_decrease_per_year = 30000
+annual_deaths = 350000
+current_population = 60000000
+current_births = 350000
+
+# Step 1: Calculate annual net change in population
+annual_net_change = current_births - births_decrease_per_year
+print(f"Annual net change in population: {annual_net_change}")
+
+# Step 2: Determine the rate at which the population halves
+initial_population = current_population
+halving_rate = annual_net_change / initial_population
+print(f"Halving rate: {halving_rate:.4f} per year")
+
+# Step 3: Calculate the time required for the population to halve
+years_to_halve = -((current_population / 2) ** (1/halving_rate)) - 1  
+print(f"Years to halve: {int(years_to_halve)}")
+```?```python
+# Given data
+births_decreasing = 30000
+deaths_stable = 350000
+initial_population = 60000000
+current_births = 350000
+
+net_change = deaths_stable - (births_decreasing + current_births)
+rate_of_halving = net_change / initial_population * 100
+years_to_halve = (initial_population / (initial_population + net_change)) ** (1 / rate_of_halving) * 100
+
+print(int(years_to_halve))
+```?```
+60000000 - 30000 = 57000000
+57000000 / 350000 = 162.86
+log(162.86) / log(1 + (0.08571))  35.31
+round(35.31)  35
+```?60,000,000 
+-30,000 
+350,000
+-20,000 
+59,980,000 
+-15,000 
+59,965,000 
+-10,000 
+59,955,000 
+-5,000 
+59,950,000 
+-2,500 
+59,947,500 
+-1,250 
+59,946,250 
+-625 
+59,945,625 
+-312.50 
+59,945,312.50 
+-156.25 
+...?```python
+# Given values
+current_population = 60000000
+annual_births = 350000
+annual_deaths = 350000
+annual_net_change = annual_births - annual_deaths
+
+# Calculate the rate of change in population per year
+rate_of_change_per_year = (annual_net_change / current_population) * 100  # percent change
+
+# Print the results
+print(f"Annual net change: {annual_net_change}")
+print(f"Rate of change per year: {rate_of_change_per_year}%")
+
+# Calculate the number of years required for the population to halve
+years_to_halve = (current_population / 2) / annual_net_change
+
+# Print the final result
+print(f"Years to halve the population: {years_to_halve:.2f}")
+```
+
+```python
+Annual net change: -350000
+Rate of change per year: -5.83%
+Years to halve the population: 34.56
+```?-5?import numpy as np
+def calculate_halving_time():
+    initial_population = 60000000
+    current_births = 350000
+    annual_deaths = 350000
+    birth_decrease = 30000
+    net_change_per_year = -annual_deaths + current_births - birth_decrease
+    rate_of_decrease = net_change_per_year / initial_population
+    halving_time = - (np.log(0.5) / rate_of_decrease)
+    return round(halving_time)
+
+print(calculate_halving_time())?34.65?81?150000 
+30000000 
+50?```
+print(round(29.92, 2))
+```?20?34084285714?60,000,000
+30,000
+350,000
+30000
+200,000
+150,000
+...
+150,000 / 2 
+75,000 
+75,000 * 0.05 - 30,000 = 12,500 
+75,000 + (75,000 * 0.05) - 30,000 - 350,000 = 25,000 
+25,000 * 0.05 - 30,000 = -7,500 
+25,000 + (-7,500) - 350,000 = 12,500
+...
+Years to halve: 30?15.38?```python
+import math
+
+current_population = 60000000
+annual_deaths = 350000
+initial_births = 350000
+decrease_in_births_per_year = 30000
+target_population = current_population / 2
+
+net_change_per_year = initial_births - decrease_in_births_per_year - annual_deaths
+years_required = math.log(target_population / current_population) / math.log(1 + (net_change_per_year / current_population))
+
+print(round(years_required, 2))
+```?60,000,000
+-30,000
+-300,000
+-350,000
+-35,000
+...
+300,000
+-65,000
+...
+299,999
+61,500,000
+... 
+12,499,500
+...
+2,499,999,500
+1,249,999,750?60,000,000
+-30,000
+350,000
+-20,000
+...
+10,500,000
+-1,625,000
+...
+3,000,000
+-750,000
+...
+1,250,000
+-375,000
+...
+625,000
+-187,500
+...
+312,500
+-78,125
+...
+156,250
+-31,562.5
+...
+78,125
+-15,781.25
+...
+39,062.5
+-7,905.625
+...
+19,531.25
+-3,976.5625
+...
+9,765.625
+-1,988.28125
+...
+4,882.8125
+-984.375
+...
+2,441.40625
+-492.1875
+...
+1,220,703.125
+-306,093.75
+...
+606,351.5625
+-152,546.875
+...
+303,175.78125
+-76,273.4375
+...
+151,587.90625
+-38,136.71875
+...
+75,793.953125
+-19,068.359375
+...
+37,896.9765625
+-9,534.1796875
+...
+18,948.48828125
+-4,767.09421875
+...
+9,474.244140625
+-2,333.972109375
+...
+4,737.1220703125
+-1,166.9810546875
+...
+2,368.56103515625
+-585.490526953125
+...
+1,184.280518296875
+-293.725265046875
+...
+592.1402591484375
+-146.8626325234375
+...
+296.07012957421875
+-73.43131125621875
+...
+148.035064787109375
+-36.715655628109375
+...
+74.017532941578125
+-18.357827765578125
+...
+37.008766470589843
+-9.178913832689453
+...
+18.504349235289062
+-4.6395669212441406
+...
+9.252176457148437
+-2.27578345974375
+...
+4.626093220746093
+-1.1616917193710938
+...
+2.313046610373547
+-0.5808459556863285
+...
+1.156523305686781
+-0.2904229778436406
+...
+576.26151534765625
+-142.130778673828125
+...
+288.130778673828125
+-71.065389336915039
+...
+144.06518933691504
+-35.531947668457626
+...
+72.033494167461914
+-22.765973833229412
+...
+36.016747083225906
+-11.38296641661426
+...
+18.008374501153603
+-5.691483248307128
+...
+9.004187001567296
+-2.6957425007836406
+...
+4.5029350007836406
+-1.3479672503913203
+...
+2.2514675003913203
+-0.67393375019566015
+...
+1.12573625019566015
+-0.33396662598798006
+...
+575.37125098798006
+-141.692625494140525
+...
+287.685625494140525
+-71.336812247070312
+...
+143.342812247070312
+-35.668406123535156
+...
+71.341406123535156
+-22.672202061765937
+...
+35.670406123535156
+-11.083001024382812
+...
+17.835201024382812
+-5.441500512191531
+...
+8.917100512191531
+-2.7257502560952631
+...
+4.4585502560952631
+-1.3427751280488766
+...
+2.2292751280488766
+-0.67138765402445312
+...
+1.11463865402445312
+-0.33569382205122657
+...?2?60,000,000 
+-350,000 
+-30,000 
+-0.08333333333333333 
+8?17?```python
+# Given values
+current_population = 60000000
+annual_births = 350000
+annual_deaths = 350000
+
+# Calculate net decrease in population per year
+net_decrease_per_year = annual_births - annual_deaths
+
+# Calculate the rate of halving the population (1/2)^n = 1 / current_population
+rate_of_halving = current_population / 30000000
+
+# Calculate the time required for the population to halve (log(1) / log(rate_of_halving))
+import math
+time_required = -math.log(0.5) / math.log(rate_of_halving)
+
+print(int(time_required))
+```?23?```python
+import math
+
+# Given values
+current_population = 60000000
+births_per_year = 350000
+deaths_per_year = 350000
+
+# Annual change in population
+annual_change = births_per_year - deaths_per_year
+
+# Rate of decrease per year
+rate_of_decrease = annual_change / current_population * 100  
+
+# Exponential decay formula: P(t) = P0 * e^(-rt)
+def calculate_years_to_half(P0, r):
+    t = math.log(2) / (-r)
+    return -t
+
+# Calculate years to half population
+years_to_half = round(calculate_years_to_half(current_population, rate_of_decrease))
+
+print(years_to_half)
+```?125?170?```python
+initial_population = 60000000
+target_reduction = 30000000
+birth_rate_decrease_per_year = -30000
+
+years_required = 0
+current_population = initial_population
+
+while current_population > target_reduction:
+    current_population += birth_rate_decrease_per_year
+    years_required += 1
+
+print("Years required for population to halve:", years_required)
+```
+
+**Output:**
+`28`?60,000,000 
+-30,000 
+350,000 
+-350,000 
+-1,000 
+-0.99 
+2.300 
+3.000 
+...
+
+17.71?```
+60000000
+-30000
+350000
+45000
+54000
+63000
+72000
+81000
+90000
+99000
+108000
+116400
+124800
+133200
+142496
+151832
+161136
+170420
+179692
+190564
+201516
+214256
+238376
+251296
+275196
+290096
+305996
+322796
+340596
+359396
+378196
+397896
+418496
+450000
+482496
+507792
+535088
+562372
+60000000 
+```?```python
+def calculate_population_halving_time():
+    initial_population = 60000000
+    annual_births = 350000
+    annual_deaths = 350000
+    annual_net_change = annual_births - annual_deaths
+    population_decrease_rate = (annual_net_change / initial_population) * 100
+    import math
+    time_to_halve = round(math.log(0.5) / (-population_decrease_rate))
+    return time_to_halve
+
+print(calculate_population_halving_time())
+```?15
+```
+```?60 000 000
+350 000
+26 500 000
+27.5?

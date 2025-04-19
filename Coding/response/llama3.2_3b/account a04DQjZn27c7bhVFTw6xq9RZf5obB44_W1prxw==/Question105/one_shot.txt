@@ -1,0 +1,38 @@
+35,625 years.?5 years.?17 years.?15 years.?22,685 years.?18,611 years.?45,455 years.?The population will halve in approximately 21.43 years (based on the logistic growth model, considering the birth and death rates).?15 years.?10 years.?23,478 years.?The initial population is not given, however, we can calculate it using the information about births and deaths.
+
+Let's denote current year as t=0.
+Initial population P = (Births + Deaths) / 2
+P = (350000+350000)/2 
+P = 350000
+
+Now let's assume that in x years the population will halve, so P'(t)=P/2
+We have:
+dP/dt = Birth - Death
+B = 30.000-350,000 = -320,000 
+
+Since P(0)=3.50000 and dP/dt=-320,000 we can write:
+
+P(t) = P(0)e^(-320,000x)
+(P(0)/2) = 3.50000e^(-320,000x)
+
+Taking the natural logarithm and simplifying, we get:
+- x * -320,000 = ln(1/2)
+x  22.4?38,461 years?25,000 years?13 years. 
+
+Initial population: 60,000,000 
+Births decrease by 30,000 each year, so after 13 years birth rate will be 60,000,000 - (13*30,000) = 45,600,000. Deaths remain at 350,000.
+Population halved when it's 30,000,000 or 15,000,000 * 2. 
+Population drops by 35,000,000 in total after 13 years and the remaining population is 25,000,000.?The population will halve when the difference between births and deaths equals half the initial population: 35,000 - 350,000 = 0,5 * 60,000,000.
+
+Solving for years (y): 35,000 = 30,000y
+y  1.17 years?35,375 years.?6.67 years, considering births are decreasing and deaths are stable.?17 years.?8 years.?Approximately 20-22 years.?12,500 years.?15,833 years.?16,667 years.?19 years. 
+
+At year 1: 60,000,000 - (30,000 + 35,000) = 59,935,000
+Year 2-18: The same decrease each year.
+Year 19: 59,935,000 - (30,000 + 35,000) = 59,870,000?20 years.?15 years.?19,739 years.?14,629 years.?6.7 years.?16,375 years.?Approximately 5-6 years, considering a stable net migration rate and using the concept of half-life.?14,285 years.?25,000 years?The population will halve when (current population - 30,000) = 0.5 * (current population).
+
+Let's denote x as the number of years.
+
+60,000,000 - 30,000x = 30,000,000
+30,000x = 30,000,000
+x  1 year?35,500 years?15 years.?45,457 years.?
