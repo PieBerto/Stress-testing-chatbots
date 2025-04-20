@@ -22,20 +22,19 @@ Question102
 
 Question103
 	2025-04-19
-		POT 21
-		OS 54
-		COT 53
-		OS 54
+		POT 100
+		COT 132
+		OS 132
 
 Question104
 	2025-04-19
-		POT 28
-		COT 28
-		OS 28
+		POT 128
+		COT 128
+		OS 128
 
 Question105
 	2025-04-19
-		POT 25
-		COT 26
-		OS 26
+		POT 125
+		COT 126
+		OS 126
 

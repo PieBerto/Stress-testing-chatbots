@@ -1,3 +1,4 @@
+%OS
 The current king of France is dead.
 Evaluate whether this statement is:
 1- True

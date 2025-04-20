@@ -1,0 +1,8 @@
+%OS
+I find it pleasant to yawn as soon as I am awake, while yawning as soon as I am asleep does not appeal to me.
+Assuming that the interlocutor is not lying, the following statement is to be considered:
+1-True
+2-false
+3-other
+Answer only with the number corresponding to the correct answer.
+%%%%

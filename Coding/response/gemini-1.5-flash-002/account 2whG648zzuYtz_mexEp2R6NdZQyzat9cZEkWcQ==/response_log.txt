@@ -72,10 +72,14 @@ Question104
 		OS 100
 
 Question105
+	2025-04-20
+		OS 84
+		POT 85
+		COT 85
 	2025-04-19
-		POT 5
-		COT 5
-		OS 5
+		POT 15
+		COT 15
+		OS 16
 	2025-03-24
 		COT 100
 		OS 100

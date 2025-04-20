@@ -30,4 +30,173 @@ t  2?5.24
 2.67
 3.34?1907
 1956
-2025?t  10?
+2025?t  10?5.67?**Solution:**
+
+1. Calculate net change in population:
+2. Calculate growth rate:
+   r = P / P0
+3. Print solution:
+
+19?80?1000
+10000?63?18?60,000,000
+350,000
+-30,000
+29
+-30,000
+0?1. Calculate current birth rate: 
+   Current birth rate = 30,000 / 60,000,000  0.0005 births/person/year
+2. Determine difference in birth rates:
+   Desired population = 60,000,000
+   Current births = 350,000
+   Births per year needed for halving = (60,000,000 / 2)  30,000
+   Difference in birth rates  35,000
+3. Calculate population growth rate: 
+   Population growth rate = Difference in birth rates / (Current births - Desired births for halving)
+   Population growth rate  35,000 / 25,000  1.4%
+4. Calculate years needed:
+   Years  60,000,000 / 350,000  170?1. 320,000
+2.   -0.053%
+3.    50
+4.     (30,000,000 / 60,000,000) * 10000  50?12?62833.0?1. Find the annual growth rate: b = -30,000; d = 350,000
+2. Set up the equation for population growth:
+   A = P(1 + r)^t
+3. Rearrange the equation to solve for 'r':
+   (1 + r)^t = 0.5
+4. Take the logarithm of both sides:
+   t * log(1 + r) = log(0.5)
+5. Solve for 'r': 
+   r  0.05
+6. Check if this value of 'r' is stable: 
+7. Calculate b and d:
+8. Plot or calculate t:
+9. Print the solution:?5?P(t) = 60,000,000 * e^(-5,000,000t)?1. 350,000
+2. 60,000,000
+3. 30,000,000
+4. 15,000,000?1. 2,011.1
+2. -29.64
+3. 59,650,000
+4. 2,011.1
+5. -60,000,000?964?31?0?60,000,000 = 60,000,000  (1 - (Births / Deaths))
+x  10.2 years
+
+20?31?9.81?2.303?t = 81?60,000,000 / 2 = 30,000
+30,000 * (1 + 0.005833)^x  30,000
+(1 + 0.005833)^x  1
+ln((1 + 0.005833)^(-1))  x
+x  11?61.05?187.5?60,000,000  e^(0.0318t + 4.77) = 30,000,000
+ln(30,000,000) - ln(60,000,000) = -0.0318t + 4.77
+-23.15  -0.0318t + 4.77
+0.0318t  28.92
+t  900?5.13?4.08?7?0.24?230?t  29.94?1.25
+30000?* 79
+* 2.5535
+* 2000?4.00?Number of years = 1?x = log2(30,000,000 / 2)
+ x  16.92
+y  (60,000,000 - 10,500,000) / 320,000
+ y  19.28
+z  18?93.75?159
+160?y = -5.28 / 0.00556
+ 969
+y  970
+y  968
+y  967
+y  966
+y  965?100?60,000,000 = 60,000,000 * (1 - 320,000)^11
+(1 - 320,000)  -319,999
+ln(-319,999) / ln(-1)
+11.97?1.875?Time  0.30103
+ 301 days
+ 2 years?60,000,000 * (1 - 380,000 / 350,000) = 30,000,000
+60,000,000 * (-0.071428571) = 30,000,000
+-0.693  ln(0.5)
+2.131  ln(0.071428571)
+3 years?4.53?* 37?2
+0.0167?10.35?Years = 15.3?2.03125
+3?0.3015?2.996
+3?1. r  0.1738
+2. Number of years = -ln(0.1738/2) / 0.1738
+3. Number of years  3.33?3.92?19.85?Years = 7.?0.8571?* Part 1: Net Change in Population Per Year: -30,000 + 350,000 = 320,000
+* Part 2: Halving the Population:
+   * 320,000x = 60,000,000
+   * x  187 years?20?* Current population (P) = 60,000,000
+* Births per year = 350,000
+* Deaths per year = 350,000
+* Decrease in births per year = -30,000
+* Net change in population per year = -380,000
+* Target population = 30,000,000
+* Net growth rate per year = 310,000,000
+* Years required  97?86?1.37
+2.14
+3.51
+5.07
+7.53?8.64
+60,000,000/2 = 30,000,000(1 + 0.0997)^8.64
+= 29,999,990.43
+ln(3)/ln(10)  0.0997
+r  0.0997 or 9.97%
+60,000,000/2 = 30,000,000(1 + 0.0997)^8.64?3.16?60,000,000 * e^(-5.42*24) = 30,000
+e^(-129,936)  0.00132
+-129,936  ln(0.00132)
+-129,936  0.00129
+t  9952?1,689,286
+0.25?1. t  21.5
+2. B(t)  (350 000 - D + 21.5)/21.5
+3. D(0) = 750 000
+4. P(t)  30 000 000
+5. dP/dt = (B - D)
+6. B  (D - 500 000 + t)/t?16?0.28?30,000,000?0.005333
+187.5
+2.6667 
+5 
+6?16.88?60,000,000 x (1/2)^7 = 30,000,000
+350,000 * (1 - 0.5833/x)  30,000,000
+(1 - 0.5833/x)  0.8667
+x  6.50?* Current deaths: 59,650,000
+* Annual decline in population: 320,000
+* Years required for stabilization: 187
+* Years required for population to halve again: 187?1. 22561
+2. 7601
+3. 21959?996.67?**Step 1: Calculate the net change in population**
+350000 - 30000 = 320000 per year
+
+**Step 2: Calculate the growth rate of the population**
+(320000 / 60000000) x 100%  0.0536%
+
+**Step 3: Calculate the number of years required to halve the population**
+60,000,000 / 320000 = 187.5?30,000/2 = 15,000
+15,000 / 4  3,750?Y = 320,000 / 30,000,000  0.01067
+N years = 10 + 7/2?1
+2?**Step 1:** 
+0
+
+**Step 2:**
+72 / 2 = 36?1
+2?0.1875  365  68.6
+68.6 / 365  0.1875  24  4.5
+4.5 / 365  1
+1 / 365  2.8
+2.8 * 1000 = 2800?30,000,000 = e^(-8.57247263t)
+ln(30,000,000) = -8.57247263t
+r = -ln(30,000,000) / t
+r  8.57247263
+t  30,000,000 / 8.57247263?| Year | Birth Rate | Death Rate | Population |
+| --- | --- | --- | --- |
+| 0   | -30,000 | 350,000 | 60,000,000 |
+| 1   | -60,000 | 350,000 | 59,999,999 |
+| 2   | -120,000 | 350,000 | 59,879,999 |
+| 3   | -240,000 | 350,000 | 59,549,999 |
+| 4   | -480,000 | 350,000 | 59,169,999 |
+| 5   | -960,000 | 350,000 | 58,209,999 |?1.0053
+-0.30103
+2.32157?17?12.98
+13?18
+7/10
+0.21?5?60,000,000 x 1.167  70,000,000
+2?157.89
+60,000,000 / -380,000  157.9?33.2?390.4
+0.00625?85?1
+2
+3
+4
+5
+6?8?

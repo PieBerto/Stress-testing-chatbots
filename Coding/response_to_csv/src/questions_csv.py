@@ -1,10 +1,13 @@
 import os
+import re
 from pathlib import Path
 from typing import TextIO
 
+from src.AlreadyAnswer import AlreadyAnswer
 from src.file_and_lock import read_file, write_entry
 
 questions = {}
+remember = AlreadyAnswer(Path(r"C:\GitHub\Stress-testing-chatbots\Coding\csv\support_file\already_answered.json"))
 
 def insert_fx(fx, params):
     global questions
@@ -16,7 +19,7 @@ def question_select(filename: Path, out_file: Path, model:str, account:str):
     folder_name = filename.stem
     match folder_name:
         case "Question101":
-            iterate(filename,out_file,q101, model, account)
+            #iterate(filename,out_file,q101, model, account)
             pass
         case "Question102":
             iterate(filename,out_file,q102, model, account)
@@ -46,6 +49,9 @@ def question_select(filename: Path, out_file: Path, model:str, account:str):
             #iterate(filename,out_file, q204, model, account)
             pass
         case "Question205":
+            # iterate(filename,out_file, q205, model, account)
+            pass
+        case "Question206":
             # iterate(filename,out_file, q205, model, account)
             pass
         case "Question301":
@@ -94,17 +100,31 @@ def iterate(path: Path, out_file:Path, fx, model:str, account:str):
 def q101(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
     header = "model,account,type,answer\n"
     for entry in entries:
-        new_entry = entry.replace(" ","").replace("\n", "").replace("\r", "").replace("\t", "")
+        extra_entry = None
+        new_entry = entry.replace(" ","").replace("\n", "").replace("\r", "").replace("\t", "").replace(",","")
         if new_entry != "":
             try:
                 if new_entry != "@" and new_entry != "#":
                     new_entry = float(new_entry)
                     new_entry = int (new_entry)
             except:
-                print(entry)
-                new_entry = input(
-                    "Question 101 [# -> wrong source code written], replace the previous entry (file: "+q_type+", in account: "+account+", model: "+model+"):\t").strip(" \n\t\r")
-                print("\n---------------------\n")
+                if model == "gemini-2.0-flash-thinking-exp":
+                    x = re.findall("boxed\{"+"(\d)"+"\}",entry)
+                    if len(x) == 0:
+                        x = re.findall("[Ff]inal"+' '+"*"+"[Aa]nswer:"+' '+"*"+"(\d)", entry)
+                        if len(x) == 0:
+                            x = re.findall("[Ss]olution:"+' '+"*"+"(\d)", entry)
+                            if len(x) == 0:
+                                x = re.findall("[Aa][Nn][Ss][Ww][Ee][Rr]:"+' '+"*"+"(\d)", entry)
+                    try:
+                        (answer) = x.pop()
+                        extra_entry = int(answer)
+                    except Exception as e:
+                        extra_entry = remember.search_answer("q101",entry)
+                else:
+                    new_entry = remember.search_answer("q101",entry)
+            if extra_entry is not None:
+                new_entry = extra_entry
             write_entry(Path(os.path.join(out_path,"q101.csv")),header,model,account,q_type,new_entry)
 
 
@@ -113,18 +133,13 @@ def q102(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
     i = 0
     for entry in entries:
         i += 1
-        new_entry = (entry.replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "")
-                     .replace("$","").replace("€","").replace(",",""))
+        new_entry = entry.replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "").replace("$","").replace("€","").replace(",","")
         if new_entry != "":
             try:
                 if new_entry != "@" and new_entry != "#":
                     new_entry = float(new_entry)
             except Exception as e:
-                print("ERROR: "+str(e)+"\n")
-                print("CONVERT TO A VALID ANSWER:\n"+entry)
-                new_entry = input(
-                    "Question 102 [# -> wrong source code written], replace the previous entry (file: "+q_type+", in account: "+account+", model: "+model+", iteration: "+str(i)+"): ").strip(" \n\t\r")
-                print("\n---------------------\n")
+                new_entry = remember.search_answer("q102",entry)
             finally:
                 write_entry(Path(os.path.join(out_path,"q102.csv")),header,model,account,q_type,new_entry)
 
@@ -138,10 +153,7 @@ def q103(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 if new_entry != "@" and new_entry != "#":
                     new_entry = float(new_entry)
             except:
-                print(entry)
-                new_entry = input(
-                    "Question 103 [# -> wrong source code written], replace the previous entry (file: "+q_type+", in account: "+account+", model: "+model+"): ").strip(" \n\t\r")
-                print("\n---------------------\n")
+                new_entry = remember.search_answer("q103",entry)
             write_entry(Path(os.path.join(out_path,"q103.csv")),header,model,account,q_type,new_entry)
 
 
@@ -157,13 +169,10 @@ def q104(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                     x = float(c_list[0])
                     y = float(c_list[1])
                 except:
-                    print(entry)
-                    coordinate = input(
-                        "Question 104 [# -> wrong source code written], replace the previous entry (file: "+q_type+", in account: "+account+", model: "+model+"): ").strip(" \n\t\r")
+                    coordinate = remember.search_answer("q104",entry)
                     c_list = coordinate.strip().split(",")
                     x = float(c_list[0])
                     y = float(c_list[1])
-                    print("\n---------------------\n")
             write_entry(Path(os.path.join(out_path,"q104.csv")),header,model,account,q_type,str(x)+","+str(y)+";")
 
 
@@ -176,10 +185,7 @@ def q105(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = float(new_entry)
                 new_entry = int(new_entry)
             except:
-                print(entry)
-                new_entry = input(
-                    "Question 105 [# -> wrong source code written], replace the previous entry (file: "+q_type+", in account: "+account+", model: "+model+"): ").strip(" \n\t\r")
-                print("\n---------------------\n")
+                new_entry = remember.search_answer("q105",entry)
             write_entry(Path(os.path.join(out_path,"q105.csv")),header,model,account,q_type,new_entry)
 
 
@@ -199,9 +205,7 @@ def q201(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = float(new_entry)
                 new_entry = int(new_entry)
             except:
-                print(entry)
-                new_entry = input(
-                    "Question 201 [# -> wrong source code written], replace the previous entry (file: "+q_type+", in account: "+account+", model: "+model+"): ").strip(" \n\t\r")
+                new_entry = remember.search_answer("q201",entry)
             write_entry(Path(os.path.join(out_path,"q201.csv")),header,model,account,q_type,new_entry)
 
 
@@ -215,8 +219,7 @@ def q202(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = int(new_entry)
             except:
                 print(entry)
-                new_entry = input(
-                    "Question 202 [# -> wrong source code written], replace the previous entry (file: "+q_type+", in account: "+account+", model: "+model+"): ").strip(" \n\t\r")
+                new_entry = remember.search_answer("q202",entry)
             write_entry(Path(os.path.join(out_path,"q202.csv")),header,model,account,q_type,new_entry)
 
 
@@ -230,8 +233,7 @@ def q203(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = int(new_entry)
             except:
                 print(entry)
-                new_entry = input(
-                    "Question 203 [# -> wrong source code written], replace the previous entry (file: "+q_type+", in account: "+account+", model: "+model+"): ").strip(" \n\t\r")
+                new_entry = remember.search_answer("q203",entry)
             write_entry(Path(os.path.join(out_path,"q203.csv")),header,model,account,q_type,new_entry)
 
 
@@ -245,12 +247,14 @@ def q204(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = int(new_entry)
             except:
                 print(entry)
-                new_entry = input(
-                    "Question 204 [# -> wrong source code written], replace the previous entry (file: "+q_type+", in account: "+account+", model: "+model+"): ").strip(" \n\t\r")
+                new_entry = remember.search_answer("q204",entry)
             write_entry(Path(os.path.join(out_path,"q204.csv")),header,model,account,q_type,new_entry)
 
 def q205(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
     print("Question 205")
+
+def q206(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
+    print("Question 206")
 
 def q301(entries: list[str], out: TextIO):
     print("Question 301")
