@@ -98,4 +98,104 @@ Cannot be determined
 ?1
 ?0
 ?0
+?Cannot be determined.
+?Cannot be determined.
+?0
+?1
+?0
+?(Cannot answer without access to the text)
+?Unable to answer.
+?0
+?0
+?0
+?Unable to answer.
+?N/A
+?0
+?N/A
+?Unable to determine.
+?0
+?0
+?0
+?1
+?0
+?1
+?0
+?Unable to answer.
+?Unsolvable
+?0
+?0
+?0
+?0
+?0
+?Cannot be determined.
+?0
+?0
+?0
+?0
+?0
+?1
+?Cannot be determined.
+?Unable to answer.
+?0
+?0
+?Unsolvable
+?N/A
+?N/A
+?0
+?Unable to answer.
+?3
+?0
+?0
+?Unsolvable
+?0
+?Unable to answer.
+?Cannot be determined
+?Cannot be determined.
+?0
+?Unable to answer.
+?0
+?1
+?Cannot be determined.
+?0
+?I do not have access to the Italian Constitution and cannot provide the number of subsections.
+?0
+?0
+?0
+?Unsolvable
+?N/A
+?Unable to answer.
+?0
+?0
+?0
+?0
+?0
+?0
+?Unable to answer.
+?Cannot be determined
+?0
+?Unable to answer.
+?0
+?Unable to answer.
+?0
+?0
+?0
+?0
+?0
+?0
+?0
+?Cannot answer.
+?Cannot be determined.
+?1
+?0
+?0
+?N/A
+?0
+?0
+?N/A
+?0
+?Unsolvable
+?0
+?Unsolvable
+?Cannot answer.
+?Unable to answer.
 ?

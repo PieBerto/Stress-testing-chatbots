@@ -19,7 +19,7 @@ def question_select(filename: Path, out_file: Path, model:str, account:str):
     folder_name = filename.stem
     match folder_name:
         case "Question101":
-            #iterate(filename,out_file,q101, model, account)
+            iterate(filename,out_file,q101, model, account)
             pass
         case "Question102":
             iterate(filename,out_file,q102, model, account)
@@ -125,7 +125,7 @@ def q101(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                     new_entry = remember.search_answer("q101",entry)
             if extra_entry is not None:
                 new_entry = extra_entry
-            write_entry(Path(os.path.join(out_path,"q101.csv")),header,model,account,q_type,new_entry)
+            write_entry(Path(os.path.join(out_path,"q101"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
 
 
 def q102(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
@@ -141,7 +141,7 @@ def q102(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
             except Exception as e:
                 new_entry = remember.search_answer("q102",entry)
             finally:
-                write_entry(Path(os.path.join(out_path,"q102.csv")),header,model,account,q_type,new_entry)
+                write_entry(Path(os.path.join(out_path,"q102"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
 
 
 def q103(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
@@ -154,7 +154,7 @@ def q103(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                     new_entry = float(new_entry)
             except:
                 new_entry = remember.search_answer("q103",entry)
-            write_entry(Path(os.path.join(out_path,"q103.csv")),header,model,account,q_type,new_entry)
+            write_entry(Path(os.path.join(out_path,"q103"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
 
 
 def q104(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
@@ -173,7 +173,7 @@ def q104(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                     c_list = coordinate.strip().split(",")
                     x = float(c_list[0])
                     y = float(c_list[1])
-            write_entry(Path(os.path.join(out_path,"q104.csv")),header,model,account,q_type,str(x)+","+str(y)+";")
+            write_entry(Path(os.path.join(out_path,"q104"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,str(x)+","+str(y)+";")
 
 
 def q105(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
@@ -186,14 +186,14 @@ def q105(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = int(new_entry)
             except:
                 new_entry = remember.search_answer("q105",entry)
-            write_entry(Path(os.path.join(out_path,"q105.csv")),header,model,account,q_type,new_entry)
+            write_entry(Path(os.path.join(out_path,"q105"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
 
 
 def q106(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
     header = "model,account,type,answer\n"
     for entry in entries:
         new_entry = entry.replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "").replace(";",",").strip(",")
-        write_entry(Path(os.path.join(out_path,"q106.csv")),header,model,account,q_type,new_entry)
+        write_entry(Path(os.path.join(out_path,"q106"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
 
 
 def q201(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
@@ -206,7 +206,7 @@ def q201(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = int(new_entry)
             except:
                 new_entry = remember.search_answer("q201",entry)
-            write_entry(Path(os.path.join(out_path,"q201.csv")),header,model,account,q_type,new_entry)
+            write_entry(Path(os.path.join(out_path,"q201"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
 
 
 def q202(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
@@ -220,7 +220,7 @@ def q202(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
             except:
                 print(entry)
                 new_entry = remember.search_answer("q202",entry)
-            write_entry(Path(os.path.join(out_path,"q202.csv")),header,model,account,q_type,new_entry)
+            write_entry(Path(os.path.join(out_path,"q202"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
 
 
 def q203(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
@@ -234,7 +234,7 @@ def q203(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
             except:
                 print(entry)
                 new_entry = remember.search_answer("q203",entry)
-            write_entry(Path(os.path.join(out_path,"q203.csv")),header,model,account,q_type,new_entry)
+            write_entry(Path(os.path.join(out_path,"q203"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
 
 
 def q204(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
@@ -248,7 +248,7 @@ def q204(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
             except:
                 print(entry)
                 new_entry = remember.search_answer("q204",entry)
-            write_entry(Path(os.path.join(out_path,"q204.csv")),header,model,account,q_type,new_entry)
+            write_entry(Path(os.path.join(out_path,"q204"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
 
 def q205(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
     print("Question 205")
