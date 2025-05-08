@@ -1,0 +1,1892 @@
+[A,B,C,Z] -> []
+A -> [B,Z]
+B -> [C,Z]
+C -> [B,Z]
+B -> [A,Z]
+C -> [A,Z]
+A -> [AZ]
+[AZ,C] -> []?Array 1 -> [C]
+Array 1 -> [A, B, Z]
+Array 1 -> []
+Array 2 -> [A, B, C, Z]?Array 1 -> Array 2;
+Array 1 -> [B, C, Z]; Array 2 -> [A]
+Array 1 -> [C, Z]; Array 2 -> [A, B]
+Array 1 -> [Z]; Array 2 -> [A, B, C]
+Array 1 -> [Z]; Array 2 -> [B, C, A]
+Array 1 -> [Z]; Array 2 -> [A, B, C]
+Array 1 -> []; Array 2 -> [A, B, C]?Array 1 -> []
+Array 2: [A,B,C,Z]
+B -> [A,A,Z]
+Array 1 -> [B]
+Array 2: [A,C,A,Z]
+A -> [A,C,A,Z,B]
+Array 1 -> [A,C]
+Array 2: [A,Z,B]
+B -> [A,Z,B]
+Array 1 -> [A,C,B]
+Array 2: [A,Z]
+C -> [A,C,Z,B]
+Array 1 -> [A,B]
+Array 2: [A,C,Z,B]?[] -> [A,Z]
+[B] -> [A,Z,B]
+[ ] -> [A,C,B,Z]?[A,Z], [B,C] ; 
+[A,Z], [], [B,C]
+[A,Z], [], [C]
+[A], [], [Z]
+[A], [C], []?[ A,B,Z ] -> []
+[ C,Z ] -> [ A,B ]
+[ A,B,C,Z ] -> [ C ]
+[ B,A,C,Z ] -> [ A ]
+[ A,Z ] -> [ B,C ]
+[ B,Z ] -> [ A,B ]
+[ A,B,Z ] -> [ B,C ]
+[ A,B,Z ] -> [ C ]?Array 1 -> Array 2
+[A,Z] -> [B,Z]
+[B,Z] -> [A,Z,B]
+[Z,A,B,C] -> [A,B,C,Z]?[A,Z] -> [B,C]
+[A,Z] -> [B,C,Z]
+[B,C,Z] -> [A,B,C,Z]
+
+Array 1: []
+Array 2: [Z]
+
+[A,Z] -> [B,C]
+[B,C,Z] -> [A,B,C,Z]
+
+Array 1: []
+Array 2: [A,B,C,Z]?[ A, C ] -> [ B, Z ];
+[ A, C ] -> [ B, Z ];
+[ A, C ] -> [ A, C,Z ]; 
+[ A, C,Z ] -> [ A,C,B,Z ];?Array 1 -> [A, B, C]
+Array 2 -> []
+
+Array 1 -> [B, C]
+Array 2 -> [A, Z]
+
+Array 1 -> [C]
+Array 2 -> [A, B, Z]
+
+Array 1 -> []
+Array 2 -> [A, B, C, Z]?Array 1 -> Array 2; 
+Array 1 -> Array 2;
+Array 1 -> Array 2; 
+Array 1 -> Array 2;
+Array 1 -> Array 2; 
+Array 1 -> Array 2;
+Array 1 -> Array 2;
+Array 1 -> Array 2;
+Array 1 -> Array 2; 
+Array 1 -> Array 2;
+Array 1 -> Array 2;?[A,Z,B] -> []
+A,Z,C -> [B,Z]
+A,Z -> [B,C,Z]
+[A,Z,B] -> [C,Z]
+[ ], [C,Z] -> A,Z,C
+, [C,Z] -> [A,Z,C]
+,A,Z -> [C,Z]
+[Z,B,A] -> [A,C,Z]
+,A,Z -> [B,Z,A]
+,A,Z -> [B,C,Z]
+[A,Z,B] -> [C,Z]
+, [C,Z] -> [A,Z,C]?Array 1 -> [A, B, C, Z]
+Array 2 -> []
+Array 1 -> [B, C] ; Array 2 -> [A, Z]
+Array 1 -> [B, C, A, Z] ; Array 2 -> []
+Array 1 -> [C, A, Z] ; Array 2 -> [B]
+Array 1 -> [A, Z] ; Array 2 -> [C, B]
+Array 1 -> [] ; Array 2 -> [A, C, B, Z]?Array 1 -> Array 2
+A -> []
+Z -> [A,Z]
+Array 1 -> Array 2
+[ A , Z ] -> [ A , B , Z ]
+Array 1 -> Array 2
+[A,B,Z] -> [A,B,C,Z]?[C] -> [A,Z,B]
+[A,C] -> [B,Z]
+[Z,C] -> [A]
+[B,Z] -> [A,Z]?[B,C,Z] -> [A,Z]
+[A,B,C,Z] -> [B,C,Z]
+[B,C,Z] -> [Z]
+[B,C,Z] -> [Z]
+[Z] -> [A]
+[Z] -> [A,B,C]?[A,Z] -> [B,C]
+Z carries A across arrays; 
+Array 1: [] Array 2: [A,B,C,Z]
+Z and A separate from B and C, Z stays with one of them; 
+[B,Z] -> [A,C]; [C,Z] -> [A,B]
+Z stays with B, leaving C alone on the other array; 
+B goes to the first array, leaving Z alone on the second array; 
+Array 1: [] Array 2: [B,C,Z]
+B and C separate from each other; 
+[B] -> [C,Z]; [Z,B] -> [A,C]
+C goes to the first array, leaving Z alone on the second array; 
+[C,A] -> []; [A,Z,B,C] -> []
+Final Configurations:
+[B] -> [Z,C,A]; [C] -> [Z,B,A]?Array 1 -> [A]
+Array 2 -> [B, C]
+
+Array 1 -> []
+Array 2 -> [A, B, C]
+
+Array 1 -> [Z, B]
+Array 2 -> [A, C]
+
+Array 1 -> [B]
+Array 2 -> [A, Z, C]
+
+Array 1 -> [A, B, Z]
+Array 2 -> [C]
+
+Array 1 -> [A, Z]
+Array 2 -> [B, C]?[A,Z] -> [B]
+[Z,A] -> [B,Z]
+[Z,B,C] -> []
+[Z,A,Z] -> []
+[Z,Z,C] -> []?[A,B,C,Z] -> [A,C,Z]
+[A,B,C,Z] -> [B,C,Z]
+[A,B,C,Z] -> [A,B,Z]
+[A,B,C,Z] -> [C,A,Z]
+[A,B,C,Z] -> [C,B,Z]
+[A,B,C,Z] -> [B,A,Z]
+[A,B,C,Z] -> [B,A,Z]?Array 1 -> []
+Array 2 -> [C, Z(A,B)]
+Array 1 -> [B]
+Array 2 -> [A, C]
+Array 1 -> [B, A]
+Array 2 -> []
+Array 1 -> [Z]
+Array 2 -> [A, C]?Array 1: [A, B, C] -> Array 2 []
+Array 1: [A, B, C, Z] -> Array 2 []
+Array 1: [B, A, C, Z] -> Array 2 []
+Array 1: [A, B, C, Z] -> Array 2 []
+Array 1: [A, B, Z] -> Array 2 [C]
+Array 1: [B, A, Z] -> Array 2 [C]
+Array 1: [A, B, Z] -> Array 2 [C]
+Array 1: [B, A, Z] -> Array 2 [C]?Array 1 -> [B, C, Z]; Array 2 -> [A]
+Array 1 -> [C, Z]; Array 2 -> [A, B]
+Array 1 -> []; Array 2 -> [A, B, C, Z]?[] -> [A]
+[A,B,C,Z] -> []
+; [A,B,Z,C] -> []
+; [A,B,C,Z] -> []?Array 1 -> Array 2; 
+Array 1 -> [C]; 
+Array 1 -> []?Array 1 -> Array 2;
+Array 1: [A, B, C, Z] -> [A, B, Z]; Array 2: [C]
+Array 1: [A, B, Z] -> [A, C, Z]; Array 2: [C]
+Array 1: [B, Z] -> [B, Z, A]; Array 2: [C, A]
+Array 1: [Z, C, A] -> [Z, C, A, B]; Array 2:
+Array 1: [A, B, C, Z] -> [C, A, B]; Array 2: [Z]
+Array 1: [B, C] -> (Invalid); Array 2: [A, Z]
+Array 1: [Z] -> (Invalid); Array 2: [A, B, C]
+Array 1: [] -> [A, B, C, Z]; Array 2:?[] -> [A]
+[ A,C ] -> [ B,Z ]
+[ B,A,C ] -> []
+[ ] -> [B,A,C] 
+[] -> [Z,B]
+[ Z,B ] -> [A,Z]
+[ A,Z ] -> [B,C]
+[ B,C ] -> [B,Z]
+[] -> []?[Array 1: ], [Array 2: A,Z]
+[Array 1: B,Z], [Array 2: A]
+[Array 1: B,Z], [Array 2: A,C]?[Z] -> [A, B, C]
+[Z, B] -> [A, C]
+[Z, B, C] -> []
+[A, Z] -> []?Array 1 -> Array 2;
+Array 1 -> [A,Z];
+Array 1 -> [A,B,Z];
+Array 1 -> [A,B,C,Z];
+Array 1 -> [];
+Array 1 -> [B,Z];
+Array 1 -> [A,C];?Array 1 -> Array 2;
+Array 1 -> [B,C]
+Array 2 -> [A,Z];
+Array 1 -> [B,C]
+Array 2 -> [A,Z];
+Array 1 -> [A,B,C]
+Array 2 -> []?Array 1 -> Array 2; 
+Array 1 -> [A] -> Array 2 -> [Z]
+Array 1 -> [C] -> Array 2 -> [Z, A, B]
+Array 1 -> [] -> Array 2 -> [Z, A, B, C]?[] -> [A,Z]
+[A,Z] -> [A,B,Z]
+[A,B,Z] -> [A,B,C,Z]?[ C ] -> [ A, B, Z ]
+[ A, B, Z ] -> [ A, B, C, Z ]
+[ A, B, C, Z ] -> [ B, Z ]
+[ B, Z ] -> [ A, B, C, Z ]
+[ A, B, C, Z ] -> []?Array 1 -> []
+Array 2 -> [A]
+Array 1 -> []
+Array 2 -> [A,B]
+Array 1 -> [B]
+Array 2 -> [A,B]
+Array 1 -> [B,C]
+Array 2 -> [A,B,C]
+Array 1 -> [B,C,Z]
+Array 2 -> [Z,A]?[A,Z] -> [B,C]
+[B,C,Z] -> [A]
+[A,B,C,Z] -> []
+[C,A,Z] -> [B]
+[B,A,Z] -> [C]
+[A,B,C,Z] -> []?A -> 
+B -> C;
+C -> B;
+Z (alone) -> Z, A;
+C -> B, A, Z;
+B -> A, C, Z;
+C -> B, A, Z;
+-> Z, B, C, A;?**Configuration 1:**
+
+Array 1 -> Array 2; [B,C] -> [A]
+[B,C] -> [A,B]; [C] -> []
+[C] -> [A,Z]; [B,C,Z] -> []
+
+**Configuration 2:**
+
+Array 1 -> Array 2; [A] -> [A,B]
+[A] -> [A,B,C]; [A,B] -> [A,B,C,Z]
+[B] -> [A,B,C,Z]; []
+[C] -> [A,B,C,Z]
+
+**Configuration 3:**
+
+Array 1 -> Array 2; [B] -> [B,C]
+[B,C] -> [B,C,Z]; [C] -> [B,C,Z]
+[A,C] -> [B,C,Z]?[] -> []
+; [A] -> []
+; [A, B] -> []
+; [A, B, C] -> []?Array 1: [A] ; Array 2: [B,C,Z]
+Array 1: [B] ; Array 2: [A,C,Z]
+Array 1: [C] ; Array 2: [A,B,Z]
+
+Array 1: [B] ; Array 2: [C,Z,A]
+Array 1: [C] ; Array 2: [B,Z,A]
+
+Array 1: [] ; Array 2: [A, B, C, Z]
+Array 1: [B,C] ; Array 2: [A,Z]
+Array 1: [C] ; Array 2: [B,Z,A]?Array 1 -> [Z]
+Array 2 -> [A,B,C,Z]
+
+Array 1 -> [B,Z]
+Array 2 -> [A,C]
+
+Array 1 -> []
+Array 2 -> [A,C,B,Z]?[] -> []
+; [A, Z] -> [A, B, Z]
+; [A, B, Z] -> [A, B, C, Z]
+; [A, B, Z] -> [B, A, Z]
+; [] -> [C, A, Z]
+; [C, A, Z] -> [A, B, C, Z]?[A,B] -> [C,Z]
+[B] -> [A,C,Z]
+[B,C,Z] -> []
+[A] -> [B,C,Z]?[ A, B, C, Z ] -> [ A, Z, B, C ]
+[ A, C, Z, B ] -> [ A, Z, B, C ]
+[ A, Z, B, C ] -> [ A, Z, B ]
+[ A, Z, B, C ] -> [ A, C, Z ]
+[ A, Z, B, C ] -> [ A, Z, B ]
+[ A, Z, B, C ] -> [ A, ]
+[ A, Z, B, C ] -> [ B, C, Z ]
+[ A, Z, B, C ] -> [ B, C, Z, A ]
+[ A, Z, B, C ] -> []?[B,C] -> [A,Z]
+[A,Z,C] -> [B,Z]
+[B,Z,C] -> [A,Z]
+
+[ behaviors and intermediate configurations omitted for brevity ]?Array 1 -> Array 2;
+Array 1 -> []
+Array 2 -> [A,B,C,Z]
+Array 1 -> [B]
+Array 2 -> [A,C,Z]
+Array 1 -> [B,C]
+Array 2 -> [A,Z]?Array 1 -> []
+Array 2: [B, C]
+Array 1 -> [Z]
+Array 2: [A, B, C]
+Array 1 -> [B, Z]
+Array 2: [A, C]
+Array 1 -> [C, Z]
+Array 2: [B, A]?Array 1 -> []
+Array 2: [A,Z]
+Array 1 -> []
+Array 2: [A,Z,B]
+Array 1 -> [B]
+Array 2: [A,Z]
+Array 1 -> [B]
+Array 2: [A,C,B,Z]
+Array 1 -> [A]
+Array 2: [C,B,Z]?[A,Z] -> [B,C]
+A,B -> [C,Z]
+A,C -> [B,Z]?[] -> []
+; [A] -> []
+; [A,B,C,Z] -> []?[] -> [A,Z]
+[A,Z] -> []
+[] -> [B,Z]
+[B,Z] -> [A,B,Z]
+[A,B,Z] -> [C,Z]
+[C,Z] -> [A,B,C,Z]?[] -> [B, C, A]
+[B] -> [C, A]
+[C, A] -> [A, B, C, Z]
+[A, B] -> [Z, C]
+[Z, C] -> [B, A, Z]
+[B, A] -> []?[A,B,C,Z] -> [];
+[B,C,Z,A] -> [A];
+[B,C,Z,A,C] -> [B,Z];
+[B,Z,A,C] -> [A,C]; 
+[B,Z] -> [A,C];?Array 1 -> Array 2;
+A -> [B,Z];
+A -> [B,C,Z]; 
+A -> [A,B,C,Z]?[ A, B, Z ] -> [ C ]
+[ A, B, Z ] -> [ A, C ]
+[ A, Z, C ] -> [ B ]
+[ A, Z, C ] -> [ A, B, C, Z ]?[ A, Z ] -> [ B, C ]
+[ A, Z, C ] -> [ B ]
+[ A, B, Z, C ] -> 
+[ A, B, Z, C ] -> [ ]
+
+Note: I corrected the output to reflect that [A,B,Z,C] was an intermediate step that led back to the initial state.?[] -> [A, B, C, Z]
+[ A, B, C, Z ] -> [ A, B, Z ]
+[ A, B, Z ] -> [ A, C, Z ]
+[ A, C, Z ] -> [ A, C ]
+[ A, C ] -> []
+[] -> []?[A,Z] -> [B,C]
+[B,Z] -> [A,C]
+[C,Z] -> [A,B]
+[A,B] -> [C,Z]
+[None,A,B,C] -> [A,B,C]?Array 1 -> [Z,A,C]; Array 2 ->
+Array 1 -> [Z,A,C]; Array 2 -> []
+Array 1 -> [B,Z]
+Array 2 -> [A,C]
+Array 1 -> [B,A,Z]?Array 1 -> Array 2
+A -> [B,C,Z]
+Array 1 -> [B,C,Z,A]
+B -> [A,Z]
+Array 1 -> [B,C,Z,A,B]
+C -> [Z]
+Array 1 -> [B,C,Z,A] 
+B, C -> [Z]
+Z -> [A,B,C,Z]?[A] -> [C]
+[B] -> []
+[Z] -> []
+
+[A] -> [C]
+[C] -> []
+[B,Z] -> [] 
+
+[A] -> [C]
+[B] -> [Z]
+[Z] -> []?A -> BZC
+BZC -> Z
+AZ -> AZB
+AZB -> ZBC
+ZBC -> Z?Array 1 -> [B, C]; Array 2 -> [A, Z]
+Array 1 -> [C]; Array 2 -> [A, Z, B]
+Array 1 -> []; Array 2 -> [A, Z, B, C]?Array 1 -> Array 2; 
+Array 1 -> [B]
+Array 2 -> [A, C, Z]; 
+Array 1 -> [B, A]
+Array 2 -> [C, Z]; 
+Array 1 -> [A, B, C]
+Array 2 -> []?[A,Z] -> [A,C]; 
+[B] -> [B,Z]; 
+[A,C] -> [B,Z]; 
+[B,Z] -> [B,Z,C]; 
+[Z,B] -> [Z,B,A,C]; 
+[B,Z] -> [B,Z,A,C]; 
+[Z,B] -> [B,Z,A,C,Z]?| Array 1 | Array 2 |
+| --- | --- |
+| [A,B,C,Z] | [] |
+
+[A,B,C,Z] -> []
+
+[Z] -> [A,B,C]
+
+[B,C,Z] -> [A]
+
+[C,Z] -> [A,B]
+
+[] -> [A,B,C,Z]?Array 1 -> []
+; Array 2 -> [A,Z]
+Array 1 -> []
+; Array 2 -> [B,Z,A]
+Array 1 -> [A]
+; Array 2 -> [C,Z,B,A]
+Array 1 -> []
+; Array 2 -> [A,B,C,Z]?[A,B,C,Z] -> [];
+B -> [C,A,Z];
+A -> [C,A,Z]; B -> [];
+[C,A,Z] -> [B,C,A,Z];
+[C,A,Z] -> [Z,A,C,B];
+[C,A,Z] -> [B,C,A,Z];
+[Z,A,C,B] -> [B,Z,C,A];
+[A,C] -> [B,Z];
+[B,Z,C,A] -> [];
+A -> [B,Z]; C -> [];
+C -> [B,Z]; A -> [];
+[B,Z,C,A] -> [];?Array 1 -> Array 2
+A -> [A,Z]
+B -> [B,A,Z]
+B -> [B,C,Z]
+ 
+Array 1 -> Array 2
+[A,B,Z] -> [B,A,Z]
+[B,A,Z] -> [A,B,Z]
+[A,B,Z] -> [A,C,Z]
+
+Array 1 -> Array 2
+[A,B,Z] -> [B,A,Z]
+[ B,A,Z ] -> [B,C,Z]
+ 
+Array 1 -> Array 2
+[B,A,Z] -> [B,C,Z]
+[A,B,Z] -> [A,B,C,Z]?[A] -> [A, Z]
+[A, Z] -> [B, C, Z]
+[B, C, Z] -> [B, Z]
+[B, Z] -> [C, Z]
+[C, Z] -> [A, B, C, Z]?ZB -> ZC
+ZC -> AZC
+AZC -> ABZ?Array 1 -> [A, B, C, Z]; Array 2 -> [];
+Array 1 -> [B, C, Z]; Array 2 -> [A];
+Array 1 -> [C, Z]; Array 2 -> [A, B];
+Array 1 -> []; Array 2 -> [A, B, C, Z]?Array 1 -> [ ]
+Array 2 -> [Z,A]
+Array 1 -> []
+Array 2 -> [B,Z]
+Array 1 -> [B,Z,A]
+Array 2 -> []
+Array 1 -> [A,B,C,Z]
+Array 2 -> []?Array 1 -> [A,B,Z]; 
+Array 2 -> []
+Array 1 -> [B,C,Z]; 
+Array 2 -> [A]
+Array 1 -> [C,Z]; 
+Array 2 -> [B,A]
+Array 1 -> [A,B,Z]; 
+Array 2 -> [C]
+Array 1 -> [A,B,Z]; 
+Array 2 -> [C]
+Array 1 -> [A,B,C,Z]; 
+Array 2 -> []?Array 1: [A, B, C, Z] -> Array 2: []
+Array 1: [B, C, Z] -> Array 2: [A]
+Array 1: [C, Z] -> Array 2: [A, B]
+Array 1: [B, Z] -> Array 2: [A, C]
+Array 1: [A, C, Z] -> Array 2: [B]
+Array 1: [C, Z] -> Array 2: [A, B]
+Array 1: [A, Z] -> Array 2: [B, C]
+Array 1: [B, Z] -> Array 2: [A, C]
+Array 1: [A, B, Z] -> Array 2: [C]
+Array 1: [A, C, Z] -> Array 2: [B]?[A,B,Z] -> [A] and [B,Z]
+[A] and [B,Z] -> [A] and [Z,B]
+[A] and [Z,C] -> [A] and [Z,C]
+[A] and [Z,C] -> [B,Z] and [ ]
+[Z] and [ ] -> [ ]
+[ ] and [B,Z] -> [ ] and [B,C,Z]?[] -> [A, Z];
+[] -> [A, B, Z];
+[] -> [A, B, C, Z]?Array 1 -> []
+Array 2 -> [A, Z]
+Array 1 -> []
+Array 2 -> [A, Z, B]
+Array 1 -> [B]
+Array 2 -> [A, Z, B]
+Array 1 -> [C]
+Array 2 -> [A, Z, B, C]?Array 1 -> Array 2; 
+A -> [A,B]
+B -> [A,B,C]
+C -> [A,B,C,Z]?[] -> [A, Z]
+[A, Z] -> [B, Z, A]
+[B, Z, A] -> [C, Z, B, A]
+[C, Z, B, A] -> [A, B, C, Z]?[A,B,C,Z] -> [A,C] -> [B,Z]
+[B,Z] -> [A,C] 
+[A,C] -> [B,A,Z]
+[B,A,Z] -> [A,B,Z]?[B,C,Z]; [A]
+[B,C,Z]; [A,B]
+[B,C,Z]; [A,C]
+[C,Z]; [B,A]
+[C,Z]; [B,C]
+[B,Z]; [A,C]?Array 1 -> Array 2; 
+Array 1 -> [A] ; 
+Array 1 -> [] ; 
+Array 1 -> [] ; 
+Array 2 -> [B,C,Z] ; 
+Array 1 -> [A] ; 
+Array 1 -> [] ; 
+Array 1 -> [] ; 
+Array 2 -> [A,B,C,Z]?[] -> []
+[A,Z] -> [B,C]
+[Z,A] -> [B,Z]
+[Z,B] -> [A,Z]
+[Z,A] -> [C,Z]
+[Z,A,C] -> []
+[Z,A,C] -> [B,Z]
+[Z,B,C] -> [A,Z]
+[Z,C] -> [B]
+[Z,C] -> [A,Z]
+[Z,A] -> [B]
+[Z,A,C] -> [B]
+[Z,A,C] -> []
+[] -> []?[A,B,C,Z] -> []
+A,B,C,Z -> A,B,C,Z
+A,B,C,Z -> [A,B,C]
+A,B,C,Z -> [A,B,C,Z]
+A,B,C,Z -> [A,B,C]
+A,B,C,Z -> [A,Z]
+[ Z] -> [Z,A]
+[Z,A] -> [Z,A,B]
+[Z,A,B] -> [Z,A,B,C]?[A] -> [B,C,Z];
+[Z,B,C] -> [];
+[Z,A,B,C] -> [C];
+[C,B,Z] -> [A,Z];
+[Z,A,C] -> [B,Z];
+[B,Z] -> [Z,A,C];
+[Z,A,C] -> [C];
+[C] -> [Z,A,B];?[A,Z] -> [B,C]
+[B,Z] -> [A,C]
+[C,Z] -> [A,B]
+[Z,A] -> [C,B]
+[Z,B] -> [A,C]
+[Z,C] -> [A,B]
+[A,Z] -> [] 
+[B,Z] -> []
+[C,Z] -> []
+[Z] -> []?[A,B,C,Z] -> [B,Z]
+[A,C] -> [C,Z]
+[B,Z] -> [Z,A]
+[A,C,Z] -> [A,C]
+[C] -> [] 
+[A,C,Z] -> [A,C,Z]?Array 1 -> [B, C, Z]; Array 2 -> [A]
+Array 1 -> [C, Z]; Array 2 -> [A, B]
+Array 1 -> [Z]; Array 2 -> [A, B, C]?[] -> [A,B,C,Z]
+[] -> [A,B,C,Z,B]
+[] -> [A,B,C,Z,B,C]?I'll keep this in mind for future responses. What can I help you with?[ A, B, Z ] -> [ C ]
+[ A, B ] -> [ C, Z ]
+[ A, B, Z ] -> [ C ]
+[ A, B, Z ] -> [ C ]?[ A, Z ] -> [ B, C ]
+[ A, C ] -> [ B, Z ]
+[ A, B, Z ] -> [ C ]
+[ ]
+[ A, B, C, Z ] 
+[ A, C, Z ] -> [ B ]
+[ B, C, Z ] -> [ A ]?[] -> [A]
+[A,Z] -> [B,Z]
+[B,Z] -> [A,B,Z]
+[ ,Z] -> [] 
+[A,Z] -> [B,C]  (Invalid)?[A] -> [B,C,A,Z]
+[B,C,A,Z] -> [ ]
+[B] -> [C,A,Z]
+[C,A,Z] -> [A,B,Z]
+[ ] -> [A,B,C,Z] 
+[ ] -> [A,B,C,Z]
+[ ] -> []?Array 1 -> Array 2; 
+B,C -> A,Z; 
+C,A -> B,Z; 
+A,B -> B,Z; 
+Z -> [];?A,Z,A -> A,Z
+B,Z,B -> B,C,Z
+C,Z -> A,C,Z 
+A,C,Z -> []?Array 1 -> []
+Array 2 -> [A,Z]
+
+Array 1 -> [A,Z]
+Array 2 -> []
+
+Array 1 -> [A,B,Z]
+Array 2 -> []
+
+Array 1 -> [A,B,C,Z]
+Array 2 -> []?A -> First Array
+B,Z -> Second Array
+C,Z -> Second Array
+Z,A -> Second Array
+B -> Second Array
+C -> Second Array
+A -> First Array
+B -> Second Array
+C -> Second Array
+Z -> Second Array?[A,B,C,Z] -> [A,Z]; [B,Z] -> [C,A]; [A,B,C,Z] -> [B,Z,C,A]; [A,B,C,Z] -> []?[Z] -> [A, B, C]
+[A, B, C] -> [Z]
+[Z, B] -> [A, C]
+[Z, B, C] -> []?Array 1 -> [A, B, C]
+Array 2 -> [Z]
+Array 1 -> [A, B, C]
+Array 2 -> [Z, A]
+Array 1 -> [B, C]
+Array 2 -> [Z, A]
+Array 1 -> [A, B, C, Z]
+Array 2 ->
+Array 1 -> [A, C, Z]
+Array 2 -> [B]
+Array 1 -> [C, Z]
+Array 2 -> [Z, B, A]
+Array 1 -> []
+Array 2 -> [Z, B, A, C]?[A,Z] -> [B,C]
+[Z] -> [A,B,C]
+[Z,A] -> [B,C]
+[Z,B] -> [A,C]
+[Z,B,C] -> []
+[Z,A,B] -> [C]
+[A,Z] -> [B,C]
+[Z,A,C] -> [B]
+[A,B,Z] -> [C]
+[Z,A,C,B] -> []?Array 1 -> Array 2; 
+A -> [A, Z]
+Array 1 -> []
+Array 1 -> []
+B -> [A, B, Z]; 
+Array 1 -> []
+C -> [A, B, C, Z]; 
+Array 1 -> []?[A,Z] -> []
+; [A,Z]
+; [B,C,Z]
+; [A,C]
+; [A,C,B]
+; [Z]?[] -> []
+; [A] -> []
+; [A,B] -> []
+; [A,B,C] -> []?Array 1: [A,Z] -> Array 2: [B,C]
+Array 1: [A,Z] -> Array 2: [B,C]
+Array 1: [A] -> Array 2: [B,Z,C]
+Array 1: [A] -> Array 2: [C,Z]
+Array 1: [B,A] -> Array 2: [C,Z]
+Array 1: [B,A] -> Array 2: [C,Z]
+Array 1: [B] -> Array 2: [A,C,Z]
+Array 1: [B] -> Array 2: [A,C,Z]
+Array 1: [C] -> Array 2: [A,B,Z]
+Array 1: [C] -> Array 2: [A,B,Z]
+Array 1: [A,B,Z] -> Array 2:
+Array 1: [B,A,C,Z] -> Array 2:?Array 1 -> [B, C]; Array 2 -> [A, Z]
+Array 1 -> [C, Z, B]; Array 2 -> [A]
+Array 1 -> [B, C]; Array 2 -> [Z, A]
+Array 1 -> [C, Z, B]; Array 2 -> [A]
+Array 1 -> []; Array 2 -> [A, B, C, Z]?Array [B,C]: [C,Z]; Array [A]: []
+Array [B,C]: [B,Z]; Array [A]: [A]
+Array [B,C]: [B,Z,A]; Array [A]: []
+Array [B,C]: [B,Z,A,Z]; Array [A]: [] 
+Array [B,C]: []; Array [A]: [C,B,Z]?[A,B,Z] -> [C]
+[B,A,Z] -> [A,C,Z]
+[B,A,Z] -> [B,C,Z]
+[B,A,Z] -> [B,A,C,Z]
+[B,A,Z] -> []
+A,B,C,Z -> []?Array 1 -> [A]
+Array 2: [B,C,Z]
+
+Array 1 -> []
+Array 2: [A,B,C,Z]
+
+Array 1 -> [B]
+Array 2: [A,C,Z]
+
+Array 1 -> [B,A,C]
+Array 2: []?Array 1 -> Array 2; 
+[B,C,Z] -> [A]
+[B,C,Z] -> [A,B]
+[C,Z] -> [A,B,C]
+[Z] -> [A,B,C,Z]?[A,Z] -> []
+Z with A -> [A,Z]
+[A,Z] -> [A,Z]
+B -> [B,A,Z]
+[B,A,Z] -> [B,C,A,Z]
+[A,Z] -> []?[A,Z] -> [A,Z]
+[Z,A] -> [B,Z]
+[B,C] -> [C,B]
+[C] -> [B,C]
+[B,C] -> [A,B,C,Z]
+[  ] -> [A,B,C,Z]?[ A, Z ] ; [ B, C ]
+[ A, Z ] ; [ B, , ]
+[ , ] ; [ B, C, Z ]
+[ B, C, Z ] ; [ , ]
+[ A, B, C, Z ] ; [ , ]?[A,Z,C,B] -> []
+A,Z,B,C -> B
+A,B,Z,C -> B
+A,B,Z -> [B]
+A,Z -> [B,C]?[[A], [B,Z]] ; [[A,C], []] ; [[A,B], [C,Z]]
+[[A,C], [B,Z]] ; [[A,B], [C,Z]] ; [[A], [B,C,Z]]
+[[A,B,C,Z], []]?[B] -> [C, A, Z];
+[Z, B] -> [A, C];
+[Z, B, A] -> []?[A,B,C] -> [Z]
+[B,Z] -> [A,C]
+[C,Z,B] -> [A,Z]?[A,B,C,Z] -> [A,Z]; Z carries C with itself to the second array; [B,Z]; Now that B is on the same array as Z, we can move A to the second array with Z; [B,A,Z]; Z carries B and A with itself to the second array; [C];?A -> 
+B,C,Z;
+A,B,Z,C;
+B,Z;
+C,Z;
+B,C,Z;
+A,B,C,Z;?[A] -> [A,Z]
+[Z,A,B] -> [A,B,Z]
+[B,A] -> [B,Z]
+[C,A] -> [B,C,Z]?[A,B,C,Z] -> [C]
+[C] -> []
+[A,B,Z] -> []?Array 1 -> Array 2
+A -> [A]
+Array 1 -> Array 2;
+B -> [A,B]
+Array 1 -> Array 2;
+C -> [A,B,C]
+Array 1 -> Array 2?[A,B,Z] -> [C]
+[B,Z] -> [A,C]
+[Z,A] -> [B,C]
+[Z,A,B] -> []?Array 1 -> [B, C]
+Array 2 -> [A]
+Array 1 -> [B, C]
+Array 2 -> [A]
+Array 1 -> [B, Z]
+Array 2 -> [A, C]
+Array 1 -> [B, Z]
+Array 2 -> [A, C, Z]?[Z] -> [A, B]
+[A, Z] -> [B]
+[B, A, Z] -> [A, C, Z]
+[Z, A, C] -> [B, A, C, Z]
+[A, C, Z, B] -> []?Array 1 -> Array 2; Array 1 -> [Z]; Array 1 -> [Z]; Array 1 -> []; Array 1 -> [Z]; Array 1 -> [Z]; Array 1 -> [Z]?, -> [Z]
+, -> [Z,A,B,C]?Array 1 -> [B]
+Array 2 -> [A, Z]
+Array 1 -> [B]
+Array 2 -> [A, C, Z]?[] -> [B, C, A]
+[] -> [C, A, B]
+[] -> [A, B, C]?[A,Z,A] -> [B,C]
+[B,Z,A] -> [C,B,Z]
+[C,Z,B] -> [A,C,Z]?[A] -> []
+[B] -> [A]
+[C] -> [B,A,Z]?[ A, C, B, Z ] -> [A,C,B,Z]
+ 
+[ A, (B,C), Z ] -> [A,(B,C),Z]
+
+[ A, C, B, Z ] -> [A,C,B,Z]
+ 
+[ A, C, B, Z ] -> [A,C,B,Z]?Array 1 -> Array 2
+Array 1 -> [Z]
+Array 1 -> []
+Array 1 -> []
+Array 2 -> [A,Z]
+
+Array 1 -> [] 
+Array 2 -> [B,Z,A] 
+
+Array 1 -> []  
+Array 2 -> [C,B,Z,A]
+
+Array 1 -> []   
+Array 2 -> [A,B,C,Z]?Array 1 -> Array 2
+A -> [A, Z]
+Array 1 -> [A, B, Z]
+Array 1 -> [A, B, C, Z]?Array 1 -> Array 2
+A -> [B,Z]
+B -> [A,Z]
+C -> [A,B,Z]?[B] -> [A, C, Z]
+[A, B] -> [A, C, Z, B]
+[C] -> [Z]
+[A, C, Z, B] -> [A, C, B]
+[A] -> [C, B]
+[] -> [A, C, B]?[A,Z] -> []
+[B,Z] -> [A,Z]
+[C,A] -> [B,Z]
+[Z,B,C] -> [C,A]
+[A,Z] -> []?Array 1 -> [Z]
+Array 2 -> [A, B, C]
+Array 1 -> [Z]
+Array 2 -> [A, B, C]
+Array 1 -> [B, Z]
+Array 2 -> [A, C]
+Array 1 -> [A, B, Z]
+Array 2 -> []?[A,Z] -> [];
+[Z,A] -> [A,Z]
+[B,Z] -> [B,Z]
+[A,B,C,Z] -> [A,C,Z]
+[A,C] -> [B,Z]
+[A,C,Z] -> [A,C]
+[B,C,Z] -> [B,C,Z]
+[A,C,Z] -> [A,C,Z]
+[A,Z] -> [A,Z]?[A] -> [A,Z]
+[A,Z] -> [A,B,Z]
+[A,B,Z] -> [A,B,C,Z]?[A] -> [A, Z]
+[A, Z] -> [A, B, Z]
+[A, B, Z] -> [A, B, C, Z]?[A,B,C,Z] -> [B,C,Z,A]
+[B,C,Z,A] -> [A,B,Z,C]
+[A,C] -> [C,Z,A]
+[C,Z,A] -> [A,B,Z,C]
+[B,C,Z,A] -> [A,B,Z,C]
+[A,B,Z,C] -> [A,B,Z,C]?[A,Z] -> []
+A,Z -> []
+A,C,B,Z -> [B]
+A,C,B,Z -> []
+
+[B,Z] -> []
+B,A,Z -> []
+B,A,Z -> []
+
+[A,B,Z] -> []
+A,B,C,Z -> []?[A,B,C] -> [A,Z]; [B,C]
+[B,C] -> [B,C,Z]
+[A,Z], [B,C] -> [A,Z], [B,C,Z]
+[A,Z], [B,C,Z] -> [A], [B,C,Z]?[A,B,C,Z] -> [];
+A -> [B,C,Z]
+B -> [C,Z]
+C -> [Z]
+Z -> [A,B,C,Z]?Array 1 -> [C]
+Array 2 -> [A,B,Z]
+
+Array 1 -> []
+Array 2 -> [A,B,C,Z]
+
+Array 1 -> [B,A]
+Array 2 -> [C,Z]
+
+Array 1 -> [A,B]
+Array 2 -> [C,Z]
+
+Array 1 -> [B,A,C]
+Array 2 -> []
+
+Array 1 -> [A,B,C]
+Array 2 -> []?[A,B,C,Z] 
+; [B,Z,A,C]
+; [C,Z,B,A]
+; [A,Z,B,C]
+; [B,C,Z,A]
+; [A,C,Z,B]?[ A, Z ] -> [ B, C ]
+[ A, Z, B ] -> [ C ]
+[ A, Z, B, C ] -> 
+[ A, Z, C ] -> [ B ]
+[ A, C, Z ] -> [ B,Z ]
+[ A, C, B, Z ] ->?Array 1 -> Array 2
+A -> [B,Z]
+B -> [A,C]
+C -> [B,Z]
+B -> [A,B,C]
+Z -> []
+B -> [A,B,C]
+A -> []
+Z -> [A,B] 
+B -> [A,C]
+A -> [C]
+
+ Z -> [B,A] 
+ A -> []
+
+ Z -> [C,A] 
+ B -> []?[] -> []
+; [A, B] -> []
+; [A, B, Z] -> []
+; [B] -> []
+; [A, B, Z, C] -> []?[ A, B, Z ] -> [ C ]
+[ A, C ] -> [ B, Z ]
+[ A, C ] -> [ B, Z ]
+[ A, B, Z ] -> []?Array1 -> Array2
+Array1 -> [A]
+Array2 -> [B, C]
+
+Array1 -> []
+Array2 -> [Z, B, A]
+
+Array1 -> [B]
+Array2 -> [Z]
+
+Array1 -> [B, C]
+Array2 -> []
+
+Array1 -> [B]
+Array2 -> [C]
+
+Array1 -> []
+Array2 -> [Z, B]?[ A, Z ] -> [ B, C ]
+[ B, C ] -> [ A, Z ]
+[ B, C ] -> [ B, C ]
+[ B, C ] -> [ A, Z, B ]
+[ B, C ] -> [ A, Z, B ]
+[ A, Z, B ] -> [ A, Z, B, C ]?[] -> [B, C, A]
+[B, C, A] -> [B]
+[B] -> [B, C]
+[B, C] -> [B, C, Z]?[A,Z] -> [B,C]
+[B,Z] -> [C,B,Z]
+[C,B,Z] -> [A,C,B]
+[A,C,B] -> [B,Z]
+[B,Z] -> [A,C,B]
+[A,C,B] -> [A,C,B,Z]?Array 1 -> Array 2
+[A,Z] -> [B,C]
+A -> [A,C,Z] -> []
+B -> [A,C,Z] -> [B]
+C -> [A,C,Z] -> [A,C,Z]
+Z -> [A,C,Z,B] -> [A,C,B]?Array 1 -> Array 2; 
+Array 1 -> [B,C,Z]; 
+Array 1 -> [C,Z]; 
+Array 1 -> []; 
+Array 1 -> [A,B,C,Z]?Array 1 -> Array 2;
+Array 1 -> [A,Z];
+Array 2 -> [B,Z];
+Array 1 -> [A,C];
+Array 2 -> [B,Z]; 
+Array 1 -> [A,C,Z]
+Array 2 -> []?[A,Z,A,B,C] -> [];
+A -> [B,Z,C]
+Z -> [B,C,A]
+B -> [C,A,Z]
+C -> [A,Z,B]
+
+A -> [B,Z]
+Z -> [B,C]
+B -> [C,A]
+C -> [A,Z]
+
+A -> []
+Z -> [A,B,C]?[A,Z] -> [B,C]
+[B,Z] -> [A,C]
+[C,Z] -> [A,B]
+[Z,A,B,C] -> []?[A] -> [Z];
+[Z,B] -> [A,Z,B,C]; 
+[A] -> []; 
+[] -> [A,B,C,Z];?Array 1 -> [A,Z]
+Array 2 -> []
+Array 1 -> [B,A,Z]
+Array 2 -> []
+Array 1 -> [A]
+Array 2 -> [B]
+Array 1 -> [C,A]
+Array 2 -> [B]
+Array 1 -> [C,Z,B]
+Array 2 -> []?Array 1 -> [B, C]
+Array 2 -> [A, Z]
+Array 1 -> [C]
+Array 2 -> [A, Z, B]
+Array 1 -> []
+Array 2 -> [A, B, C, Z]?Array 1 -> [B, C]
+Array 2 -> [A, Z]
+
+Array 1 -> [B, Z]
+Array 2 -> [C, A]
+
+Array 1 -> [B]
+Array 2 -> [A, Z, C] 
+
+Array 1 -> [C, Z]
+Array 2 -> [A, B]?**Valid Configuration 1**
+Initial: [A,B,C,Z] -> []
+[ A,B,C,Z ] ; 
+Final: [A,B,C]
+
+**Step 1:** Z carries A, B, and C across the two arrays.
+
+**Step 2:** A, B, and C are now on the second array.
+Z is still on the first array.
+
+**Step 3:** No further steps required as all elements are on the second array.
+
+
+**Valid Configuration 2**
+Initial: [A,B,C,Z] -> []
+[ B,A,Z,C ] ; 
+Final: [A,B,C]
+
+**Step 1:** Z carries B and A across the two arrays.
+Z is now with C on the first array.
+C stays with Z as it's the only element left.
+
+**Step 2:** B is now on the second array.
+No further steps required as all elements are accounted for.
+
+
+**Valid Configuration 3**
+Initial: [A,B,C,Z] -> []
+[ B,A,Z,C ] ; 
+Final: [A,C]
+
+**Step 1:** Z carries A and C across the two arrays.
+Z is now with B on the first array.
+B stays with Z.
+
+**Step 2:** A and C are now on the second array.
+No further steps required as all elements are accounted for.
+
+
+**Valid Configuration 4**
+Initial: [A,B,C,Z] -> []
+[ C,A,Z,B ] ; 
+Final: [B,C]
+
+**Step 1:** Z carries C and A across the two arrays.
+Z is now with B on the first array.
+B stays with Z.
+
+**Step 2:** C and A are now on the second array.
+No further steps required as all elements are accounted for.?[A,B,C,Z] -> [A,B,Z]
+[B,C] -> [A,Z]
+[Z] -> [B,C]
+[A,B,Z] -> [B,C,Z]
+[B,C,Z] -> [A,B,Z]
+[A,B,Z] -> [A,B,C,Z]?[ B, Z ] -> [ A, C ]; 
+[ B, Z ] -> []; 
+[ B, Z ] -> [ A, C ]; 
+[ A, C ] -> [ B, Z ]; 
+[ B, Z ] -> [ A, C ];?Array 1 -> Array 2; 
+Array 1 -> [A]
+Array 1 -> [Z, A]
+Array 1 -> []
+Array 1 -> []
+Array 2 -> [B]?[A] -> [B, C, Z]
+[B, C, Z] -> [C, Z, B]
+[C, Z, B] -> [Z]
+[Z] -> [B, C, Z]
+[B, C, Z] -> [A, Z]
+[A, Z] -> [A, Z, C]
+[A, Z, C] -> []?Array 1 -> Array 2;
+Array 1 -> [B,C] -> Array 2 -> [A,Z];
+Array 1 -> [C] -> Array 2 -> [A,B,Z];
+Array 1 -> [] -> Array 2 -> [A,B,C,Z];?[] -> [B,A]
+[B,A] -> [B,A,C]
+[A,B,C] -> []
+[] -> [Z]
+[Z] -> [A,B,C]
+[A,B,C] -> [B,C,A]
+[B,C,A] -> []?[A,Z] -> [B,C]
+[Z,A] -> [B]
+[Z,B] -> [A]
+[Z,C] -> [A,B]
+[Z,A,B] -> [] 
+[Z] -> [C,B,A]?[A,B] -> [A,Z]
+[Z,A,B] -> [Z,B]
+[Z,B] -> [B,Z]
+[B,Z] -> [B,C]
+[Z,B,C] -> [ACZ]
+[ACZ] -> [ABCZ]?[A,B,C,Z] -> []
+A,Z -> [B,C]
+[...] 
+B,C -> [A,Z]
+...
+[...] 
+Z,B,C,A -> []?[] -> [A,B,C,Z]
+[A,Z] -> [B,C]
+[B,Z] -> [A,C]
+[A,Z] -> [B,C,Z]
+[B,Z] -> [A,B,C,Z]
+[Z] -> [A,B,C,Z]?[A,Z] -> [B,C]
+[B,Z] -> [C]
+[A,Z,B] -> [C]
+[A,Z,B] -> [C]
+[A,Z,B] -> [B,Z]
+[A,Z] -> [B,Z]
+[A,Z,B] -> [B,Z]
+[A,Z,B] -> [A,C]
+[A,C] -> [B,Z]
+[A,C] -> [B,Z]?Array 1 -> Array 2; 
+Array 1 -> [] ; Array 2 -> [B,C,A,Z]
+Array 1 -> [A] ; Array 2 -> [Z,B,C]
+Array 1 -> [B,A,Z] ; Array 2 -> []
+Array 1 -> [A,B,C] ; Array 2 -> []?Array 1 -> Array 2
+Z -> [A,Z]
+B -> []
+A -> [B,Z]
+C -> [A,C,Z]?Array 1 -> [A,Z]
+Array 2 -> [B,C]
+Array 1 -> [Z]
+Array 2 -> [A,B,C]?[A,B,C,Z] -> []
+[B,A,Z] -> [C]
+[B,C,Z] -> [A]
+[B,Z,A,C] -> []
+[C,Z,A,B] -> []
+[Z,A,B,C] -> [A]
+[A,B,Z,C] -> []
+[A,B,Z,C,Z] -> []?Array1 -> Array2
+Array1 -> [A]
+Array2 -> [B, C]
+Array1 -> [B]
+Array2 -> [C, Z, A]
+Array1 -> [B]
+Array2 -> [Z, A, C]
+Array1 -> [A]
+Array2 -> [C]
+Array1 -> [A]
+Array2 -> [B, C]?[] -> []
+; [A] -> []
+; [A, B] -> []
+; [A, B, C] -> []?Array 1 -> []
+Array 2 -> [A, Z, C]
+Array 1 -> [B]
+Array 2 -> [C, Z, B, A]
+Array 1 -> []
+Array 2 -> [C, Z, B, A]
+Array 1 -> [Z]
+Array 2 -> [C, A, B]?[A,Z] -> [B,C,Z]
+[B,C,Z] -> [A,Z]
+[A,Z] -> [A,C]
+[A,C,Z] -> [B,Z]
+[B,Z] -> [A,B,C]
+[A,B,C] -> []?Array 1 -> Array 2; Array 1 -> [Z]; Array 1 -> [A, Z]; Array 2 -> [B, C]; Array 1 -> [A, Z] and Array 2 -> [B, C]; Array 1 -> [A, B, Z] and Array 2 -> [C]; Array 1 -> [A, B, C, Z] and Array 2 -> []?**Valid Configuration 1**
+[A,B,C,Z] -> [] 
+C,A,Z -> [B]
+C,A,B,Z -> []
+A,B,Z -> [C]
+
+**Valid Configuration 2**
+[A,B,C,Z] -> [] 
+C,A,Z -> [B]
+C,A,B,Z -> []
+B,Z -> [C]
+
+**Valid Configuration 3**
+[A,B,C,Z] -> [] 
+C,A,Z -> [B]
+C,A,B,Z -> []
+A,B,Z -> [C]
+
+**Valid Configuration 4**
+[B,C,Z] -> [] 
+B,C,Z -> []
+
+**Valid Configuration 5**
+[A,B,C,Z] -> [] 
+C,A,Z -> [B]
+C,A,B,Z -> []
+Z -> [A]?[] -> [A, B, C]
+[A, B, C] -> [A, B, C, Z]
+[A, B, C, Z] -> [B, A, C, Z]
+[B, A, C, Z] -> [B, A, C, Z]?[] -> [A]
+[A] -> []
+; [A] -> [A,B]
+; [A,B] -> [A,B,C]
+; [A,B,C] -> [] 
+; [B] -> [A,C,Z]
+; [C] -> [A,B,Z]?Array 1 -> [A, B, C]; Array 2 ->
+Array 1 -> [B, C]; Array 2 -> [A, Z]
+Array 1 -> [B, C]; Array 2 -> [A, B, Z]
+Array 1 -> []; Array 2 -> [A, B, C, Z]
+Array 1 -> [B]; Array 2 -> [A, C, Z]
+Array 1 -> [B, C]; Array 2 -> [A, B, Z]
+Array 1 -> []; Array 2 -> [B, A, C, Z]
+Array 1 -> [A]; Array 2 -> [B, C, Z]?A -> [A,Z]
+B -> [B,C,Z]; A -> []
+C -> [B,C,Z]
+A -> [A]; B -> [B,Z]
+B -> [B,C,Z]
+Z -> [B,C,Z]; A -> []
+A -> [A,C]; B -> [B,Z]?Array 1 -> Array 2
+A -> [B,Z]
+A,B,C,Z -> []
+A,B,Z -> [C]
+A,C,Z -> [B]
+A,B,Z -> [C]
+A,B,C,Z -> [B]
+A,C,Z -> [A]
+A,C,Z -> []
+A,B,Z -> [C]?[A,Z] -> [A,B,Z]
+[B,Z] -> [A,B,Z]
+[C,Z] -> [A,B,Z]
+[B,C,Z] -> 
+[B,Z,C] -> 
+[A,Z] -> [B,Z]
+[A,B,Z] -> 
+[A,B] -> [C,Z]
+[A,B,A] -> 
+[B,C,Z] ->?[ A, C, Z ] -> [ B ]
+[ A, C, Z ] -> [ A, C ]
+[ A, C, Z ] -> [ A ]
+[ A, C, Z ] -> [ A, C, Z ]
+[ A, C, Z ] -> [ A ]
+[ A, C, Z ] -> [ A ]
+[ A, C, Z ] -> [ A ]
+[ A, C, Z ] -> [ A ]
+ 
+[ A, C, Z ] -> [ B ]
+[ A, C, Z ] -> [ A, C, Z ]
+[ A, C, Z ] -> [ B ]
+[ A, C, Z ] -> [ A ]
+[ A, C, Z ] -> [ A, C, Z ]
+[ A, C, Z ] -> [ A ]
+ 
+[ A, C, Z ] -> [ B ]
+[ A, C, Z ] -> [ A ]
+[ A, C, Z ] -> [ A ]
+[ A, C, Z ] -> [ A, C, Z ]
+[ A, C, Z ] -> [ B ]?[ A, B, C, Z ]; [ A, B, C ]
+; [ A, B, C ], [ Z ]
+; [ A, B, C ], [ Z ], [ A ]
+; [ A, B, C ], [ Z ], [ A ], [ B ]
+; [ A, B, C ], [ Z ], [ A ], [ B ], [ C ]
+; [ A, B, C ], [ Z ], [ A ], [ B ], [ C ], [ Z ]
+; [ A, B, C ], [ Z ], [ A ], [ B ], [ C ], [ Z ], [ B ]
+; [ A, B, C ], [ Z ], [ A ], [ B ], [ C ], [ Z ], [ B ], [ C ]
+; [ B, C, Z ], [ A ]?[] -> [A, C, Z]
+[Z, C] -> []
+[A] -> [C, Z]
+[C, Z] -> [A, B]
+[B, Z] -> [A, B, C, Z]?Array 1 -> Array 2
+A -> [B,C,Z]
+C -> [B,Z,A]
+[] -> [A,B,C,Z]
+A -> []
+[] -> [A,B,C]
+
+[[]] -> [A,B,C]
+A -> [B,C,Z]
+A -> []
+C -> [B,Z,A]
+C -> []
+
+[A,Z] -> [B,C]
+[] -> [A,C,Z]
+[] -> [A,C,Z]
+A -> [B,Z]
+Z -> [A,C]
+A -> []
+[] -> [A,B,Z]
+
+[[]] -> [A,B,C]
+A -> []
+C -> []?Array 1 -> Array 2
+A -> [B,C]
+[B,Z] -> [A,Z]
+
+[B,Z] -> [C,Z,A]
+[A,C] -> [B,Z]
+
+[C,Z,A] -> [B,Z,C,A]
+[B,Z,C,A] -> [A,B,C,Z]
+
+[B,Z,C,A] -> [A,B]
+[A,B] -> [C,Z,B,A]
+
+[C,Z,B,A] -> [B,A]
+[B,A] -> []?Array 1 -> [B] 
+Array 2 -> [A,Z]
+Array 1 -> [C] 
+Array 2 -> [A,B,Z]?Array 1 -> [A]
+Array 2 -> []
+
+Array 1 -> [A]
+Array 2 -> [Z]
+
+Array 1 -> []
+Array 2 -> [A, Z]
+
+Array 1 -> []
+Array 2 -> [B, A, Z]
+
+Array 1 -> []
+Array 2 -> [C, B, A, Z]?[ A ] -> [ B,C,Z ]
+[ A,B,C,Z ] -> [A]
+[ A,Z ] -> [B,C]
+[ A,B,Z ] -> [C]
+[ A,C,Z ] -> [B]
+[ B,C,Z ] -> [A]
+[ A,Z ] -> []
+[ A,B,Z ] -> []
+[ A,C,Z ] -> []?A -> C; 
+B, Z -> A, B, Z;
+A -> A, C; 
+C -> C; 
+A -> B, Z; 
+Z -> C?Array 1 -> Array 2; 
+A,Z -> A,C
+B -> B,Z?[A,Z] -> [A,C,Z]
+[B,Z] -> [B,C,Z]
+[B,Z] ; [A,B,C,Z] -> [] 
+[A,B,C,Z] -> []?[A,Z] -> [B,C]
+[B,Z] -> []
+[Z,B,C] -> [A]
+[Z,A,C] -> [B]
+[Z,A] -> [C,B]
+[Z,B,C] -> [A,Z]
+[A,Z] -> []?[ A, Z ] -> [ B, Z ]
+[ B, Z ] -> [ B, Z ], [ C, Z ]
+[ B, Z ], [ C, Z ] -> [ A, Z ], [ B, Z ], [ C, Z ] 
+[A, Z], [ B, Z ], [ C, Z ] -> [ A, Z ], [ B, Z ], [ C, Z ]?[A,Z] -> [B,C]
+Z (alone) on Array 1
+Array 1: [A, Z]
+Array 2: [B, C]
+Z (with A) on Array 1
+Array 1: [A, Z]
+Array 2: [B, C]
+Z (alone) on Array 1
+Array 1: [B, Z]
+Array 2: [A, C]
+Z (with B) on Array 1
+Array 1: [C, Z]
+Array 2: [A, B]
+Z (alone) on Array 1
+Array 1: [C, Z]
+Array 2: [A, B]
+Z (with A) on Array 1
+Array 1: [A, Z]
+Array 2: [B, C]
+Z (alone) on Array 1
+Array 1: [B]
+Array 2: [C, A, Z]?Array 1 -> Array 2; 
+B -> A,Z
+A,Z -> A,Z,B
+C -> A,Z,B,C?[A,Z] -> [C,B]
+[C,B] -> [B,C]
+[B,C] -> [A,B,C,Z]?Array 1 -> []
+Array 2 -> [A, B, C]
+; Array 1 -> []
+Array 2 -> [A, B, C]
+; Array 1 -> [B]
+Array 2 -> [A, C]
+; Array 1 -> [C]
+Array 2 -> [A, B]
+; Array 1 -> []
+Array 2 -> [B, C, A]
+; Array 1 -> [C]
+Array 2 -> [A, B]
+; Array 1 -> [B]
+Array 2 -> [A, C]?[ A ] -> [ B, A, Z ]
+[ B ] -> [ B, A, Z ]
+[ C ] -> [ B, A, Z ; C, Z ]
+[ B ] -> [ A, B, Z ; C, Z ]
+[ A ] -> [ A, B, Z ; C, Z ]
+[ A, B, Z ] -> [ A, B, Z ; C, Z ]?[B,C,Z] -> [A,Z]
+[A,B,C,Z] -> [B,Z]
+[B] -> [A,Z]
+[A,C,Z] -> []
+[B,A,C,Z] -> [A,C,Z]
+
+[[],[A,C,Z]] -> [[],[]]
+[A,C,B,Z] -> [[A,C],[Z]]
+[[],[A,C,Z]] -> [[],[]]?I didn't provide an output before. What would you like to talk about I'll format my response according to your request if I provide an output later.?[ A, C, Z ] -> [  ,  ]
+[ B, Z ] -> [  ,  ]
+[  ,  ] -> [ A, C, Z, B ]
+[ B, C ] -> [ A, Z ]
+[ B, C ] -> [ B, C ]
+[ A, C, Z, B ] -> [ B, C ]
+[ B, C ] -> [ B, C ]?Array 1 -> Array 2; 
+Array 1 -> Array 2; 
+Array 1 -> Array 2;?Array 1 -> [A,Z]
+Array 2 -> [B,C]
+Array 1 -> [A,B,Z]
+Array 2 -> [C]
+Array 1 -> [A,B,C,Z]
+Array 2 -> []?[A,Z] -> [B,C]
+[B] -> [A,C,Z]
+[C,B,Z] -> [A]
+[B,C,Z,A] -> [B]
+[B,A,Z] -> [C]
+[C,B,Z] -> [B,A,Z,C]?[A] -> [B,C,Z]
+[B,Z,C] -> [A]
+[B,Z,C] -> [B,C,Z]
+[B,Z,C] -> [B,C,Z]
+[A] -> [B,C,Z]?[A,Z] -> [B,C]
+[B,Z] -> [C,B,Z]
+[C,B,Z] -> [A,Z,A]
+[Z,A] -> [A,Z,A,Z]
+[ A,Z ] -> [B,Z]
+[B,Z] -> [C,B,Z,B]
+[C,B,Z,B] -> [A,C,Z]
+[A,C,Z] -> [B]
+[B] -> []?[] -> []
+; [A] -> []
+; [A,B] -> []
+; [A,B,C] -> [] 
+; [] -> [A]
+; [A,B] -> [A,B]
+; [A,B,C] -> [A,B,C]
+; [] -> [A,B,C,Z]?Array 1 -> [Z]
+Array 2 -> [A, B, C]; 
+Array 1 -> [B, Z]
+Array 2 -> [A, C]; 
+Array 1 -> [A, B, Z, C]
+Array 2 -> [];
+Array 1 -> [C]
+Array 2 -> [A, B, Z]; 
+Array 1 -> [Z, C]
+Array 2 -> [B, A]; 
+Array 1 -> [B, Z, C]
+Array 2 -> [];?Array 1 -> Array 2
+A,B,Z -> A,B
+C,Z -> C,Z
+A,B,C,Z ->?A -> 
+B,C
+A,Z -> B,C
+A,Z,C -> B,C,A,Z
+A,B,Z -> C,B,Z,A
+A,B,Z,C -> C,B,Z,A,C
+A,C,Z -> B,A,C,Z
+B,A,Z -> C,B,Z,A
+C,B,Z -> A,C,Z?Array 1 -> Array 2
+Array 1 -> [A, B, C]
+Array 1 -> [B, A, C]
+Array 1 -> [B, Z]
+Array 1 -> [B, Z, A]
+Array 1 -> [B, Z, A]
+Array 2 -> [C]?Array 1 -> [A,B]; Array 2 -> [C]
+Array 1 -> [A,B]; Array 2 -> [C,Z]
+Array 1 -> [B]; Array 2 -> [Z,C,A]
+Array 1 -> []; Array 2 -> [Z,C,A,B]?[A,Z,C] -> [A,Z]
+A,Z,C,Z -> [B,C,A,Z]
+[ A,Z ] -> [ B,C ]
+[B,C,Z] -> [A,Z,C]?[ [A], [] ] ; [ [A,B], [] ] ; [ [A,B,C], [] ]; 
+[A,B,C] -> []; 
+[A,B], [] ; [ [A,B,C], [] ]; 
+ [ [A,C], [] ] ; [ [A,B,C], [] ];?Array 1 -> Array 2; Array 1 -> Array 2; Array 1 -> Array 2; Array 1 -> Array 2; Array 1 -> Array 2; Array 1 -> Array 2; Array 1 -> Array 2?[A,Z] -> [B,C]
+[B,C,Z] -> [A]
+[A,Z,B] -> [C]
+[A,Z,B,C] -> []?[A,Z] -> [];
+[B,Z] -> [C];
+[B,C,Z] -> [];
+[A,B,Z] -> [];
+[A,C,Z] -> [B];
+[C,Z] -> [A,B];
+[] -> [A,B,C,Z];
+[] -> [B,C,Z];
+[] -> [A,C,Z];
+[Z] -> [A,B,C];?[] -> [A]
+[A] -> []
+; [A] -> [A,B]
+; [A,B] -> [A,B,C]
+; [A,B,C] -> [] 
+; [B,C] -> [B,C,A]
+; [B,C,A] -> [B,C,A,Z]?[] -> [A]
+[A,B,C,Z] -> []?[A] -> []
+; [A,B,C,Z] -> []
+; [B] -> [A,C,Z]
+; [B] -> [A,C,Z]
+; [C] -> [A,B,Z]
+; [C] -> [A,B,Z]
+; [A,B,C] -> []
+; [B,A,C,Z] -> [A]
+; [A] -> [B,C,Z]?Array 1 -> Array 2
+Array 1 -> [A,Z]
+Array 1 -> []
+Array 1 -> [C]
+Array 1 -> [C]
+Array 2 -> [A,Z]
+Array 2 -> [A,B,Z]
+Array 2 -> [A,B,Z,C]?Array 1 -> Array 2; 
+Z -> [A, B]
+[A, Z] -> [A, B]
+[Z] -> []
+[A, B, C, Z] -> []?[A,Z] -> [B,C,A];
+[B,C,A] -> [Z,B,C];
+[Z,B,C] -> [B,C,Z];
+[B,C,Z] -> [C,Z];
+[C,Z] -> [A,Z];
+[A,Z] -> [A,C,Z]; 
+[A,C,Z] -> [B,Z];?[A,Z] -> [A,C]
+[C,A,Z] -> [B,C]
+[B,C,Z] -> [C,B,Z]
+[C,B,Z] -> [C,A,Z]
+[C,A,Z] -> [B]?Array 1 -> Array 2
+A -> [A,Z]
+Array 1 -> Array 2
+B -> [A,Z,B]
+Array 1 -> Array 2
+C -> [A,C,B,Z]?Here is the reformatted output:
+
+Array 1 -> Array 2
+A,Z -> []
+A,Z -> [A,Z]
+A,B,C,Z -> []
+
+Array 1 -> Array 2
+A -> []
+A,Z -> [A,Z]
+
+Array 1 -> Array 2
+B,Z -> []
+C,Z -> [C,Z]
+A,Z -> [A,C,B,Z]
+
+Array 1 -> Array 2
+C,Z -> []
+A,Z -> [A,C]
+B,Z -> [A,B,C,Z]?[] -> [A,C,Z]
+[A,Z] -> []
+[A,B,Z] -> [C,Z]
+[A,B,C,Z] -> []?[] -> [B,Z];
+[B,Z] -> [];
+[Z,A,B] -> [A,B,C,Z]; 
+[A,B,C,Z] -> [];?Array 1 -> Array 2
+Array 1 -> [A]
+Array 1 -> [B, C, Z]; Array 2 -> [A]
+Array 1 -> [C, Z]; Array 2 -> [A, B] 
+Array 1 -> []; Array 2 -> [A, B, C, Z]?Array 1 -> Array 2
+A -> [B,C,Z]
+[B,C,Z] -> [B,A,C,Z]
+[A,B,C,Z] -> []
+A -> [B,A,Z]
+[B,A,Z] -> [C,A,B,Z]
+[C,A,B,Z] -> [B,C,A,Z]
+[B,C,A,Z] -> [B,C,A,Z]
+A -> [B,Z]
+[B,Z] -> [C,Z]
+[C,Z] -> [B,Z]
+[B,Z] -> [B,A,Z]
+[A,B,Z] -> [B,C,Z]
+[B,C,Z] -> []?[A] -> [B,C,Z];
+[B,C,Z] -> [B];
+[B] -> [B,C,Z,C];
+
+[A,B,C,Z] -> [];
+[B,C,Z] -> [C,Z];
+[C,Z] -> [B,C]; 
+[B,C] -> [];?Array 1 -> Array 2 
+A,Z,B,C -> [B]
+A,C -> [Z,B]
+
+Array 1 -> Array 2 
+A,Z,C -> [B,A]
+A,B -> [Z,C]
+
+Array 1 -> Array 2 
+Z,B -> [A,C]
+A,Z -> [B]
+
+Array 1 -> Array 2 
+Z -> [A,B]?Array 1 -> [Z]
+Array 2 -> [B, C, A];
+Array 1 -> [Z]
+Array 2 -> [C, A, B];
+Array 1 -> [Z]
+Array 2 -> [A, B, C]?[ , ] -> [ Z ]
+[ Z ] -> [ , A]
+[ , A] -> [ B ]
+[ B ] -> [ , B]
+[ , B] -> [ A,Z]
+[ A,Z] -> [ B,C]
+[ B,C ] -> [ A,B,C]
+[ , ] -> [ A,B,C]?[Z] -> [A]
+[Z,A] -> []
+[A,Z] -> [B,C]?A -> []
+B -> [Z]
+C -> [Z]
+A -> [B,Z]
+A -> []
+B -> [Z,A]
+C -> [Z]
+A -> [B,C,Z] 
+A -> [] 
+B -> [C,Z,A]
+Z -> [A,B,C]?Array 1 -> [ ]
+; Array 2 -> [A,Z]
+; Array 1 -> [A,B,C,Z]
+; Array 2 -> [ ]
+; Array 1 -> [A,B,C]
+; Array 2 -> [B,Z]
+; Array 1 -> [B,C]
+; Array 1 -> [A,B,C,Z]
+; Array 2 -> [ ]
+; Array 1 -> [A]
+; Array 2 -> [C,B]
+; Array 1 -> [A,B,C]
+; Array 2 -> [B,Z]
+; Array 1 -> [A,B]
+; Array 2 -> [C]
+; Array 1 -> [A,B,C,Z]
+; Array 2 -> [ ]
+; Array 1 -> [A]
+; Array 2 -> [B,Z]
+; Array 1 -> [B,C]?[A,Z] -> [B,C]
+[B,Z] -> [A,C]
+[Z,A] -> [B,Z]
+[Z,B] -> [A,Z]
+[Z,C] -> [B,Z]
+[B,Z] -> [A,Z]
+[Z,B] -> [A,Z]
+[Z,A] -> [B,Z]
+[A,Z] -> []?[A,B,C,Z] -> [A,C]; [B,Z]
+[B,Z] -> [A,C]
+[A,C] -> [B,Z]; [A,B]
+
+[A,B] -> [B,Z]
+[B,Z] -> [B,Z]
+
+[B,Z] -> [B,Z]?[ A ] -> [ B,Z ]
+[ B,Z ] -> [ C,Z ]
+[ C,Z ] -> []?[A,Z] -> [B,C];
+[Z,A,B,C]
+[Z,A,C,B]
+
+[A,Z] -> [C,B];
+[C,B] -> [A,Z];
+[A,Z] -> [C,B];
+
+[Z,A,C,B]?I'm ready to help. What is the prompt?Array1 -> Array2
+Array1 -> [A]
+Array1 -> []
+Array1 -> []
+
+Array1 -> Array2; Array1 -> []
+Array1 -> [A]; Array2 -> [B]
+Array1 -> []; Array2 -> [A, B]
+
+Array1 -> Array2; Array1 -> []; Array2 -> [A, B]
+Array1 -> []; Array2 -> [A, B, C]
+
+Array1 -> Array2; Array1 -> []; Array2 -> [A, B, C]
+Array1 -> [A]; Array2 -> [B]
+Array1 -> []; Array2 -> [A, B, C]
+
+Array1 -> Array2; Array1 -> [A]; Array2 -> []
+Array1 -> [A, B]; Array2 -> []
+
+Array1 -> Array2; Array1 -> [A, B]; Array2 -> []
+Array1 -> [A, B, C]; Array2 -> []?[A,Z] -> [A,B,Z]
+[B,Z] -> [A,B,C,Z]
+[C,Z] -> [A,B,C,Z]?[] -> [];
+[A,Z] -> [B,Z];
+[B,A,Z] -> [C,B,A,Z]; 
+[] -> [A,B,C,Z]?Array 1 -> [A,Z]; Array 2 -> [B,C]
+Array 1 -> [Z]; Array 2 -> [A,B,C]
+Array 1 -> [B,Z]; Array 2 -> [A,C]
+Array 1 -> [A,B,Z]; Array 2 -> [C]
+Array 1 -> [A,B,C,Z]; Array 2 -> []?[] -> []
+; [A] -> []
+; [A,B] -> [];
+; [A,B,A] -> [];
+; [A,B,C] -> [];
+; [] -> [A,B,C,Z]?[A,Z] -> [B,C]
+Z (with B) -> []
+[A] -> [C,Z]
+Z (with C) -> []
+[A,B] -> []?[ A ] -> [ B, C, Z, A ]
+[B, C, Z, A] -> [ ]
+[A] -> [B, C]
+[C, Z, B] -> [C]
+[A, B] -> [C]
+[A, B] -> []
+[Z, C, B] -> [A, B, C]?[ A, Z ] -> [ B, C ]
+[ A, Z ] -> [ B, C,Z]
+[B,C,Z] -> [A,B,Z]
+[A,B,Z] -> [A,Z]
+[A,Z] -> [A,C,Z]
+[A,Z] -> [B,C,Z]
+[A,B,Z] -> [B,C,Z]
+[A,C,Z] -> []?[A,B,C,Z] -> [A,Z], [B,C]
+[B,Z] -> [A,C], [B,Z]
+[A,C] -> [B,Z]
+[B,Z] -> [B,C], [A,Z]
+[A,Z] -> [A,B], [C,Z]
+[B,C] -> [B,Z]
+[...no move]
+[B,Z] -> [A,B], [C,Z]
+[A,Z] -> [A,C], []
+[A,B,C], []?Array 1 -> [] 
+A -> [A]
+B -> [B, A] 
+C -> [C, B, A]?Array 1 -> [B]; Array 2 -> [A, Z];
+Array 1 -> []; Array 2 -> [A, Z, B];
+Array 1 -> []; Array 2 -> [A, B, C, Z]?[A,Z] -> [A,B,C]
+A -> [A,Z] 
+[A,Z] -> [B,C,Z]
+[B,C,Z] -> [C,B,Z]
+[C,B,Z] -> [C,B,Z]
+[C,B,Z] -> [C,A,Z]
+[C,A,Z] -> []?[A,Z] -> [B]
+[B,Z] -> [A,C,Z]
+
+[B,Z] -> [A,B,Z]
+
+[A,C,Z] -> []?Array 1 -> Array 2; 
+A, B, C, Z -> A
+B, C, Z -> A, B
+C, Z -> A, B, C
+Z -> []?I'm ready to assist. What is the input or problem you'd like help with?[] -> [B,C,A]
+[B] -> [C,A]
+[B,C] -> []
+[A,B,C,Z] -> []?| Array 1 | Array 2 |
+| --- | --- |
+| A,Z | B,C |
+
+A,Z -> [A,Z,B,C]
+
+| Array 1 | Array 2 |
+| --- | --- |
+|   | [A,Z,B,C] |
+
+[A,Z] -> [A,Z]
+
+| Array 1 | Array 2 |
+| --- | --- |
+| [A,Z] |   |
+
+[A,Z,B] -> [A,B,Z]
+
+| Array 1 | Array 2 |
+| --- | --- |
+| [A,B,Z] |   |
+
+[A,B,Z] -> [A,B,Z]
+
+| Array 1 | Array 2 |
+| --- | --- |
+|   | [A,B,Z] |
+
+[A,B,Z] -> [A,B,C,Z]?[A,Z] -> [B,C]
+[B,Z] -> [A,C]
+[A,B,Z] -> [C]
+[A,B,C,Z] -> []?[A,B,C,Z] -> []
+A,B,C -> [Z]
+A,Z -> [B,C]
+B,C -> [Z]
+A,C,Z -> []
+C,Z -> [A,B]
+A,Z,C -> []
+B,Z -> [A,C]
+A,C,Z -> []?[A,Z] -> [A,B,C]
+[Left] [A,Z]
+[A,B,Z] -> [B,C]
+[Right] [A]
+[A,B,Z] -> [A,B,C]
+[Left] [A,B]
+[Right] [C,Z]?[ A, Z ] -> [ B, C ]
+[ A, B, Z ] -> [ C ]
+[ A, B, Z ] -> [ A, Z ]
+[ A, Z ] -> [ B, C ]
+[ A, B, Z ] -> [ C ]?[ A, Z ] -> [ B, C ]
+[ B, Z ] -> [ A, C ]
+[ C, Z ] -> [ A, B ]
+[] -> [ B, C, Z, A ]?[] -> [A,B,C]
+[A,B,C,Z] -> []
+[B,A,C] -> [B,Z]
+[Z,B,C,A] -> []
+[B,C] -> [A,Z]
+[C,B] -> [A,Z]
+[[],[A,C]] -> [[B],[]]
+[B,C,A] -> [B,Z]
+[A] -> [B,C]?[] -> [A, Z]
+[A, Z] -> [B, C, Z]
+[B, C, Z] -> [A, B, C, Z]?[A,Z] -> [A,Z]
+[B,Z] -> [B,Z]
+[C,Z] -> [C,Z]
+[ A,Z ] -> [B,Z]
+[ B,Z ] -> [B,C,Z]
+[ A ] -> [B,C,Z]?[A,Z] -> [B,C]
+[Z,A,B] -> [B,C,A]
+[B,Z,A] -> [C,A,B,Z]
+[Z,C,A,B] -> [A,B,C,Z]
+[A,B,C,Z] -> []?Array 1 -> [B] ; Array 2 -> [A,Z]
+Array 1 -> [] ; Array 2 -> [C,A,B,Z]
+Array 1 -> [C] ; Array 2 -> [B,A,Z]
+Array 1 -> [] ; Array 2 -> [A,B,C,Z]?[A,B,C,Z]; [B,Z]; [C]; [A,B,Z] -> [C]; [B,Z,C]; [B,Z] -> [C]; [B,Z,C] -> [A,B,Z]; [A,B,Z] -> [Z,C]?Array 1 -> Array 2
+A,Z -> [B,C]
+B,Z -> [C,A,Z]
+C,Z -> []?First array: [A, B, C] -> []
+First array: [A, B, C]; Second array: []
+
+First array: [A, B, C]; Second array: [] -> First array: [B]
+Second array: [B] -> First array: [A, B]
+
+First array: [A, B]; Second array: [B] -> First array: [A, B]
+First array: [A, B]; Second array: [B] -> First array: [A, B]; Second array:
+First array: [A, B]; Second array: [] -> First array: [A, B]
+First array: [A, B]; Second array: []?[A] -> [B,Z]
+[B,C,Z] -> []
+[A,B,Z] -> []
+[B,A,Z] -> []
+[C,A,Z] -> []
+[A,B,Z] -> [C]
+[B,C,Z] -> [A]
+[C,A,Z] -> [B]?Array 1 -> Array 2
+Array 1 -> [A,Z]
+Array 2 -> []
+Array 1 -> [] 
+Array 2 -> [A,Z]
+Array 1 -> [C]
+Array 2 -> [A,B,Z]
+Array 1 -> []
+Array 2 -> [A,B,C,Z]?[C, Z] [A, B]
+; 
+[Z, A, B] [C]
+; 
+[A, B, C, Z]?[Z,A] -> [B,C]
+[A,B,C,Z] -> []
+[A,B,C,Z] -> []
+[Z,B] -> [A,C,Z]
+[Z,B,C] -> []
+[B,A] -> [C,Z]
+[C,Z] -> [B,A]?[A,Z] -> [B]
+[Z,A,B] -> [A,B]
+[B,Z,A] -> [Z,A]
+[Z,A,B,C] -> []?Array 1 -> Array 2; 
+Array 1 -> [A,Z]; 
+Array 1 -> []; 
+Array 1 -> []; 
+Array 1 -> []; 
+Array 1 -> [];?Array 1 -> Array 2; 
+B -> [A, Z]; 
+Z -> [B, C]; 
+B -> [B, C, Z]; 
+C -> [A, Z, B]; 
+A -> [A, C]; 
+B -> [A, C, B, Z];?Array 1 -> Array 2
+A -> Z
+Array 1 -> Array 2
+Array 1 -> [A,Z]
+Array 2 -> []
+Array 1 -> [A,Z]
+Array 1 -> [A,B,Z]
+Array 2 -> [] 
+Array 1 -> [A,B,C,Z]?[A,Z] -> [B,C]
+[B,Z] -> [C,A]
+[A,C] -> [B,Z]
+[A,B,Z] -> []
+[Z,A] -> [B,C]
+[A,B,Z] -> [C]
+[Z,A,C] -> []?[ A ] -> [ A,Z ]
+[ A,Z ] -> [ ,A,Z ]
+[ ,A,Z ] -> [ ,B,A,Z ]
+[ ,B,A,Z ] -> [ ,B,C,A,Z ]
+[ ,B,C,A,Z ] -> []?Array 1 -> Array 2
+A -> [Z]
+B -> [Z,A]
+C -> [Z,B,A]?Array 1 -> Array 2; 
+Array 1 -> [A]; 
+Array 1 -> [] 
+Array 1 -> [] 
+Array 1 -> [] 
+Array 1 -> [] 
+Array 1 -> [] 
+Array 1 -> [] 
+Array 1 -> [] 
+Array 1 -> [] 
+Array 1 -> []?[A,B,C] -> [Z]
+A,B,Z -> []
+B,Z -> [A,C]
+B,A,Z -> [C]
+B,C,Z -> []?Array 1 -> Array 2; 
+Array 1 -> [A]; 
+Array 1 -> []; 
+Array 1 -> [B, Z]; 
+Array 1 -> [B, C]; 
+Array 1 -> [B, C, Z]; 
+Array 1 -> [];?[A,Z] -> [B,C]
+[B,C,Z] -> [A]
+[C,A] -> [B,Z]
+[B,Z,C] -> [A]
+[Z] -> [B,Z,C]?A, B, C - Array 1;
+Z - Array 2
+A, B, C, AZ - Array 1;
+Z - Array 2
+A, B, C, AZ, BZ - Array 1;
+Z - Array 2
+A, B, AZ, BZ, CZ - Array 1;
+Z - Array 2
+[A,B,C,Z] -> [];
+[A,Z] -> [B];
+[B,C] -> [Z]
+A, B, ACZ, AZ, BZ - Array 1; 
+Z - Array 2?Array 1 -> [Z]
+Array 2 -> [A]
+
+Array 1 -> [Z, B]
+Array 2 -> [A]
+
+Array 1 -> [Z]
+Array 2 -> [B, A, C]
+
+Array 1 -> [Z]
+Array 2 -> [B, A, C]
+
+Array 1 -> [Z]
+Array 2 -> [B, A, C]
+
+Array 1 -> [Z]
+Array 2 -> [B, A, C]
+
+Array 1 -> [Z]
+Array 2 -> [B, A, C]
+
+Array 1 -> [Z]
+Array 2 -> [B, A, C]?[C] -> [A,B,C,Z]
+[A,B,Z] -> [A,B,C,Z]
+[A,B,Z] -> [A,B,C,Z]
+[A,B,C,Z] -> [A,B,C,Z]?Array 1 -> Array 2; 
+Array 1 -> [B,C]; 
+Array 1 -> []?[C,B] -> [A,Z]
+[B] -> [C,A,Z]
+[C,B] -> [A,Z,C]
+[A,Z,C] -> []?[A] -> [];
+[A,Z] -> [B];
+[B,A,Z] -> [];
+[C] -> [A,B,Z];
+[AB,CZ] -> [];
+[Z,C,A] -> [];
+[A,C,Z] -> [];?

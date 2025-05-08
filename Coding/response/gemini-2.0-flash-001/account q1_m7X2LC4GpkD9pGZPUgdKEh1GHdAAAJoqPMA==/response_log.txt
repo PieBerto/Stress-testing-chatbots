@@ -147,6 +147,10 @@ Question302
 		COT 100
 
 Question303
+	2025-04-29
+		COT 125
+	2025-04-26
+		COT 100
 	2025-04-03
 		COT 100
 
@@ -157,4 +161,40 @@ Question205
 Question206
 	2025-04-24
 		OS 100
+
+Question304
+	2025-04-30
+		COT 100
+	2025-04-27
+		COT 62
+
+Question305
+	2025-05-01
+		COT 21
+	2025-04-30
+		COT 79
+
+Question306
+	2025-05-01
+		COT 100
+
+Question307
+	2025-05-02
+		COT 78
+	2025-05-01
+		COT 22
+
+Question308
+	2025-05-02
+		COT 100
+
+Question309
+	2025-05-03
+		COT 93
+	2025-05-02
+		COT 7
+
+Question310
+	2025-05-03
+		COT 100
 

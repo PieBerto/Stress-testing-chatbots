@@ -44,8 +44,12 @@ class AlreadyAnswer:
                     interpreted_answer =  answer_dict["interpreted_answer"]
         if interpreted_answer is None:
             print(answer)
+            if question == "q104":
+                message = "Question "+question+", replace the previous coordinates in the form 'X,Y', without quotes:\t"
+            else:
+                message = "Question " + question + ", replace the previous entry:\t"
             interpreted_answer = input(
-                "Question "+question+" [# -> wrong source code written], replace the previous entry:\t").strip(" \n\t\r")
+                message).strip(" \n\t\r")
             print("\n---------------------\n")
             self._add_answer(question, answer, interpreted_answer)
         return interpreted_answer

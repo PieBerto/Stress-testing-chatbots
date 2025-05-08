@@ -1,0 +1,783 @@
+[B,A,C;]
+[C,B,A;]
+[C,B,A;]
+[C,B,A;]
+[C,B,A;]
+[C,B,A;]
+[C,B,A;]
+[C,B,A;]
+[C,B,A;]
+[C,B,A;]
+[C,B,A;]
+[C,B,A;]
+?1.  **Start:** [B], [A, C], []
+
+2.  **Move 1:** Pop C from Stack 2. [B], [A, C]
+
+3.  **Move 2:** Push A onto Stack 3. [B], [A, C]
+
+4.  **Move 3:** Pop A from Stack 3. [B], [A, C] becomes [B], [C]
+
+5.  **Move 4:** Push C onto Stack 2. [B], [C] becomes [B, C]
+
+6.  **Move 5:** Pop B from Stack 2. [B, C] becomes [C], [B]
+
+7.  **Move 6:** Push B onto Stack 1. [C], [B] becomes [C, B]
+
+8.  **Move 7:** Pop B from Stack 1. [C, B] becomes [B]
+
+9.  **Move 8:** Push A onto Stack 1. [B] becomes [A]
+
+10. **Move 9:** Pop A from Stack 1. [A] becomes []
+
+11. **Move 10:** Pop B from Stack 1. [] becomes []
+
+12. **Move 11:** Pop A from Stack 1. [] becomes []
+
+13. **Move 12:** Pop B from Stack 1. [] becomes []
+
+14. **Move 13:** Pop A from Stack 1. [] becomes []
+
+15. **Move 14:** Pop B from Stack 1. [] becomes []
+
+16. **Move 15:** Pop A from Stack 1. [] becomes []
+
+17. **Move 16:** Pop B from Stack 1. [] becomes []
+
+18. **Move 17:** Pop A from Stack 1. [] becomes []
+
+19. **Move 18:** Pop B from Stack 1. [] becomes []
+
+The final configuration is [C, B, A].?[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+?[B,A,C;[C,B,A] ]?[B,A,C;[C,B,A]]?[B], [A, C], []; [B], [A, C], [A]; [B], [A, C], [A]; [B], [A, C], [A]; [B], [C], [A]; [B], [C], [A]; [B], [C], [A]; [B], [C], [A]; [B], [C], [A]; [B], [C], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B, C], [], [A]; [B,?[B], [A, C], []; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C]; [B], [A], [C];?[B], [A, C], [];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C] becomes [B], [];
+[B], [C]?[B,C;[],[A];]
+[B,C;[],[A];]
+[B,C;[],[A];]
+[B,C;[],[A];]
+[B,C;[],[A];]
+[B,C;[],[A];]
+[B,C;[],[A];]
+[B,C;[],[A];]
+[B,C;[],[A];]
+[B,C;[],[A];]
+[B,C;[],[A];]
+[B,C;[],[A];]
+[B,C;[],[A];]
+[B,C;[],[A];]
+?[B], [A, C], []; [C, B, A]; [A, C, B]; [C, B, A]; [A, B, B]; [B, C, B]; [B, B, B]; [B, B, B]; [A, B, B]; [B, B, B];
+?[B, A, C;]?Please provide the previous answer! I need the text of the previous response to be formatted as you requested.?[B,A,C;[A,C],[A];[B,C],[A];[B,C],[A];[B,C],[A];[B,C],[A];[B,C],[A];[B,C],[A];[B,C],[A];[B,C],[A];[B,C],[A];[B,C],[A]?[B], [A, C], [];
+[B], [A, C], [];
+[B], [A, C], [];
+[B], [A, C], [];
+[B], [A, C], [];
+[B], [C], [];
+[B], [C], [];
+[B], [C], [];
+[B], [C], [];
+[B], [C], [];
+[B], [C], [];
+[B], [C], [];
+[B], [C], [];
+[B], [C], [];
+[B], [C], [];
+[B], [C], [];
+[B], [C], [];
+[B], [C], [];
+[B], [C], [];?1.  **Start:** [B, C, []]
+2.  **Move 1:** Pop C from Stack 2.  [B, C, []], [A]
+3.  **Move 2:** Push A onto Stack 3.  [B, C, [], A]
+4.  **Move 3:** Pop A from Stack 3.  [B, C, [], A], [B]
+5.  **Move 4:** Pop C from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+6.  **Move 5:** Pop A from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+7.  **Move 6:** Pop C from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+8.  **Move 7:** Pop A from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+9.  **Move 8:** Pop C from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+10. **Move 9:** Pop A from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+11. **Move 10:** Pop C from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+12. **Move 11:** Pop A from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+13. **Move 12:** Pop C from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+14. **Move 13:** Pop A from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+15. **Move 14:** Pop C from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+16. **Move 15:** Pop A from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+17. **Move 16:** Pop B from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+18. **Move 17:** Pop B from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+19. **Move 18:** Pop A from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+20. **Move 19:** Pop B from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+21. **Move 20:** Pop A from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+22. **Move 21:** Pop B from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+23. **Move 22:** Pop A from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+24. **Move 23:** Pop B from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+25. **Move 24:** Pop A from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+26. **Move 25:** Pop B from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+27. **Move 26:** Pop A from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+28. **Move 27:** Pop B from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+29. **Move 28:** Pop A from Stack 2.  [B, C, [], A], [B] becomes [B, C, [], A]
+30. **Move 2?[C, B, A]
+[C, B, A]
+[C, B, A]
+[C, B, A]
+[C, B, A]
+[C, B, A]
+[C, B, A]
+[C, B, A]
+[C, B, A]
+[C, B, A]
+[C, B, A]
+?[B,A,C;[A,C],[];[B,C],[]]?[B, A, C;]
+[B, A, C;]
+[B, A, C;]
+[B, A, C;]
+[B, A, C;]
+[B, A, C;]
+[B, A, C;]
+[B, A, C;]
+[B, A, C;]
+[B, A, C;]
+[B, A, C;]
+[B, A, C;]
+[B, A, C;]
+?[B,C,A]
+[C,B,A]
+[B,C,A]
+[C,B,A]
+[B,C,A]
+[C,B,A]
+[B,C,A]
+[C,B,A]
+[B,C,A]
+[C,B,A]
+?[B], [A, C], []; [B, A, C]; [B, C, A]; [B, C, A]; [B, A, C]; [A, B, C]; [A, C, B]; [A, C, B]; [A, B, C]; [B, C, A]; [A, B, C]; [A, C, B]; [A, C, B]; [A, B, C]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, C, B]; [A, B, C]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B]; [B, C, A]; [A, B, C]; [A, C, B?[B,A,C;],[],[A]?[B, A, C;]?1.  **Start:** [B], [A, C], []
+
+2.  **Move 1:** Pop C from Stack 2.  [B], [A, C]
+
+3.  **Move 2:** Push A onto Stack 3.  [B], [A, C], [A]
+
+4.  **Move 3:** Pop B from Stack 2.  [B], [C]
+
+5.  **Move 4:** Pop C from Stack 2.  [B], [C]
+
+6.  **Move 5:** Pop B from Stack 2.  [B]
+
+7.  **Move 6:** Pop A from Stack 2.  [B]
+
+8.  **Move 7:** Pop C from Stack 2.  [B]
+
+9.  **Move 8:** Pop B from Stack 2.  [B]
+
+10. **Move 9:** Pop A from Stack 2.  [B]
+
+11. **Move 10:** Pop C from Stack 2.  [B]
+
+12. **Move 11:** Pop B from Stack 2.  [B]
+
+13. **Move 12:** Pop A from Stack 2.  [B]
+
+14. **Move 13:** Pop B from Stack 2.  [B]
+
+15. **Move 14:** Pop A from Stack 2.  [B]
+
+16. **Move 15:** Pop C from Stack 2.  [B]
+
+17. **Move 16:** Pop B from Stack 2.  [B]
+
+18. **Move 17:** Pop A from Stack 2.  [B]
+
+19. **Move 18:** Pop C from Stack 2.  [B]
+
+The final configuration is [C, B, A].
+?1.  **Start:** [B], [A, C], []
+
+2.  **Move 1:** Pop C from Stack 2.  Stack 2 becomes: [B, A]
+
+3.  **Move 2:** Push A onto Stack 3. Stack 3 becomes: [C, B, A]
+
+Therefore, the final configuration is [C, B, A].?[B,A,C;[C,B,A] ]?[C, B, A]
+[B, A, C]
+[B, A, C]
+[B, A, C]
+[B, A, C]
+[B, A, C]
+[B, A, C]
+[B, A, C]
+[B, A, C]
+[B, A, C]
+[B, A, C]
+[B, A, C]?[A, B, C; [A, C], [C], []]
+[A, C, C; [A, C], [C], []]
+[A, C, A; [A, C], [C], []]
+[A, A, A; [A, C], [C], []]
+[A, A, A; [A, C], [C], []]
+?[B,A,C;[B,C],[A],[C]];[B,C],[A],[]?[B], [A, C], [];[C, B, A]?[B,A,C;],[],[A,C]
+?[C, B, A]
+[B, A, C]
+[B, A, C]
+[C, B, A]
+[B, A, C]
+[C, B, A]
+[B, A, C]
+[C, B, A]
+[B, A, C]
+[C, B, A]?[B,A,C;]
+[A,C;]
+[C;]
+[C;]
+[C;]
+[C;]
+[C;]
+[C;]
+[C;]
+[C;]
+[C]
+?[B, C, ]
+[B, A, C]
+[C, B, A]
+?[B], [A, C], [];[C, B, A]?[B, A, C; [B, A, C]; [B, A, C]; [B, A, C]; [B, A, C]; [B, A, C]; [B, A, C]; [B, A, C]; [B, A, C]; [B, A, C]; [B, A, C]; [B, A, C]]?[B,C,[],[A]
+[B,A,C]
+[B,A,C]
+[B,A,C]
+[B,A,C]
+[B,A,C]
+[B,A,C]
+[B,A,C]
+[B,A,C]
+[B,A,C]
+[B,A,C]
+[B,A,C]
+[B,A,C]
+?[B], [A, C], []
+[B], [A, C]
+[B], [C]
+[B], [C, A]
+[B, C]
+[B], [C, A]
+[C], [A, C]
+[C], [A, C]
+[C], [A]
+[A], [A, C]
+[A], [A, C]
+[A], [A, C]
+?[B,A,C;]
+[C,B,A]
+?[B,A,C;],[],[A]
+[B,C,A;],[],[A]
+[B,C,A;],[],[A]
+[B,C,A;],[],[A]
+?[C, B, A]
+[B, A, C]
+[B, A, C]
+?[B, A, C;]?[B,A,A,A;]?[B,A,C;],[],[A]
+[B,C,A;],[],[A]
+[B,C,A;],[],[B]
+[C,A,B;],[],[A]
+[C,A,B;],[],[B]
+[B,C,A;],[],[A]
+[C,A,B;],[],[A]
+[B,C,A;],[],[A]
+[C,A,B;],[],[A]
+[B,C,A;],[],[B]
+[C,A,B;],[],[A]
+[B,C,A;],[],[B]
+[C,A,B;],[],[A]
+[B,C,A;],[],[B]
+?Okay, please provide the previous answer. I need the original text to format it as you requested.?[B], [A, C], [];
+[B], [A], [C];
+[B], [A, C], [];
+[B], [A], [C];
+[B], [C], [];
+[B], [C, B], [];
+[B], [C]
+[B], [C, B], [];
+[C]
+[C]
+[B]
+[A]
+[A]
+[A]
+[A]
+?[B, A, C; [B], [A, C], []; [B], [C]; [B], [C]; [B], [B]; [A, B]; [A, B]; [B]; [A, B]; [A, A]; [A, A]
+?[B], [A, C], [];
+[B], [A, C] becomes [B], [C]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B], [C, ]
+[B], [C, ] becomes [B?1.  **A push:** Push A onto Stack 3. [A, C, ]
+2.  **B push:** Push B onto Stack 2. [A, C, B]
+3.  **C pop:** Pop C from Stack 2. [A, C]
+4.  **B push:** Push B onto Stack 2. [A, B, C]
+5.  **A push:** Push A onto Stack 3. [A, B, C, ]
+6.  **C pop:** Pop C from Stack 3. [A, B, C]
+7.  **B pop:** Pop B from Stack 2. [A, B, C]
+8.  **A push:** Push A onto Stack 3. [A, B, A, A]
+9.  **C pop:** Pop C from Stack 3. [A, B, A]
+10. **B pop:** Pop B from Stack 2. [A, B, A]
+11. **A push:** Push A onto Stack 3. [A, B, A, A]
+12. **C pop:** Pop C from Stack 3. [A, B, A]
+13. **B pop:** Pop B from Stack 2. [A, B, A]
+14. **A push:** Push A onto Stack 3. [A, B, A, A]
+15. **C pop:** Pop C from Stack 3. [A, B, A]
+16. **B pop:** Pop B from Stack 2. [A, B, A]
+17. **A push:** Push A onto Stack 3. [A, B, A, A]
+18. **C pop:** Pop C from Stack 3. [A, B, A]
+?Please provide the previous answer! I need the text of the previous answer to format the next output as requested.?[B,C,],[],[A]
+?1.  **Start:** [B], [A, C], []
+
+2.  **Move 1:** Pop C from Stack 2.  [B], [A], [] becomes [B], [A], [C]
+
+3.  **Move 2:** Push A onto Stack 3.  [B], [A], [C] becomes [B], [A, C]
+
+4.  **Move 3:** Pop A from Stack 3.  [B], [A, C] becomes [B], [C]
+
+5.  **Move 4:** Push C onto Stack 2.  [B], [C] becomes [B, C]
+
+6.  **Move 5:** Pop B from Stack 1.  [B, C] becomes [C]
+
+7.  **Move 6:** Push B onto Stack 1.  [C] becomes [C, B]
+
+8.  **Move 7:** Pop B from Stack 1.  [C, B] becomes [B]
+
+9.  **Move 8:** Pop A from Stack 1.  [B] becomes []
+
+10. **Move 9:** Pop C from Stack 1.  [] becomes []
+
+11. **Move 10:** Pop B from Stack 1.  [] becomes []
+
+12. **Move 11:** Pop A from Stack 1.  [] becomes []
+
+13. **Move 12:** Pop B from Stack 1.  [] becomes []
+
+14. **Move 13:** Pop A from Stack 1.  [] becomes []
+
+15. **Move 14:** Pop B from Stack 1.  [] becomes []
+
+16. **Move 15:** Pop A from Stack 1.  [] becomes []
+
+17. **Move 16:** Pop B from Stack 1.  [] becomes []
+
+18. **Move 17:** Pop A from Stack 1.  [] becomes []
+
+19. **Move 18:** Pop B from Stack 1.  [] becomes []
+
+The stack configuration is now: [C, B, A]
+?[B,A,C;][C,A,B;][C,B,A]?[B,C;[],[A] ,[B,C];[],[A] ,[B,C];[],[A] ,[B,C];[],[A] ,[B,C] ]?1.  **A:** [B, A, C]
+2.  **B:** [B, A, C]
+3.  **C:** [B, A, C]
+4.  **A:** [B, A, C]
+5.  **B:** [B, A, C]
+6.  **C:** [B, A, C]
+7.  **A:** [B, A, C]
+8.  **B:** [B, A, C]
+9.  **C:** [B, A, C]
+10. **A:** [B, A, C]
+11. **B:** [B, A, C]
+12. **C:** [B, A, C]
+13. **A:** [B, A, C]
+14. **B:** [B, A, C]
+15. **C:** [B, A, C]
+16. **A:** [B, A, C]?[B], [A, C], [];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [B], [C];
+[B], [A, C] becomes [?[B,A,C;]
+[B,A,C;]
+[C,B,A;]
+[C,B,A;]?[B,A,C;],[],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A,C];[B,C;],[A,C];[B,A;],[A?[B,A,C;[C,B,A];[A,B,C];[C,B,A];[A,B,C];[C,B,A];[A,B,C];[C,B,A]?Please provide the previous answer! I need the text of the previous response to be formatted as requested.?[B,A,C;],[],[]
+[B,C,A;],[],[]
+[C,B,A;],[],[]
+[C,B,A;],[],[]
+[B,C,A;],[],[]
+?[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+[Stack1,Stack2,Stack3]
+?Please provide me with the previous answer! I need the text of the previous response to be able to format it as requested.?[B,A,C;[C,B,A]];[B,C,A];[B,C,A];[B,C,A];[B,C,A];[B,C,A];[B,C,A];[B,C,A];[B,C,A];[B,C,A]?[B,A,C;],[],[C,B,A]?[B,A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],[B,C,[]],[A,C,[]],?

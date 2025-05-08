@@ -1,0 +1,10 @@
+[L,M,S];[],[];
+,[M,S],[];
+,[S],[M,L],[M];
+,[L],[M,L],[M];
+,[],[M,L],[M,S];
+,[],[M,L],[];
+,[M],[],[M,S,L];
+,[S],[L],[M,S,L];
+,[L],[S,L],[M,S,L];
+,[S,L],[L],[M,S,L];?Please provide the previous answer for me to format accordingly. I'll extract only the steps and format them as per your request.?

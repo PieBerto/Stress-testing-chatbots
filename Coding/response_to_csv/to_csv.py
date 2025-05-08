@@ -34,7 +34,7 @@ if __name__ == '__main__':
     print("DISCOVERING ALL THE FILE TO CONVERT TO CSV\n\n\n")
     deep_search(base_path, Path("src/../../csv"))
     print(
-        "\n\n\nSTARTING CSV FILES CREATION:\n" + "Now will be printed the answers that can't be automatically converted, insert: '+' if wrong, or the result.\n---------------------\n")
+        "\n\n\nSTARTING CSV FILES CREATION:\n" + "Now will be printed the answers that can't be automatically converted, type: '+' if unintelligible, or the result.\n---------------------\n")
 
     with ThreadPoolExecutor() as executor:
         futures: list[Future] = list()

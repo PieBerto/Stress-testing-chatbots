@@ -18,12 +18,12 @@ python .\LLMs_testing.py -q ? -m gemini-2.5-pro-preview-03-25 -k C:\Users\pietr\
 
 ------------------------------------------------------
 
-python .\LLMs_testing.py -q ? -m llama3.1:8b -k placeholder
-
-python .\LLMs_testing.py -q ? -m llama3.2:3b -k placeholder
-
-python .\LLMs_testing.py -q ? -m llama3.2:1b -k placeholder
-
 python .\LLMs_testing.py -q ? -m gemma3:1b -k placeholder
 
 python .\LLMs_testing.py -q ? -m gemma3:4b -k placeholder
+
+python .\LLMs_testing.py -q ? -m llama3.1:8b -k placeholder
+
+python .\LLMs_testing.py -q ? -m llama3.2:1b -k placeholder
+
+python .\LLMs_testing.py -q ? -m llama3.2:3b -k placeholder

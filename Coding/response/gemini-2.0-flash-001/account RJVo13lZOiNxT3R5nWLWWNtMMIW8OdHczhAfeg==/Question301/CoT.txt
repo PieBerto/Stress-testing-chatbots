@@ -5148,4 +5148,5 @@ This version generates the exact output string you asked for, with only the move
 ?[A, C] -> [B, Z]; [A, C, Z] -> [B]; [A] -> [B, C, Z]; [A, B, Z] -> [C]; [B] -> [A, C, Z]; [B, Z] -> [A, C]; [] -> [A, B, C, Z]
 ?[A,B,C,Z] -> []; [A,C] -> [B,Z]; [A,C,Z] -> [B]; [A] -> [B,C,Z]; [A,B,Z] -> [C]; [B] -> [A,C,Z]; [B,Z] -> [A,C]; [] -> [A,B,C,Z]
 ?[A,B,C,Z] -> []; [A,C] -> [B,Z]; [A,C,Z] -> [B]; [A] -> [B,C,Z]; [A,B,Z] -> [C]; [B] -> [A,C,Z]; [B,Z] -> [A,C]; [] -> [A,B,C,Z]
+?[A,B,C,Z] -> []; [A,C] -> [B,Z]; [A,C,Z] -> [B]; [A] -> [B,C,Z]; [A,B,Z] -> [C]; [B] -> [A,C,Z]; [B,Z] -> [A,C]; [] -> [A,B,C,Z]
 ?

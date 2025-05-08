@@ -116,7 +116,51 @@ Question301
 
 Question302
 	2025-04-26
-		COT 24
+		COT 63
 	2025-04-25
 		COT 37
+
+Question303
+	2025-04-29
+		COT 100
+	2025-04-26
+		COT 100
+
+Question304
+	2025-04-30
+		COT 100
+	2025-04-27
+		COT 13
+
+Question305
+	2025-05-01
+		COT 52
+	2025-04-30
+		COT 48
+
+Question306
+	2025-05-02
+		COT 29
+	2025-05-01
+		COT 71
+
+Question307
+	2025-05-02
+		COT 100
+
+Question308
+	2025-05-03
+		COT 94
+	2025-05-02
+		COT 6
+
+Question309
+	2025-05-03
+		COT 100
+
+Question310
+	2025-05-04
+		COT 91
+	2025-05-03
+		COT 9
 

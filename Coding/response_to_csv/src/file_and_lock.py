@@ -23,6 +23,7 @@ def _create_out_file(out_file:Path, header:str) -> tuple[TextIOWrapper, BaseFile
     if not out_file.is_file():
         my_file = open(out_file, "x")
         my_file.write(header)
+        my_file.close()
     return open(out_file, "a+"),lock
 
 def write_entry(out_path:Path,header:str,model:str,account:str,q_type:str,entry):
