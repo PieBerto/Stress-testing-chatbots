@@ -4,7 +4,7 @@ import re
 import string
 from operator import truediv
 from pathlib import Path
-from typing import TextIO
+from typing import TextIO, SupportsIndex
 
 from src.AlreadyAnswer import AlreadyAnswer
 from src.file_and_lock import read_file, write_entry
@@ -37,7 +37,7 @@ def question_select(filename: Path, out_file: Path, model:str, account:str):
             #iterate(filename,out_file, q105, model, account)
             pass
         case "Question106":
-            iterate(filename,out_file, q106, model, account)
+            #iterate(filename,out_file, q106, model, account)
             pass
         case "Question201":
             #iterate(filename,out_file, q201, model, account)
@@ -52,40 +52,40 @@ def question_select(filename: Path, out_file: Path, model:str, account:str):
             #iterate(filename,out_file, q204, model, account)
             pass
         case "Question205":
-            # iterate(filename,out_file, q205, model, account)
+            #iterate(filename,out_file, q205, model, account)
             pass
         case "Question206":
-            # iterate(filename,out_file, q205, model, account)
+            #iterate(filename,out_file, q206, model, account)
             pass
         case "Question301":
-            #iterate(filename,out_file, q301, model, account)
+            iterate(filename,out_file, q301, model, account)
             pass
         case "Question302":
-            #iterate(filename,out_file, q302, model, account)
+            iterate(filename,out_file, q302, model, account)
             pass
         case "Question303":
-            #iterate(filename,out_file, q303, model, account)
+            iterate(filename,out_file, q303, model, account)
             pass
         case "Question304":
-            #iterate(filename,out_file, q304, model, account)
+            iterate(filename,out_file, q304, model, account)
             pass
         case "Question305":
-            #iterate(filename,out_file, q305, model, account)
+            iterate(filename,out_file, q305, model, account)
             pass
         case "Question306":
-            #iterate(filename,out_file, q306, model, account)
+            iterate(filename,out_file, q306, model, account)
             pass
         case "Question307":
-            #iterate(filename,out_file, q307, model, account)
+            iterate(filename,out_file, q307, model, account)
             pass
         case "Question308":
-            #iterate(filename,out_file, q308, model, account)
+            iterate(filename,out_file, q308, model, account)
             pass
         case "Question309":
-            #iterate(filename,out_file, q309, model, account)
+            iterate(filename,out_file, q309, model, account)
             pass
         case "Question310":
-            #iterate(filename,out_file, q310, model, account)
+            iterate(filename,out_file, q310, model, account)
             pass
         case _:
             raise ValueError("folder name: " + folder_name + " has not been recognized.")
@@ -272,8 +272,7 @@ def q202(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = float(new_entry)
                 new_entry = int(new_entry)
             except:
-                print(entry)
-                new_entry = remember.search_answer("q202",entry)
+                new_entry = "+"
             write_entry(Path(os.path.join(out_path,"q202"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
 
 
@@ -286,7 +285,6 @@ def q203(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = float(new_entry)
                 new_entry = int(new_entry)
             except:
-                print(entry)
                 new_entry = remember.search_answer("q203",entry)
             write_entry(Path(os.path.join(out_path,"q203"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
 
@@ -300,54 +298,704 @@ def q204(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = float(new_entry)
                 new_entry = int(new_entry)
             except:
-                print(entry)
                 new_entry = remember.search_answer("q204",entry)
             write_entry(Path(os.path.join(out_path,"q204"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
 
 def q205(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
-    print("Question 205")
+    header = "model,account,type,answer\n"
+    for entry in entries:
+        new_entry = entry.replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "")
+        if new_entry != "":
+            try:
+                new_entry = float(new_entry)
+                new_entry = int(new_entry)
+            except:
+                new_entry = remember.search_answer("q205", entry)
+            write_entry(Path(os.path.join(out_path, "q205" + "_" + model + "_" + q_type + ".csv")), header, model,
+                        account, q_type, new_entry)
 
 def q206(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
-    print("Question 206")
+    header = "model,account,type,answer\n"
+    for entry in entries:
+        new_entry = entry.replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "")
+        if new_entry != "":
+            try:
+                new_entry = float(new_entry)
+                new_entry = int(new_entry)
+            except:
+                new_entry = remember.search_answer("q206", entry)
+            write_entry(Path(os.path.join(out_path, "q206" + "_" + model + "_" + q_type + ".csv")), header, model,
+                        account, q_type, new_entry)
 
-def q301(entries: list[str], out: TextIO):
-    print("Question 301")
+def changes_check_301(old_a:list[str],old_b:list[str],new_a:list[str],new_b:list[str]) -> bool:
+    if "Z" in old_a:
+        old_a = [x for x in old_a if x]
+        old_b = [x for x in old_b if x]
+        new_a = [x for x in new_a if x]
+        new_b = [x for x in new_b if x]
+        old_a.sort()
+        old_b.sort()
+        new_a.sort()
+        new_b.sort()
+        tmp = old_b
+        tmp.extend("Z")
+        tmp.sort()
+        if new_b == tmp:
+            return True
+        elif "A" in old_a and "A" not in new_a:
+            tmp2 = tmp
+            tmp2.extend("A")
+            tmp2.sort()
+            if tmp2 == new_b:
+                return True
+        elif "B" in old_a and "B" not in new_a:
+            tmp2 = tmp
+            tmp2.extend("B")
+            tmp2.sort()
+            if tmp2 == new_b:
+                return True
+        elif "C" in old_a and "C" not in new_a:
+            tmp2 = tmp
+            tmp2.extend("C")
+            tmp2.sort()
+            if tmp2 == new_b:
+                return True
+        return False
+    elif "Z" in old_b:
+        return changes_check_301(old_b,old_a,new_b,new_a)
+    else:
+        return False
+
+def consistency_check_301(a:list[str],b:list[str]) -> bool:
+    a = [x for x in a if x]
+    b = [x for x in b if x]
+    if len(a) + len(b) == 4:
+        if "A" in a and "A" not in b or "A" in b and "A" not in a:
+            if "B" in a and "B" not in b or "B" in b and "B" not in a:
+                if "C" in a and "C" not in b or "C" in b and "C" not in a:
+                    if "Z" in a and "Z" not in b or "Z" in b and "Z" not in a:
+                        if "A" in a and "B" in a and "Z" not in a or "A" in b and "B" in b and "Z" not in b:
+                            #print("cabbage(A) + goat(B)")
+                            return False
+                        if "B" in a and "C" in a and "Z" not in a or "B" in b and "C" in b and "Z" not in b:
+                            #print("goat(B) + wolf(C)")
+                            return False
+                        return True
+                    else:
+                        #print("Z")
+                        pass
+                else:
+                    #print("C")
+                    pass
+            else:
+                #print("B")
+                pass
+        else:
+            #print("A")
+            pass
+    else:
+        #print("sum"+str(len(a) + len(b)))
+        pass
+    return False
+
+def validity_check(a:list[str])-> bool:
+    for el in a:
+        if not (el == "A" or el == "B" or el == "C" or el == "Z" or el == ""):
+            #print("Wrong element: " + el)
+            #print("whole list:\n"+str(a))
+            return False
+    return True
+
+def q301(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
+    header = "model,account,type,right,steps\n"
+    for entry in entries:
+        new_entry = entry.replace(" ","").replace("`","").replace("\\","").replace("\n","").replace("_","").replace("'","")
+        if new_entry != "":
+            right:bool = True
+            #print("---------------------------------------------------------------------------------------------------")
+            try:
+                passages = new_entry.split(";")
+                steps = len(passages)
+                for i,passage in enumerate(passages):
+                    passage = passage.replace("[","").replace("]","").replace("python","").replace("Cabbage","A").replace("Goat","B").replace("Wolf","C").replace("Farmer","Z")
+                    passage = passage.replace("AB","A,B").replace("BA","B,A").replace("AC","A,C").replace("CA","C,A").replace("BC","B,C").replace("CB","C,B").replace("AZ","A,Z").replace("ZA","Z,A").replace("BZ","B,Z").replace("ZB","Z,B").replace("CZ","C,Z").replace("ZC","Z,C").replace("ABC","A,B,C").replace("ACB","A,C,B").replace("CBA","C,B,A").replace("BCA","B,C,A").replace("CAB","C,A,B").replace("BAC","B,A,C").replace("ABCZ","A,B,C,Z").replace("AA","A").replace("BB","B").replace("CC","C").replace("ZZ","Z")
+                    tmp_r_l = passage.split("->")
+                    left_a: list[str] = tmp_r_l[0].split(",")
+                    right_a: list[str] = tmp_r_l[1].split(",")
+                    #print(str(left_a) + " -> "+ str(right_a))
+                    if not validity_check(left_a) or not validity_check(right_a):
+                        raise Exception("invalid answer")
+                    right = consistency_check_301(left_a, right_a)
+                    if not right:
+                        #print("consistency failed")
+                        break
+                    if i != 0:
+                        right = changes_check_301(old[0],old[1],left_a,right_a)
+                        if not right:
+                            #print("changes failed")
+                            break
+                    else:
+                        tmp_r = [x for x in right_a if x]
+                        tmp_l = left_a
+                        tmp_r.sort()
+                        tmp_l.sort()
+                        right_l = ["A","B","C","Z"]
+                        right_r = []
+                        right_l.sort()
+                        right_r.sort()
+                        if not (tmp_r == right_r and tmp_l == right_l):
+                            #print("Initial configuration is wrong")
+                            right = False
+                            break
+                    old = (left_a, right_a)
+                if right:
+                    last_passage = passages.pop()
+                    tmp_r_l = last_passage.replace("[", "").replace("]", "").split("->")
+                    left_a: list[str] = tmp_r_l[0].split(",")
+                    right_a: list[str] = tmp_r_l[1].split(",")
+                    tmp_r = right_a
+                    tmp_l = [x for x in left_a if x]
+                    tmp_r.sort()
+                    tmp_l.sort()
+                    right_l = []
+                    right_r = ["A", "B", "C", "Z"]
+                    right_l.sort()
+                    right_r.sort()
+                    if not (tmp_r == right_r and tmp_l == right_l):
+                        #print("Final configuration is wrong")
+                        right = False
+            except:
+                #print("Exception thrown")
+                right = False
+                steps = "+"
+            if right:
+                new_entry = "=TRUE(),"+str(steps)
+            else:
+                new_entry = "=FALSE(),"+str(steps)
+            write_entry(Path(os.path.join(out_path, "q301" + "_" + model + "_" + q_type + ".csv")), header, model,
+                        account, q_type, new_entry)
 
 
-def q302(entries: list[str], out: TextIO):
-    print("Question 302")
+
+def q302(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
+    header = "model,account,type,right,steps\n"
+    for entry in entries:
+        new_entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
+                                                                                                        "").replace("'",
+                                                                                                                    "")
+        if new_entry != "":
+            right:bool = True
+            # print("---------------------------------------------------------------------------------------------------")
+            try:
+                passages = new_entry.split(";")
+                steps = len(passages)
+                for i, passage in enumerate(passages):
+                    passage = passage.replace("[", "").replace("]", "").replace("python", "").replace("Cabbage",
+                                                                                                      "A").replace(
+                        "Goat", "B").replace("Wolf", "C").replace("Farmer", "Z")
+                    passage = passage.replace("AB", "A,B").replace("BA", "B,A").replace("AC", "A,C").replace("CA",
+                                                                                                             "C,A").replace(
+                        "BC", "B,C").replace("CB", "C,B").replace("AZ", "A,Z").replace("ZA", "Z,A").replace("BZ",
+                                                                                                            "B,Z").replace(
+                        "ZB", "Z,B").replace("CZ", "C,Z").replace("ZC", "Z,C").replace("ABC", "A,B,C").replace("ACB",
+                                                                                                               "A,C,B").replace(
+                        "CBA", "C,B,A").replace("BCA", "B,C,A").replace("CAB", "C,A,B").replace("BAC", "B,A,C").replace(
+                        "ABCZ", "A,B,C,Z").replace("AA", "A").replace("BB", "B").replace("CC", "C").replace("ZZ", "Z")
+                    tmp_r_l = passage.split("->")
+                    left_a: list[str] = tmp_r_l[0].split(",")
+                    right_a: list[str] = tmp_r_l[1].split(",")
+                    # print(str(left_a) + " -> "+ str(right_a))
+                    if not validity_check(left_a) or not validity_check(right_a):
+                        raise Exception("invalid answer")
+                    right = consistency_check_301(left_a, right_a)
+                    if not right:
+                        # print("consistency failed")
+                        break
+                    if i != 0:
+                        right = changes_check_301(old[0], old[1], left_a, right_a)
+                        if not right:
+                            # print("changes failed")
+                            break
+                    else:
+                        tmp_r = [x for x in right_a if x]
+                        tmp_l = left_a
+                        tmp_r.sort()
+                        tmp_l.sort()
+                        right_l = ["A", "B", "C", "Z"]
+                        right_r = []
+                        right_l.sort()
+                        right_r.sort()
+                        if not (tmp_r == right_r and tmp_l == right_l):
+                            # print("Initial configuration is wrong")
+                            right = False
+                            break
+                    old = (left_a, right_a)
+                if right:
+                    last_passage = passages.pop()
+                    tmp_r_l = last_passage.replace("[", "").replace("]", "").split("->")
+                    left_a: list[str] = tmp_r_l[0].split(",")
+                    right_a: list[str] = tmp_r_l[1].split(",")
+                    tmp_r = right_a
+                    tmp_l = [x for x in left_a if x]
+                    tmp_r.sort()
+                    tmp_l.sort()
+                    right_l = []
+                    right_r = ["A", "B", "C", "Z"]
+                    right_l.sort()
+                    right_r.sort()
+                    if not (tmp_r == right_r and tmp_l == right_l):
+                        # print("Final configuration is wrong")
+                        right = False
+            except:
+                # print("Exception thrown")
+                right = False
+                steps = "+"
+            if right:
+                new_entry = "=TRUE()," + str(steps)
+            else:
+                new_entry = "=FALSE()," + str(steps)
+            write_entry(Path(os.path.join(out_path, "q302" + "_" + model + "_" + q_type + ".csv")), header, model,
+                        account, q_type, new_entry)
+
+def hanoi_tower_step_check(configuration:str, old_configuration: str|None = None, initial_configuration: str = "[L,M,S],[],[]", largest_cylinder_letter:str = "L", medium_big_cylinder_letter:str = "M", medium_small_cylinder_letter:str = "S", optional_smallest_cylinder_letter: str | None = None, is_sussman_not_hanoi:bool = False) -> bool:
+    #Creating the lists from the input
+    tmp_list = configuration.split("]")
+    tmp_list = [x for x in tmp_list if x]
+    tmp_list = [x.replace("[","") for x in tmp_list]
+    stacks_list: list[list[str]] = list()
+    wrong = False
+    for stack in tmp_list:
+        stack = stack.split(",")
+        stacks_list.append([x for x in stack if x])
+
+    if len(stacks_list) != 3:
+        #print("length "+ str(len(stacks_list))+"\n"+str(stacks_list))
+        raise Exception("Wrong split")
+    #Chechink the validity of each element
+    for stack in stacks_list:
+        for element in stack:
+            if not (element == largest_cylinder_letter or element == medium_big_cylinder_letter or element == medium_small_cylinder_letter or element == optional_smallest_cylinder_letter):
+                #print("WRONG ELEMENT: " + str(element))
+                wrong = True
+    if wrong:
+        raise Exception("Wrong element.") #SIGNIFICA CHE DEVO METTERE '+' COME STEPS.
+    #Checking the presence of each cylinder
+    if optional_smallest_cylinder_letter:
+        presence_list = [False,False,False,False]
+    else:
+        presence_list = [False,False,False]
+    for stack in stacks_list:
+        for cylinder in stack:
+            if cylinder == largest_cylinder_letter:
+                if presence_list[0]:
+                    raise Exception("Too many largest cylinders.")
+                presence_list[0] = True
+            if cylinder == medium_big_cylinder_letter:
+                if presence_list[1]:
+                    raise Exception("Too many medium big cylinders.")
+                presence_list[1] = True
+            if cylinder == medium_small_cylinder_letter:
+                if presence_list[2]:
+                    raise Exception("Too many medium small cylinders.")
+                presence_list[2] = True
+            if cylinder == optional_smallest_cylinder_letter:
+                if presence_list[3]:
+                    raise Exception("Too many optional smallest cylinders.")
+                presence_list[3] = True
+            if not cylinder:
+                raise Exception("None cylinder")
+    for presence in presence_list:
+        if not presence:
+            raise Exception("Missing a cylinder.")
+    #Checking the current configuration's cylinder order
+    if not is_sussman_not_hanoi:
+        for stack in stacks_list:
+            for i,cylinder in enumerate(stack):
+                if i != 0:
+                    if stack[i-1] == largest_cylinder_letter and not (cylinder == medium_big_cylinder_letter or cylinder == medium_small_cylinder_letter or cylinder == optional_smallest_cylinder_letter):
+                        return False
+                    if stack[i-1] == medium_big_cylinder_letter and not (cylinder == medium_small_cylinder_letter or cylinder == optional_smallest_cylinder_letter):
+                        return False
+                    if stack[i-1] == medium_small_cylinder_letter and not (cylinder == optional_smallest_cylinder_letter):
+                        return False
+                    if stack[i-1] == optional_smallest_cylinder_letter:
+                        return False
+
+    #Checking the initial configuration
+    if not old_configuration:
+        if configuration != initial_configuration:
+            #print("WRONG INITIAL CONFIGURATION:\n"+configuration)
+            raise Exception("Wrong initial configuration.")
+    else:
+        tmp_list = old_configuration.split("]")
+        tmp_list = [x for x in tmp_list if x]
+        tmp_list = [x.replace("[", "") for x in tmp_list]
+        old_stacks_list: list[list[str]] = list()
+        for stack in tmp_list:
+            stack = stack.split(",")
+            old_stacks_list.append([x for x in stack if x])
+        #Checking the move
+        if len(old_stacks_list) != len(stacks_list):
+            raise Exception("Wrong number of stacks.")
+        changed = None
+        for i,stack in enumerate(stacks_list):
+            if len(old_stacks_list[i]) - len(stack) == 1:
+                if changed is not None and changed == old_stacks_list[i].copy().pop():
+                    changed = None
+                elif changed is None:
+                    changed = old_stacks_list[i].copy().pop()
+                else:
+                    #print("Wrong move")
+                    #print("old: " + str(old_stacks_list[i]) + "\nnew: " + str(stack))
+                    return False
+            elif len(old_stacks_list[i]) - len(stack) == -1:
+                if changed is not None and changed == stack.copy().pop():
+                    changed = None
+                elif changed is None:
+                    changed = stack.copy().pop()
+                else:
+                    #print("Wrong move")
+                    #print("old: " + str(old_stacks_list[i]) + "\nnew: " + str(stack))
+                    return False
+            elif len(old_stacks_list[i]) != len(stack):
+                return False #Moved too many cylinders
+            minor_len = len(old_stacks_list[i])
+            if len(old_stacks_list[i]) > len(stack):
+                minor_len = len(stack)
+            for pos in range(minor_len):
+                if old_stacks_list[i][pos] != stack[pos]:
+                    #print("Moved an element from the middle of the list.")
+                    return False
+        if changed is not None:
+            #print("An element has been removed or added incorrectly")
+            return False #An element has been removed or added incorrectly
+    return True
+
+def q303(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
+    header = "model,account,type,right,steps\n"
+    for entry in entries:
+        if entry:
+            entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_","").replace("'","")
+            steps = entry.split(";")
+            steps_count = len(steps)
+            right:bool = True
+            old_config = None
+            for config in steps:
+                if config:
+                    try:
+                        tmp = hanoi_tower_step_check(config, old_config,"[B],[A,C],[]","A","B","C",None,True)
+                        if right:
+                            right = tmp
+                    except Exception as e:
+                        #print(str(e)+"\n")
+                        right = False
+                        steps_count = "+"
+                        break
+                    old_config = config
+                    #check final configuration
+            if right and old_config:
+                if old_config.find("C,B,A")==-1:
+                    #print(str(steps) + "\nDoesn't match the final configuration required\n"+old_config)
+                    right = False
+            if right:
+                # example of right: [B],[A,C],[];[B],[A],[C];[],[A],[C,B];[],[],[C,B,A]
+                #print(str(entry)+"\n\n-----------------------------------------------------------------------------\n")
+                pass
+            #print(entry+"\n\n------------------------------------------------\n")
+            if right:
+                new_entry = "=TRUE()," + str(steps_count)
+            else:
+                new_entry = "=FALSE()," + str(steps_count)
+            write_entry(Path(os.path.join(out_path, "q303" + "_" + model + "_" + q_type + ".csv")), header, model,
+                        account, q_type, new_entry)
 
 
-def q303(entries: list[str], out: TextIO):
-    print("Question 303")
+
+def q304(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
+    header = "model,account,type,right,steps\n"
+    for entry in entries:
+        if entry:
+            entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
+                                                                                                        "").replace("'",
+                                                                                                                    "")
+            steps = entry.split(";")
+            steps_count = len(steps)
+            right:bool = True
+            old_config = None
+            for config in steps:
+                if config:
+                    try:
+                        tmp = hanoi_tower_step_check(config, old_config, "[B],[A,C],[]", "A", "B", "C", None, True)
+                        if right:
+                            right = tmp
+                    except Exception as e:
+                        # print(str(e)+"\n")
+                        right = False
+                        steps_count = "+"
+                        break
+                    old_config = config
+                    # check final configuration
+            if right and old_config:
+                if old_config.find("C,B,A") == -1:
+                    # print(str(steps) + "\nDoesn't match the final configuration required\n"+old_config)
+                    right = False
+            if right:
+                # example of right: [B],[A,C],[];[B],[A],[C];[],[A],[C,B];[],[],[C,B,A]
+                #print(str(entry)+"\n\n-----------------------------------------------------------------------------\n")
+                pass
+            # print(entry+"\n\n------------------------------------------------\n")
+            if right:
+                new_entry = "=TRUE()," + str(steps_count)
+            else:
+                new_entry = "=FALSE()," + str(steps_count)
+            write_entry(Path(os.path.join(out_path, "q304" + "_" + model + "_" + q_type + ".csv")), header, model,
+                        account, q_type, new_entry)
 
 
-def q304(entries: list[str], out: TextIO):
-    print("Question 304")
+def q305(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
+    header = "model,account,type,right,steps\n"
+    for entry in entries:
+        if entry:
+            entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
+                                                                                                        "").replace("'",
+                                                                                                                    "")
+            steps = entry.split(";")
+            steps_count = len(steps)
+            right:bool = True
+            old_config = None
+            for config in steps:
+                if config:
+                    try:
+                        tmp = hanoi_tower_step_check(config, old_config, "[L,M,S],[],[]", "L", "M", "S", None, False)
+                        if right:
+                            right = tmp
+                    except Exception as e:
+                        # print(str(e)+"\n")
+                        right = False
+                        steps_count = "+"
+                        break
+                    old_config = config
+                    # check final configuration
+            if right and old_config:
+                if old_config.find("[],[],[L,M,S]") == -1:
+                    # print(str(steps) + "\nDoesn't match the final configuration required\n"+old_config)
+                    right = False
+            if right:
+                # example of right: [L,M,S],[],[];[L,M],[],[S];[L],[M],[S];[L],[M,S],[];[],[M,S],[L];[S],[M],[L];[S],[],[L,M];[],[],[L,M,S]
+                #print(str(entry)+"\n\n-----------------------------------------------------------------------------\n")
+                pass
+            # print(entry+"\n\n------------------------------------------------\n")
+            if right:
+                new_entry = "=TRUE()," + str(steps_count)
+            else:
+                new_entry = "=FALSE()," + str(steps_count)
+            write_entry(Path(os.path.join(out_path, "q305" + "_" + model + "_" + q_type + ".csv")), header, model,
+                        account, q_type, new_entry)
 
 
-def q305(entries: list[str], out: TextIO):
-    print("Question 305")
+def q306(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
+    header = "model,account,type,right,steps\n"
+    for entry in entries:
+        if entry:
+            entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
+                                                                                                        "").replace("'",
+                                                                                                                    "")
+            steps = entry.split(";")
+            steps_count = len(steps)
+            right:bool = True
+            old_config = None
+            for config in steps:
+                if config:
+                    try:
+                        tmp = hanoi_tower_step_check(config, old_config, "[L,M,S],[],[]", "L", "M", "S", None, False)
+                        if right:
+                            right = tmp
+                    except Exception as e:
+                        # print(str(e)+"\n")
+                        right = False
+                        steps_count = "+"
+                        break
+                    old_config = config
+                    # check final configuration
+            if right and old_config:
+                if old_config.find("[],[],[L,M,S]") == -1:
+                    # print(str(steps) + "\nDoesn't match the final configuration required\n"+old_config)
+                    right = False
+            if right:
+                # example of right: [L,M,S],[],[];[L,M],[],[S];[L],[M],[S];[L],[M,S],[];[],[M,S],[L];[S],[M],[L];[S],[],[L,M];[],[],[L,M,S]
+                #print(str(entry)+"\n\n-----------------------------------------------------------------------------\n")
+                pass
+            # print(entry+"\n\n------------------------------------------------\n")
+            if right:
+                new_entry = "=TRUE()," + str(steps_count)
+            else:
+                new_entry = "=FALSE()," + str(steps_count)
+            write_entry(Path(os.path.join(out_path, "q306" + "_" + model + "_" + q_type + ".csv")), header, model,
+                        account, q_type, new_entry)
 
 
-def q306(entries: list[str], out: TextIO):
-    print("Question 306")
+def q307(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
+    header = "model,account,type,right,steps\n"
+    for entry in entries:
+        if entry:
+            entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
+                                                                                                        "").replace("'",
+                                                                                                                    "")
+            steps = entry.split(";")
+            steps_count = len(steps)
+            right:bool = True
+            old_config = None
+            for config in steps:
+                if config:
+                    try:
+                        tmp = hanoi_tower_step_check(config, old_config, "[L,M,S],[],[]", "L", "M", "S", None, False)
+                        if right:
+                            right = tmp
+                    except Exception as e:
+                        # print(str(e)+"\n")
+                        right = False
+                        steps_count = "+"
+                        break
+                    old_config = config
+                    # check final configuration
+            if right and old_config:
+                if old_config.find("[],[],[L,M,S]") == -1:
+                    # print(str(steps) + "\nDoesn't match the final configuration required\n"+old_config)
+                    right = False
+            if right:
+                # example of right: [L,M,S],[],[];[L,M],[],[S];[L],[M],[S];[L],[M,S],[];[],[M,S],[L];[S],[M],[L];[S],[],[L,M];[],[],[L,M,S]
+                #print(str(entry)+"\n\n-----------------------------------------------------------------------------\n")
+                pass
+            # print(entry+"\n\n------------------------------------------------\n")
+            if right:
+                new_entry = "=TRUE()," + str(steps_count)
+            else:
+                new_entry = "=FALSE()," + str(steps_count)
+            write_entry(Path(os.path.join(out_path, "q307" + "_" + model + "_" + q_type + ".csv")), header, model,
+                        account, q_type, new_entry)
 
 
-def q307(entries: list[str], out: TextIO):
-    print("Question 307")
+def q308(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
+    header = "model,account,type,right,steps\n"
+    for entry in entries:
+        if entry:
+            entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
+                                                                                                        "").replace("'",
+                                                                                                                    "")
+            steps = entry.split(";")
+            steps_count = len(steps)
+            right:bool = True
+            old_config = None
+            for config in steps:
+                if config:
+                    try:
+                        tmp = hanoi_tower_step_check(config, old_config, "[A,B,C],[],[]", "A", "B", "C", None, False)
+                        if right:
+                            right = tmp
+                    except Exception as e:
+                        # print(str(e)+"\n")
+                        right = False
+                        steps_count = "+"
+                        break
+                    old_config = config
+                    # check final configuration
+            if right and old_config:
+                if old_config.find("[],[],[A,B,C]") == -1:
+                    # print(str(steps) + "\nDoesn't match the final configuration required\n"+old_config)
+                    right = False
+            if right:
+                # example of right: [A,B,C],[],[];[A,B],[],[C];[A],[B],[C];[A],[B,C],[];[],[B,C],[A];[C],[B],[A];[C],[],[A,B];[],[],[A,B,C]
+                #print(str(entry)+"\n\n-----------------------------------------------------------------------------\n")
+                pass
+            # print(entry+"\n\n------------------------------------------------\n")
+            if right:
+                new_entry = "=TRUE()," + str(steps_count)
+            else:
+                new_entry = "=FALSE()," + str(steps_count)
+            write_entry(Path(os.path.join(out_path, "q308" + "_" + model + "_" + q_type + ".csv")), header, model,
+                        account, q_type, new_entry)
 
 
-def q308(entries: list[str], out: TextIO):
-    print("Question 308")
+def q309(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
+    header = "model,account,type,right,steps\n"
+    for entry in entries:
+        if entry:
+            entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
+                                                                                                        "").replace("'",
+                                                                                                                    "")
+            steps = entry.split(";")
+            steps_count = len(steps)
+            right:bool = True
+            old_config = None
+            for config in steps:
+                if config:
+                    try:
+                        tmp = hanoi_tower_step_check(config, old_config, "[B,A,D,C],[],[]", "A", "B", "C", "D", True)
+                        if right:
+                            right = tmp
+                    except Exception as e:
+                        # print(str(e)+"\n")
+                        right = False
+                        steps_count = "+"
+                        break
+                    old_config = config
+                    # check final configuration
+            if right and old_config:
+                if old_config.find("[],[],[A,B,C,D]") == -1:  # '[L,M,S],[],[];[L,M],[],[S];[L],[M],[S];[L],[M,S],[];[],[M,S],[L];[S],[M],[L];[S],[],[L,M];[],[],[L,M,S]'
+                    # print(str(steps) + "\nDoesn't match the final configuration required\n"+old_config)
+                    right = False
+            if right:
+                # example of right: [B,A,D,C],[],[];[B,A,D],[C],[];[B,A],[C,D],[];[B],[C,D],[A];[],[C,D],[A,B];[D],[C],[A,B];[D],[],[A,B,C];[],[],[A,B,C,D]
+                #print(str(entry)+"\n\n-----------------------------------------------------------------------------\n")
+                pass
+            # print(entry+"\n\n------------------------------------------------\n")
+            if right:
+                new_entry = "=TRUE()," + str(steps_count)
+            else:
+                new_entry = "=FALSE()," + str(steps_count)
+            write_entry(Path(os.path.join(out_path, "q309" + "_" + model + "_" + q_type + ".csv")), header, model,
+                        account, q_type, new_entry)
 
 
-def q309(entries: list[str], out: TextIO):
-    print("Question 309")
-
-
-def q310(entries: list[str], out: TextIO):
-    print("Question 310")
+def q310(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
+    header = "model,account,type,right,steps\n"
+    for entry in entries:
+        if entry:
+            entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
+                                                                                                        "").replace("'",
+                                                                                                                    "").upper()
+            steps = entry.split(";")
+            steps_count = len(steps)
+            right:bool = True
+            old_config = None
+            for config in steps:
+                if config:
+                    try:
+                        tmp = hanoi_tower_step_check(config, old_config, "[D1,D2,D3,D4],[],[]", "D1", "D2", "D3", "D4", False)
+                        if right:
+                            right = tmp
+                    except Exception as e:
+                        # print(str(e)+"\n")
+                        right = False
+                        steps_count = "+"
+                        break
+                    old_config = config
+                    # check final configuration
+            if right and old_config:
+                if old_config.find("[],[],[D1,D2,D3,D4]") == -1:
+                    # print(str(steps) + "\nDoesn't match the final configuration required\n"+old_config)
+                    right = False
+            if right:
+                #example of right: '[d1,d2,d3,d4],[],[];[d1,d2,d3],[d4],[];[d1,d2],[d4],[d3];[d1,d2],[],[d3,d4];[d1],[d2],[d3,d4];[d1,d4],[d2],[d3];[d1,d4],[d2,d3],[];[d1],[d2,d3,d4],[];[],[d2,d3,d4],[d1];[],[d2,d3],[d1,d4];[d3],[d2],[d1,d4];[d3,d4],[d2],[d1];[d3,d4],[],[d1,d2];[d3],[d4],[d1,d2];[],[d4],[d1,d2,d3];[],[],[d1,d2,d3,d4]'
+                #print(str(entry)+"\n\n-----------------------------------------------------------------------------\n")
+                pass
+            # print(entry+"\n\n------------------------------------------------\n")
+            if right:
+                new_entry = "=TRUE()," + str(steps_count)
+            else:
+                new_entry = "=FALSE()," + str(steps_count)
+            write_entry(Path(os.path.join(out_path, "q310" + "_" + model + "_" + q_type + ".csv")), header, model,
+                        account, q_type, new_entry)
 
 
 

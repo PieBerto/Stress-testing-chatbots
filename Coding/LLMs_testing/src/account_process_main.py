@@ -1,11 +1,9 @@
-import ollama
 from PIL.ImageFile import ImageFile
 
 from src.LLMs.Gemini.request import launch_request as gemini_launch_request
-from src.LLMs.serverless_llama.request import launch_request as llama_launch_request
-from src.LLMs.ollama.request import launch_request as ollama_launch_request
 from src.LLMs.models_details import gemini_models, serveless_huggingface_models, ollama_models
-from src.LLMs_parameters import parameters
+from src.LLMs.ollama.request import launch_request as ollama_launch_request, ollama_create
+from src.LLMs.serverless_llama.request import launch_request as llama_launch_request
 from src.counter_thread import CounterThread
 from src.logging_thread import LoggerInteracter
 from src.structures.question_typology_class import QuestionTypology
@@ -16,20 +14,8 @@ def process_main(api_key: str, q_name: str, account: str, msg_list: list[tuple[l
 
     counter_t =  CounterThread(model, account)
     counter_t.start()
-    my_model = "my_"+model
-    if model.replace("_", ":") in ollama_models:
-        try:
-            ollama.delete(my_model)
-        except Exception as e:
-            print("Error while deleting ollama model:\n", e)
-        ollama.create(model = my_model, from_ = model.replace("_",":"),
-                      system= "Answer always using less then "+str(parameters["max_new_tokens"])+" tokens.",
-                      parameters = {
-                        "temperature" : parameters["temperature"],
-                        "top_k" : parameters["top_k"],
-                        "top_p" : parameters["top_p"],
-                        "num_ctx" : parameters["max_new_tokens"],
-                    })
+    my_model = "my_" + model
+    ollama_create(model)
 
     for j in range(iteration):
         for msg_type_tuple in msg_list:

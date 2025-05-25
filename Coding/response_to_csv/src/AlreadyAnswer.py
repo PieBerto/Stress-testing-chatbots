@@ -51,5 +51,7 @@ class AlreadyAnswer:
             interpreted_answer = input(
                 message).strip(" \n\t\r")
             print("\n---------------------\n")
+            if interpreted_answer == "":
+                interpreted_answer = "+"
             self._add_answer(question, answer, interpreted_answer)
         return interpreted_answer

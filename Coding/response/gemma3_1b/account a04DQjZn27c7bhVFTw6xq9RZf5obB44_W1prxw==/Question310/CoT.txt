@@ -1,0 +1,1479 @@
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?1.  Move disk d4 from Source Peg Stack 1 to Source Peg Stack 2.
+2.  Move disk d3 from Source Peg Stack 2 to Source Peg Stack 3.
+3.  Move disk d2 from Source Peg Stack 3 to Source Peg Stack 4.
+4.  Move disk d1 from Source Peg Stack 4 to Destination Peg Stack 1.?a. Move d4 to the auxiliary peg stack 1.
+b. Move d3 from the source peg stack 1 to the auxiliary peg stack 2.
+c. Move d2 from the source peg stack 1 to the auxiliary peg stack 3.
+d. Move d1 from the source peg stack 1 to the auxiliary peg stack 4.
+e.  Now, move d4 from the auxiliary peg stack 1 to the source peg stack 1.
+f.  Repeat steps b-e until d4 is at the destination peg stack 4.?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?[L,M,S,],[],[]
+?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?Heres the solution in the requested format:
+
+[SPS1,APS2,D3]
+[SPS1,APS2,D3]
+[SPS1,APS2,D3]
+[SPS1,APS2,D3]
+[SPS1,APS2,D3]
+[SPS1,APS2,D3]
+[SPS1,APS2,D3]
+[SPS1,APS2,D3]
+[SPS1,APS2,D3]
+[SPS1,APS2,D3]
+[SPS1,APS2,D3]
+[SPS1,APS2,D3]
+[SPS1,APS2,D3]?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[]?Heres the output, following your format:
+
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S,],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?Heres the solution presented as requested:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?[L,M,S],[],[]?[L,M,S,],[],[]?[L,M,S,],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S,],[],[]?1.  Move d4 to the top.
+2.  Move d3 to the bottom of d4.
+3.  Move d2 to the bottom of d3.
+4.  Move d1 to the bottom of d2.
+5.  Move d3 to the top of d1.
+6.  Move d2 to the top of d3.
+7.  Move d1 to the top of d2.
+8.  Move d4 to the top of d1.
+
+?[L,M,S],[],[]?Heres the solution presented as requested:
+
+[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?Heres the sequence of steps:
+
+[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[]?Heres the solution in the requested format:
+
+[L,M,S,R],[],[];[L,M,S,R],[],[];[L,M,S,R],[],[];[L,M,S,R],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?Here are the steps:
+
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?[L,M,S,],[],[]?[L,M,S,],[],[]?[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?**1. Source Peg Stack 1:** d1
+**2. Source Peg Stack 2:** d2
+**3. Source Peg Stack 3:** d3
+**4. Destination Peg Stack 1:** d4
+**5. Destination Peg Stack 2:** d3
+**6. Destination Peg Stack 3:** d2
+**7. Destination Peg Stack 4:** d1
+?[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,M,S],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?Heres the solution in the requested format:
+
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?Okay, please provide the previous answer. I need the text of the previous answer to format it as requested.?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S,],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?Heres the sequence of steps:
+
+[L,M,S,],[],[]?Heres the solution presented as requested:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];?[L,M,S,],[],[]?[L,M,S,],[],[]?1.  Move Disk d4 to stack1,stack2,stack3
+2.  Move Disk d3 to stack1,stack2,stack3
+3.  Move Disk d2 to stack1,stack2,stack3
+4.  Move Disk d1 to stack1,stack2,stack3?Here are the steps, formatted as requested:
+
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];?[L,M,S,],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S,],[],[]?[L,M,S,],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S,],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?Heres the sequence of steps, formatted as requested:
+
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S,],[],[]?[L,M,S,],[],[]?Heres the sequence of steps:
+
+[L,M,S,],[],[]; [L,M,S,],[],[]; [L,M,S,],[],[]; [L,M,S,],[],[]; [L,M,S,],[],[]; [L,M,S,],[],[]; [L,M,S,],[],[]?[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S,],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?Heres the solution, formatted as requested:
+
+[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S,],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[?Here are the steps, formatted as requested:
+
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S,],[],[]?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S,],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?1.  Move d4 to the top.
+2.  Move d3 to the bottom of d4.
+3.  Move d2 to the bottom of d3.
+4.  Move d1 to the bottom of d2.
+5.  Move d3 to the top.
+6.  Move d2 to the bottom of d3.
+7.  Move d1 to the top.
+8.  Move d4 to the top.?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[D4,D3,D2,D1];[D3,D2,D1,D4];[D2,D1,D4,D3];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D2,D4];[D2,D1,D3,D4];[D1,D3,D?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S?1.  Move d4 to the top (source peg stack 1).
+2.  Move d3 to the top of the stack (source peg stack 2).
+3.  Move d2 to the top of the stack (source peg stack 3).
+4.  Move d1 to the top of the stack (destination peg stack 1).
+5.  Move d3 to the top of the stack (destination peg stack 2).
+6.  Move d2 to the top of the stack (destination peg stack 3).
+7.  Move d1 to the top of the stack (destination peg stack 4).?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,M,S],[],[]?d4
+d3
+d2
+d1
+?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?1.  [L,M,S],[],[]
+2.  [L,M,S],[],[]
+3.  [L,M,S],[],[]
+4.  [L,M,S],[],[]
+5.  [L,M,S],[],[]
+6.  [L,M,S],[],[]
+7.  [L,M,S],[],[]?Heres the output formatted as requested:
+
+[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,?[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S,],[],[]?[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?Here are the steps:
+
+[L,M,S,],[],[]?[L,M,S,],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];?[L,M,S,],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[]?[L,M,S],[],[];
+[L,S,M],[],[];
+[L,M,S],[],[];
+[L,S,M],[],[];
+[L,M,S],[],[];
+[L,S,M],[],[];
+[L,M,S],[],[]?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?**1. Source Peg Stack 1:** d4
+**2. Source Peg Stack 2:** d3
+**3. Source Peg Stack 3:** d2
+**4. Source Peg Stack 4:** d1
+
+**5. Destination Peg Stack 1:** d4
+**6. Destination Peg Stack 2:** d3
+**7. Destination Peg Stack 3:** d2
+**8. Destination Peg Stack 4:** d1
+
+**Solution:** The Tower of Hanoi is successfully solved with the disks arranged in the order: d4, d3, d2, d1.?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?1.  Move disk d4 to the top.
+2.  Move disk d3 from the top to the right.
+3.  Move disk d2 from the right to the middle.
+4.  Move disk d1 from the middle to the bottom.
+5.  Move disk d4 back to the top.?[L,M,S,],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?Heres the solution in the requested format:
+
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?[L,M,S,],[],[]?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?[L,M,S],[],[]?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?Here are the steps:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?Heres the sequence of steps:
+
+[L,M,S,],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?Heres the sequence of steps:
+
+[L,M,S,],[],[];[L,S,M,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[]?[L,M,S,],[],[]?[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[L,M,S,],[],[];
+[?[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,S,M],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?Here are the steps, formatted as requested:
+
+[SPS1,APS2,DPS3],[],[]
+[SPS1,APS2,DPS3],[],[]
+[SPS1,APS2,DPS3],[],[]
+[SPS1,APS2,DPS3],[],[]
+[SPS1,APS2,DPS3],[],[]
+[SPS1,APS2,DPS3],[],[]
+[SPS1,APS2,DPS3],[],[]
+[SPS1,APS2,DPS3],[],[]
+?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S,],[],[]?1.  Move disk d4 from Source Peg Stack 1 to Source Peg Stack 2.
+2.  Move disk d3 from Source Peg Stack 2 to Source Peg Stack 3.
+3.  Move disk d2 from Source Peg Stack 3 to Source Peg Stack 4.
+4.  Move disk d1 from Source Peg Stack 4 to Source Peg Stack 1.?[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?Here are the steps, formatted as requested:
+
+[SPS1,APS2,DPS3],[],[]
+[SPS1,APS2,DPS3],[],[]
+[SPS1,APS2,DPS3],[],[]
+[SPS1,APS2,DPS3],[],[]
+[SPS1,APS2,DPS3],[],[]
+[SPS1,APS2,DPS3],[],[]
+?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?Heres the sequence of steps:
+
+[L,M,S,],[],[]?[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S,],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?d4 is in the Destination Peg Stack 3. d3 is in the Destination Peg Stack 2; d2 is in the Destination Peg Stack 1; d1 is in the Destination Peg Stack 3.
+?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S,],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?Heres the solution in the requested format:
+
+[L,M,S,],[],[]?Heres the sequence of steps:
+
+[L,M,S,],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S,],[],[];[L,S,M,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?[L,M,S,],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S,],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?[L,M,S,],[],[]?[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?Heres the solution in the requested format:
+
+[SPS1,APS2,DPS3],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S,],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?Heres the solution in the requested format:
+
+[L,M,S,],[],[]?[L,M,S,],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,?[L,M,S,],[],[]?[L,M,S,],[],[]?Heres the solution in the requested format:
+
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S,],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?Heres the solution formatted as requested:
+
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?Heres the solution presented as requested:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S,],[],[]?Heres the sequence of steps:
+
+[L,M,S,],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?[L,M,S,],[],[]?[L,M,S],[],[]?[L,M,S],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S,],[],[]?[L,M,S,],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?Heres the solution in the requested format:
+
+[SPS1,APS2,DPS3]
+[SPS1,APS2,DPS3]
+[SPS1,APS2,DPS3]
+[SPS1,APS2,DPS3]
+[SPS1,APS2,DPS3]
+[SPS1,APS2,DPS3]
+?[L,M,S,],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?1.  Move d4 to the top.
+2.  Move d3 to the bottom of d4.
+3.  Move d2 to the bottom of d3.
+4.  Move d1 to the bottom of d2.
+5.  Move d3 to the top of d1.
+6.  Move d2 to the top of d3.
+7.  Move d1 to the top of d2.
+8.  Move d4 to the top of d1.
+
+?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?Here are the steps, formatted as requested:
+
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?Heres the solution in the requested format:
+
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[]; [L,M,S],[],[]; [L,M,S],[],[]; [L,M,S],[],[]; [L,M,S],[],[]; [L,M,S],[],[]; [L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S?[L,M,S,],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+?[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[]
+
+[L,M,S],[],[]
+
+[L,M,S],[],[]
+
+[L,M,S],[],[]
+
+[L,M,S],[],[]
+
+[L,M,S],[],[]
+
+[L,M,S],[],[]
+
+[L,M,S],[],[]
+
+[L,M,S],[],[]
+
+[L,M,S],[],[]?1.  Move Disk 4 from Source Peg Stack 4 to Source Peg Stack 1.
+2.  Move Disk 3 from Source Peg Stack 3 to Source Peg Stack 2.
+3.  Move Disk 2 from Source Peg Stack 2 to Source Peg Stack 3.
+4.  Move Disk 1 from Source Peg Stack 1 to Source Peg Stack 4.
+
+?**1. Source Peg Stack 1:** d1
+**2. Source Peg Stack 2:** d2
+**3. Source Peg Stack 3:** d3
+**4. Destination Peg Stack 1:** d4
+**5. Destination Peg Stack 2:** d3
+**6. Destination Peg Stack 3:** d2
+**7. Destination Peg Stack 4:** d1
+?[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S,],[],[]?[L,M,S,],[],[]?[L,M,S,],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];?[L,M,S],[],[]?[L,M,S,],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?Heres the solution in the requested format:
+
+[SPS1,APS2,DSPT3,DSPT3,DSPT3]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S,],[],[]?Here are the steps, formatted as requested:
+
+[L,M,S,],[],[];[L,S,M,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];[L,M,S,],[],[];?[L,M,S,],[],[]?Heres the solution in the requested format:
+
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];?Heres the solution presented as requested:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?[L,M,S,],[],[]?[L,M,S,],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?Heres the sequence of steps:
+
+[L,M,S,],[],[]?[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,S,M],[],[]?Here are the steps:
+
+[SPS1, APS2, DPS3, [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S], [L,M,S]]?Heres the solution in the requested format:
+
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]
+[L,M,S,],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[]?[L,M,S,],[],[]?[L,M,S,],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];?Heres the solution in the requested format:
+
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+[L,M,S],[],[];
+?Im sorry, but I need the previous answer to format it as requested. Please provide the previous answer so I can fulfill your request.?[L,M,S],[],[];[L,S,M],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S,],[],[]?[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[];[L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?1.  [L,M,S],[],[]
+2.  [L,M,S],[],[]
+3.  [L,M,S],[],[]
+4.  [L,M,S],[],[]
+5.  [L,M,S],[],[]
+6.  [L,M,S],[],[]
+7.  [L,M,S],[],[]?[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]
+[L,M,S],[],[]?[L,M,S],[],[]?

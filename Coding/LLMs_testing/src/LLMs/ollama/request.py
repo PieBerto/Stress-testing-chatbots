@@ -6,14 +6,30 @@ from pathlib import Path
 import ollama
 from PIL.ImageFile import ImageFile
 from filelock import FileLock
+from ollama import ResponseError
 
-from src.LLMs.models_details import model_images
+from src.LLMs.models_details import model_images, ollama_models
 from src.LLMs_parameters import parameters
 from src.counter_thread import CounterThread
 from src.exec_generated_code_process import launch_generated_code
 from src.logging_thread import LoggerInteracter
 from src.structures.question_typology_class import QuestionTypology
 
+def ollama_create(model: str):
+    my_model = "my_" + model
+    if model.replace("_", ":") in ollama_models:
+        try:
+            ollama.delete(my_model)
+        except Exception as e:
+            print("Error while deleting ollama model:\n", e)
+        ollama.create(model=my_model, from_=model.replace("_", ":"),
+                      system="Answer always using less then " + str(parameters["max_new_tokens"]) + " tokens.",
+                      parameters={
+                          "temperature": parameters["temperature"],
+                          "top_k": parameters["top_k"],
+                          "top_p": parameters["top_p"],
+                          "num_ctx": parameters["max_new_tokens"],
+                      })
 
 def launch_request(q_type: QuestionTypology, account: str, in_file_path: str, message: list[str | list[ImageFile, str]],
                    model: str, logger: LoggerInteracter, counter_t: CounterThread, my_model: str):
@@ -70,8 +86,10 @@ def launch_request(q_type: QuestionTypology, account: str, in_file_path: str, me
                         break
                 answer = response
                 counter_t.count(1)
+            except ResponseError as e:
+                ollama_create(model)
+                continue
             except Exception as e:
-                print(str(e))
                 # TODO:gestione errori!
                 time.sleep(counter_t.require_waiting_time("TIME_Unknown"))
                 continue

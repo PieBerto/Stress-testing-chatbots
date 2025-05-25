@@ -1,0 +1,3376 @@
+[1. Stack3: [A,B,C,D]];
+[2. Stack2: []];
+[3. Stack1: [B,A,D,C]];
+[4. Stack2: []];
+[5. Stack3: [A,B,C,D]];
+[6. Stack1: [B,A,D,C]];
+[7. Stack2: []];
+[8. Stack3: [A,B,C,D]];
+[9. Stack1: [B,A,D,C]];
+[10. Stack2: []];
+[11. Stack3: [A,B,C,D]];
+[12. Stack1: [B,A,D,C]];
+[13. Stack2: []];
+[14. Stack3: [A,B,C,D]];
+?[1. Stack3: Push 'A' onto Stack3. ]
+[2. Stack2: Push 'B' onto Stack2. ]
+[3. Stack1: Push 'D' onto Stack1. ]
+[4. Stack3: Pop 'A' from Stack3. ]
+[5. Stack2: Pop 'B' from Stack2. ]
+[6. Stack1: Pop 'D' from Stack1. ]
+[7. Stack3: Pop 'A' from Stack3. ]
+[8. Stack2: Pop 'B' from Stack2. ]
+[9. Stack1: Pop 'D' from Stack1. ]
+[10. Stack3: Pop 'A' from Stack3. ]
+[11. Stack2: Pop 'B' from Stack2. ]
+[12. Stack1: Pop 'D' from Stack1. ]
+[13. Stack3: Pop 'A' from Stack3. ]
+[14. Stack2: Pop 'B' from Stack2. ]
+[15. Stack1: Pop 'D' from Stack1. ]
+[16. Stack3: Pop 'A' from Stack3. ]
+[17. Stack2: Pop 'B' from Stack2. ]
+[18. Stack1: Pop 'D' from Stack1. ]?1. [A,B,C,D]
+2. [A,B,C,D]
+3. [A,B,C,D]
+4. [A,B,C,D]
+5. [A,B,C,D]
+6. [A,B,C,D]
+7. [A,B,C,D]
+8. [A,B,C,D]
+9. [A,B,C,D]
+10. [A,B,C,D]
+11. [A,B,C,D]
+12. [A,B,C,D]
+13. [A,B,C,D]
+14. [A,B,C,D]
+15. [A,B,C,D]
+16. [A,B,C,D]
+17. [A,B,C,D]
+18. [A,B,C,D]
+19. [A,B,C,D]
+?1.  **Stack3: [A,B,C,D]** (Push A, B, C, D onto Stack3)  Initial state: Stack3 = [A, B, C, D]
+
+2.  **Stack2: []** (Pop A from Stack3)  Stack2 = []
+
+3.  **Stack1: [B,A,D,C]** (Push B, A, D, C onto Stack1)  Stack1 = [B, A, D, C]
+
+4.  **Stack3: [A,B,C]** (Pop C from Stack3)  Stack3 = [A, B]
+
+5.  **Stack2: []** (Pop B from Stack3)  Stack2 = []
+
+6.  **Stack1: [B,A,D,C]** (Push A from Stack1)  Stack1 = [B, A, D, C]
+
+7.  **Stack3: [A]** (Pop A from Stack3)  Stack3 = []
+
+8.  **Stack2: []** (Pop A from Stack3)  Stack2 = []
+
+9.  **Stack1: [B,A,D,C]** (Push A from Stack1)  Stack1 = [B, A, D, C]
+
+10. **Stack3: []** (Pop C from Stack3)  Stack3 = []
+
+11. **Stack2: []** (Pop D from Stack3)  Stack2 = []
+
+12. **Stack1: [B,A,D,C]** (Push A from Stack1)  Stack1 = [B, A, D, C]
+
+13. **Stack3: []** (Pop C from Stack3)  Stack3 = []
+
+Therefore, the final configuration is Stack1: [] , Stack2: [] , Stack3: []?1.  **Stack3:** Push 'A' onto Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack2. (3 steps)
+4.  **Stack1:** Push 'B' onto Stack1. (4 steps)
+5.  **Stack1:** Push 'D' onto Stack1. (5 steps)
+6.  **Stack1:** Push 'C' onto Stack1. (6 steps)
+7.  **Stack3:** Pop 'A' from Stack3. (7 steps)
+8.  **Stack3:** Pop 'B' from Stack3. (8 steps)
+9.  **Stack3:** Pop 'C' from Stack3. (9 steps)
+10. **Stack3:** Pop 'D' from Stack3. (10 steps)
+11. **Stack3:** Pop 'A' from Stack3. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack3:** Pop 'C' from Stack3. (13 steps)
+14. **Stack3:** Pop 'D' from Stack3. (14 steps)?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C],[],[D]?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack3:** Pop `C` from Stack3. (7 steps)
+8.  **Stack2:** Pop `D` from Stack3. (8 steps)
+9.  **Stack2:** Pop `B` from Stack3. (9 steps)
+10. **Stack2:** Pop `A` from Stack3. (10 steps)
+11. **Stack2:** Pop `C` from Stack3. (11 steps)
+12. **Stack2:** Pop `D` from Stack3. (12 steps)
+
+The final configuration is achieved through a series of pushes and pops, systematically filling each stack with the appropriate elements.?[1. Stack3: Push 'A' to Stack3.]
+[2. Stack2: Push 'B' to Stack2.]
+[3. Stack1: Push 'D' to Stack1.]
+[4. Stack3: Pop 'A' from Stack3.]
+[5. Stack2: Pop 'B' from Stack2.]
+[6. Stack1: Pop 'D' from Stack1.]
+[7. Stack3: Pop 'A' from Stack3.]
+[8. Stack2: Pop 'B' from Stack2.]
+[9. Stack1: Pop 'D' from Stack1.]
+[10. Stack3: Pop 'A' from Stack3.]
+[11. Stack2: Pop 'B' from Stack2.]
+[12. Stack1: Pop 'D' from Stack1.]
+[13. Stack3: Pop 'A' from Stack3.]
+[14. Stack2: Pop 'B' from Stack2.]
+[15. Stack1: Pop 'D' from Stack1.]
+[16. Stack3: Pop 'A' from Stack3.]
+[17. Stack2: Pop 'B' from Stack2.]
+[18. Stack1: Pop 'D' from Stack1.]?[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Pop A from Stack1 : A removed; Stack1: [B,D,C] ; 5. Pop D from Stack1 : D removed; Stack1: [B,C] ; 6. Pop C from Stack1 : C removed; Stack1: [B] ; 7. Pop B from Stack1 : B removed; Stack1: [] ; 8. Pop A from Stack2 : A removed; Stack2: [] ; 9. Pop B from Stack2 : B removed; Stack2: [] ; 10. Pop C from Stack2 : C removed; Stack2: [] ; 11. Pop D from Stack2 : D removed; Stack2: [] ; 12. Pop A from Stack2 : A removed; Stack2: [] ; 13. Pop B from Stack3 : B removed; Stack3: [A,B,C,D] ; 14. Pop C from Stack3 : C removed; Stack3: [A,B,C,D] ; 15. Pop D from Stack3 : D removed; Stack3: [A,B,C,D] ; 16. Pop A from Stack3 : A removed; Stack3: [A] ; 17. Pop A from Stack3 : A removed; Stack3: [] ; 18. Stack1: [] ; 19. Stack2: [] ; 20. Stack3: [A,B,C,D]
+?[A,B,C,D],[],[];[A,B,C],[],[D]
+?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack2: []**
+5.  **Stack3: [A,B,C,D]**
+6.  **Stack1: [B,D,C]**
+7.  **Stack2: []**
+8.  **Stack3: [A,B,C,D]**
+9.  **Stack1: [D,C]**
+10. **Stack2: []**
+11. **Stack3: [A,B,C,D]**
+12. **Stack1: [D,C]**
+13. **Stack2: []**
+14. **Stack3: [A,B,C,D]**
+15. **Stack1: []**
+16. **Stack2: []**
+17. **Stack3: [A,B,C,D]**?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Stack2: [] ; 5. Stack3: [A,B,C,D] ; 6. Stack1: [B,A,D,C] ; 7. Stack2: [] ; 8. Stack3: [A,B,C,D] ; 9. Stack1: [B,A,D,C] ; 10. Stack2: [] ; 11. Stack3: [A,B,C,D] ; 12. Stack1: [B,A,D,C] ; 13. Stack2: [] ; 14. Stack3: [A,B,C,D] ; 15. Stack1: [] ; 16. Stack2: [] ; 17. Stack3: [A,B,C,D] ; 18. Stack1: [] ; 19. Stack2: [] ; 20. Stack3: [A,B,C,D] ]?1.  **Stack3: [A,B,C,D]**  Push A onto Stack3. (1 step)
+2.  **Stack2: []**  Push B onto Stack2. (2 steps)
+3.  **Stack1: [A,D,C]**  Push D onto Stack1. (3 steps)
+4.  **Stack2: [B]**  Push B onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push C onto Stack3. (5 steps)
+6.  **Stack1: []**  Pop C from Stack3. (6 steps)
+7.  **Stack2: []**  Pop D from Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Pop B from Stack3. (8 steps)
+9.  **Stack1: []**  Pop A from Stack1. (9 steps)
+10. **Stack2: []**  Pop C from Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Pop D from Stack3. (11 steps)?[A,B,C,D],[],[];[A,B,C],[],[D]?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C],[],[D]?[A,B,C,D] ;[] ;[];[A,B,C] ;[] ;[D]?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack3: [A,B,C,D]**
+4.  **Stack1: []**
+5.  **Stack2: []**
+6.  **Stack3: [A,B,C,D]**
+7.  **Stack1: []**
+8.  **Stack2: []**
+9.  **Stack3: [A,B,C,D]**
+10. **Stack1: []**
+11. **Stack2: []**
+12. **Stack3: [A,B,C,D]**
+13. **Stack1: []**
+14. **Stack2: []**
+15. **Stack3: [A,B,C,D]**
+16. **Stack1: []**
+17. **Stack2: []**
+18. **Stack3: [A,B,C,D]**
+19. **Stack1: []**
+20. **Stack2: []**?1.  **Stack3: [A, B, C, D]** (Push A onto Stack3) - Goal: Establish a base for the final arrangement.
+
+2.  **Stack2: []** (Pop A from Stack3) -  Remove A.
+
+3.  **Stack1: [B, D, C]** (Push B and D onto Stack1) - Goal: Begin filling Stack1.
+
+4.  **Stack3: [A, B, C, D]** (Push B and C onto Stack3) -  Add B and C to Stack3.
+
+5.  **Stack2: []** (Pop C from Stack3) - Remove C.
+
+6.  **Stack1: [B, D, D]** (Push D onto Stack1) - Goal: Begin filling Stack1.
+
+7.  **Stack3: [A, B, C, D]** (Push B onto Stack3) - Add B to Stack3.
+
+8.  **Stack2: []** (Pop C from Stack3) - Remove C.
+
+9.  **Stack1: [B, D]** (Push B onto Stack1) - Goal: Begin filling Stack1.
+
+10. **Stack3: [A, B, C]** (Push B onto Stack3) - Add B to Stack3.
+
+11. **Stack2: []** (Pop C from Stack3) - Remove C.
+
+12. **Stack1: [B, D, C]** (Push B onto Stack1) - Goal: Begin filling Stack1.
+
+13. **Stack3: [A, B, C]** (Push B onto Stack3) - Add B to Stack3.
+
+14. **Stack2: []** (Pop C from Stack3) - Remove C.
+
+15. **Stack1: [B, D, C]** (Push B onto Stack1) - Goal: Begin filling Stack1.
+
+16. **Stack3: [A, B, C]** (Push B onto Stack3) - Add B to Stack3.
+
+17. **Stack2: []** (Pop C from Stack3) - Remove C.
+
+18. **Stack1: [B, D, C]** (Push B onto Stack1) - Goal: Begin filling Stack1.
+
+19. **Stack3: [A, B, C]** (Push B onto Stack3) - Add B to Stack3.
+
+Therefore, the final configuration is: Stack1: [B, D, C], Stack2: [], Stack3: [A, B, C]
+?1.  **Stack3: [A,B,C,D]**  Push A onto Stack3. (1 step)
+2.  **Stack2: []**  Push B onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]**  Push A onto Stack1. (3 steps)
+4.  **Stack2: [B,A]**  Push B onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push C onto Stack3. (5 steps)
+6.  **Stack1: [B,A,D,C]**  Push D onto Stack1. (6 steps)
+7.  **Stack2: [B,A]**  Push A onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push C onto Stack3. (8 steps)
+9.  **Stack1: []**  Pop A from Stack1. (9 steps)
+10. **Stack2: []**  Pop B from Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Pop C from Stack3. (11 steps)
+12. **Stack1: []**  Pop D from Stack1. (12 steps)
+13. **Stack2: []**  Pop A from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]**  Pop B from Stack3. (14 steps)?1. **Stack3:** Push A into Stack3. (1 step)
+2. **Stack2:** Pop A from Stack3. (2 steps)
+3. **Stack1:** Pop A from Stack3. (3 steps)
+4. **Stack1:** Push B into Stack1. (4 steps)
+5. **Stack1:** Pop B from Stack1. (5 steps)
+6. **Stack1:** Push D into Stack1. (6 steps)
+7. **Stack1:** Pop D from Stack1. (7 steps)
+8. **Stack1:** Pop C from Stack1. (8 steps)
+9. **Stack1:** Pop A from Stack1. (9 steps)
+10. **Stack1:** Pop B from Stack1. (10 steps)
+11. **Stack1:** Pop D from Stack1. (11 steps)
+12. **Stack1:** Pop C from Stack1. (12 steps)
+
+Therefore, the final configuration is: [A, B, C, D],[],[];[A, B, C, D].?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack2: []**
+5.  **Stack3: [A,B,C,D]**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack2: []**
+8.  **Stack3: [A,B,C,D]**
+9.  **Stack1: [B,A,D,C]**
+10. **Stack2: []**
+11. **Stack3: [A,B,C,D]**
+12. **Stack1: [B,A,D,C]**
+13. **Stack2: []**
+14. **Stack3: [A,B,C,D]**
+15. **Stack1: [B,A,D,C]**
+16. **Stack2: []**
+17. **Stack3: [A,B,C,D]**
+18. **Stack1: [B,A,D,C]**
+19. **Stack2: []**?1.  **Stack3: [A,B,C,D]**  Push 'A' onto Stack3. (1 step)
+2.  **Stack2: []**  Push 'B' onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]**  Push 'D' onto Stack1. (3 steps)
+4.  **Stack2: [B]**  Push 'B' onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push 'C' onto Stack3. (5 steps)
+6.  **Stack1: [B,A,D,C]**  Push 'D' onto Stack1. (6 steps)
+7.  **Stack2: [B]**  Push 'B' onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (8 steps)
+9.  **Stack1: [B,A,D,C]**  Push 'C' onto Stack1. (9 steps)
+10. **Stack2: [B]**  Push 'B' onto Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (11 steps)
+12. **Stack1: [B,A,D,C]**  Push 'C' onto Stack1. (12 steps)
+13. **Stack2: [B]**  Push 'B' onto Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (14 steps)
+15. **Stack1: [B,A,D,C]**  Push 'C' onto Stack1. (15 steps)
+16. **Stack2: [B]**  Push 'B' onto Stack2. (16 steps)
+17. **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (17 steps)
+?1.  **Stack3: [A,B,C,D]**  Push A onto Stack3. (1 step)
+2.  **Stack2: []**  Push B onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]**  Push D onto Stack1. (3 steps)
+4.  **Stack2: [B]**  Pop D from Stack1. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push C onto Stack3. (5 steps)
+6.  **Stack1: [B,A,D,C]**  Pop C from Stack3. (6 steps)
+7.  **Stack2: []**  Pop D from Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push B onto Stack3. (8 steps)
+9.  **Stack1: []**  Pop B from Stack3. (9 steps)
+10. **Stack2: []**  Pop A from Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Push C onto Stack3. (11 steps)
+12. **Stack1: []**  Pop D from Stack3. (12 steps)
+?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C,D]?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack2: []**
+5.  **Stack3: [A,B,C,D]**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack2: []**
+8.  **Stack3: [A,B,C,D]**
+9.  **Stack1: [B,A,D,C]**
+10. **Stack2: []**
+11. **Stack3: [A,B,C,D]**
+12. **Stack1: [B,A,D,C]**
+13. **Stack2: []**
+14. **Stack3: [A,B,C,D]**
+15. **Stack1: [B,A,D,C]**
+16. **Stack2: []**
+17. **Stack3: [A,B,C,D]**
+18. **Stack1: [B,A,D,C]**
+19. **Stack2: []**
+?[A,B,C,D],[],[];[A,B,C],[],[D]
+?1.  **Stack3:** Push 'A' onto Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack2. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack1. (3 steps)
+4.  **Stack3:** Push 'B' onto Stack3. (4 steps)
+5.  **Stack2:** Pop 'B' from Stack2. (5 steps)
+6.  **Stack1:** Pop 'B' from Stack1. (6 steps)
+7.  **Stack3:** Push 'C' onto Stack3. (7 steps)
+8.  **Stack2:** Pop 'C' from Stack2. (8 steps)
+9.  **Stack1:** Pop 'C' from Stack1. (9 steps)
+10. **Stack3:** Push 'D' onto Stack3. (10 steps)
+11. **Stack2:** Pop 'D' from Stack2. (11 steps)
+12. **Stack1:** Pop 'D' from Stack1. (12 steps)
+13. **Stack3:** Pop 'A' from Stack3. (13 steps)
+14. **Stack2:** Pop 'A' from Stack2. (14 steps)
+15. **Stack1:** Pop 'A' from Stack1. (15 steps)
+16. **Stack3:** Pop 'B' from Stack3. (16 steps)
+17. **Stack2:** Pop 'B' from Stack2. (17 steps)
+18. **Stack1:** Pop 'B' from Stack1. (18 steps)?[1. Stack3: Push A into Stack3.]
+[2. Stack2: Pop A from Stack3 and push B into Stack2.]
+[3. Stack1: Pop B from Stack2 and push D into Stack1.]
+[4. Stack3: Pop D from Stack3 and push C into Stack3.]
+[5. Stack2: Pop C from Stack3 and push A into Stack2.]
+[6. Stack1: Pop A from Stack1 and push B from Stack1.]
+[7. Stack3: Pop B from Stack3 and push A from Stack3.]
+[8. Stack2: Pop A from Stack2 and push B from Stack2.]
+[9. Stack1: Pop B from Stack1 and push D from Stack1.]
+[10. Stack3: Pop D from Stack3 and push C from Stack3.]
+[11. Stack2: Pop C from Stack2 and push A from Stack2.]
+[12. Stack1: Pop A from Stack1 and push B from Stack1.]
+[13. Stack3: Pop B from Stack3 and push A from Stack3.]
+[14. Stack2: Pop A from Stack2 and push B from Stack2.]
+[15. Stack1: Pop B from Stack1 and push D from Stack1.]
+?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack1:** Pop `C` from Stack1. (7 steps)
+8.  **Stack1:** Pop `B` from Stack1. (8 steps)
+9.  **Stack1:** Pop `D` from Stack1. (9 steps)
+10. **Stack2:** Pop `A` from Stack2. (10 steps)
+11. **Stack2:** Pop `B` from Stack2. (11 steps)
+12. **Stack2:** Pop `D` from Stack2. (12 steps)
+13. **Stack2:** Pop `C` from Stack2. (13 steps)
+14. **Stack2:** Pop `A` from Stack2. (14 steps)
+
+Therefore, the final configuration is: [A, B, C, D],[],[];[A, B, C],[],[D];?[A,B,C,D],[],[];[A,B,C],[],[D],[B,A,D,C],[],[C,D],[]]?1.  **Stack3:** Push 'A' onto Stack3. (1 step)
+2.  **Stack2:** Push 'B' onto Stack2. (2 steps)
+3.  **Stack1:** Push 'D' onto Stack1. (3 steps)
+4.  **Stack3:** Pop 'A' from Stack3. (1 step)
+5.  **Stack2:** Pop 'B' from Stack2. (1 step)
+6.  **Stack1:** Pop 'D' from Stack1. (1 step)
+7.  **Stack3:** Pop 'A' from Stack3. (1 step)
+8.  **Stack2:** Pop 'B' from Stack2. (1 step)
+9.  **Stack1:** Pop 'D' from Stack1. (1 step)
+10. **Stack3:** Pop 'A' from Stack3. (1 step)
+11. **Stack2:** Pop 'B' from Stack2. (1 step)
+12. **Stack1:** Pop 'D' from Stack1. (1 step)
+13. **Stack3:** Pop 'A' from Stack3. (1 step)
+14. **Stack2:** Pop 'B' from Stack2. (1 step)
+15. **Stack1:** Pop 'D' from Stack1. (1 step)
+
+?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack2. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack1. (3 steps)
+4.  **Stack3:** Push 'B' into Stack3. (4 steps)
+5.  **Stack2:** Pop 'B' from Stack2. (5 steps)
+6.  **Stack1:** Pop 'B' from Stack1. (6 steps)
+7.  **Stack3:** Push 'C' into Stack3. (7 steps)
+8.  **Stack2:** Pop 'C' from Stack2. (8 steps)
+9.  **Stack1:** Pop 'C' from Stack1. (9 steps)
+10. **Stack3:** Push 'D' into Stack3. (10 steps)
+11. **Stack2:** Pop 'D' from Stack2. (11 steps)
+12. **Stack1:** Pop 'D' from Stack1. (12 steps)
+13. **Stack3:** Pop 'A' from Stack3. (13 steps)
+14. **Stack2:** Pop 'A' from Stack2. (14 steps)
+15. **Stack1:** Pop 'A' from Stack1. (15 steps)
+16. **Stack3:** Pop 'B' from Stack3. (16 steps)
+17. **Stack2:** Pop 'B' from Stack2. (17 steps)
+18. **Stack1:** Pop 'B' from Stack1. (18 steps)?[A, B, C, D] ; [] ; [] ; [A, B, C, D] ; [] ; [] ; [A, B, C, D] ; [] ; [] ; [A, B, C, D] ; [] ; [] ; [A, B, C, D] ; [] ; [] ; [A, B, C, D]?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack3. (3 steps)
+4.  **Stack1:** Push 'B' into Stack1. (4 steps)
+5.  **Stack1:** Push 'D' into Stack1. (5 steps)
+6.  **Stack1:** Push 'C' into Stack1. (6 steps)
+7.  **Stack2:** Pop 'C' from Stack1. (7 steps)
+8.  **Stack2:** Pop 'D' from Stack1. (8 steps)
+9.  **Stack2:** Pop 'B' from Stack1. (9 steps)
+10. **Stack2:** Pop 'A' from Stack1. (10 steps)
+11. **Stack3:** Pop 'A' from Stack3. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack3:** Pop 'C' from Stack3. (13 steps)
+14. **Stack3:** Pop 'D' from Stack3. (14 steps)
+?1.  **Stack3:** Push A into Stack3. (1 step)
+2.  **Stack2:** Pop A from Stack3. (2 steps)
+3.  **Stack1:** Pop A from Stack2. (3 steps)
+4.  **Stack1:** Push B into Stack1. (4 steps)
+5.  **Stack1:** Push D into Stack1. (5 steps)
+6.  **Stack1:** Push C into Stack1. (6 steps)
+7.  **Stack3:** Pop A from Stack3. (7 steps)
+8.  **Stack3:** Pop B from Stack3. (8 steps)
+9.  **Stack3:** Pop C from Stack3. (9 steps)
+10. **Stack3:** Pop D from Stack3. (10 steps)
+11. **Stack3:** Pop A from Stack3. (11 steps)
+12. **Stack3:** Pop B from Stack3. (12 steps)
+13. **Stack3:** Pop C from Stack3. (13 steps)
+14. **Stack3:** Pop D from Stack3. (14 steps)
+15. **Stack3:** Pop A from Stack3. (15 steps)
+16. **Stack3:** Pop B from Stack3. (16 steps)
+17. **Stack3:** Pop C from Stack3. (17 steps)
+18. **Stack3:** Pop D from Stack3. (18 steps)
+?1.  **Stack3: [A,B,C,D]**  Start with Stack3 containing four elements: A, B, C, and D.
+
+2.  **Stack2: []**  Empty Stack2.
+
+3.  **Stack1: [B,A,D,C]**  Start with Stack1 containing four elements: B, A, D, and C.
+
+4.  **Pop A from Stack1:** Remove A from Stack1. Stack1 now contains [B, D, C].
+
+5.  **Pop B from Stack1:** Remove B from Stack1. Stack1 now contains [D, C].
+
+6.  **Pop D from Stack1:** Remove D from Stack1. Stack1 now contains [C].
+
+7.  **Pop C from Stack1:** Remove C from Stack1. Stack1 now contains [].
+
+8.  **Pop B from Stack2:** Remove B from Stack2. Stack2 now contains [].
+
+9.  **Pop A from Stack2:** Remove A from Stack2. Stack2 now contains [].
+
+10. **Pop D from Stack2:** Remove D from Stack2. Stack2 now contains [].
+
+11. **Pop C from Stack2:** Remove C from Stack2. Stack2 now contains [].
+
+12. **Pop A from Stack1:** Remove A from Stack1. Stack1 now contains [].
+
+13. **Pop B from Stack1:** Remove B from Stack1. Stack1 now contains [].
+
+14. **Pop C from Stack1:** Remove C from Stack1. Stack1 now contains [].
+
+15. **Pop D from Stack1:** Remove D from Stack1. Stack1 now contains [].
+
+16. **Pop A from Stack1:** Remove A from Stack1. Stack1 now contains [].
+
+17. **Pop B from Stack1:** Remove B from Stack1. Stack1 now contains [].
+
+18. **Pop C from Stack1:** Remove C from Stack1. Stack1 now contains [].
+
+19. **Pop D from Stack1:** Remove D from Stack1. Stack1 now contains [].
+
+Therefore, the final configuration is: Stack1: [], Stack2: [], Stack3: [A,B,C,D].?1.  **Stack3:** Push `A` onto Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3 and push `B` onto Stack2. (2 steps)
+3.  **Stack1:** Pop `B` from Stack2 and push `A` onto Stack1. (3 steps)
+4.  **Stack3:** Pop `A` from Stack3 and push `B` onto Stack3. (4 steps)
+5.  **Stack2:** Pop `B` from Stack3 and push `C` onto Stack2. (5 steps)
+6.  **Stack1:** Pop `C` from Stack1 and push `D` onto Stack1. (6 steps)
+7.  **Stack3:** Pop `A` from Stack3 and push `B` onto Stack3. (7 steps)
+8.  **Stack2:** Pop `B` from Stack3 and push `C` onto Stack2. (8 steps)
+9.  **Stack1:** Pop `C` from Stack1 and push `D` onto Stack1. (9 steps)
+10. **Stack3:** Pop `A` from Stack3 and push `B` onto Stack3. (10 steps)
+11. **Stack2:** Pop `B` from Stack2 and push `C` onto Stack2. (11 steps)
+12. **Stack1:** Pop `C` from Stack1 and push `D` onto Stack1. (12 steps)
+?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3. (2 steps)
+3.  **Stack1:** Push 'B' into Stack1. (3 steps)
+4.  **Stack1:** Pop 'B' from Stack1. (4 steps)
+5.  **Stack2:** Pop 'B' from Stack1. (5 steps)
+6.  **Stack3:** Pop 'A' from Stack3. (6 steps)
+7.  **Stack3:** Push 'C' into Stack3. (7 steps)
+8.  **Stack3:** Pop 'C' from Stack3. (8 steps)
+9.  **Stack1:** Pop 'C' from Stack3. (9 steps)
+10. **Stack3:** Pop 'A' from Stack3. (10 steps)
+11. **Stack3:** Pop 'C' from Stack3. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack3:** Pop 'D' from Stack3. (13 steps)
+14. **Stack1:** Pop 'D' from Stack3. (14 steps)
+15. **Stack2:** Pop 'D' from Stack3. (15 steps)
+16. **Stack3:** Pop 'A' from Stack3. (16 steps)
+17. **Stack3:** Pop 'B' from Stack3. (17 steps)
+18. **Stack3:** Pop 'C' from Stack3. (18 steps)
+19. **Stack3:** Pop 'D' from Stack3. (19 steps)
+?1.  **Stack3: [A,B,C,D]**  Push 'A' onto Stack3. (1 step)
+2.  **Stack2: []**  Push 'B' onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]**  Push 'B' onto Stack1. (3 steps)
+4.  **Stack2: [B]**  Push 'B' onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push 'A' onto Stack3. (5 steps)
+6.  **Stack1: [B,A,D,C]**  Push 'D' onto Stack1. (6 steps)
+7.  **Stack2: [B,A,C,D]**  Push 'C' onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (8 steps)
+9.  **Stack1: []**  Pop 'D' from Stack3. (9 steps)
+10. **Stack2: []**  Pop 'C' from Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Pop 'A' from Stack3. (11 steps)
+12. **Stack1: []**  Pop 'B' from Stack1. (12 steps)
+13. **Stack2: []**  Pop 'C' from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]**  Pop 'D' from Stack3. (14 steps)?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3)  Stack3 now contains [A, B, C, D].
+2.  **Stack2: []** (Pop A from Stack3)  Stack2 is empty, so we pop A.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1)  Stack1 now contains [B, A, D, C].
+4.  **Stack3: [A,B,C,D]** (Push C onto Stack3)  Stack3 now contains [A, B, C, D].
+5.  **Stack2: []** (Pop D from Stack3)  Stack2 is empty, so we pop D.
+6.  **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 now contains [B, A, C, D].
+7.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+8.  **Stack2: []** (Pop C from Stack3)  Stack2 is empty, so we pop C.
+9.  **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 now contains [B, A, C, D].
+10. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+11. **Stack2: []** (Pop C from Stack3)  Stack2 is empty, so we pop C.
+12. **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 now contains [B, A, C, D].
+13. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+14. **Stack2: []** (Pop C from Stack3)  Stack2 is empty, so we pop C.
+15. **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 now contains [B, A, C, D].
+16. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+?Stack1: [B,A,D,C],[],[];[A,B,C,D],[],[D];
+Stack2: [B,A,D,C],[],[];[A,B,C,D],[],[D];
+Stack3: [A,B,C,D],[],[];[A,B,C,D],[],[D];?[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+[A,B,C,D]
+?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack3. (3 steps)
+4.  **Stack1:** Push 'B' into Stack1. (4 steps)
+5.  **Stack1:** Push 'D' into Stack1. (5 steps)
+6.  **Stack1:** Push 'C' into Stack1. (6 steps)
+7.  **Stack2:** Pop 'C' from Stack1. (7 steps)
+8.  **Stack2:** Pop 'D' from Stack1. (8 steps)
+9.  **Stack2:** Pop 'B' from Stack1. (9 steps)
+10. **Stack2:** Pop 'A' from Stack1. (10 steps)
+11. **Stack3:** Pop 'A' from Stack3. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack3:** Pop 'C' from Stack3. (13 steps)
+14. **Stack3:** Pop 'D' from Stack3. (14 steps)
+?[A,B,C,D],[],[];[A,B,C],[],[D]?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Stack2: [B] ; 5. Stack3: [A,B,C,D] ; 6. Stack1: [B,A,D,C] ; 7. Stack2: [B] ; 8. Stack3: [A,B,C,D] ; 9. Stack1: [B,A,D,C] ; 10. Stack2: [B] ; 11. Stack3: [A,B,C,D] ; 12. Stack1: [B,A,D,C] ; 13. Stack2: [B] ; 14. Stack3: [A,B,C,D] ; 15. Stack1: [B,A,D,C] ; 16. Stack2: [B] ; 17. Stack3: [A,B,C,D] ; 18. Stack1: [A,B,C,D] ; 19. Stack2: [A,B,C,D] ; 20. Stack3: [A,B,C,D] ]?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Push 'B' into Stack2. (2 steps)
+3.  **Stack1:** Push 'D' into Stack1. (3 steps)
+4.  **Stack3:** Pop 'A' from Stack3. (4 steps)
+5.  **Stack2:** Pop 'B' from Stack2. (5 steps)
+6.  **Stack1:** Pop 'D' from Stack1. (6 steps)
+7.  **Stack3:** Pop 'A' from Stack3. (7 steps)
+8.  **Stack2:** Pop 'B' from Stack2. (8 steps)
+9.  **Stack1:** Pop 'D' from Stack1. (9 steps)
+10. **Stack3:** Pop 'A' from Stack3. (10 steps)
+11. **Stack2:** Pop 'B' from Stack2. (11 steps)
+12. **Stack1:** Pop 'D' from Stack1. (12 steps)
+
+?1.  **Stack3: [A,B,C,D]**  Push 'A' onto Stack3. (1 step)
+2.  **Stack2: []**  Push 'B' onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]**  Push 'D' onto Stack1. (3 steps)
+4.  **Stack2: [B]**  Pop 'D' from Stack1. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push 'C' onto Stack3. (5 steps)
+6.  **Stack1: [B,A,D,C]**  Pop 'C' from Stack3. (6 steps)
+7.  **Stack2: []**  Pop 'A' from Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push 'B' onto Stack3. (8 steps)
+9.  **Stack1: []**  Pop 'B' from Stack3. (9 steps)
+10. **Stack2: []**  Pop 'A' from Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (11 steps)
+12. **Stack1: []**  Pop 'D' from Stack3. (12 steps)
+
+The final configuration is achieved through a series of pushes and pops, systematically adding elements to each stack while maintaining the order of insertion.?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack3: [A,B,C,D]**
+5.  **Stack2: []**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack3: [A,B,C,D]**
+8.  **Stack2: []**
+9.  **Stack1: [B,A,D,C]**
+10. **Stack3: [A,B,C,D]**
+11. **Stack2: []**
+12. **Stack1: [B,D,C]**
+13. **Stack3: [A,B,C,D]**
+14. **Stack2: []**
+15. **Stack1: [B,C]**
+16. **Stack3: [A,B,C]**
+17. **Stack2: []**
+18. **Stack1: [B,C]**
+19. **Stack3: [A,B,C]**
+20. **Stack2: []**
+21. **Stack1: [B,C]**
+22. **Stack3: [A,B,C]**
+?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3) -  Start with Stack3 containing the four elements.
+2.  **Stack2: []** (Pop A from Stack3 and add to Stack2) -  Stack2 is now empty, so we add the popped element.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1) -  Stack1 now contains the four elements.
+4.  **Stack2: [B,A]** (Pop A from Stack1 and push B to Stack2) - Stack2 has now two elements.
+5.  **Stack3: [A,B,C,D]** (Push B onto Stack3) - Stack3 now contains the four elements.
+6.  **Stack1: [B,D,C]** (Pop C from Stack3 and push B to Stack1) - Stack1 has now two elements.
+7.  **Stack2: [B]** (Pop B from Stack1 and add to Stack2) - Stack2 has now one element.
+8.  **Stack3: [A,B,C,D]** (Push C to Stack3) - Stack3 now contains the four elements.
+9.  **Stack1: []** (Pop C from Stack3 and add to Stack1) - Stack1 has now zero elements.
+10. **Stack2: []** (Pop B from Stack3 and add to Stack2) - Stack2 has now zero elements.
+11. **Stack3: [A,B,C,D]** (Push D to Stack3) - Stack3 now contains the four elements.
+?[1. Stack3: Push 'A' to Stack3.]
+[2. Stack2: Pop 'A' from Stack3.]
+[3. Stack1: Push 'B' to Stack1.]
+[4. Stack1: Pop 'B' from Stack1.]
+[5. Stack3: Push 'C' to Stack3.]
+[6. Stack2: Pop 'C' from Stack3.]
+[7. Stack1: Pop 'C' from Stack1.]
+[8. Stack3: Push 'A' to Stack3.]
+[9. Stack2: Pop 'A' from Stack3.]
+[10. Stack1: Pop 'B' from Stack1.]
+[11. Stack3: Push 'D' to Stack3.]
+[12. Stack2: Pop 'D' from Stack3.]
+[13. Stack1: Pop 'C' from Stack1.]
+[14. Stack3: Push 'A' to Stack3.]
+[15. Stack2: Pop 'A' from Stack3.]
+[16. Stack1: Pop 'B' from Stack1.]
+[17. Stack3: Push 'D' to Stack3.]
+[18. Stack2: Pop 'D' from Stack3.]
+[19. Stack1: Pop 'C' from Stack1.]?1.  **Stack3: [A,B,C,D]**  Push A onto Stack3. (1 step)
+2.  **Stack2: []**  Pop A from Stack3 and add it to Stack2. (2 steps)
+3.  **Stack1: [B,D,C]**  Push B onto Stack1. (3 steps)
+4.  **Stack2: [B,D]**  Push B onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push C onto Stack3. (5 steps)
+6.  **Stack1: [B,D,C]**  Pop C from Stack3 and add it to Stack1. (6 steps)
+7.  **Stack2: [B,D]**  Push B onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push D from Stack3 and add it to Stack3. (8 steps)
+9.  **Stack1: [B,C]**  Pop C from Stack1 and add it to Stack1. (9 steps)
+10. **Stack2: [B]**  Pop B from Stack2 and add it to Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Pop D from Stack3 and add it to Stack3. (11 steps)
+12. **Stack1: []**  Pop C from Stack1 and add it to Stack1. (12 steps)
+13. **Stack2: []**  Pop B from Stack2 and add it to Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]**  Pop D from Stack3 and add it to Stack3. (14 steps)?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack3: [A,B,C,D]**
+5.  **Stack2: []**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack3: [A,B,C,D]**
+8.  **Stack2: []**
+9.  **Stack1: [B,A,D,C]**
+10. **Stack3: [A,B,C,D]**
+11. **Stack2: []**
+12. **Stack1: [B,A,D,C]**
+13. **Stack3: [A,B,C,D]**
+14. **Stack2: []**
+15. **Stack1: [A,C]**
+16. **Stack3: [A,B,C,D]**
+17. **Stack2: []**
+18. **Stack1: [A,C]**?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack3. (3 steps)
+4.  **Stack1:** Push 'B' into Stack1. (4 steps)
+5.  **Stack1:** Push 'D' into Stack1. (5 steps)
+6.  **Stack1:** Push 'C' into Stack1. (6 steps)
+7.  **Stack2:** Pop 'C' from Stack1. (7 steps)
+8.  **Stack2:** Pop 'D' from Stack1. (8 steps)
+9.  **Stack2:** Pop 'B' from Stack1. (9 steps)
+10. **Stack2:** Pop 'A' from Stack1. (10 steps)
+11. **Stack2:** Pop 'D' from Stack1. (11 steps)
+12. **Stack3:** Pop 'A' from Stack3. (12 steps)
+13. **Stack3:** Pop 'B' from Stack3. (13 steps)
+14. **Stack3:** Pop 'C' from Stack3. (14 steps)
+15. **Stack3:** Pop 'D' from Stack3. (15 steps)
+16. **Stack3:** Pop 'A' from Stack3. (16 steps)
+17. **Stack3:** Pop 'B' from Stack3. (17 steps)
+18. **Stack3:** Pop 'C' from Stack3. (18 steps)
+19. **Stack3:** Pop 'D' from Stack3. (19 steps)
+?[1. Stack3: Push 'A' onto Stack3.]
+[2. Stack2: Pop 'A' from Stack3.]
+[3. Stack1: Pop 'A' from Stack3.]
+[4. Stack1: Push 'B' onto Stack1.]
+[5. Stack1: Pop 'B' from Stack1.]
+[6. Stack1: Push 'D' onto Stack1.]
+[7. Stack1: Pop 'D' from Stack1.]
+[8. Stack1: Push 'C' onto Stack1.]
+[9. Stack3: Pop 'A' from Stack3.]
+[10. Stack3: Pop 'B' from Stack3.]
+[11. Stack3: Pop 'C' from Stack3.]
+[12. Stack3: Pop 'D' from Stack3.]
+[13. Stack3: Pop 'A' from Stack3.]
+[14. Stack3: Pop 'B' from Stack3.]
+[15. Stack3: Pop 'C' from Stack3.]
+[16. Stack3: Pop 'D' from Stack3.]
+[17. Stack3: Pop 'A' from Stack3.]
+[18. Stack3: Pop 'B' from Stack3.]
+[19. Stack3: Pop 'C' from Stack3.]?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3)  Initializing Stack3.
+2.  **Stack2: []** (Pop A from Stack3)  Stack2 empty.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1)  Stack1 contains B, A, D, C.
+4.  **Stack2: []** (Pop A from Stack1)  Stack2 empty.
+5.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 contains A, B, C, D.
+6.  **Stack1: [B,A,D,C]** (Push D onto Stack1)  Stack1 contains B, A, D, C.
+7.  **Stack2: []** (Pop A from Stack1)  Stack2 empty.
+8.  **Stack3: [B,D,C]** (Push B onto Stack3)  Stack3 contains B, D, C.
+9.  **Stack1: [B,D,C]** (Push D onto Stack1)  Stack1 contains B, D, C.
+10. **Stack2: []** (Pop C from Stack1)  Stack2 empty.
+11. **Stack3: [B,D,C]** (Push B onto Stack3)  Stack3 contains B, D, C.
+12. **Stack1: [B,D,C]** (Push D onto Stack1)  Stack1 contains B, D, C.
+13. **Stack2: []** (Pop C from Stack1)  Stack2 empty.
+14. **Stack3: [B,D,C]** (Push B onto Stack3)  Stack3 contains B, D, C.
+15. **Stack1: [B,D,C]** (Push D onto Stack1)  Stack1 contains B, D, C.
+16. **Stack2: []** (Pop C from Stack1)  Stack2 empty.
+?[1. Stack3: Push A into Stack3.]
+[2. Stack2: Pop A from Stack3 and push B into Stack2.]
+[3. Stack1: Pop B from Stack2 and push D into Stack1.]
+[4. Stack3: Pop D from Stack3 and push A into Stack3.]
+[5. Stack2: Pop A from Stack3 and push B into Stack2.]
+[6. Stack1: Pop B from Stack1 and push C into Stack1.]
+[7. Stack3: Pop C from Stack3 and push D from Stack3.]
+[8. Stack2: Pop D from Stack3 and push A into Stack2.]
+[9. Stack1: Pop A from Stack1 and push C into Stack1.]
+[10. Stack3: Pop C from Stack3 and push D from Stack3.]
+[11. Stack2: Pop D from Stack3 and push A into Stack2.]
+[12. Stack1: Pop A from Stack1 and push C from Stack1.]
+[13. Stack3: Pop B from Stack3 and push D from Stack3.]
+[14. Stack2: Pop B from Stack2 and push C from Stack2.]
+[15. Stack1: Pop C from Stack1 and push D from Stack1.]
+?[1. Stack3: Push A onto Stack3.]
+[2. Stack2: Pop A from Stack3.]
+[3. Stack1: Pop A from Stack3.]
+[4. Stack1: Push B onto Stack1.]
+[5. Stack1: Push D onto Stack1.]
+[6. Stack1: Push C onto Stack1.]
+[7. Stack2: Pop C from Stack1.]
+[8. Stack2: Pop D from Stack1.]
+[9. Stack2: Pop B from Stack1.]
+[10. Stack2: Pop A from Stack1.]
+[11. Stack3: Pop A from Stack3.]
+[12. Stack3: Pop B from Stack3.]
+[13. Stack3: Pop C from Stack3.]
+[14. Stack3: Pop D from Stack3.]
+[15. Stack3: Pop A from Stack3.]
+[16. Stack3: Pop B from Stack3.]
+[17. Stack3: Pop C from Stack3.]
+[18. Stack3: Pop D from Stack3.]?[A,B,C,D],[],[];[A,B,C],[],[D],[]]?1.  **Stack3: [A,B,C,D]**  Push A onto Stack3. (1 step)
+2.  **Stack2: []**  Push B onto Stack2. (2 steps)
+3.  **Stack1: [A,D,C]**  Push D onto Stack1. (3 steps)
+4.  **Stack2: [B]**  Push B onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push C onto Stack3. (5 steps)
+6.  **Stack1: [A,D,C]**  Push D onto Stack1. (6 steps)
+7.  **Stack2: [B]**  Push B onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push D onto Stack3. (8 steps)
+9.  **Stack1: [A,D,C]**  Push C onto Stack1. (9 steps)
+10. **Stack2: [B]**  Push B onto Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Push D onto Stack3. (11 steps)
+12. **Stack1: []**  Pop D from Stack1. (12 steps)
+13. **Stack2: []**  Pop B from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]**  Pop D from Stack3. (14 steps)?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack2: []**
+5.  **Stack3: [A,B,C,D]**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack2: []**
+8.  **Stack3: [A,B,C,D]**
+9.  **Stack1: [B,A,D,C]**
+10. **Stack2: []**
+11. **Stack3: [A,B,C,D]**
+12. **Stack1: [B,A,D,C]**
+13. **Stack2: []**
+14. **Stack3: [A,B,C,D]**
+15. **Stack1: [B,A,D,C]**
+16. **Stack2: []**
+17. **Stack3: [A,B,C,D]**
+18. **Stack1: [B,A,D,C]**
+19. **Stack2: []**
+?1.  **Stack3: [A,B,C,D]** - Push A onto Stack3. (1 step)
+2.  **Stack2: []** - Push B onto Stack2. (2 steps)
+3.  **Stack1: [A,D,C]** - Push D onto Stack1. (3 steps)
+4.  **Stack2: [B]** - Push B onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]** - Push C onto Stack3. (5 steps)
+6.  **Stack1: [A,D,C]** - Push D onto Stack1. (6 steps)
+7.  **Stack2: [B]** - Push B onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]** - Push D onto Stack3. (8 steps)
+9.  **Stack1: []** - Pop D from Stack1. (9 steps)
+10. **Stack2: []** - Pop B from Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]** - Pop C from Stack3. (11 steps)
+12. **Stack1: []** - Pop A from Stack1. (12 steps)
+13. **Stack2: []** - Pop B from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]** - Pop C from Stack3. (14 steps)?[A,B,C,D],[],[];[A,B,C],[],[D]?1. **Stack3:** Push 'A' into Stack3. (1 step)
+2. **Stack2:** Pop 'A' from Stack3. (2 steps)
+3. **Stack1:** Pop 'A' from Stack3. (3 steps)
+4. **Stack1:** Push 'B' into Stack1. (4 steps)
+5. **Stack1:** Push 'D' into Stack1. (5 steps)
+6. **Stack1:** Push 'C' into Stack1. (6 steps)
+7. **Stack3:** Pop 'A' from Stack3. (7 steps)
+8. **Stack3:** Pop 'B' from Stack3. (8 steps)
+9. **Stack3:** Pop 'C' from Stack3. (9 steps)
+10. **Stack3:** Pop 'D' from Stack3. (10 steps)
+11. **Stack3:** Pop 'A' from Stack3. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack3:** Pop 'C' from Stack3. (13 steps)
+14. **Stack3:** Pop 'D' from Stack3. (14 steps)
+?Stack1: [B, A, D, C] ; Stack2: [A, B] ; Stack3: [A, B, C, D]?1.  **Stack3:** Push `A` into Stack3. (Step 1)
+2.  **Stack2:** Pop `A` from Stack3. (Step 2)
+3.  **Stack1:** Pop `A` from Stack3. (Step 3)
+4.  **Stack1:** Push `B` into Stack1. (Step 4)
+5.  **Stack1:** Push `D` into Stack1. (Step 5)
+6.  **Stack1:** Push `C` into Stack1. (Step 6)
+7.  **Stack2:** Pop `C` from Stack1. (Step 7)
+8.  **Stack2:** Pop `D` from Stack1. (Step 8)
+9.  **Stack2:** Pop `B` from Stack1. (Step 9)
+10. **Stack2:** Pop `A` from Stack1. (Step 10)
+11. **Stack3:** Pop `A` from Stack3. (Step 11)
+12. **Stack3:** Pop `B` from Stack3. (Step 12)
+13. **Stack3:** Pop `C` from Stack3. (Step 13)
+14. **Stack3:** Pop `D` from Stack3. (Step 14)?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack1:** Pop `C` from Stack1. (7 steps)
+8.  **Stack1:** Pop `D` from Stack1. (8 steps)
+9.  **Stack1:** Pop `B` from Stack1. (9 steps)
+10. **Stack1:** Pop `A` from Stack1. (10 steps)
+11. **Stack1:** Pop `B` from Stack1. (11 steps)
+12. **Stack1:** Pop `D` from Stack1. (12 steps)
+
+[A,B,C,D]
+?1.  **Stack3: [A,B,C,D]** (Push A to Stack3)  Initial state.
+2.  **Stack2: []** (Pop B from Stack2)  Stack2 is empty.
+3.  **Stack1: [A,D,C]** (Push D to Stack1)  Stack1 has A and D.
+4.  **Stack2: []** (Pop C from Stack2)  Stack2 is empty.
+5.  **Stack3: [A,B,C,D]** (Push B to Stack3)  Stack3 has A, B, C, and D.
+6.  **Stack1: [A,D,C]** (Pop C from Stack1)  Stack1 has A, D, and C.
+7.  **Stack2: []** (Pop D from Stack2)  Stack2 is empty.
+8.  **Stack3: [A,B,C,D]** (Push B to Stack3)  Stack3 has A, B, C, and D.
+9.  **Stack1: []** (Pop A from Stack1)  Stack1 is empty.
+10. **Stack2: []** (Pop B from Stack2)  Stack2 is empty.
+11. **Stack3: [A,B,C,D]** (Push C to Stack3)  Stack3 has A, B, C, and D.
+12. **Stack1: []** (Pop D from Stack1)  Stack1 is empty.
+13. **Stack2: []** (Pop B from Stack2)  Stack2 is empty.
+14. **Stack3: [A,B,C,D]** (Push C to Stack3)  Stack3 has A, B, C, and D.
+?1.  **Stack3: [A,B,C,D]** (Push A, B, C, D onto Stack3)  Starting with an empty stack.
+2.  **Stack2: []** (Pop A, B, C, D from Stack3)  Stack2 now contains the elements popped from Stack3.
+3.  **Stack1: [B,A,D,C]** (Push B, A, D, C onto Stack1)  Stack1 now contains the elements popped from Stack3.
+4.  **Stack2: []** (Pop B, A, D, C from Stack1)  Stack2 is empty.
+5.  **Stack3: [A,B,C,D]** (Push A, B, C, D onto Stack3)  Stack3 now contains the elements popped from Stack1.
+6.  **Stack1: []** (Pop A, B, C, D from Stack3)  Stack1 is empty.
+7.  **Stack2: []** (Pop B, C, D from Stack3)  Stack2 is empty.
+8.  **Stack3: [A,B,C,D]** (Push A, B, C, D onto Stack3)  Stack3 now contains the elements popped from Stack2.
+9.  **Stack1: []** (Pop A, B, C, D from Stack3)  Stack1 is empty.
+10. **Stack2: []** (Pop B, C, D from Stack3)  Stack2 is empty.
+11. **Stack3: [A,B,C,D]** (Push A, B, C, D onto Stack3)  Stack3 now contains the elements popped from Stack1.
+?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Stack2: [] ; 5. Stack3: [A,B,C,D] ; 6. Stack1: [B,A,D,C] ; 7. Stack2: [] ; 8. Stack3: [A,B,C,D] ; 9. Stack1: [] ; 10. Stack2: [] ; 11. Stack3: [A,B,C,D] ; 12. Stack1: [] ; 13. Stack2: [] ; 14. Stack3: [A,B,C,D] ; 15. Stack1: [] ; 16. Stack2: [] ; 17. Stack3: [A,B,C,D] ; 18. Stack1: []]?1.  **Stack3:** Push 'A' onto Stack3. (1 step)
+2.  **Stack2:** Push 'B' onto Stack2. (2 steps)
+3.  **Stack1:** Push 'D' onto Stack1. (3 steps)
+4.  **Stack3:** Pop 'A' from Stack3. (5 steps)
+5.  **Stack2:** Pop 'B' from Stack2. (6 steps)
+6.  **Stack1:** Pop 'D' from Stack1. (7 steps)
+7.  **Stack3:** Pop 'C' from Stack3. (8 steps)
+8.  **Stack2:** Pop 'B' from Stack2. (9 steps)
+9.  **Stack1:** Pop 'A' from Stack1. (10 steps)
+10. **Stack3:** Pop 'D' from Stack3. (11 steps)
+11. **Stack2:** Pop 'C' from Stack2. (12 steps)
+12. **Stack1:** Pop 'A' from Stack1. (13 steps)
+13. **Stack3:** Pop 'D' from Stack3. (14 steps)?[1. Stack3: Push 'A' into Stack3. 2. Stack2: Pop 'A' from Stack2. 3. Stack1: Pop 'A' from Stack1. 4. Stack3: Push 'B' into Stack3. 5. Stack2: Pop 'B' from Stack2. 6. Stack1: Pop 'B' from Stack1. 7. Stack3: Push 'C' into Stack3. 8. Stack2: Pop 'C' from Stack2. 9. Stack1: Pop 'C' from Stack1. 10. Stack3: Push 'D' into Stack3. 11. Stack2: Pop 'D' from Stack2. 12. Stack1: Pop 'D' from Stack1. 13. Stack3: Pop 'A' from Stack3. 14. Stack2: Pop 'A' from Stack2. 15. Stack1: Pop 'A' from Stack1. 16. Stack3: Pop 'B' from Stack3. 17. Stack2: Pop 'B' from Stack2. 18. Stack1: Pop 'B' from Stack1. 19. Stack3: Pop 'C' from Stack3. ]?1.  **Stack3:** Push A into Stack3. (1 step)
+2.  **Stack2:** Pop A from Stack3. (2 steps)
+3.  **Stack1:** Pop A from Stack3. (3 steps)
+4.  **Stack1:** Push B into Stack1. (4 steps)
+5.  **Stack1:** Push D into Stack1. (5 steps)
+6.  **Stack1:** Push C into Stack1. (6 steps)
+7.  **Stack2:** Pop C from Stack1. (7 steps)
+8.  **Stack2:** Pop D from Stack1. (8 steps)
+9.  **Stack2:** Pop B from Stack1. (9 steps)
+10. **Stack2:** Pop A from Stack1. (10 steps)
+11. **Stack3:** Pop B from Stack3. (11 steps)
+12. **Stack3:** Pop A from Stack3. (12 steps)
+13. **Stack3:** Pop C from Stack3. (13 steps)
+14. **Stack3:** Pop D from Stack3. (14 steps)?[1. Stack3: Push 'A' onto Stack3.]
+[2. Stack2: Push 'B' onto Stack2.]
+[3. Stack1: Push 'D' onto Stack1.]
+[4. Stack3: Pop 'A' from Stack3.]
+[5. Stack2: Pop 'B' from Stack2.]
+[6. Stack1: Pop 'D' from Stack1.]
+[7. Stack3: Pop 'A' from Stack3.]
+[8. Stack2: Pop 'B' from Stack2.]
+[9. Stack1: Pop 'D' from Stack1.]
+[10. Stack3: Pop 'A' from Stack3.]
+[11. Stack2: Pop 'B' from Stack2.]
+[12. Stack1: Pop 'D' from Stack1.]
+[13. Stack3: Pop 'A' from Stack3.]
+[14. Stack2: Pop 'B' from Stack2.]
+[15. Stack1: Pop 'D' from Stack1.]
+?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack2:** Pop `C` from Stack1. (7 steps)
+8.  **Stack2:** Pop `D` from Stack1. (8 steps)
+9.  **Stack2:** Pop `B` from Stack1. (9 steps)
+10. **Stack2:** Pop `A` from Stack1. (10 steps)
+11. **Stack3:** Pop `A` from Stack3. (11 steps)
+12. **Stack3:** Pop `B` from Stack3. (12 steps)
+13. **Stack3:** Pop `D` from Stack3. (13 steps)
+14. **Stack3:** Pop `C` from Stack3. (14 steps)
+?[1. Stack3: Push 'A' into Stack3.]
+[2. Stack2: Pop 'A' from Stack2.]
+[3. Stack1: Pop 'A' from Stack1.]
+[4. Stack3: Push 'B' into Stack3.]
+[5. Stack2: Pop 'B' from Stack2.]
+[6. Stack1: Pop 'B' from Stack1.]
+[7. Stack3: Push 'C' into Stack3.]
+[8. Stack2: Pop 'C' from Stack2.]
+[9. Stack1: Pop 'C' from Stack1.]
+[10. Stack3: Push 'D' into Stack3.]
+[11. Stack2: Pop 'D' from Stack2.]
+[12. Stack1: Pop 'D' from Stack1.]
+[13. Stack3: Pop 'A' from Stack3.]
+[14. Stack2: Pop 'A' from Stack2.]
+[15. Stack1: Pop 'A' from Stack1.]
+[16. Stack3: Pop 'B' from Stack3.]
+[17. Stack2: Pop 'B' from Stack2.]
+[18. Stack1: Pop 'B' from Stack1.]
+[19. Stack3: Pop 'C' from Stack3.]?1.  **Stack3:** Push 'A' onto Stack3. (1 step)
+2.  **Stack2:** Push 'B' onto Stack2. (2 steps)
+3.  **Stack1:** Push 'D' onto Stack1. (3 steps)
+4.  **Stack3:** Pop 'A' from Stack3. (4 steps)
+5.  **Stack2:** Pop 'B' from Stack2. (5 steps)
+6.  **Stack1:** Pop 'D' from Stack1. (6 steps)
+7.  **Stack3:** Pop 'A' from Stack3. (7 steps)
+8.  **Stack2:** Pop 'B' from Stack2. (8 steps)
+9.  **Stack1:** Pop 'D' from Stack1. (9 steps)
+10. **Stack3:** Pop 'A' from Stack3. (10 steps)
+11. **Stack2:** Pop 'B' from Stack2. (11 steps)
+12. **Stack1:** Pop 'D' from Stack1. (12 steps)
+
+The final configuration is: Stack1: [], Stack2: [], Stack3: [A, B, C, D].?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A].
+2.  **Stack2: []** (Pop A from Stack3) - Stack2 is empty, so no elements to push.
+3.  **Stack1: [B,A,D]** (Push B onto Stack1) - Stack1 now contains [B,A,D].
+4.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A,B,C,D].
+5.  **Stack2: []** (Pop A from Stack3) - Stack2 is empty, so no elements to push.
+6.  **Stack1: [B,A,D]** (Push B onto Stack1) - Stack1 now contains [B,A,D].
+7.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A,B,C,D].
+8.  **Stack2: []** (Pop A from Stack3) - Stack2 is empty, so no elements to push.
+9.  **Stack1: [B,A,D]** (Push B onto Stack1) - Stack1 now contains [B,A,D].
+10. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A,B,C,D].
+11. **Stack2: []** (Pop A from Stack3) - Stack2 is empty, so no elements to push.
+12. **Stack1: [B,A,D]** (Push B onto Stack1) - Stack1 now contains [B,A,D].
+13. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A,B,C,D].
+14. **Stack2: []** (Pop A from Stack3) - Stack2 is empty, so no elements to push.
+15. **Stack1: [B,A,D]** (Push B onto Stack1) - Stack1 now contains [B,A,D].
+16. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A,B,C,D].
+17. **Stack2: []** (Pop A from Stack3) - Stack2 is empty, so no elements to push.
+18. **Stack1: [B,A,D]** (Push B onto Stack1) - Stack1 now contains [B,A,D].
+19. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A,B,C,D].
+20. **Stack2: []** (Pop A from Stack3) - Stack2 is empty, so no elements to push.
+21. **Stack1: [B,A,D]** (Push B onto Stack1) - Stack1 now contains [B,A,D].
+22. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A,B,C,D].
+23. **Stack2: []** (Pop A from Stack3) - Stack2 is empty, so no elements to push.
+24. **Stack1: [B,A,D]** (Push B onto Stack1) - Stack1 now contains [B,A,D].
+25. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A,B,C,D].
+26. **Stack2: []** (Pop A from Stack3) - Stack2 is empty, so no elements to push.
+27. **Stack1: [B,A,D]** (Push B onto Stack1) - Stack1 now contains [B,A,D].
+28. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A,B,C,D].
+29. **Stack2: []** (Pop A from Stack3) - Stack2 is empty, so no elements to push.
+30. **Stack1: [B,A,D]** (Push B onto Stack1) - Stack1 now contains [B,A,D].
+31. **Stack3: [A,B,C,D]** (Push A onto?1.  **Stack3: [A,B,C,D]**  Push A onto Stack3. (1 step)
+2.  **Stack2: []**  Push B onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]**  Push A onto Stack1. (3 steps)
+4.  **Stack3: [A,B,C,D]**  Push B onto Stack3. (4 steps)
+5.  **Stack2: []**  Push C onto Stack2. (5 steps)
+6.  **Stack1: [B,A,D,C]**  Push D onto Stack1. (6 steps)
+7.  **Stack3: [A,B,C,D]**  Push C onto Stack3. (7 steps)
+8.  **Stack2: []**  Push D onto Stack2. (8 steps)
+9.  **Stack1: [B,A,D,C]**  Push C onto Stack1. (9 steps)
+10. **Stack3: [A,B,C,D]**  Push D onto Stack3. (10 steps)
+11. **Stack2: []**  Push B onto Stack2. (11 steps)
+12. **Stack1: [B,A,D,C]**  Push C onto Stack1. (12 steps)
+13. **Stack3: [A,B,C,D]**  Push D onto Stack3. (13 steps)
+14. **Stack2: []**  Push B onto Stack2. (14 steps)
+15. **Stack1: [B,A,D,C]**  Push C onto Stack1. (15 steps)
+16. **Stack3: [A,B,C,D]**  Push D onto Stack3. (16 steps)
+?[1. Stack3: Push 'A' to Stack3.]
+[2. Stack2: Pop 'A' from Stack3.]
+[3. Stack1: Push 'B' to Stack1.]
+[4. Stack1: Pop 'B' from Stack1.]
+[5. Stack2: Pop 'B' from Stack1.]
+[6. Stack3: Push 'C' to Stack3.]
+[7. Stack3: Pop 'C' from Stack3.]
+[8. Stack1: Pop 'C' from Stack3.]
+[9. Stack2: Pop 'C' from Stack3.]
+[10. Stack1: Pop 'A' from Stack3.]
+[11. Stack2: Pop 'A' from Stack3.]
+[12. Stack1: Pop 'D' from Stack3.]
+[13. Stack1: Pop 'D' from Stack3.]
+[14. Stack2: Pop 'D' from Stack3.]
+[15. Stack3: Pop 'A' from Stack3.]
+[16. Stack3: Pop 'B' from Stack3.]
+[17. Stack3: Pop 'C' from Stack3.]
+[18. Stack3: Pop 'D' from Stack3.]?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Push 'B' into Stack2. (2 steps)
+3.  **Stack1:** Push 'D' into Stack1. (3 steps)
+4.  **Stack3:** Pop 'A' from Stack3. (4 steps)
+5.  **Stack2:** Pop 'B' from Stack2. (5 steps)
+6.  **Stack1:** Pop 'D' from Stack1. (6 steps)
+7.  **Stack3:** Pop 'A' from Stack3. (7 steps)
+8.  **Stack2:** Pop 'B' from Stack2. (8 steps)
+9.  **Stack1:** Pop 'D' from Stack1. (9 steps)
+10. **Stack3:** Pop 'A' from Stack3. (10 steps)
+11. **Stack2:** Pop 'B' from Stack2. (11 steps)
+12. **Stack1:** Pop 'D' from Stack1. (12 steps)
+13. **Stack3:** Pop 'A' from Stack3. (13 steps)
+14. **Stack2:** Pop 'B' from Stack2. (14 steps)
+15. **Stack1:** Pop 'D' from Stack1. (15 steps)
+
+Stack1: [], Stack2: [], Stack3: [A, B, C, D].?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack2: []**
+5.  **Stack3: [A,B,C,D]**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack2: []**
+8.  **Stack3: [A,B,C,D]**
+9.  **Stack1: [B,A,D,C]**
+10. **Stack2: []**
+11. **Stack3: [A,B,C,D]**
+12. **Stack1: [B,A,D,C]**
+13. **Stack2: []**
+14. **Stack3: [A,B,C,D]**
+15. **Stack1: []**
+16. **Stack2: []**
+17. **Stack3: [A,B,C,D]**?[1. Stack3: Push 'A' onto Stack3. ]
+[2. Stack2: Pop 'A' from Stack2. ]
+[3. Stack1: Pop 'A' from Stack1. ]
+[4. Stack3: Push 'B' onto Stack3. ]
+[5. Stack2: Pop 'B' from Stack2. ]
+[6. Stack1: Pop 'B' from Stack1. ]
+[7. Stack3: Push 'C' onto Stack3. ]
+[8. Stack2: Pop 'C' from Stack2. ]
+[9. Stack1: Pop 'C' from Stack1. ]
+[10. Stack3: Push 'D' onto Stack3. ]
+[11. Stack2: Pop 'D' from Stack2. ]
+[12. Stack1: Pop 'D' from Stack1. ]
+[13. Stack3: Push 'A' onto Stack3. ]
+[14. Stack2: Pop 'A' from Stack2. ]
+[15. Stack1: Pop 'A' from Stack1. ]
+[16. Stack3: Push 'B' onto Stack3. ]
+[17. Stack2: Pop 'B' from Stack2. ]
+[18. Stack1: Pop 'B' from Stack1. ]
+[19. Stack3: Pop 'C' from Stack3. ]?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: []**
+4.  **Stack2: []**
+5.  **Stack1: [A,B,C,D]**
+6.  **Stack2: [A,B,D]**
+7.  **Stack1: [A,B,C,D]**
+8.  **Stack2: [A,B,D]**
+9.  **Stack3: [A,B,C,D]**
+10. **Stack1: []**
+11. **Stack2: []**
+12. **Stack3: [A,B,C,D]**?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  [A,B,C,D]
+2.  []
+3.  [A,B,C,D]
+4.  []
+5.  [A,B,C,D]
+6.  []
+7.  [A,B,C,D]
+8.  []
+9.  [A,B,C,D]
+10. []
+11. [A,B,C,D]
+12. []
+13. [A,B,C,D]
+14. []
+15. [A,B,C,D]
+16. []
+17. [A,B,C,D]
+18. []
+19. [A,B,C,D]?1.  [A,B,C,D]
+2.  [B,A,D,C]
+3.  [A,B,C,D]
+4.  [B,A,D,C]
+5.  [A,B,C,D]
+6.  [B,A,D,C]
+7.  [A,B,C,D]
+8.  [B,A,D,C]
+9.  [A,B,C,D]
+10. [B,A,C,D]
+11. [A,B,C,D]
+12. [B,A,C,D]
+13. [A,B,C,D]
+14. [B,A,C,D]
+15. [A,B,C,D]
+16. [B,A,C,D]
+17. [A,B,C,D]
+18. [B,A,C,D]
+19. [A,B,C,D]
+20. [B,A,C,D]
+21. [A,B,C,D]
+22. [B,A,C,D]
+?[1. Stack3: Push 'A' onto Stack3.]
+[2. Stack2: Push 'B' onto Stack2.]
+[3. Stack1: Push 'D' onto Stack1.]
+[4. Stack3: Pop 'A' from Stack3.]
+[5. Stack2: Pop 'B' from Stack2.]
+[6. Stack1: Pop 'D' from Stack1.]
+[7. Stack3: Pop 'A' from Stack3.]
+[8. Stack2: Pop 'B' from Stack2.]
+[9. Stack1: Pop 'D' from Stack1.]
+[10. Stack3: Pop 'A' from Stack3.]
+[11. Stack2: Pop 'B' from Stack2.]
+[12. Stack1: Pop 'D' from Stack1.]
+[13. Stack3: Pop 'A' from Stack3.]
+[14. Stack2: Pop 'B' from Stack2.]
+[15. Stack1: Pop 'D' from Stack1.]
+[16. Stack3: Pop 'A' from Stack3.]
+[17. Stack2: Pop 'B' from Stack2.]
+[18. Stack1: Pop 'D' from Stack1.]?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3)  Stack3 now contains [A, B, C, D].
+2.  **Stack2: []** (Pop A from Stack3)  Stack2 is now empty.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1)  Stack1 now contains [B, A, D, C].
+4.  **Stack2: []** (Pop D from Stack1)  Stack2 is now empty.
+5.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+6.  **Stack1: [B,A,D,C]** (Push A onto Stack1)  Stack1 now contains [B, A, D, C].
+7.  **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+8.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+9.  **Stack1: [B,A,D,C]** (Push A onto Stack1)  Stack1 now contains [B, A, D, C].
+10. **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+11. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+12. **Stack1: [B,A,D,C]** (Push A onto Stack1)  Stack1 now contains [B, A, D, C].
+13. **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+14. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+15. **Stack1: [B,A,D,C]** (Push A onto Stack1)  Stack1 now contains [B, A, D, C].
+16. **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+17. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3:** Push A into Stack3. (1 step)
+2.  **Stack2:** Pop A from Stack3. (2 steps)
+3.  **Stack1:** Pop A from Stack2. (3 steps)
+4.  **Stack3:** Push B into Stack3. (4 steps)
+5.  **Stack2:** Pop B from Stack3. (5 steps)
+6.  **Stack1:** Pop B from Stack1. (6 steps)
+7.  **Stack3:** Push C into Stack3. (7 steps)
+8.  **Stack2:** Pop C from Stack3. (8 steps)
+9.  **Stack1:** Pop C from Stack1. (9 steps)
+10. **Stack3:** Push D into Stack3. (10 steps)
+11. **Stack2:** Pop D from Stack3. (11 steps)
+12. **Stack1:** Pop D from Stack1. (12 steps)
+13. **Stack3:** Push A from Stack3. (13 steps)
+14. **Stack2:** Pop A from Stack2. (14 steps)
+15. **Stack1:** Pop A from Stack1. (15 steps)
+16. **Stack3:** Push B from Stack3. (16 steps)
+17. **Stack2:** Pop B from Stack3. (17 steps)
+18. **Stack1:** Pop B from Stack1. (18 steps)?[A,B,C,D],[],[];[A,B,C],[],[D]?[1. Stack3: Push A.];
+[2. Stack2: Push B.];
+[3. Stack1: Push D.];
+[4. Stack3: Push C.];
+[5. Stack2: Push B.];
+[6. Stack1: Push A.];
+[7. Stack3: Push D.];
+[8. Stack2: Push B.];
+[9. Stack1: Push A.];
+[10. Stack3: Push C.];
+[11. Stack2: Push B.];
+[12. Stack1: Push A.];
+[13. Stack3: Push D.];
+[14. Stack2: Push B.];
+[15. Stack1: Push A.];
+[16. Stack3: Push C.];
+[17. Stack2: Push B.];
+[18. Stack1: Push A.];
+[19. Stack3: Push D.];?Okay, please provide the previous answer. I need the text of the previous answer to format it as you requested.?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack3. (3 steps)
+4.  **Stack1:** Push 'B' into Stack1. (4 steps)
+5.  **Stack1:** Push 'D' into Stack1. (5 steps)
+6.  **Stack1:** Push 'C' into Stack1. (6 steps)
+7.  **Stack2:** Pop 'C' from Stack1. (7 steps)
+8.  **Stack2:** Pop 'D' from Stack1. (8 steps)
+9.  **Stack2:** Pop 'B' from Stack1. (9 steps)
+10. **Stack2:** Pop 'A' from Stack1. (10 steps)
+11. **Stack3:** Pop 'A' from Stack3. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack3:** Pop 'C' from Stack3. (13 steps)
+14. **Stack3:** Pop 'D' from Stack3. (14 steps)
+?1.  **Stack3: [A,B,C,D]**  Push 'A' onto Stack3. (1 step)
+2.  **Stack2: []**  Push 'B' onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]**  Push 'D' onto Stack1. (3 steps)
+4.  **Stack2: [B]**  Push 'B' onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push 'C' onto Stack3. (5 steps)
+6.  **Stack1: [B,A,D,C]**  Push 'D' onto Stack1. (6 steps)
+7.  **Stack2: [B,C]**  Push 'C' onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (8 steps)
+9.  **Stack1: [B,A,D,C]**  Push 'C' onto Stack1. (9 steps)
+10. **Stack2: [B,C]**  Push 'C' onto Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (11 steps)
+12. **Stack1: [B,A,D,C]**  Push 'C' onto Stack1. (12 steps)
+13. **Stack2: [B,C]**  Push 'C' onto Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (14 steps)
+15. **Stack1: [B,A,D,C]**  Push 'C' onto Stack1. (15 steps)
+16. **Stack2: [B,C]**  Push 'C' onto Stack2. (16 steps)
+17. **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (17 steps)
+?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3: [A,B,C,D]**  Push A onto Stack3. (1 step)
+2.  **Stack2: []**  Push B onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]**  Push A onto Stack1. (3 steps)
+4.  **Stack2: [B,A]**  Push B onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push C onto Stack3. (5 steps)
+6.  **Stack1: [B,A,D,C]**  Push D onto Stack1. (6 steps)
+7.  **Stack2: [B,A]**  Push A onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push C onto Stack3. (8 steps)
+9.  **Stack1: [B,A,D,C]**  Push D onto Stack1. (9 steps)
+10. **Stack2: [B,A]**  Push A onto Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Push C onto Stack3. (11 steps)
+12. **Stack1: []**  Pop C from Stack1. (12 steps)
+13. **Stack2: []**  Pop D from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]**  Pop A from Stack3. (14 steps)
+?[1. Stack3: Push 'A' into Stack3.]
+[2. Stack2: Pop 'A' from Stack3.]
+[3. Stack1: Push 'B' into Stack1.]
+[4. Stack1: Pop 'B' from Stack1.]
+[5. Stack2: Pop 'B' from Stack1.]
+[6. Stack3: Pop 'A' from Stack3.]
+[7. Stack3: Push 'C' into Stack3.]
+[8. Stack3: Pop 'C' from Stack3.]
+[9. Stack2: Pop 'C' from Stack3.]
+[10. Stack1: Pop 'C' from Stack1.]
+[11. Stack3: Pop 'D' from Stack3.]
+[12. Stack3: Push 'D' into Stack3.]
+[13. Stack3: Pop 'D' from Stack3.]
+[14. Stack2: Pop 'D' from Stack3.]
+[15. Stack1: Pop 'D' from Stack1.]
+[16. Stack3: Pop 'A' from Stack3.]
+[17. Stack3: Pop 'B' from Stack3.]
+[18. Stack3: Pop 'C' from Stack3.]
+[19. Stack3: Pop 'D' from Stack3]?1.  **Stack3:** Push 'A' onto Stack3. (1 step)
+2.  **Stack2:** Push 'B' onto Stack2. (2 steps)
+3.  **Stack1:** Push 'D' onto Stack1. (3 steps)
+4.  **Stack1:** Push 'C' onto Stack1. (4 steps)
+5.  **Stack2:** Pop 'B' from Stack2. (5 steps)
+6.  **Stack3:** Pop 'A' from Stack3. (6 steps)
+7.  **Stack1:** Pop 'D' from Stack1. (7 steps)
+8.  **Stack2:** Pop 'C' from Stack2. (8 steps)
+9.  **Stack3:** Pop 'A' from Stack3. (9 steps)
+10. **Stack1:** Pop 'D' from Stack1. (10 steps)
+11. **Stack2:** Pop 'C' from Stack2. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack1:** Pop 'A' from Stack1. (13 steps)
+14. **Stack2:** Pop 'C' from Stack2. (14 steps)
+15. **Stack3:** Pop 'D' from Stack3. (15 steps)?[1. Stack3: Push A.];
+[2. Stack2: Push B.];
+[3. Stack1: Push D.];
+[4. Stack3: Push C.];
+[5. Stack2: Push B.];
+[6. Stack1: Push A.];
+[7. Stack3: Push D.];
+[8. Stack2: Push B.];
+[9. Stack1: Push A.];
+[10. Stack3: Push C.];
+[11. Stack2: Push B.];
+[12. Stack1: Push A.];
+[13. Stack3: Push D.];
+[14. Stack2: Push B.];
+[15. Stack1: Push A.];
+[16. Stack3: Push C.];
+[17. Stack2: Push B.];
+[18. Stack1: Push A.];
+[19. Stack3: Push D.];?1.  **Stack3: [A,B,C,D]** - Push A onto Stack3. (1 step)
+2.  **Stack2: []** - Push B onto Stack2. (2 steps)
+3.  **Stack1: [A,D,C]** - Push D onto Stack1. (3 steps)
+4.  **Stack2: [B]** - Push B onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]** - Push C onto Stack3. (5 steps)
+6.  **Stack1: [A,D,C]** - Push D onto Stack1. (6 steps)
+7.  **Stack2: [B]** - Push B onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]** - Push D onto Stack3. (8 steps)
+9.  **Stack1: []** - Pop D from Stack1. (9 steps)
+10. **Stack2: []** - Pop B from Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]** - Pop D from Stack3. (11 steps)
+12. **Stack1: []** - Pop A from Stack1. (12 steps)
+13. **Stack2: []** - Pop B from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]** - Pop D from Stack3. (14 steps)?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack2:** Pop `C` from Stack1. (7 steps)
+8.  **Stack2:** Pop `D` from Stack1. (8 steps)
+9.  **Stack2:** Pop `B` from Stack1. (9 steps)
+10. **Stack2:** Pop `A` from Stack1. (10 steps)
+11. **Stack3:** Pop `A` from Stack3. (11 steps)
+12. **Stack3:** Pop `B` from Stack3. (12 steps)
+13. **Stack3:** Pop `D` from Stack3. (13 steps)
+14. **Stack3:** Pop `C` from Stack3. (14 steps)
+?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Stack2: [B] ; 5. Stack3: [A,B,C,D] ; 6. Stack1: [B,A,D,C] ; 7. Stack2: [B] ; 8. Stack3: [A,B,C,D] ; 9. Stack1: [B,A,D,C] ; 10. Stack2: [B] ; 11. Stack3: [A,B,C,D] ; 12. Stack1: [B,A,D,C] ; 13. Stack2: [B] ; 14. Stack3: [A,B,C,D] ; 15. Stack1: [B,A,D,C] ; 16. Stack2: [B] ; 17. Stack3: [A,B,C,D] ; 18. Stack1: [A,B,C,D]; 19. Stack2: [A,B,C,D]; 20. Stack3: [A,B,C,D]?[A,B,C,D;[],[];[A,B,C],[],[D];]?[A,B,C,D;],[],[];[A,B,C,D]
+?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3:** Push A. (1 step)
+2.  **Stack2:** Push B. (2 steps)
+3.  **Stack1:** Push D. (3 steps)
+4.  **Stack3:** Pop A. (4 steps)
+5.  **Stack2:** Pop B. (5 steps)
+6.  **Stack1:** Pop D. (6 steps)
+7.  **Stack3:** Pop A. (7 steps)
+8.  **Stack2:** Pop B. (8 steps)
+9.  **Stack1:** Pop D. (9 steps)
+10. **Stack3:** Pop A. (10 steps)
+11. **Stack2:** Pop B. (11 steps)
+12. **Stack1:** Pop D. (12 steps)
+13. **Stack3:** Pop A. (13 steps)
+14. **Stack2:** Pop B. (14 steps)
+15. **Stack1:** Pop D. (15 steps)
+16. **Stack3:** Pop A. (16 steps)
+17. **Stack2:** Pop B. (17 steps)
+18. **Stack1:** Pop D. (18 steps)?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C,D]?[A,B,C,D],[],[];[A,B,C],[],[D]
+?[A,B,C,D],[],[];[A,B,C],[],[D],[B,A,D],[],[C,B,A],[],[D],[A,B,C],[],[D],[A,B,C,D]?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Stack2: [B] ; 5. Stack3: [A,B,C,D] ; 6. Stack1: [B,A,D,C] ; 7. Stack2: [B] ; 8. Stack3: [A,B,C,D] ; 9. Stack1: [B,A,D,C] ; 10. Stack2: [B] ; 11. Stack3: [A,B,C,D] ; 12. Stack1: [B,A,D,C] ; 13. Stack2: [B] ; 14. Stack3: [A,B,C,D] ; 15. Stack1: [B,A,D,C] ; 16. Stack2: [B] ; 17. Stack3: [A,B,C,D] ; 18. Stack1: [A,B,C,D] ; 19. Stack2: [A,B,C,D] ; 20. Stack3: [A,B,C,D] ]?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Stack2: [] ; 5. Stack3: [A,B,C,D] ; 6. Stack1: [B,A,D,C] ; 7. Stack2: [] ; 8. Stack3: [A,B,C,D] ; 9. Stack1: [B,A,D,C] ; 10. Stack2: [] ; 11. Stack3: [A,B,C,D] ; 12. Stack1: [B,A,D,C] ; 13. Stack2: [] ; 14. Stack3: [A,B,C,D] ; 15. Stack1: [] ; 16. Stack2: [] ; 17. Stack3: [A,B,C,D] ; 18. Stack1: [] ; 19. Stack2: []]?1.  **Stack3: [A,B,C,D]**
+2.  **Stack1: []**
+3.  **Stack2: []**
+4.  **Stack3: [A,B,C]**
+5.  **Stack2: [A,B,C]**
+6.  **Stack1: [A,B,C]**
+7.  **Stack2: [A,B,C]**
+8.  **Stack3: [A,B,C]**
+9.  **Stack1: [A,B,C]**
+10. **Stack2: [A,B,C]**
+11. **Stack3: [A,B,C]**
+12. **Stack1: [A,B,C]**
+13. **Stack2: [A,B,C]**
+14. **Stack3: [A,B,C]**
+15. **Stack1: [A,B,C]**
+16. **Stack2: [A,B,C]**
+17. **Stack3: [A,B,C]**
+18. **Stack1: [A,B,C]**
+19. **Stack2: [A,B,C]**?[A,B,C,D],[],[];[A,B,C],[],[D]?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C],[],[D],[A,B,C],[],[D],[A,B,C]?1.  **Stack3: [A,B,C,D]**  Push A onto Stack3. (1 step)
+2.  **Stack2: []**  Push B onto Stack2. (2 steps)
+3.  **Stack1: [A,D,C]**  Push D onto Stack1. (3 steps)
+4.  **Stack2: [B]**  Push B onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push C onto Stack3. (5 steps)
+6.  **Stack1: []**  Pop C from Stack1. (6 steps)
+7.  **Stack2: [B]**  Pop B from Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push D onto Stack3. (8 steps)
+9.  **Stack1: []**  Pop B from Stack1. (9 steps)
+10. **Stack2: []**  Pop A from Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Push C onto Stack3. (11 steps)
+12. **Stack1: []**  Pop D from Stack1. (12 steps)
+13. **Stack2: []**  Pop B from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]**  Push C onto Stack3. (14 steps)
+?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3)  Stack3 now contains [A, B, C, D].
+2.  **Stack2: []** (Pop A from Stack3)  Stack2 is empty, so we pop A.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1)  Stack1 contains [B, A, D, C].
+4.  **Stack3: [A,B,C,D]** (Push C onto Stack3)  Stack3 contains [A, B, C, D].
+5.  **Stack2: []** (Pop D from Stack3)  Stack2 is empty, so pop D.
+6.  **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 contains [B, A, C, D].
+7.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 contains [A, B, C, D].
+8.  **Stack2: []** (Pop C from Stack3)  Stack2 is empty, so pop C.
+9.  **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 contains [B, A, C, D].
+10. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 contains [A, B, C, D].
+11. **Stack2: []** (Pop C from Stack3)  Stack2 is empty, so pop C.
+12. **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 contains [B, A, C, D].
+13. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 contains [A, B, C, D].
+14. **Stack2: []** (Pop C from Stack3)  Stack2 is empty, so pop C.
+15. **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 contains [B, A, C, D].
+16. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 contains [A, B, C, D].
+17. **Stack2: []** (Pop C from Stack3)  Stack2 is empty, so pop C.
+18. **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 contains [B, A, C, D].
+19. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 contains [A, B, C, D].
+20. **Stack2: []** (Pop C from Stack3)  Stack2 is empty, so pop C.
+21. **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 contains [B, A, C, D].
+22. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 contains [A, B, C, D].
+23. **Stack2: []** (Pop C from Stack3)  Stack2 is empty, so pop C.
+24. **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 contains [B, A, C, D].
+25. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 contains [A, B, C, D].
+26. **Stack2: []** (Pop C from Stack3)  Stack2 is empty, so pop C.
+27. **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 contains [B, A, C, D].
+28. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 contains [A, B, C, D].
+29. **Stack2: []** (Pop C from Stack3)  Stack2 is empty, so pop C.
+30. **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 contains [B, A, C, D].
+31. **Stack3: [A,B,C?[A,B,C,D],[],[];[A,B,C],[],[D],[]
+[A,B,C,D],[],[];[A,B,C],[],[D],[]
+[A,B,C,D],[],[];[A,B,C],[],[D],[]
+[A,B,C,D],[],[];[A,B,C],[],[D],[]
+?[1. Stack3: [A,B,C,D]\]
+[2. Stack2: []\]
+[3. Stack1: [B,A,D,C]\]
+[4. Stack3: [A,B,C,D]\]
+[5. Stack2: []\]
+[6. Stack1: [B,A,D,C]\]
+[7. Stack3: [A,B,C,D]\]
+[8. Stack2: []\]
+[9. Stack1: [B,A,D,C]\]
+[10. Stack3: [A,B,C,D]\]
+[11. Stack2: []\]
+[12. Stack1: [B,A,D,C]\]
+[13. Stack3: [A,B,C,D]\]
+[14. Stack2: []\]
+[15. Stack1: [B,A,D,C]\]
+[16. Stack3: [A,B,C,D]\]?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack2:** Pop `C` from Stack1. (7 steps)
+8.  **Stack2:** Pop `D` from Stack1. (8 steps)
+9.  **Stack2:** Pop `B` from Stack1. (9 steps)
+10. **Stack2:** Pop `A` from Stack1. (10 steps)
+11. **Stack3:** Pop `A` from Stack3. (11 steps)
+12. **Stack3:** Pop `B` from Stack3. (12 steps)
+13. **Stack3:** Pop `C` from Stack3. (13 steps)
+14. **Stack3:** Pop `D` from Stack3. (14 steps)
+15. **Stack3:** Pop `A` from Stack3. (15 steps)?Okay, please provide the previous answer. I need the text of the previous response to format it as requested.?1.  **Stack3:** Push 'A' onto Stack3. (1 step)
+2.  **Stack2:** Push 'B' onto Stack2. (2 steps)
+3.  **Stack1:** Push 'D' onto Stack1. (3 steps)
+4.  **Stack1:** Push 'C' onto Stack1. (4 steps)
+5.  **Stack2:** Pop 'B' from Stack2. (5 steps)
+6.  **Stack3:** Pop 'A' from Stack3. (6 steps)
+7.  **Stack1:** Pop 'D' from Stack1. (7 steps)
+8.  **Stack2:** Pop 'C' from Stack2. (8 steps)
+9.  **Stack3:** Pop 'A' from Stack3. (9 steps)
+10. **Stack1:** Pop 'D' from Stack1. (10 steps)
+11. **Stack2:** Pop 'C' from Stack2. (11 steps)
+12. **Stack3:** Pop 'A' from Stack3. (12 steps)
+13. **Stack1:** Pop 'D' from Stack1. (13 steps)
+14. **Stack2:** Pop 'C' from Stack2. (14 steps)
+15. **Stack3:** Pop 'A' from Stack3. (15 steps)?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack2:** Pop `C` from Stack1. (7 steps)
+8.  **Stack2:** Pop `D` from Stack1. (8 steps)
+9.  **Stack2:** Pop `B` from Stack1. (9 steps)
+10. **Stack2:** Pop `A` from Stack1. (10 steps)
+11. **Stack3:** Pop `A` from Stack3. (11 steps)
+12. **Stack3:** Pop `B` from Stack3. (12 steps)
+13. **Stack3:** Pop `D` from Stack3. (13 steps)
+14. **Stack3:** Pop `C` from Stack3. (14 steps)
+?[1. Stack3: Push 'A' into Stack3.]
+[2. Stack2: Pop 'A' from Stack2.]
+[3. Stack1: Pop 'A' from Stack1.]
+[4. Stack3: Push 'B' into Stack3.]
+[5. Stack2: Pop 'B' from Stack2.]
+[6. Stack1: Pop 'B' from Stack1.]
+[7. Stack3: Push 'C' into Stack3.]
+[8. Stack2: Pop 'C' from Stack2.]
+[9. Stack1: Pop 'C' from Stack1.]
+[10. Stack3: Push 'D' into Stack3.]
+[11. Stack2: Pop 'D' from Stack2.]
+[12. Stack1: Pop 'D' from Stack1.]
+[13. Stack3: Pop 'A' from Stack3.]
+[14. Stack2: Pop 'A' from Stack2.]
+[15. Stack1: Pop 'A' from Stack1.]
+[16. Stack3: Pop 'B' from Stack3.]
+[17. Stack2: Pop 'B' from Stack2.]
+[18. Stack1: Pop 'B' from Stack1.]
+[19. Stack3: Pop 'C' from Stack3.]?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack2:** Pop `C` from Stack1. (7 steps)
+8.  **Stack2:** Pop `D` from Stack1. (8 steps)
+9.  **Stack2:** Pop `B` from Stack1. (9 steps)
+10. **Stack2:** Pop `A` from Stack1. (10 steps)
+11. **Stack3:** Pop `A` from Stack3. (11 steps)
+12. **Stack3:** Pop `B` from Stack3. (12 steps)
+13. **Stack3:** Pop `D` from Stack3. (13 steps)
+14. **Stack3:** Pop `C` from Stack3. (14 steps)
+
+The final configuration is: Stack1: [], Stack2: [], Stack3: [A, B, C, D].  The maximum number of steps is 14.?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack3. (3 steps)
+4.  **Stack1:** Push 'B' into Stack1. (4 steps)
+5.  **Stack1:** Push 'D' into Stack1. (5 steps)
+6.  **Stack1:** Push 'C' into Stack1. (6 steps)
+7.  **Stack2:** Pop 'C' from Stack1. (7 steps)
+8.  **Stack3:** Pop 'C' from Stack3. (8 steps)
+9.  **Stack3:** Push 'A' into Stack3. (9 steps)
+10. **Stack3:** Push 'B' into Stack3. (10 steps)
+11. **Stack3:** Push 'D' into Stack3. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack3:** Pop 'D' from Stack3. (13 steps)
+14. **Stack3:** Pop 'A' from Stack3. (14 steps)
+15. **Stack3:** Pop 'B' from Stack3. (15 steps)
+16. **Stack3:** Pop 'D' from Stack3. (16 steps)?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack2: []**
+5.  **Stack3: [A,B,C,D]**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack2: [A,B,C,D]**
+8.  **Stack3: [A,B,C,D]**
+9.  **Stack1: [A,B,C,D]**
+10. **Stack2: [A,B,C,D]**
+11. **Stack3: [A,B,C,D]**
+12. **Stack1: [A,B,C,D]**
+13. **Stack2: [A,B,C,D]**
+14. **Stack3: [A,B,C,D]**
+15. **Stack1: [A,B,C,D]**
+16. **Stack2: [A,B,C,D]**
+17. **Stack3: [A,B,C,D]**
+18. **Stack1: [A,B,C,D]**
+19. **Stack2: [A,B,C,D]**
+?1.  **Stack3:** Push A. (1 step)
+2.  **Stack2:** Push B. (2 steps)
+3.  **Stack1:** Push D. (3 steps)
+4.  **Stack3:** Pop A. (4 steps)
+5.  **Stack2:** Pop B. (5 steps)
+6.  **Stack1:** Pop D. (6 steps)
+7.  **Stack3:** Pop A. (7 steps)
+8.  **Stack2:** Pop B. (8 steps)
+9.  **Stack1:** Pop D. (9 steps)
+10. **Stack3:** Pop A. (10 steps)
+11. **Stack2:** Pop B. (11 steps)
+12. **Stack1:** Pop D. (12 steps)
+13. **Stack3:** Pop A. (13 steps)
+14. **Stack2:** Pop B. (14 steps)
+15. **Stack1:** Pop D. (15 steps)
+16. **Stack3:** Pop A. (16 steps)
+17. **Stack2:** Pop B. (17 steps)
+18. **Stack1:** Pop D. (18 steps)
+?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack1:** Push `B` into Stack1. (7 steps)
+8.  **Stack1:** Push `D` into Stack1. (8 steps)
+9.  **Stack1:** Push `C` into Stack1. (9 steps)
+10. **Stack1:** Push `B` into Stack1. (10 steps)
+11. **Stack1:** Push `D` into Stack1. (11 steps)
+12. **Stack1:** Push `C` into Stack1. (12 steps)
+13. **Stack1:** Push `B` into Stack1. (13 steps)
+14. **Stack1:** Push `D` into Stack1. (14 steps)
+15. **Stack1:** Push `C` into Stack1. (15 steps)
+16. **Stack1:** Push `B` into Stack1. (16 steps)
+17. **Stack1:** Push `D` into Stack1. (17 steps)
+?1.  **Stack3: [A,B,C,D]**  Push A onto Stack3. (1 step)
+2.  **Stack2: []**  Push B onto Stack2. (2 steps)
+3.  **Stack1: [A,D,C]**  Push D onto Stack1. (3 steps)
+4.  **Stack2: [B]**  Push B onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push C onto Stack3. (5 steps)
+6.  **Stack1: [A,D,C]**  Push D onto Stack1. (6 steps)
+7.  **Stack2: [B]**  Push B onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push D onto Stack3. (8 steps)
+9.  **Stack1: [A,D,C]**  Push D onto Stack1. (9 steps)
+10. **Stack2: [B]**  Push B onto Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Push D onto Stack3. (11 steps)
+12. **Stack1: []**  Pop D from Stack1. (12 steps)
+13. **Stack2: []**  Pop B from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]**  Pop D from Stack3. (14 steps)
+?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C],[],[D],[A,B,C,D]?[A,B,C,D],[],[];[A,B,C],[],[D]?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C],[],[D],[A,B,C,D]?[A,B,C,D;[],[],[];[A,B,C,D],[],[D];]?[1. Stack3: Push A into Stack3.]
+[2. Stack2: Pop A from Stack3.]
+[3. Stack1: Pop A from Stack3.]
+[4. Stack1: Push B into Stack1.]
+[5. Stack1: Push D into Stack1.]
+[6. Stack1: Push C into Stack1.]
+[7. Stack3: Pop C from Stack1.]
+[8. Stack3: Pop D from Stack1.]
+[9. Stack3: Pop B from Stack1.]
+[10. Stack3: Pop A from Stack1.]
+[11. Stack3: Pop B from Stack1.]
+[12. Stack3: Pop C from Stack1.]
+[13. Stack3: Pop D from Stack1.]
+[14. Stack3: Pop A from Stack1.]
+[15. Stack3: Pop B from Stack1.]
+[16. Stack3: Pop C from Stack1.]
+[17. Stack3: Pop D from Stack1.]?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Stack2: [] ; 5. Stack3: [A,B,C,D] ; 6. Stack1: [B,A,D,C] ; 7. Stack2: B; 8. Stack3: [A,B,C,D]; 9. Stack1: [B,A,C,D]; 10. Stack2: [A,B,C,D]; 11. Stack3: [A,B,C,D]; 12. Stack1: [A,B,C,D]; 13. Stack2: [A,B,C,D]; 14. Stack3: [A,B,C,D]; 15. Stack1: [A,B,C,D]; 16. Stack2: [A,B,C,D]; 17. Stack3: [A,B,C,D]; 18. Stack1: [A,B,C,D]; 19. Stack2: [A,B,C,D]; 20. Stack3: [A,B,C,D]; 21. Stack1: [A,B,C,D]; 22. Stack2: [A,B,C,D]; 23. Stack3: [A,B,C,D]; 24. Stack1: [A,B,C,D]; 25. Stack2: [A,B,C,D]; 26. Stack3: [A,B,C,D]; 27. Stack1: [A,B,C,D]; 28. Stack2: [A,B,C,D]; 29. Stack3: [A,B,C,D]; 30. Stack1: [A,B,C,D]; 31. Stack2: [A,B,C,D]; 32. Stack3: [A,B,C,D]; 33. Stack1: [A,B,C,D]; 34. Stack2: [A,B,C,D]; 35. Stack3: [A,B,C,D]; 36. Stack1: [A,B,C,D]; 37. Stack2: [A,B,C,D]; 38. Stack3: [A,B,C,D]; 39. Stack1: [A,B,C,D]; 40. Stack2: [A,B,C,D]; 41. Stack3: [A,B,C,D]; 42. Stack1: [A,B,C,D]; 43. Stack2: [A,B,C,D]; 44. Stack3: [A,B,C,D]; 45. Stack1: [A,B,C,D]; 46. Stack2: [A,B,C,D]; 47. Stack3: [A,B,C,D]; 48. Stack1: [A,B,C,D]; 49. Stack2: [A,B,C,D]; 50. Stack3: [A,B,C,D]; 51. Stack1: [A,B,C,D]; 52. Stack2: [A,B,C,D]; 53. Stack3: [A,B,C,D]; 54. Stack1: [A,B,C,D]; 55. Stack2: [A,B,C,D]; 56. Stack3: [A,B,C,D]; 57. Stack1: [A,B,C,D]; 58. Stack2: [A,B,C,D]; 59. Stack3: [A,B,C,D]; 60. Stack1: [A,B,C,D]; 61. Stack2: [A,B,C,D]; 62. Stack3: [A,B,C,D]; 63. Stack1: [A,B,C,D]; 64. Stack2: [A,B,C,D]; 65. Stack3: [A,B,C,D]; 66. Stack1: [A,B,C,D]; 67. Stack2: [A,B,C,D?[1. Stack3: Push A into Stack3.]
+[2. Stack2: Pop A from Stack3.]
+[3. Stack1: Pop A from Stack3.]
+[4. Stack1: Push B into Stack1.]
+[5. Stack1: Push D into Stack1.]
+[6. Stack1: Push C into Stack1.]
+[7. Stack2: Pop C from Stack1.]
+[8. Stack2: Pop D from Stack1.]
+[9. Stack2: Pop B from Stack1.]
+[10. Stack2: Pop A from Stack1.]
+[11. Stack3: Pop A from Stack3.]
+[12. Stack3: Pop B from Stack3.]
+[13. Stack3: Pop C from Stack3.]
+[14. Stack3: Pop D from Stack3.]?[1. Stack3: Push 'A' onto Stack3.]
+[2. Stack2: Pop 'A' from Stack3 and push 'B' onto Stack2.]
+[3. Stack2: Pop 'B' from Stack2 and push 'C' onto Stack2.]
+[4. Stack2: Pop 'C' from Stack2 and push 'D' onto Stack2.]
+[5. Stack3: Pop 'A' from Stack3 and push 'B' onto Stack3.]
+[6. Stack3: Pop 'B' from Stack3 and push 'C' onto Stack3.]
+[7. Stack3: Pop 'C' from Stack3 and push 'D' onto Stack3.]
+[8. Stack3: Pop 'D' from Stack3 and push 'A' onto Stack3.]
+[9. Stack3: Pop 'A' from Stack3 and push 'B' onto Stack3.]
+[10. Stack3: Pop 'B' from Stack3 and push 'C' onto Stack3.]
+[11. Stack3: Pop 'C' from Stack3 and push 'D' onto Stack3.]
+?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack2:** Pop `C` from Stack1. (7 steps)
+8.  **Stack2:** Pop `D` from Stack1. (8 steps)
+9.  **Stack2:** Pop `B` from Stack1. (9 steps)
+10. **Stack2:** Pop `A` from Stack1. (10 steps)
+11. **Stack3:** Pop `A` from Stack3. (11 steps)
+12. **Stack3:** Pop `B` from Stack3. (12 steps)
+13. **Stack3:** Pop `D` from Stack3. (13 steps)
+14. **Stack3:** Pop `C` from Stack3. (14 steps)
+?[A, B, C, D],[],[];[A, B, C],[],[D],[A, B, C],[],[D],[A, B, C, D]?1.  **Stack3: [A,B,C,D]** - Push A onto Stack3. (1 step)
+2.  **Stack2: []** - Push B onto Stack2. (2 steps)
+3.  **Stack1: [A,D,C]** - Push D onto Stack1. (3 steps)
+4.  **Stack2: [B]** - Push B onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]** - Push C onto Stack3. (5 steps)
+6.  **Stack1: [A,D,C]** - Push D onto Stack1. (6 steps)
+7.  **Stack2: [B]** - Push B onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]** - Push D onto Stack3. (8 steps)
+9.  **Stack1: [A,D,C]** - Push D onto Stack1. (9 steps)
+10. **Stack2: [B]** - Push B onto Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]** - Push D onto Stack3. (11 steps)
+12. **Stack1: []** - Pop D from Stack1. (12 steps)
+13. **Stack2: []** - Pop B from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]** - Pop D from Stack3. (14 steps)?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+2.  **Stack2: []** (Pop A from Stack3) - Stack2 remains empty.
+3.  **Stack1: [A,B,C,D]** (Push A onto Stack1) - Stack1 now contains [A, B, C, D].
+4.  **Stack2: [B,A,C,D]** (Push B onto Stack2) - Stack2 now contains [B, A, C, D].
+5.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+6.  **Stack1: [A,B,C,D]** (Push B onto Stack1) - Stack1 now contains [A, B, C, D].
+7.  **Stack2: [B,A,C,D]** (Push B onto Stack2) - Stack2 now contains [B, A, C, D].
+8.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+9.  **Stack1: [A,B,C,D]** (Push B onto Stack1) - Stack1 now contains [A, B, C, D].
+10. **Stack2: [B,A,C,D]** (Push B onto Stack2) - Stack2 now contains [B, A, C, D].
+11. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+12. **Stack1: [A,B,C,D]** (Push B onto Stack1) - Stack1 now contains [A, B, C, D].
+13. **Stack2: [B,A,C,D]** (Push B onto Stack2) - Stack2 now contains [B, A, C, D].
+14. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+15. **Stack1: [A,B,C,D]** (Push B onto Stack1) - Stack1 now contains [A, B, C, D].
+16. **Stack2: [B,A,C,D]** (Push B onto Stack2) - Stack2 now contains [B, A, C, D].
+17. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+18. **Stack1: [A,B,C,D]** (Push B onto Stack1) - Stack1 now contains [A, B, C, D].
+19. **Stack2: [B,A,C,D]** (Push B onto Stack2) - Stack2 now contains [B, A, C, D].
+20. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+?[1. Stack3: Push 'A' onto Stack3. ;2. Stack2: Pop 'A' from Stack3 and push 'B' onto Stack2. ;3. Stack1: Pop 'B' from Stack2 and push 'A' onto Stack1. ;4. Stack3: Pop 'A' from Stack3 and push 'C' onto Stack3. ;5. Stack2: Pop 'C' from Stack3 and push 'D' onto Stack2. ;6. Stack1: Pop 'D' from Stack1 and push 'C' onto Stack1. ;7. Stack3: Pop 'C' from Stack3 and push 'D' onto Stack3. ;8. Stack2: Pop 'D' from Stack3 and push 'B' onto Stack2. ;9. Stack1: Pop 'B' from Stack1 and push 'A' onto Stack1. ;10. Stack3: Pop 'D' from Stack3 and push 'A' onto Stack3. ;11. Stack2: Pop 'A' from Stack2 and push 'B' onto Stack2. ;12. Stack1: Pop 'B' from Stack1 and push 'A' onto Stack1. ;13. Stack3: Pop 'A' from Stack3 and push 'C' onto Stack3. ;14. Stack2: Pop 'C' from Stack3 and push 'D' onto Stack2. ;15. Stack1: Pop 'D' from Stack1 and push 'C' onto Stack1. ]?[A,B,C,D],[],[];[A,B,C],[],[D]
+?[1. Stack3: Push A onto Stack3.]
+[2. Stack2: Pop A from Stack3 and push B onto Stack2.]
+[3. Stack1: Pop B from Stack2 and push A onto Stack1.]
+[4. Stack3: Pop A from Stack3 and push B onto Stack3.]
+[5. Stack2: Pop B from Stack3 and push C onto Stack2.]
+[6. Stack1: Pop C from Stack1 and push D onto Stack1.]
+[7. Stack3: Pop D from Stack3 and push B onto Stack3.]
+[8. Stack2: Pop B from Stack3 and push C onto Stack2.]
+[9. Stack1: Pop C from Stack1 and push D onto Stack1.]
+[10. Stack3: Pop D from Stack3 and push B onto Stack3.]
+[11. Stack2: Pop B from Stack3 and push C onto Stack2.]
+[12. Stack1: Pop C from Stack1 and push D onto Stack1.]
+?1.  **Stack3: [A,B,C,D]**  Push 'A' onto Stack3. (1 step)
+2.  **Stack2: []**  Push 'B' onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]**  Push 'B' onto Stack1. (3 steps)
+4.  **Stack2: [B]**  Push 'B' onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push 'A' onto Stack3. (5 steps)
+6.  **Stack1: [B,A,D,C]**  Push 'D' onto Stack1. (6 steps)
+7.  **Stack2: [B,A,C,D]**  Push 'C' onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push 'C' onto Stack3. (8 steps)
+9.  **Stack1: []**  Pop 'C' from Stack3. (9 steps)
+10. **Stack2: []**  Pop 'C' from Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Pop 'A' from Stack3. (11 steps)
+?[1. Stack3: [A,B,C,D]\]
+[2. Stack2: []\]
+[3. Stack1: []\]
+[4. Push A to Stack1: [A]\]
+[5. Push B to Stack1: [B]\]
+[6. Push C to Stack1: [C]\]
+[7. Push D to Stack1: [D]\]
+[8. Stack1: [A, B, C, D]\]
+[9. Pop D from Stack1: [A, B, C]\]
+[10. Pop C from Stack1: [A, B]\]
+[11. Pop B from Stack1: [A]\]
+[12. Pop A from Stack1: []\]
+[13. Stack2: [A, B]\]
+[14. Stack3: [A, B, C, D]\]?[A,B,C,D],[],[];[A,B,C],[],[D],[C],[B],[A],[D],[C]?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack2: []**
+5.  **Stack3: [A,B,C,D]**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack2: []**
+8.  **Stack3: [A,B,C,D]**
+9.  **Stack1: [B,A,D,C]**
+10. **Stack2: []**
+11. **Stack3: [A,B,C,D]**
+12. **Stack1: [B,A]**
+13. **Stack2: []**
+14. **Stack3: [D]**
+15. **Stack1: [B,A]**
+16. **Stack2: []**
+17. **Stack3: [D]**
+18. **Stack1: [B,A]**
+19. **Stack2: []**?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+2.  **Stack2: []** (Pop A from Stack3) - Stack2 is empty, so we add B.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1) - Stack1 now contains [B, A, D, C].
+4.  **Stack2: []** (Pop B from Stack1) - Stack2 is empty, so we add empty.
+5.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+6.  **Stack1: [B,A,D,C]** (Push A onto Stack1) - Stack1 now contains [B, A, D, C].
+7.  **Stack2: []** (Pop A from Stack1) - Stack2 is empty, so we add empty.
+8.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+9.  **Stack1: [B,A,D,C]** (Push A onto Stack1) - Stack1 now contains [B, A, D, C].
+10. **Stack2: []** (Pop A from Stack1) - Stack2 is empty, so we add empty.
+11. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+12. **Stack1: [B,A,D,C]** (Push A onto Stack1) - Stack1 now contains [B, A, D, C].
+13. **Stack2: []** (Pop A from Stack1) - Stack2 is empty, so we add empty.
+14. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+15. **Stack1: [B,A,D,C]** (Push A onto Stack1) - Stack1 now contains [B, A, D, C].
+16. **Stack2: []** (Pop A from Stack1) - Stack2 is empty, so we add empty.
+17. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+18. **Stack1: [B,A,D,C]** (Push A onto Stack1) - Stack1 now contains [B, A, D, C].
+19. **Stack2: []** (Pop A from Stack1) - Stack2 is empty, so we add empty.
+20. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+21. **Stack1: [B,A,D,C]** (Push A onto Stack1) - Stack1 now contains [B, A, D, C].
+22. **Stack2: []** (Pop A from Stack1) - Stack2 is empty, so we add empty.
+23. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+24. **Stack1: [B,A,D,C]** (Push A onto Stack1) - Stack1 now contains [B, A, D, C].
+25. **Stack2: []** (Pop A from Stack1) - Stack2 is empty, so we add empty.
+26. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+27. **Stack1: [B,A,D,C]** (Push A onto Stack1) - Stack1 now contains [B, A, D, C].
+28. **Stack2: []** (Pop A from Stack1) - Stack2 is empty, so we add empty.
+29. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains [A, B, C, D].
+30. **Stack1: [B,A,D,C]** (Push A onto Stack1)?[A,B,C,D],[],[];[A,B,C],[],[D]
+?[A, B, C, D][][];[A, B, C];[];[D]?[1. Stack3: [A,B,C,D] ;]
+[2. Stack2: [] ;]
+[3. Stack1: [B,A,D,C] ;]
+[4. Stack3: [A,B,C,D] ;]
+[5. Stack2: [] ;]
+[6. Stack1: [B,A,D,C] ;]
+[7. Stack3: [A,B,C,D] ;]
+[8. Stack2: [] ;]
+[9. Stack1: [B,A,D,C] ;]
+[10. Stack3: [A,B,C,D] ;]
+[11. Stack2: [] ;]
+[12. Stack1: [B,A,D,C] ;]
+[13. Stack3: [A,B,C,D] ;]
+?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack3. (3 steps)
+4.  **Stack1:** Push 'B' into Stack1. (4 steps)
+5.  **Stack1:** Push 'D' into Stack1. (5 steps)
+6.  **Stack1:** Push 'C' into Stack1. (6 steps)
+7.  **Stack2:** Pop 'C' from Stack1. (7 steps)
+8.  **Stack2:** Pop 'D' from Stack1. (8 steps)
+9.  **Stack2:** Pop 'B' from Stack1. (9 steps)
+10. **Stack2:** Pop 'A' from Stack1. (10 steps)
+11. **Stack3:** Pop 'A' from Stack3. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack3:** Pop 'C' from Stack3. (13 steps)
+14. **Stack3:** Pop 'D' from Stack3. (14 steps)
+15. **Stack3:** Pop 'A' from Stack3. (15 steps)
+?[A,B,C,D] ;[] ;[] ;[] ;[] ;[] ;[] ;[] ;[] ;[] ;[] ;[] ;[]
+?1.  [A,B,C,D]
+2.  [B,A,D,C]
+3.  [A,B,C,D]
+4.  [B,A,D,C]
+5.  [A,B,C,D]
+6.  [B,A,C,D]
+7.  [A,B,C,D]
+8.  [B,A,C,D]
+9.  [A,B,C,D]
+10. [B,A,C,D]
+11. [A,B,C,D]
+12. [B,A,C,D]
+13. [A,B,C,D]
+14. [B,A,C,D]
+15. [A,B,C,D]
+16. [B,A,C,D]
+17. [A,B,C,D]
+18. [B,A,C,D]
+19. [A,B,C,D]?1. **Stack3:** Push 'A' into Stack3. (1 step)
+2. **Stack2:** Pop 'A' from Stack3. (2 steps)
+3. **Stack1:** Pop 'A' from Stack3. (3 steps)
+4. **Stack1:** Push 'B' into Stack1. (4 steps)
+5. **Stack1:** Push 'D' into Stack1. (5 steps)
+6. **Stack1:** Push 'C' into Stack1. (6 steps)
+7. **Stack3:** Pop 'A' from Stack3. (7 steps)
+8. **Stack3:** Pop 'B' from Stack3. (8 steps)
+9. **Stack3:** Pop 'D' from Stack3. (9 steps)
+10. **Stack3:** Pop 'C' from Stack3. (10 steps)
+11. **Stack3:** Pop 'A' from Stack3. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack3:** Pop 'D' from Stack3. (13 steps)?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack3: [A,B,C,D]**
+5.  **Stack2: []**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack3: [A,B,C,D]**
+8.  **Stack2: []**
+9.  **Stack1: [B,A,C,D]**
+10. **Stack3: [A,B,C,D]**
+11. **Stack2: []**
+12. **Stack1: [B,A,C,D]**
+13. **Stack3: [A,B,C,D]**
+14. **Stack2: []**
+15. **Stack1: [B,A,C,D]**
+16. **Stack3: [A,B,C,D]**
+17. **Stack2: []**
+18. **Stack1: [B,A,C,D]**
+19. **Stack3: [A,B,C,D]**
+?[1. Stack3: [A,B,C,D] ]
+[2. Stack2: [] ]
+[3. Stack1: [B,A,D,C] ]
+[4. Stack2: [] ]
+[5. Stack1: [B,A,D,C] ]
+[6. Stack2: [] ]
+[7. Stack3: [A,B,C,D] ]
+[8. Stack1: [B,D,C] ]
+[9. Stack2: [] ]
+[10. Stack3: [A,B,C,D] ]
+[11. Stack1: [B,D,C] ]
+[12. Stack2: [A,B,C,D] ]
+[13. Stack3: [A,B,C,D] ]?1.  Push A.  (1 step)
+2.  Push B.  (2 steps)
+3.  Push D.  (3 steps)
+4.  Push C.  (4 steps)
+5.  Push B.  (5 steps)
+6.  Push A.  (6 steps)
+7.  Push D.  (7 steps)
+8.  Push C.  (8 steps)
+9.  Push B.  (9 steps)
+10. Push A.  (10 steps)
+11. Push D.  (11 steps)
+12. Push C.  (12 steps)
+13. Push B.  (13 steps)
+14. Push A.  (14 steps)
+15. Push D.  (15 steps)
+16. Push C.  (16 steps)
+17. Push B.  (17 steps)
+18. Push A.  (18 steps)
+19. Push D.  (19 steps)?1.  **Stack3: [A,B,C,D]**  Push A onto Stack3. (1 step)
+2.  **Stack2: []**  Push B onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]**  Push D onto Stack1. (3 steps)
+4.  **Stack2: [B]**  Pop D from Stack1. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push C onto Stack3. (5 steps)
+6.  **Stack1: [B,A,D,C]**  Pop C from Stack3. (6 steps)
+7.  **Stack2: []**  Pop B from Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push D onto Stack3. (8 steps)
+9.  **Stack1: [B,A,D,C]**  Pop C from Stack3. (9 steps)
+10. **Stack2: []**  Pop B from Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Push D onto Stack3. (11 steps)
+12. **Stack1: [B,A,D,C]**  Pop C from Stack3. (12 steps)
+13. **Stack2: []**  Pop B from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]**  Push D onto Stack3. (14 steps)
+15. **Stack1: [B,A,D,C]**  Pop C from Stack3. (15 steps)
+?1. **Stack3: [A,B,C,D]**  Stack3 is now populated with four elements.
+2. **Stack2: []**  Stack2 is empty, so we add nothing.
+3. **Stack1: [B,A,D,C]**  Stack1 is populated with four elements.
+4. **Stack2: [B,A,D,C]**  Stack2 remains unchanged.
+5. **Stack3: [A,B,C,D]**  Stack3 remains unchanged.
+6. **Stack1: [B,A,D,C]**  Stack1 is now populated with four elements.
+7. **Stack2: [B,A,D,C]**  Stack2 remains unchanged.
+8. **Stack3: [A,B,C,D]**  Stack3 remains unchanged.
+9. **Stack1: [B,A,D,C]**  Stack1 is now populated with four elements.
+10. **Stack2: [B,A,D,C]**  Stack2 remains unchanged.
+11. **Stack3: [A,B,C,D]**  Stack3 remains unchanged.
+12. **Stack1: [B,A,D,C]**  Stack1 is now populated with four elements.
+13. **Stack2: [B,A,D,C]**  Stack2 remains unchanged.
+14. **Stack3: [A,B,C,D]**  Stack3 remains unchanged.
+?[A,B,C,D],[],[];[A,B,C],[],[D]?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C],[],[D],[A,B,C]?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack3:** Pop `C` from Stack3. (7 steps)
+8.  **Stack3:** Pop `D` from Stack3. (8 steps)
+9.  **Stack3:** Pop `B` from Stack3. (9 steps)
+10. **Stack3:** Pop `A` from Stack3. (10 steps)
+11. **Stack3:** Pop `D` from Stack3. (11 steps)
+?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B, A, D, C]**
+4.  **Stack3: [A, B, C, D]**
+5.  **Stack2: []**
+6.  **Stack1: [B, A, D, C]**
+7.  **Stack3: [A, B, C, D]**
+8.  **Stack2: []**
+9.  **Stack1: [B, A, D, C]**
+10. **Stack3: [A, B, C, D]**
+11. **Stack2: []**
+12. **Stack1: [B, A, D, C]**
+13. **Stack3: [A, B, C, D]**
+14. **Stack2: []**
+15. **Stack1: [B, A, D, C]**
+16. **Stack3: [A, B, C, D]**
+17. **Stack2: []**
+18. **Stack1: [B, A, D, C]**
+19. **Stack3: [A, B, C, D]**?1.  **Stack3: [A,B,C,D]** - Push 'A' onto Stack3. (1 step)
+2.  **Stack2: []** - Push 'B' onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]** - Push 'D' onto Stack1. (3 steps)
+4.  **Stack2: [B]** - Pop 'B' from Stack2. (4 steps)
+5.  **Stack1: [B,A,D,C]** - Push 'A' onto Stack1. (5 steps)
+6.  **Stack2: [B,A,D,C]** - Pop 'A' from Stack1. (6 steps)
+7.  **Stack3: [A,B,C,D]** - Push 'C' onto Stack3. (7 steps)
+8.  **Stack2: [B,A,D,C]** - Pop 'B' from Stack2. (8 steps)
+9.  **Stack1: [B,A,D,C]** - Pop 'C' from Stack1. (9 steps)
+10. **Stack2: [B,A,D,C]** - Pop 'A' from Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]** - Push 'D' onto Stack3. (11 steps)
+12. **Stack1: []** - Pop 'D' from Stack3. (12 steps)
+13. **Stack2: []** - Pop 'D' from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]** - Push 'A' onto Stack3. (14 steps)
+?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack2:** Pop `C` from Stack1. (7 steps)
+8.  **Stack2:** Pop `D` from Stack1. (8 steps)
+9.  **Stack2:** Pop `B` from Stack1. (9 steps)
+10. **Stack2:** Pop `A` from Stack1. (10 steps)
+11. **Stack2:** Pop `D` from Stack1. (11 steps)
+12. **Stack3:** Pop `A` from Stack3. (12 steps)
+13. **Stack3:** Pop `B` from Stack3. (13 steps)
+14. **Stack3:** Pop `D` from Stack3. (14 steps)
+15. **Stack3:** Pop `C` from Stack3. (15 steps)
+16. **Stack3:** Pop `A` from Stack3. (16 steps)
+17. **Stack3:** Pop `B` from Stack3. (17 steps)
+18. **Stack3:** Pop `D` from Stack3. (18 steps)
+?[A,B,C,D],[],[];[A,B,C],[],[D]?[A,B,C,D],[],[];[A,B,C],[],[D]
+?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack2:** Pop `C` from Stack1. (7 steps)
+8.  **Stack2:** Pop `D` from Stack1. (8 steps)
+9.  **Stack2:** Pop `B` from Stack1. (9 steps)
+10. **Stack2:** Pop `A` from Stack1. (10 steps)
+11. **Stack3:** Pop `A` from Stack3. (11 steps)
+12. **Stack3:** Pop `B` from Stack3. (12 steps)
+13. **Stack3:** Pop `D` from Stack3. (13 steps)
+14. **Stack3:** Pop `C` from Stack3. (14 steps)
+?[1. Stack3: Push 'A' into Stack3.]
+[2. Stack2: Pop 'A' from Stack2.]
+[3. Stack1: Pop 'A' from Stack1.]
+[4. Stack3: Push 'B' into Stack3.]
+[5. Stack2: Pop 'B' from Stack2.]
+[6. Stack1: Pop 'B' from Stack1.]
+[7. Stack3: Push 'C' into Stack3.]
+[8. Stack2: Pop 'C' from Stack2.]
+[9. Stack1: Pop 'C' from Stack1.]
+[10. Stack3: Push 'D' into Stack3.]
+[11. Stack2: Pop 'D' from Stack2.]
+[12. Stack1: Pop 'D' from Stack1.]
+[13. Stack3: Pop 'A' from Stack3.]
+[14. Stack2: Pop 'A' from Stack2.]
+[15. Stack1: Pop 'A' from Stack1.]
+[16. Stack3: Pop 'B' from Stack3.]
+[17. Stack2: Pop 'B' from Stack2.]
+[18. Stack1: Pop 'B' from Stack1.]
+[19. Stack3: Pop 'C' from Stack3.]?[1. Stack3: Push A onto Stack3.]
+[2. Stack2: Push B onto Stack2.]
+[3. Stack1: Push D onto Stack1.]
+[4. Stack3: Pop A from Stack3.]
+[5. Stack2: Pop B from Stack2.]
+[6. Stack1: Pop D from Stack1.]
+[7. Stack3: Pop A from Stack3.]
+[8. Stack2: Pop B from Stack2.]
+[9. Stack1: Pop D from Stack1.]
+[10. Stack3: Pop A from Stack3.]
+[11. Stack2: Pop B from Stack2.]
+[12. Stack1: Pop D from Stack1.]
+[13. Stack3: Pop A from Stack3.]
+[14. Stack2: Pop B from Stack2.]
+[15. Stack1: Pop D from Stack1.]
+?1.  **Stack3:** Push 'A' to Stack3. (1 step)
+2.  **Stack2:** Push 'B' to Stack2. (2 steps)
+3.  **Stack1:** Push 'D' to Stack1. (3 steps)
+4.  **Stack3:** Pop 'A' from Stack3. (4 steps)
+5.  **Stack2:** Pop 'B' from Stack2. (5 steps)
+6.  **Stack1:** Pop 'D' from Stack1. (6 steps)
+7.  **Stack3:** Pop 'A' from Stack3. (7 steps)
+8.  **Stack2:** Pop 'B' from Stack2. (8 steps)
+9.  **Stack1:** Pop 'D' from Stack1. (9 steps)
+10. **Stack3:** Pop 'A' from Stack3. (10 steps)
+11. **Stack2:** Pop 'B' from Stack2. (11 steps)
+12. **Stack1:** Pop 'D' from Stack1. (12 steps)
+
+[A,B,C,D]
+?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack3. (3 steps)
+4.  **Stack1:** Push 'B' into Stack1. (4 steps)
+5.  **Stack1:** Push 'D' into Stack1. (5 steps)
+6.  **Stack1:** Push 'C' into Stack1. (6 steps)
+7.  **Stack2:** Pop 'C' from Stack1. (7 steps)
+8.  **Stack2:** Pop 'D' from Stack1. (8 steps)
+9.  **Stack2:** Pop 'B' from Stack1. (9 steps)
+10. **Stack2:** Pop 'A' from Stack1. (10 steps)
+11. **Stack2:** Pop 'D' from Stack1. (11 steps)
+12. **Stack3:** Pop 'A' from Stack3. (12 steps)
+13. **Stack3:** Pop 'B' from Stack3. (13 steps)
+14. **Stack3:** Pop 'D' from Stack3. (14 steps)
+15. **Stack3:** Pop 'C' from Stack3. (15 steps)
+16. **Stack3:** Pop 'A' from Stack3. (16 steps)
+17. **Stack3:** Pop 'B' from Stack3. (17 steps)
+18. **Stack3:** Pop 'D' from Stack3. (18 steps)
+?1.  [A,B,C,D]
+2.  [B,A,D,C]
+3.  [A,B,C,D]
+4.  [B,A,D,C]
+5.  [A,B,C,D]
+6.  [B,A,D,C]
+7.  [A,B,C,D]
+8.  [B,A,C,D]
+9.  [A,B,C,D]
+10. [B,A,C,D]
+11. [A,B,C,D]
+12. [B,A,C,D]
+13. [A,B,C,D]
+14. [B,A,C,D]
+15. [A,B,C,D]
+16. [B,A,C,D]
+17. [A,B,C,D]
+18. [B,A,C,D]
+19. [A,B,C,D]
+20. [B,A,C,D]
+21. [A,B,C,D]
+22. [B,A,C,D]
+23. [A,B,C,D]
+24. [B,A,C,D]
+25. [A,B,C,D]
+?[A, B, C, D],[],[];[A, B, C],[],[D],[A, B, C, D]?1. **Stack3:** Push A to Stack3. (1 step)
+2. **Stack2:** Pop A from Stack3 and push B to Stack2. (2 steps)
+3. **Stack2:** Pop B from Stack2 and push C to Stack2. (3 steps)
+4. **Stack2:** Pop C from Stack2 and push D to Stack2. (4 steps)
+5. **Stack3:** Pop D from Stack3. (5 steps)
+6. **Stack3:** Push A to Stack3. (6 steps)
+7. **Stack3:** Pop A from Stack3. (7 steps)
+8. **Stack3:** Push B to Stack3. (8 steps)
+9. **Stack3:** Pop B from Stack3. (9 steps)
+10. **Stack3:** Push A to Stack3. (10 steps)
+11. **Stack3:** Pop A from Stack3. (11 steps)
+12. **Stack3:** Push B to Stack3. (12 steps)
+13. **Stack3:** Pop B from Stack3. (13 steps)
+14. **Stack3:** Push A to Stack3. (14 steps)
+15. **Stack3:** Pop A from Stack3. (15 steps)
+16. **Stack3:** Push B to Stack3. (16 steps)
+17. **Stack3:** Pop B from Stack3. (17 steps)
+18. **Stack3:** Push A to Stack3. (18 steps)
+?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3)  Stack3 now contains [A, B, C, D].
+2.  **Stack2: []** (Pop A from Stack3)  Stack2 is now empty.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1)  Stack1 now contains [B, A, D, C].
+4.  **Stack2: []** (Pop A from Stack1)  Stack2 is now empty.
+5.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+6.  **Stack1: [B,A,D,C]** (Push C onto Stack1)  Stack1 now contains [B, A, D, C].
+7.  **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+8.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+9.  **Stack1: [B,A,D,C]** (Push C onto Stack1)  Stack1 now contains [B, A, D, C].
+10. **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+11. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+12. **Stack1: [B,A,D,C]** (Push C onto Stack1)  Stack1 now contains [B, A, D, C].
+13. **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+14. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+15. **Stack1: [B,A,D,C]** (Push C onto Stack1)  Stack1 now contains [B, A, D, C].
+?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack3: [A,B,C,D]**
+5.  **Stack2: []**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack3: [A,B,C,D]**
+8.  **Stack2: []**
+9.  **Stack1: [B,A,C,D]**
+10. **Stack3: [A,B,C,D]**
+11. **Stack2: []**
+12. **Stack1: [B,A,C,D]**
+13. **Stack3: [A,B,C,D]**
+14. **Stack2: []**
+15. **Stack1: [B,A,C,D]**
+16. **Stack3: [A,B,C,D]**?[1. Stack3: Push 'A' onto Stack3.]
+[2. Stack2: Pop 'A' from Stack3.]
+[3. Stack1: Pop 'A' from Stack2.]
+[4. Stack1: Pop 'B' from Stack1.]
+[5. Stack1: Pop 'D' from Stack1.]
+[6. Stack1: Pop 'C' from Stack1.]
+[7. Stack1: Pop 'C' from Stack1.]
+[8. Stack1: Pop 'D' from Stack1.]
+[9. Stack1: Pop 'B' from Stack1.]
+[10. Stack1: Pop 'A' from Stack1.]
+[11. Stack1: Pop 'D' from Stack1.]
+[12. Stack1: Pop 'C' from Stack1.]
+[13. Stack1: Pop 'B' from Stack1.]
+[14. Stack1: Pop 'A' from Stack1.]
+[15. Stack1: Pop 'C' from Stack1.]
+[16. Stack1: Pop 'D' from Stack1.]
+?[A,B,C,D],[],[];[A,B,C],[],[D]?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Stack2: [] ; 5. Stack3: [A,B,C,D] ; 6. Stack1: [B,A,D,C] ; 7. Stack2: [] ; 8. Stack3: [A,B,C,D] ; 9. Stack1: [B,A,D,C] ; 10. Stack2: [] ; 11. Stack3: [A,B,C,D] ; 12. Stack1: [B,A,D,C] ; 13. Stack2: [] ; 14. Stack3: [A,B,C,D] ; 15. Stack1: [] ; 16. Stack2: [] ; 17. Stack3: [A,B,C,D] ; 18. Stack1: [] ]?1. **Stack3:** Push 'A' into Stack3. (1 step)
+2. **Stack2:** Push 'B' into Stack2. (2 steps)
+3. **Stack1:** Push 'D' into Stack1. (3 steps)
+4. **Stack3:** Pop 'A' from Stack3. (4 steps)
+5. **Stack2:** Pop 'B' from Stack2. (5 steps)
+6. **Stack1:** Pop 'D' from Stack1. (6 steps)
+7. **Stack3:** Pop 'A' from Stack3. (7 steps)
+8. **Stack2:** Pop 'B' from Stack2. (8 steps)
+9. **Stack1:** Pop 'D' from Stack1. (9 steps)
+10. **Stack3:** Pop 'A' from Stack3. (10 steps)
+11. **Stack2:** Pop 'B' from Stack2. (11 steps)
+12. **Stack1:** Pop 'D' from Stack1. (12 steps)
+13. **Stack3:** Pop 'A' from Stack3. (13 steps)
+14. **Stack2:** Pop 'B' from Stack2. (14 steps)
+15. **Stack1:** Pop 'D' from Stack1. (15 steps)
+16. **Stack3:** Pop 'A' from Stack3. (16 steps)
+
+Stack1: [], Stack2: [], Stack3: [A, B, C, D].?1. **Stack3:** Push 'A' to Stack3. (1 step)
+2. **Stack2:** Pop 'A' from Stack3. (2 steps)
+3. **Stack1:** Pop 'A' from Stack3. (3 steps)
+4. **Stack1:** Push 'B' to Stack1. (4 steps)
+5. **Stack1:** Push 'D' to Stack1. (5 steps)
+6. **Stack1:** Push 'C' to Stack1. (6 steps)
+7. **Stack3:** Pop 'A' from Stack3. (7 steps)
+8. **Stack3:** Pop 'B' from Stack3. (8 steps)
+9. **Stack3:** Pop 'C' from Stack3. (9 steps)
+10. **Stack3:** Pop 'D' from Stack3. (10 steps)
+11. **Stack3:** Pop 'A' from Stack3. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack3:** Pop 'C' from Stack3. (13 steps)
+14. **Stack3:** Pop 'D' from Stack3. (14 steps)
+?1.  **Stack3: [A,B,C,D]** (Push A, B, C, D onto Stack3)  Initial state: Stack3 = [A, B, C, D]
+
+2.  **Stack2: []** (Pop A from Stack3)  Stack2 = []
+
+3.  **Stack1: [B,A,D,C]** (Push B, A, D, C onto Stack1)  Stack1 = [B, A, D, C]
+
+4.  **Stack3: [A,B,C,D]** (Pop C from Stack3)  Stack3 = [A, B, C, D]
+
+5.  **Stack2: []** (Pop A from Stack3)  Stack2 = []
+
+6.  **Stack1: [B,A,D,C]** (Push D from Stack1)  Stack1 = [B, A, D, C]
+
+7.  **Stack3: [A,B,C,D]** (Pop C from Stack3)  Stack3 = [A, B, C, D]
+
+8.  **Stack2: []** (Pop A from Stack3)  Stack2 = []
+
+9.  **Stack1: [B,A,D,C]** (Push D from Stack1)  Stack1 = [B, A, D, C]
+
+10. **Stack3: [A,B,C,D]** (Pop C from Stack3)  Stack3 = [A, B, C, D]
+
+11. **Stack2: []** (Pop A from Stack3)  Stack2 = []
+
+12. **Stack1: [B,A,D,C]** (Push D from Stack1)  Stack1 = [B, A, D, C]
+
+13. **Stack3: [A,B,C,D]** (Pop C from Stack3)  Stack3 = [A, B, C, D]
+
+14. **Stack2: []** (Pop A from Stack3)  Stack2 = []
+
+15. **Stack1: [B,A,D,C]** (Push D from Stack1)  Stack1 = [B, A, D, C]
+
+16. **Stack3: [A,B,C,D]** (Pop C from Stack3)  Stack3 = [A, B, C, D]
+
+17. **Stack2: []** (Pop A from Stack3)  Stack2 = []
+
+18. **Stack1: [B,A,D,C]** (Push D from Stack1)  Stack1 = [B, A, D, C]
+
+19. **Stack3: []** (Pop C from Stack3)  Stack3 = []
+?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack2: []**
+5.  **Stack3: [A,B,C,D]**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack2: [A,B,C,D]**
+8.  **Stack3: [A,B,C,D]**
+9.  **Stack1: []**
+10. **Stack2: []**
+11. **Stack3: [A,B,C,D]**
+12. **Stack1: []**
+13. **Stack2: []**
+14. **Stack3: [A,B,C,D]**
+15. **Stack1: []**
+16. **Stack2: []**
+17. **Stack3: [A,B,C,D]**
+?[1. Stack3: Push A onto Stack3.]
+[2. Stack2: Pop A from Stack3.]
+[3. Stack1: Pop A from Stack3.]
+[4. Stack1: Push B onto Stack1.]
+[5. Stack1: Pop B from Stack1.]
+[6. Stack1: Push D onto Stack1.]
+[7. Stack1: Pop D from Stack1.]
+[8. Stack1: Push C onto Stack1.]
+[9. Stack1: Pop C from Stack1.]
+[10. Stack2: Pop C from Stack1.]
+[11. Stack2: Push B onto Stack2.]
+[12. Stack2: Pop B from Stack2.]
+[13. Stack2: Push A onto Stack2.]
+[14. Stack2: Pop A from Stack2.]
+[15. Stack2: Push B onto Stack2.]
+[16. Stack2: Pop B from Stack2.]
+[17. Stack2: Push C onto Stack2.]
+[18. Stack2: Pop C from Stack2.]
+?1.  **Stack3:** Push `A` onto Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` onto Stack1. (4 steps)
+5.  **Stack1:** Push `D` onto Stack1. (5 steps)
+6.  **Stack1:** Push `C` onto Stack1. (6 steps)
+7.  **Stack3:** Pop `A` from Stack3. (7 steps)
+8.  **Stack3:** Pop `B` from Stack3. (8 steps)
+9.  **Stack3:** Pop `C` from Stack3. (9 steps)
+10. **Stack3:** Pop `D` from Stack3. (10 steps)
+11. **Stack3:** Pop `A` from Stack3. (11 steps)
+12. **Stack3:** Pop `B` from Stack3. (12 steps)
+13. **Stack3:** Pop `C` from Stack3. (13 steps)
+14. **Stack3:** Pop `D` from Stack3. (14 steps)
+15. **Stack3:** Pop `A` from Stack3. (15 steps)
+16. **Stack3:** Pop `B` from Stack3. (16 steps)
+17. **Stack3:** Pop `C` from Stack3. (17 steps)
+18. **Stack3:** Pop `D` from Stack3. (18 steps)
+?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack2:** Pop `C` from Stack1. (7 steps)
+8.  **Stack2:** Pop `D` from Stack1. (8 steps)
+9.  **Stack2:** Pop `B` from Stack1. (9 steps)
+10. **Stack2:** Pop `A` from Stack1. (10 steps)
+11. **Stack3:** Pop `A` from Stack3. (11 steps)
+12. **Stack3:** Pop `B` from Stack3. (12 steps)
+13. **Stack3:** Pop `D` from Stack3. (13 steps)
+14. **Stack3:** Pop `C` from Stack3. (14 steps)
+
+The final configuration is: Stack1: [], Stack2: [], Stack3: [A, B, C, D].  The maximum number of steps is 14.?[1. Stack3: Push A onto Stack3.]
+[2. Stack2: Push B onto Stack2.]
+[3. Stack1: Push D onto Stack1.]
+[4. Stack3: Pop A from Stack3.]
+[5. Stack2: Pop B from Stack2.]
+[6. Stack1: Pop D from Stack1.]
+[7. Stack3: Pop A from Stack3.]
+[8. Stack2: Pop B from Stack2.]
+[9. Stack1: Pop D from Stack1.]
+[10. Stack3: Pop A from Stack3.]
+[11. Stack2: Pop B from Stack2.]
+[12. Stack1: Pop D from Stack1.]
+[13. Stack3: Pop A from Stack3.]
+[14. Stack2: Pop B from Stack2.]
+[15. Stack1: Pop D from Stack1.]?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack3: [A,B,C,D]**
+5.  **Stack2: []**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack3: [A,B,C,D]**
+8.  **Stack2: []**
+9.  **Stack1: [B,A,D,C]**
+10. **Stack3: [A,B,C,D]**
+11. **Stack2: []**
+12. **Stack1: [B,A,D,C]**
+13. **Stack3: [A,B,C,D]**
+14. **Stack2: []**
+15. **Stack1: [B,A,D,C]**
+16. **Stack3: [A,B,C,D]**
+17. **Stack2: []**
+18. **Stack1: [B,A,D,C]**
+19. **Stack3: [A,B,C,D]**
+20. **Stack2: []**
+21. **Stack1: [B,A,D,C]**
+22. **Stack3: [A,B,C,D]**
+?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack2: [B]**
+5.  **Stack3: [A,B,C,D]**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack2: [B]**
+8.  **Stack3: [A,B,C,D]**
+9.  **Stack1: [B,A,D,C]**
+10. **Stack2: [B]**
+11. **Stack3: [A,B,C,D]**
+12. **Stack1: [B,A,D,C]**
+13. **Stack2: [B]**
+14. **Stack3: [A,B,C,D]**
+15. **Stack1: [B,A,D,C]**
+16. **Stack2: [B]**
+17. **Stack3: [A,B,C,D]**
+18. **Stack1: [B,A,D,C]**
+19. **Stack2: [B]**
+20. **Stack3: [A,B,C,D]**
+21. **Stack1: [B,A,D,C]**
+22. **Stack2: [B]**
+23. **Stack3: [A,B,C,D]**
+24. **Stack1: [B,A,D,C]**
+25. **Stack2: [B]**
+26. **Stack3: [A,B,C,D]**
+27. **Stack1: [B,A,D,C]**
+28. **Stack2: [B]**
+29. **Stack3: [A,B,C,D]**
+30. **Stack1: [B,A,D,C]**
+31. **Stack2: [B]**
+32. **Stack3: [A,B,C,D]**
+33. **Stack1: [B,A,D,C]**
+34. **Stack2: [B]**
+35. **Stack3: [A,B,C,D]**
+36. **Stack1: [B,A,D,C]**
+37. **Stack2: [B]**
+38. **Stack3: [A,B,C,D]**
+39. **Stack1: [B,A,D,C]**
+40. **Stack2: [B]**
+41. **Stack3: [A,B,C,D]**
+42. **Stack1: [B,A,D,C]**
+43. **Stack2: [B]**
+44. **Stack3: [A,B,C,D]**
+45. **Stack1: [B,A,D,C]**
+46. **Stack2: [B]**
+47. **Stack3: [A,B,C,D]**
+48. **Stack1: [B,A,D,C]**
+49. **Stack2: [B]**
+50. **Stack3: [A,B,C,D]**
+51. **Stack1: [B,A,D,C]**
+52. **Stack2: [B]**
+53. **Stack3: [A,B,C,D]**
+54. **Stack1: [B,A,D,C]**
+55. **Stack2: [B]**
+56. **Stack3: [A,B,C,D]**
+57. **Stack1: [B,A,D,C]**
+58. **Stack2: [B]**
+59. **Stack3: [A,B,C,D]**
+60. **Stack1: [B,A,D,C]**
+61. **Stack2: [B]**
+62. **Stack3: [A,B,C,D]**
+63. **Stack1: [B,A,D,C]**
+64. **Stack2: [B]**
+65. **Stack3: [A,B,C,D]**
+66. **Stack1: [B?[A,B,C,D],[],[];[A,B,C],[],[D]?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C],[],[D]?[A,B,C,D],[],[];[A,B,C],[],[D]
+?[A,B,C,D],[],[];[A,B,C],[],[D],[]
+?1.  **Stack3: [A,B,C,D]** (Push A to Stack3) - We start by placing the first element in Stack3.
+2.  **Stack2: []** (Pop A from Stack3) - Now Stack2 is empty.
+3.  **Stack1: [B,A,D,C]** (Push B to Stack1) - We add the first element to Stack1.
+4.  **Stack2: []** (Pop A from Stack1) - Stack2 is empty.
+5.  **Stack3: [A,B,C,D]** (Push B to Stack3) - We add the second element to Stack3.
+6.  **Stack1: [B,A,D,C]** (Push B to Stack1) - We add the second element to Stack1.
+7.  **Stack2: []** (Pop A from Stack1) - Stack2 is empty.
+8.  **Stack3: [A,B,C,D]** (Push B to Stack3) - We add the third element to Stack3.
+9.  **Stack1: [B,A,D,C]** (Push B to Stack1) - We add the third element to Stack1.
+10. **Stack2: []** (Pop A from Stack1) - Stack2 is empty.
+11. **Stack3: [A,B,C,D]** (Push B to Stack3) - We add the fourth element to Stack3.
+12. **Stack1: [B,A,D,C]** (Push B to Stack1) - We add the fourth element to Stack1.
+13. **Stack2: []** (Pop A from Stack1) - Stack2 is empty.
+14. **Stack3: [A,B,C,D]** (Push B to Stack3) - We add the fifth element to Stack3.
+15. **Stack1: [B,A,D,C]** (Push B to Stack1) - We add the fifth element to Stack1.
+16. **Stack2: []** (Pop A from Stack1) - Stack2 is empty.
+17. **Stack3: [A,B,C,D]** (Push B to Stack3) - We add the sixth element to Stack3.
+18. **Stack1: [B,A,D,C]** (Push B to Stack1) - We add the sixth element to Stack1.
+19. **Stack2: []** (Pop A from Stack1) - Stack2 is empty.
+?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C],[],[D],[A,B,C,D]?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: []**
+4.  **Stack2: []**
+5.  **Stack3: [A,B,C,D]**
+6.  **Stack1: [A,B,C,D]**
+7.  **Stack2: []**
+8.  **Stack3: [A,B,C,D]**
+9.  **Stack1: [A,B,C,D]**
+10. **Stack2: []**
+11. **Stack3: [A,B,C,D]**
+12. **Stack1: [A,B,C,D]**
+13. **Stack2: []**
+14. **Stack3: [A,B,C,D]**
+15. **Stack1: [A,B,C,D]**
+16. **Stack2: []**
+17. **Stack3: [A,B,C,D]**
+18. **Stack1: [A,B,C,D]**
+19. **Stack2: []**
+20. **Stack3: [A,B,C,D]**
+?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C],[],[D],[A,B,C],[],[D]?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Stack2: [B] ; 5. Stack3: [A,B,C,D] ; 6. Stack1: [B,A,D,C] ; 7. Stack2: [B] ; 8. Stack3: [A,B,C,D] ; 9. Stack1: [B,A,D,C] ; 10. Stack2: [B] ; 11. Stack3: [A,B,C,D] ; 12. Stack1: [B,A,D,C] ; 13. Stack2: [B] ; 14. Stack3: [A,B,C,D] ; 15. Stack1: [B,A,D,C] ; 16. Stack2: [B] ; 17. Stack3: [A,B,C,D] ; 18. Stack1: [] ; 19. Stack2: [] ; 20. Stack3: [A,B,C,D] ]?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack3. (3 steps)
+4.  **Stack1:** Push 'B' into Stack1. (4 steps)
+5.  **Stack1:** Push 'D' into Stack1. (5 steps)
+6.  **Stack1:** Push 'C' into Stack1. (6 steps)
+7.  **Stack2:** Pop 'C' from Stack1. (7 steps)
+8.  **Stack3:** Pop 'C' from Stack3. (8 steps)
+9.  **Stack2:** Pop 'B' from Stack3. (9 steps)
+10. **Stack3:** Pop 'A' from Stack3. (10 steps)
+11. **Stack3:** Pop 'D' from Stack3. (11 steps)
+12. **Stack3:** Pop 'A' from Stack3. (12 steps)
+13. **Stack3:** Pop 'B' from Stack3. (13 steps)
+14. **Stack3:** Pop 'D' from Stack3. (14 steps)?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack3: [A,B,C,D]**
+5.  **Stack2: []**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack3: [A,B,C,D]**
+8.  **Stack2: []**
+9.  **Stack1: [B,A,D,C]**
+10. **Stack3: [A,B,C,D]**
+11. **Stack2: []**
+12. **Stack1: [B,A,D,C]**
+13. **Stack3: [A,B,C,D]**
+14. **Stack2: []**
+15. **Stack1: [B,A,D,C]**
+16. **Stack3: [A,B,C,D]**
+17. **Stack2: []**
+18. **Stack1: [B,A,D,C]**
+19. **Stack3: [A,B,C,D]**
+?1.  **Stack3: [A,B,C,D]**  Push 'A' onto Stack3. (1 step)
+2.  **Stack2: []**  Push 'B' onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]**  Push 'D' onto Stack1. (3 steps)
+4.  **Stack2: [B]**  Push 'B' onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push 'C' onto Stack3. (5 steps)
+6.  **Stack1: [B,A,D,C]**  Push 'D' onto Stack1. (6 steps)
+7.  **Stack2: [B]**  Push 'B' onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (8 steps)
+9.  **Stack1: []**  Pop 'D' from Stack1. (9 steps)
+10. **Stack2: [B,C]**  Pop 'C' from Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Pop 'D' from Stack3. (11 steps)
+12. **Stack1: []**  Pop 'D' from Stack1. (12 steps)
+13. **Stack2: []**  Pop 'B' from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]**  Pop 'D' from Stack3. (14 steps)
+?1.  **Stack3: [A,B,C,D]** - Push 'A' onto Stack3. (1 step)
+2.  **Stack2: []** - Push 'B' onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]** - Push 'D' onto Stack1. (3 steps)
+4.  **Stack2: [B]** - Pop 'D' from Stack1. (4 steps)
+5.  **Stack3: [A,B,C,D]** - Push 'A' onto Stack3. (5 steps)
+6.  **Stack1: [B,A,D,C]** - Pop 'C' from Stack3. (6 steps)
+7.  **Stack2: [B]** - Pop 'B' from Stack3. (7 steps)
+8.  **Stack3: [A,B,C,D]** - Pop 'D' from Stack3. (8 steps)
+9.  **Stack2: []** - Pop 'B' from Stack2. (9 steps)
+10. **Stack1: [B,A,D,C]** - Pop 'C' from Stack1. (10 steps)
+11. **Stack3: [B,A,D,C]** - Pop 'D' from Stack3. (11 steps)
+12. **Stack2: []** - Pop 'B' from Stack2. (12 steps)
+13. **Stack1: [B,A,D,C]** - Pop 'C' from Stack1. (13 steps)
+14. **Stack3: [B,A,D,C]** - Pop 'D' from Stack3. (14 steps)
+?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack3. (3 steps)
+4.  **Stack1:** Push 'B' into Stack1. (4 steps)
+5.  **Stack1:** Push 'D' into Stack1. (5 steps)
+6.  **Stack1:** Push 'C' into Stack1. (6 steps)
+7.  **Stack2:** Pop 'C' from Stack1. (7 steps)
+8.  **Stack2:** Pop 'D' from Stack1. (8 steps)
+9.  **Stack2:** Pop 'B' from Stack1. (9 steps)
+10. **Stack2:** Pop 'A' from Stack1. (10 steps)
+11. **Stack3:** Pop 'A' from Stack3. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack3:** Pop 'C' from Stack3. (13 steps)
+14. **Stack3:** Pop 'D' from Stack3. (14 steps)
+?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C],[],[D],[A,B,C,D]?[1. Stack3: [A,B,C,D]\]
+[2. Stack2: []\]
+[3. Stack1: [B,D,C]\]
+[4. Stack2: [B,D]\]
+[5. Stack3: [A,B,C,D]\]
+[6. Stack1: [B,D,C]\]
+[7. Stack2: [B,D]\]
+[8. Stack3: [A,B,C,D]\]
+[9. Stack1: [B,D,C]\]
+[10. Stack2: [B,D]\]
+[11. Stack3: [A,B,C,D]\]
+[12. Stack1: [B,D,C]\]
+[13. Stack2: [B,D]\]
+[14. Stack3: [A,B,C,D]\]?[1. Stack3: Push 'A' into Stack3.]
+[2. Stack2: Pop 'A' from Stack2.]
+[3. Stack1: Pop 'A' from Stack1.]
+[4. Stack3: Push 'B' into Stack3.]
+[5. Stack2: Pop 'B' from Stack2.]
+[6. Stack1: Pop 'B' from Stack1.]
+[7. Stack3: Push 'C' into Stack3.]
+[8. Stack2: Pop 'C' from Stack2.]
+[9. Stack1: Pop 'C' from Stack1.]
+[10. Stack3: Push 'D' into Stack3.]
+[11. Stack2: Pop 'D' from Stack2.]
+[12. Stack1: Pop 'D' from Stack1.]
+[13. Stack3: Pop 'A' from Stack3.]
+[14. Stack2: Pop 'A' from Stack2.]
+[15. Stack1: Pop 'A' from Stack1.]
+[16. Stack3: Pop 'B' from Stack3.]
+[17. Stack2: Pop 'B' from Stack2.]
+[18. Stack1: Pop 'B' from Stack1.]
+[19. Stack3: Pop 'C' from Stack3.]?[1. Stack3: Push 'A' into Stack3.]
+[2. Stack2: Pop 'A' from Stack2.]
+[3. Stack1: Pop 'A' from Stack1.]
+[4. Stack3: Push 'B' into Stack3.]
+[5. Stack2: Pop 'B' from Stack2.]
+[6. Stack1: Pop 'B' from Stack1.]
+[7. Stack3: Push 'C' into Stack3.]
+[8. Stack2: Pop 'C' from Stack2.]
+[9. Stack1: Pop 'C' from Stack1.]
+[10. Stack3: Push 'D' into Stack3.]
+[11. Stack2: Pop 'D' from Stack2.]
+[12. Stack1: Pop 'D' from Stack1.]
+[13. Stack3: Pop 'A' from Stack3.]
+[14. Stack2: Pop 'A' from Stack2.]
+[15. Stack1: Pop 'A' from Stack1.]
+[16. Stack3: Pop 'B' from Stack3.]
+[17. Stack2: Pop 'B' from Stack2.]
+[18. Stack1: Pop 'B' from Stack1.]
+[19. Stack3: Pop 'C' from Stack3.]?[A,B,C,D],[],[];[A,B,C],[],[D]?[1. Stack3: [A,B,C,D]\]
+[2. Stack2: []\]
+[3. Stack1: [B,A,D,C]\]
+[4. Stack3: [A,B,C,D]\]
+[5. Stack2: []\]
+[6. Stack1: [B,A,D,C]\]
+[7. Stack3: [A,B,C,D]\]
+[8. Stack2: []\]
+[9. Stack1: [B,A,D,C]\]
+[10. Stack3: [A,B,C,D]\]
+[11. Stack2: []\]
+[12. Stack1: [A,C,D]\]
+[13. Stack3: [A,B,C,D]\]
+[14. Stack2: []\]
+[15. Stack1: [A,C,D]\]
+[16. Stack3: [A,B,C,D]\]
+[17. Stack2: []\]
+[18. Stack1: [A,C,D]\]?[1. Stack3: Push 'A' into Stack3.]
+[2. Stack2: Pop 'A' from Stack3.]
+[3. Stack1: Pop 'A' from Stack3.]
+[4. Stack1: Push 'B' into Stack1.]
+[5. Stack1: Push 'D' into Stack1.]
+[6. Stack1: Push 'C' into Stack1.]
+[7. Stack3: Pop 'C' from Stack3.]
+[8. Stack3: Pop 'B' from Stack3.]
+[9. Stack3: Pop 'A' from Stack3.]
+[10. Stack3: Pop 'B' from Stack3.]
+[11. Stack3: Pop 'A' from Stack3.]
+[12. Stack3: Pop 'B' from Stack3.]
+[13. Stack3: Pop 'A' from Stack3.]
+[14. Stack3: Pop 'B' from Stack3.]
+[15. Stack3: Pop 'A' from Stack3.]
+[16. Stack3: Pop 'B' from Stack3.]
+[17. Stack3: Pop 'A' from Stack3.]
+[18. Stack3: Pop 'B' from Stack3.]
+[19. Stack3: Pop 'A' from Stack3.]?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3)  Stack3 now contains [A, B, C, D].
+2.  **Stack2: []** (Pop A from Stack3)  Stack2 is now empty.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1)  Stack1 now contains [B, A, D, C].
+4.  **Stack2: []** (Pop A from Stack1)  Stack2 is now empty.
+5.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+6.  **Stack1: [B,A,D,C]** (Push C onto Stack1)  Stack1 now contains [B, A, D, C].
+7.  **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+8.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+9.  **Stack1: [B,A,D,C]** (Push D onto Stack1)  Stack1 now contains [B, A, D, C].
+10. **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+11. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+12. **Stack1: [B,A,D,C]** (Push D onto Stack1)  Stack1 now contains [B, A, D, C].
+13. **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+14. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+15. **Stack1: [B,A,D,C]** (Push D onto Stack1)  Stack1 now contains [B, A, D, C].
+16. **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+17. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+18. **Stack1: [B,A,D,C]** (Push D onto Stack1)  Stack1 now contains [B, A, D, C].
+19. **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+20. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+21. **Stack1: [B,A,D,C]** (Push D onto Stack1)  Stack1 now contains [B, A, D, C].
+22. **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+23. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+24. **Stack1: [B,A,D,C]** (Push D onto Stack1)  Stack1 now contains [B, A, D, C].
+25. **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+26. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+27. **Stack1: [B,A,D,C]** (Push D onto Stack1)  Stack1 now contains [B, A, D, C].
+28. **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+29. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+30. **Stack1: [B,A,D,C]** (Push D onto Stack1)  Stack1 now contains [B, A, D, C].
+31. **Stack2: []** (Pop C from Stack1)  Stack2 is now empty.
+3?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Stack2: [B] ; 5. Stack1: [B,A,D,C] ; 6. Stack2: [B] ; 7. Stack3: [A,B,C,D] ; 8. Stack1: [B,A,D,C] ; 9. Stack2: [B] ; 10. Stack3: [A,B,C,D] ; 11. Stack1: [B,A,D,C] ; 12. Stack2: [B] ; 13. Stack3: [A,B,C,D] ; 14. Stack1: [B,A,D,C] ; 15. Stack2: [B] ; 16. Stack3: [A,B,C,D] ; 17. Stack1: [B,A,D,C] ; 18. Stack2: [B] ; 19. Stack3: [A,B,C,D] ; 20. Stack1: [A,B,C,D] ]?Stack1: [B], Stack2: [A, B], Stack3: [A, B, C, D]?1.  **Stack3:** Push `A` onto Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` onto Stack1. (4 steps)
+5.  **Stack1:** Push `D` onto Stack1. (5 steps)
+6.  **Stack1:** Push `C` onto Stack1. (6 steps)
+7.  **Stack2:** Pop `C` from Stack1. (7 steps)
+8.  **Stack2:** Pop `D` from Stack1. (8 steps)
+9.  **Stack2:** Pop `B` from Stack1. (9 steps)
+10. **Stack2:** Pop `A` from Stack1. (10 steps)
+11. **Stack2:** Pop `D` from Stack1. (11 steps)
+12. **Stack3:** Pop `A` from Stack3. (12 steps)
+13. **Stack3:** Pop `B` from Stack3. (13 steps)
+14. **Stack3:** Pop `C` from Stack3. (14 steps)
+15. **Stack3:** Pop `D` from Stack3. (15 steps)
+16. **Stack3:** Pop `A` from Stack3. (16 steps)
+17. **Stack3:** Pop `B` from Stack3. (17 steps)
+18. **Stack3:** Pop `C` from Stack3. (18 steps)
+19. **Stack3:** Pop `D` from Stack3. (19 steps)
+?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Stack2: [B] ; 5. Stack3: [A,B,C,D] ; 6. Stack1: [B,A,D,C] ; 7. Stack2: [B] ; 8. Stack3: [A,B,C,D] ; 9. Stack1: [B,A,D,C] ; 10. Stack2: [B] ; 11. Stack3: [A,B,C,D] ; 12. Stack1: [B,A,D,C] ; 13. Stack2: [B] ; 14. Stack3: [A,B,C,D] ; 15. Stack1: [B,A,D,C] ; 16. Stack2: [B] ; 17. Stack3: [A,B,C,D] ; 18. Stack1: [A,B,C,D] ; 19. Stack2: [A,B,C,D]\]?[A,B,C,D][][];[A,B,C,D][][D]?1.  **Stack3: [A,B,C,D]**  Push 'A' onto Stack3. (1 step)
+2.  **Stack2: []**  Push 'B' onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]**  Push 'D' onto Stack1. (3 steps)
+4.  **Stack2: [B]**  Push 'B' onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push 'C' onto Stack3. (5 steps)
+6.  **Stack1: [B,A,D,C]**  Push 'D' onto Stack1. (6 steps)
+7.  **Stack2: [B]**  Push 'B' onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (8 steps)
+9.  **Stack1: [B,A,D,C]**  Push 'C' onto Stack1. (9 steps)
+10. **Stack2: [B]**  Push 'B' onto Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (11 steps)
+12. **Stack1: [B,A,D,C]**  Push 'C' onto Stack1. (12 steps)
+13. **Stack2: [B]**  Push 'B' onto Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (14 steps)
+15. **Stack1: [B,A,D,C]**  Push 'C' onto Stack1. (15 steps)
+16. **Stack2: [B]**  Push 'B' onto Stack2. (16 steps)
+17. **Stack3: [A,B,C,D]**  Push 'D' onto Stack3. (17 steps)
+?[1. Stack3: Push A.]
+[2. Stack2: Push B.]
+[3. Stack1: Push D.]
+[4. Stack3: Push C.]
+[5. Stack2: Push B.]
+[6. Stack1: Push A.]
+[7. Stack3: Push D.]
+[8. Stack2: Push B.]
+[9. Stack1: Push A.]
+[10. Stack3: Push C.]
+[11. Stack2: Push B.]
+[12. Stack1: Push D.]
+[13. Stack3: Push A.]
+[14. Stack2: Push B.]
+[15. Stack1: Push C.]
+[16. Stack3: Push D.]
+?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3)  Initial state: Stack3 = [A, B, C, D]
+2.  **Stack2: []** (Pop A from Stack3)  Stack2 = []
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1)  Stack1 = [B, A, D, C]
+4.  **Stack3: [A, B, C, D]** (Push A onto Stack3)  Stack3 = [A, B, C, D]
+5.  **Stack2: []** (Pop B from Stack3)  Stack2 = []
+6.  **Stack1: [B, A, D, C]** (Push A onto Stack1)  Stack1 = [B, A, D, C]
+7.  **Stack3: [A, B, C, D]** (Push A onto Stack3)  Stack3 = [A, B, C, D]
+8.  **Stack2: []** (Pop B from Stack3)  Stack2 = []
+9.  **Stack1: [B, A, D, C]** (Push A onto Stack1)  Stack1 = [B, A, D, C]
+10. **Stack3: [A, B, C, D]** (Push A onto Stack3)  Stack3 = [A, B, C, D]
+11. **Stack2: []** (Pop B from Stack3)  Stack2 = []
+12. **Stack1: [B, A, D, C]** (Push A onto Stack1)  Stack1 = [B, A, D, C]
+13. **Stack3: [A, B, C, D]** (Push A onto Stack3)  Stack3 = [A, B, C, D]
+14. **Stack2: []** (Pop B from Stack3)  Stack2 = []
+15. **Stack1: [B, A, D, C]** (Push A onto Stack1)  Stack1 = [B, A, D, C]
+16. **Stack3: [A, B, C, D]** (Push A onto Stack3)  Stack3 = [A, B, C, D]
+?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3)  Stack3 now contains [A, B, C, D].
+2.  **Stack2: []** (Pop A from Stack3)  Stack2 is now empty.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1)  Stack1 contains [B, A, D, C].
+4.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+5.  **Stack2: []** (Pop C from Stack3)  Stack2 is now empty.
+6.  **Stack1: [B,A,D,C]** (Push A onto Stack1)  Stack1 contains [B, A, D, C].
+7.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+8.  **Stack2: []** (Pop C from Stack3)  Stack2 is now empty.
+9.  **Stack1: [B,A,D,C]** (Push A onto Stack1)  Stack1 contains [B, A, D, C].
+10. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+11. **Stack2: []** (Pop C from Stack3)  Stack2 is now empty.
+12. **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 contains [B, A, C, D].
+13. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+14. **Stack2: []** (Pop C from Stack3)  Stack2 is now empty.
+15. **Stack1: [B,A,C,D]** (Push A onto Stack1)  Stack1 contains [B, A, C, D].
+16. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` into Stack1. (4 steps)
+5.  **Stack1:** Push `D` into Stack1. (5 steps)
+6.  **Stack1:** Push `C` into Stack1. (6 steps)
+7.  **Stack2:** Pop `C` from Stack1. (7 steps)
+8.  **Stack2:** Pop `D` from Stack1. (8 steps)
+9.  **Stack2:** Pop `B` from Stack1. (9 steps)
+10. **Stack2:** Pop `A` from Stack1. (10 steps)
+11. **Stack3:** Pop `A` from Stack3. (11 steps)
+12. **Stack3:** Pop `B` from Stack3. (12 steps)
+13. **Stack3:** Pop `D` from Stack3. (13 steps)
+14. **Stack3:** Pop `C` from Stack3. (14 steps)?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 is now populated with the first four elements.
+2.  **Stack2: []** (Pop A from Stack3) - Stack2 is now empty.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1) - Stack1 now has the first four elements.
+4.  **Stack2: []** (Pop B from Stack1) - Stack2 remains empty.
+5.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now has the first four elements.
+6.  **Stack1: [B,A,D,C]** (Push D onto Stack1) - Stack1 now has the first four elements.
+7.  **Stack2: []** (Pop D from Stack1) - Stack2 remains empty.
+8.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now has the first four elements.
+9.  **Stack1: [B,A,D,C]** (Push C onto Stack1) - Stack1 now has the first four elements.
+10. **Stack2: []** (Pop C from Stack1) - Stack2 remains empty.
+11. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now has the first four elements.
+12. **Stack1: [B,A,D,C]** (Push D onto Stack1) - Stack1 now has the first four elements.
+13. **Stack2: []** (Pop D from Stack1) - Stack2 remains empty.
+14. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now has the first four elements.
+15. **Stack1: [B,A,D,C]** (Push C onto Stack1) - Stack1 now has the first four elements.
+16. **Stack2: []** (Pop C from Stack1) - Stack2 remains empty.
+?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Stack2: [B] ; 5. Stack3: [A,B,C,D] ; 6. Stack1: [B,A,D,C] ; 7. Stack2: [B] ; 8. Stack3: [A,B,C,D] ; 9. Stack1: [B,A,D,C] ; 10. Stack2: [B] ; 11. Stack3: [A,B,C,D] ; 12. Stack1: [B,A,D,C] ; 13. Stack2: [B] ; 14. Stack3: [A,B,C,D] ; 15. Stack1: [B,A,D,C] ; 16. Stack2: [B] ; 17. Stack3: [A,B,C,D] ; 18. Stack1: [A,B,C,D] ; 19. Stack2: [A,B,C,D] ; 20. Stack3: [A,B,C,D] ]?1.  **Stack3: [A,B,C,D]**  Push A onto Stack3. (1 step)
+2.  **Stack2: []**  Push B onto Stack2. (2 steps)
+3.  **Stack1: [A,D,C]**  Push D onto Stack1. (3 steps)
+4.  **Stack2: [B]**  Push B onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]**  Push C onto Stack3. (5 steps)
+6.  **Stack1: [A,D,C]**  Push D onto Stack1. (6 steps)
+7.  **Stack2: [B]**  Push B onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]**  Push D onto Stack3. (8 steps)
+9.  **Stack1: []**  Pop D from Stack1. (9 steps)
+10. **Stack2: []**  Pop B from Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]**  Pop D from Stack3. (11 steps)
+12. **Stack1: []**  Pop A from Stack1. (12 steps)
+13. **Stack2: []**  Pop B from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]**  Pop D from Stack3. (14 steps)?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3)  Initializing Stack3 with the first four elements.
+2.  **Stack2: []** (Pop A from Stack3)  Removing A from Stack3.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1)  Adding B to Stack1.
+4.  **Stack2: []** (Pop A from Stack1)  Removing A from Stack1.
+5.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Adding B to Stack3.
+6.  **Stack1: [B,D,C]** (Push D onto Stack1)  Adding D to Stack1.
+7.  **Stack2: []** (Pop C from Stack1)  Removing C from Stack1.
+8.  **Stack3: [A,B,C,D]** (Push D onto Stack3)  Adding D to Stack3.
+9.  **Stack1: [B,C]** (Push C onto Stack1)  Adding C to Stack1.
+10. **Stack2: []** (Pop C from Stack1)  Removing C from Stack1.
+11. **Stack3: [A,B,D]** (Push D onto Stack3)  Adding D to Stack3.
+12. **Stack1: [B,D]** (Push B onto Stack1)  Adding B to Stack1.
+13. **Stack2: []** (Pop B from Stack1)  Removing B from Stack1.
+14. **Stack3: [A,B,D]** (Push D onto Stack3)  Adding D to Stack3.
+15. **Stack1: [B,D]** (Push B onto Stack1)  Adding B to Stack1.
+?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Stack2: [] ; 5. Stack1: [B,A,D,C] ; 6. Stack2: [] ; 7. Stack3: [A,B,C,D] ; 8. Stack1: [B,A,D,C] ; 9. Stack2: [] ; 10. Stack3: [A,B,C,D] ; 11. Stack1: [] ; 12. Stack2: [] ; 13. Stack3: [A,B,C,D] ; 14. Stack1: [] ; 15. Stack2: [] ; 16. Stack3: [A,B,C,D] ; 17. Stack1: [] ; 18. Stack2: [] ; 19. Stack3: [A,B,C,D]?[1. Stack3: Push 'A' onto Stack3.]
+[2. Stack2: Pop 'A' from Stack2.]
+[3. Stack1: Pop 'A' from Stack1.]
+[4. Stack3: Push 'B' onto Stack3.]
+[5. Stack2: Pop 'B' from Stack2.]
+[6. Stack1: Pop 'B' from Stack1.]
+[7. Stack3: Push 'C' onto Stack3.]
+[8. Stack2: Pop 'C' from Stack2.]
+[9. Stack1: Pop 'C' from Stack1.]
+[10. Stack3: Push 'D' onto Stack3.]
+[11. Stack2: Pop 'D' from Stack2.]
+[12. Stack1: Pop 'D' from Stack1.]
+[13. Stack3: Push 'A' onto Stack3.]
+[14. Stack2: Pop 'A' from Stack2.]
+[15. Stack1: Pop 'A' from Stack1.]
+[16. Stack3: Push 'B' onto Stack3.]
+[17. Stack2: Pop 'B' from Stack2.]
+[18. Stack1: Pop 'B' from Stack1.]
+[19. Stack3: Pop 'C' from Stack3.]?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3)  Initializing Stack3 with the first four elements.
+2.  **Stack2: []** (Pop A from Stack3)  Removing A from Stack3.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1)  Adding B to Stack1.
+4.  **Stack2: []** (Pop A from Stack1)  Removing A from Stack1.
+5.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Adding B to Stack3.
+6.  **Stack1: [B,A,D,C]** (Push D onto Stack1)  Adding D to Stack1.
+7.  **Stack2: []** (Pop B from Stack1)  Removing B from Stack1.
+8.  **Stack3: [A,B,C,D]** (Push C onto Stack3)  Adding C to Stack3.
+9.  **Stack1: [B,A,D,C]** (Push D onto Stack1)  Adding D to Stack1.
+10. **Stack2: []** (Pop A from Stack1)  Removing A from Stack1.
+11. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Adding B to Stack3.
+12. **Stack1: []** (Pop C from Stack3)  Removing C from Stack3.
+13. **Stack2: []** (Pop D from Stack3)  Removing D from Stack3.
+14. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Adding B to Stack3.
+15. **Stack1: []** (Pop B from Stack3)  Removing B from Stack3.
+16. **Stack2: []** (Pop C from Stack3)  Removing C from Stack3.
+17. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Adding B to Stack3.
+?1.  **Stack3: [A,B,C,D]**  Push 'A' onto Stack3. (1 step)
+2.  **Stack2: []**  Pop 'A' from Stack3 and add it to Stack2. (2 steps)
+3.  **Stack1: [B,D,C]**  Push 'B' onto Stack1. (3 steps)
+4.  **Stack2: [B,D]**  Pop 'B' from Stack2 and add it to Stack2. (4 steps)
+5.  **Stack1: [B,D,C]**  Push 'D' onto Stack1. (5 steps)
+6.  **Stack2: [B,D]**  Pop 'B' from Stack2 and add it to Stack2. (6 steps)
+7.  **Stack1: [B,D,C]**  Push 'C' onto Stack1. (7 steps)
+8.  **Stack2: [B,D]**  Pop 'B' from Stack2 and add it to Stack2. (8 steps)
+9.  **Stack1: [B,D,C]**  Push 'C' onto Stack1. (9 steps)
+10. **Stack2: [B,D]**  Pop 'B' from Stack2 and add it to Stack2. (10 steps)
+11. **Stack1: [B,D,C]**  Push 'C' onto Stack1. (11 steps)
+12. **Stack2: [B,D]**  Pop 'B' from Stack2 and add it to Stack2. (12 steps)
+13. **Stack1: [B,D,C]**  Push 'C' onto Stack1. (13 steps)
+14. **Stack2: [B,D]**  Pop 'B' from Stack2 and add it to Stack2. (14 steps)
+15. **Stack1: [B,D,C]**  Push 'C' onto Stack1. (15 steps)
+16. **Stack2: [B,D]**  Pop 'B' from Stack2 and add it to Stack2. (16 steps)
+17. **Stack1: [B,D,C]**  Push 'C' onto Stack1. (17 steps)
+?[1. Stack3: Push 'A' into Stack3.]
+[2. Stack2: Pop 'A' from Stack2.]
+[3. Stack1: Pop 'A' from Stack1.]
+[4. Stack3: Push 'B' into Stack3.]
+[5. Stack2: Pop 'B' from Stack2.]
+[6. Stack1: Pop 'B' from Stack1.]
+[7. Stack3: Push 'C' into Stack3.]
+[8. Stack2: Pop 'C' from Stack2.]
+[9. Stack1: Pop 'C' from Stack1.]
+[10. Stack3: Push 'D' into Stack3.]
+[11. Stack2: Pop 'D' from Stack2.]
+[12. Stack1: Pop 'D' from Stack1.]
+[13. Stack3: Pop 'A' from Stack3.]
+[14. Stack2: Pop 'A' from Stack2.]
+[15. Stack1: Pop 'A' from Stack1.]
+[16. Stack3: Pop 'B' from Stack3.]
+[17. Stack2: Pop 'B' from Stack2.]
+[18. Stack1: Pop 'B' from Stack1.]
+[19. Stack3: Pop 'C' from Stack3.]?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C],[],[D],[A,B,C],[],[D]?[1;2;3;4;5;6;7;8;9;10;11;12;13;14;15]
+?[A,B,C,D]
+[]
+[]
+[A,B,C]
+[]
+[D]
+?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - We start with Stack3 containing only A.
+2.  **Stack2: []** (Pop A from Stack3) - Stack2 is now empty.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1) - Stack1 now contains B, A, and D.
+4.  **Stack2: []** (Pop A from Stack1) - Stack2 is now empty.
+5.  **Stack3: [A,B,C,D]** (Push B onto Stack3) - Stack3 now contains A, B, C, and D.
+6.  **Stack1: [B,D,C]** (Push D onto Stack1) - Stack1 now contains B, D, and C.
+7.  **Stack2: []** (Pop C from Stack1) - Stack2 is empty.
+8.  **Stack3: [A,B,C,D]** (Push B onto Stack3) - Stack3 now contains A, B, C, and D.
+9.  **Stack1: [B,D,C]** (Push D onto Stack1) - Stack1 now contains B, D, and C.
+10. **Stack2: []** (Pop B from Stack1) - Stack2 is now empty.
+11. **Stack3: [A,B,C,D]** (Push C onto Stack3) - Stack3 now contains A, B, C, and D.
+12. **Stack1: []** (Pop D from Stack3) - Stack1 is empty.
+13. **Stack2: []** (Pop B from Stack3) - Stack2 is empty.
+14. **Stack3: [A,B,C,D]** (Push C onto Stack3) - Stack3 now contains A, B, C, and D.
+?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Start with Stack3 containing only A.
+2.  **Stack2: []** (Pop A from Stack3) - Stack2 is now empty.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1) - Stack1 now contains B, A, D, C.
+4.  **Stack2: []** (Pop B from Stack1) - Stack2 is now empty.
+5.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains A, B, C, D.
+6.  **Stack1: [B,A,D,C]** (Push B onto Stack1) - Stack1 now contains B, A, D, C.
+7.  **Stack2: []** (Pop B from Stack1) - Stack2 is now empty.
+8.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains A, B, C, D.
+9.  **Stack1: [B,A,D,C]** (Push B onto Stack1) - Stack1 now contains B, A, D, C.
+10. **Stack2: []** (Pop B from Stack1) - Stack2 is now empty.
+11. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains A, B, C, D.
+12. **Stack1: [B,A,D,C]** (Push B onto Stack1) - Stack1 now contains B, A, D, C.
+13. **Stack2: []** (Pop B from Stack1) - Stack2 is now empty.
+14. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains A, B, C, D.
+15. **Stack1: [B,A,D,C]** (Push B onto Stack1) - Stack1 now contains B, A, D, C.
+16. **Stack2: []** (Pop B from Stack1) - Stack2 is now empty.
+17. **Stack3: [A,B,C,D]** (Push A onto Stack3) - Stack3 now contains A, B, C, D.
+?[1. Stack3: Push 'A' into Stack3.]
+[2. Stack2: Pop 'A' from Stack2.]
+[3. Stack1: Pop 'A' from Stack1.]
+[4. Stack3: Push 'B' into Stack3.]
+[5. Stack2: Pop 'B' from Stack2.]
+[6. Stack1: Pop 'B' from Stack1.]
+[7. Stack3: Push 'C' into Stack3.]
+[8. Stack2: Pop 'C' from Stack2.]
+[9. Stack1: Pop 'C' from Stack1.]
+[10. Stack3: Push 'D' into Stack3.]
+[11. Stack2: Pop 'D' from Stack2.]
+[12. Stack1: Pop 'D' from Stack1.]
+[13. Stack3: Pop 'A' from Stack3.]
+[14. Stack2: Pop 'A' from Stack2.]
+[15. Stack1: Pop 'A' from Stack1.]
+[16. Stack3: Pop 'B' from Stack3.]
+[17. Stack2: Pop 'B' from Stack2.]
+[18. Stack1: Pop 'B' from Stack1.]
+[19. Stack3: Pop 'C' from Stack3.]?[1. Stack3: Push 'A' onto Stack3.]
+[2. Stack2: Push 'B' onto Stack2.]
+[3. Stack1: Push 'D' onto Stack1.]
+[4. Stack3: Pop 'A' from Stack3.]
+[5. Stack2: Pop 'B' from Stack2.]
+[6. Stack1: Pop 'D' from Stack1.]
+[7. Stack3: Pop 'A' from Stack3.]
+[8. Stack2: Pop 'B' from Stack2.]
+[9. Stack1: Pop 'D' from Stack1.]
+[10. Stack3: Pop 'A' from Stack3.]
+[11. Stack2: Pop 'B' from Stack2.]
+[12. Stack1: Pop 'D' from Stack1.]
+[13. Stack3: Pop 'A' from Stack3.]
+[14. Stack2: Pop 'B' from Stack2.]
+[15. Stack1: Pop 'D' from Stack1.]
+?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack3. (3 steps)
+4.  **Stack1:** Push 'B' into Stack1. (4 steps)
+5.  **Stack1:** Push 'D' into Stack1. (5 steps)
+6.  **Stack1:** Push 'C' into Stack1. (6 steps)
+7.  **Stack2:** Pop 'C' from Stack1. (7 steps)
+8.  **Stack2:** Pop 'D' from Stack1. (8 steps)
+9.  **Stack2:** Pop 'B' from Stack1. (9 steps)
+10. **Stack2:** Pop 'A' from Stack1. (10 steps)
+11. **Stack3:** Pop 'A' from Stack3. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack3:** Pop 'D' from Stack3. (13 steps)
+
+[A, B, C, D]
+?1.  **Stack3:** Push 'A' onto Stack3. (1 step)
+2.  **Stack2:** Push 'B' onto Stack2. (2 steps)
+3.  **Stack1:** Push 'D' onto Stack1. (3 steps)
+4.  **Stack1:** Push 'C' onto Stack1. (4 steps)
+5.  **Stack2:** Pop 'B' from Stack2. (5 steps)
+6.  **Stack3:** Pop 'A' from Stack3. (6 steps)
+7.  **Stack1:** Pop 'D' from Stack1. (7 steps)
+8.  **Stack2:** Pop 'C' from Stack2. (8 steps)
+9.  **Stack3:** Pop 'B' from Stack3. (9 steps)
+10. **Stack1:** Pop 'A' from Stack1. (10 steps)
+11. **Stack2:** Pop 'C' from Stack2. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+
+[A,B,C,D][],[];[A,B,C],[],[D];?1.  **Stack3: [A, B, C, D]** (Push A, B, C, D onto Stack3)  Initial state: Stack3 = [A, B, C, D]
+
+2.  **Stack2: []** (Pop A from Stack3)  Stack2 = []
+
+3.  **Stack1: [B, A, D, C]** (Push B, A, D, C onto Stack1)  Stack1 = [B, A, D, C]
+
+4.  **Stack3: [A, B, C]** (Pop D from Stack3)  Stack3 = [A, B, C]
+
+5.  **Stack2: []** (Pop B from Stack3)  Stack2 = []
+
+6.  **Stack1: [B, A, D, C]** (Push A from Stack1)  Stack1 = [B, A, D, C]
+
+7.  **Stack3: [A, B, C]** (Pop C from Stack3)  Stack3 = [A, B, C]
+
+8.  **Stack2: []** (Pop D from Stack3)  Stack2 = []
+
+9.  **Stack1: [B, A, D, C]** (Push A from Stack1)  Stack1 = [B, A, D, C]
+
+10. **Stack3: []** (Pop C from Stack3)  Stack3 = []
+
+11. **Stack2: []** (Pop D from Stack3)  Stack2 = []
+
+12. **Stack1: [B, A, D, C]** (Push A from Stack1)  Stack1 = [B, A, D, C]
+
+13. **Stack3: []** (Pop C from Stack3)  Stack3 = []
+
+Therefore, the final configuration is: Stack1: [B, A, D, C], Stack2: [], Stack3: []?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3:** Push A into Stack3. (1 step)
+2.  **Stack2:** Pop A from Stack3 and push B into Stack2. (2 steps)
+3.  **Stack1:** Pop B from Stack2 and push D into Stack1. (3 steps)
+4.  **Stack3:** Pop D from Stack3 and push A into Stack3. (4 steps)
+5.  **Stack2:** Pop A from Stack3 and push B into Stack2. (5 steps)
+6.  **Stack1:** Pop B from Stack1 and push C into Stack1. (6 steps)
+7.  **Stack3:** Pop C from Stack3 and push D into Stack3. (7 steps)
+8.  **Stack2:** Pop D from Stack3 and push A into Stack2. (8 steps)
+9.  **Stack1:** Pop A from Stack1 and push B into Stack1. (9 steps)
+10. **Stack3:** Pop C from Stack3 and push D into Stack3. (10 steps)
+11. **Stack2:** Pop D from Stack3 and push A into Stack2. (11 steps)
+12. **Stack1:** Pop A from Stack1 and push B into Stack1. (12 steps)
+13. **Stack3:** Pop D from Stack3 and push A into Stack3. (13 steps)
+14. **Stack2:** Pop A from Stack3 and push B into Stack2. (14 steps)
+15. **Stack1:** Pop B from Stack1 and push C into Stack1. (15 steps)
+16. **Stack3:** Pop C from Stack3 and push D from Stack3. (16 steps)
+?[1. Stack3: [A,B,C,D] ; 2. Stack2: [] ; 3. Stack1: [B,A,D,C] ; 4. Stack2: [B] ; 5. Stack3: [A,B,C,D] ; 6. Stack1: [B,A,D,C] ; 7. Stack2: [B] ; 8. Stack3: [A,B,C,D] ; 9. Stack1: [B,A,D,C] ; 10. Stack2: [B] ; 11. Stack3: [A,B,C,D] ; 12. Stack1: [B,A,D,C] ; 13. Stack2: [B] ; 14. Stack3: [A,B,C,D] ; 15. Stack1: [B,A,D,C] ; 16. Stack2: [B] ; 17. Stack3: [A,B,C,D] ; 18. Stack1: [A,B,C,D] ; 19. Stack2: [A,B,C,D] ]?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3 and push 'B' into Stack2. (2 steps)
+3.  **Stack1:** Pop 'B' from Stack2 and push 'A' into Stack1. (3 steps)
+4.  **Stack3:** Pop 'B' from Stack3 and push 'C' into Stack3. (4 steps)
+5.  **Stack2:** Pop 'C' from Stack3 and push 'D' into Stack2. (5 steps)
+6.  **Stack1:** Pop 'D' from Stack1 and push 'C' into Stack1. (6 steps)
+7.  **Stack3:** Pop 'D' from Stack3 and push 'A' into Stack3. (7 steps)
+8.  **Stack2:** Pop 'A' from Stack2 and push 'B' into Stack2. (8 steps)
+9.  **Stack1:** Pop 'B' from Stack1 and push 'A' into Stack1. (9 steps)
+10. **Stack3:** Pop 'A' from Stack3 and push 'C' into Stack3. (10 steps)
+11. **Stack2:** Pop 'C' from Stack2 and push 'D' into Stack2. (11 steps)
+12. **Stack1:** Pop 'D' from Stack1 and push 'C' into Stack1. (12 steps)?[1. Stack3: Push 'A' onto Stack3. ]
+[2. Stack2: Push 'B' onto Stack2. ]
+[3. Stack1: Push 'D' onto Stack1. ]
+[4. Stack3: Pop 'A' from Stack3. ]
+[5. Stack2: Pop 'B' from Stack2. ]
+[6. Stack1: Pop 'D' from Stack1. ]
+[7. Stack3: Pop 'A' from Stack3. ]
+[8. Stack2: Pop 'B' from Stack2. ]
+[9. Stack1: Pop 'D' from Stack1. ]
+[10. Stack3: Pop 'A' from Stack3. ]
+[11. Stack2: Pop 'B' from Stack2. ]
+[12. Stack1: Pop 'D' from Stack1. ]
+[13. Stack3: Pop 'A' from Stack3. ]
+[14. Stack2: Pop 'B' from Stack2. ]
+[15. Stack1: Pop 'D' from Stack1. ]
+[16. Stack3: Pop 'A' from Stack3. ]
+[17. Stack2: Pop 'B' from Stack2. ]
+[18. Stack1: Pop 'D' from Stack1. ]?1.  **Stack3: [A,B,C,D]**  Start with Stack3 containing four elements.
+2.  **Stack2: []**  Empty Stack2.
+3.  **Stack1: []**  Empty Stack1.
+4.  **Stack3: [A,B,C,D]**  Stack3 now holds four elements.
+5.  **Stack2: []**  Empty Stack2.
+6.  **Stack1: []**  Empty Stack1.
+7.  **Stack3: [A,B,C,D]**  Stack3 holds four elements.
+8.  **Stack2: []**  Empty Stack2.
+9.  **Stack1: []**  Empty Stack1.
+10. **Stack3: [A,B,C,D]**  Stack3 holds four elements.
+11. **Stack2: []**  Empty Stack2.
+12. **Stack1: []**  Empty Stack1.
+13. **Stack3: [A,B,C,D]**  Stack3 holds four elements.
+14. **Stack2: []**  Empty Stack2.
+15. **Stack1: []**  Empty Stack1.
+16. **Stack3: [A,B,C,D]**  Stack3 holds four elements.
+17. **Stack2: []**  Empty Stack2.
+18. **Stack1: []**  Empty Stack1.
+19. **Stack3: [A,B,C,D]**  Stack3 holds four elements.?[1. Stack3: Push A into Stack3.]
+[2. Stack2: Pop A from Stack3.]
+[3. Stack1: Pop A from Stack2.]
+[4. Stack3: Push B into Stack3.]
+[5. Stack2: Pop B from Stack3.]
+[6. Stack1: Pop B from Stack1.]
+[7. Stack3: Push C into Stack3.]
+[8. Stack2: Pop C from Stack3.]
+[9. Stack1: Pop C from Stack1.]
+[10. Stack3: Push D into Stack3.]
+[11. Stack2: Pop D from Stack3.]
+[12. Stack1: Pop D from Stack1.]
+[13. Stack3: Pop A from Stack3.]
+[14. Stack2: Pop A from Stack2.]
+[15. Stack1: Pop A from Stack1.]
+[16. Stack3: Pop B from Stack3.]
+[17. Stack2: Pop B from Stack2.]
+[18. Stack1: Pop B from Stack1.]
+[19. Stack3: Pop C from Stack3.]?1.  **Stack3:** Push A. (1 step)
+2.  **Stack2:** Push B. (2 steps)
+3.  **Stack1:** Push D. (3 steps)
+4.  **Stack3:** Pop A. (4 steps)
+5.  **Stack2:** Pop B. (5 steps)
+6.  **Stack1:** Pop D. (6 steps)
+7.  **Stack3:** Pop A. (7 steps)
+8.  **Stack2:** Pop B. (8 steps)
+9.  **Stack1:** Pop D. (9 steps)
+10. **Stack3:** Pop A. (10 steps)
+11. **Stack2:** Pop B. (11 steps)
+12. **Stack1:** Pop D. (12 steps)
+13. **Stack3:** Pop A. (13 steps)
+14. **Stack2:** Pop B. (14 steps)
+15. **Stack1:** Pop D. (15 steps)
+16. **Stack3:** Pop A. (16 steps)
+17. **Stack2:** Pop B. (17 steps)
+18. **Stack1:** Pop D. (18 steps)?[A,B,C,D],[],[];[A,B,C],[],[D]?1. **Stack3:** Push 'A' into Stack3. (1 step)
+2. **Stack2:** Pop 'A' from Stack3. (2 steps)
+3. **Stack1:** Pop 'A' from Stack3. (3 steps)
+4. **Stack1:** Push 'B' into Stack1. (4 steps)
+5. **Stack1:** Push 'D' into Stack1. (5 steps)
+6. **Stack1:** Push 'C' into Stack1. (6 steps)
+7. **Stack3:** Pop 'A' from Stack3. (7 steps)
+8. **Stack3:** Pop 'B' from Stack3. (8 steps)
+9. **Stack3:** Pop 'C' from Stack3. (9 steps)
+10. **Stack3:** Pop 'D' from Stack3. (10 steps)
+11. **Stack3:** Pop 'A' from Stack3. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack3:** Pop 'C' from Stack3. (13 steps)
+14. **Stack3:** Pop 'D' from Stack3. (14 steps)?[1. Stack3: Push 'A' onto Stack3.]
+[2. Stack2: Push 'B' onto Stack2.]
+[3. Stack1: Push 'D' onto Stack1.]
+[4. Stack3: Pop 'A' from Stack3.]
+[5. Stack2: Pop 'B' from Stack2.]
+[6. Stack1: Pop 'D' from Stack1.]
+[7. Stack3: Pop 'A' from Stack3.]
+[8. Stack2: Pop 'B' from Stack2.]
+[9. Stack1: Pop 'D' from Stack1.]
+[10. Stack3: Pop 'A' from Stack3.]
+[11. Stack2: Pop 'B' from Stack2.]
+[12. Stack1: Pop 'D' from Stack1.]
+[13. Stack3: Pop 'A' from Stack3.]
+[14. Stack2: Pop 'B' from Stack2.]
+[15. Stack1: Pop 'D' from Stack1.]
+?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack2: []**
+5.  **Stack3: [A,B,C,D]**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack2: [A,B,C,D]**
+8.  **Stack3: [A,B,C,D]**
+9.  **Stack1: [B,A,D,C]**
+10. **Stack2: [A,B,C,D]**
+11. **Stack3: [A,B,C,D]**
+12. **Stack1: [B,A,D,C]**
+13. **Stack2: [A,B,C,D]**
+14. **Stack3: [A,B,C,D]**
+15. **Stack1: [B,A,D,C]**
+16. **Stack2: [A,B,C,D]**
+17. **Stack3: [A,B,C,D]**
+18. **Stack1: [B,A,D,C]**
+19. **Stack2: [A,B,C,D]**
+20. **Stack3: [A,B,C,D]**
+?[A,B,C,D],[],[];[A,B,C],[],[D]
+?[1. Stack3: Push A onto Stack3.]
+[2. Stack2: Push B onto Stack2.]
+[3. Stack1: Push D onto Stack1.]
+[4. Stack3: Pop A from Stack3.]
+[5. Stack2: Pop B from Stack2.]
+[6. Stack1: Pop D from Stack1.]
+[7. Stack3: Pop A from Stack3.]
+[8. Stack2: Pop B from Stack2.]
+[9. Stack1: Pop D from Stack1.]
+[10. Stack3: Pop A from Stack3.]
+[11. Stack2: Pop B from Stack2.]
+[12. Stack1: Pop D from Stack1.]
+[13. Stack3: Pop A from Stack3.]
+[14. Stack2: Pop B from Stack2.]
+[15. Stack1: Pop D from Stack1.]
+?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C],[],[D],[A,B,C],[],[D]?1.  **Stack3:** Push `A` into Stack3. (1 step)
+2.  **Stack2:** Push `B` into Stack2. (2 steps)
+3.  **Stack1:** Push `D` into Stack1. (3 steps)
+4.  **Stack3:** Pop `A` from Stack3. (4 steps)
+5.  **Stack2:** Pop `B` from Stack2. (5 steps)
+6.  **Stack1:** Pop `D` from Stack1. (6 steps)
+7.  **Stack3:** Pop `A` from Stack3. (7 steps)
+8.  **Stack2:** Pop `B` from Stack2. (8 steps)
+9.  **Stack1:** Pop `D` from Stack1. (9 steps)
+10. **Stack3:** Pop `A` from Stack3. (10 steps)
+11. **Stack2:** Pop `B` from Stack2. (11 steps)
+12. **Stack1:** Pop `D` from Stack1. (12 steps)
+13. **Stack3:** Pop `A` from Stack3. (13 steps)
+14. **Stack2:** Pop `B` from Stack2. (14 steps)
+15. **Stack1:** Pop `D` from Stack1. (15 steps)
+
+[A,B,C,D]
+?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack2: []**
+5.  **Stack3: [A,B,C,D]**
+6.  **Stack1: [B,D,C]**
+7.  **Stack2: []**
+8.  **Stack3: [A,B,C,D]**
+9.  **Stack1: [B,D,C]**
+10. **Stack2: []**
+11. **Stack3: [A,B,C,D]**
+12. **Stack1: []**
+13. **Stack2: []**
+14. **Stack3: [A,B,C,D]**
+15. **Stack1: []**
+16. **Stack2: []**
+17. **Stack3: [A,B,C,D]**
+?[A,B,C,D]
+[]
+[]
+[A,B,C]
+[]
+[D]
+?1.  **Stack3:** Push A into Stack3. (1 step)
+2.  **Stack2:** Push B into Stack2. (2 steps)
+3.  **Stack1:** Push D into Stack1. (3 steps)
+4.  **Stack3:** Pop A from Stack3. (4 steps)
+5.  **Stack2:** Pop B from Stack2. (5 steps)
+6.  **Stack1:** Pop D from Stack1. (6 steps)
+7.  **Stack3:** Pop A from Stack3. (7 steps)
+8.  **Stack2:** Pop B from Stack2. (8 steps)
+9.  **Stack1:** Pop D from Stack1. (9 steps)
+10. **Stack3:** Pop A from Stack3. (10 steps)
+11. **Stack2:** Pop B from Stack2. (11 steps)
+12. **Stack1:** Pop D from Stack1. (12 steps)
+
+The final state is: Stack1: [], Stack2: [], Stack3: [A,B,C,D].?[A,B,C,D],[],[];[A,B,C],[],[D],[A,B,C],[],[D],[A,B,C],[],[D]?[1. Stack3: [A,B,C,D]\]
+[2. Stack2: []\]
+[3. Stack1: [B,A,D,C]\]
+[4. Stack2: [B]\]
+[5. Stack3: [A,B,C,D]\]
+[6. Stack1: [B,A,D,C]\]
+[7. Stack2: [B]\]
+[8. Stack3: [A,B,C,D]\]
+[9. Stack1: [B,A,D,C]\]
+[10. Stack2: [B]\]
+[11. Stack3: [A,B,C,D]\]
+[12. Stack1: [B,A,D,C]\]
+[13. Stack2: [B]\]
+[14. Stack3: [A,B,C,D]\]?Stack1: [B,A,D,C],[],[];[A,B,C,D],[],[D];
+Stack2: [B,A,D,C],[],[];[A,B,C,D],[],[D];
+Stack3: [A,B,C,D],[],[];[A,B,C,D],[],[D];
+?1.  **Stack3: [A,B,C,D]** (Push A to Stack3)  Initial state.
+2.  **Stack2: []** (Pop B from Stack2)  Stack2 is empty.
+3.  **Stack1: [A,D,C]** (Push D to Stack1)  Stack1 has A and D.
+4.  **Stack2: [A,B]** (Push B to Stack2)  Stack2 now has A and B.
+5.  **Stack3: [A,B,C,D]** (Push C to Stack3)  Stack3 has A, B, C, and D.
+6.  **Stack1: [A,D,C]** (Pop D from Stack1)  Stack1 has A and C.
+7.  **Stack2: [A,B]** (Pop B from Stack2)  Stack2 has A.
+8.  **Stack3: [A,B,C,D]** (Push D to Stack3)  Stack3 has A, B, C, and D.
+9.  **Stack1: []** (Pop C from Stack1)  Stack1 is empty.
+10. **Stack2: []** (Pop D from Stack2)  Stack2 is empty.
+11. **Stack3: [A,B,C,D]** (Push A to Stack3)  Stack3 has A, B, C, and D.
+12. **Stack1: []** (Pop B from Stack1)  Stack1 is empty.
+13. **Stack2: []** (Pop C from Stack2)  Stack2 is empty.
+14. **Stack3: [A,B,C,D]** (Push D to Stack3)  Stack3 has A, B, C, and D.
+?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3)  Stack3 now contains [A, B, C, D].
+2.  **Stack2: []** (Pop A from Stack3)  Stack2 is empty.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1)  Stack1 now contains [B, A, D, C].
+4.  **Stack2: []** (Pop A from Stack1)  Stack2 is empty.
+5.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+6.  **Stack1: [B,A,D,C]** (Push D onto Stack1)  Stack1 now contains [B, A, D, C].
+7.  **Stack2: []** (Pop A from Stack1)  Stack2 is empty.
+8.  **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+9.  **Stack1: [B,A,D,C]** (Push D onto Stack1)  Stack1 now contains [B, A, D, C].
+10. **Stack2: []** (Pop A from Stack1)  Stack2 is empty.
+11. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+12. **Stack1: [B,A,D,C]** (Push D onto Stack1)  Stack1 now contains [B, A, D, C].
+13. **Stack2: []** (Pop A from Stack1)  Stack2 is empty.
+14. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+15. **Stack1: [B,A,D,C]** (Push D onto Stack1)  Stack1 now contains [B, A, D, C].
+16. **Stack2: []** (Pop A from Stack1)  Stack2 is empty.
+17. **Stack3: [A,B,C,D]** (Push B onto Stack3)  Stack3 now contains [A, B, C, D].
+18. **Stack1: [B,A,D,C]** (Push D onto Stack1)  Stack1 now contains [B, A, D, C].
+19. **Stack2: []** (Pop A from Stack1)  Stack2 is empty.
+?[1. Stack3: Push 'A' onto Stack3. 1 step]
+[2. Stack2: Push 'B' onto Stack2. 2 steps]
+[3. Stack1: Push 'D' onto Stack1. 3 steps]
+[4. Stack1: Push 'C' onto Stack1. 4 steps]
+[5. Stack3: Pop 'A' from Stack3. 5 steps]
+[6. Stack2: Pop 'B' from Stack2. 6 steps]
+[7. Stack1: Pop 'D' from Stack1. 7 steps]
+[8. Stack3: Pop 'C' from Stack3. 8 steps]
+[9. Stack2: Pop 'B' from Stack2. 9 steps]
+[10. Stack1: Pop 'A' from Stack1. 10 steps]
+[11. Stack3: Pop 'D' from Stack3. 11 steps]
+[12. Stack2: Pop 'C' from Stack2. 12 steps]
+[13. Stack1: Pop 'A' from Stack1. 13 steps]
+[14. Stack3: Pop 'D' from Stack3. 14 steps]
+[15. Stack2: Pop 'B' from Stack2. 15 steps]
+[16. Stack1: Pop 'A' from Stack1. 16 steps]
+[17. Stack3: Pop 'D' from Stack3. 17 steps]
+[18. Stack2: Pop 'C' from Stack2. 18 steps]
+?Stack1: [B,A,D,C];
+Stack2: [];
+Stack3: [A,B,C,D];
+?1.  **Stack3:** Push 'A' to Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack3. (3 steps)
+4.  **Stack1:** Push 'B' to Stack1. (4 steps)
+5.  **Stack1:** Push 'D' to Stack1. (5 steps)
+6.  **Stack1:** Push 'C' to Stack1. (6 steps)
+7.  **Stack2:** Pop 'C' from Stack1. (7 steps)
+8.  **Stack2:** Pop 'D' from Stack1. (8 steps)
+9.  **Stack2:** Pop 'B' from Stack1. (9 steps)
+10. **Stack2:** Pop 'A' from Stack1. (10 steps)
+11. **Stack3:** Pop 'A' from Stack3. (11 steps)
+12. **Stack3:** Pop 'B' from Stack3. (12 steps)
+13. **Stack3:** Pop 'D' from Stack3. (13 steps)
+14. **Stack3:** Pop 'C' from Stack3. (14 steps)?[1. Stack3: [A,B,C,D]\]
+[2. Stack2: []\]
+[3. Stack1: [A,D,C]\]
+[4. Stack2: [B]\]
+[5. Stack1: [A,D,C]\]
+[6. Stack2: [B]\]
+[7. Stack3: [A,B,C,D]\]
+[8. Stack1: [A,D,C]\]
+[9. Stack2: [B]\]
+[10. Stack3: [A,B,C,D]\]
+[11. Stack1: [A,D,C]\]
+[12. Stack2: [B]\]
+[13. Stack3: [A,B,C,D]\]
+[14. Stack1: []\]
+[15. Stack2: []\]
+[16. Stack3: [A,B,C,D]\]?1.  **Stack3: [A,B,C,D]** (Push A onto Stack3) - Initializing Stack3 with the four elements.
+2.  **Stack2: []** (Pop A from Stack3) - Removing A from Stack3.
+3.  **Stack1: [B,A,D,C]** (Push B onto Stack1) - Adding B to Stack1.
+4.  **Stack2: []** (Pop A from Stack1) - Removing A from Stack1.
+5.  **Stack3: [A,B,C,D]** (Push B onto Stack3) - Adding B to Stack3.
+6.  **Stack1: [B,A,D,C]** (Push D onto Stack1) - Adding D to Stack1.
+7.  **Stack2: []** (Pop A from Stack1) - Removing A from Stack1.
+8.  **Stack3: [A,B,C,D]** (Push B onto Stack3) - Adding B to Stack3.
+9.  **Stack1: [B,A,D,C]** (Push C onto Stack1) - Adding C to Stack1.
+10. **Stack2: []** (Pop C from Stack1) - Removing C from Stack1.
+11. **Stack3: [A,B,C,D]** (Push D onto Stack3) - Adding D to Stack3.
+12. **Stack1: [B,A,D,C]** (Push A onto Stack1) - Adding A to Stack1.
+13. **Stack2: []** (Pop A from Stack1) - Removing A from Stack1.
+14. **Stack3: [A,B,C,D]** (Push B onto Stack3) - Adding B to Stack3.
+15. **Stack1: [B,A,D,C]** (Push C onto Stack1) - Adding C to Stack1.
+16. **Stack2: []** (Pop C from Stack1) - Removing C from Stack1.
+17. **Stack3: [A,B,C,D]** (Push D onto Stack3) - Adding D to Stack3.
+?1.  **Stack3: [A,B,C,D]** - Push A onto Stack3. (1 step)
+2.  **Stack2: []** - Push B onto Stack2. (2 steps)
+3.  **Stack1: [A,D,C]** - Push D onto Stack1. (3 steps)
+4.  **Stack2: [B]** - Push B onto Stack2. (4 steps)
+5.  **Stack3: [A,B,C,D]** - Push C onto Stack3. (5 steps)
+6.  **Stack1: [A,D,C]** - Push D onto Stack1. (6 steps)
+7.  **Stack2: [B]** - Push B onto Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]** - Push D onto Stack3. (8 steps)
+9.  **Stack1: [A,D,C]** - Push D onto Stack1. (9 steps)
+10. **Stack2: [B]** - Push B onto Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]** - Push D onto Stack3. (11 steps)
+12. **Stack1: []** - Pop D from Stack1. (12 steps)
+13. **Stack2: []** - Pop B from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]** - Pop D from Stack3. (14 steps)
+?[A,B,C,D]
+[A,B,C]
+[D]
+[A,B,C]
+[D]
+[A,B]
+[C]
+[D]
+[A,B]
+[C]
+[D]
+?[1. Stack3: Push 'A' onto Stack3.]
+[2. Stack2: Pop 'A' from Stack3.]
+[3. Stack1: Pop 'A' from Stack2.]
+[4. Stack1: Pop 'B' from Stack1.]
+[5. Stack1: Pop 'D' from Stack1.]
+[6. Stack1: Pop 'C' from Stack1.]
+[7. Stack1: Pop 'C' from Stack1.]
+[8. Stack1: Pop 'B' from Stack1.]
+[9. Stack1: Pop 'A' from Stack1.]
+[10. Stack1: Pop 'D' from Stack1.]
+[11. Stack1: Pop 'C' from Stack1.]
+[12. Stack1: Pop 'B' from Stack1.]
+[13. Stack1: Pop 'A' from Stack1.]
+[14. Stack1: Pop 'B' from Stack1.]
+[15. Stack1: Pop 'C' from Stack1.]
+[16. Stack1: Pop 'A' from Stack1.]
+[17. Stack1: Pop 'B' from Stack1.]
+[18. Stack1: Pop 'C' from Stack1.]
+?[A,B,C,D],[],[];[A,B,C],[],[D]?[A,B,C,D],[],[];[A,B,C],[],[D]
+?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack3. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack3. (3 steps)
+4.  **Stack1:** Push 'B' into Stack1. (4 steps)
+5.  **Stack1:** Push 'D' into Stack1. (5 steps)
+6.  **Stack1:** Push 'C' into Stack1. (6 steps)
+7.  **Stack2:** Pop 'C' from Stack1. (7 steps)
+8.  **Stack2:** Pop 'D' from Stack1. (8 steps)
+9.  **Stack2:** Pop 'B' from Stack1. (9 steps)
+10. **Stack2:** Pop 'A' from Stack1. (10 steps)
+11. **Stack2:** Pop 'D' from Stack1. (11 steps)
+12. **Stack3:** Pop 'A' from Stack3. (12 steps)
+13. **Stack3:** Pop 'B' from Stack3. (13 steps)
+14. **Stack3:** Pop 'D' from Stack3. (14 steps)
+15. **Stack3:** Pop 'C' from Stack3. (15 steps)
+16. **Stack3:** Pop 'A' from Stack3. (16 steps)
+17. **Stack3:** Pop 'B' from Stack3. (17 steps)
+18. **Stack3:** Pop 'D' from Stack3. (18 steps)
+?1.  **Stack3:** Push `A` onto Stack3. (1 step)
+2.  **Stack2:** Pop `A` from Stack3. (2 steps)
+3.  **Stack1:** Pop `A` from Stack3. (3 steps)
+4.  **Stack1:** Push `B` onto Stack1. (4 steps)
+5.  **Stack1:** Push `D` onto Stack1. (5 steps)
+6.  **Stack1:** Push `C` onto Stack1. (6 steps)
+7.  **Stack2:** Pop `C` from Stack1. (7 steps)
+8.  **Stack2:** Pop `D` from Stack1. (8 steps)
+9.  **Stack2:** Pop `B` from Stack1. (9 steps)
+10. **Stack2:** Pop `A` from Stack1. (10 steps)
+11. **Stack3:** Pop `A` from Stack3. (11 steps)
+12. **Stack3:** Pop `B` from Stack3. (12 steps)
+13. **Stack3:** Pop `C` from Stack3. (13 steps)
+14. **Stack3:** Pop `D` from Stack3. (14 steps)
+15. **Stack3:** Pop `A` from Stack3. (15 steps)?[1. Stack3: Push 'A' into Stack3. ]
+[2. Stack2: Pop 'A' from Stack3 and push 'B' into Stack2. ]
+[3. Stack1: Pop 'B' from Stack2 and push 'A' into Stack1. ]
+[4. Stack3: Pop 'B' from Stack3 and push 'C' into Stack3. ]
+[5. Stack2: Pop 'C' from Stack3 and push 'D' into Stack2. ]
+[6. Stack1: Pop 'D' from Stack1 and push 'C' into Stack1. ]
+[7. Stack3: Pop 'D' from Stack3 and push 'A' into Stack3. ]
+[8. Stack2: Pop 'A' from Stack2 and push 'B' into Stack2. ]
+[9. Stack1: Pop 'B' from Stack1 and push 'A' into Stack1. ]
+[10. Stack3: Pop 'A' from Stack3 and push 'B' into Stack3. ]
+[11. Stack2: Pop 'B' from Stack2 and push 'C' into Stack2. ]
+[12. Stack1: Pop 'C' from Stack1 and push 'D' into Stack1. ]?1.  **Stack3: [A,B,C,D]** - Push 'A' onto Stack3. (1 step)
+2.  **Stack2: []** - Push 'B' onto Stack2. (2 steps)
+3.  **Stack1: [B,A,D,C]** - Push 'D' onto Stack1. (3 steps)
+4.  **Stack2: [B]** - Pop 'D' from Stack1. (4 steps)
+5.  **Stack3: [A,B,C,D]** - Push 'C' onto Stack3. (5 steps)
+6.  **Stack1: [B,A,D,C]** - Pop 'C' from Stack3. (6 steps)
+7.  **Stack2: []** - Pop 'D' from Stack2. (7 steps)
+8.  **Stack3: [A,B,C,D]** - Push 'B' onto Stack3. (8 steps)
+9.  **Stack1: []** - Pop 'B' from Stack3. (9 steps)
+10. **Stack2: []** - Pop 'B' from Stack2. (10 steps)
+11. **Stack3: [A,B,C,D]** - Push 'C' onto Stack3. (11 steps)
+12. **Stack1: []** - Pop 'C' from Stack3. (12 steps)
+13. **Stack2: []** - Pop 'B' from Stack2. (13 steps)
+14. **Stack3: [A,B,C,D]** - Push 'D' onto Stack3. (14 steps)
+?1.  **Stack3: [A,B,C,D]**
+2.  **Stack2: []**
+3.  **Stack1: [B,A,D,C]**
+4.  **Stack2: []**
+5.  **Stack3: [A,B,C,D]**
+6.  **Stack1: [B,A,D,C]**
+7.  **Stack2: []**
+8.  **Stack3: [A,B,C,D]**
+9.  **Stack1: []**
+10. **Stack2: []**
+11. **Stack3: [A,B,C,D]**
+12. **Stack1: []**
+13. **Stack2: []**
+14. **Stack3: [A,B,C,D]**
+15. **Stack1: []**
+16. **Stack2: []**
+17. **Stack3: [A,B,C,D]**
+18. **Stack1: []**
+19. **Stack2: []**
+?[1. Stack3: Push 'A' into Stack3.]
+[2. Stack2: Pop 'A' from Stack3.]
+[3. Stack1: Pop 'A' from Stack3.]
+[4. Stack1: Push 'B' into Stack1.]
+[5. Stack1: Push 'D' into Stack1.]
+[6. Stack1: Push 'C' into Stack1.]
+[7. Stack3: Pop 'C' from Stack3.]
+[8. Stack3: Pop 'A' from Stack3.]
+[9. Stack3: Pop 'B' from Stack3.]
+[10. Stack3: Pop 'D' from Stack3.]
+[11. Stack3: Pop 'A' from Stack3.]
+[12. Stack3: Pop 'B' from Stack3.]
+[13. Stack3: Pop 'D' from Stack3.]
+[14. Stack3: Pop 'A' from Stack3.]
+[15. Stack3: Pop 'B' from Stack3.]
+[16. Stack3: Pop 'D' from Stack3.]
+?[A,B,C,D],[],[];[A,B,C],[],[D]?1.  **Stack3:** Push 'A' into Stack3. (1 step)
+2.  **Stack2:** Pop 'A' from Stack2. (2 steps)
+3.  **Stack1:** Pop 'A' from Stack1. (3 steps)
+4.  **Stack3:** Push 'B' into Stack3. (4 steps)
+5.  **Stack2:** Pop 'B' from Stack2. (5 steps)
+6.  **Stack1:** Pop 'B' from Stack1. (6 steps)
+7.  **Stack3:** Push 'C' into Stack3. (7 steps)
+8.  **Stack2:** Pop 'C' from Stack2. (8 steps)
+9.  **Stack1:** Pop 'C' from Stack1. (9 steps)
+10. **Stack3:** Push 'D' into Stack3. (10 steps)
+11. **Stack2:** Pop 'D' from Stack2. (11 steps)
+12. **Stack1:** Pop 'D' from Stack1. (12 steps)
+
+[A,B,C,D],[],[];[A,B,C],[],[D];?Stack1: [B,A,D,C],[],[];[A,B,C,D],[],[D];
+Stack2: [B,A,D,C],[],[];[A,B,C,D],[],[D];
+Stack3: [A,B,C,D],[],[];[A,B,C,D],[],[D];
+?

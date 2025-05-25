@@ -1,0 +1,1462 @@
+Here are the steps to solve the Tower of Hanoi with 4 disks:
+
+[L,M,S];[M,S,];[M,]
+;[S,L,M,S];[L,M,S];
+[M,,S];[L,]
+;[M,S,];[L,M,]
+;[M,S,];[L,M,]
+;[M,S,];[L,M,S]
+;[L,S,];[M,]
+;[L,S,];[M,S,]
+;[L,];[S,L,S]
+;[M,,];[L,S,]
+;[M,];[L,S,]
+;[M,];[L,M,S]
+;[L,M,];[]
+;[S,];
+;[S,]?[L,M,S]; [M,S,S]; [S,M,S]; [S,S,S]; [S,M,S]; [S,S,S]; [M,S,S]; [M,S,L]?[L,M,S],[M,S,L]
+[M,S,L],[S,L,M]
+[S,L,M],[L,M,S]
+[L,M,S],[L,M,S]
+[M,S,L],[S,L,M]
+[S,L,M],[S,L,]?[L,S,[]];[M,S,D4]
+[S,M,D3];[D4,D2]
+[D2,M,S]
+[M,D4,S]
+[S,M,D3]
+[S,D1,D2]
+[M,D3,S]
+[M,D3,D1]
+[D2,M,S]
+[[],D1,S]?[L,M,S];[M,S,L]
+;[S,L,M]
+;[L,M,S]
+;[M,S,L]
+;[S,L,M]
+;[L,M,S]
+;[L,M,S]
+;[M,S,L]
+;[M,S,L]?[L,S,S];[M,S,L]
+[S,L,S];
+[M,S,L]
+[M,,S];
+[L,M,S];[M,S,L]
+[S,M,D];[M,D,M]
+[S,D,M];[D,M,S]
+[S,D,S];
+[D,S,M];[M,S,L]
+[S,D,L];[M,S,L]
+[L,M,D]
+[L,M,S];
+[S,D,S];[L,M,S]
+[M,,S];[L,M,S]
+[S,D,M];[L,M,S]
+[S,D,S];[L,M,S]?[L,M,S];[M,S,L];
+[M,,S];
+[S,,L];
+[S,L,M];
+[S,M,,];
+[M,,,]?[L,S,S]; [S,S,L]; [S,[L,S],S]; [L,S,S]; [S,L,S]; [S,[L,S],S]; [S,L,[L,S]]?[L,M,S];[M,L,,S];[L,;,S];[M,;,S];[M,;,S];[M,;,S];[M,;,S];[M,;,S];[M,;,S];?[L,M,S];[M,L,S]
+[L,M,S];[S,D,L]
+[S,E,D];[D,L,S]
+[D,E,S];[D,L]
+[D,E,S];[L,S,D]
+[E,D,S];[E,D,L]
+[E,D,S];[L,S,D]
+[S,E,D];[D,L]
+[S,E,D];[M,S,D]
+[M,D,L];[D,E,S]
+[L,E,D];[D,E,S]
+[L,D,S];[D,E,S]
+[D,E,S];[S,E,D]?[L,M,S];,[M,S],[D];[S,D],[D];[S,M];[S,L],[D];[D,M], [L,M,S]?[L,S],,[S,D]
+[S,D],[S,L]
+[S,D],[],[D,S]
+[D,S],[L,D]?[L,M,S],[S,L,],
+,[M,D,],
+,[D,S,],
+,[S,D,],
+,[M,D,],
+,[D,T,],
+,[M,],
+,[D,T,]?[L,M,S];[M,S,L];[S,M,L];[M,S,L];[S,L,M];[L,S,M];[L,M,S];[S,M,L]?[L,M,S],[,,]
+[M,L,S],[d4,d3,]
+[S,L,M],[,,d3]
+[S,M,,],[d3,]
+[S,M,,],[L,d2,d3]
+[,,S],[M,d4,d3],[d2,]
+[S,M,,],[L,]
+[,,S],[M,d2,d4]
+[L,S,M],[d2,]?[L,M,S],[S,M,S]
+[M,S,M]
+[S,M,S]
+[S,S,M]
+[,,M,S]
+[],[S,M,S]
+[],[S,M,S],[M,S]
+[,,S,M]
+[M,S,M],[S,M,S]
+[,,S,M]?[L,M,S]
+,[M,S],[]
+,[M,,S]
+,[,,S],[M,S]
+,[M,S]
+,[,,M],[S,]
+[,M,S]
+,[,,S],[]?[L,,S],[M,,],[],[L,,S],[M,,];[M,,],[L,d4],[];[M,d4,],[L,,S];[L,,S],[M,,][L,,S],[M,d1],[L,,S],[M,d2];[L,d1],[M,,],[L,,S],[M,d3],[L,,S],[M,d2];[L,d3],[M,d1],[L,,S],[M,d4],[L,d1],[M,,]?[L,M,S];[M,,S,d4]
+[M,d3,S];[S,d4]
+[S,d2,S];[M,d3]
+[M,;,S,d1]
+[S,d1,S,d3]
+[M,,S,d2]
+[S,d1,S]
+[S,d1,;,d4]
+[S,d3,M]
+[S,d2,S,d1]
+[;,S]
+[;,S,d1,d4]?[L,M,S];[M,L,S]
+[M,,S];[L,S,]
+[S,,S]
+[S,d4,M], [M, d3, S], [L,,,]
+[L,d2,M], [M,L,S], [S,d1,]
+[S,d4,M], [M,,S],[d3,L,],?[L,M,S];[M,S,L];[S,M,L];[L,M,S];[L,S,M];[M,L,S];[S,L,M];[M,S,L];[L,S,M];[S,L,M]?[L,M,S],[M,D,S]
+[M,S,D],[D,S]
+[S,D,R],[D,S]
+[,,S,D],[D,S]
+[D,R,S],[R,S]
+[R,D,S],[R,S]
+[,,D,R],[R,S]
+[S,D,R],[S,D]
+[,,D,S],[D,S]
+[D,R,S],[D,R]
+[R,S,D],[R,S]?[L,M,S],[M,L,M],[L,M,S],[S,L,M],[M,L,S],[M,S,L],[S,L,S],[S,L,M]?[L,M,S];[M,L,S];[S,M,S];[S,M,S];[M,S,L];[S,M,S];[S,L,D];[L,D,S];[D,L,S];[S,D,L]?[L,M,S],[,,][S,L,M]
+,[L,M,S],[L,SM]
+,[,,M],[L,SM]
+,[S,M,LS],[L,SM]
+,[L,MS],[S,LM]
+,[LS,M],[,M,SL]
+,[LM,S],[,L,MS]?[d4,S1,];[d1,S2,];[d2,S1,];[d3,S2,];[d1,S2,D3,];[d2,S1,D4,];[d3,S2,D4,D2,];?[L,M,S];[M,S,,],,[S,];
+[M,,S],[S,];[L,M,S];
+[,,S],[L,S,];[M,];
+[S,,][M,];[L,M,S]
+[S,],[M,];[L,M,S]
+[M,],[S,];[],[]?[L,M,S];[M,S,L];[M,S,L];[S,L,M];[S,L,M];[S,L,M];[L,M,S];[L,M,S];[L,M,S];[L,S,M];[S,L,M];[S,M,L];[L,S,M];[L,S,M];[L,M,S];[M,S,L]?[L,M,S],[M,L,S];
+[M,L,S],[S,L,S];
+[S,L,S],[M,L,S];
+[S,L,S],[S,L,S];
+[S,L,S],[L,S,S];
+[L,S,S],[L,S,S];
+[S,L,S],[L,S,S];
+[L,S,S],[S,L,S];
+[L,S,S],[L,S,S];?[L,S,M],[],[M,S,L]
+[M,S,L],[],[S,L,M]
+[S,L,M],[L,M,S],[]
+[S,L,M],[M,S,L],[]
+[M,S,L],[S,L,M],[]
+[S,L,M],[L,M,S],[] 
+[L,M,S],[L,M,S],[]
+[L,S,M],[L,S,M]?[L,S,S];
+[M,S,L];
+[S,M,S];
+[M,L,S];
+[L,M,S];
+[L,S,L];
+[M,L,S];
+[S,L,M];
+[L,M,S];
+[M,S,L]
+[ L, S, M ]?[L,M,S];[M,S],[];[L,M]
+[M,S],[];[S,L,D];[L,M]
+[S,L,D];[];[S,L]
+[L,S],[];[D,L];[L,M]
+[D,L];[S,L];[D,L,D];
+[S,L,D];[S,L];[M,S]
+[L,S],[];[D,L];[M,S]
+[S,L,D];[M,S];[D,L,D]
+[S,L,D];[D,L,D];[L,S]?[L,M,S],[S,M,S],[M,M,L],
+[S,M,S],[M,,S],[M,S,L],
+[S,M,S],[S,MS,L],[S,MS,S],
+[M,,S],[L,MS,S],?[L,M,S],[S,L,M],
+[S,L,M],[M,,],
+[M,,,[S,L,M],
+[L,M,S],[S,L,M]
+[L,M,S],[,,[S,L,M],?[L,M,S]; [M,S,L]
+[S,L,,]
+; [S,L,D4]
+; [M,S,D4]?[L,S,[]];[M,S,[]];[M,,S];[,,S,[,]];[,,S,[,]]?[L,M,S];[D,S,L]
+[M,D,L,];[S,]
+[L,M,S];
+[S,D,L,D,];
+[D,S,L,];[S,D,]
+[L,M,S];[];
+[S,D,L,];[]
+[L,M,S];[L,D,S]?[L,M,S];[M,S,L]
+;[S,M,L]
+;[M,,L]
+;[L,M,,]
+;[L,,]
+;[M,,]
+;[S,,]
+;[S,L,]
+;[,,L]?[L,M,S];[M,S,L];[S,L,M];[L,M,S];[M,S,L];[L,M,S];[M,S,L];[L,S,M];[S,M,L];[L,M,S]?[L,M,S];[M,S,]
+;[S,M,L];[S,L,]
+;[S,] [M,L];
+;[S,L,][M,S]
+;[L,M,S];[L,S,]?[L,M,S],[S,M,S]
+[S,M,S],[S,L,S]
+[S,M,S],[M,D,S]
+[M,D,S],[D,L,S]
+[M,D,S],[L,D,S]
+[D,L,S],[M,D,S]
+[M,D,S],[L,D,S]
+[D,L,S],[M,D,S]
+[L,M,S],[M,D,S]?[L,S],[M,],[];[M,],S,[S];[S,M,]S;[S,M,],L;[M,S,],S;[M,S,]L;[S,M,,][S,M,S]?[L,M,S];[M,S,L]
+[M,S,L];[S,M,L]
+[S,M,L];[L,S,M]
+[L,S,M];[M,L,S]
+[L,S,M];[M,L,S]
+[S,M,L];[L,S,M]?[L,M,S],[M,S],[S,L,D]
+[M,S],[L,D,S]
+[S,L,D],[M,S],[L]
+[[],[D,1],[S]]
+[[],[D,3,D4],[S]]
+[[],[D,2,D4],[S]]
+[[],[D,2],[L]]
+[]?[L,M,S];[M,S,L];[L,M,S];[S,L,M];[L,M,S];[M,S,L];[S,L,M];[S,L,M]?[L,M,S],[M,L,S];[L,M,S],[M,L,S]
+[M,L,S],[L,M,S];[L,M,S],[S,L,M]
+[S,L,M],[L,M,S];[],[]
+[S,L,M],[M,L,S];[L,M,S],[]
+[M,L,S],[L,M,S];[L,M,S],[D,M,L]
+[L,M,S],[L,M,S];[L,M,S],[D,M,L]?[L,M,S];[M,S,];[M,S,L] 
+[M,S,L];[S,];[S,L]
+[S,];[L,M,];[L,M,S] 
+[L,M,S];[L,M,S];[]?[L,M,S];[S,L,S,M];[M,,S,L];[S,;,S,L,M];[M,;,S,L];[S,S,;L,S];[L,L,S,M,];[S,M,S,L];[L,S,M,S];[M,S,L,S];[S,S,L]?[L,M,S],[M,.,L],[L,M,],[M,L,S],[M,.,S],[M,,S],[M,S,],[S,L,S],[S,,L],[S,S,L]?[L,M,S]; [M,S,]; [S,],;
+[M,S,],[S,,];
+[S,,],[M,,],;
+[M,,],[S,,],?[L,M,S],[L,,M],,[S,D,L];,[,,M],[D,L],;,[L,M,D],[S,D]?[L,M,S],[M,S,L]
+[M,S,L],[S,L,M]
+[S,L,M],[M,S,L]
+[,,M,S,L];[M,S,L],[S,L,M]
+[S,L,M],[M,S,L],[S,L,M]
+[M,S,L],[S,L,M],[S,L,M]
+[,,M,S,L];[M,S,L],[S,L,M]
+[,],[S,L,M],[M,S,L]?[L,M,S],[M,S,L]
+[S,L,M],[S,M,L]
+[M,L,S],[S,M,]
+[L,M,S],[L,M,S]
+[M,S,L],[M,,S]
+[S,M,L],[]
+[M,,S],[M,L,S]
+[M,,S],[S,M,]
+[S,L,M],[S,,L]
+[,,S],[S,M,S]
+[S,M,],[S,,]
+[S,M,S],[L,M,]?[L,M,S];[M,S,L]
+[S,M,L]
+[M,S,L]
+[L,M,S]
+[M,S,L]
+[M,L,S]
+[L,S,D]
+[D,S,L]
+[S,L,D]
+[L,D,S]
+[L,S,D]
+[L,D,S]
+[S,D,L]
+[L,D,S]
+[L,D,S]
+[S,D,L]
+[S,D,L]?[L,M,S],[M,S,L]
+[M,S,L],[S,L,M]
+[S,L,M],[L,M,S]
+[L,M,S],[M,S,L]
+[L,M,S],[S,L,M]
+[L,M,S],[L,M,S]
+
+Note: I corrected the last step to reflect the actual solution, which is [L,M,S]?[L,M,S],[M,S,[]];[S,,L];[S,L];[S,,L];[L,M,S];[S,L,[]];[S,L,M];[S,M,L];[L,M,S];[L,M,S];[M,L,S];[L,M,S]?[L,M,S],[M,S,L]
+,[L,M,S]
+,[M,S,L],[S,M,L]
+,[M,S,L],[S,L,M]
+,[M,S,L],[S,L,M]
+,[L,M,S],[L,M,S]
+,[L,S,M],[L,M,S]
+,[L,S,M],[L,S,M]?[L,M,S];
+[,,]
+[M,d4,L];
+[S,L,M]
+[L,,M]
+[M,L,d3]
+[],[d1,L]
+[S,M,d4]
+[S,M,]
+[L,d2,d3]
+[L,d3,S]
+,[S]
+[,]L,d3]
+[L,M,S]?[L,S,], [M,S,], [S,S,], [M,S,], [S,L,], [M,L,], [S,L,], [M,L,], [L,M,], [M,L,], [M,S,], [L,S,], [M[S,], [L,S,], [L[M,]?[L,S],[],[D4];
+[M,D,S];
+[D2,D4,S];
+[M,D];
+[S,D3,D4];
+[M,D];
+[D1,D3,S];
+[D4,D1,M];
+[D2,D4,M]
+[M,D];
+[M,D4,S]?[L,S,]
+,[S,L,]
+,[L,S,]
+,[S,L,],[L,S,]
+,[S,L,],[S,L,],[L,S,]
+,[S,L,],[L,S,],[S,L,],[L,S,]?[L,M,S];[M,M,S]
+;[M,S,L]
+;[L,S,M]
+;[S,M,L]
+;[S,M,L]
+;[M,S,L]
+;[M,S,L]?d4,d3;[empty,d3,d4];d2 
+ d3,[empty,d3,d4];d2 
+ [empty,d3,d4];[d3,d4] 
+ [empty,d2,d4];[empty,d3,d4] 
+ [empty,d3,d4];d2 
+ [empty,d3,d4,d2];[d3] 
+ [d3,d4,d2];[d3]?[L,M,S],[M,L,S],[S,M,L,D4],[M,L,S],[L,S,D2],[L,D1,D3],[D1,D2,D3],[D1,D3,D2],[D1,D2,D3],[D1,D3,D4],[D2,D3,D4]?[L,M,S];[M,S,L]
+[M,S,L],[S,L,M]
+[S,L,M],[M,L,S]
+[L,M,S],[M,L,S]
+[M,L,S],[L,M,S]
+[L,M,S],[M,S,L]
+[S,L,M],[L,M,S]
+[L,M,S],[L,M,S]?Stack1,[M,S]
+Stack2,[S,L]
+Stack3,[L,M]?[L,M,S];[S,L,S]
+;[M,L,S]
+;[S,L,S],[M]
+[M,L,S],[S,L,S]
+,[M]
+,[M],[L]
+,[S,L,S],[L]
+,[S,L,S]
+,[M],[L]
+,[S,L,S],[L],[M]?[L,M,S];[S,,M];[,,M];[S,M,];[,,S];[M,S,];[,,S];[M,,S]?[L,M,S];[M,S,];
+[M,S,];[S,];
+[S,];[S,];
+[S,];[S,];
+[S,];[S,L];
+[S,];[S,L];
+[S,];[S,L,D4]
+[L,S,L];[L,S,]
+;?[L,S,], [S,S], [M,,] 
+[M,,], [,,S]
+,[M,S], [M,,]
+,[,S], [M,S]?[L,M,S]; [M,S,L]
+[M,S,L];[S,L,D]
+[S,L,D];[D,L,S]
+[D,L,S];[L,S,D]
+[L,S,D];[D,S,L]
+[L,S,D];[D,L,S]
+[D,L,S];[L,S,D]
+[L,S,D];[D,S,L]?[L,S,] ;
+[S,L,S] ;
+[L,S,] ; 
+[L,,S] ; 
+[L,S,S] ;?[L,S,]; [S,M,S]
+[S,S,M,]; [M,S,];
+[M,S,S,]; [M,S,]
+[S,M,S];[M,,S]
+[M,;S,];[,,M]
+[M,,]S?[L,M,S];[M, S,L];[S,M,L];[S,L,M];[M,S,L];[L,S,M];[S,L,S];[S,M,L];[L,M,S];[M,L,S];[L,S,M]?[L,M,S];[M,L,S];[L,M,S];[S,M,L]?[L,M,S];[S,M,S]
+[S,,M] 
+[S,d4,M]
+[S,M,S];[S,M,S]
+[S,M,]
+[S,d1]
+[M,d2,S]
+[M,d3,S]
+[M,d3,d2,S]?[L,M,S]; [M,S,S]
+; [S,M,S]
+; [M,,S]
+; [,,M]
+; [,,S]
+; [S,,]?[L,M,S];[M,S,L]
+[M,S,L];[S,L,M]
+[S,L,M];[L,M,S]
+[L,M,S];[S,L,M]
+[S,L,M];[L,M,S]
+[L,M,S];[M,S,L]
+[M,S,L];[S,L,M]
+[M,S,L];[L,M,S]
+[L,M,S];[M,S,L]?[L,M,S],[S,L,S],[M,S,L],[M,,L],[L,M,S],[M,S,,],[L,S,M],[S,M,,],[S,,M,S],[S,,M,L]?[d4,S,S];[d3,L,S];[d3,S,L];[d2,S,L];[d3,S,L];[d1,L,S];[d3,L,S];[d1,S,L];[d4,L,S];[d4,S,L]?[L,M,S];[M,S,L];[S,,M];[L,,S];[M,LS,];[L,M,S]?[L,M,S]; [M,S,S]; [S,S,L]; [S,M,S]; [M,S,S]; [L,M,S]?[L,M,S];[S,L,M,S];
+[S,L,M,S],[M,S,L,S];
+[M,S,L,S],[];
+[S,L,M,S],[M,S,L,S];
+[M,S,L,S],[L,M,S],
+[L,M,S],[M,S,L,S];
+[],[M,S,L,S],[L,M,S,d4]
+[M,S,L,S], [L,M,S,d4],[S,L,M,S]
+[L,M,S], [L,M,S,d4],[S,L,M,S]
+[S,L,M,S],[L,M,S],[]?[L,M,S];[M,S,L];[S,M,L];[L,S,M];[L,M,S];[M,S,L];[S,L,M];[L,M,S];[M,S,L]?[L,M,S];[M,S,L];[S,L,M]
+[S,M,L];[L,M,S];[M,S,L]
+[M,L,S];[S,L,M];[L,S,D]
+[L,M,S];[D,M,S];[M,D,L]
+[D,M,S];[L,S,D];[S,D,L]
+[S,D,L];[M,S,D];[D,M,L]
+[D,M,S];[L,D,A];[A,D,M]?[L,M,S],[M,S,],,[S,,];[S,,][M,S,];[S,M,][S,,];[S,,][M,S,];[S,,][S,M,];[S,,][M,];[S,,][S,]?[L,M,S],[M,S,L]
+[M,L,S],[S,L,M]
+[S,L,M],[S,M,L]
+[S,M,L],[M,L,S]?[L,M,S],[L,,S,d1];
+[M,L,S,d2];
+[S,L,,d1];
+[,,S,d4];
+[S,,M,d3];
+[M,,S,d2];
+[S,,M,d1];
+[,,S,d4];
+[S,,M,d3];
+[,,L,d1];
+[M,,S,d2]
+;?[L,M,S];[M,S,L];[M,S,L];[S,M,L];[S,L,M];[L,M,S];[L,S,M];[L,M,S]?[L,M,S],[M,,],[],[S,d4,L],[],[L,d3,S],,[S,d2,M],[],[L,d1,S],,[S,d4,L]?[L,M,S];[M,S,L];[S,L,M];[S,M,L];[M,L,S];[L,S,M];[L,M,S]?[L,M,S],[M,L,S]
+[M,L,S],[L,S,L]
+[S,L,S],[S,L,M]
+[L,S,M],[M,S,L]
+[S,L,M],[L,S,M]
+[S,L,M],[M,S,L]
+[M,S,L],[M,L,S]?**Tower of Hanoi with 4 Disks**
+
+We have 4 disks (d4, d3, d2, d1) on **stack1**, which is the source peg. We need to move them to **stack3**, which is the destination peg, using **stack2**, the auxiliary peg.
+
+**Step-by-Step Solution:**
+```
+[L,M,S],[],[]
+;[M,S,],[L,],[]
+;[S,],M,L,[]
+;[S,],[L,d1,],[]
+;[L,d1,],,,[d2]
+;[L,d3,],S,[[d4]]
+;[L,],[S,d1,],[d4]
+;[S,d1,],[d4,],[d2]
+;[S,],[L,d1,],[d2]
+;[L,d3,],[M,],[d1]
+;[M,],[L,],[d1,d2,d4]
+;[L,d1,],M,S,[d2]
+```
+Note: 
+- L: stack1 (source)
+- M: stack2 (auxiliary)
+- S: stack3 (destination)?[L,M,S];[M,,S],[M,d4,S],[L,d4,S];
+[S,[L,M,S],[M,d2,S],[M,d2,S];
+[M,L,[M,d2,S],[d1,S]];
+[M,S,L,d1,S;?[L,M,S]; [M,S,S]; [S,M,S]; [M,,S]; [,,S,S]; [,,S,L]; [,,L,S]; [S,.,S]; [.,L,S]?[L,M,S],[S,M,L];
+[M,L,S],[M,L,S];
+[S,M,L],[S,M,L],[S,M,L],[L,M,S],[M,L,S],[L,M,S],[M,L,S],[L,M,S]?[L,M,S],[M,L,S];
+[M,S,M];
+[S,S,M]
+;[M,L,S],[S,L,S]
+[S,M,L]
+;[M,S,M],[L,S,M]
+[S,L,S]?[L,M,S],[M,L,],,[S,D,]
+[S,D,,],[D,L,],,[L,,,]
+[D,L,],[L,M,],[M,,],
+[M,L,],[L,M,],[M,D]
+[L,M,],[M,,],[M,D,],[D,L]
+[M,,],[L,M,],,[L,,,]
+[[],M,D,],[L,,],,[S,D]?[L,M,S],[L,S,M],[S,L,M],
+[S,M,L],[M,L,S],[M,S,L],
+[M,S,L],[L,S,M], 
+[L,M,S],[L,S,M]?[L,M,S];[L,M,S];[M,S,L];[M,S,L];[S,L,M];[S,L,M];[L,S,M]?[L,M,S],[M,S,L],[M,L,S],[S,L,M],
+[S,L,M],[L,S,M],[L,M,S],[M,S,L],
+[M,L,S],[L,S,M],[S,L,M],[S,M,L]?**Tower of Hanoi with 4 Disks**
+
+**Steps to Solve the Tower:**
+[L,M,S];[M,,S];[L,M]
+[M,L,];[M,S];[]
+[L,;,S];[,S];[M]
+[,] [,S];[L,;,S];[]
+[],[L,;,S];[M,,S];[M]
+[M,S];[L,;,S];[M,];
+[M,S],[,S];[L,M,];[M,]
+[M,S],[L,M,][M,];[];
+[L,M,S],[L,;],[M,;]?[L,M,,S]: [M,,S]
+;[S,d4,];,[M,]
+;[S,d4,d3,];,[,d2]
+;[M,d2,];,[S,d1,d4,]
+;[M,,S],[],[d1,d4,]?[L,M,S];[M,L,S]
+[M,L,S];[S,L,S]
+[S,L,S];[L,M,S]
+[L,M,S];[S,L,S]
+[M,L,S];[],[]
+[L,M,S];[M,L,S]
+[L,M,S];[S,L,S]?[L,M,S];[M,S,L]
+[M,S,L];[S,L,M]
+[S,L,M];[L,S,M]
+[L,M,S];[S,L,M]
+[L,M,S];[M,S,L]
+[M,S,L];[L,M,S]
+[L,M,S];[M,S,L]
+[M,S,L];[L,M,S]
+[L,M,S];[S,L,M]?[L,M,S];[M,,S];[M,d4,S]
+,[M,d2,S];[,,S]
+,[S,d1,S];[d4,,]
+,[,d2,S];[S,d1,S]
+,[S,d4,S];[S,d1,S]
+,[S,d2,S];[d4,S]?[L,,S]
+[S,d1,d4,M]
+[S,d4,d2,L]
+[M,d3,S]
+[S,d1,d2,L]?[L,M,S];[M,,S];[M,d2,S];[L,,S];[L,d4,S];[L,d1,S];[L,d2,S];[L,d1,S];[L,d3,S];[L,d4,S];[L,d1,S];[L,d2,S];[L,d3,S];[M,S,S];[L,d3,S]?[L,S,[]];[S,[]] ; [S,[L]] 
+
+; [S,L] 
+
+; [L,S] [S,L]
+
+; [L,,] [S,,] [L,S]
+
+; [], [S,L], [] [L,S]?Stack1,Stack2,Stack3;[L,M,S],[D1,D2],[];
+[L,D1,D3],[D2],[];
+[D1,D3],[D1,D2],[];
+[D4],[D1,D2],[D3];
+[D3],[D1,D2],[D1];
+[D4],[D1,D2],[];
+[D3,D1],[D2],[];
+[[],[D3,D4],[D2]];
+[[],[D1],[D2,D4]];
+[[],[D3],[]];?[L,M,S];[M,S];[S,M]
+[M,S];[S,M,S];
+[S,M,S];[S,M]
+[S,M,S];[M,S]
+[M,S];[L,M,S]
+[L,M,S];[S,L,M]
+[S,M,S];[M,S]
+[M,S];[L,M,S]
+[L,M,S];[M,S]
+[M,S];[L,S]?[L,M,S],[M,S,L],[M,S,L],[S,L,M],[],[L,S,M]?[L,S,,]
+[S,L,,]
+[],[S,L]
+,[,L,S]
+,[,S,L]
+,[S,L]
+,[S,L,S]
+,[,L,S]
+,[,S,L,S]?[L,M,S];[M,L,S];[S,M,L];[M,S,L];[L,M,S];[M,L,S];[S,M,L];[S,M,L]?[L,M,S];[M,S,L]
+;[S,L]
+;[L,M]
+
+[S,L];[M,S]
+;[M,S]
+;[M,L] 
+
+[M,S];[S,L]
+;[M,S]
+;[M,L] 
+
+[M,S];[]
+;[L,M]
+;[M,S]
+
+[L,M];[]
+;[S,M,L]
+;[]?[L,M,S];[M,S,L]
+[M,S,L];[S,L,M]
+[S,L,M];[L,M,S]
+[L,M,S];[M,S,L]
+[M,S,L];[S,L,M]
+[S,L,M];[L,M,S]
+[L,M,S];[M,empty,L]
+[L,empty,M];[S,L,M]
+[S,L,M];[L,empty,S]
+[L,empty,M];[empty,S,L]
+[empty,S,L];[L,empty,M]
+[empty,S,L];[L,M,S]?[L,M,S];[d1,d4,M],[S,L]
+[S,L,S];[M,S],[L,D]
+[M,D,S];[D,S,[L,S]]
+[L,S,D],[S,D,S],[S,L]
+[D,S,S],[L,D,S],[S,L]
+[L,S,D],[L,D,S],[S,D]
+[L,S,D],[S,D,L],[S,S]
+[S,D,L],[L,D,S],[M,D]
+[M,D,S],[L,S,D],[D,S]?[L,M,S];[M,S,L]
+[S,M,L];[L,S]
+[M,L,S];[S,L]
+[L,S,M];
+[S,L,M,S]
+[L,M,S];[M,S,L]
+[L,S,D];[D,S]
+[D,S,L];[L,D]
+[L,D,S];[S,D]?[L,M,S],[M,,S],[M,d3,S],[M,,S],[M,,S],[M,,S],[,,S]?[L,M,S],[S,M,L]
+[S,M,L],[L,,S]
+[,,M,S],[L,M,L]
+[,,M,S],[L,,L]
+[M,.,L],[S,M,L]
+[L,M,L],[,,M,S]?[L,S,S];[S,],[M,S]
+,[M,S],[S,,];
+[S,] [M,S],[S,];
+[M,S],[S,],S;
+[S,] [M,S],[S,];
+[S,] [M,S],[S,];
+[M,S],[S,],[S,];
+[L,M,S],[S,,];?[L,M,S],[M,S,L],[S,[M,L],],[[M,L],M,[L,S]],,,,[L,S],[L,[M,L],],[M,[L,S],],[L,S,[M,L],[L,S]]?[L,S,]
+,[S,L,]
+,[S,L,]
+,[M,S,L]
+,[L,S,L]
+,[M,L,S]
+,[M,L,S]
+,[M,L,S]
+,[L,M,S]?[L,M,S],[M,S,L],[M,S,L],[S,L,M],[L,M,S],[L,S,M],[M,L,S],[L,S,M],[S,L,M]?[L,M,S]; [M,S,L]
+[M,S,L]; [S,L,M]
+[S,L,M]; [L,S,M]
+[L,S,M]; [S,L,M]
+[L,S,M]; [M,L,S]
+[S,L,M]; [L,S,M]
+[L,S,M]; [M,S,L]?[L,M,S],[D4,D3,E],[D2,D3,E]
+[L,D3,D2,E],[D4,E]
+[L,D1,D2,E],[D4,E]
+[L,D1,D3,E],[D2,E]?[L,M,S];[M,S,],[S,];[M,S,];[S,],[S,L];[L,S,];[L,S,]?[L,S,S];[S,L,S]
+[S,,S];[S,L,]
+[L,,S];[S,L,S]
+[S,,L];[S,L,]
+[L,,L];[S,L,]
+[S,,L];[S,L,S]
+[L,,S];[S,L,S]
+[S,L,S];[S,,S]
+[L,,S];[S,L,]?[L,,S],[d4,d3,d2,],[d1]
+
+[d2,,S],[d4,d3,],[d1]
+
+[],[d4,d3,d2,][d1]
+,d2,[d4,d3,],,S
+
+[],[d4,d3,d2,],[d1],[d3]
+,d2,[d4,d3,],[d1,,S
+,d2,,[d4,d3,],[d1,S]
+
+,,[d2,d1,],[d4],[d3,S
+,d1,,[d4,d3,],[]?[L,M,S],[M,S,L],[S,M,L],[S,M,L];[M,S,L],[S,L,S],[L,S,M],[L,M,S];[M,S,L],[L,S,M],[L,M,S];[M,S,L]?[L,M,S],[M,S,L],[S,L,M],[S,L,M],[L,M,S],[L,M,S],[S,L,M]?[L,S,,]
+[M,S,D4]
+[M,S,D3]
+[D4,S,D3]
+[S,D3,D4]
+[S,D1,D3]
+[D3,D2,D1]
+[S,D1,D2]
+[S,D1,]
+[D1,D3,D2]
+[S,.,D3]
+[S,D1,D3]
+[L,D2,S]
+[L,D1,S]
+[M,D3,S]
+[L,S,D3]?[L,M,S];[M,,S],[,S,];
+,[M,S,],[],[S,];
+,[M,,],[S,],[,S,];[S,]
+,[M,],[],[S,]?[L,M,S]; [M,S,L]
+[M,S,L], [S,L]
+[S,L], [M,S,L]; [M,S,L]
+[S,L], [M,S,L], [L,M,S]
+[L,M,S], [M,S,L]; [M,S,L]
+[M,S,L], [M,S,L], [L,M,S]
+[M,S,L], [M,S,L]; [S,L]
+[S,L], [M,S,L], [S,L]
+[S,L], [M,S,L], [L,M,S]?[L,M,S]; [M,S,L]; [S,M,L]; [M,S,L]; [S,M,L]; [M,S,L]?[L,M,S];[M,L,S]
+[M,S,L];[S,L]
+[S,L,D];[L,D,S]
+[L,S,D];[D,S,L]
+[D,S,L];[L,D,S]
+[L,D,S];[S,D,L]
+[S,D,L];[D,L,S]?[L,M,S];[M,S,L];[S,M,L];[M,L,S];[L,M,S];[L,S,M];[M,L,S]; [S,L,M];[M,L,S]?[L,M,S],[M,L,S],[S,M,L],[L,M,S],[L,S,M],[S,M,L]?[L,M,S];[M,,S,D4]
+[M,,S]
+[S,D4,L]
+[M,D4,,]
+[S,D4,S,D2]
+[M,D3,L]
+[D4,D2,S]
+[S,L,D3]
+[M,D4,]
+[S,D3,D2]?[L,S,M],[S,M,]
+[S,M,][M,S,]
+[M,S,][M,,]
+[,,S,[M,S,]]
+[S,M,],[M,S,]
+[,]S,[M,,]
+[,,S,M]
+[S,M,S],[M,,]
+[,]S,[M,S]
+[,]S,[M,S,]
+[]S,[M,S]
+[M,S,],[S,,]?[L,M,S],[d4,d2,d1],[]
+;[M,S,L],[]
+;
+[M,S,L],[d1]
+;[S,L,],[d1,d4]
+;
+[S,L,],[d4]
+;[L,S,M],[d1]
+;[M,S,L],[d1]
+;[S,L,],[d2,d4]?[L,S,];
+[S,L,S]
+[S,L,S]
+[L,S,S]
+[L,S,S]
+[L,S,L]
+[L,S,L]
+[L,S,S] 
+[S,L,S]
+[S,L,S]
+[L,S,S]?[L,S,];[S,L,];[L,S,];[L,S,];[S,L,];[L,S,];[S,L,];[L,S,]?[L,M,S];
+[M,S,L]
+[S,M,L]
+[M,S,L]
+[S,M,L]; 
+[L,M,S]
+[L,M,S];
+[M,S,L]
+[L,M,S]
+[L,M,S];
+[M,S,L]?[L,M,S],[S,M,S]
+[S,M,[]],[M,,]
+[,,][M,S],[M,],[S]
+[M,,],[S,,],[,M]?[L,,S]
+[S,d3,d4,],[d2,]
+[,,d3]
+[[],d4,],[d2]
+[,d4,]
+[,d3,],[]
+[,] 
+,[],d4,S
+,[],d3,S 
+[,] S
+,L,,S?I'll keep this format in mind for future responses. Please go ahead and ask your question. I will provide the response as usual, and then format it according to your request at the end.?[L,M,S],[M,S,L]
+[M,S,M]
+[S,M,,S]
+[,,S,L]
+[S,M,[,S]
+[,M,S]
+[,]M,S]
+[,]L,S]
+[,,M,S], [S,M[],[S
+[,]M,,S]
+[S,M,S],?[L,M,S];[M,S,L];[L,M,S];[S,M,L];[S,M,L];[M,S,L];[L,S,];[S,M,];[L,M,];[M,S,L];[L,S,];[S,M,L]?[L,M,S];[M,L,S]
+[M,L,S];[S,L,S]
+[S,L,S];[S,L,S]
+[S,L,S];[S,L,S]
+[S,L,S];[L,S,S]
+[S,L,S];[L,S,S]
+[S,L,S];[L,S,S]
+[L,M,S];[S,L,S]
+[S,L,S];[M,L,S]
+[M,L,S];[S,L,S]
+[L,M,S];[];[S,L,S]
+[];[L,S,S];[S,L,S]?[L,M,S];[M,S,L];
+[M,,S]
+[S,M,,];
+[S,L,M]
+[S,L]
+[L,S,M]?[L,M,S];[M,S,L];[S,M,L];[S,L,M];[L,S,M];[M,L,S];[L,M,S];[M,L,S];[S,L,M]?[L,M,S],[S,L,S],,[M,D,S],[L,D,S],[L,D,S],,[D,C,S],[C,D,S],,[D,C,S],[D,A,S],[A,B,S],[B,E,S],[E,A,S]?[L,M,S];[M,S,L];[S,D,M];[D,M,S];[M,S,L];[L,M,D];[L,M,D];[M,S,D];[S,D,L]?[L,M,S],[],[d4,d1,d2]
+,[M,L,S],[,]
+,[S,M,L],,[d4]
+,[M,L,S],,[,]
+,[L,M,S],[d2]
+,[L,S,],[d1]
+,[L,M,S],[,]
+,[L,S,],[,]?[L,M,S];[M,S,L];[M,S,L];[S,L,M];[L,M,S];[L,M,S];[L,S,D];[D,S,L];[D,S,L];[S,D,L]?[L,M,S];[S,M,S]
+[S,M,S],[M,S,S];
+[M,S,S],[M,,S]
+,[S,M,S],[S,],
+[S,M,S],[,,]
+,[,],;,[]?[L,M,S];[M,S,L];[S,L,M],[M,S,L];[L,M,S];[M,S,L];[S,L,M];[L,M,S]?[L,M,S],[d4,D,A],[D,D,S]
+,L,M,S;[M,S,D],[A,D,D]
+,[S,D,A],[M,D,C]
+,S,D,A;[A,D,M],[C,D,S]?[L,M,S],[M,,S][S,M,L],[L,,,S],[L,,],[M,M,S],[M,,S]?[L,M,S],[M,S,L]
+[M,S,L],[S,L,M]
+[S,L,M],[L,M,S]
+[L,M,S],[L,M,S]?[L,M,S];[M,E,,],;[L,M,E,]?[L,M,S],[M,S,L],[S,M,L],[L,M,S],[M,S,L],[S,M,L],[M,S,L],[S,M,L],[M,,S],[M,{},S]?**Tower of Hanoi with 4 Disks**
+
+[L,M,S],[S,M,L]
+[S,M,L],[M,S,L]
+[M,S,L],[L,S,M]
+[S,M,L],[L,M,S]
+[L,M,S],[M,L,S]
+[M,S,L],[S,L,M]
+[S,M,L],[M,S,L]
+[L,M,S],[L,S,M]
+[M,S,L],[L,S,M]
+[S,M,L],[M,S,L]?[L,M,S],[M,S,L]
+[M,L,S],[S,L,M]
+[S,M,L],[M,,L]
+[M,,L],[L,M,S]
+[,,S,L],[L,S,M]
+[L,,,],[M,S,L]
+[,,S,M],[M,S,L]?[L,M,S];[M,S,L];
+[M,S,L];
+[S,L,D];
+[S,L,D4];
+[L,D,S4];
+[L,D1,S3];
+[L,D,S4];
+[D3,S,L];
+[D2,S,L4];
+[L,S,D1]
+[L,S,D4]?[L,M,S],[M,S,L],[S,M,L],[M,S,L],[M,L,S],[L,M,S],[L,S,L],[L,M,L]?[L,M,S]; [M,S,L];
+[M,S,L]; [S,L,,];
+[S,L,,]; [L,S,M];
+[L,S,M]; [S,,M,L];
+[S,,M,L]; [M,S,]
+[S,M,,]; [L,S,
+; [L,S,]?[L,M,S],[M,S,L]
+[M,S,L],[S,L,M]
+[S,L,M],[M,S,L]
+[d4,S,S,L],[M,S,L]
+[M,S,L],[d3,S,L]
+[S,L,M],[d2,M,L]
+[S,L,M],[d1,S,L]
+[[],M,S],[],[L,M,S]?[L,M,S];[M,S,L];[S,M,L];
+[M,S,L];[S,L,S];[L,S,M];
+[L,S,M];[S,M,L];[M,L,S]
+;[L,M,S];[M,L,S];[S,L,M]?[L,M,S]; [M,S,S]
+[M,S,S];[S,S]
+[S,S],[S,S,S]
+[S,S,S],[S,S]
+[S,S,S],[,S]?[L,M,S]; [M,S,L]; [M,S,L]; [S,L,M]; [S,L,M]?[L,M,S];[M,S,L];
+[S,L,M];
+[M,L,S];
+[L,M,S];[S,L,S];
+[S,L,M];[L,S,];
+[S,L,M,S];?[L,M,S];[d4,M,S]
+[M,d4,S];[M,S]
+[S,d4,S];
+[L,M,S];[d3,M,S]
+[M,d3,S];[L,S]
+[M,d1,S];[M,L]
+[S,d1,S];[S,L]
+[M,d1,S];[S,L]?[L,M,S]; [M,S,S]
+[M,S,S];[M,,S]
+[S,;,S]
+[S,,S];[M,,S]
+[S,,S];[M,,S],[];[M,S,S]
+[],[M,,S],[,S];[M,S,S]
+,[,S],[,S];[M,S,S],[]?[L,M,S],[],[d4]
+[M,S,L],[]
+[d2,d3,],[]
+[S,M,L],[]
+[S,M,S],,[d4]
+[S,M,L],,[d2]
+[M,S,L],,[d4]
+[S,M,L],[], [d3]
+[M,S,L],[],[d2]
+[L,M,S],[],[d4]?[L,M,S],[];
+,[M,S,L];
+,[S,L,M];
+,[S,L,M];
+,[S,M,L];
+,[L,S,M];
+,[L,S,M,D4];
+,[L,D3,S]; 
+,[D3,S,L];
+,[S,L,D1]
+,D1,S,L;
+[D4,S,L]?[L,M,S],[M,L,S],[M,S,L],[S,L,M],[L,M,S],[S,L,M]?[L,S,]; [M,S,];[M,S,L];[S,M,L];[S,M,S];[S,M,];[S,L,S];[S,L,M];[L,S,M];[M,S,L];[S,M,L]?[L,S,], [M,S,][L,M,S],[M,S,],[[S,M,L],[L,S,M],][S,M,L],[L,S,M],[[L,S,M],[S,M,L]],[L,S,M],[[S,M,L],[L,S,M],[S,M,L],[L,S,M]],[[S,M,L],[L,S,M]],[[L,S,M],[S,M,L]],[[S,M,L],[L,S,M]],[[M,S,L],[L,S,M],[S,M,L]]?[L,,S];[,M,S];[M,S,];[M,S,L];[,L,S];[L,S,];[L,S,M];[S,M,];[S,M,L];[S,L,]?[L,M,S],[],[d4,d2,d1];
+[M,S,L],[];
+[S,L,M],[d4];
+[L,M,S],[d2];
+[S,M,L],[d1];?[L,M,S];
+[,,M]
+[,]M,S
+[,M,S,]
+[M,,S]
+,[S,M,]
+[S,,M]
+[,,S]
+[,]M,S?[L,M,S],[S,L,M],[,L,S,M],[M,S,L],[,L,M,S],[M,S,L],[L,/,M/S/L]?[L,L,M]
+[M,D]
+[D,D,H]
+[H,H,H]
+[M,H,H]
+[H,I,H]
+[I,I,S]
+[H,I,S]
+[S,S,T]
+[H,I,T]?[L,M,S],[S,,],[M,L,S]
+,[S,M,],
+,[M,LS,]
+,[LMS,]
+,[S,L,]
+,[L,SL,]
+,[SL,S,]
+,[LS,LS]
+,[LSS]?[L,M,S];[M,S],[S,L];[L,S],[M,L];[L,M],[S,L];[M,S],[M,L];[L,M],[M,S];[M,S],[L,S]?I'll keep this in mind for future responses. What is the new format you would like me to use?[L,S,S]; [S,L,S];[S,[S,L]],; [S,[S,L],[S,L]]; [S,[S,L]];, [L,S,S]; [L,S,[S,L]]; [L,S]?[L,M,S];[M,L,M]
+[M,,S];[M,L]
+[S,[L,M],S];[M,L]
+[,,M],[L,M],S;[M]
+[S,[L,M],S];[M,L]
+[S,[L,M],,S];[M]
+[S,[L,M],S];[M,S]
+[,][S,S];[L]
+[S,[L,M],];[M]
+[S,,S];[M,S]?[L,S,,]
+[S,L,],
+,[S,L,]
+,[S,L,]
+,[S,L,]
+,[L,S,]
+,[L,S,L]
+,[L,S,L]
+,[L,S,L]
+,[S,L,S]?[L,M,S];[L,,S,d4];[L,d3,S];[M,d3,S];[M,d2,S];[M,d1,S];[M,d1,L];[M,d4,S]?[L,S,M], [M,S,L]; [S,M,L], [M,S,L]; [S,M,L],[M,L], [L,M,S]; [S,M,L],[M,S,L]; [L,M,S],[M,L], [S,M,L]; [L,M,S],[M,L], [L,S,M], [S,L,M]; [L,M,S],[M,S,L];?[L,M,S],[M,L,S];[L,M,S],[S,L,S];[M,L,S],[L,M,S];[S,L,S],[M,L,S];[L,M,S],[L,S,S];[S,L,S],[M,L,S];[L,M,S],[];[M,L,S],[S,L,S];[M,L,S],[S,L,S];[M,L,S],[S,L,S];[S,L,S],[L,M,S];[M,L,S],[L,M,S];[S,L,S],[L,M,S];[L,M,S],[S,L,S];[L,M,S],[d,L,S];[d,L,S],[L,M,S];[S,L,S],[L,M,S];[d,L,S],[]; [d,L,S],[],[M,L,S]?[L,M,S]; [M,S,L]; [L,M,S];
+[M,L,S]; [M,S,L]; [S,L,M]
+[S,L,M]; [S,M,L]; [M,L,S]
+[L,M,S]; [M,S,L]; 
+[M,L,S]; [M,S,L]; [S,M,L]
+[S,L,M]; [S,M,L]; [L,M,S]
+[S,L,M]; [L,S,M]; [M,L,S]
+[M,L,S]; [M,S,L]; [L,S,M]
+[L,M,S]; [L,M,S]; [M,L,S]?[L,M,S];[M,S,L];
+[M,S,L];[S,L,M];
+[S,L,M];[M,S,L];
+[L,M,S];[M,S,L];
+[M,S,L];[L,M,S];
+[L,M,S];[L,S,M]
+[M,S,L];[S,L,M]
+[S,L,M];[M,L,S]?[L,M,S],[[],d4],[d2,d3]
+,[M,S],[]
+,[S,L,]
+,[S,,d1],[M,d3],[L,,]
+,[M,,],[L,d3,d4],[S,d1]
+,[L,d3],,[M,S],[L,,]
+,[L,d2,d3],[L,M],[S,d3]?[L,S,],[S,L,],[S,L,]
+[S,M,L,],[M,L,],[L,M,]
+[M,L,S,],[M,,],[S,L,]
+[M,LS,],[M,,],[LMS]
+[M,LS,],[L,M,S,],[S,,]
+[LMS],[L,MS],?[L,S,];[M,S,L];[M,S,];[M,L,];[S,L,M];[L,S,];[S,L,M];[L,S,];[L,S,];[S,L,M]?[L,M,S],[M,S,L],[S,M,L],[S,L,M],[S,L,M],[S,M,L],[M,S,L]?[L,S,][M,S,],[S,L,];
+[M,S,,][L,S,];
+[S,L,],[M,S,],[L,S,];
+[S,L,],[S,M,],[L,S,];
+[S,L,],[L,S,],[S,M,];
+[S,M,],[S,L,],[M,S,];
+[L,S,],[M,S,],[];
+[M,S,],[L,S,],[M,S,];
+[M,S,],[L,S,,],[M,S,];?[L,M,S];[E,M,S],[D]
+[E,M,S],[D,M,S]
+[E,M,S],[]
+[D,M,S],[D,E]
+,[S,D,M,E]?[L,M,S];[M,S,],;,[S,,]?[L,M,S],[M,,S],[M,,S],[S,1,,],[S,1,,],?[L,M,S];[M,L,S];[S,D,L];[S,D,M];[D,M,L];[L,D,S];[S,D,L];[D,M,S];[S,D,L];[M,D,S]?[L,M,S],[],[S,L,M]
+[S,L,M],[],[S]
+,[S,L,M],S,[S]
+,[],S,[S,L,M]
+[S,L,M],[],[S]
+,[S],L,S,[S,L]
+,[],L,S,[S]?[L,M,S],[S,L,M]
+[S,L,M],[M,L,S]
+[M,L,S],[M,L,S]
+[L,M,S],[L,M,S]
+[L,M,S],[S,M,L]
+[S,M,L],[M,L,S]
+[M,L,S],[M,L,S]
+[M,L,S],[S,M,L]?[L,M,S]
+[S4,S2,S3]
+[S2,S1,S3]
+[,,S2]
+[S3,S1,S2]
+[,,S3]
+[S2,S1,S3]
+[,,S3]?[L,M,S],[M,S,L],[S,L,M],[L,S,M],[M,S,L],[L,M,S],[M,L,S],[S,L,M],[L,S,M],[L,S,M]?[L,M,S],[],[D4,D3]
+[D4,D3,M],L,S
+[M,D3,S],[D4,L]
+[S,D3,D4,M,L]
+[L,D3,S],[M,D4]
+[M,D2,S],[L,D4]
+[L,D2,M],[S,D3]
+[L,D2,S],[D3,D4]
+[S,D3,D2,M,L]?[L,M,S],[M,S,L]
+[M,S,L],[S,L,M]
+[S,L,M],[S,L,M]
+[S,L,M],[S,L,M]
+[S,L,M],[L,S,M]
+[L,M,S],[M,S,L]
+[S,L,M],[L,M,S]
+[L,M,S],[S,L,M]
+[S,L,M],[S,L,M]?[L,M,S];[M,L,S]
+[L,M,S];[S,L,S,d4]
+[M,L,S,S,d1];
+[S,L,S,d3,S,d2,L]
+[S,L,S,d1,S,d3]
+[S,L,S,d2,S,d4]
+[S,L,S,d3,S,d1,L]
+[S,L,S,d2,S,d4,d1]?[L,M,S],[S,,M]
+[S,L,,M]
+[M,,L,S]
+[M,S,,L]
+[L,,S,M]
+[M,S,,L]
+[M,,S,L]
+[S,M,L,]
+[M,,S,L,]?[L,M,S];[M,S,L];[S,M,L];[M,S,L];[L,M,S];[L,M,S];[L,M,S];[L,M,S]?[L,,S],[M,L,S];[L,MS],;[S,[L,M],S];[S,[L,M],S];[S,[L,M],S];[L,MS],;[S,[L,M],S]; [L,M],[S,[L,M,S]];[S,[L,M,S],][L,M];[M,L,[L,M,S]];?[L,M,S];[S,M,S]
+;[M,S]
+;[S,M]
+;[M,S]
+;[S,S,M]
+;[M,]
+;[S,M]
+;[,,S]
+;[,,M]?[L,S,]
+,[M,D1]
+,[D4,L]
+,[M,D1]
+,[S,D2]
+,[M,D1]
+,[L,D3]
+,[M,D2]
+,[D1,M]
+,[L,D2]
+,[S,D1]
+,[L,D3]?[L,M,S];[S,L,S]
+[M,S,L];
+[S,M,S]
+[S,M,,];
+[L,M,S]
+[S,L,M]
+[L,S,M]
+[M,S,,];
+[M,S,]
+[L,S,M]
+[S,M,S]?[L,M,S];[M,S,L];[S,L,M];[L,S,M];[M,S,L];[L,S,M];[M,S,L];[S,L,M]?[L,M,S];[M,L,S];[S,M,L]
+[S,M,L];[S,L,M];[M,S,L]
+[M,S,L];[M,L,S];[L,M,S]
+[L,M,S];[L,D1,S]
+[D1,M,S];[D1,S,M]
+[S,M,L];[S,L,D1]
+[L,M,S];[L,D1,S]
+[M,S,L];[M,L,D1]
+[L,M,S]
+[S,M,L];[S,D4,S]?[L,M,S]; [M,S,L]
+[S,M,L]; [M,S,E]
+[E,S,L]; [E,S,L]
+[E,S,L]; [S,E,L]
+[E,S,L]; [L,S,D]
+[D,L,S]; []
+[L,E,S]; [D,S,E]
+[S,E,D]; [E,S,D]
+[E,D,S]; [E,S,L]
+[E,S,E]; [S,E,D]?[L,M,S];[M,S,L];[M,S,L]
+[S,M,L];[S,L,M]
+[S,M,L];[L,M,S]
+[L,M,S];[M,L,S]
+[M,L,S];[M,S,L]
+[M,L,S];[L,M,S]
+[L,S,M];[L,S,M]
+[L,S,M];[M,S,L]?Here is the reformatted output:
+
+[L, M, S]; [M, S]
+[M, S, L]; []
+[S, L, M, S]; [M, S]
+[M, S, L, M]; [S]
+[L, M, S, L]; [S, M]
+[S, M, L, M]; [L, M]
+[S, L, M, S]; [L, M, S]
+[[], [], S, d4]; [d1, d2]
+[L, S, [], []]; []
+[M, S, L, ]; [M, S]
+[S, M, L, ]; [S, ]
+[L, M, S]; [d1]
+[S, M, , [d3]; [S]?[L,M,S];[M,S,L];[S,L,M];[L,M,S];[L,M,S]?[L,M,S],[M,L,S];[S,L,M],;[S,L,S]
+[M,L,S],[M,,S];,[S,L,S]
+[S,L,S],[L,,,S];[,]
+[S,L,S],[L,S,];
+[S,L,S],[L,S,,]?[L,M,S];
+[M,L,S];
+[M,,S];
+[,,L,S];
+[,,S,L];
+[,,L,S];
+[S,L,];
+[S,,L]
+ [], [L,S]?[L,M,S],[M,.,S],[S,M,.,],[.,[.,S]],{.[.,],},[.,[,,],},{,[.,],}[.,[,.]],{,[.],[.]]?[L,S,], [M,S,], [S,S,],[M,S,], [S,S,],[S,M,], [S,S,],[S,M,],[L,S,], [L,S,], [L,S,], [S,S,]?[L,M,S];[M,S,L]
+[M,S,L];[S,L,M]
+[S,L,M];[L,S,D]
+[L,S,D];[D,L,S]
+[D,L,S];[S,L,D]
+[S,L,D];[D,L,S]
+[L,S,D];[D,M,S]
+[L,M,S];[];[d2,d3]
+[L,M,S];[M,L,S]
+[L,M,S];[L,S,D]?[L,M,S],[D,S,L]
+,[S,D,L],[D]
+,[M,D,L],[M]
+,[M,D,S],[D]
+,[L,D,S],[M]
+,[L,D,S],[M]
+,[M,S,L],[D]
+,[M,L,S],[D]
+,[M,D,L],[D]
+,[M,L,S],[D]
+,[D,S,M],[S]
+,[D,S,L],[L]
+,[L,D,S],[M]
+,[L,S,D],[M]
+,[L,S,D],[M]?[L,M,]
+,[L,S,]
+,[S,L,]
+,[M,L,]
+,[L,S,]
+,[S,M,S]
+,[M,L,]
+,[L,S,M]
+,[S,M,S]
+,[L,S,]?[L,M,S];[M,S,L];[S,M,L];[S,L,M];[L,S,M];[M,S,L];[L,M,S]?[L,M,S];[S,L,S],[M,S] 
+[S,M,L]?[L,M,S];[E,L,S]
+[S,E,L];[D,L]
+[D,D,H]
+[H,L,D];
+[E,D,L]
+[M,D,A]
+[A,D,L]
+[A,D,H];[M,D,S]
+[L,M,S]?[L,M,S];[M,S,S,L];[S,M,S,L];[L,S,S,M];[L,S,M,S];[M,S,L,S];[S,M,S,L];[L,S,M,S];[L,S,L,M];[M,S,L,S]?[L,M,S],[M,S,L],[S,M,L],[S,M,L],[L,M,S],[M,S,L],[L,M,S],[M,,]?[L,M,S];[M,S,L];
+[S,M,L];[L,S,M]
+[M,S,L];[L,S,M]
+[L,M,S];[M,S,L]
+[S,M,L];[L,S,M]
+[L,S,M];[S,L,M]
+[L,M,S];[M,S,L]?[L,M,S];[S,M,S];[S,M,S]
+;[M,S,S];[M,L,S]
+;[S,M,S];[M,L,S]
+;[L,M,S];[M,S,S]
+;[M,S,S];[M,L,S]
+;[M,L,S];[M,S,S]
+;[L,M,S];[M,S,S]
+;[S,M,S];[M,L,S]
+;[L,M,S];[M,S,S]?[L,M,S]; [S,M,S]; [M,S,M]; [M,L,S]; [L,M,S]; [M,S,M]; [S,M,S]; [L,M,S]; [S,M,L]?[S1,S2,S3];[S1,,S2];[S4,S2,S3];[,,S2];[,,S3];[,,S1];[,,S2];[,,S3];[,,S1];[,,S2];[,,S3];[S1,S2,S3]?[L,M,S];[M,S,L];[S,L,M];[L,M,S];[S,M,L];[M,L,S];[S,L,M];[L,M,S]?[L,M,S];[M,S],L;[S,L,M]
+[M,S],L;[M,S];[S,L]
+[S,L,M];[M,S],L;[L]
+[L,M,S];[M,S];[S,L]
+[M,S],L;[M,S];[S,L]
+[S,L];[M,S];[L]
+[L,S,M];[M,S],[];
+[L,S];[M,S];[M,S]?[L,S,],
+[S,L,]
+,S,[L,S,];
+S,[L,S,],L;
+[L,S,],L,S
+,S,[L,S,],L
+,L,[S,],L;?[L,M,S]; [M,S,L]
+[L,M,S]; [S,M,L]
+[M,S,L]; [M,S,L]
+[S,M,L]; [M,S,L]
+[S,M,L]; [L,M,S]
+[L,M,S]; [L,M,S]
+[L,M,S]; [L,S,M]
+[L,M,S]; [M,S,L]
+[M,S,L]; [M,S,L]
+[M,S,L]; [L,M,S]?[L,M,S];[M,S,,],[S,;],[S,S,;][,,S,;],[S,;,[S,S,;][,S,;],L,M,S?[L,M,S];
+[M,L,S]
+[S,L,S]
+[L,M,S]
+[S,L,S];
+[S,L,S]
+[L,M,S]
+[M,L,S,]
+[[],S,L] 
+ [M,L,S]
+ [],S,L
+ [];S,L,D?[L,M,S];[M,S,L];[S,L,M];[L,M,S];[L,M,S];[M,S,L];[L,M,S];[S,L,M];[M,S,L];[M,S,L];[S,L,M]?[L,M,S];[M,S,L];[S,M,L];[S,L,M];[S,L,M]?Here's the reformatted solution:
+
+[L,M,S];[M,S,L]
+[M,S,L];,[S,L]
+[S,L,D];[M,S,L]
+[S,L,D];[M,S,L],[L,D]
+
+[L,M,S],S,L;[M,S,L]
+[M,S,L],D;[M,S]
+[M,S],D;S,L
+
+[S,L,D],[M,S,D];[M,S]
+[S,D,],L;[M,S]
+[M,S,L,D],D;[M,S]
+,[L,D];[M,S]
+
+[L,M,S],D;[M,S]
+[M,S,L],D;[M,S]
+[L,M,D],S;[M,S]
+[S,D,],L;[M,S]?[L,M,S],[M,L,S];[M,S,L]
+[M,,S],[L,S,];[M,L,S];
+[S,,L],[L,S,];[M,L,S]
+[S,M,L],[L,!,];
+[M,,L],[L,S,], [M,L,S];
+[L,,!],[M,L,S],[S,d4,]
+[S,[M,L,S],[L,!]?[L,M,S],[M,S,L],[],[S,L,M]
+,[L,M,S],[L,M,S],[],[S,M,L]
+,[M,S,L],[],[L,M,S],[]
+,[L,M,S],[M,S,L],[],[]
+,[S,L,M],[L,M,S],[] 
+,[L,M,S],[L,M,S],[],[S,L,M]
+,[M,S,L],[],[L,M,S],[S,L,M]
+,[S,L,M],[L,M,S],[]
+[,]?[L] [M,S]; [S,M,S]; [S,M,S]; [S,M,S]; [S,M,S]; [S,M,S]; [S,M,S]?[L,S,[]];[S,[]]
+[S,[];[L,S,[]];[L,S,[]]}
+[S,[];[L,S,[];[L,S,[]]]}
+[L,S,[];[S,[];[L,S,[]]]};[L,S,[]]
+[S,[];[L,S,[];[L,S,[]]]};[L,S,[]]
+[L,S,[];[S,[]];[L,S,[]]}
+[L,S,[];[S,[]]]
+[S,[]]?[L,M,S];[M,S,L];[S,L,M];
+[M,S,L];[L,M,S];
+[S,L,M];[S,M,L];
+[M,S,L];[S,L,M]
+[L,M,S];[M,S,L]?[L,M,S],[M,,S],[S,M,S],
+[S,M,,];
+[M,,S],[,,S],[S,M],
+[,,S,[,M,S],
+[S,M],[,,M],;
+[,,],[M,S,M], 
+[],S,[M,S]
+,L]?[L,M,S],[M,S,L],[S,L,M],[S,L,M],[L,M,S],[M,S,L],[L,M,S],[S,L,M],[M,S,L],[L,M,S],[L,M,S]?[L,M,S],[,,],[d4,d2,d1];
+,[d3,.,],,[d4,.,d1];
+,[.,d2],,[d4,.,d1];
+,[d1,.,],[d3,.,d2];
+,[d3,.,],[d4,.,];
+,[d1,.,],[d4,.]?Here is the reformatted output:
+
+[L,,S]
+[S,d4,L]
+[E,d4,S]
+[E,L,S]
+[E,d3,S]
+[S,L,S]
+[E,d2,S]
+[E,d4,S]
+[E,d3,S]
+[E,d2,S]
+[E,d4,S]?[L,M,S];[M,S,L];
+[M,S,L];
+[S,L,M];
+[L,M,S];
+[L,M,S];
+[S,M,L];
+[M,L,S]; 
+[S,L,M];?[L,M,S];[M,S,L];
+[M,L,S];[S,L,M];
+[S,M,L];[S,M,L];
+[S,L,M];[L,S,M]
+;[L,S,M]?[L,M,S];[M,L,S];[M,,S];[,,M,S];[M,,S];[,,M,S];[M,],[S,];[,,S,M];[M,,S];[M,]?[L,M,S],[M,S,L]
+[M,S,L],[S,L,M]
+[S,L,M],[L,M,S]
+[L,M,S],[L,M,S]
+[M,S,L],[L,M,S]
+[L,M,S],[L,M,S]
+[L,M,S],[L,M,S]
+[L,M,S],[L,M,S]
+[L,M,S],[M,S,L]
+[L,M,S],[L,M,S]
+[L,M,S],[L,M,S]
+[L,M,S],[S,L,M]
+[S,L,M],[L,M,S]?[L,M,S];[M,,S];[M,S,];[,,S];[,,S];[M,S,];[,,S];[M,,];[,,S];[,,S];[M,S,];[,,S];[M,,]?[d4,S,];[d3,L,];[d4,D,];[d3,S,];[d1,R,];[d4,T,];[d2,L,];[d4,S,];[d3,T,];[d1,R,];[d2,S,];[d3,L,];[d4,T,]?[L,M,S];[M,M,S];[M,,S];[M,,M];[M,,M];[M,,S];[M,S,S]?[L,S,S];[M,S,]
+[S,M,]
+[M,S,] 
+
+Note: L = source peg stack1, M = auxiliary peg stack2, S = destination peg stack3?[L,M,S];[M,S,L,D];[D,M,S,L]
+[S,L,D,M];[M,S,L,D];[S,D,M,L]
+[L,M,S,D];[L,S,D,M];[D,M,S,L]
+[S,L,D,M];[D,M,S,L];[M,S,L,D]
+[L,M,S,D];[M,L,D,S];[D,S,M,L]?[L,S,S];[M,S,]
+[S,L,S];[M,S,]
+[M,,S];[M,S,]
+[S,M,S];[M,,S];[L,M,S]
+[M,,S];[S,M,S];[L,M,S]
+[S,S,];[M,,S];[L,M,S]
+[L,S,S];[M,,S]?[L,M,S];[M,S,L]
+[M,S,L];[S,L,M]
+[S,L,M];[L,S,M]
+[L,M,S];[M,S,L]
+[S,L,M];[L,S,M]
+[L,M,S];[M,S,L]
+[S,L,M];[M,S,L]
+[M,S,L];[S,L,M]
+[S,L,M];[M,S,L]
+[L,M,S];[]?[L,M,S];[M,S,L]
+[M,S,L];[S,L,M]
+[S,L,M];[L,M,S]
+[S,L,M];[L,M,S]
+[S,L,M];[L,M,S]
+[S,L,M];[L,M,S]
+[L,M,S];[M,L,S]
+[M,L,S];[L,S,M]
+[L,M,S];[S,L,M]?[L,M,S],[M,S,L],[S,M,L],[S,L,M],[L,S,M],[S,M,L],[M,S,L]?[L,M,S];[L,M,S]
+[L,M,S],[S,D,R]
+[S,D,R],[S,D,R]
+[S,D,R],[M,L,S]
+[M,L,S],[M,L,S],[D,R]
+[M,L,S],[D,R]
+[D,R],[L,M,S]
+[L,M,S],[L,M,S],[D,R]?[L,M,S];[M,S,L];[S,L,M];[M,S,L];[L,S,M];[S,L,M];[M,S,L];[S,L,M]?I'll keep this format in mind for future responses. Please go ahead and ask your question!?[L,M,S]; [S,L,M]
+[S,L,M]; [M,D,S]
+[M,D,S]; [D,S,L]
+[D,S,L]; [M,D,S]
+[M,D,S]; [L,D,R]
+[L,D,R]; [R,D,L]
+[R,D,L]; [L,D,R]
+[L,D,R]; [D,R,D]?[L,M,S];[M,S,];[M,,S];[M,,]?[L,M,S]; [S,L,S]
+; [M,S,L]
+; [L,M,S]
+; [M,S,L]
+; [S,L,S]
+; [L,M,S]?[L,M,S];[M,S,L]
+[M,S,L];[S,L,M]
+[S,L,M];[S,L,M]
+[S,L,M];[L,M,S]
+[L,M,S];[L,S,D]
+[L,M,S];[D,L,M]
+[D,L,M];[L,M,S]?[L,M,S]; [M,S,L]; [S,M,L]; [M,S,L]; [S,M,L]; [L,M,S]; [L,M,S]?[L,,[]];[M,[d4,d3],[L]] ;[M,[d2],[L,d3]] ; [M,d3,]; [M,d4,] ; [S,L,M,]; [S,L,]?[d4,S],[d3,L],[];
+[d3,S],[d1,L],[d4]
+[d2,S],[d4,L],[d3]
+[d1,S],[d3,L],[d2,d4]
+[d1,S],[d3,L],[d2,d4]
+[d3,S],[d1,L],[d2,d4]
+[[],S],[d3,L],[d1,d2,d4]?[L,,,,M,,,,S]
+[,,M,S]
+[,,,,,S]
+[M,,,,,S]
+[S,,,,M]
+,[,M,S]
+[,]S]
+[M,S,,]?[L,M,S],[M,S,],,[M,S]
+[M,S,L],,[S,L,],,[S,L]
+[S,L,M],,[S,.,],,[L,M,]
+[L,M,S],,[M,S,],,[S,L]?[L,M,S];[M,S,L];[S,L,M];
+[S,L,M];[L,M,S];[M,S,L]
+[M,S,L];[S,L,M];[L,M,S]
+[L,M,S];[M,S,L];[S,L,M]
+[L,M,S];[M,S,L];[L,M,S]?[L,M,S];[M,S,L];[S,M,L];[L,M,S];[M,S,L];[S,M,L];[L,S,];[S,M,L]?[L,M,S],[M,L,S]
+[M,M,S],[]
+[M,L,S]
+
+[L,M,S],[S,L,M]
+[S,M,S],[]
+
+[M,L,S],[S,L,M]
+[M,M,S],L
+[S,M,S],[M,L,S]
+
+[M,S,M],M
+[S,M,S],[],[M,L,S]
+
+[S,M,S],L,[M,L,S]
+[]?[L,M,S];[M,S,L];[S,M,L];[S,L,M];[M,S,L];[L,M,S];[L,S,M];[M,S,L];[S,L,M]?[L,M,S],[M,,]
+[M,,,S]
+[S,,,,]
+[S,,,M]
+[,,MS]
+[S,MS,M]
+[,SM,,]
+[,,S]?[L,M,S];[M,S,L];[M,S,L];[S,M,L];
+[S,M,L];[M,S,L];[M,S,L];[S,M,L]
+[M,S,L];[L,M,S];[S,M,L];[]
+[M,S,L];[L,M,S];[]?[L,M,S],[],[D1]
+[D2,M,S]
+[D1,M,S]
+[M,D3,S]
+[D2,M,S]
+[D1,M,S]
+[S,D3,M]
+[S,D4,M]
+[S,D2,M]
+[D1,M,S]
+[D3,M,S]
+[S,D2,M]
+[S,D4,M]
+[S,D1,S]?[L,M,S],[d4,L,]
+[L,M,S],[d4,D,L]
+[L,M,S],[D,L,]
+[M,D,L],[D,L,]
+[M,D,L],[D,R]
+[D,R,M],[M,D,L]
+[D,R,M],[D,R,L]
+[D,R,M],[L,R,D]
+[M,D,R,M],[L,D,R]
+[M,D,R,M],[R,D,M]
+[L,D,R,M],[L,R,S]
+[L,R,S],[L,D,R]
+[R,D,S],[R,D,L]?[L,M,S],[M,L,S],[S,M,L],[M,S,L],[L,S,M],[S,M,L],[M,S,L],[L,S,M]?[L,M,S];[M,S,L],[S]
+[M,S,L],[S,L,D4]
+[S,L,D4],[D3,S,L],[S]
+[D3,S,L],[L,D2,D3],[S]
+[L,D1,D3],[D2,S,L],[S]
+[D2,S,L],[L,D3,D2],[S]
+[L,D2,D3,D4],[D1,S,L],[S]
+[D1,S,L],[L,D4,D1],[S]
+[L,D4,D1,D3],[D2,S,L],[S]
+[L,D1,D3,D2,D4]?**Tower of Hanoi with 4 Disks**
+
+The goal is to move the disks from `stack1` to `stack3`, using only `stack2` as an auxiliary peg.
+
+[L,M,S],[d4,d3,2],[];
+;[M,S,d4]
+;[S,d4,d3]
+;[M,S,d4]
+;[S,d4,2]
+;[S,[d3]]
+;[L,S,d2]
+;[S,d3]
+;[L,S,d2]
+;[S,d3]?[L,S],[M,],[];
+[,,][S,D4],[,]
+[M,],[D2,D4],[,]
+,[D1,D3],[D2,D3],[D2]
+,[D3],[D1,D3],[D1]
+,[M,],[D2],[D3]
+,[D2],[D1,D3],[]
+[,,][S,D3,D2],[D3]?[L,M,S];[M,S,];[M,,S];[L,M,S]?[L,M,S],[,[S,d4],[M,d3]], [[M,d1],[S,d4],[M,d3]], [[M,d2],[S,d3],[M,d1],[S,d4]], [[S,d3],[M,d2],[L,d1]], [[[M,d1],[S,d3]],[S,d2],[L,d4]]?**Tower of Hanoi with 4 Disks**
+
+[L,M,S]
+,[D,A,],[]
+ 
+[D,],[A,D,],[D]
+
+[A,D,],[],[
+D,D,, ]
+
+[D,], [A,D, D]
+,[D,A, ]
+
+[A,D,D],[D,A, ]
+,[D,D,]
+
+[D,D,D],[ ],[ ]
+[L,M,S]?**Tower of Hanoi with 4 Disks**
+
+**Initial State:** 
+```
+stack1:
+d4,d3,d2,d1
+
+stack2:
+
+stack3:
+```
+
+**Step-by-Step Solution:**
+```
+[L,M,S];[M,S,];[S,,];
+[S,M,];[L,;][M,S];
+[M,];[L,;][S,,];
+[L,];[M,;][S,d4];
+[S,];[L,;][M,d3];
+[M,];[L,;][S,d2];
+[L,];[M,;][S,d1];
+[M,];[L,;][S,d4]
+```
+
+**Final State:** 
+```
+stack1:
+
+stack2:
+
+stack3:
+d2,d3,d1,d4
+```?[L,M,S];[E,M,S]
+[E,M,S];[M,E,S]
+[E,M,S];[S,E,S]
+[M,E,S];[E,,S]
+[,E,S];[S,E,S]
+[E,M,S];[M,E,S]
+[S,E,S];[M,E,S]?
