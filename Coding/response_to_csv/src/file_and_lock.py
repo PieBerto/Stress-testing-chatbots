@@ -26,9 +26,13 @@ def _create_out_file(out_file:Path, header:str) -> tuple[TextIOWrapper, BaseFile
         my_file.close()
     return open(out_file, "a+"),lock
 
-def write_entry(out_path:Path,header:str,model:str,account:str,q_type:str,entry):
+def write_entry(out_path:Path,header:str,entry:list[str]):
     (out,lock) = _create_out_file(out_path, header)
-    out.write(model + "," + account + "," + q_type + "," + str(entry) + "\n")
+    output_string = ""
+    for e in entry:
+        output_string += str(e) + ","
+    output_string = output_string[:-1] + "\n"
+    out.write(output_string)
     out.close()
     lock.release()
 

@@ -5,10 +5,9 @@ from pathlib import Path
 from src.questions_csv import question_select, questions
 
 
-def thread_fx(fx_param_list):
-    for (fx, param) in fx_param_list:
-        (entries, out_path, model, account, q_type) = param
-        fx(entries, out_path, model, account, q_type)
+def thread_fx(fx,param):
+    (entries, out_path, model, account, q_type) = param
+    fx(entries, out_path, model, account, q_type)
 
 
 def deep_search(path: Path, out_file: Path, model: str | None = None, account: str | None = None):
@@ -38,8 +37,8 @@ if __name__ == '__main__':
 
     with ThreadPoolExecutor() as executor:
         futures: list[Future] = list()
-        for question in questions.values():
-            futures.append(executor.submit(thread_fx, question))
+        for (fx,param) in questions:
+            futures.append(executor.submit(thread_fx, fx,param))
         for future in futures:
             future.result()
 

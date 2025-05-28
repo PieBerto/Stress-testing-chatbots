@@ -1,6 +1,7 @@
 import json
 import os
 from pathlib import Path
+from time import sleep
 
 from filelock import FileLock
 
@@ -45,9 +46,9 @@ class AlreadyAnswer:
         if interpreted_answer is None:
             print(answer)
             if question == "q104":
-                message = "Question "+question+", replace the previous coordinates in the form 'X,Y', without quotes:\t"
+                message = fr"Question {question}, replace the previous coordinates in the form 'X,Y', without quotes: "
             else:
-                message = "Question " + question + ", replace the previous entry:\t"
+                message = fr"Question {question}, replace the previous entry: "
             interpreted_answer = input(
                 message).strip(" \n\t\r")
             print("\n---------------------\n")

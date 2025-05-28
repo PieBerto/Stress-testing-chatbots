@@ -2,21 +2,19 @@ import math
 import os
 import re
 import string
-from operator import truediv
 from pathlib import Path
-from typing import TextIO, SupportsIndex
 
 from src.AlreadyAnswer import AlreadyAnswer
 from src.file_and_lock import read_file, write_entry
 
-questions = {}
+questions = []
+counter = {}
+total = {}
 remember = AlreadyAnswer(Path(r"C:\GitHub\Stress-testing-chatbots\Coding\csv\support_file\already_answered.json"))
 
 def insert_fx(fx, params):
     global questions
-    if questions.get("q101") is None:
-        questions["q101"] = list()
-    questions["q101"].append((fx,params))
+    questions.append((fx,params))
 
 def question_select(filename: Path, out_file: Path, model:str, account:str):
     folder_name = filename.stem
@@ -34,7 +32,7 @@ def question_select(filename: Path, out_file: Path, model:str, account:str):
             #iterate(filename,out_file, q104, model, account)
             pass
         case "Question105":
-            #iterate(filename,out_file, q105, model, account)
+            iterate(filename,out_file, q105, model, account)
             pass
         case "Question106":
             #iterate(filename,out_file, q106, model, account)
@@ -58,38 +56,83 @@ def question_select(filename: Path, out_file: Path, model:str, account:str):
             #iterate(filename,out_file, q206, model, account)
             pass
         case "Question301":
-            iterate(filename,out_file, q301, model, account)
+            #iterate(filename,out_file, q301, model, account)
             pass
         case "Question302":
-            iterate(filename,out_file, q302, model, account)
+            #iterate(filename,out_file, q302, model, account)
             pass
         case "Question303":
-            iterate(filename,out_file, q303, model, account)
+            #iterate(filename,out_file, q303, model, account)
             pass
         case "Question304":
-            iterate(filename,out_file, q304, model, account)
+            #iterate(filename,out_file, q304, model, account)
             pass
         case "Question305":
-            iterate(filename,out_file, q305, model, account)
+            #iterate(filename,out_file, q305, model, account)
             pass
         case "Question306":
-            iterate(filename,out_file, q306, model, account)
+            #iterate(filename,out_file, q306, model, account)
             pass
         case "Question307":
-            iterate(filename,out_file, q307, model, account)
+            #iterate(filename,out_file, q307, model, account)
             pass
         case "Question308":
-            iterate(filename,out_file, q308, model, account)
+            #iterate(filename,out_file, q308, model, account)
             pass
         case "Question309":
-            iterate(filename,out_file, q309, model, account)
+            #iterate(filename,out_file, q309, model, account)
             pass
         case "Question310":
-            iterate(filename,out_file, q310, model, account)
+            #iterate(filename,out_file, q310, model, account)
             pass
         case _:
             raise ValueError("folder name: " + folder_name + " has not been recognized.")
 
+def result_elaboration(account:str,q_type:str|None,q_name:str,model:str,new_entry,solution,right=None) -> list[str]:
+    global counter
+    correct = 0
+    if counter.get(model+q_name+account) is None:
+        counter[model+q_name+account] = 0
+    if q_type is not None and counter.get(model+q_name+q_type) is None:
+        counter[model+q_name+q_type] = 0
+    if counter.get(model+q_name) is None:
+        counter[model+q_name] = 0
+    if total.get(model+q_name+account) is None:
+        total[model+q_name+account] = 0
+    if q_type is not None and total.get(model+q_name+q_type) is None:
+        total[model+q_name+q_type] = 0
+    if total.get(model+q_name) is None:
+        total[model+q_name] = 0
+    total[model+q_name+account] += 1
+    if q_type is not None:
+        total[model+q_name+q_type] += 1
+    total[model+q_name] += 1
+    if right is not None: #Question 106 + Question >300
+        if right:
+            correct = 1
+            counter[model+q_name+account] += 1
+            if q_type is not None:
+                counter[model+q_name+q_type] += 1
+            counter[model+q_name] += 1
+    elif new_entry == solution:
+        correct = 1
+        counter[model+q_name+account] += 1
+        if q_type is not None:
+            counter[model+q_name+q_type] += 1
+        counter[model+q_name] += 1
+    if q_type is not None:
+        output_entry = [model,q_type, account, str(new_entry), str(correct), str(total[model+q_name+account]), str(total[model+q_name+q_type]),
+                    str(total[model+q_name]), str(counter[model+q_name+account]), str(counter[model+q_name+q_type]), str(counter[model+q_name]),
+                    "=" + str(counter[model+q_name+account]) + "/" + str(total[model+q_name+account]),
+                    "=" + str(counter[model+q_name+q_type]) + "/" + str(total[model+q_name+q_type]),
+                    "=" + str(counter[model+q_name]) + "/" + str(total[model+q_name])]
+    else:
+        output_entry = [model, account, str(new_entry), str(correct), str(total[model + q_name + account]),
+                        str(total[model + q_name]), str(counter[model + q_name + account]),
+                        str(counter[model + q_name]),
+                        "=" + str(counter[model + q_name + account]) + "/" + str(total[model + q_name + account]),
+                        "=" + str(counter[model + q_name]) + "/" + str(total[model + q_name])]
+    return output_entry
 
 def iterate(path: Path, out_file:Path, fx, model:str, account:str):
     for path, folders, files in os.walk(path):
@@ -101,7 +144,9 @@ def iterate(path: Path, out_file:Path, fx, model:str, account:str):
                 insert_fx(fx,(content,out_file,model,account,file_name.replace(".txt", "")))
 
 def q101(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
-    header = "model,account,type,answer\n"
+    q_name = "q101"
+    solution = 1
+    header = "Model,Type,Account,Answer,Correct,Repetition per Account(Model),Repetition per Type(Model),Repetition per Question(Model),Account(Model) Cumulative,Type(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Type(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         extra_entry = None
         new_entry = entry.replace(" ","").replace("\n", "").replace("\r", "").replace("\t", "").replace(",","")
@@ -128,11 +173,14 @@ def q101(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                     new_entry = remember.search_answer("q101",entry)
             if extra_entry is not None:
                 new_entry = extra_entry
-            write_entry(Path(os.path.join(out_path,"q101"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
+            output_entry = result_elaboration(account,q_type,q_name,model,new_entry,solution)
+            write_entry(Path(os.path.join(out_path,q_name+".csv")),header,output_entry)
 
 
 def q102(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
-    header = "model,account,type,answer\n"
+    q_name = "q102"
+    solution: float = 142045.68
+    header = "Model,Type,Account,Answer,Correct,Repetition per Account(Model),Repetition per Type(Model),Repetition per Question(Model),Account(Model) Cumulative,Type(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Type(Model) Percentual,Question(Model) Percentual\n"
     i = 0
     for entry in entries:
         i += 1
@@ -144,11 +192,17 @@ def q102(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
             except Exception as e:
                 new_entry = remember.search_answer("q102",entry)
             finally:
-                write_entry(Path(os.path.join(out_path,"q102"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
+                if new_entry != "@" and new_entry!="#" and new_entry!="+" and math.isclose(float(new_entry), solution, rel_tol=1e-6, abs_tol=1.0):
+                    output_entry = result_elaboration(account, q_type, q_name,model, new_entry, None, True)
+                else:
+                    output_entry = result_elaboration(account, q_type, q_name, model, new_entry, None, False)
+                write_entry(Path(os.path.join(out_path, q_name + ".csv")), header, output_entry)
 
 
 def q103(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
-    header = "model,account,type,answer\n"
+    q_name = "q103"
+    solution = 90686.82
+    header = "Model,Type,Account,Answer,Correct,Repetition per Account(Model),Repetition per Type(Model),Repetition per Question(Model),Account(Model) Cumulative,Type(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Type(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         new_entry = entry.replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "").replace("$","").replace("€","").replace(",","")
         if new_entry != "":
@@ -157,15 +211,23 @@ def q103(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                     new_entry = float(new_entry)
             except:
                 new_entry = remember.search_answer("q103",entry)
-            write_entry(Path(os.path.join(out_path,"q103"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
+            if new_entry != "@" and new_entry!="#" and new_entry!="+" and math.isclose(float(new_entry), solution, rel_tol=1e-6, abs_tol=1.0):
+                output_entry = result_elaboration(account, q_type, q_name, model, new_entry, None, True)
+            else:
+                output_entry = result_elaboration(account, q_type, q_name, model, new_entry, None, False)
+            write_entry(Path(os.path.join(out_path, q_name + ".csv")), header, output_entry)
 
 
 def q104(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
-    header = "model,account,type,x,y\n"
+    q_name = "q104"
+    solution = (2.02876,1.81971)
+    header = "Model,Type,Account,X,Y,Correct,Repetition per Account(Model),Repetition per Type(Model),Repetition per Question(Model),Account(Model) Cumulative,Type(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Type(Model) Percentual,Question(Model) Percentual\n"
     r = re.compile(r"^\d*[.]?\d*$")
     for entry in entries:
-        new_entry = entry.lower().replace("final answer:","").replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "").replace("(","").replace(")","")
+        new_entry = entry.lower().replace("final answer:","").replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "").replace("(","").replace(")","").replace("pi","3.14")
         if new_entry != "":
+            x = None
+            y = None
             if new_entry != "@" and new_entry != "#":
                 if r.match(new_entry):
                     new_entry = "+"
@@ -175,40 +237,60 @@ def q104(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                         x = float(c_list[0])
                         y = float(c_list[1])
                         new_entry = str(x) + "," + str(y)
-                    except:
+                    except Exception as e:
+                        solved = None
                         if model == "gemini-2.0-flash-thinking-exp":
-                            x = re.findall(r"boxed\{" + r"\((\d*[.]?\d*\s*,\s*\d*[.]?\d*)\)" + r"\}", entry)
-                            if len(x) == 0:
-                                x = re.findall("[Ff]inal" + ' ' + "*" + "[Aa]nswer:" + ' ' + "*" + r"\((\d*[.]?\d*\s*,\s*\d*[.]?\d*)\)", entry)
-                                if len(x) == 0:
-                                    x = re.findall("[Ss]olution:" + ' ' + "*" + r"\((\d*[.]?\d*\s*,\s*\d*[.]?\d*)\)", entry)
-                                    if len(x) == 0:
-                                        x = re.findall("[Aa][Nn][Ss][Ww][Ee][Rr]:" + ' ' + "*" + r"\((\d*[.]?\d*\s*,\s*\d*[.]?\d*)\)", entry)
+                            match = re.findall(r"boxed\{" + r"\((\d*[.]?\d*\s*,\s*\d*[.]?\d*)\)" + r"\}", entry)
+                            if len(match) == 0:
+                                match = re.findall("[Ff]inal" + ' ' + "*" + "[Aa]nswer:" + ' ' + "*" + r"\((\d*[.]?\d*\s*,\s*\d*[.]?\d*)\)", entry)
+                                if len(match) == 0:
+                                    match = re.findall("[Ss]olution:" + ' ' + "*" + r"\((\d*[.]?\d*\s*,\s*\d*[.]?\d*)\)", entry)
+                                    if len(match) == 0:
+                                        match = re.findall("[Aa][Nn][Ss][Ww][Ee][Rr]:" + ' ' + "*" + r"\((\d*[.]?\d*\s*,\s*\d*[.]?\d*)\)", entry)
                             try:
-                                (answer) = x.pop()
-                                new_entry = float(answer)
+                                (answer) = match.pop()
+                                x = float(answer.split(",")[0])
+                                y = float(answer.split(",")[1])
+                                solved = answer
                             except Exception as e:
-                                new_entry = remember.search_answer("q104",entry).replace(" ", "").replace("\n", "").replace(";", "")
+                                pass
+                        if solved is None:
+                            new_entry = remember.search_answer("q104",entry).replace(" ", "").replace("\n", "").replace(";", "")
+                            if new_entry != "+":
+                                x = float(new_entry.split(",")[0])
+                                y = float(new_entry.split(",")[1])
+                        else:
+                            new_entry = solved
 
-            write_entry(Path(os.path.join(out_path,"q104"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
+            if x and y and new_entry != "@" and new_entry!="#" and new_entry!="+" and math.isclose(x, solution[0], rel_tol=1e-6, abs_tol=0.07) and math.isclose(y, solution[1], rel_tol=1e-6, abs_tol=0.07):
+                output_entry = result_elaboration(account, q_type, q_name, model, new_entry, None, True)
+            else:
+                output_entry = result_elaboration(account, q_type, q_name, model, new_entry, None, False)
+            write_entry(Path(os.path.join(out_path, q_name + ".csv")), header, output_entry)
 
 
 def q105(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
-    header = "model,account,type,answer\n"
+    q_name = "q105"
+    solution = 91.5
+    header = "Model,Type,Account,Answer,Correct,Repetition per Account(Model),Repetition per Type(Model),Repetition per Question(Model),Account(Model) Cumulative,Type(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Type(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         new_entry = entry.lower().replace("years","").replace("solution","").replace(":","").replace("!","").replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "").replace(",","")
         if new_entry != "":
             if new_entry != "@" and new_entry != "#":
                 try:
                     new_entry = float(new_entry)
-                    new_entry = int(new_entry)
                 except:
                     new_entry = remember.search_answer("q105",entry)
-            write_entry(Path(os.path.join(out_path,"q105"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
-
+            if new_entry != "@" and new_entry != "#" and new_entry != "+" and math.isclose(float(new_entry), solution,
+                                                                                           rel_tol=1e-6, abs_tol=1.0):
+                output_entry = result_elaboration(account, q_type, q_name, model, new_entry, None, True)
+            else:
+                output_entry = result_elaboration(account, q_type, q_name, model, new_entry, None, False)
+            write_entry(Path(os.path.join(out_path,q_name+".csv")),header,output_entry)
 
 def q106(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
-    header = "model,account,type,distance\n"
+    q_name = "q106"
+    header = "Model,Type,Account,Distance,Correct,Repetition per Account(Model),Repetition per Type(Model),Repetition per Question(Model),Account(Model) Cumulative,Type(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Type(Model) Percentual,Question(Model) Percentual\n"
     new_entry_int = None
     solution = [1,3,6,9,4,5,8,2,7,5,7,2,1,3,8,6,4,9,8,4,9,2,7,6,5,3,1,3,2,8,7,5,1,4,9,6,4,5,7,6,9,3,2,1,8,9,6,1,4,8,2,7,5,3,7,8,3,5,1,4,9,6,2,2,9,4,3,6,7,1,8,5,6,1,5,8,2,9,3,7,4]
     for entry in entries:
@@ -247,11 +329,13 @@ def q106(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 for i, n in enumerate(new_entry_int):
                     distance += math.pow(n - solution[i], 2)
                 distance = math.sqrt(distance)
-            write_entry(Path(os.path.join(out_path,"q106"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,distance)
-
+            output_entry = result_elaboration(account,q_type,q_name,model,distance,None,distance==0)
+            write_entry(Path(os.path.join(out_path,q_name+".csv")),header,output_entry)
 
 def q201(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
-    header = "model,account,type,answer\n"
+    q_name = "q201"
+    solution = 0
+    header = "Model,Type,Account,Answer,Correct,Repetition per Account(Model),Repetition per Type(Model),Repetition per Question(Model),Account(Model) Cumulative,Type(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Type(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         new_entry = entry.replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "")
         if new_entry != "":
@@ -260,11 +344,13 @@ def q201(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = int(new_entry)
             except:
                 new_entry = remember.search_answer("q201",entry)
-            write_entry(Path(os.path.join(out_path,"q201"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
-
+            output_entry = result_elaboration(account, q_type, q_name,model, new_entry, solution)
+            write_entry(Path(os.path.join(out_path, q_name + ".csv")), header, output_entry)
 
 def q202(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
-    header = "model,account,type,answer\n"
+    q_name = "q202"
+    solution = 0
+    header = "Model,Account,Answer,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         new_entry = entry.replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "")
         if new_entry != "":
@@ -273,11 +359,13 @@ def q202(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = int(new_entry)
             except:
                 new_entry = "+"
-            write_entry(Path(os.path.join(out_path,"q202"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
-
+            output_entry = result_elaboration(account, None, q_name,model, new_entry, solution)
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 def q203(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
-    header = "model,account,type,answer\n"
+    q_name = "q203"
+    solution = 9
+    header = "Model,Account,Answer,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         new_entry = entry.replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "")
         if new_entry != "":
@@ -286,11 +374,13 @@ def q203(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = int(new_entry)
             except:
                 new_entry = remember.search_answer("q203",entry)
-            write_entry(Path(os.path.join(out_path,"q203"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
-
+            output_entry = result_elaboration(account, None, q_name,model, new_entry, solution)
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 def q204(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
-    header = "model,account,type,answer\n"
+    q_name = "q204"
+    solution = 8
+    header = "Model,Account,Answer,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         new_entry = entry.replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "")
         if new_entry != "":
@@ -299,10 +389,13 @@ def q204(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = int(new_entry)
             except:
                 new_entry = remember.search_answer("q204",entry)
-            write_entry(Path(os.path.join(out_path,"q204"+"_"+model+"_"+q_type+".csv")),header,model,account,q_type,new_entry)
+            output_entry = result_elaboration(account, None, q_name,model, new_entry, solution)
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 def q205(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
-    header = "model,account,type,answer\n"
+    q_name = "q205"
+    solution = 3
+    header = "Model,Account,Answer,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         new_entry = entry.replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "")
         if new_entry != "":
@@ -311,11 +404,13 @@ def q205(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
                 new_entry = int(new_entry)
             except:
                 new_entry = remember.search_answer("q205", entry)
-            write_entry(Path(os.path.join(out_path, "q205" + "_" + model + "_" + q_type + ".csv")), header, model,
-                        account, q_type, new_entry)
+            output_entry = result_elaboration(account, None, q_name,model, new_entry, solution)
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 def q206(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
-    header = "model,account,type,answer\n"
+    q_name = "q206"
+    solution = 3
+    header = "Model,Account,Answer,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         new_entry = entry.replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "")
         if new_entry != "":
@@ -324,8 +419,8 @@ def q206(entries: list[str], out_path: Path, model: str, account: str, q_type: s
                 new_entry = int(new_entry)
             except:
                 new_entry = remember.search_answer("q206", entry)
-            write_entry(Path(os.path.join(out_path, "q206" + "_" + model + "_" + q_type + ".csv")), header, model,
-                        account, q_type, new_entry)
+            output_entry = result_elaboration(account, None, q_name,model, new_entry, solution)
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 def changes_check_301(old_a:list[str],old_b:list[str],new_a:list[str],new_b:list[str]) -> bool:
     if "Z" in old_a:
@@ -407,7 +502,8 @@ def validity_check(a:list[str])-> bool:
     return True
 
 def q301(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
-    header = "model,account,type,right,steps\n"
+    q_name = "q301"
+    header = "Model,Account,Steps,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         new_entry = entry.replace(" ","").replace("`","").replace("\\","").replace("\n","").replace("_","").replace("'","")
         if new_entry != "":
@@ -469,16 +565,17 @@ def q301(entries: list[str], out_path: Path, model: str, account: str, q_type: s
                 right = False
                 steps = "+"
             if right:
-                new_entry = "=TRUE(),"+str(steps)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps), None,True)
             else:
-                new_entry = "=FALSE(),"+str(steps)
-            write_entry(Path(os.path.join(out_path, "q301" + "_" + model + "_" + q_type + ".csv")), header, model,
-                        account, q_type, new_entry)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps), None, False)
+
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 
 
 def q302(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
-    header = "model,account,type,right,steps\n"
+    q_name = "q302"
+    header = "Model,Account,Steps,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         new_entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
                                                                                                         "").replace("'",
@@ -551,11 +648,10 @@ def q302(entries: list[str], out_path: Path, model: str, account: str, q_type: s
                 right = False
                 steps = "+"
             if right:
-                new_entry = "=TRUE()," + str(steps)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps), None,True)
             else:
-                new_entry = "=FALSE()," + str(steps)
-            write_entry(Path(os.path.join(out_path, "q302" + "_" + model + "_" + q_type + ".csv")), header, model,
-                        account, q_type, new_entry)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps), None,False)
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 def hanoi_tower_step_check(configuration:str, old_configuration: str|None = None, initial_configuration: str = "[L,M,S],[],[]", largest_cylinder_letter:str = "L", medium_big_cylinder_letter:str = "M", medium_small_cylinder_letter:str = "S", optional_smallest_cylinder_letter: str | None = None, is_sussman_not_hanoi:bool = False) -> bool:
     #Creating the lists from the input
@@ -672,7 +768,8 @@ def hanoi_tower_step_check(configuration:str, old_configuration: str|None = None
     return True
 
 def q303(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
-    header = "model,account,type,right,steps\n"
+    q_name = "q303"
+    header = "Model,Account,Steps,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         if entry:
             entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_","").replace("'","")
@@ -703,16 +800,16 @@ def q303(entries: list[str], out_path: Path, model: str, account: str, q_type: s
                 pass
             #print(entry+"\n\n------------------------------------------------\n")
             if right:
-                new_entry = "=TRUE()," + str(steps_count)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,True)
             else:
-                new_entry = "=FALSE()," + str(steps_count)
-            write_entry(Path(os.path.join(out_path, "q303" + "_" + model + "_" + q_type + ".csv")), header, model,
-                        account, q_type, new_entry)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,False)
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 
 
 def q304(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
-    header = "model,account,type,right,steps\n"
+    q_name = "q304"
+    header = "Model,Account,Steps,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         if entry:
             entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
@@ -745,15 +842,15 @@ def q304(entries: list[str], out_path: Path, model: str, account: str, q_type: s
                 pass
             # print(entry+"\n\n------------------------------------------------\n")
             if right:
-                new_entry = "=TRUE()," + str(steps_count)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,True)
             else:
-                new_entry = "=FALSE()," + str(steps_count)
-            write_entry(Path(os.path.join(out_path, "q304" + "_" + model + "_" + q_type + ".csv")), header, model,
-                        account, q_type, new_entry)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,False)
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 
 def q305(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
-    header = "model,account,type,right,steps\n"
+    q_name = "q305"
+    header = "Model,Account,Steps,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         if entry:
             entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
@@ -786,15 +883,15 @@ def q305(entries: list[str], out_path: Path, model: str, account: str, q_type: s
                 pass
             # print(entry+"\n\n------------------------------------------------\n")
             if right:
-                new_entry = "=TRUE()," + str(steps_count)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,True)
             else:
-                new_entry = "=FALSE()," + str(steps_count)
-            write_entry(Path(os.path.join(out_path, "q305" + "_" + model + "_" + q_type + ".csv")), header, model,
-                        account, q_type, new_entry)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,False)
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 
 def q306(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
-    header = "model,account,type,right,steps\n"
+    q_name = "q306"
+    header = "Model,Account,Steps,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         if entry:
             entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
@@ -827,15 +924,15 @@ def q306(entries: list[str], out_path: Path, model: str, account: str, q_type: s
                 pass
             # print(entry+"\n\n------------------------------------------------\n")
             if right:
-                new_entry = "=TRUE()," + str(steps_count)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,True)
             else:
-                new_entry = "=FALSE()," + str(steps_count)
-            write_entry(Path(os.path.join(out_path, "q306" + "_" + model + "_" + q_type + ".csv")), header, model,
-                        account, q_type, new_entry)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,False)
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 
 def q307(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
-    header = "model,account,type,right,steps\n"
+    q_name = "q307"
+    header = "Model,Account,Steps,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         if entry:
             entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
@@ -868,15 +965,15 @@ def q307(entries: list[str], out_path: Path, model: str, account: str, q_type: s
                 pass
             # print(entry+"\n\n------------------------------------------------\n")
             if right:
-                new_entry = "=TRUE()," + str(steps_count)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,True)
             else:
-                new_entry = "=FALSE()," + str(steps_count)
-            write_entry(Path(os.path.join(out_path, "q307" + "_" + model + "_" + q_type + ".csv")), header, model,
-                        account, q_type, new_entry)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,False)
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 
 def q308(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
-    header = "model,account,type,right,steps\n"
+    q_name = "q308"
+    header = "Model,Account,Steps,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         if entry:
             entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
@@ -909,15 +1006,15 @@ def q308(entries: list[str], out_path: Path, model: str, account: str, q_type: s
                 pass
             # print(entry+"\n\n------------------------------------------------\n")
             if right:
-                new_entry = "=TRUE()," + str(steps_count)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,True)
             else:
-                new_entry = "=FALSE()," + str(steps_count)
-            write_entry(Path(os.path.join(out_path, "q308" + "_" + model + "_" + q_type + ".csv")), header, model,
-                        account, q_type, new_entry)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,False)
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 
 def q309(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
-    header = "model,account,type,right,steps\n"
+    q_name = "q309"
+    header = "Model,Account,Steps,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         if entry:
             entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
@@ -950,15 +1047,15 @@ def q309(entries: list[str], out_path: Path, model: str, account: str, q_type: s
                 pass
             # print(entry+"\n\n------------------------------------------------\n")
             if right:
-                new_entry = "=TRUE()," + str(steps_count)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,True)
             else:
-                new_entry = "=FALSE()," + str(steps_count)
-            write_entry(Path(os.path.join(out_path, "q309" + "_" + model + "_" + q_type + ".csv")), header, model,
-                        account, q_type, new_entry)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,False)
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 
 def q310(entries: list[str], out_path: Path, model: str, account: str, q_type: str):
-    header = "model,account,type,right,steps\n"
+    q_name = "q310"
+    header = "Model,Account,Steps,Correct,Repetition per Account(Model),Repetition per Question(Model),Account(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Question(Model) Percentual\n"
     for entry in entries:
         if entry:
             entry = entry.replace(" ", "").replace("`", "").replace("\\", "").replace("\n", "").replace("_",
@@ -991,11 +1088,10 @@ def q310(entries: list[str], out_path: Path, model: str, account: str, q_type: s
                 pass
             # print(entry+"\n\n------------------------------------------------\n")
             if right:
-                new_entry = "=TRUE()," + str(steps_count)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,True)
             else:
-                new_entry = "=FALSE()," + str(steps_count)
-            write_entry(Path(os.path.join(out_path, "q310" + "_" + model + "_" + q_type + ".csv")), header, model,
-                        account, q_type, new_entry)
+                output_entry = result_elaboration(account, None, q_name,model, str(steps_count), None,False)
+            write_entry(Path(os.path.join(out_path, q_name+"_"+q_type + ".csv")), header, output_entry)
 
 
 
