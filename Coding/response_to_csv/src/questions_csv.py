@@ -18,7 +18,7 @@ def stat_csv_out(model:str,q_name: Path) -> str:
     q_name = str(q_name)
     return (f"{model},,,,,,,one_shot,,,Per Account,,,,,,,,,,,,,,,,CoT,,,Per Account,,,,,,,,,,,,,,,,PoT,,,Per Account,,,,,,,,,,,,,,\n"
             +f",Type,Account,% Account,% Type,% Question,% Account and Type,,Account,% Correct,,=TRANSPOSE(UNIQUE(I3:I1048576)),,,,,,,,,,,,,,,,Account,% Correct,,=TRANSPOSE(UNIQUE(AB3:AB1048576)),,,,,,,,,,,,,,,,Account,% Correct,,=TRANSPOSE(UNIQUE(AU3:AU1048576)),,,,,,,,,,,,,\n"
-            +f",=FILTER(${q_name}.B:B;${q_name}.A:A=A1),=FILTER(${q_name}.C:C;${q_name}.A:A=A1),=FILTER(${q_name}.L:O;${q_name}.A:A=A1),,,,,=FILTER(C:C;B:B=H1),=FILTER(G:G;B:B=H1),,=FILTER(J:J;I:I=L2),=FILTER(J:J;I:I=M2),=FILTER(J:J;I:I=N2),=FILTER(J:J;I:I=O2),=FILTER(J:J;I:I=P2),=FILTER(J:J;I:I=Q2),=FILTER(J:J;I:I=R2),=FILTER(J:J;I:I=S2),=FILTER(J:J;I:I=T2),=FILTER(J:J;I:I=U2),=FILTER(J:J;I:I=V2),=FILTER(J:J;I:I=W2),=FILTER(J:J;I:I=X2),=FILTER(J:J;I:I=Y2),,,=FILTER(C:C;B:B=AA1),=FILTER(G:G;B:B=X1),,=FILTER(AC:AC;AB:AB=AE2),=FILTER(AC:AC;AB:AB=AF2),=FILTER(AC:AC;AB:AB=AG2),=FILTER(AC:AC;AB:AB=AH2),=FILTER(AC:AC;AB:AB=AI2),=FILTER(AC:AC;AB:AB=AJ2),=FILTER(AC:AC;AB:AB=AK2),=FILTER(AC:AC;AB:AB=AL2),=FILTER(AC:AC;AB:AB=AM2),=FILTER(AC:AC;AB:AB=AN2),=FILTER(AC:AC;AB:AB=AO2),=FILTER(AC:AC;AB:AB=AP2),=FILTER(AC:AC;AB:AB=AQ2),=FILTER(AC:AC;AB:AB=AR2),,,=FILTER(C:C;B:B=AT1),=FILTER(G:G;B:B=AT1),,=FILTER(AV:AV;AU:AU=AX2),=FILTER(AV:AV;AU:AU=AY2),=FILTER(AV:AV;AU:AU=AZ2),=FILTER(AV:AV;AU:AU=BA2),=FILTER(AV:AV;AU:AU=BB2),=FILTER(AV:AV;AU:AU=BC2),=FILTER(AV:AV;AU:AU=BD2),=FILTER(AV:AV;AU:AU=BE2),=FILTER(AV:AV;AU:AU=BFX2,=FILTER(AV:AV;AU:AU=BG2),=FILTER(AV:AV;AU:AU=BH2),=FILTER(AV:AV;AU:AU=BI2),=FILTER(AV:AV;AU:AU=BJ2),=FILTER(AV:AV;AU:AU=BK2)\n")
+            +f",=FILTER(${q_name}.B:B;${q_name}.A:A=A1),=FILTER(${q_name}.C:C;${q_name}.A:A=A1),=FILTER(${q_name}.L:O;${q_name}.A:A=A1),,,,,=FILTER(C:C;B:B=H1),=FILTER(G:G;B:B=H1),,=FILTER(J:J;I:I=L2),=FILTER(J:J;I:I=M2),=FILTER(J:J;I:I=N2),=FILTER(J:J;I:I=O2),=FILTER(J:J;I:I=P2),=FILTER(J:J;I:I=Q2),=FILTER(J:J;I:I=R2),=FILTER(J:J;I:I=S2),=FILTER(J:J;I:I=T2),=FILTER(J:J;I:I=U2),=FILTER(J:J;I:I=V2),=FILTER(J:J;I:I=W2),=FILTER(J:J;I:I=X2),=FILTER(J:J;I:I=Y2),,,=FILTER(C:C;B:B=AA1),=FILTER(G:G;B:B=AA1),,=FILTER(AC:AC;AB:AB=AE2),=FILTER(AC:AC;AB:AB=AF2),=FILTER(AC:AC;AB:AB=AG2),=FILTER(AC:AC;AB:AB=AH2),=FILTER(AC:AC;AB:AB=AI2),=FILTER(AC:AC;AB:AB=AJ2),=FILTER(AC:AC;AB:AB=AK2),=FILTER(AC:AC;AB:AB=AL2),=FILTER(AC:AC;AB:AB=AM2),=FILTER(AC:AC;AB:AB=AN2),=FILTER(AC:AC;AB:AB=AO2),=FILTER(AC:AC;AB:AB=AP2),=FILTER(AC:AC;AB:AB=AQ2),=FILTER(AC:AC;AB:AB=AR2),,,=FILTER(C:C;B:B=AT1),=FILTER(G:G;B:B=AT1),,=FILTER(AV:AV;AU:AU=AX2),=FILTER(AV:AV;AU:AU=AY2),=FILTER(AV:AV;AU:AU=AZ2),=FILTER(AV:AV;AU:AU=BA2),=FILTER(AV:AV;AU:AU=BB2),=FILTER(AV:AV;AU:AU=BC2),=FILTER(AV:AV;AU:AU=BD2),=FILTER(AV:AV;AU:AU=BE2),=FILTER(AV:AV;AU:AU=BF2,=FILTER(AV:AV;AU:AU=BG2),=FILTER(AV:AV;AU:AU=BH2),=FILTER(AV:AV;AU:AU=BI2),=FILTER(AV:AV;AU:AU=BJ2),=FILTER(AV:AV;AU:AU=BK2)\n")
 def insert_fx(fx, params):
     global questions
     questions.append((fx,params))
@@ -95,8 +95,9 @@ def question_select(filename: Path, out_file: Path, model:str, account:str):
         case _:
             raise ValueError("folder name: " + folder_name + " has not been recognized.")
 
-def result_elaboration(account:str,q_type:str|None,q_name:str,model:str,new_entry,solution,right=None,out_path="") -> list[str]:
+def result_elaboration(account:str,q_type:str|None,q_name:str,model:str,new_entry,solution,right=None,out_path:str|Path="") -> list[str]:
     global counter
+    out_path = str(out_path)
     correct = 0
     #Initializing counters and totals
     if q_type is not None:
