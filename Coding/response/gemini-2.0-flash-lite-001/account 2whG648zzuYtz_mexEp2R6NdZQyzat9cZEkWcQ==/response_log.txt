@@ -1,0 +1,199 @@
+This file explains when the tests were carried out, the dates are expressed: [year-month-day].
+
+Question101
+	2025-04-14
+		POT 62
+		COT 62
+		OS 62
+	2025-04-13
+		POT 39
+		COT 39
+		OS 40
+	2025-04-12
+		POT 26
+		COT 26
+		OS 29
+	2025-04-11
+		POT 49
+		COT 49
+		OS 49
+	2025-04-10
+		POT 51
+		COT 51
+		OS 52
+	2025-03-25
+		COT 39
+		OS 39
+	2025-03-14
+		COT 72
+		OS 72
+Question102
+	2025-04-15
+		OS 50
+		POT 51
+		COT 51
+	2025-04-14
+		POT 49
+		COT 49
+		OS 50
+	2025-03-17
+		COT 100
+		OS 100
+
+Question103
+	2025-04-16
+		OS 74
+		POT 75
+		COT 75
+	2025-04-15
+		POT 25
+		COT 25
+		OS 26
+	2025-03-25
+		COT 12
+		OS 12
+	2025-03-18
+		COT 125
+		OS 125
+
+Question104
+	2025-04-19
+		POT 55
+		COT 55
+		OS 55
+	2025-04-18
+		OS 94
+		POT 94
+		COT 95
+	2025-04-17
+		POT 25
+		COT 25
+		OS 27
+	2025-03-18
+		COT 100
+		OS 100
+
+Question105
+	2025-04-20
+		COT 71
+		OS 71
+		POT 72
+	2025-04-19
+		POT 28
+		COT 29
+		OS 29
+	2025-03-24
+		COT 100
+		OS 100
+
+Question106
+	2025-04-22
+		OS 69
+		POT 70
+		COT 70
+	2025-04-21
+		POT 30
+		COT 30
+		OS 31
+	2025-04-03
+		COT 29
+		OS 30
+	2025-03-25
+		COT 15
+		OS 15
+	2025-03-24
+		COT 92
+		OS 92
+
+Question201
+	2025-04-22
+		COT 100
+		OS 100
+	2025-03-25
+		COT 100
+		OS 100
+
+Question202
+	2025-04-23
+		OS 100
+	2025-03-26
+		OS 100
+
+Question203
+	2025-04-24
+		OS 100
+	2025-03-27
+		OS 100
+
+Question204
+	2025-04-24
+		OS 100
+	2025-03-28
+		OS 100
+
+Question301
+	2025-04-25
+		COT 100
+	2025-03-28
+		COT 100
+
+Question302
+	2025-04-26
+		COT 75
+	2025-04-25
+		COT 25
+	2025-04-03
+		COT 100
+
+Question205
+	2025-04-24
+		OS 100
+
+Question206
+	2025-04-24
+		OS 100
+
+Question303
+	2025-04-29
+		COT 100
+	2025-04-26
+		COT 1
+
+Question304
+	2025-04-30
+		COT 4
+	2025-04-29
+		COT 96
+	2025-04-27
+		COT 35
+
+Question305
+	2025-05-01
+		COT 25
+	2025-04-30
+		COT 75
+
+Question306
+	2025-05-01
+		COT 100
+
+Question307
+	2025-05-02
+		COT 100
+
+Question308
+	2025-05-03
+		COT 95
+	2025-05-02
+		COT 5
+
+Question309
+	2025-05-04
+		COT 46
+	2025-05-03
+		COT 54
+
+Question310
+	2025-05-04
+		COT 100
+

@@ -1,0 +1,12 @@
+%OS
+What is the maximum point in the interval x = 0 and x = pi of the function y = x*sin(x) ? Answer only with the coordinates in the form: (x0, y0) and avoiding adding more text!
+%%%
+%COT
+What is the maximum point in the interval x = 0 and x = pi of the function y = x*sin(x) ? Decompose the problem as you solve it and then print the coordinates in the form: (x0, y0).
+%%
+Write only the coordinates in the form: (x0, y0) and avoiding adding more text!
+%%%
+%POT
+What is the maximum point in the interval x = 0 and x = pi of the function y = x*sin(x) ?  Write a Python program to solve this problem; the answer must be formatted so that an external compiler can run it as is. Just write the code! The submitted code should return only the solution as output, avoiding adding other characters.
+%%%%
+(2.02876;1.81971)

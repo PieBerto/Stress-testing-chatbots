@@ -1,0 +1,12 @@
+Plotbox su %corrette (Y), steps(X):
+- Account (per modello, per tipologia)
+- Tipologia (per modello)
+- Modello
+
+=> TABELLA(tipologia,account,risposta,sommatoria corrette per account e tipologia, corrette per tipologia, corrette totale)
+
+
+
+Libre Office:
+- relative paths: https://ask.libreoffice.org/t/referencing-a-cell-in-other-document-using-relative-path/24288
+- plotbox guide: https://wiki.documentfoundation.org/Documentation/HowTo/Calc/BoxplotWithWhiskers

@@ -1,0 +1,180 @@
+#?Number of insertions remaining: 29
+?Number of insertions left: 0
+?Number of insertions left: 0
+?29
+?Number of insertions left: 29
+?-2029
+?Number of insertions left: 0
+?Number of insertions left: 0
+?Number of insertions remaining: 29
+?Number of insertions left:  29
+?Number of insertions left: 0
+?Number of insertions left:  29
+?Number of insertions left: 29
+?Number of insertions left: 0
+?Number of insertions left: 29
+?Number of insertions remaining: 0
+?0
+?Number of insertions left: 29
+?600.0
+?#?Number of insertions left: 0
+?Number of insertions left: 0
+?Number of insertions left: 29
+?0
+?Number of insertions left: 29
+?Number of insertions left: 29
+??#?Number of insertions left: 0
+?Number of insertions left:  465
+?Number of insertions left: 0
+?29
+?Number of insertions left: 29
+?Number of insertions left: 29
+?Number of insertions left: 0
+?#?0
+?#?Number of insertions remaining: 29
+?Number of insertions left: 0
+?Number of insertions left: 0
+?Number of insertions left: 0
+?Number of insertions left: 29
+?Number of insertions left:  29
+?Number of insertions left: 0
+?Number of insertions left: 29
+?Number of insertions left: 0
+?Number of insertions left: 2 * 30 - 30 - 1 = 59
+?0
+?Insertions left: 40
+?Number of insertions left:  465
+?#?#?Number of insertions left: 0
+?Number of insertions left: 0
+?#?#?Number of insertions left: 18.375
+?40
+?Number of insertions left: 0
+?Number of insertions left: 29
+?Number of insertions left:  465
+?Number of insertions left: 29
+?Number of insertions left: 0
+?Number of insertions left: 29
+?Number of insertions left: 0
+?Number of insertions left: 0
+?0
+?Number of insertions left: 29
+?Number of insertions left: 0
+?0
+?Number of insertions left: 29
+?Number of insertions left: 0
+?Number of insertions left: 29
+?465
+?0
+?0
+?465
+?Number of insertions left: 29
+?465
+?Number of insertions remaining: 29
+?0
+?0
+?No insertions are left.
+?#?Number of insertions left: 29
+?Number of insertions left:  29
+?0
+?Number of insertions left: 29
+?Number of insertions left: 29
+?Number of insertions left: 0
+?0
+?#?Number of insertions left: 29
+?#?Number of insertions left: 0
+?Number of insertions left: 0
+?-2029
+?Number of insertions left: 0
+?29
+?Number of insertions left: 0
+?465
+?Number of insertions left:  0
+?Number of insertions left:  29
+?Number of insertions left: 29
+?#?Number of insertions left: 0
+?Number of insertions left: 0
+?465
+?Number of insertions remaining: 29
+?Number of insertions left: 29
+?29
+?#?Number of insertions left: 29
+?Number of insertions left: 29
+?Number of insertions left: 0
+?Number of insertions left: 29
+?Number of insertions left: 0
+?Number of insertions left: 29
+?Number of insertions left: 29
+?Number of insertions left: 29
+?Number of insertions left: 29
+?Number of insertions left:  29
+?0
+?Number of insertions left: 0
+?Number of insertions left: 0
+?#?0
+?0
+?#?Number of insertions left: 0
+?Number of insertions left: 29
+?Number of insertions left: 29
+?Number of insertions left: 29
+?0
+?No insertions are left.
+?Number of insertions left: 29
+?#?#?Number of insertions left: 29
+?Number of insertions left:  11
+?Remaining volume: 40
+?Number of insertions left: 29
+?0
+?Number of insertions left: 0
+?Number of insertions left: 29
+?Number of insertions left:  29
+?Number of insertions left: 29
+?600.0
+?29
+?Number of insertions left: 29
+?Number of insertions left: 0
+?Number of insertions left: 29
+?Number of insertions left: 0
+?Number of insertions left: 29
+?29
+?Number of insertions left:  29
+?Number of insertions left: 29
+?Number of insertions left: 29
+?0
+?Number of insertions left: 29
+?#?Number of insertions left: 0
+?Number of insertions left: 0
+?Number of insertions left:  11
+?#?Number of insertions left:  465
+?Number of insertions left: 29
+?Number of insertions left: 0
+?Number of insertions left: 0
+?Number of insertions left:  29
+?#?Number of insertions left: 29
+?Number of insertions left: 29
+?600
+?Number of insertions left: 29
+?Number of insertions left: 0
+?#?Number of insertions left:  29
+?Number of insertions left: 29
+?#?Number of insertions left: 29
+?-2029
+?Number of insertions left: 29
+?Number of insertions left:  465
+?Number of insertions left: 29
+?Number of insertions left: 0
+?Number of insertions left: 0
+?Number of insertions left: 0
+?Number of insertions left: 0
+?Number of insertions left: 0
+?Number of insertions left: 0
+?Number of insertions left: -1120
+?#?Number of insertions left: 0
+?Number of insertions left:  29
+?Number of insertions left: 29
+?465
+?-2029
+?Number of insertions left: 29
+?Number of insertions left: 29
+?Number of insertions left: 0
+?Number of insertions left: 29
+?

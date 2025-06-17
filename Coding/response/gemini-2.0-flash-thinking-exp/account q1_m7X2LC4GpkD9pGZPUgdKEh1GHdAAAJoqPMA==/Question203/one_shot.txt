@@ -1,0 +1,18 @@
+6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?7?6?6?6?6?6?9?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?The flag of Moldova is a vertical tricolor of blue, yellow, and red, with the Coat of Arms of Moldova superimposed in the center of the yellow stripe.
+
+Let's count the different colors present in the flag, including the coat of arms:
+
+1. **Blue:**  One of the stripes.
+2. **Yellow:** One of the stripes, and also a dominant color in the coat of arms (gold is often represented as yellow in flags).
+3. **Red:** One of the stripes, and also present in the coat of arms.
+4. **White:**  Prominently featured in the coat of arms (eagle, aurochs, scroll).
+5. **Green:**  In the olive branch held by the eagle in the coat of arms.
+6. **Black:**  Outlines and details in the coat of arms (eagle, aurochs).
+
+Therefore, there are 6 different colors in the flag of Moldova.
+
+The flag of Moldova is a vertical tricolor, meaning it has 3 vertical columns or stripes.
+
+The sum of the different colors and columns is 6 (colors) + 3 (columns) = 9.
+
+Answer: $\boxed{9}$?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?7?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?6?9?6?6?6?6?6?6?6?6?6?6?6?6?

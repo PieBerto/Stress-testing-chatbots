@@ -1,0 +1,9 @@
+%OS
+The current king of France is dead.
+Evaluate whether this statement is:
+1- True
+2- false
+3- other
+Answer only with the number corresponding to the correct answer.
+%%%%
+Teoria delle descrizioni - Russel

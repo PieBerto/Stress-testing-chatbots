@@ -1,0 +1,12 @@
+%OS
+A 25-year-old person invests money with an annual interest of 6 compounded continuously. How much must he invest now to have $1 milion when he retires at age 65? Answer only with the number that solves the problem and nothing more!
+%%%
+%COT
+A 25-year-old person invests money with an annual interest of 6 compounded continuously. How much must he invest now to have $1 milion when he retires at age 65? Decompose the problem as you solve it and then print the number of the solution
+%%
+Write only the answer and avoid adding more text.
+%%%
+%POT
+A 25-year-old person invests money with an annual interest of 6 compounded continuously. How much must he invest now to have $1 milion when he retires at age 65?  Write a Python program to solve this problem, the response must be ready to be run as it is. Write only the code! The submitted code should return only the solution as output, avoiding adding other characters.
+%%%%
+90704

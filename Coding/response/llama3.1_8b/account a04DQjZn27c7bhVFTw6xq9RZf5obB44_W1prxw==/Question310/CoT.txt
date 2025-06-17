@@ -1,0 +1,1837 @@
+[d4,d3,d2,d1],[d1,d3,d2],[],
+[d3,d2,d1,d4],[d4],[d3,d1];
+[d1,d3,d2,d4],[],[d4];
+[d4,d3,d2,d1],[d4],[d1,d3];
+,[d1,d3,d2,d4],[d4],[d1,d3];
+[d2,d4,d1,d3],[d4,d3],[d2];
+,[d1,d4,d2,d3],[d3],[d1,d4];
+[d4,d2,d3,d1],[],[d3];?[d4,d3,d2,d1]; [d2,d1];[d1],[d4,d3]; [d1,d2]; [d1],[d4,d3]; [d3]; [d2,d1]; [d1],[d3]; [d1,d2]; [d1],[d4,d3]; [d3,d2]; [d1],[d4]; [d1,d2]; [d1],[d4,d2]; [d4,d3,d2,d1];?[L,d4,d3,d2,d1]; [d4],[d3,d2,d1]; []; [] 
+[d4,d3,d2,d1]; [d4,d3,d2,d1]; []
+[d4,d3,d2,d1]; [],[d4]; [d3,d2,d1] 
+[],[d4,d3,d2,d1]; []; [d1]
+[d1],[]; [] ,[]?[L,M,S]; [M,,S]; [S,M,L]; ,M,S; S,[M,L]; M,S; [S,L,]; L,M,S; [L,],S; S,[L,M]; [M,L,]; [L,S,]; [S,L,]; L,[S,M]; [M,L,]; [S,L,]; [L,],[S]; [S,L,]; ,S; [S,L,]; [L,],S; [S,M,]; [L,S,]; [S,L,];?There is no previous answer to format. What would you like to have me do first?[L,d4,D1],[],[]
+[d2,,D1]
+[d4,d2,,]
+[d4,d2,L],[d2,d1,]
+[D1,d3,d2,d4],[d2,d4,],[d4,,]
+,d2,[L,d3,d4,d1]
+,d3,d2,[L,d4,]
+[L,D1],[],[d3,d4,d2]?There is no previous answer to format. This conversation just started. What would you like me to help you with?Please provide the previous answer for me to format into steps using semicolons and stack notation.?[L,d1,d2,d3,d4]; [d4]; [],[]
+[d4],[d1],[d2,d3,d4]
+[d1],[d2,d4],[d3,d4]
+[d3],[d1,d4],[d2,d4]
+[],[d1,d4],[d2,d3,d4]
+[d2],[d1,d4],[d3,d4]
+[d1],[d4],[d2,d3,d4]
+[d4],[],[d1,d2,d3]
+[d3],[d1,d4],[]
+[d1],[d4],[]
+[d4],[d1],[]
+[d2],[],[d1,d3,d4]
+[d3],[],[d1,d4,d2]
+[d1],[],[d3,d4,d2]
+[d4],[],[d1,d3,d2]
+[d1],[d2],[]
+[d2],[d4],[]?[L,d1,d3,d4],[d1],[d3,d2,d4];[d1,d3,d4],[],[d1,d3,d2,d4];[d1],[],[d3,d2,d4,d1]
+[d1,d3,d4],[],[d1,d3,d2,d4];[d1],[],[d3,d2,d4];[d1,d3,d4],[d1],[d3,d2,d4]
+[d1,d3,d4],[],[d1,d3,d2,d4];[d1],[],[d3,d2,d4];[d1],[],[d3,d2,d4,d1]
+[d1,d3,d4],[],[d1,d3,d2,d4];[d1],[d3,d2,d4],[];[d1,d3,d4],[],[d3,d2,d4]
+[d1,d3,d4],[],[d1,d3,d2,d4];[d1],[d3,d2,d4],[];[d1],[],[d3,d2,d4,d1]
+[L,M,S],[],[]?There is no previous answer to format. What would you like me to help with?[L,d2,d4];[d1,d3,];[];
+[d2,d3,d4];[d1, ];[];
+[d4, ];[d1,d3, ];[]
+[d4, ];[d2, ];[d1,d3]
+[ ];[d1, ];[d3,d4]
+[d1, ];[d2, ];[d3,d4]
+[ ];[d1, ];[d3,d4]
+[d1, ];[];[d3,d4]?[L,d4,d3,d2,d1],[],[]
+[d4,L,d3,d2,d1];[d2,d1],[d3],[]
+[d4,L,d1,d2,d3];[d1,d2],[d3],[]
+[d4,][d2,d1,d3,L];[d1],[d3,d2,d3]
+[d4,][d2,d1,d3,L];[],[d1,d3,d2,d3]?There is no previous answer to format. What would you like me to solve for you?[D,A,D],[B,C,B],[A,D,C]; [D,A,D],[B,C],[B]; [A,D,C],[B],[B]; [,C,D],[B],[A]; [B],[C,D],[A]; [],[A,C],[D,B]; [A,C],[D,B],[]; [],[],[B,D,C]; [,B],[A],[]; [B],[A],[]; [],[B,A],[]; [],[C],[]; [C],[],[]; [],[A],[]; [A],[],[C]; [],[D],[]; [D],[],[B]; [],[],[D,B,C]?[d1,d2,d4],[],[]
+[d1,d2,d4],[d1],[]
+,[d1,d2,d4],[d1]
+[d1],[],[d1]
+,d3,d2,d4],[d1]
+,[d1,d2],[d3,d4],[d1]
+,d3,d2,d4],[d1]
+,[d1,d2],[d3,d4],[d1]
+,[d3,d4,d2],[d1]
+[d4],[],[d3]
+,d3,d2,d4],[d1]
+,[d1,d2],[d3,d4],[d1]
+,[d3,d4,d2],[d1]
+[d4],[],[d3]
+,d3,d2,d4],[d1]
+,[d1,d2],[d3,d4],[d1]
+,[d3,d4,d2],[d1]
+[d4],[],[d3]?[d1,d2,d3,d4],[d2,d3,d4,d1],[d4,d1,d2,d3]; [d1,d3,d4,d2],[d4,d1],[d2,d3]; [d1,d4,d2,d3],[d2],[d3,d1,d4]; [d4,d3,d2,d1],[d1],[d2,d3,d4]; [d1,d3,d2,d4],[d4],[d2,d3,d1]; [d3,d2,d4,d1],[d1],[d4,d2,d3]; [d4,d1,d2,d3],[d3],[d2,d1,d4]; [d2,d1,d3,d4],[],[d4,d3,d2]; [d2,d4,d1,d3],[d3],[d4,d1,d2]; [d1,d4,d3,d2],[d2],[d3,d1,d4];?There is no previous answer to format. What would you like me to help you with?There is no previous answer to format. This conversation has just begun. What would you like me to help you with?[L,M,S];[D1],[D2,D3,D4],[];
+
+[D1,D2,D3,D4],[],[D4];
+
+[D1,D2,D3],[D4],[];
+[],[D1],[D2,D3,D4];
+
+[D1],[D2],[D3,D4];
+[],[D1, D2, D3, D4],[];
+
+[D2],[D3,D4], [D1];
+[],[D2],[D1,D3,D4];
+
+[D1],[D2,D3,D4],[];
+[D2], [D1], [D3,D4];
+
+[D1],[D2], [];
+[D3,D4], [], [];
+
+[D3], [D4], [];
+[D2, D1, D3, D4],[],[];
+
+[ ],[D2,D3,D4], [D1];
+[D4], [], [D2,D3,D3];?[L,D,D,D]; [D,L]; [S];
+[D,L,L],[L,D,D]; [S]; [] ,[L,D,D],[D,L]; [S];
+[],[D,L],[L,S],[L,D,D]; [S],[];
+[],[]; [],[L,D,D],[D,L]; [S];
+[],[],[D,L]; []; [L,S],[D,D],[L,D,D]; [S]?There is no previous answer to format. This conversation just started. What would you like me to help you with I'll be happy to provide the formatted steps once we have an answer to format!?[L,d1,d2,d3,d4]; [],d1; [S],d2,d3,d4; [M,d2],d1;d3; [S],d2,d4; [L,d2],d1,d4; [M,d2,d4],[S],d1,d3; [L,d1],[M,d2,d4],d3; [S,d2],[L,d1,d3]; [],d1,d3; [M,d1],d2;d3; [S,d2,d4]; [L,d2],d1;d4; [M,d2],d1;d4; [S,d1,d3]; [L,d1],d3;d4; []?[L,d1,d2,d3,d4]; [d2,d3,d4]; [],[]
+[d1,d2,d3,d4]; [d1], [d2,d3,d4]
+[],[d1,d2,d3,d4]; [d1,d2,d3,d4]; []
+[],[d2,d3,d4]; [d1,d4]; [d1]
+[d2,d3,d4]; [],[d1,d4]; [d1,d2,d3,d4]
+[],[d1,d2,d3,d4]; []; [d1,d2,d3,d4,d4]
+[ ],[d2,d3,d4], [d1,d4]; [d1,d2,d3,d4]
+[d1],[d2,d3,d4]; [], [d1,d4,d2,d3,d4]
+[d1,d2,d3,d4], []; [], [d1,d4]
+[],[d2,d3,d4]; [d1,d4]; [d1,d2,d3,d4]
+[ ]; [d1,d2,d3,d4]; [], [d4]
+[], [ ], [d1,d2,d3,d4,d4]; []?I'm ready to assist. Please provide the previous output for me to format into steps.?[L,d3,d4];[d1],[d2];[d2],[d1],[]
+[d2],[d1];[L,d3,d4],[];
+[d1],[d2];[],[d3]
+[d2],[];[],[d3,d1]
+[d1],[];[],[d3,d2]
+[d2],[];[],[d3,d1]
+[L,d4];[,];;?There is no previous answer to format. What would you like me to solve for you I'll be happy to provide the steps in the requested format at the end of my response.?There is no previous answer to format. This conversation just started. What would you like to talk about I'll be happy to assist and provide formatted output if needed.?Since there is no previous answer to format, I have nothing to output. What would you like me to help with?[L,M,S]; [d4,d1,d2,d3],[d3],[d4]; [d4],[d3,d1,d2],[d4]; [],[d3,d1,d2,d3],[]; 
+[d1],[d3,d1,d2,d3],[]; [d1,d2,d3],[d3],[d4]; [d1,d2,d3],[d4],[d3]; [d3],[d4,d1,d2],[d3]; [d3,d1,d2],[d4],[];
+[d1,d2,d3],[d4],[d3]; [],[d3,d1,d2,d3],[]; 
+[d3],[d1,d2,d3],[d4]; [] ,[d3,d1,d2,d3],[]; 
+[], [d3,d1,d2,d3], [];?[L,d1,d4];[d2,d3,];[d4,];[]
+[d4,d1,];[d2,d3,];[d4,]
+[,d1,d4];[d3,d2,];[d4,]
+[,,d4];[d1,d3,d2];[d4,]
+[,d1,];[d4,d3,d2];[d3,]
+[d3,d4,];[,] [d3,d2,d1];[]
+[,d4,];[d1,d3,d2];[d3,d4]
+[,d1,];[d4,d3,d2];[d3,d4]
+[,d1,d4];[,] [d4,d3,d2,d1];[]?[L,M,S];[M,L],[S,,];[M,L],[S,L,D];[,L,S],[D,M,L];[M,L],[D,M,S];[,L,M],[S,];[,M,L],[S,D];[L,M,S],[],[];[,M,L],[S,D];[D,S,L],[],[M];[S,L,D],,[M];[S,,],[],[D,L];[D,M,S],[L,],[]?[L,d1], [], []
+[d2], [d1], []
+[d1], [], [d2]
+[d3], [d1], [d2]
+[d1], [d3], [d2]
+[], [d2], [d1, d3]
+[d1], [], [d2, d3]
+[d2], [d1], [d3]
+[d1], [d2], [d3]
+[], [], [d1, d2, d3]
+[d4], [d1, d2], [d3]
+[d3], [d1, d2], []
+[d1], [d3, d2], []
+[], [], [d1, d2, d3, d4]?[L,D],[M,S],[D]
+[D,L],[S,M],[L]
+[M,L],[D,S],[M]
+[S,D],[L,M],[S]
+[L,M],[D,S],[L]
+[S,M],[L,D],[S]
+[D,L],[M,S],[D]
+[S,D],[M,L],[S]
+[L,M],[D,S],[L]
+[D,L],[S,M],[D]
+[M,S],[L,D],[M]
+[D,L],[S,M],[D]
+[S,D],[L,M],[S]
+[D,L],[],[D,S,M,L]?I'm ready to help. What is the next question?### Step 1 - Move smallest disk to destination peg
+
+[[],d4,[]]
+
+### Step 2 - Move second smallest disk to auxiliary peg, over the smallest one
+
+[d3,d1,[d4]]
+
+### Step 3 - Move smallest disk from destination peg back to source peg
+
+[,d4,d1,d3]
+
+### Step 4 - Move largest disk to destination peg
+
+[d1,,d4,d3]
+
+### Step 5 - Move second largest disk to auxiliary peg, over the third largest one and the smallest one
+
+[d2,d3,d1,d4]
+
+### Step 6 - Move third largest disk from source peg over the smallest one to destination peg
+
+[ ,d3,d2,d1,d4 ]
+
+### Step 7 - Move second smallest disk from auxiliary peg to destination peg, under the third largest one
+
+[d2,,d3,d1,d4]
+
+### Step 8 - Move smallest disk from source peg over the second smallest and the third largest ones to destination peg
+
+[ d4 , d2, d3,d1 ]
+
+### Step 9 - Move auxiliary peg's top disk to destination peg
+
+[d2,d4,d3,d1]
+
+### Step 10 - Move largest disk over the second largest one to destination peg
+
+[d1,,d4,d3,d2]
+
+ ### Step 11 - Move second largest disk from auxiliary peg to destination peg, under the largest one
+
+[d1,d4,d3,d2 ]
+
+### Step 12 - Move third largest disk from source peg over the smallest and the second largest ones to destination peg
+
+[ d3 ,d4,d1,d2]
+
+ ### Step 13 - Move largest disk from source peg over the second largest, third largest, and smallest ones to destination peg
+
+[d1,d3,d4,d2 ]
+
+**The Tower of Hanoi with 4 disks is solved.**?[d4,d3,d2,d1],[],[]
+d4,[],[d4]
+[d4,d3,d2],[],[d4]
+[],[d4],[d4,d3,d2]
+[d4,d3,d2],[],[d4]
+[d2,d3,d4],,[d4]
+[d2,d3],, [d4,d3,d4]
+,[],[d2,d3], [d4,d3,d4]
+[d3,d4,d2],, [d2,d3]
+[d2],[d3,d4], [d3,d4,d2]
+[d4], [d3,d2,d3] ,[d3,d4,d2]
+[d3,d4,d2],,[d3,d2,d3]
+[d4,d2,d3],, [d3,d4,d2]
+[d2],[d4,d3,d4], [d3,d4,d2]
+[],[d2,d4,d3] ,[d3,d4,d2]
+[d4,d3,d2],, [d2,d4,d3]
+[d2,d3],, [d4,d3,d2]
+[d3,d4,d2],,[d4,d3,d2]
+[d4],[d3,d2,d3], [d3,d4,d2]?[L,D,A],[D,L,A]; [A,D,L],[L,,D]; [D,L,A],[A,D,L]; [D,L,],[A,D,L,D]; [,D,A],[A,D,L]; [D,L,D],[A,D,]; [D,L,A],[A,D,L]; [],[L,D,A],[]; [L,D,A],[],[D]; [],[L,D,A],[]; [A,D,L],[L,,D]; [L,D,],[A,D,L,D]; [],[D,A],[A,D,L]; [,D,A],[A,D,L,D]?[d4,d3,d2,d1],[],[]
+[d3,d2,d1],[d4],[]
+[d2,d1],[d4],[d3]
+[d1],[d4],[d3,d4]
+[d4],[d1],[d3]
+[],[d4,d1],[d3]
+[],[d3],[d4,d1,d3]
+[d2],[],[d4,d1]
+[d4,d1],[],[d2]
+[],[d4,d1],[d2]
+[],[d2],[d4,d1]
+[],[],[d2,d4,d1,d3]?[L,D,A]; [D,L,A]; [A,,D]; [A,D,L]; [D,A,L]; []; [A,D,L]; [D,A,L]; [A,,D]; [L,A,D]; []; [A,D,L]; [D,A,L]; []; [A,L,D]; [D,A,L]; []; [A,,D]; [D,A,L]; [A,D,]; []; [D,A,L]; [A,,D]; [A,L,D]; [D,A,L]; []; [A,D,L]; [L,D,A]; [A,D,]; [L,A,D]; [];?[L,M,S]; [S,,D]; [,M,D]; [M,D,S]; [S,,D]; [D,M,S]; [],[D,S],[M]; [,M,S]; [][],[S,D],[]; [M,D,S]; [][][,D],[]; [S,D,]?**Tower of Hanoi with 4 disks**
+
+**Step 1:** [d1,d2,d3,d4],[],[]
+**Step 2:** [d1,d2],[],[d3]
+**Step 3:** [d1,d2],,[d3,d4]
+**Step 4:** [d1],,[d3,d4],[d2]
+**Step 5:** [],,[d3,d4],[d1,d2]
+**Step 6:** [d1,d2],,[],[d3,d4,d1]
+**Step 7:** [d1,d2],,[],[d3,d4]
+**Step 8:** [d1,d2],,[d3],[]
+**Step 9:** [],,[d1,d3],[]
+**Step 10:** ,,[d1,d3],[d2]
+**Step 11:** [d2],,[d1],[]
+**Step 12:** [],,[d1],[],[d2]?[L,M,S]; [],[d4,d3]; [d4],[d3,d1]; [d4],[d3,d1,d2]; [],[d1,d2,d3]; [d2],[d1,d3]; [d2,d4],[d1,d3]; [d2,d4],[]; [],[d2,d4,d3]; [] ,[],[d2,d4,d3]; [],[d2,d1]; [d4],[d3,d1]; [],[d2,d3,d1]; [d4],[],[d3]; [],[d2,d1],[],[d3,d1]; [d4],[],[d3]?[,[d4,d3,d2,d1],[]];
+[d4],[d3,d2,d1],[];
+,[],[d4],[];
+[d4,d3],[d2,d1],[];
+[],[d4],d3,[d2,d1];
+,d4],[d3,d2,d1],[];
+[,d4],[d3,d2,d1],[];
+[d4,],d3,[d2,d1];?**Tower of Hanoi with 4 Disks**
+
+[L,D2,D3,D4]; [], [D1]
+[D1,D2],[D3,D4];,[D3]
+[D1,D2,D3],[],[D4]
+[D1,D3],[D2,D4];,[D4]
+[], [D2,D3,D4];[D1,D4]
+[D1,D2],[D3,D4];,[D4]
+[], [D2]; [D1,D3,D4]
+[D1,D4],[]; [], [D3,D4]
+[D1], [D2],[D3,D4]
+[D2,D4],[]; [D1],[D3]
+[],[D1,D4]; [D2,D3],[D4]
+[D2],[]; [D1,D4]; [D3],[D4]
+[D1],[D4]; [],[D2,D3,D4]?[stack1,d3,d4],[d2],[]; [stack1,d4],[d2,d3],[]; [stack2,d1,d3,d4],[d2],[]; [stack2,d1,d4],[d2,d3],[]; [stack1,d2,d3],[d1,d4],[]; [stack1,d2,d4],[d1,d3],[]; [stack2,d1,d3,d4],[d2],[]; [stack2,d1,d4],[d2,d3],[]?Please go ahead and provide the previous output for me to format according to your request. I'll be happy to help!?There is no previous answer to format. This conversation just started. What would you like me to assist you with I'll be happy to provide the formatted output if you'd like to share your steps!?[L,D4,D3,D2,D1];[],[D4]
+[D3],[D4],[]
+[D1],[D3,D4],[]
+[D2],[D3,D4],[D1]
+[D4],[D3,D4],[D1,D3]
+[D3],[],[D4,D1,D3]
+[,][D2,D1],[D3]
+[D3],[],[D4,D1,D3]
+,[D2,D1],[D3]
+[D1],[],[D4,D3]
+[,D3],[D2,D1]
+[D4],[],[D3]
+[D3],[],[]
+[,D2,D1],[D3]
+[D1],[],[D3]
+[D2],[],[D4,D3]
+[D4],[],[D3]
+[D3],[],[D2,D1,D4]
+[,D2,D1],[D4]
+[D1],[],[D2,D3]
+[D2],[],[D4]
+[,D3],[D1]
+[D4],[],[D1,D3]
+[,,][D4]?[L,d4,d2,d1],[d3,d1],[d4],[d2,d3];[d4,d1],[d2,d3],[d1,d3];[d1,d4,d2],[d3],[d1,d3];[] [d1,d3,d4],[d1,d2],[d3];[] [d1,d2,d3,d4],[],[]; [d1,d3,d2,d4],[],[]; [d1,d4,d3,d2],[],[]; [d1,d2,d4,d3],[],[]?[L,D,A]; [D,A,L]; [A,L,D]; [L,D,A]; [D,A,L]; [L,A,D]; [D,L,A]; [],[L,D,A],[]; [],[],[L,D,A]; [L,M,S],[],[]; [M,S,L],[S,],[]; [],[S,L],[M,]; [],[L,S],[M,]; [M,L],[S,],[ ]; [S,L],[ ],[M,L]; [],[M,L],[S,L]; [],[],[M,L]?[S4,d3,d2,d1]; [d2,d3,d4]; []
+[d2,d3,d4],[d1]; [d4]
+[d3,d4],[d1,d2]; [d4]
+[d4],[d1,d2,d3]; [,d4]
+[,,d4]; [d1,d2,d3,d4]
+[d1,d4],[],[d3,d2,d4]
+[],[d2]; [d1,d3,d4]
+[,,d2]; [d1,d3,d4],[]
+[,d1,d2]; [d3,d4]
+[,d2,d1]; [],[d3,d4]
+[,,d4]; [],[d3,d4]
+[,d4],[],[d3,d4]
+[,d4],[],[d3,d4]
+[,],[,]?[L,d4,d3,d2,d1],[d1],[]
+[d2],[d1,d3,d4],[d2]
+[d1],[d1,d3,d4,d2],[d2]
+[d3],[d1,d4,d2],[d2]
+[d1],[d4,d2],[d2,d3]
+[d2],[d1,d4,d2],[d3]
+[d1],[d4],[d2,d3]
+[d4],[d1,d2],[d3]
+[d1],[d2],[d3,d4]
+[d2],[d4],[d1,d3]
+[d1],[d4],[d3]
+[d4],[],[d1,d3,d2]?[L,d4],[d1,L,d3],[d2,d4,d1,d3];[d2,d4,d1,L,d3],[d1,d3,d4,d2],[L,d4,d2,d3];[d2,d4],[d1,d3,d4,L,d2],[d3,d1,d2,d4];[d2,L,d4,d3],[d1,d3,d4,d2],[d4,d2,d1,d3];[d2,L,d4],[d3,d1,d4,d2],[L,d1,d3,d4];[d2,d1,d4,d3],[d3,L,d4,d2],[d4,d1,d2,d3];[d2,d4],[d3,L,d1,d4,d2],[d1,d3,d2,d4];[d2,d1,d3,d4],[L,d3,d4,d2,d1],[d4,d2,d1,d3];[d4,L,d2,d3,d1],[d3,d1,d2,d4],[d2,d1,d3,d4];[d2,d1,d4,d3],[d3,L,d4,d2],[d4,d2,d1,d3];[d4,L,d2],[d1,d3,d4,d2],[L,d1,d3,d4];[d2,d1,d3,d4],[L,d4,d2,d3,d1],[d4,d2,d1,d3];?[,,[d4]]; [d4],[d3],[]; [,][d3],[d4]; [,][,][d4]; [[d3],][d1],[]; [[d3],][d1],[d4]; [,][d2],[d1],[d4]; [[d1]],[],[d2,d4]; [,][d4],[],[d2,d3]; [d1],[d4],[],[d2,d3]; [,][d3],[],[d2,d1,d4]; [d1],[],[d3,d4, d2]?There is no previous answer to format. What would you like me to solve for you?[d4,d3,d2,d1];[d3];[]
+[d4,d3,d1,d2];,[d2];
+[ ];[d4,d3,d1,d2];[]
+[ ];[d4,d3,d1,d2];[d2]
+[ ];[],[d1];[d2,d3,d4]?There is no previous answer to format. What would you like me to help you with?[L,d1,d2,d3,d4]; [ ]; []
+[d1]; [],[d2]
+[d1],[ ]; [d2,d3,d4]
+; [d1,d3,d4],[],[d2]
+[d2]; [d1,d3,d4],[ ]
+[d1],[d2]; [d3,d4]
+[d1],[d2],[d3,d4]; []
+[d1],[ ]; [d2,d3,d4]
+[d2],[d1,d3,d4]; [],[ ]
+[d1],[d2],[d3,d4]; [],[]
+[d1],[ ]; [d2,d3,d4]
+[d4],[d1,d3,d4]; [],[d2]
+[d2],[d1,d3,d4]; [d4],[]
+[d1],[d2]; [d3,d4]
+[d1],[ ]; [d2,d3,d4]
+[d2],[d1,d3,d4]; [],[d4]?[L,d4,d3,d2],[],[]
+[L,,d4,d3],,[d2]
+[,,d4,d3],[d1,], [d2]
+[,d4,d3],[d1, d2] ,[]
+[d4,d3],[d1, d2 ], []
+[ d4 ,][d1, d2 ], [d3]
+[ d4, d3 ],[],[d1, d2]
+[,d4, d3],[], [d1, d2 ]
+[ d4 ,d3],[] ,[d1, d2 ]
+[d4],[d3, d2 ], [d1 ]
+[,] [d3,d2] , [d1,d4 ]
+[ d4 ] [,d2 ] ,[d1,d3]
+[,] [d2 ] ,[d1,d3,d4 ]
+[,][d2], [d3,d4 ],[]
+[,] [],[d2,d3,d4 ]
+[,] [],[d2, d3,d4]
+[,] [d2], [], [d3,d4]
+[,] [], [d2] , [d3,d4]
+ [,d2],[], [d3,d4]?[L,d1,d2,d3,d4]; [d2],[d1,d3],[d4]; [d1],[d2,d3,d4],[d3]; [d3],[],[d1,d2,d4]; [],[d2],[d3,d4,d1]; [d1],[],[d2,d4]; [d4],[],[d2,d1]; [d2],[],[d1,d4]; [] ,[d1,d4],[d2]; [d1],[],[d4]; [d4],[] ,[d1]; [],[d1,d3],[d4,d2]; [d2],[],[d4]; [d1],[,] [d4,d3]; [d3],[],[d1,d4,d2]; [] ,[d1],[d2,d4];?[L,d4,d3,d2,d1]; [d1],[],[d4,d3,d2]
+[d1],[d4],[]; [],[d1],[d4,d3,d2]
+[],[d4,d1],[]; [d4],[d1],[d3,d2]
+[],[],[d4,d3,d2,d1]
+[d3],[d2],[]; [],[d3],[d2,d1,d4]
+[d2],[d3],[]; [],[d2, d1, d4], [d3]
+[d1],[d4,d3,d2]; [],[],[d1,d4,d3,d2]?[L,d4,d3,d2,d1]; [d1]; []
+[d1],[d4,d3,d2],[d1]
+[d1],[d4,d3],[d2,d1]
+[d2],[d4],[d3,d1],[]
+[d1],[d4,d2],[d3]
+[d1],[d2],[d4,d3]
+[],[d4,d2,d3],[]
+[],[d4,d1,d2],[d3]
+[],[d4,d1],[d2,d3]
+[],[d1],[d4,d2],[d3]
+[],[d1],[d4],[d2,d3]
+[d2],[d1,d4],[],[d3]
+[],[d1,d2],[d4],[d3]
+[d1],[d2],[d4],[]
+[d1],[],[d2,d4],[d3]
+[],[d4,d1],[],[d2,d3]
+[],[],[d4,d1,d2]?There is no previous answer to format. This conversation has just started. What would you like to talk about I can format the output as requested when you provide the steps.?There is no previous answer to format. What would you like me to solve for you?[L,,S]; [],[d1],[]; [d1],[],[d4]; [],[d1],[d4]; [],[d2],[]; [d2],[],[d1]; [],[d2],[d4]; [],[d1],[]; [d3],[],[d4]; [],[d3],[d1]; [d3],[],[d4]; [],[d2],[]; [d2],[],[d1]; [],[d4],[d1]; [],[d2],[d3]; [],[d1],[]?1.[d4,d3,d2,d1],[d3,d2,d1],[]
+2.,[d4,d3,d2,d1],[d3,d2]
+3.[,d4],[d3,d2,d1],[]
+4.[d3,d2,d1],[],[d4]
+5.,[,d4],[d3,d2,d1]
+6.[d4,d3,d2,d1],[d3,d2,d1],[]
+7.,[d4,d3,d2,d1],[,d2]
+8.[d3,d2,d1],[],[d4]
+
+9.[d1,d3,d2,d4],[,d2],[]
+10.,[d1,d3,d2,d4],[d3,d2]
+11.[d3,d2,d4],[,d2],[]
+12.,[d1,d3,d2],[] [ d4]
+13.[,d3,d2,d4],[d3,d2],[]
+14.[d2,d1,d3,d4],[,d3],[]
+15.,[d2,d1,d3,d4],[,] [d4]
+16.[d3,d2,d1,d4],[,d3],[]
+
+17.[d1,d3,d2,d4],[,d3],[]
+18.,[d1,d3,d2,d4],[d3,d2]
+19.[d3,d2,d4],[,d3],[]
+20.,[d1,d3,d2],[,] [ d4]
+21.[d3,d2,d4],[],[,] [d4]
+22.,[d3,d2,d4],[,d3],[]
+23.[,d3,d2,d4],[d3,d2],[]
+24.[d2,d1,d4],[],[]?[L,D,A]; [D],[A],[];
+[A,L,D]; [],[L],[D];
+[D,A,L]; [],[A],[D];
+[A,L],[L],[],[D];
+[L],[D],[],[A,D];
+[A,D],[D],[],[L];
+[L],[A,D],[],[D];
+[A,L],[D],[],[L,A];
+[L,D],[D],[],[A];
+[A,D,L]; [],[D],[],[L];?[d4,d3,d2,d1],[d1],[d4,d3,d2]; [d4,d3,d2,d1],[],[d1]; [],[d1],[d4,d3,d2,d1]; [d4,d3,d2],[],[d1,d2]; [d1,d2],[],[d4,d3,d2,d1]; [d2],[],[d1,d4,d3,d2]; [d2],[],[d1,d4,d3,d2,d1]; [],[d1,d4,d3,d2,d1],[d2]; [d2],[],[d1,d4,d3,d2,d1]; [],[d1,d4,d3,d2,d1],[d2]; [],[d1],[d4,d3,d2,d1,d2]; []?However, there is no previous output to format. This conversation has just started. What would you like me to help you with?I'm ready to assist. What would you like me to do?Here is the formatted output:
+
+[[],[],d4]; [d3,d4],[],[d1]; [],[],[d1,d2,d4]; [d3,d4],[],[d1,d2]; [],[],[d1,d2,d3,d4]; [d1,d2,d3],[],[d4]?I didn't provide an answer previously, so there are no steps to format. This conversation just started. What would you like to ask?[L,d1,d4]; [d4, ]; []
+[d1,L,d4]; [],[d4, ]
+[d1,,d2,d4]; [],[d4,d3]
+[d1,d2,d4]; [],[d4,d3]
+[d1,d2,d4]; [d4,d3],[d2,]
+[L,d2,d4]; [d4,d3],[]
+[d1,d2,d4]; [d4,d3],[d2,]
+[L,d2,d3,d4]; [],[L,d1,d4]
+[L,d2,d3,d4]; [d4,d3],[]
+[L,d3,L,d4]; [d4,d3],[d2,]
+[L,d3,d4]; [],[L,d1,d2]?[L,D4,D3,D2,D1],[D3],[D4]
+[D3,D2,D1],[D4],[D4]
+[D4],[D3,D2,D1],[D4]
+[D1],[D3,D2,D4],[D4]
+[D3,D4],[D1],[D4]
+[D4],[D3,D2,D1],[D4]
+[D1],[D3],[D2,D4]
+[D4,D3,D1],[D4],[D2]
+[D2,D1],[D3,D4],[D4]
+[D3],[D1,D4,D2],[D4]?[L,M,S]; [M,S,d1],[S,d1,d2],[M,d1],[L,d2,d4]; [d1,M,S],[d2,S,L],[M,d3],[d4,L,S]; [d1,L,M],[S,d2],[M,d4],[d3,L,S]; [d1,S,L],[d4,M,S],[d3,L,M],[d2,S]; [d1,L,S],[d3,S,M],[d4,L,S],[d2,M]; [L,S,d1],[S,d1,d2,d4],[M,d1,d3,d4]; [d1,M,S],[d2,S,L],[d3,L,S],[d4,M]; [d1,L,S],[d3,S,M],[d4,S,L],[d2,M];?[L,M,S]; [D4],[S,D1,D2,D3]; [] 
+[D3],[M,L,D4]; [],[D4] 
+[D4],[S]; [,D4,D3],[D1,D2] 
+[D2],[S]; [,D4,D3,D2],[D1] 
+[D3],[M]; [D4],[,D3,D2,D1] 
+[D4],[M]; [,D3,D2,D1],[D1] 
+[D3],[M]; [D4,D2],[,D1] 
+[D4],[S]; [,D3,D2,D1],[D1]?Please provide the previous answer for me to format accordingly. I'll create the sequence of steps using only the stack labels without any additional characters or text.?[L,D,A];[D,L,A];[],[D,L,A];[L,D,A];[A,D,L];[D,L,A];[L,D,A];[A,D,L]?[[], [d4,d2],[d1]]
+
+[, [], [d4]]
+[d2,, d1]
+[, d4,[d3]]
+[d2, d1,d1]
+
+[ d4 , d1, d2]
+[] [, d2,d3]
+[d1, d3,d1]
+
+[ d4 , d2,d3]
+[], [] , d1
+[d3,d1,d1]
+
+[ d4 ,,,]
+[], [d3],[]
+[d1,d3,d3]
+[, d3, d2]
+[d1, d2,d4 ]
+
+[,] [, d4 ]
+[d4,, d1]
+[,] [],[]?Here are the steps to solve the Tower of Hanoi with 4 disks:
+
+[d1,d2,d3,d4]; [d4],[d1, d3],[d2]
+[d1,d3,d4,d2]; [d4],[],[]
+[d4,d3,d2,d1]; [d2],[d3],[]
+[],[d1,d3],[d4,d2,d1]
+[d4,d2,d1,d3]; [],[d1],[]
+[d4,d1,d3,d2]; [],[],[d3]
+[],[d4,d2],[d1,d3,d3]
+[d1,d2,d3,d4]; [d2],[],[d3]
+[d1,d3,d4,d2]; [],[d3],[]
+[d4,d2,d3,d1]; [],[],[d1]
+[],[d1,d3],[d4,d2,d3]
+[d1,d2,d3,d4]; [],[d3],[]
+[d4,d1,d3,d2]; [d2],[],[]?[L,D,A]; [D,L,A]; [],[D,A,L],[A,D,L]; [D,L,A]; [A,L,D]; [],[D,A,L]; [],[L,A,D]; [D,L,A]; [] ,[L,D,A]; [],[A,D,L]; [L,D,A]?[L,d4,d3], [d1,d2], []; 
+[d3], [d1,d2,d4], []; 
+[ ], [d1,d2,d4,d3], [];
+[d4,d3], [d1,d2], [ ]; 
+[d3], [], [d4]; 
+[d2], [d1,d4], [d3]; 
+[d3], [d2], [ ]; 
+[d1], [d4], [d2,d3]; 
+[d4], [d1], []; 
+[d3], [ ], [d1,d2]; 
+[d2], [ ], [d1,d3]; 
+[d1], [], [d2,d4]; 
+[ ], [], [d1,d2,d4];?Please provide the previous answer for me to format accordingly. I'll create the output as per your request in the format you specified.?Here are the steps:
+
+[d4,d3,d2,d1];[d3,d2,d1,d4];[],[];
+[d4,d1],[d3,d2];[d3,d1,d4],[];
+[d3,d2,d1,d4];[d1,d4];[d3,d2];
+[d4,d2,d1,d3];[d1,d3];[d4,d2];
+[d1,d2,d3,d4];[],[d4,d2,d3];
+[],[d4,d1,d3],[d2,d3];
+[d3,d2,d1,d4],[];[d4,d1],[];
+[d4,d2,d3,d1];[],[d1,d3,d4];
+[],[d1,d3,d2];[d4,d2,d3,d1];
+[d3,d1,d4],[];[d2,d4],[];
+[],[d2,d4,d1];[d3,d1,d4]
+[]?[L,d1,d2,d4]; [d2]; [d1]
+[d1]; [],[d2,d1,d4]; []
+[d2]; [d1,d4]; [d2]
+[d1]; [d2,d4]; []
+[d3]; [d4]; [d2,d1]
+[d2]; [d1,d4]; [d3]
+[d1]; []; [d3,d2,d4]
+[d4]; []; [d1,d3,d2]
+[d3]; [d2]; [d1,d4]
+[d2]; [d1]; [d3,d4]
+[d1]; [d2]; []
+[d3]; []; [d2,d4]
+[d2]; [d1]; [d3]
+[d1]; [d3]; [d2,d4]
+[d2]; []; [d1,d3,d4]
+[d3]; [d1]; [d2,d4]
+[d2]; []; [d1,d4] 
+[d4]; [d1]; [d2,d3]?**Tower of Hanoi with 4 Disks: Steps**
+
+[ d1,d2,d3,d4 ], [], []
+
+[d1,d2,d3],[d4],[]
+
+[d1,d2],[d3,d4],[]
+
+[d1,d2,d3,d4], [d4], []
+
+[d1,d2,d3],[d4], [d3]
+
+[d1,d2],[d3,d4], [d3]
+
+[d1,d3,d4],[d2], [d3]
+
+[d1,d3],[d2,d4], [d3]
+
+[d1],[d2,d3,d4], [d3]
+
+[d1,d2,d3],[d4], [d3,d1]
+
+[d1,d2,d3,d4], [], [d3,d1]
+
+[d1,d2,d3,d4], [], [d1,d3,d4]?Since there is no previous answer to format, I will wait for your next question before providing the formatted steps. Please go ahead and ask your question!?[L,d2,d4];[d2];[d1]
+[d1,d2,d4];[];[d1]
+[d1];[d2,d3,d4];[d2,d1]
+[d1,d3,d4];[d2];[]
+[d2,d3,d4];[];[d1]
+[d1,d3,d4];[];[d2]
+[d1];[d3,d4];[d2,d3]
+[d2,d3,d4];[];[d1]
+[d1,d3,d4];[];[d2]
+[d1];[d4];[d2,d3,d1]
+[d1,d4];[];[d2,d3]
+[d1];[d4];[d2,d3]
+[d2,d4];[];[d1,d3]
+[d2];[d4];[d1,d3]
+[d1,d4];[];[d2]
+[d1];[d4];[d2,d3]?[L,M,S],[S,L,M]; [M,S,L],[S,M,L],[]; [S,L,M],[M,S,L],[L,M,S]; [L,M,S],[S,M,L],[M,S,L]; [M,S,L],[S,L,M],[L,M,S]; [S,L,M],[L,M,S],[M,S,L]; [L,M,S],[M,S,L],[S,L,M]; [M,S,L],[L,M,S],[]; [S,L,M],[M,S,L],[L,M,S]; [L,M,S],[S,L,M],[M,S,L]; [M,S,L],[S,M,L],[L,M,S]; [S,L,M],[],[L,M,S]; [L,M,S],[S,L,M],[]; [S,L,M],[M,S,L],[L,M,S]; [L,M,S],[M,S,L],[S,L,M]; [M,S,L],[S,L,M],[]; [S,L,M],[],[L,M,S]; [L,M,S],[M,S,L],[S,L,M]; [M,S,L],[L,M,S],[]?[L,d1],[],[d4]; [d1],[],[L,d4]; [],[d2],[d1]; [L,d1],[],[d4,d2]; [],[d2],[d1]; [d1],[],[L,d4,d2]; [],[d3],[d1,d2]; [d1,L,d4,d2],[],[d3]; [],[d3,d2],[d1]; [d1,d4,d2],[],[L,d3]; [],[d3],[d1,d4,d2]; [d4,d2],[],[d3,L]; [],[d3,d2,d4],[]?[L,d4,d3,d2,d1];[],d4;[d3],[d4],[];
+[d4,d3,d2,d1];[d4],;[d3,],[d2];
+[d3,d4,d2,d1];,,[d4];
+[d4,d3,d2,d1];,[d3];[d2,],[d4];
+[d3,d4,d2,d1];,,[d4];
+[d3,d4,d2,d1];,[d4];[d3,],;
+[d4,d3,d2,d1];,;,[d2],[d3];
+[d4,d3,d2,d1];,[d3];[d2,],;
+[d1,d4,d3,d2 ];,[d4];[d3,],[d2 ];
+[d4,d3,d2,d1 ];,[d3];[d2 ,][d4];
+[d3,d4,d2,d1 ];,,[d4];
+[d3,d4,d2,d1 ];,[d4];[d3,],;
+[d2,d4,d3,d1 ];,[d4];[d3,],[ ];
+[d1,d2,d4,d3 ];;,[d4],[d3 ,];
+[d4,d2,d3,d1 ];,,[d3 ];
+[d2,d4,d3,d1 ];,[d3];[d4,],;
+[d1,d2,d4,d3 ];,;,[d4],[d3 ];?[L], [d4], [d1,d3]
+[d4], [], [d1,d3]
+[ ], [d4], [d1,d3]
+[ ], [d1,d4], [d3]
+[], [d1,d4], []
+[d1], [], [d3,d4]
+[d3], [], [d1,d4]
+[ ], [d2,d4], [d1,d3]
+[ ], [d1,d2,d4], [d3]
+[ ], [d1,d2,d4], [d3]
+[], [d1,d2,d4], [d3]
+[d4], [], [d1,d3]
+[d1], [], [d3,d4]
+[d1,d3,d4], [], []
+[d3], [d1,d4], []
+[ ], [d2,d4], [d1,d3]
+[ ], [d1,d2,d4], []?[L,M,S],[D,D,D],[],[],
+[D,D,,],[DD,,][],
+[DDD],[D,],[D,D,D],[],
+[D,][D,D,][D,D,D],[],
+[,,][D,D,][D,D,D],[],
+[,,][DDD],[D,D,D],[],
+[DDD],[D,],[],[],
+[,][D,D,][DDD],[],
+[,][DDD],[D,D,D],[],
+[D,][DDD],[D,D,][],
+[,][D,D,][DDD],[],
+[,][DDD],[D,D,D],[],
+[D,][DDD],[],[]?[[], [d1], []];
+[[], [], [d1]];
+[[d1], [], []];
+[[d1], [d2, d1], []];
+[[d1], [], [d3]];
+[[d1], [d4, d2, d1, d3], []];
+[[d1], [d4, d2, d3], [d3]];
+[[], [d4, d2, d3], [d3]];
+[[], [d4, d3], [d2, d3]];
+[[], [], [d4, d3, d2]];
+[[], [], [d4, d3, d2, d1]]?[L,d4,D1],[D2],[]
+[d4,L,D1],[D2,D3],[]
+[D1,D3],[d4,D2,D3],[]
+[d4,D2],[],[D3]
+[d2,L,D4,D1],[D3],[]
+[d3,L,D4,D2,D1],[D2],[]
+[L,d4,D2,D3,D1],[],[]?[d4,d2,d1], [], [d3]; 
+[],[d3,d1],[d4,d2,d3];
+[d3],[],[d4,d2,d1]; 
+[],[d1,d2],[d3,d4]; 
+[d4,d2,d1],[],[d3]; 
+[d2],[],[d4,d3,d1]; 
+[],[d3,d1],[d4,d2]; 
+[d2],[] ,[d4,d3,d1]; 
+[d1],[],[d4,d2]; 
+[],[d3,d1],[d4,d2]; 
+[d4],[],[d2,d3,d1]; 
+[d1],[],[d3]; 
+[d1,d2],[],[d3,d4]; 
+[],[d3],[d4,d2,d1];?[L,M,S]; [M,D,L],[S,,]; [D,,M]; [M,L,D]; [,S,D,M]; [S,,D]; [D,M,S]; [,D,L]; [L,D,]; [D,S,L]?[L,d4,d3; d4,d3,d2; d1,d3,d2; [],d1,[d4]; d3,d4,[d2]; [d1],[d3],[]; [],[d2],[d3,d4]; [d1],[d3],[d2]; [d3],[d2],[]; [],[d1],[d3,d2]; [d3],[d2, d1], []; [],[d3],[d2,d1]; [] ,[],[d4,d2]?[d1,d2,d3,d4];[],[d1]
+[d2,d3,d4];[d1],[]
+[d1,d3,d4];,[d2]
+[d3,d4];[d1,d2],[]
+[d1,d4];,[d2,d3]
+[d4];[d1,d2],[],[d3]
+[d2,d4];,[d1],[],[d3]
+[d1,d4];,[d2],[],[d3]
+[d4];,[d1,d2],[],[d3]
+[d1,d2];,[],[d3,d4]
+[d1,d2,d4];,[d3],[]
+[d3,d4];[d1,d2],[]
+[d1,d2,d4];,[d3],[]?Please provide the previous answer for me to format into the required output format.?Please provide the previous answer for me to format the steps accordingly. I'll display them as stack1,stack2,stack3;stack1,stack2,stack3;... .?[L,d1,d2,d3,d4],[d4],[d1,d2,d3];[d1],[d4,d3,d2],[d1,d2,d3,d4];
+[d1,d4],[d2],[d3,d1,d4];[d4],[d1,d2,d3],[d1,d2,d3,d4];
+[],[d2,d3,d1,d4],[];
+[d4,d2,d1],[d3],[];[d2,d3,d1,d4],[d4],[d1];
+[d2,d1],[d4],[d3,d1,d4];[d1],[d4,d3,d2],[d2,d3,d1,d4];
+[],[d3,d1,d4],[d1],[d2,d3,d1,d4];
+[d1,d4],[d2],[];[d4],[d2,d3,d1,d4],[d1];
+[d1],[d2,d3,d4],[];
+[d2,d3,d4],[d1],[];[d1],[d4],[d2,d3,d4];
+[],[d1,d4],[d2,d3,d4];?[L,d4,d3;d2,d1,[];[]];[d4,d1,d3;[],d2;[]];[d1, [], d3;d4,d2,[]];[,d4,d2;d1,d3,[]];[d4,d1, [];,d3,d2;[]];[d3, [], d4;d1,d2,[]];[,d1,d2;d4,d3,[]];[,]d1,d2,d3;d4, [];[]]; [,d4,d1;[],d2,d3 ]; [,d2,[],d3;d1,d4, ]; [ ,d2,d1 ; d4, [],d3 ];[d1, [], d3;d2,d4,[] ];[,]d1,d4,d3;[],d2 [];[d4, [], d3;d1,d2, []]; [,d1,d2 ; d4,d3, []]; [ ,d1,d2,d3;[],d4 ];?[L,M,S]; [D1],[D2,D1,S]; [],[S,D1,S],[M]; [D2,D1,S],; [,],[,][D4,D3,D2,D1]?[L,d4,d2,d1];[d3];[]
+[d1,L];[d4,d2];[d3]
+[d2,d4];[L];[d1,d3]
+[d1,d2];[];[d4,d3]
+[d4];[d1,d2];[L,d3]
+[L,d3,d1];[d4];[]
+[d3,L];[d1];[d4]
+[L,d2,d4];[d3,d1];[]
+[L];[d3,d1,d4];[]?Here is the formatted output:
+
+[],[d4,d3,d2],[d1]; [d3,d2],[d4,d1],[ ]; [d3,d2,d1],[d4],[ ]; [d3],[],[d4,d2,d1]; [],[d1,d3],[d4,d2]; [],[d3,d1],[d4,d2]; [d3],[d2,d1],[]; [d3,d2],[d1],[]; [],[d2,d1],[]; [],[],[d4,d3]?There is no previous answer to format. What would you like me to help with?[d1,d2,d3,d4],[d1],[d2,d3,d4];[d1,d2,d3,d4],[],[d1];[d2,d3,d4],[],[d1,d2,d3,d4];[d1,d2,d3,d4],[d1],[d2,d3,d4];[d3],[d2],[d1,d4,d3];[d3],[d2,d4],[];[d1,d4],[d2,d3],[d4];[d1,d4,d3],[d2,d4],[];[d1],[d2,d4,d3],[d4];[d1],[d2,d4],[d3];[d2],[d1],[d4,d3];[d2,d4],[d1],[];[d2,d4],[d1],[d3];[d1],[d2,d4],[];[d2,d4],[],[d1];[d2,d4],[d1],[d3];[d2,d4],[d1],[]?[L,d1,d4,d2,d3], [d1,d3,d4], [] 
+[d1,d3,d4], [], [d2,d1] ; 
+[d1,d3,d4], [d2,d1], [d4] ; 
+[d2,d1], [d4], [d3,d1,d4] ; 
+[d3,d1,d4], [d4], [d2,d1] ; 
+[], [], [d1,d4,d3,d2]?[d1,d2,d3,d4],[d2,d4],[d1],[d3],
+[d2,d4],[d1,d3],[d2],[d4],
+[d1,d3],[d2,d4],[d1],[d3],
+[d2,d4],[d1,d3],[d2],[d4],
+[d1,d3],[d2,d4],[d1,],[],[d3].?Please provide the previous answer for me to format. I'll create a sequence of steps using only the operations you performed on your stacks in the previous answer, one operation per line, separated by semicolons.?[L,d4,d3; d1,d4,d3; [],d1,d2,d3;d4,d3,[],d2; ,d2,d3,d4;d1,d2,d3,d4;,d3,[]; d1,d2,d4 [];d1,d2,d3,d4; [],d4,[]; d1,d2,d3 [,];d4,[],d2;d3,d2,d4[d1][]?I'm ready to assist. What would you like me to format?[L,d1,d4];[d4,,d2];[,d1,d4,];[d1,d4,d3];[d3,,d4];[d1,d4,d2];[d2,,d3];[d1,d4,d3];[d3,,d4];[],[d4,d2,d1];[d1,,d3];[d1,d2,d4];[d4,,d3];[d1,d2,d3];[d3,,d4];[];[d4,d3,d1];[d1,,d2];[d1,d3,d4];[d4,,d2];[d1,d3,d2];[d2,,d4];[d1,d3,d4];[d4,,d3];[],[d4,d1,d2];[d2,,d3];[d2,d1,d4];[d4,,d3];[];[d4,d1,d3];[d3,,d2];[d4,d1,d2];[d2,,d3];[d4,d1,d3];[d3,,d2];[],[d3,d2,d4];[d4,,d1];[d3,d2,];[d3,d2,d4];[d4,,d1];[];[d4,d1, ];[d1,,d3];[],[d4,d3,d2];[d2,,d1];[d4,d3, ];[d3,d2, ];[d4,d1,d3];[d3,,d2];[d4,d1, ];[];[d3,d2, ];?[L,d4,d3,d2];[d1];[]
+[d1,d4,d3,d2],[d2];[d1]
+[d4,d2,d3,d1],[d1,d2];[] 
+[d1,d4,d3,d2];[],[d2]
+[d3,d1,d4,d2];[d1];[d2]
+
+[L,d4,d3,d2];[d1],[];[]
+[d1,d4],[d3,d2];[];[d1]
+[d1,d4,d3,d2];[],[d2];[d1]
+[d3],[d1,d2,d4];[];[d1]
+
+[L,d4,d3,d2];[d1],[];[]
+[d1,d4,d3,d2];[d2];[d1]
+[d2,d4,d1,d3];[],[d1];[]?[L,d3,d4,d2];[d1];[]
+[d3,d4,d2,d1],[],[]
+[d3,d4,d2],[d1];[]
+[d4,d2],[d1,d3];[]
+[],[d4,d1,d3],[d2]
+[d2],[d4,d1,d3];[d3]
+[],[d4,d1];[d3,d2]
+[d1],[],[d4,d2,d3]?**Tower of Hanoi with 4 disks:**
+
+[ d1,d2,d3,d4 ],[],[]
+[d1,d2,d3],[d4],[]
+[d1,d2],[d3,d4],[]
+[d3],[d1,d2],[d4]
+[d1,d3],[d2],[d4]
+[d1],[d2,d3],[d4]
+[ d3, d2],[],[d4, d1]
+[d1],[d2],[d4]
+[ d2 ],[d1], [d4 ]
+[d1],[d2],[d4]
+[ d2 ],[] , [d4, d1]
+[d3],[d2,d1],[]
+[d1],[d2], [d4 ]
+[],[d2], [d4, d1]
+[d3],[], [d4, d1]
+[d2],[d1], [d4 ]
+[d1], [], [d4, d3]
+[d2],[d1], []
+[d1], [], [d4, d3]
+[d2],[], [d4, d3]?This conversation has just started. There is no previous answer to format. What would you like me to solve?[L,D,,][,D,L],[D,,L],[D,L,,]; [,,D,L],[D,L,],[D,,L]; [,,D,],[D,,L],[L,,D]; [,,D],[D,L,],[L,,D]; [,D,],[D,,L],[L,,D]; [,,D],[],[L,D,]; [,,D],[L,,D],[]; [,,D],[],[L,D,]?[L,M,S];[S,],[L,M];[L,,M,S];[,] [M,S],[L,];[M,,S,L];[,] [S,L],[M,];[S,,L,M];[M,S],[],[L,M];[M,L],[S,];[M,,S,L];[,] [L,M],[S,];[L,,M,S];[S,L],[],[M,S];[S,L],[M,];[M,,L,S];[,] [L,S],[M,];[L,,S,M];[,L,M,S];[M,L],[],[S,L]?There is no previous answer to format. What would you like to ask?[L,d1],[d2],[]
+[d2],[d1],[d2,d1]
+[,][d1,d2],[d1]
+[d4,d3],[d2],[d1,d2,d3,d4]
+[d4,d3,d1],[d2],[d1,d2,d3,d4]
+[d4,d3,d1,d2],[d2],[d1,d3,d4]
+[,][d1,d3,d4],[]
+[L,d4],[d3],[d2,d1]?[L,M,S]; [],[S,L,M]; [M],[S,L],[]; [S,L,M],[M]; [S,L],[M]; [L,M],[S,L,M]; [S],[],[L,M]; [M],[L,S]; [L,M],[S]; [L],[S,M]; [M],[L]; [],[S,L,M],[L]?[[], [d4], [d1,d2]], []; [], [d1,d2]]; [d1], [d2,d4], []; [d1]; [d3], [d1,d2], [d4]; []; [d1,d3], [d2], [d4]; [d3], [], [d1,d2,d4]; [d3,d4], [], [d1,d2]; [], [d1,d3,d4], [d2]?[L,d1,d2,d3,d4];[],[]
+[d1,d2,d3,d4];[],[d4]
+[d1,d2,d3];[d4],[]
+[d1,d2,d4];[],[d4]
+[d1,d4];[d3],[]
+[d1],[d3],[d2,d4]
+[d2,d4];[d3],[]
+[d4];[d3],[d1,d2]
+[],[d3],[d1,d2,d4]
+[d1,d3];[],[]
+[d1,d3,d4];[],[d2]
+[d3];[d2],[]
+[d1,d3,d4];[d2],[]
+[d2];[],[d1,d3,d4]
+[d1,d3];[d2],[]
+[d1,d3,d4];[d2],[]
+[d4];[d2],[d1,d3]
+[d3];[d2],[d1,d4]
+[],[d2],[d1,d3,d4]?[d4,d2,d3,d1],[d1,d3,d4,d2],[],[]
+[d3,d4,d2,d1],[d2],[d1,d4,d3],[]
+[d4,d3,d1],[],[d2,d4,d3],[d1]
+[d4,d3,d1],[d2,d4,d3],[d1],[]
+[d4,d3,d1],[d4,d2],[d3,d1,d2],[]
+[d3,d1,d2,d4],[d4],[d2],[d1]
+[d2,d3,d1,d4],[d1],[d4],[d3]
+
+[d1,d3,d4,d2],[d2],[d4,d3,d1],[]
+[d3,d1,d4,d2],[d4,d2],[d1],[d3]
+[d1,d2,d4,d3],[d4,d3,d2],[d3],[d1]
+
+[d4,d2,d3,d1],[d1,d4,d3,d2],[d2],[d3]
+[d2,d3,d1,d4],[d3],[d2,d4,d3,d1],[]
+[d1,d4,d3,d2],[d3,d1,d4,d2],[d4],[]
+
+[d2,d4,d3,d1],[d1],[d4,d3,d2],[d3]
+[d3,d1,d2,d4],[d2,d4,d3,d1],[d1],[d4]
+[d2,d4,d3,d1],[d1,d4,d3,d2],[d4],[d3]?,[],[]
+; [D,D,D],[D,D,D],[]
+; [D,D,D],[D,D,D],[D]
+; [D,D,D],[D,D,D],[D,D]
+; [D,D,D],[D,D,D],[D,D,D]
+; [D,D,D],[D,D,D],[D,D]
+; [],[D,D,D],[D,D,D]
+; [],[D,D,D],[D,D,D]
+; [D],[D,D,D],[D,D,D]
+; [D],[D,D,D],[D]
+; [D,D],[D,D,D],[D]
+; [D,D],[D,D,D],[D,D]
+; [D,D],[D,D,D],[]
+; [],[D,D,D],[D]
+; [],[D,D,D],[]
+; [D],[D,D,D],[]
+; [D],[D],[D]
+; [D],[D],[]
+; [],[D],[D]?Please provide the previous answer for me to format accordingly. I'll use only the steps from that answer and format them as requested.?[L,M,S]; [M,d1,S],[S,d2,L],[];
+[M,d1,S],[S,d2,L],[L,d4,]; 
+[S,d1,d4,d2],[M,d3,L],[]; 
+[S,d1,d4,d2],[L,d3,M],[]; 
+[],[d1,d3,M],[d4,d2,S];
+[d1,d3,d4,d2],[S,M,L],[];
+[d1,d3,d4,d2],[M,S,L],[];
+[L,d4,d2,d1],[M,d3,S],[];
+[M,d1,d4,d2,d3],[L,S,];?[L,M,S];[d4,d3],[d1],[];[,][d4,d3,d1],[d2];[d4],[d3,d1],[d2];[d4,d3],[],[d2,d1];,,[d4,d3,d1],[d2];,,[d3,d4],[,]?Here is the formatted output:
+
+[d4,d3,d2,d1]; [], [d4]
+[d2,d3,d4],[d1] ; [], [d4]
+[d1,d3,d4],[]; [d2], [d4]
+
+[],[d1,d3,d4]; [d2], [d4]
+[d2],[d1,d3,d4] ; [], [d4]
+[d4],[]; [d1,d3,d4], [d2]
+
+[],[d1,d3,d4]; [], [d2,d4]
+[d1],[d3,d4] ; [], [d2,d4]
+[d4],[]; [d1], [d3,d4]
+
+[],[d1,d3,d4]; [], []
+[d2],[]; [d1,d3,d4], []
+
+[],[d1,d3,d4]; [d4], []
+[d3],[d1,d4] ; [], []
+
+[],[d1,d3,d4]; [d2],[d4]
+[d2],[]; [d1,d3,d4], [d4]
+
+[],[d1,d4,d3]; [d2], [d4]
+[d1],[d2,d4,d3] ; [], []
+[d4],[]; [d1,d2,d3,d4]
+
+[],[d1,d2,d4,d3]; [], []
+[d2],[]; [d1,d2,d3,d4]
+
+[],[d1,d2,d3,d4]; [d4], []
+[d3],[d1,d2] ; [], [d4]
+[d2],[]; [d1,d3,d4]?[L,D4,D3,D2,D1],[D4],[D3];[D4,D2],[D3,D4],[];[D4],[D3,D2],D4;[],D3,[D4,D2,D1,D3];
+[D4],[D2,D3],D4;[],D1,[D3,D2,D4];[D4,D2],[D3],D1;[,D4,D1],[D2,D3,D1];
+[D3,D1,D4],[D2],[];D4,[[D2,D1]],[];D3,[[D4,D1]],[];D4,[],[D3,D2,D1]
+D4,[D2,D3],[];[],D4,[D1];D3,[D1],[];D2,[D3,D1],D4;D1,[[D3,D2]],[]?[L,d1,d2,d3,d4];[d2,d4],[d1,d3],[ ]; 
+[d1],[d2,d4],[d3,d1,d4]; [d1,d3,d4], [], []; 
+[d4],[ ],[d2,d1,d3]; [d1],[],[d3,d4];
+[],[d2,d4],[d1,d3,d4]; [d1,d3], [], [d4]; 
+[d2],[d1,d3,d4],[]; [d3,d4], [], [d1,d2];
+[d1,d2,d4],[ ],[d3,d1]; [], [d2,d4], [d1,d3,d4];
+[d3,d1,d4],[],[d2]; [d2,d4],[d1],[]; 
+[d1,d3,d4], [], [d2,d4]; [d1], [], [d3,d4,d2];?This conversation has just begun. What is the previous answer I'll format it for you as requested.?[d4,d3,d2,d1],[d2,d1],[d3,d1,d2]
+
+[d4,d3,d2,d1],[],[d2,d1]
+
+[d4,d3,d1],[d2,d1],[]
+
+[d4,],[d2,d1],[d3,d1]
+
+,[d2,d1],[d3,d1,d4]
+
+,[d2,d3,d4],[d1,d4]
+
+,[d3,d4],[d1,d2,d4]
+
+,[d2,d4],[d1,d3,d4]
+
+,[d1,d3,d4],[],[d2,d4]?[L,d4],[],[];
+[d3],[d4],[];
+,[d3,d4],[d2];
+,[d4],[d1];
+,[d3],[d2];
+[d1],[],[d3];
+,[d2],[d4],[d1];
+,[d3],[],[d2,d1];
+,[d4],[],[d3,d2];
+,[d3],[],[d2,d1];
+,[d2],[d4],[];
+,[d1],[],[d3];
+,[d4],[],[d3];
+,[d3],[],[d1,d2];?[d4,d3,d2,d1],[],[]
+[d4,d3,d2],[d1],[]
+[d3,d2],[d4,d1],[]
+[d2],[d3,d4,d1],[]
+[d1],[],[d3,d4,d2]
+[d2,d1],[],[d3,d4]
+[d1],[],[d2,d4,d3]
+[d2],[],[d1,d4,d3]
+[d1],[],[d2,d3,d4]?[L,d1],[],[d4]
+[d2,d4],[d1],[]
+[d1],[d1,d2],[];[d4],[],[d2]
+[d4],[],[d2];[],[L,d3],[]
+[d1],[d1,d2,d3],[];[d4],[],[d3]
+[d4],[],[d3];[],[L,d2],[,]?However, I don't see any previous output to format. Please provide the text you'd like me to format, and I'll be happy to assist you!?[L,d1], [d4], [d3,d2]
+[d1,d3], [d4,d2], []
+[d4], [d3,d2,d1], [d2]
+[d1], [d4,d2], [d3]
+[], [d4,d2,d1], [d3]
+[d1,d3], [], [d4,d2]
+[d4], [d2], [d1,d3]
+[d2], [d1,d3,d4], []
+[d1], [d3,d4], [d2]
+[d2], [d1,d3], [d4]
+[], [d1,d3,d4], [d2]
+[d1,d3], [], [d2,d4]
+[d4], [d2], [d1,d3]?[L,M,S]; [D3,D4],[],[];
+[D3,D4],[],[D3];
+[D4],[],[D3,D4];
+[D2],[],[D3,D4];
+[D1],D3,[D2,D4];
+[D4],[D1,D3],[];
+[D1],[D3,D4],[D2,D4];
+[D2],[D3,D4],[D1,D4];
+[D3],[D2,D4],[];
+[D1],[D3],[D2,D4];
+[D2],[D3],[D1,D4];
+[D1],[D2],[D3,D4];?[L,d1,d4]; [d1], [d2,d3]; [d1,d2], [d4], [d3]; [] , [d1,d2,d3], [d4]; [d1], [], [d2,d3,d4]; [d1,d3], [d2], []; [d1], [d3,d2], [d4]; [d1,d4], [d3], []; [d1], [], [d3,d4,d2]; [] , [d1,d3,d4], [d2]; [d1], [d4], [d3,d2];?[L,d1,d4,d2,d3];[d2,d1,d4];[d4];[d1,d2,d3,d4];[],[d2,d1,d4],[];[d2,d4],[d1];[d4];[d1,d4],[],[d2,d3,d4];[d4,d2],[d1,d3];[d2,d4],[d1,d3,d4];[],[d4,d3,d2],[d1];[d1,d3,d4],[d4,d3,d2];[];[d1,d4],[],[d3,d2,d3];[],[d4,d3,d2],[d1,d3,d4];[d4],[d3,d2,d3,d1];[d1,d3,d4],[d2,d4,d3];[],[],[d1,d3,d4,d2,d4];[d2,d3,d4,d1],[d4];[d4,d1],[],[d2,d3,d4];[],[],[d1,d3,d4,d2,d4];?Here is the solution formatted as requested:
+
+[d1,d2,d3,d4], [d1],[]
+[d2,d3,d4], [],[d2]
+[d1], [d1,d3,d4], [d2]
+[], [d1,d3,d4], [d1,d2]
+[d3,d4], [], [d1,d2]
+[d1,d3,d4], [], []
+[d4], [d1,d3,d4], []
+[d1,d2], [d1,d2], []
+[], [], [d1,d2,d3,d4]
+[d1,d2], [d1], []
+[d4], [], [d1]
+[d2], [d1,d2], []
+[d1], [], [d1,d2]?Please provide the previous answer for me to format accordingly. I'll use only the steps from your previous response and format them as requested.?[L,D,d4,d3], [d2], []
+[d1,d4,d3], [], [d2]
+[d1],[d4,d3], [d2]
+[], [d4,d3], [d1,d2]
+[d3], [d1,d4], [d2]
+[d1], [d2], [d3,d4]
+[d3], [d2], [d1,d4]
+[d1],[d4], [], [d3,d2]
+[d4], [d3], [d1,d2]
+[d1,d2], [], [d3,d4]
+[d1], [d2], [d3,d4]
+[d3], [d1,d4], [d2]?[L,D,A]; [D,A,L]; [],[A,L],[D]; [A,D]; [L,A]; [D,L]; [],[L,D]; [D,A]; [L,D]; [],[D,L]; []; [],[D,L]; [],[A,D]; [L,D]; [D,A]; [],[L]; [],[A,L]; [],[D]; []?[d4,d3,d2,d1],[d1],[],
+[d4,d3,d2,d1],[d1,d2],[d1],
+[d3,d2,d1,d4],[],[d1,d2],
+[d4,d3,d2,d1],[],[d1,d2,d3],
+[d4,d3,d1,d2],[],[d2,d3,d1],
+[d4,],[d3,d1,d2],[][],
+[d4,d2,d1,d3],[],[d3],
+[d4,d1,d2,d3],[],[d3,d2,d1],
+[d4,d1,d3,d2],[],[d2,d3,d1]?[L,d4,d1]; [d2,d3]; [] 
+[d2,d3,d4]; [d1]; [] 
+[d1,d4,d3]; [d2]; [] 
+[],[d2],[d1,d3,d4] 
+[d1,d4,d3]; [],[d2] 
+[d2,d4]; [d1,d3]; [] 
+[d1,d4]; [],[d2,d3] 
+[d3,d2,d4]; [d1]; [] 
+[],[d1],[d3,d2,d4] 
+[d1,d3,d2,d4]; [],[]?[[], d4, d3],[d2],[]
+; [d4,d2],[d3],[]
+; [],[],d4
+; [],d1,[d4]
+; [d2],[],[d1]
+; [d1,d2],[d3,d4],[]
+; [d4],[d2,d3],[]
+; [],d1,[d4]
+; [d2,d3],[d1],[d4]
+; [],[],d4
+; [d3],[],[d1]
+; [d1,d3],[d2,d4],[]
+; [d2],[d1,d3],[]?[d4,d3,d2,d1],[d2,d4],[d1] 
+[d4,d3,d2,d1],[d2],[d1,d4] 
+[d4,d3,d2],[],[d1,d4] 
+[d3,d2],[],[d4,d1] 
+[],[d2,d4],[] 
+[],[],[d4,d1,d3,d2]?[L,M,S]; [d4,d3,d2,d1],[d1],[ ]; 
+[d2,d3,d4,d1],[],[d1]; [d3,d4,d2,d1],[ ],[d2]; 
+[d3,d4,d1],[d2],[d1]; [],[d4,d3,d1],[ ]; 
+[d4],[d3,d1],[d2]; [],[d1],[d3,d4]; 
+[],[d4,d3],[d1,d2]; [d4],[d3],[]; 
+[d2,d4],[d1,d3],[]; [],[d4,d1,d3],[ ]; 
+[],[d1,d3,d4],[ ]; [d4,d3,d1],[ ],[]; 
+[],[d1,d4],[],[d3]; [d1,d3],[d4],[];?[L,M,S];[d4,,];,[d2,d1,,];,;[d4,d1,d2],[d3,,];,[d2,d1,d4][,d3];,[d3,d1,d2],,[d4,d3,d1];,[d4,d1,d3],,[d2,d3,d1];,[d2,d3,d1,d4],[];[d4,d2,d3,d1],[],[]?[L,D,A],[D,L,A]; [A,,[D,L]]; [,D,[A,L,A]]; [A,[L,D],[D,D]]; ,[A,L,[D,D,D]]; ,[,L,[A,D,D]]; ,[,] [D,L,A]; [L,[A,D,D],[D,D]]; ,[A,L,[]]; [A,[L,D],[,] ]; [],[L,D],[D,D]?[L,d1,,d2]; [,d1,L,d2]; [L,,d1,d2]; [d3,,L,d2]; [],[d2,L,d1]; [L,d2,,d1]; [],[d3,d1,L,d2]; [d1,,L,d2,d3]; [d3,,L,d2,d1]; [,d3,d1,L,d2,d1]; [L,d1,,d2,d3]; []?[L,d3,d4];[d1],[d2],[];
+[d2],[d1],[d3,d4];
+[d1],[d3,d4],[d2];
+[d3,d4],[d1],[d2];
+[d2],[d3,d4],[d1];
+[d1],[d3,d4],[d2];
+[d4],[d1],[d3,d2];
+[d3,d2],[d1],[];
+[d1],[d3,d2],[d4];
+[d3],[d1],[d4,d2];
+[d2],[d1],[d4,d3];
+[d1],[d3],[d4,d2];
+[d2],[d1],[d4,d3];?[L,d4,],[d1,d2,d3:],[];
+,[d1,],[d2,d3,][d4];
+,[d2,],[d3,];[d1,]
+,[d3,],[d2,];[d4];
+,[d1,],[d3,];[d2,][d4];
+,[d2,],;[d1,d3][d4]
+,[d3,],;[d2,][d1][d4]
+,[],;[d3,][d2][d1][d4]?[L,d4,d1]; [d2]; []
+[d1,L,d1]; [d4,d2]; []
+[d4]; [L,d1,d2]; [d3]
+[d1]; [L,d2,d4]; [d3]
+[d4]; [],[L,d2,d3]; [d1]
+[L,d3,d4]; [d2],[],[d1]
+
+[L,d3,d4]; [d2],[d1]; []
+[d4]; [L,d3,d4]; [d2]
+[d3]; [L,d4,d3]; [d2]
+[d4]; [],[L,d3,d2]; [d3]
+[L,d2,d3]; [d4],[],[d1]
+
+[L,d2,d3]; [d4],[d1]; []
+[d3]; [L,d2,d3]; [d4]
+[d4]; [L,d2,d4]; [d3]
+[d2]; [],[L,d4,d3]; [d1]
+[L,d1,d2]; [d4],[],[d3]
+
+[L,d1,d2]; [d4],[d3]; []
+[d4]; [L,d1,d4]; [d2]
+[d1]; [L,d4,d1]; [d3]
+[d4]; [],[L,d1,d3]; [d2]
+[L,d3,d4]; [d1],[],[d2]?Since there was no previous answer, I have nothing to format. Please provide a response for me to format.?[L,M,S]; [S,L,M]; [],[M,S],[L]; [M,S]; [L],; [S,M,L]; [],[M,L],[S]; [M],; [S,L,M]; [],[],[L,M,S]?[d1,d2,d3,d4],[],[]
+[d1,,d2,d3,d4],[d2],[]
+[d1,d2,d3,d4],[],[d1]
+[d3,d2,d1,d4],[],[]
+[d1,d2,d3,d4],[d4],[d1]
+[,d1,d2,d3,d4],[d3],[d4]
+[,d2,d1,d3,d4],[d3,d4],[]
+[d2,,d3,d4],[d1,d4],[]
+[d4,],[d3,d2,d1],[]?[L,D4,,], [D3,,],[],; [D4,,],[D3,,],[]; [,D3,[D4,,],],[D2,,]; [,D4,][D3,,],[D2,,]; [D3,,],[D4,],[D2,,]; [,D4,][D3,,],[D2,,]; [D3,,],[D4,],[D2,,]; [,D2,][D3,,],[D4,,]; [,D3,][D2,],[D4,,]; [] ,[D1,][D3,[D2,[D4,,]]]];?[d4,d2,d3,d1],[d1,d2],[d1]; [d4,d2,d3,d1],[],[d1]; [d4,d3,d2],[d1,d2],[]; [d4],[d3,d2,d1],[]; [],[d4,d1],[]; [d4],[d1,d2],[]; [d3],[d2,d4,d1],[]; [d2,d4,d1],[],[d3]; [d2,d4],[d1],[]; [],[d2,d4],[d1,d3]; [],[],[d1,d2,d3,d4]?I didn't provide an answer previously, so there is no output to format. If you'd like to ask me a question or provide the previous answer for formatting, I'll be happy to help!?[4,3,2],[2,1],[1]; [3,2,1],[4],[2]; [3,2],[4,1],[1]; [4,3],[1,2],[]; 
+[2,1],[3],[4,2]; [3,2,1],[4],[2]; [1,4],[2,3],[1]; [4,2],[3],[];
+[2,3],[1,4],[2]; [1,4],[3,2],[]; [3,2],[4],[1]; [4,3,2,1],[],[]?[L,d4,d3,d2,d1]; [],d4,[d1,d3,d2]; [d1,d3,d2,d4],[d4]; [],[d1,d3,d2,d4]
+[d2,d4],[d1,d3,d4,d2],[]; [],d2,[d4,d1,d3,d2]; [d1,d3,d2,d4],[d4],[]
+[],[d3,d1,d2,d4,d3]; [],d3,[d1,d2,d4]
+[d2,d4],[],[d1,d3,d4,d2]; [d1,d3,d4,d2],[]; [],[d4,d2]
+[d1,d2,d4],[d3,d4,d2,d1],[]
+[d3,d1,d4,d2],[],[d1,d2,d4]
+[d1,d3,d4,d2],[]; [],[d2,d4]
+[],[d4,d1,d3,d2]; [d1,d3,d2,d4],[]; [d2,d4],[]
+[d1,d3,d4,d2],[]; [],[d1,d2,d4,d3]?[L,d4], [d3], []; [S,d4], [],[L,d3]; [L,d3], [],[S,d4]; [], [L,d2], [S,d3,d4]; [L,d1],[d3], [d2,S,d3]; [d2],[], [S,d3,d4,d1]; [L,d1], [], [S,d2,d3,d4]; [], [L,d2], [d1,S,d3,d4]; [d3], [], [d4,L,d2]; [] , [d1, d3], [d2,S,d4]; [d2],[], [S,d4,d3,d1]?[L,d1,d2,d3,d4];[d1,d2],[d3,d4];[d2,d1],[d3,d4],[];
+[d1,d2,d3,d4];[],[d1,d2];[],[d3,d1]
+[d3,d2,d1,d4];[],[d1,d3];[],[]
+[d1,d2,d3,d4];[d1],[d3,d2];[],[d1,d3]
+[d4,d1,d2,d3];[],[d1,d4];[],[d3,d1]
+[d3,d2,d1,d4];[],[d1,d3];[],[]
+[d2,d1,d4,d3];[],[d1,d4];[d2],[d3]
+[d1,d4,d3,d2];[d1],[d3];[],[d2,d4]
+[d3,d4,d1,d2];[],[d3,d4];[],[d1,d2]
+[d4,d1,d2,d3];[d4],[];[],[d1,d3]
+[d1,d2,d3,d4];[d1],[d2];[],[d3,d4]
+[d2,d1,d3,d4];[],[d1,d2];[],[d3,d4]
+[d1,d2,d3,d4];[],[d1,d2];[],[d3,d1]
+[d2,d1,d3,d4];[d2],[d1];[],[d3,d4]
+[d1,d2,d4,d3];[],[d1,d2];[],[d3,d4]
+[d3,d4,d2,d1];[],[d3,d4];[d2],[]?Here is the formatted solution:
+
+[d4,d3,d2,d1],[d1],[],[];
+[d2],[d1],[d2],[];
+[d1],[],[d2,d1];
+[d2],[],[d1];
+[d3],[d1],[d2];
+[d1],[],[d2,d1];
+[d2],[d1],[d3];
+[d1],[d4],[d2,d3];
+[d4],[d1],[d2,d3];
+[d1],[d2],[d4,d3];
+[d3],[d1],[d2,d4];?There is no previous answer to format. This conversation has just started. What would you like to discuss I'll be happy to provide the requested output if we have an answer to format.?[L,M,S]; [d4,d3],[d2],[]; [],[d4,d3],[d2]; [d1],[d2],[d4,d3,d2]; [],[d2],[d1,d4,d3]; [d1,d4,d3],[d2],[]; [],[],[d1,d4,d3,d2]; [d1,d4,d3,d2],[],[d2]; [d1,d2,][d4],[]?[L,M,S]; [],[d4],[]; [d3,d4,L],[M],[S]; [],[d4],[d3,d2,d1]; [d4],[d3,d1,L],[d2,d3]; [],[d4,d3],[d2,d1,d3]; [L],[d4,d3],[d2,d1,d3]; [],[],[d4,d3,d2,d1]?There is no previous answer to format. What would you like me to help you with?[d1,d4],[d2,d3],[]
+;d4,[d2,d3],[]
+;[d1,d4],[d2,d3],[]
+;d1,[d4,d2,d3],[]
+;d4,[],[d1,d2,d3]
+;d2,[d1,d3],[]
+;d4,[d1,d3],[]
+;d1,[d4,d3],[]
+;d4,[],[],[d1,d3]
+;[d2,d3],[d1],[]?There is no previous answer to format. This conversation has just started. What would you like to talk about?[d1,d2,d3,d4],[d4,d2],[d1,d3,d4];[d2],[d1,d3,d4],[d2,d4];[d1],[],[d3,d4];[d2],[d1,d3,d4],[d2,d4];[],[d1,d3,d4],[d2,d4,d3];[d3],[d1,d4],[d2,d3,d4];[][],[d1,d4],[d3,d2,d4;?[L,d4,d3];[d2,d1],[],[]
+[d3,d4],[d2,d1],[d1]
+[d1,d4,d2],[d3],[d1]
+[d4,d3],[],[d1,d2,d1]
+,[d4,d3],[d1,d2]
+,[d4,d3],[d1,d2]
+,[d1,d4,d3],[d2],[]
+,[d1,d4,d3],[d2,d4],[]
+,[d2,d4],[d1,d4,d3],[d1,d3]
+,[d4],[d2,d1],[d1,d3]
+,[d4,d1],[d2],[]
+,[d1],[d4,d2],[d3]
+,[d2],[d4,d1],[d1,d3]
+,[d1,d2,d4],[d3],[]?[L,D,A];[D,A,L];[A,L,D];[L,A,D];[D,L,A];[A,D,L];[D,L,A];[A,D,L];[L,A,D];[D,A,L];[L,D,A];[A,L,D];[D,L,A];?[L,d4,d3], [d1,d2,d4], [] 
+[d1,d4,d3], [], [d2] 
+[d2],[d1,d4,d3], [d1] 
+[],[d1,d3,d4], [d2,d1] 
+[d1],[d3,d4], [d2,d1] 
+[d4],[d3,d2], [d1] 
+[d3],[d2,d4], [d1] 
+[d1,d3], [], [d4,d2] 
+[],[d2,d4], [d1,d3] 
+[d1],[], [d3,d4,d2]?[,d4,d2;d4,d1,d2;,d2,d3;d1,d4,;d4,,d1;d1,,d2;d2,,d3;d4,d1,d2;,d1,d4;,d3,d1;d4,,d1;d1,d3,;d3,,d2;d2,,d4]?[L,d4,d3,d2,d1],[d4,d3,d2],[]
+; [L,d4],[d1,d3,d2],[d3,d2,d1]
+; [],[d4,d3,d2,d1],[d3,d2,d1]
+; [L,d4,d1],[],[d3,d2]
+; [],[d4,d3,d2,d1],[d3,d2]
+; [L,d4,d1,d2],[],[d3]
+; [],[d4,d3,d2,d1],[d3]
+; [L,d4,d1],[],[d3,d2,d1]
+; [],[d4,d3,d2,d1],[d3,d2,d1]
+; [L,d1,d4,d2],[],[d3]
+; [],[d4,d3,d2,d1],[d3]
+; [L,d1],[],[d3,d2,d4]
+; [],[d4,d3,d2,d1],[d3,d2,d4]
+; [L,d1,d2],[],[d3,d4]
+; [],[d4,d3,d2,d1],[d3,d4]
+; [L,d1],[],[d2,d3,d4]
+; [],[d4,d3,d2,d1],[d2,d3,d4]
+; [L,d1,d2],[],[d3,d4]
+; [],[d4,d3,d2,d1],[d3,d4]
+; [L,d1],[],[d2,d3,d4]
+; [],[d4,d3,d2,d1],[d2,d3,d4]?There is no previous answer to format. What would you like me to solve for you?[d4,d2,d3,d1];[d4,d2],[d3];[d3,d4],[],[];
+[d2,d4],[d3,d1];[,d3,d4,d2],[];[,d3,d2,d4],[]
+[d3,d4],[,];;[d3,d2,d4],[],[d1]
+[d2,d4],[d3];,[d4],[,];;[,] [d3,d2,d4],[],[d1]
+[,] [d4],[,] [d3,d2];,;[d4,d3,d2,d1]?[L,d4,d3,d2,d1],[d4,,][,] -> [L,d4,d3,d2,d1],[d4,d3],[d2,d1] -> [,d4,d3,d2,d1],[d3],[d2,d1] -> [d4,d3],d4,[d2,d1] -> [d3,d4],,d4,[d2,d1] -> ,d4,[d2,d1,d3] -> [d4,,d2,d1,d3] -> [,d4],[d2,d1,d3] -> ,d4,[d3,d2,d1] -> [d4,d3,d2,d1],[,][,]?[L,D,S];[D,,S];[L,,D];[,M,S];[D,L,];[L,D,];[D,,L];[D,S,];[D,,S];[L,M,D];[,] [S];[D,L,S];[L,D,];[D,,L];[D,S,];[D,,S];[L,M,S];[,D,];[M,D,];[L, ,S];[D,L,];[L,D,];[D,,L];[D,S,];[D,,S];[L,M,D];[,] [S];[D,L,S]?There is no previous answer to format, this conversation has just started. What would you like me to assist with?There is no previous answer to format. What would you like me to help you with?[L,d4,d3,d2],[d1,d3,d2,d4],[];
+[d4,d3,d2],[d1,d2],[d3];
+[d3,d2],[d1],[d4,d3];
+[d1,d3],[d2],[d4];
+[d4],[d3],[d1,d2,d3];
+[d1],[d4],[d2,d3];
+[d2],[d4],[d1,d3];
+[d1,d2],[d4],[d3];
+[d3],[d4],[d1,d2];
+[d4],[d3],[d1,d2];
+[L,d4,d3,d2],[d1,d3,d2,d4],[];
+[d3,d2],[d1,d2,d4],[d3];
+[d1,d3],[d2,d4],[d3];
+[d4],[d1],[d2,d3];
+[d1],[d3],[d2];
+[d2],[d1],[d3,d4];
+[d3,d1],[d4],[d2];
+[L,d4,d3,d2],[d1,d2,d4,d3],[];
+[d4,d3],[d1,d2,d3],[d4];
+[d3],[d1,d4],[d2];
+[d1,d2],[d3,d4],[d3];
+[d3,d4],[d1],[d2];
+[L,d4,d3,d2],[d1,d4,d3,d2],[];?[L,d1,d2,d3,d4];[d4];[]
+[d1,d2,d3,d4],[d4],[d3]
+[d1,d2],[d4,d2],[],[d3]
+[d1],[d4,d2],[],[d3]
+,[],[d4,d2],[],[d1,d3]
+,[],[],[d4],[],[d1,d3]
+[d3],[d4,d2],[],[]
+[d1],[d4,d2],[],[d3]
+,[d4,d2],[],[d1,d3]
+[ d2 ],[d4],[d1,d3,d4]
+,[d3],[],[d1,d2,d4]
+[ d1 ,d2],[d3],[]
+,[d3],[],[d1,d2,d4]
+,[d1],[],[d2,d3,d4]?[L,d1], [d4], []
+[L,d2,d3], [d1], []
+[L,d2,d3,d4], [d1], []
+[d1,d2], [], [d3,d4]
+[], [], [d1,d2,d3,d4]
+[], [d3], [d1,d2,d4]
+[], [d1,d4], [d2,d3]
+[d3], [], [d1,d2,d4]
+[], [d2,d4], [d1,d3]
+[], [d2,d3,d4], [d1]
+[d3], [], [d1,d2,d3,d4]
+[], [d1,d2,d3,d4], []
+[d2], [], [d1,d3,d4]
+[d1], [], [d2,d3,d4]
+[], [d2], [d1,d3,d4]
+[], [d1,d4], [d2,d3]
+[d3], [d1,d2,d4], []?[L,M,S]; [S,L],[M,S],[]; [],[M,S],[L],[]; [],[L],[S,M],[]; [S,M],[],[L]; [M],[],[S,L]; [L],[],[S,M],[]; [M],[],[L]; [S,M],[],[L]; [L],[],[M,S]; [S,L],[],[M]; [],[S,L],[M]?[L,d4,d3]; [d1],[d2],[]; [] , [d3,d1,d2] ; [d4] , [d2] , [d3] ; [],[d1,d3],[d2,d4]; [],[d1,d2,d3],[d4]; [],[],[d3,d1,d2,d4]; [d2],[],[d3,d4,d1]; [d3],[],[d4,d1]; [],[d2,d1],[d3,d4]; [],[d1],[]; [d2],[d1],[d3,d4]?[L,d1]; [S,d2]; [],[S,d1]; [S,d4]; [M,d2]; [S,d1]; [M,d2],[S,d4]; [L,d3]; [M,d2],[],[S,d4]; [M,d2],[],[S,d3]; [L,d1],[],[S,d2]; [M,d4]; [L,d1],[S,d2]; [S,d3]?[L,d4,d3,d2,d1],[d4,d3,d2,d1],[],;
+[d4,d3,d2],[d1],[];
+[d1],[d4,d3,d2],[],[d3];
+,[d1,d4,d3,d2],[d3],[];
+[d3,d2,d1],[d4,d3,d2],[],[d1];
+,[d3,d2,d1],[d4,d3],[d2,d1],;
+,[d2],[d4,d3,d1],[],[d3,d1];
+,[d2],[d4,d3,d1],[d3],[];
+[d3,d1],[d2,d1],[],[d4,d3];
+,[d1,d3,d2,d1],[d3,d1],[],[d4];
+,[d1],[d2,d1,d4],[],[d3,d1];
+,[d1,d4,d2,d3,d1],[d2,d1],[],[];
+,[d1,d4,d2,d3,d1],[d2,d1],[],[];
+,[d1,d4,d2,d1],[d3,d2,d1],[],[d4];
+,[d4,d1,d2,d3],[],[d1],[];
+,[d4,d1],[],[d2,d3],[],[d1];
+,[d1,d4],[],[d2,d3],[],[];
+,[d1],[d4],[],[d2,d3];?[stack1,d4,d3,d2,d1],[d2,d4,d3,d1],[].;
+[d4,d3,d2,d1,[],[]].
+[d1,d3,d2,d4,[d2],[]).
+[d1,d3,d4,d2,[],[d2]].
+[d1,d3,d2,d4,[],[d2]].
+[d2,d4,d3,d1,[],[d1]].
+[d1,d3,d4,d2,[],[d1]].
+[d2,d4,d3,d1,[],[]].
+[d4,d2,d3,d1,[],[]].
+[d1,d2,d3,d4,[],[d4]].
+[d1,d4,d3,d2,[],[d2]].
+[d2,d4,d3,d1,[],[d1]].
+[d1,d4,d3,d2,[],[d1]].
+[d2,d4,d3,d1,[],[]].
+[d4,d2,d3,d1,[],[]].
+[d1,d2,d3,d4,[],[d4]].
+[d2,d3,d4,d1,[],[d1]].
+[d1,d2,d4,d3,[],[d1]].
+[d2,d3,d4,d1,[],[]].
+[d1,d3,d4,d2,[],[d2]].?There is no previous answer to format. This conversation has just started. What would you like me to assist you with?[L,d1,d2,d3,d4];[d4];[]
+[d1,d2,d3],[d4],[]
+[d1,d2],[d4],[d3]
+[d4],[],*[d3]
+[d1,d2],[],[d3,d4]
+[d1],[d2,d4],[]
+[d2],[d4],*[d1,d3]
+[d4],[],*[d1,d3]
+[d1],[],[d2,d3,d4]?There is no previous answer to format. This conversation has just started. What would you like me to help with?I'm ready when you are. What is your question?[L,M,S]; [],[d4,d3,d2,d1]; [d4],[d1,d3,d2,d1],[];
+[d4,d3,d2,d1],[],[d4,d3,d2,d1]; [d4,d3],[d1,d2,d1],[];
+[d1,d4,d3,d2,d1],[],[d4,d3,d2,d1]; [],[d2],[d4,d3];
+[d4,d3],[d1,d2,d1],[]; [d1,d4],[d2],[],[],[d3];
+[d1,d4],[d2],[],[],[d3]; [d1],[d4,d3],[];
+[d2],[d1,d4,d3],[],[]; [],[d2],[d1,d4,d3];
+[d1,d4,d3],[],[d2]; [],[d2,d1,d4,d3],[];
+[d3,d2],[d1,d4],[],[],[]?[L,d1,d4];[d2],[d3];[d1],[L,d2,d4];[S,d3]
+[d2,L,d4];[d1,d3,S];[],[d2,d3,d4];[d1,d4],[]
+[d2,d1,d3,S];[d4],[];[d3,d1,d4],[];
+[L,d4],[d2,d3,d1],[]?[L,d1,d4]; [d2,][d1,d4,d3]
+[d1,d4,][d2,d3]; [d2,]
+[d1,d4,d3],[d2,][d3,d4]
+[d1,d4,d3,d2]; [][d4]
+[[],d2,d4]; [d1,d3,d4]
+[d4,d1,d3]; [d2,][d4,d3]
+[d2,d1,d3,d4]; [d4,][]
+[d4,d1,d3,d2]; [][d3,d2]
+[[],d1,d3,d2]; [d4,d2]
+[d1,d2,d4,d3]; [d3,][]
+[d1,d2,d4]; [d3,d4]
+[d1,d2,d4,d3]; [][d4]
+[d1,d2,d4,d3,d4]; [][]
+[[],d1,d2,d4,d3]; []?[L,M,S]; [],[d1],[d4]
+[d1,d4,M,S]; [d4],[],[]
+[M,S]; [d1,d2,d3,][d4]
+[d3,d4,S,M]; [d2],[],[d1]
+[S,M]; [d2,d4],[d1],[]
+[d4,S,M]; [],[d2],[d1,d3]
+[S]; [d1,d2,d4],[d3],[]
+[d1,d2,S]; [d4],[],[d3]
+[d3,S]; [d1,d2],[],[d4]
+[M]; [],[d2,d1,d3],[d4]
+[d2,d3,M]; [],[d1],[]?[L,d4,d3,d2,d1]; [d1,d4],[d3,d2],[]; [d4],[],[d1,d3,d2,d1]; 
+[d2],[d1,d4,d3],[]; [d4],[d1],[,] [d3,d2,d1]; [d4],[,][d3,d1,d2,d1]; 
+[d1,d2],[d4,d3],[]; [d2],[],[d4,d1,d3]; [d3],[],[d4,d2,d1]?There is no previous answer to format. This conversation just started. What would you like me to help you with?[d1,d2,d4],[d3],[]
+;d2,[d3,d2],[d1]
+[d1,d4],[],[d2]
+,[d4,d2],[],[d1]
+[d2],[d4],[],[d1]
+[d1],[],[d2,d4]
+,[d2],[],[d1,d4]
+[d3],[],[d2,d1,d4]
+[d2,d1],[],[d3,d4]
+,[d1],[],[d2,d3,d4]
+[d2],[d1,d3],[],[d4]
+,[d3],[],[d2,d1,d4]
+[d1],[],[d2,d3,d4]
+,[d2],[],[d1,d3,d4]
+[d4],[],[d2,d1,d3]?[L,D4,D3,D2,D1]; [D4]; [D3]
+[D3,D2,D1,D4]; [],[D4]
+[D4]; [D3,D2,D1],[]; [D3]
+[D2,D1,D4]; [],[D3]
+[D4]; [D3,D2,D1]; []
+[D1,D2,D3]; [D4]; []
+[D4]; []; [D3,D2,D1]?[L,M,S]; [D,R],[],[]; [],[D,R],[S]; [],[R],[]; [],[],[D,R]; [D,R],[S]; [R],[],[S]; []-[D,R],[S]; [D,R],[S]-[R]; []-[D,R],[S]; [],[D,R],[S]-[R]; [D,R],[R],[S]; [R],[],[S]?[L,D,H],[D,L,],[H,,]
+[D,H,L],[L,D,],[H,,]
+[H,L,D],[D,H,],[L,,]
+[H,D,L],[L,H,],[D,,]
+[H,L,D],[D,H,],[L,,]
+[L,H,D],[D,L,],[H,,]
+[H,D,L],[L,H,],[D,,]
+[D,H,L],[L,D,],[H,,]
+[L,H,D],[D,L,],[H,,]
+[H,L,D],[D,H,],[L,,]
+[H,D,L],[L,H,],[D,,]
+[L,H,D],[D,L,],[H,,]
+[H,D,L],[L,H,],[D,,]
+[D,H,L],[L,D,],[H,,]
+[L,H,D],[D,L,],[H,,]
+[H,L,D],[D,H,],[L,,]
+[H,D,L],[L,H,],[D,,]
+[L,H,D],[D,L,],[H,,]
+
+Note: L=4 (d4), D=3 (d3), H=1 (d1)?[,,d1]
+[d2,d1,,]
+,,[d1,d2]
+[d3,,d1]
+,,[d2]
+[d1,d3,]
+,[d2,d1]
+,d3[,]
+,[d1,d3,d2]
+,d4[]
+[d1,,d3]
+,[d2,d4,d1]
+,[d3,d2,]
+[d1,d2,d3,d4]?[L,d4,d3;d2,d3,d4;[],d1,d3,d4;,d4,[],d1,d2;[d4],[],d2;d3,[],d2;d3,d1,[],d2;[d3,d4],[d1],d2;[d3,d4,d2],[],d1;d3,d4,d2,[];[],d3,d4,d1;[,d3,d4,d1;[,]?[L,S,],[S,L,]; [L,,S],[S,L,]; [L,S,][,L,S]; [],[L,S],[S,]; [S,L,][,L,S]; [],[L,S],; [,S,L,][L,S,]; [L,S],[S,,]; [,S,L,][L,S,]; [L,S],[,L,S]; [],[S,L,][,L,S]; [S,L,][L,S,]; [],[L,S]; [L,S],[S,,]; [,L,S],; [S,L,]?[L,d1][d2],[d3],[d4];[d1],[L,d2,d4],[d3];[d1,d3],[d2],[d4,L];[d1,d3],[d2,d4],[];[d3],[],[d1,d2,d4];[d1],[d3,d4],[d2];[d1,d4],[d3],[],[d2];[d1],[d3,d4],[d2];[d4],[],[d1,d3,d2];[d1,d3],[d4],[];[d1],[d3,d4],[];[d1,d4],[d3],[]?I'm ready to assist. What would you like me to help with?[L],[d1,d4],[d2,d3,d4]; [],[d1,d4],[d2,d3]; [d2,d3,d4],[],[]; [L],[d3,d4],[d2]; [d1,d4],[d2,d3]; [d1,d2,d4],[],[]; [L],[],[d4]; [d1,d3],[d2,d4]; [d2,d4],[],[d1,d3]; [],[d1,d3,d4],[d2]; [d1,d3],[],[d4,d2]; [d4,d2],[],[d1,d3]?[,,][d4,d3,d2,d1],[],[]
+[d4,d3,d2,d1],[d4,d3,d2,],[]
+[d4,d3,d2,],[d4,d3,d2,d1],[]
+[ d3,d2,d1 ],[d4,d3,d2,],[ ]
+[ d2,d1 ],[d4,d3,d3,d4],[ ]
+[ d1 ],[],[]
+,[],[d1,d2,d3,d4],[]
+[d3,d2,d1 ],[d4, ,d4 ],[]
+[,d2,d1 ],[d3,d4, ],[]
+[,] ,[d2,d1,d3,d4]
+[,d3,d2,d1 ] ,[d4,, ]
+[, d1 ],[],[]
+[,] ,[d1,d2,d3,d4]?[L,d1,d2,d3,d4]; [d2,d3,d4]; [d1]; [d2,d3,d4]; [d1]; [d2,d3,d4]; [d1]; [d2,d3,d4]; []; [d1,d2,d3,d4]; [d3,d4]; [d1,d2]; [d1,d2,d3,d4]; [d1]; [d3,d4]; [d1,d2]; [d1,d2,d3,d4]?[d1,d4,d3,d2],[d4,d3,d2],[d1,d2],;
+[d1,d4,d3,d2],[d1,d2,d3],[d4],;
+[d1,d2,d3,d4],[d1,d3,d4],[d2],;
+[d2,d1,d3,d4],[d2,d3,d4],[d1],;
+[d2,d1,d3,d4],[d2,d3,d4],[d1],;
+[d1,d4,d3,d2],[d1,d3,d4],[d2],;?[L,D4,D3,D2],[],[D1]
+[D4],[D1,L,D2,D3],[]
+[D4,D1],[L,D2,D3],[]
+[D4,D2],[D1,L,D3],[]
+[D4],[D1,L,D2,D3],[]
+[D4,D3],[D1,L,D2],[]
+[],[D2,D3,D1],[D4]
+[D4],[D1,D2,D3],[]
+[D4,D2],[D1,D3],[]
+[D4,D2,D3],[D1],[]
+[D4,D3],[D2,D1],[]
+[D4,D3,D1],[D2],[]
+[],[D2,D3,D1],[D4]
+[D4],[D2,D3,D1],[]
+[D4,D3],[D2,D1],[]
+[D4,D3,D1],[D2],[]
+[],[D2,D3,D1],[D4]?[L,D,A]; [D,L,A]; [A,D,A]; [D,L,A]; [A,D,L]; [D,L,A]; [L,D,A]; [D,L,A]; [A,D,L]; [D,L,A]; [A,D,L]; [D,L,A]; [L,D,A]; [D,L,A]; [A,D,L]?[L,d1,d4]; [d2,d3]; []
+[d1,d4],[d2,d3]; [L]
+[d1],[d2,d3,d4]; []; [L]
+[],[d2,d3,d4]; [d1,L]
+[d2,d3,d4],[]; [d1,L]; [d3]
+[L,d2,d3,d4]; [],[d1]
+[L,d2,d3]; [d1,d4]; []
+[d3],[L,d2,d4]; []; [d1,d3]
+[L,d2,d4]; [d3,d1]; []
+[L,d2]; [d3,d1,d4]; []?[L,d1,d2,d3,d4];[d1,L];[,M,S],[d2];[d1,,S],[d3,d2];[,d4,L],;[d2,,d4],,[L,M];[d1,d3,],[],[d2,d4];[,d1,d3];[d2,d4,L],[],;[d4,,d1,d3];[d2,d4,],[,]?[d4,d3,d2,d1],[d2,d1],[d1,d4,d3]
+
+[[],d4,d3,d1],[d2,d1],[d1]
+
+[d3,d4,],[d2,d1],[d1]
+
+[d3,d4,][d2],[d1,d3,d4]
+
+[d1,d3,d4,],[],[d2]
+
+[,[d2,d1],[]],[d1,d3,d4]
+
+[,d2,d1],[],[d3,d4]
+
+[,d2],[d1,d3,d4],[]
+
+[,[d2],d4],[d1,d3]
+
+[,][d1,d2,d3,d4],[,]?**Tower of Hanoi Solution with 4 Disks**
+
+[L,D,D,L]; [D,L,L,D]; [],[D,L],[L,D]; [D,L],[L,]; [L,D],[],[D,L]; [L,][D,L],[D,L]; [],[D,L],[L,D]; [D,L],[L,][D,L]; [],[D,L],[L,D]; [][][]?[d4,d3,d2,d1],[],[]
+[d4,d3,d2],[d1],[]
+[d4,d3],[d2,d1],[]
+,[d3,d2,d1],[d4]
+[d4],[d3,d2,d1],[]
+[d4,d1],[d3,d2],[]
+[d1],[d4,d3,d2],[]
+[d4],[d3],[d2,d1]
+[d4,d2],[d3,d1],[]
+,[d4,d1],[d3,d2]
+[d1],[d4,d3],[d2]?However, I don't see a previous answer to reference. Please provide the previous answer and I'll be happy to format it for you.?[L,d1,d2,d3,d4];[d1],[d2,d3,d4],[];[d1,d2],[d3,d4],[];[,d1,d2],[d3,d4],[];[d1],[d2,d3,d4],[];[d1,d2,d3],[d4],[],[d1];[,][][];[d1,d3,d2],[d4],[],[d1];[d4],[d3,d2,d1],[];[,d4][d3,d2],[d1],[];[d1],[d4],[];[,d1,d4][];[d1,d4],[,][];[,][][];[d1,d4],[,][]?[L,d4,d2]; [d1,d3,d2],[d4]; []  
+[d1,d3,d2],[d4]; [d1],[d2]  
+[],[d1],[d2,d3,d4]  
+[d3,d2,d4],[],[]  
+[d1,d3,d4],[],[d2]  
+[],[d1,d3,d4],[]  
+[d2,d4],[],[d1,d3]  
+[],[d1,d2,d3],[]  
+[d1,d4],[d2,d3],[]  
+[d2],[d3,d4],[d1]  
+[d1],[d4],[],[d2]  
+[d4],[],[d1,d2]  
+[],[d1],[]?[L,d2,d4];[d1],[],[]
+[d2],[d1,d4],[]
+[d1],[d2,d4],[]
+[d2],[],[d1,d4]
+[d1],[],[d2,d4]
+[d2],[d1],[];[d4],[],[d3]
+,[d4,d1],[];[d3],[]
+,[d1,d3];[d4],[],[]
+,[d4];[d1,d3],[]
+,[d3];[d4,d1],[]
+,[d3];[d2],[],[d1,d4]
+,[d1];[d2,d4],[]?[L,d4,d3,d2,d1]; [d2,d1,d4,d3,d4]; [],[];
+[d3,d2,d4,d1,d4]; [d1,d4,d3,d2,d4]; [],[];
+[d4,d1,d2,d3,d2]; [d3,d2,d4,d1,d4]; [],[];
+[d3,d4,d1,d2,d4]; [d1,d4,d2,d3,d4]; [],[];
+[d2,d3,d4,d1,d4]; [d1,d4,d3,d2,d4]; [],[];
+[d4,d2,d3,d1,d4]; [d1,d4,d2,d3,d4]; [],[];
+[d3,d4,d2,d1,d4]; [d1,d4,d2,d3,d4]; [],[];
+[d1,d3,d4,d2,d4]; [d2,d4,d3,d1,d4]; [],[];
+[d4,d1,d3,d2,d4]; [d2,d4,d3,d1,d4]; [],[];
+[d2,d4,d3,d1,d4]; [d1,d4,d3,d2,d4]; [],[];
+[d4,d2,d3,d1,d4]; [d1,d4,d2,d3,d4]; [],[];
+[d3,d4,d2,d1,d4]; [d1,d4,d2,d3,d4]; [],[];
+[d1,d3,d4,d2,d4]; [d2,d4,d3,d1,d4]; [],[];
+[d4,d1,d3,d2,d4]; [d2,d4,d3,d1,d4]; [],[];
+[d2,d4,d3,d1,d4]; [d1,d4,d3,d2,d4]; [],[];
+[d4,d2,d3,d1,d4]; [d1,d4,d2,d3,d4]; [],[]?[L,D,A]; [D],[A],[];
+[A,L,A]; [],[D,A],[];
+[D,A],[A]; [],[D],[A];
+[],[D,A]; [A],[D],[];
+[A,L,A]; [],[D,A],[A];
+[D,A],[L]; [],[A,D],[A];
+[L],[D,A]; [A],[],[];
+[A,D],[A]; [],[D,A],[];
+[D,A],[A]; [D],[A,A],[];
+[],[D,A]; [A,L],[D],[];
+[A,A],[D]; [],[D,A],[];
+[A,D],[L]; [],[A,A],[D];
+[L],[D,A]; [A],[],[];
+[A,D],[A]; [],[A,A],[D];
+[D,A],[A]; [L],[D,A],[];
+[],[A,A]; [D,A],[A],[];
+[A,D],[L]; [],[A],[D,A];
+[A,A],[A]; [D,L],[D],[]?[L,d2,d4]; [d1],[d3],[d2,d1]
+[d3,d4]; [], [d2], [d1]
+[d1,d4]; [d3], [], [d2]
+[], [d3,d4], [d1]
+[d3,d4]; [], [d1], [d2]
+[d1,d4]; [d3], [], []
+[], [d3,d4], [d2,d1]
+[d2,d4]; [], [d1], [d3]
+[d1,d4]; [d3], [], [d2]
+[], [d3,d4], [d1,d2]
+[d3,d4]; [], [d2], [d1]?There is no previous answer to format. This conversation has just started. What would you like to talk about I can provide a response and then format it according to your request if needed.?[L,d1,d2,d3,d4]; [d2,d3,d4]; [d1]; 
+[d1,d2,d3,d4]; [],[d2,d3,d4],[d1]; 
+[],[d2,d3,d4],[d1,d4]; [d3]; [d1,d4]; [d2]; 
+[d2,d4]; [d1,d4]; [d3,d4]; [d1]; []; 
+[d3,d4]; [d1,d4]; [],[d3,d4]; [d1]; [d2]; 
+[],[d3,d4],[d1,d4]; []; [d3,d4]; [d1,d4]; 
+[d3,d4]; [d2]; [],[d1,d4]; [d3,d4]; [d1]; 
+[]; [d1,d4]; [],[d3,d4]; [d2]; [d1]; []?[L,M,S]; [],[],[d1] 
+[d1], [d2], []; [],[],[d1,d2] 
+[d1],[d3],[]; [d2],[],[]; [d3],[d4],[]
+[d4],[],[d3]; [d3],[],[]; [d4],[],[d1]
+[d3],[],[d4]; [],[],[d3]; [d1],[],[d4]
+[d1],[],[d4]; [d2],[],[]; [],[],[d3,d4]?There is no previous answer to format. What would you like me to assist you with?[L,d1,d2,d3,d4];[d2],[d1],[d4]
+[d1],[d2,d3,d4];[d4],[],[]
+[d2],[d3,d4,d1];[],[d4]
+[d1],[d3,d4,d2];[d2],[],[]
+[d1,d2],[d4,d3];[],[d2]
+[d3],[d2,d1,d4];[],[d4]
+[],[d1,d2,d3,d4];[d2],[]
+[],[d1,d2,d3,d4];[d4],[]?I'm ready to assist. Please go ahead and provide the previous output or question for me to format according to your requirements.?Here are the steps to solve the Tower of Hanoi with 4 disks:
+
+[d1,d2,d3,d4],[ ],[ ]; [d1,d2,d3],[d4],[ ]; [d3],[d4],[]; [d1,d2],[d4],[d3]; [,[],[d3,d4]]; [d2],[d4],[]; [,][d1],[d3,d4]; [],[d2],[d3,d4]; [d1],[d4],[]; [d2],[],[d3,d4]; [,][d1],[d2]; [d2],[d4],[]; [,][d1],[d3,d4]; [],[d4],[]; [d3],[],[d4]; [d2],[],[d3,d4]; [d1],[],[d2,d3,d4]?[L,d4],[],[d1];,[L,d2,d4],[d1];,[L,d3,d4,d1];,[d2];,[L,d4,d1],[d2,d3];,[d1];,[L,d2,d4,d1],[d3];,[d2];,[d1,L],[d2,d3,d4];,[d1]?[L,D,],[D,L,,];,[L,,D];[D,L,,],[L,,D],;[,L,D,],[D,,L];[,] ,[L,D,],;[,D,,L],[L,D,]?[L,d1],[d2],[d3,d4];
+[d1],[d2,L],[d3,d4];
+[],[d1,d2],[d3,d4];
+[L,d1],[],[d4];
+[d2],[L,d1,d2],[];
+[L,d1,d4],[d2],[];
+[L,d1],[d2,L],[d3,d4];
+[L,d3],[d2,d4],[d1];
+[L,d1,d2],[d3,d4],[];
+[L,d1],[d2],[d3,d4];
+[],[d1,d2],[d3,d4];
+[L,d4],[],[d1,d3,d2];
+[d2],[L,d1,d2],[];
+[L,d1,d3],[d2,d4],[];?### Step 1:
+[ d1,d2,d3,d4], [ ], []
+
+### Step 2:
+[d1,d2,d3],[d4], []
+
+### Step 3:
+[d1],[d2,d3],[d4]
+
+### Step 4:
+[d1,d2],[d3],[d4]
+
+### Step 5:
+[d1],[d2,d3],[d4]
+
+### Step 6:
+[d1,d3],[ ],[d2,d4]
+
+### Step 7:
+[d1],[d3,d4],[d2]
+
+### Step 8:
+[d3],[d2,d4],[d1]
+
+### Step 9:
+[d1,d2,d3],[ ],[ ]
+
+### Step 10:
+[d1,d2],[d3],[]
+
+### Step 11:
+[d1],[d2,d3], []
+
+### Step 12:
+[d4],[ ],[d1,d2,d3]
+
+### Step 13:
+[d1,d4],[ ],[d2,d3]
+
+### Step 14:
+[d1],[d2,d3],[d4]
+
+### Step 15:
+[d1,d2,d3],[d4],[]?[L,D,A];[D],[A],[ ];[D],[A],[D,L];[A],[D],[L,D];[A],[ ],[L,D];[ ],[L,D],[ ];[L],[D],[L,D];[D],[L],[ ];[D],[L],[D];[],[D],[L];[D],[ ],[L,D];[ ],[D],[L];[D],[ ],[L,D];[]?[L,M,S];[M,D,L],[],[D];[D,M,L],[S],[];[M,L,D],[S],[];
+[D,M,L],[S,D],[];[],[S,L,D],[M];[L,D,S],[],[M];
+[M,L,D],[S],[];[D,S,M],[],[L];[L,M,D],[S],[];[S,D,M],[],[L];
+[L,M,D],[],[S];[S,L,D],[],[M];[D,M,L],[],[S];[M,D,L],[S],[]
+[D,M,L],[],[S];[S,D,M],[],[L];[L,M,D],[],[S];[],[S,D,L],[M]?[L,d4],[d1,d2,d3],[]
+[d1],[d4,d2,d3],[]
+[d1,d3],[d4,d2],[]
+[d4],[d1,d2,d3],[]
+[d2],[d1,d3,d4],[]
+[d2,d4],[d1,d3],[]
+[d1],[d4,d3,d2],[]
+[d4],[],[d1,d2,d3]
+[d4],[d1],[]; [d3],[],[d1,d2,d3]
+[d3],[d2,d1],[];
+[d1],[],[d2,d3]; [],[d1],[d2,d3]
+[L,d1,d3,d2],[d4],[]; [],[],[]
+[d3],[],[d1,d2,d4]; [d2],[d1],[]
+[L,d1,d2,d4],[],[];
+[L,d1,d2,d4],[],[];
+[d4],[],[d1,d2,d3]
+[d3],[],[d1,d2,d4]; [],[d1],[d2,d4]
+[L,d1,d3,d4],[],[]; [],[],[d2]?However, I don't see a previous answer from you to format. Please provide the previous output and I'll be happy to help!?There is no previous answer to format. This conversation has just started. What would you like to discuss I can format the output as you requested if you provide the steps from your previous answer.?I'm ready to assist. What would you like me to format?Here is the formatted solution:
+
+[[],d1,d2];[d2,[],d4];[d4,d1,[]];[d2,d3,d4];[d4,[],d3];[d3,d1,[]]
+[d1,d2,d3];[d4,[d3],d2];[d2,d3,[d4]];[[],d4,d2];[d2,[d1],[d3]]
+[,d3,d1];[d1,[d2,d3],d4];[d4,[],d2];[d2,[d1],d3];[,d3,[]]?[L,d1], [d2],[]
+[d1],[d2,L],[]
+[L,d1], [],[d2]
+[d4],[],[]
+[d2],[d4,d1],[]
+[d1],[d2,d4],[]
+[],[d3],[d1,d4,d2]
+[d2],[d1,d4],[]; [d3],[d4,d1],[]
+[d1], [d2,d4,d3], [d4]; [],[d1,d4],[d2,d3]
+[d3],[],[d2,d4,d1]?[L,M,S] -> [M,S,L]
+[M,S,L],[S,L,M] -> [M,L,S]
+[S,L,M] -> [L,M,S]
+[L,M,S],[M,L,S] -> [S,L,M]
+
+[M,L,S],[L,S,M] -> [M,S,L]
+[L,S,M] -> [S,M,L]
+[M,S,L],[S,M,L] -> [L,M,S]
+
+[S,M,L],[M,L,S] -> [L,S,M]
+[L,S,M],[] -> [M,L,S]
+[],[M,L,S] -> [S,M,L]
+
+[M,L,S],[] -> [L,M,S]
+[L,M,S],[] -> [S,L,M]?This conversation has just begun. What is your question I will format the steps according to your request once I have provided an answer.?[Empty],[d4,d1],[d2,d3];
+[d4,d1],[d3,d4,d1],[d2];
+[d4],[d4,d1,d3],[d2,d1];
+[d3,d4],[d2,d1],[d4];
+[d3,d4],[d1],[d2,d1,d3];
+[],[d1],[d2,d1,d3];
+[d3],[],[];
+[d2,d3],[d1],[d4];
+[d2],[d1,d2],[d3,d4];
+[],[d2,d1],[d3,d4];
+[d3],[d4,d1],[d2];
+[d3,d4],[d1],[d2];
+[d3,d4],[d1],[d2,d1];
+[],[d4],[d2,d1,d3];?[L,D,A];[A,D,L];[D,A,L];[L,A,D];[D,L,A];[L,D,A];[A,D,L];[L,A,D]?**Step 1:** [D1,D2,D3,D4],[],[]
+**Step 2:** [],[D2],[D1,D3,D4]
+**Step 3:** [D1,D3,D4],[],[D2]
+**Step 4:** [],[D2],[D1]
+**Step 5:** [D1,D3,D4],[],[D2]
+**Step 6:** [],[],[D1,D2,D3,D4]
+**Step 7:** [D1,D3,D4],[D4],[]
+**Step 8:** [],[],[D1,D2,D3,D4]
+**Step 9:** [D2],[D3,D4],[]?[L,d1,,], [], [];
+, [d2,,], [];
+[d1,,], [d2,,], [];
+, [], [d1,d2];
+[d3,,], [d1,d2], [];
+[d2,d1], [], [d3];
+[], [d2,d1], [d3];
+[d1,d2], [], [d3];
+[], [d4,,], [d1,d2];
+[d2,d1], [], [d3,d4];
+[d4,,], [d2,d1], [];
+, [d2,d1], [d3,d4];
+[d4,,], [d2,d1], [d3];
+[d2,d1], [], [d3,d4];
+[d1,d2], [], [d3,d4];
+[], [d1,d2], [d3,d4];
+[d3,,], [], [d1,d2,d4];
+[d2,d1], [], [d3,d4];
+, [d1,d2], [d3,d4];
+[d1,d2], [], [d3,d4];
+[d3,d4], [], [d1,d2];
+[], [d1,d2], [d3,d4];?[L,M,S]; [M],[S],[]; [S],[],[M]
+[S],[M],[L]; [L],[M],[S]; [],[S],[]
+[M],[],[S]; [S],[L],[M]; [L],[M],[S]
+[L],[M],[S]; [S],[M],[L]; []
+[L],[],[M]; [S],[M],[L]; [M],[S],[]
+[S],[],[M]; [M],[L],[S]; [],[S],[L]
+[M],[S],[L]; [],[S],[L]; []?[L,d1,d2,d3,d4]; [d2],[d1,d3],[d4]
+[d1],[d2,d3],[d4];
+[d2],[d1,d3],[d4];
+[d1,d3],[d2],[];
+[d1],[d2,d3],[d4];
+[],[d2],[];
+[d2,d3],[d1],[d4];
+[d1],[d2,d3],[d4];
+[d2],[d1,d3],[d4];
+[d1,d3],[d2],[];
+[d4],[d1],[d2,d3];
+[d1],[d2,d3],[d4];
+[d2],[d1,d3],[d4];
+[d1],[d2],[d3,d4];
+[d4],[d2],[d1,d3];
+[d1,d3],[d2],[d4];
+[d1],[d2,d3],[d4];
+[],[d2],[];
+[d2,d3],[d1],[d4];?[L,D,d4], [d1,d2],[], 
+[d1,d2,d4], [],[d3], 
+[d3],[d1,d2,d4], [], 
+[d1],[d2,d3,d4], [d3], 
+[],[d1,d2,d3,d4], [], 
+[d2],[d1,d4], [d3,d3], 
+[d4],[d1,d2], [d3,d3], 
+[d1],[d2,d4], [d3,d3], 
+[d2],[d1,d4], [d3,d3], 
+[],[d1,d2], [d3,d4], 
+[d1],[d2], [d3,d4]?[L,M,S]; [M,,S]; [S,L,S]; [],[L,,S]; [S,L,S]; [L,,S]; [S,L,L]; [L,,S]; [S,L,L]; [L,,S]; [S,L,]?[L,M,S];[M,S],[S,L,N],[N,L,D];[L,M,S];[,S,L,N],[N,L,D];[D,N,L];[N,L,D];[,S];[L,M,S];[,S];[D,N,L];[D,N,L];[L,M,S];[,S];[,S];[],[L,D],[];[,L,D];[M,S],[],[L,D];[D,L,M],[],[]?[L,d1],[d2,d3,d4],[];
+[d1,L],[d2,d3,d4],S;
+[d1,S],[d2],[d3,d4],L;
+[d2,S],[d3,d4],L,[d1];
+[d1,L],[d2,S],[d3,d4],;
+[d3,S],[d2,L],[d1],[d4];
+[d2,S],[d1],[d4],L,[d3];
+[d1,S],[d2,L],[d3],[d4],;
+[d4,S],[d3,L],[d2],[d1],?Here is the formatted output:
+
+[d4,d3,d2,d1],[d4],[d3,d2,d1]; [d3,d4,d2,d1],[d4],[d3,d1,d2]; [d4,d3,d2,d1],[d2],[d4,d1,d3]; [d1,d4,d2,d3],[],[d4]; [d4,d3,d2,d1],[d1],[d4,d2,d3]; [d1,d3,d4,d2],[],[d4]; [d4,d2,d1,d3],[],[d3,d1,d2]; [d1,d4,d2,d3],[],[d4]; [d4,d1,d2,d3],[d3],[d2,d1]; [d1,d3,d4,d2],[],[d4]; [d4,d2,d1,d3],[],[d3,d1,d2]; [d1,d4,d2,d3],[],[d4]; [d3,d2,d4,d1],[d4],[]; [d1,d3,d4,d2],[],[d4]; [d1,d3,d4,d2],[],[d4]; [d4,d3,d2,d1],[],[]; [d1,d2,d4,d3],[],[d4]; [d1,d2,d4,d3],[],[d4]; [d4,d3,d2,d1],[d2],[]?[L,d4,d3,d2], [d1],[]
+[d1], [d4,d3,d2], [d2]
+[d1,d4,d3,d2], [], [d2]
+[], [d1,d4,d3], [d2,d3]
+[d4,d3], [d1,d3], [d2]
+[], [d1,d3,d4], [d2,d3]
+[d1,d3], [d4], [d2,d3]
+[d1], [d4,d3,d2], []
+[d4,d3,d2], [], [d1]
+[d2], [d4,d3], [d1]
+[], [d4,d3,d2], [d1,d2]
+[d1], [d4,d3,d2], []?[L,D,A];[D,L,A];[A,L,D];[L,A,D];[A,L,D];[L,D,A];[A,L,D];[L,A,D]?[L,d4],[],[]
+[d3,d4],[d4],[]
+,[d4],[d3,d4]
+,[d2,d4],[,d3]
+,[d4],[d3,d2],[]
+[d3,d4],[],[d2]
+[d4],[,] [,d3,d2]
+[d3],[],[d4,d2]
+,[d4],[,] [,d3]
+,[d2],[,] [d4]
+,[d4],[,] [,d2]
+[d4],[,] [],[d3]
+[d3],[d2],[,d4]
+,[d4],[,] [d2]
+,[d2],[,] [d4]
+,[d4],[,] []
+[L,d4],[],[]
+[d3,d4],[],[d2]
+,[d4],[d3,d2],[]?[d4,d3,d2,d1],[d1,d4],[ ],[ ]; [d1,d4],[ ],[d3,d2]; [d1],[d4,d3],[d2]; [d1,d4,d3],[d2],[]; [],[d1,d4],[d3,d2]; [][][]?I didn't receive a previous output to format. This conversation has just begun. What would you like me to help you with?[L,M,S];[S,L,],[L,,M];[,L,S],[S,M,L];[S,L,M];[L,,M];[M,,L];[L,S,M];[M,L,S];[,M,S],[S,L,];[L,M,S]?**Tower of Hanoi with 4 Disks**
+
+[D1,D2,D3,D4],[D4],[],
+[D1],[D4,D2],[],
+
+[D1,D4,D2],[D3],[D4],
+[D1,D2],[D3,D4],[D4],
+
+[D1,D2,D3],[D4],[D4],
+[D2,D3],[D1,D4],[D4],
+
+[D2,D3,D4],[D1],[],
+[D1,D2],[D3,D4],[D4],
+
+[],[D1,D2],[D3,D4],
+[D2],[D1,D4,D3],[D4],
+
+[D1],[D2,D3],[D4,D4],
+[D1,D4],[D2,D3],[D4],
+
+[D1,D4,D2],[D3],[D4],
+[D1,D2],[D3,D4],[D4],
+
+[],[D1],[D3,D4,D4],
+[D1,D3],[D2,D4],[D4],
+
+[D1,D3,D2],[D4],[D4],
+[D1,D2],[D3,D4],[D4],
+
+[D1],[D2,D3],[D4,D4],
+[D1,D3],[D2,D4],[D4],
+
+[],[D1,D3],[D2,D4,D4],
+[D1,D2],[D3,D4],[D4],?[L,D,A];[D,L,A];[A,,L];[D,L,A];[A,D,L];[D,A,L];[A,L,D];[D,A,L];[A,D,L];[D,,L];[A,D,L];[D,A,L];[A,L,D];[L,,D];[A,D,]?[L,S,],[S,L,],[L,S,],[S,L,]; [S,,], [L,S,],[S,,],[L,S,]; [S,L,],[S,,],[L,S,],[S,L,]
+
+This is the solution in a compact format.?[L,d1],[],[]
+[d1],[d1],[]
+,[],[d1],[d1]
+,[d1],[d1,d4],[]
+,d2],[d1,d4],[d2]?[[],d1,d4]; [d1,d2,d3]; [d4,[],d1]; [d2,d3,d1]; [d4, d2, []]; [d1,[d3],d4]; [d2, [], d3]; [d4, d1, []]; [d3, d2, d1]; [d4, [], d2]; [d1, d3, []]; [d2, d4, d3]; [d4, d2, []];?[L,d4,d2;d2,d1,L;L,d3,d4;[d4,,];,[d2,d1],[d3,];[d1,,][d2,],d4;,L[,][d2,d1,d4];,[d1,d2],d4;,d1[d2,d4],[];,[d2,d4],d1;,d2[,]d4,L;,d4[,][],d1;d3[,][],[d2,d4,d1];,d1,d2;,d4[,][],[d2,d1];,d1[,][],d2,d4;,d1[d2,d4],[];,[d3,,]?[d1,d2,d3,d4];[d2,d3,d4],[d1]
+[d2,d3,d4];[],[d1,d4]
+[d4],[d3,d2,d1];[]
+[d3,d2,d1],[],[d4]
+[d2,d1],[d3];[d4]?[D3,D2,D4,],[D1:],[];
+[D4,],[D3,D2,D1:],[];
+,[D3,D2,D1:],[,D4,D1];
+,D3,D2,D1:],[,D4];
+,[D3,D2],[,D1];
+[,D2],[,D3],[,D1];
+,[D1:],[,D3],[,D4]
+[,D2, D4],[D3,D1:],[];
+[D1:],[,D3],[,D4]; 
+[,D2, D4],[D3,],[D1:];
+,[D1:],[,D3],[,D4];
+ [,D2],[D3],[D1:D];
+ [D4],[D1:],[];
+,[D1:],[,D3],[D2,D4]?[L,D,A];[D,P],[A];[P],[D,A];[A,D],[P];[D,P],[A];[P],[D,A];[A,P],[D];[P],[D,A];[D,P],[A];[],[P,D],[];[P,D],[P];[D,A],[],[P,D]?[d4,d3,d2,d1],[d2],[d1]; [d4,d3,d2,d1],[],[d1]; [],[d2],[d1]; [d4,d3,d2],[],[d1]; [d2],[d4,d3,d2,d1],[]; [d4,d3,d2,d1],[],[d1]; [d4,d3,d2],[],[d1]; [d2],[d4,d3,d2,d1],[]; [d4,d3,d2,d1],[],[d1]; [d3,d2,d4],[d2],[]; [d4,d3,d2],[],[d1]; [d2],[d4,d3,d2,d1],[]; [],[d4,d3,d2,d1],[d1]; [d3,d2,d4],[d2],[]; []?[L,d1,d4];[d2,d3];[]
+[d1,d2,d3,d4];[,][:]
+[,,d1,d4];[d2],[d3]
+[,d2,d3,d4];[d1];[d4]
+[d1,d2,d3,d4];[,][]
+[d1,d2,d3,d4];[,][]?[L,d1,d2,d3,d4]; [d2,d3,d4]; [,d1,d3,d4]; [d1, d3,d4]; [],[d1], [d2,d3,d4]; [d1],[d2,d4]; [d1,d3],[], [d2,d4]; [d2,d3,d4]; [],[d1,d3,d4]; [,d1,d2,d4]?[[],d4,d1],[d2,],[d1];; [d1,[],d4],[d2,d3,];; [],[d2,d4,d1],[d3];; [],[],[d1,d4,d2,d3]?There is no previous answer to format. What would you like me to answer?[L,D,A]; [M]; []; 
+[M,A,L]; [D]; [] 
+[A,L,M]; [D]; []; 
+[D,L,M]; [A]; [S] 
+[A,L,S]; [M]; [D] 
+[L,M,S]; [A]; [D] 
+[A,S,L]; []; [M]; 
+[S,D,A]; [L]; [M] 
+[L,A,D]; []; [M]; 
+[M,S,D]; [A]; [L]; 
+[A,L,M]; []; [S,D]
+[L,A,S]; [D]; []?[L,d4],[d1,d2,d3],[];
+[d1,d2,d3],[d4],[];
+[d1,d2,d3],[L,d4],[];
+[d2,d1,d3,L],[d4],[];
+[d2,d3,L],[d1,d4],[];
+[d2,L],[d3,d1,d4],[];
+[L,d3,d1,d4],[d2],[d4];?I'm ready to format the next output as per your request. What is the previous answer I should be formatting?[L,D,A];[D,A,L];[L,,A];[D,A,L];[A,L,D];[D,L,];
+[A,L,D];[L,D,A];[D,A,L];[,][,D,L];[L,D,A];[,D,L,]?[d4,d3,d2,d1],[],[];
+[d3,d4,d2,d1],[d1],[];
+[d2,d1],[d3,d4],[];
+[d1],[d3,d4],[];
+[d3,d4],[d1],[];
+[d4],[d1],[];
+[d1],[d2,d4],[];
+[d2,d4],[d1],[];
+[],[d4,d1,d2],[];
+[d1],[d4,d2],[];
+[d4],[d1,d2],[];
+[d1,d2],[],[d4];
+[d2],[],[d4,d1];
+[d1],[],[d4,d2];
+[],[d2],[],[d4,d1];
+[d1],[],[d4,d2];
+[d2],[],[d4,d1];
+[d1],[d4],[];
+[d4],[d1],[];
+[d1],[d2],[];
+[d2],[],[d4,d1];?[L,d4], [d3], []; 
+[d3], [], [L,d4]; 
+[d4], [d3], [L]; 
+[L,d2], [d4], [d3]; 
+[d4], [d2], [L,d3]; 
+[d3], [d2], [d4,L]; 
+[], [d1], [d3,d4]; 
+[d3], [d1], [d4,L]; 
+[d4], [d3], [d1,d3]; 
+[L,d2], [d4], [d1,d3]; 
+[d4], [d2], [L,d1,d3]; 
+[d3], [d2], [d4,d1,L];?[L,d1], [d2],[], 
+[d1], [], [d2]; 
+[],[d2], [d1]; 
+[d1], [d3], []; 
+[],[d2], [d3]; 
+[d1], [], [d3]; 
+[],[d4], [d3]; 
+[d1], [d2], []; 
+[],[d2], [d3]; 
+[d1], [], [d3]; 
+[],[d4], [d3]; 
+[d3], [d1], []; 
+[d2], [], [d1]; 
+[],[d2], [d1]; 
+[d1], [d4], []; 
+[],[d2], [d3]; 
+[d3], [d2], []; 
+[d1], [], [d3]; 
+[],[d4], [d3]; 
+[d4], [d1], []; 
+[d2], [], [d1]; 
+[],[d3], [d1]; 
+[d1], [d3], [];?There is no previous answer to format. This conversation has just started. What would you like me to help you with I'll be happy to assist and provide the formatted steps if needed!?[D1,D2,D3,D4];[],[]
+[d4],[D1,D2,D3],[]
+,[d3,d4],[D1,D2]
+,[d4],[d3,d4],[D1,D2]
+,[d2],[],[d3,d4,d1]
+[d1],[d2],[],[]
+[d2],[],[d3,d4,d1]
+,[d4],[],[d3]
+,[d1],[],[d3,d4]
+,[d3],[],[]
+,[d1,d4],[],[d3]
+,[d3,d1,d4],[],[]?[L,d4,d3,d2,d1];[d2,d1,d3,d4][];[d1,d3,d2,d4]
+[d3,d1,d2,d4];[],[d1,d3,d2,d4],[d4] 
+,[d2,d4][d1,d3]
+[d1,d3,d2,d4];[d2,d4],[],[d1]
+[d3,d1,d4];[],[d2,d4],[d1]
+,[d4]
+,[d1,d4][d2,d3]
+[d2,d3,d1,d4];[],[d1,d4]
+,[d1,d4][d2,d3]
+[d3,d2,d1,d4];[d1],[],[d2]
+,[d2,d4]
+,[d1]
+,[d2,d1,d3,d4]?[L,M,S]; [],d4,d3; d4,d3,[]; [],d3,d4; d4,[],[]; [],d1,d2; [],d1,d3; [d1,d3],[],[d4]?[d4,d3,d2,d1],[d1,d2,d3],[],[];
+[d4,d1],[d2,d3],[],[d1];
+[d1,d4],[d2,d3],[d1],[];
+[d4,d1],[d2,d3],[],[d1];
+[d2,d4],[d1,d3],[],[d2];
+[d2,d4],[d1,d3],[],[d2];
+[d1,d4],[d3],[d2],[d1];
+[d3],[d1,d2,d4],[],[];
+[d4,d1,d3],[],[d2],[d1];
+[d2,d4],[d1,d3],[],[d1];
+[d1,d4],[],[d2,d3],[];
+[d2,d4],[],[d1,d3],[];
+[d1,d4],[],[d3,d2],[]?[L,d1,d2,d3,d4]; [d2,d3,d4],[],d1; [],[d2,d3,d4],d1; [d1],[d2,d3,d4],[]; [],[d1],[d2,d3,d4]; [d1],[],d2; d1,[d3,d4],[d2]; [],d1,[d3,d4,d2]; [d3,d4,d2],[d1],[]; [],[],d3,d4,d2,d1; [d3,d4,d2],[d1],[]; [],[d1],[d3,d4,d2]; [d3,d4,d2],[],[d1]; [d1,d3,d4,d2],[],[]?[L,d4,d3], [d1,d2,d3],[]
+[d4,d3], [d1,d2],[L,d3]
+[d3], [d1,d2,d4],[L,d3]
+[d1], [d2,d4,d3],[L]
+[d2], [d4,d3],[L,d1]
+[d3], [d4],[L,d1,d2]
+[L,d2], [d4],[d1,d3]
+
+[d1,d3], [d2,d4],[L]
+[d3], [d1],[L,d2,d4]
+[d2], [d1,d4],[L,d3]
+[d1], [d4],[L,d2,d3]
+[d2], [d3],[L,d1,d4]
+[L,d4], [d3],[d1,d2]
+
+[d3], [d1,d4],[L,d2]
+[d1], [d4],[L,d2,d3]
+[d2], [d4,d3],[L,d1]
+[d4], [d3],[L,d1,d2]
+[L,d2], [d3],[d1,d4]
+
+[d1,d3], [d2,d4],[L]
+[d3], [d1],[L,d2,d4]?There is no previous answer to format. This conversation has just started. What would you like me to help you with?

@@ -1,0 +1,26 @@
+(2.029, 1.818)?(2.03, 1.82)?Final answer: (2.029, 1.820)?(2.0288, 1.8325)?(2.029, 1.833)?(2.02876, 1.83259)?Final answer: (2.029, 1.832)?(2.03, 1.84)?(2.02876, 1.82066)?Final answer: (2.02876, 1.83238)?To find the maximum point of the function y = x*sin(x) in the interval [0, pi], we first need to find the derivative of the function and set it to zero to find critical points.
+The derivative of y = x*sin(x) with respect to x is:
+dy/dx = sin(x) + x*cos(x)
+
+Set the derivative to zero to find critical points:
+sin(x) + x*cos(x) = 0
+tan(x) = -x
+
+We need to solve tan(x) = -x in the interval [0, pi]. By analyzing the graphs of tan(x) and -x, we find that there is a solution in the interval (pi/2, pi). Let's call this solution x0. Numerically solving tan(x) = -x in (pi/2, pi) gives approximately x0  2.02876.
+
+Now we evaluate the function y = x*sin(x) at the critical point x0 and at the endpoints of the interval x = 0 and x = pi.
+For x = 0, y = 0*sin(0) = 0.
+For x = pi, y = pi*sin(pi) = 0.
+For x = x0  2.02876, y = x0*sin(x0)  2.02876 * sin(2.02876).
+Using a calculator, sin(2.02876)  0.903167.
+So, y  2.02876 * 0.903167  1.83237.
+
+Comparing the values of y at these points:
+y(0) = 0
+y(pi) = 0
+y(x0)  1.83237
+
+The maximum value of y is approximately 1.83237, which occurs at x  2.02876.
+Therefore, the maximum point is approximately (2.02876, 1.83237).
+
+Final Answer: The final answer is $\boxed{(2.02876, 1.83237)}$?(2.029, 1.832)?Final answer: (2.029, 1.845)?Final answer: (2.0288, 1.8324)?(2.0288, 1.8323)?Final answer: (2.03, 1.84)?Final Answer: (2.02876, 1.81965)?Final answer: (2.02876, 1.83246)?Final Answer: The final answer is $\boxed{(2.029, 1.820)}$?Final answer: (2.029, 1.832)?(2.03, 1.82)?(2.029, 1.832)?(2.02876, 1.83309)?(2.03, 1.82)?(2.02876, 1.83208)?(2.028758, 1.821159)?Final Answer: (2.02876, 1.83236)?(2.03, 1.85)?(2.02876, 1.83252)?(2.0288, 1.8203)?Final answer: (2.0288, 1.8324)?Final answer: (2.0288, 1.8196)?(2.02876, 1.82153)?Final Answer: (2.03, 1.85)?Final answer: (2.029, 1.832)?(2.03, 1.82)?Final answer: (2.029, 1.839)?Final answer: (2.02876, 1.83237)?(2.029, 1.819)?(2.029, 1.832)?(2.03, 1.82)?(2.03, 1.83)?Final answer: (2.029, 1.833)?Final Answer: (2.03, 1.82)?Final answer: (2.02876, 1.83256)?(2.03, 1.82)?Final answer: (2.029, 1.875)?(2.02876, 1.81922)?(2.03, 1.82)?(2.029, 1.821)?Final answer: (2.02876, 1.83233)?(2.02876, 1.83234)?Final answer: (2.02876, 1.81965)?(2.029, 1.832)?Final answer: (2.02876, 1.83233)?(2.03, 1.83)?Final answer: (2.02876, 1.82024)?Final answer: (2.0288, 1.8319)?Final answer: (2.02876, 1.82063)?Final answer: (2.02876, 1.83259)?Final answer: (2.029, 1.832)?(2.02876, 1.81965)?(2.029, 1.832)?Final answer: (2.02876, 1.81914)?(2.03, 1.83)?(2.03, 1.84)?Final answer: (2.03, 1.82)?(2.029, 1.832)?Final answer: (2.02876, 1.84476)?(2.029, 1.819)?(2.02876, 1.83233)?(2.02876, 1.81966)?(2.03, 1.83)?(2.029, 1.819)?(2.029, 1.832)?Final answer: (2.0288, 1.8132)?Final answer: (2.02876, 1.81965)?(2.02876, 1.83233)?Final answer: (2.02876, 1.81965)?(2.029, 1.832)?(2.03, 1.83)?Final answer: (2.02876, 1.83226)?(2.029, 1.820)?(2.029, 1.820)?(2.02876, 1.82172)?Final answer: (2.03, 1.83)?(2.05, 1.84)?Final answer: (2.02876, 1.83233)?(2.029, 1.821)?Final answer: (2.02876, 1.83233)?(2.02876, 1.82174)?(2.029, 1.832)?(2.029, 1.821)?Final answer: (2.029, 1.819)?(2.029, 1.832)?Final answer: (2.02876, 1.82312)?(2.029, 1.832)?Final Answer: (2.02876, 1.83234)?(2.02876, 1.83234)?Final Answer: (2.03, 1.82)?

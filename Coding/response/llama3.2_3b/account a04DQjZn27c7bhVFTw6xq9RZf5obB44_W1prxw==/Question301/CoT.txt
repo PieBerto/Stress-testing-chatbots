@@ -1,0 +1,3163 @@
+[A,B,C,Z] -> [A,Z]
+[B,C,Z] -> [B,Z]
+[B,C,Z] -> [B,Z]
+[B,C,Z] -> []
+[A,B,C,Z] -> [A,Z]
+[A,B,C,Z] -> [A,C,Z]
+[B,C,Z] -> [B,C,Z]
+[A,C,Z] -> [A,C,Z]
+[A,C,Z] -> []
+[A,C,Z] -> [C,Z]
+[C,Z] -> [C,Z]
+[A,C,Z] -> [A,C,Z]
+[A,C,Z] -> [A,B,C,Z]
+[A,C,B,Z] -> [B,A,Z]
+[A,C,Z] -> [A,C,Z]
+[B,C,Z] -> [B,C,Z]
+[A,C,Z] -> [A,C,Z]
+[A,C,Z] -> []
+[C,B,A,Z]?A,B,C,Z; A,B,C -> [ A, B, C ]
+A,B,C -> [ A, C, B ]
+B,A,C,Z; A,C,B
+A,C -> [ A, C, Z ]
+A,C -> [ A, B, C ]
+C,A,B,Z; A,C,B
+A,C -> [ A, C, Z ]
+B,A,C -> [ A, C, B ]
+A,C,B -> [ A, C, B, Z ]?A, B, C, Z; 
+A, Z; 
+B, C;
+B, Z; 
+B, Z, C; 
+A, Z; 
+A, Z, B; 
+A, Z, B, C;?[A, B, C, Z] -> [B, A, Z]
+[B, A, Z] -> [A, Z, C]
+[A, Z, C] -> [A, B, Z, C]
+[...] -> [B, C, A, Z]
+[B, C, A, Z] -> [A, Z, C, B]
+[...] -> [A, B, C, Z]
+[A, B, C, Z] -> [B, C, A, Z]
+[...] -> [A, B, Z]
+[A, B, Z] -> [A, B, Z, C]
+[...] -> [A, B, Z, C]
+[A, B, Z, C] -> [A, B, Z]
+[B, A, Z] -> [B, Z, A, C]
+[...] -> [B, Z, A, C]
+[B, Z, A, C] -> [A, B, Z, C]?[A,C,B,Z] -> [B,Z]
+[B,Z] -> [A,C,Z]
+[A,C,Z] -> [A,C,Z]
+[ A, C, B, Z ] -> [B,Z]
+[B,Z] -> [A,Z]
+[A,Z] -> [A,C,Z]
+[ A, C, Z ] -> [A,C,Z]
+[A,C,Z] -> [A,C,Z]
+[ A, C, B, Z ] -> [B,A,Z]
+[B,A,Z] -> [A,C,B,Z]
+[A,C,B,Z] -> [A,C,Z]
+[A,C,Z] -> [C,B,Z]
+[C,B,Z] -> [C,Z]
+[C,Z] -> [C,Z]?A -> [B,Z]
+[B,Z,A] -> [C,B,Z]
+
+C -> [B,Z,C]
+
+[A,B,Z,C] -> [B,A,Z,C]
+[B,A,Z,C] -> [A,Z,C]
+
+A -> [A,Z,C]?A -> [ , Z ];
+Z -> [ A,  ];
+Z -> [  , C ];
+C -> [  , B ];
+B -> [  , C ];
+C -> [ A, B, C ];
+B -> [ C, B ];
+C -> [ A, B, Z ];
+B -> [ A, B, Z ];
+A -> [ A, B, Z ];
+C -> [ A, B, Z ];?[A,B,C,Z] -> [A]
+[A] [B,C,Z]
+[B,A,Z] [C]
+[B,A,Z] [C,Z]
+[A,B,Z,C] -> [B]
+[B,A,Z,C] -> [A,Z,C,B]
+
+Final Configuration: [ A, B, C, Z ]?A, Z, B, C; [ A, Z, B, C ]
+[A, Z, B, C]; [ A, B, Z, C ]
+[ A, B, Z, C ]; [ A, Z, C ]
+[ A, Z, C ]; [A, B, Z, C]?[A, B, C, Z] -> [B, Z]
+A, C, Z -> [B, Z]
+[ A, C, Z ] -> [A, Z]
+[ A, Z ] -> [A, C, Z]
+[B, C, Z] -> [A, C, Z]
+[A, C, Z] -> [A, C, Z]
+[B, C, Z] -> [B, Z]
+[B, Z] -> [A, B, Z]
+[A, B, Z] -> [A, B, C, Z]
+[A, B, C, Z] -> []?A -> [ A, B, C, Z ]; 
+[ A, B ]
+C -> [ A, B, C, Z ]; 
+[ C ]
+
+Z -> [ A, B, C, Z ]; 
+[ A ]
+A -> [ A, C, Z ]; 
+[ A, B ]
+
+Z -> [ A, C, Z ]; 
+[ A, B ]
+
+Z -> [ A, C, B, Z ]; 
+[ A ]
+
+B -> [ A, C, B, Z ]; 
+[ A, C ]
+
+Z -> [ A, C, B, Z ]; 
+[ A, C ]
+
+A -> [ A, C, B, Z ]; 
+[ A, C, B ]
+
+Z -> [ A, C, B, Z ]; 
+[ A, C, B, A ]?A -> [Z]
+B -> [C, Z]
+C -> []
+
+A -> []
+B -> [Z, C]
+C -> [Z, B]
+
+A -> []
+B -> [Z, C, Z]
+C -> [Z, B, A]?[A, B, C, Z]; [B, Z]
+[B,Z]; [A,C]
+
+[A, B, C, Z]; 
+[B ]
+[A,Z]
+[B,C]; [A,Z]?A -> [ A, B, C, Z ]
+Z -> [ A, B, C, Z ]
+
+A -> [ A, Z ]
+B,C -> [ A, Z ]
+
+Z -> [ A ]
+B,C -> [ A, B, C, Z ]
+
+Z -> [ A, B ]
+C -> [ A, B, C, Z ]
+
+Z -> [ A, B, C ]
+Z -> [ A, B, C,Z ]
+
+A -> [ A, B, A, Z ]
+B,C -> [ A, B, A, Z ]
+
+[ A, B, A, Z ] -> [ A, B, C, Z ]?[B, A, C, Z] -> [B, A, C, Z]
+[A, C, B, Z] -> [A, C, B, Z]
+[C, B, Z, A] -> [C, B, Z, A]
+[A, C, B, Z] -> [A, C, B, Z]
+[B, A, Z, C] -> [B, A, Z, C]
+[A, C, B, Z] -> [A, C, B, Z]
+[A, B, Z, C] -> [A, B, Z, C]?[A,C,Z] -> []
+[A,Z] -> [B,Z]
+[B,Z] -> [A,Z]
+[A,Z] -> []
+[Z,B] -> [C,Z]
+[Z,B] -> [A,Z]
+[Z,A,C] -> []
+[Z,A] -> [C,Z]
+[C,Z] -> [B,Z]
+[B,Z] -> []
+[Z,A,C] -> []?A, C, B, Z -> [ A, Z ]
+[ C, B ] -> [ A, Z ; C, B ]
+
+C, B, Z -> [ A, Z ]
+[ C, B ] -> [ A, Z ; C, B ]
+
+C, Z -> [ C, Z ]
+[ A, Z ] -> [ C, Z ; A, Z ]
+
+B, Z -> [ B, Z ]
+[ C, Z ] -> [ C, Z ; B, Z ]
+
+C, Z, B, Z -> [ C, Z ]
+[ A, Z ] -> [ C, Z ; A, Z ]
+
+A, Z -> [ A, Z ]
+[ C, Z ] -> [ C, Z ; A, Z ]
+
+B, Z, C, Z -> [ B, Z ]
+[ C, Z ] -> [ B, Z ; C, Z ]
+
+C, Z, B, Z -> [ C, Z ]
+[ B, Z ] -> [ C, Z ; B, Z ]
+
+A, Z -> [ A, Z ]
+[ C, Z ] -> [ A, Z ; C, Z ]
+
+B, Z, C, Z -> [ B, Z ]
+[ C, Z ] -> [ B, Z ; C, Z ]?A,Z; B,Z; A,C
+C,B,Z; A 
+B,A,C; Z,C?A -> [B,C,Z]
+C -> [B,Z]
+B -> [A,Z]
+A -> [B,Z]
+B -> [A,C]
+Z -> [A,C,B]?A, B, Z -> B, C
+B, C -> A, B
+A, B, Z -> Z, B
+Z, B -> B, C, Z
+B, C, Z -> A, B, C, Z
+C, Z, B -> Z, A, 
+Z, A, B -> Z, A, B, C?A -> [B, C, Z]
+[A, B] -> [C, Z]
+[A, B, Z] -> [C, Z]
+[C, Z] -> [B, A, C]
+[A, B, Z] -> [C, Z]
+[C, Z] -> [A, B, C]
+[B, A, C] -> [A, B, C, Z]?[A,B,C,Z] -> [A,Z]
+A,Z -> [A,C,Z]
+
+A,Z -> [B,A,C,Z]
+
+B,A,C,Z -> [B,Z,A,C]
+
+A,C,Z -> [B,Z,A]
+
+B,Z,A,C -> [C,Z,A,B]
+
+C,Z,A,B -> [C,A,B,Z]
+
+C,Z,A,B -> [A,C,B,Z]
+
+A,C,B,Z -> [B,A,C,Z]
+
+B,A,C,Z -> [C,A,B,Z]?[ A, C, B, Z ] -> [ B, Z ]
+[ A, C ] -> [ B, Z ]
+
+[ B, Z ] -> [ A, B, Z ]
+[ A, C ] -> [ A, B, Z ]
+
+[ A, B, Z ] -> [ A, B, C, Z ]
+[ C ] -> [ A, B, C, Z ]
+
+[ A, B, C, Z ] -> [ A, B, C ]
+[ B, Z ] -> [ A, B, C ]
+[ C, Z ] -> [ A, B, C ]
+
+[ A, B, C ] -> [ B, C, A, Z ]
+[ B ] -> [ B, C, A, Z ]
+[ A, Z ] -> [ B, C, A, Z ]
+
+[ B, C, A, Z ] -> []
+[ A, C, Z ] -> []
+[ B, C, A ] -> []?[A,C,Z] -> []
+A = [Cabbage, Farmer]
+B = [Goat]
+C = [Wolf]
+
+[,,Z] -> [A,C,B]
+A = [Cabbage, Farmer]
+B = [Goat]
+C = [Wolf]
+
+[], [A,C,B] -> [Z,A,C]
+[,,Z] -> [C,Z]
+[,,Z] -> [B,Z]
+
+[B,Z] -> [A,Z]
+[A,Z] -> [B,C]?A, B, C, Z; [A, Z] ; [B, C]
+[A, B, C, Z]; [A, Z] ; [B, C]
+[A, B, C, Z]; [A, B, C, Z] ; [A, Z]
+[A, B, C, Z]; [A, B, C, Z] ; [B, C]
+[A, B, C, Z]; [B, Z] ; [A, B, C, Z]
+[B, Z] ; [B, Z] ; [A, C, Z]
+[B, Z] ; [A, B, C, Z] ; [B, Z]
+[A, B, C, Z]; [A, B, C, Z]?[ A, B, Z ] -> [ B, Z ]
+[ B, Z ] -> [ A, B ]
+[ B, Z ] -> [ B, C, Z ]
+[ B, C, Z ] -> [ A, B, C, Z ]?A -> [B, C]
+[A, Z] -> [B, C, Z]
+
+[B, C, Z] -> [A, Z]
+[B, C] 
+
+[B, C, Z] -> [B, C]
+[A, Z] 
+
+[B, C] -> [B, C, Z]
+[A, Z]?[A,B,C,Z] -> [Z,B,A,C]
+[Z,B,A,C] -> [A,Z,C]
+[A,Z,C] -> [C,Z,A]
+[C,Z,A] -> [A,Z,C]
+[A,Z,C] -> [Z,A,C]
+[Z,A,C] -> [A,Z,B,C]?I'm ready to help. However, I don't see a previous question to format. Please ask your first question or provide more context so I can assist you correctly.
+
+When you're ready, let me know and I'll respond accordingly.?[A,C] -> []
+
+[Z,A,C] -> [B,Z]
+
+[Z,B,C] -> [A,Z]
+
+[Z,A,C] -> [B,Z]
+
+[B,A,C] -> []?[ A , B , C , Z ] ; [ A , B , Z ]
+[ A , B , Z ] ; [ Z , B , A ]
+[ Z , B , A ] ; [ A , B , Z ]
+[ A , B , Z ] ; [ Z , B , A ]
+[ A , B , Z ] ; [ Z , B , A ]
+[ A , C , B , Z ] ; [ Z , B , A ]
+[ Z , B , A ] ; [ A , B , C , Z ]
+[]?Z - A - C; Z -> B
+A - C; Z - A - B - C?[A, B, C, Z] -> [A, Z]; [B, C]
+[B, C] -> [B, Z]; [A, C]
+[A, Z] -> [A, B, Z]; [C, Z]
+[A, B, C, Z] -> [A, B, C]; [Z]
+[A, B, C]; [Z] -> [B, A, Z]; [A, C]
+[B, A, Z]; [A, C] -> [A, B, C, Z]; [A, Z]
+[A, B, C, Z] -> [A, B, C]; [Z]?[A,B,C,Z] ; [A,B,C] 
+[A,B,C,Z] ; [A] [B,C]
+[ A ] [ B,C,Z] ; [A,B] [C,Z]
+[A,B] [C,Z] ; [A,B,C] [Z]
+[A,B,C]  ; [A,B,C] 
+[A,B,C] ; [A] [B,C]
+[B,C] [Z,A] ; [B,C] [Z,A]
+[B,C] [Z,A] ; [B,C] [Z]
+[ B,C ] [ Z ] ; [A,C,B] [Z]?[A,B,C,Z] -> [A,C,Z]
+[A,C,Z] -> [A] [B,C,Z]
+[A,C,Z] -> [A,C] [B]
+[A,C] [B] -> [B] [Z,A,C]
+[B,Z] [A,C] -> [B,Z] [A,C]
+[B,Z] [A,C] -> [B] [Z,A,C]
+[Z,A,C] -> [A,C] [B,Z]
+[A,C] [B,Z] -> [A,C] [B]
+[A,C] [B] -> [A,C] [B,Z]
+[A,B] [C,Z] -> [A,B,C,Z]?I'm happy to help, but I don't see a previous answer from me. This conversation just started. Please provide the input or context you'd like me to assist with, and I'll do my best to format the output as requested once I have an answer.?[[],B,C,Z] ; [A,B,C,Z]
+[A,B,C,Z] ; [A,B,C,Z]
+[[],C,Z] ; [A,C,Z]
+[A,C,Z] ; [A,C,Z]
+[[],C,Z] ; []
+[[],C,Z] ; [B, [],Z]
+[A,C,Z] ; [A,C,Z]
+[[],C,Z] ; []
+[B, [],Z] ; [B,C,Z]?A -> [B,C,Z]
+[A,B] -> [C,Z]
+[A,B,C] -> []
+[A,B] -> [Z]
+[A,B,C,Z] -> [A]
+[A,C,Z] -> [B]
+[A,C] -> [B,Z]
+[A,C,Z] -> [B]
+[A,B,C,Z] -> [A]
+[A,B] -> [C,Z]
+[A,B,C,Z] -> [B]
+[A,C,Z] -> [B]
+[B,C,Z] -> [A]
+[B,C] -> [Z]
+[B,C,Z] -> [A]
+[A,C,Z] -> [B]?[A, B, C, Z] -> []
+[A,B,C,Z] -> [ , B, C]
+[ , B, C] -> [A,Z]
+[A,Z] -> [A,B,C] and [A]
+[A,B,C,Z] -> [A]
+[A] -> [ ,B,C,Z]
+[ ,B,C,Z] -> [A,C]
+[A,C,Z] -> [A,B,C] and [B,Z]
+[A,B,C,Z] -> [A,C,Z] and [B]
+[A,C,Z] -> [ ] and [B,Z] and [A]
+[B,Z] -> [B] and [A,C,Z]
+[A,C,Z] -> [A,C] and [B,Z] and []
+[A,C] -> [ ] and [B,Z]
+[ ,B,Z] -> []?[A,Z] ; [B,Z,A]
+[B,Z,A] ; [A,C,Z]
+[A,C,Z] ; [B,Z,A,C]
+[B,Z,A,C] ; [A,B,Z,C]?[A,B,C,Z] ; [B,A,Z] ; [C,Z] ;
+[B,A,Z] ; [A,C] ; [B,Z] ;
+[A,C] ; [B,Z] ;
+[B,Z] ; [C,Z] ;
+[C,Z] ; [ ] ; [A,B,Z]?A C Z ; 
+B A C ;
+B A ; Z
+A C ; BZ
+A ; B CZ
+A C ; 
+B A ; Z
+A C ; B?[A, B, C, Z] ; [A, Z]
+[A, Z] ; [A, C, Z]
+[A, C, Z] ; [A, B, C, Z]
+[A, C, Z] ; [B, A]
+[B, A] ; [A, C, B, Z]
+[B, C, Z] ; [A, Z]
+[A, Z] ; [B, C, A, Z]
+
+Final Configuration
+[B, C, A, Z]?[A, B, C, Z] -> [], [B, Z]
+[], [A, C, Z] -> [, A, B, Z]; [, A, B, Z] -> [A, B, Z], [C, Z]
+[, A, B, Z] -> [], [A, C, Z]; [], [A, C, Z] -> [A, C, Z], [C, Z]
+[], [A, C, Z] -> [, A, C, Z]; [C, Z] -> [C, Z], []
+[, , ] -> [A, B, C, Z]; [, A, B, C, Z] -> [], [B, A, C, Z]; [B, A, C, Z] -> [A, B, C, Z], [C, Z]
+[], [A, B, C, Z] -> [A, B, C, Z], []; [A, B, C, Z] -> [], [A, C, Z]; [], [A, C, Z] -> [A, C, Z], []
+[, , ] -> [, A, B, C, Z]; [A, B, C, Z] -> [C, Z], []?[C,Z] -> [C,Z]
+[A,C,Z] -> [A,Z]
+[B,A,Z] -> []
+[A,B,Z] -> [B,Z]
+[A,B,Z] -> [B,Z]
+[B,Z] -> [B,Z]
+[A,B,Z] -> [A,Z]
+[A,Z] -> [A,Z]
+[  ] -> [C,A,Z]
+[C,A,Z] -> [C,A,Z]
+[  ] -> [B,C,Z]
+[B,C,Z] -> [B,C,Z]
+[A,B,C,Z] -> [A,C,Z]
+[A,C,Z] -> [A,C,Z]
+[A,C,Z] -> [A,C,Z]
+[A,C,Z] -> [A,C,Z]
+[A,C,Z] -> [A,C,Z]
+[A,C,Z] -> [A,C,Z]
+[  ] -> [B,C,Z]
+[B,C,Z] -> [B,C,Z]
+[A,B,C,Z] -> [A,C,Z]
+[A,C,Z] -> [A,C,Z]
+[A,C,Z] -> [A,C,Z]?[A, B, C, Z] -> [B, Z]
+[B, Z] -> [A, C]
+[A, C] -> [B, Z]
+[B, Z] -> [C, A]
+[C, A] -> [B, C, A, Z]
+[B, C, A, Z] -> []?I'm ready to help. Please provide the input or question you'd like me to respond to. I'll format my output as requested.?[A, B, C, Z] ; [B, Z]
+[B, Z] ; [A, C]
+[A, C, Z] ; [B, Z]
+[A, Z] ; [B, C, Z]
+[A, B, Z, C] ; [ , ]
+[ , ] ; [A, Z]
+[A, Z] ; [B, C, A]
+[A, B, C, Z] ; [ , ]
+[ , ] ; [A, Z]
+[A, Z] ; [B, C, A]
+[A, B, Z, C] ; [ , ]
+[ , ] ; [A, Z]
+[A, Z] ; [B, C, A]
+[A, B, C, A]?[A, B, C, Z] -> [A, B, Z, C]
+[B, Z, A, C] -> [Z, B, A, C]
+[Z, B, A, C] -> [Z, B, C, A]
+[ B , Z ] -> [B, Z, A, C]
+[Z, B, C, A] -> [Z, B, A, C]
+[Z, B, A, C] -> [Z, B, C, A]?[A,B,C,Z] ; [B,C,Z] ; [A,C,Z] ; [B,C,Z] ; [A,C,Z] ; [B,C,Z] ; [B,C,A] ; [C,A]?A -> [B, C, Z]
+Z -> [B, C]
+B, Z -> [A, C]
+Z -> [A, C]
+B, C, Z -> [A] 
+A -> [B, C, Z]?[A,Z], [B], [C] -> []
+[A], [Z,B], [C]
+[A], [Z,B], [C] -> [B,Z]
+[[], A], [Z,B], [C] -> [A,Z,C]
+[[], A], [Z,B], [C] -> [B,Z,C]
+[[], A], [Z,B], [C] -> [B,A,C]
+[[], A], [Z,B], [C] -> [B,A,Z]
+[[], A], [Z,B], [C] -> [A,Z,B]
+[[], A], [Z,B], [C] -> [A,Z,C]?[A, B, C, Z] -> [A, C, Z]
+A, C, Z -> [A, B, Z]
+A, B, Z -> [A, B, C, Z]
+A, B, C, Z -> [A, C]
+A, C -> [B, Z]
+[ B, Z ] -> [ A, Z, B, C ]
+ 
+Note: The final configuration is already in the format you requested.?A, C, B, Z -> []
+A, B, C, Z -> [ A, B ]
+C, Z -> [ A, B ]
+A, B, Z -> [ A, B, Z ]
+C -> [ A, B, C ]?A -> [B,C,Z]
+Z -> []
+
+B -> [C,A]
+Z -> [Cabbage]
+
+B -> [C]
+Z -> [Goat,Cabbage]
+
+C -> [B,Z]
+Z -> [Wolf]
+
+C -> [B,Goat,Wolf]
+Z -> [Wolf]
+
+B -> [Goat,Z]
+Z -> [Goat]
+
+A -> [B,C]
+Z -> [Goat,B,Cabbage,Wolf]?A -> [Cabbage]
+B -> [Goat, Wolf]
+Z -> [Farmer]
+
+A -> []
+B -> [Goat, Wolf]
+Z -> [Farmer, Cabbage]
+
+A -> [Cabbage, Cabbage]
+B -> []
+Z -> []
+
+A -> [Cabbage, Cabbage]
+B -> [Goat]
+Z -> [Farmer]
+
+A -> []
+B -> [Wolf]
+Z -> [Farmer, Goat]
+
+A -> []
+B -> []
+Z -> [Farmer, Wolf]?[A, B, C, Z] -> []
+[B, A, C, Z] -> [,, ,Z]
+[,, ,Z] -> [, ,A, Z]
+[, ,A, Z] -> [,, , ]
+[,, , ] -> [B, , A, Z]
+[B, , A, Z] -> [ ,B, A, C]
+[ ,B, A, C] -> [ ,B, A, C]?A, Z -> A, Z
+A, B, C -> [ A, Z ]
+[ A, Z ] -> A, B, C; [ Z ]
+[ A, B, C ] -> [ A, Z ]; [ B, C ]
+[ A, Z ] -> A, B, C; [ Z ]
+[ A, B, C ] -> [ A, Z ]; [ B, C ]
+[ A, Z ] -> A, B; [ C ]
+A, B, C -> [ A, Z ]; [ B, C ]
+B, C -> A, B, C; [ Z ]
+A, Z -> A, B; [ C ]
+[ A, B, C ] -> A, Z; [ B, C ]
+[ A, Z ] -> A, B; [ C ]
+[ A, B, C ] -> A, Z; [ B, C ]; [ C ]
+A, Z -> A, B, C?A -> [B,C,Z]
+[A,B,C,Z] -> [A,B,C,Z]
+[B,C,Z] -> [A,B,C,Z]
+[A,B,C,Z] -> [A,B,C,Z]
+[B,C,Z] -> [A,B,Z]
+[A,B,C,Z] -> [A,B,Z]
+[A,B,Z] -> [A,Z]
+[A,B,C,Z] -> [A,C]
+[A,B,C,Z] -> [A,B,Z]?A -> [B,Z]
+[A,Z] -> [B,C,Z]
+[B,C,Z] -> [A,C,Z]
+[A,Z] -> [A,C,Z]
+[A,C,Z] -> [B,A,C,Z]?[A, B, C, Z] -> [A, Z]
+[A, Z] -> [B, Z]
+[B, Z] -> [B, C, Z]
+[B, C, Z] -> [A, B, C, Z]
+[A, B, C, Z] -> [Z, A, B, C]
+[Z, A, B, C] -> [Z, B, C, A]
+[Z, B, C, A] -> [Z, A, B, C]
+[Z, A, B, C] -> [B, C, Z]
+[B, C, Z] -> [B, C, Z]
+[Z, B, C] ->?A, B, C, Z -> [ A, C, Z ]
+[ A, C, Z ] -> [ A, B, C, Z ]
+[ A, B, C, Z ] -> [ A, B, C, Z ]
+[ A, B, C, Z ] -> [ A, C, Z ]
+[ A, C, Z ] -> [ A, B, C, Z ]
+[ A, B, C, Z ] -> [A,B,C,Z]
+[A,B,C,Z] -> [A,B,C,Z]?[A,B,C,Z] -> [B,A,C,Z]
+[B,A,C,Z] -> [A,C,Z]
+[A,C,Z] -> [B,C,Z]
+[B,A,C,Z] -> [A,C,Z]
+[A,C,Z] -> [B,C,Z]
+[A,B,C,Z] -> [A,B,Z,C]
+[A,Z,B,C] -> [B,C,Z]
+[A,B,C,Z] -> [A,Z,B,C]
+[A,Z,B,C] -> [B,C,Z]
+[B,A]?[A,C,B,Z] ; [B,C,Z,A]
+[B,C,Z,A] ; [A,C,B,Z]
+[A,C,B,Z] ; [C,Z,A,B]
+[C,Z,A,B] ; [Z,A,C,B]
+[Z,A,C,B] ; [Z,A,C,B]?[A,B,C,Z] -> [B,Z]
+[A,C] -> [A,Z]
+
+[A,C] -> []
+[A,B,C,Z] -> [A,C]
+
+[,,C,Z] -> [A,]
+[A,,Z] -> []
+
+[[],C,Z] -> []
+[[],A] -> [A,]
+
+[,,Z] -> [,,]
+[,,C] -> []
+
+[,,Z] -> [B,C]
+[,,] -> []?[A, B, C, Z] -> [B, Z]
+[B, Z] -> [A, C]
+
+[B, Z] -> [A, C, Z]
+[A, C] -> [B, Z]
+[B, Z] -> [C, B]
+[C, B] -> [A, C, Z]
+[A, C, Z] -> [C, B]
+[C, B] -> [Z, A]
+[Z, A] -> [B, C]
+
+[B, C] -> [Z, A]
+[Z, A] -> [B, C]
+[B, C] -> [C, B]
+[C, B] -> [A, C, Z]
+[A, C, Z] -> [C, B]
+[C, B] -> [Z, A]
+[Z, A] -> [B,C]?[A,B,C,Z] -> []
+; [A] -> [B,C,Z]
+; [ A is now on the right bank ]
+[B,A] -> [C,Z]
+; [B,A] -> [A,C,Z]
+; [The farmer leaves the goat (B) on the left bank and returns to the left bank alone.]
+[C,B] -> []
+; [ C is now on the left bank ]
+[C,B] -> [A,Z]
+; [The farmer goes back to the left bank with the empty hand.]
+[B,C] -> [A,Z]
+; [ B is now on the right bank ]
+[A,B] -> [C,Z]
+; [The farmer leaves the cabbage (A) on the left bank and picks up the wolf (C) again, crossing the river with it.]
+[C,A] -> [B,Z]
+; [The farmer goes back to the left bank alone.]
+[B,C] -> [A,Z]
+; [ B is now on the right bank ]
+[C,B] -> [A,Z]
+; [ The farmer leaves the goat (B) on the left bank and picks up the wolf (C) again, crossing the river with it.]?A -> B; 
+B -> [Farmer takes A and crosses the river.]
+A -> B; 
+B -> [Farmer takes B and crosses the river.]
+C -> C;
+C -> [Farmer takes C and crosses the river.]
+B -> [Farmer takes C and goes back to initial bank with C]
+C -> [Farmer takes C and cross the river, leaving B and Z on the other side.]
+A -> A; 
+A -> [Farmer takes A and crosses the river.]
+B -> [Farmer takes both B and C and crosses the river.]
+C -> [Farmer takes both A and B and crosses the river.]
+B -> [Farmer takes both B and Z and crosses the river.]
+Z -> [Farmer takes both B and Z and goes back to previous position]?[A, B, C, Z] ; [C, A, B, Z]
+[C, A, B, Z] ; [A, B, C, Z]
+[A, B, C, Z] ; [A, B, C, Z]
+[A, B, C, Z] ; [A, B, C, A, Z]
+[A, B, C, A, Z] ; [A, B, C, A, Z]
+[A, B, C, A, Z] ; [B, A, C, A, Z]?[A, B, C, Z] -> []
+[A, B, C] ; [Z]
+[A, B] ; [C, Z]
+[A] ; [B, C, Z]
+[B] ; [A, C, Z]
+[A, B] ; [C, Z]
+[A, Z] ; [B, C]
+[A, B, Z] ; [C]
+[A, B] ; [Z]
+[A, Z] ; [B, C]
+[A, B, Z] ; [C]
+[A, B] ; []
+[B, Z] ; [A, C]
+[]?A -> [Cabbage, Goat, Wolf, Z]
+B -> []
+A -> [Goat, Z]
+B -> [Cabbage, Wolf]
+
+A -> [Goat, Z]
+B -> [Cabbage, Wolf]
+
+A -> [Z]
+B -> [Cabbage, Wolf, Goat]
+
+A -> [Z]
+B -> [Cabbage, Wolf, Goat]
+
+A -> [Cabbage, Z]
+B -> [Wolf, Goat]
+
+A -> [Cabbage, Z]
+B -> [Goat, Wolf]?[A,B,C,Z] ; [A,B,Z]
+[A,B,Z] ; [B,A,Z]
+[B,A,Z] ; [A,B,Z]
+[A,B,Z] ; [A,C,Z]
+[A,C,Z] ; [A,C,B]
+[A,C,B] ; [B,A,C]
+[B,A,C] ; [A,C,B]
+[A,C,B] ; [C,B,A]
+[C,B,A] ; []?[Cabbage, C] -> [ ]
+[Goat, B] -> [ Goat, Cabbage, B]
+[Wolf, C] -> []
+[Farmer, Z] -> [Farmer, ]
+[ ] -> [Cabbage, ]
+[Goat, Cabbage, B] -> [ Goat, Cabbage, Wolf, B]
+[Wolf, C] -> [Wolf, ]
+[Farmer, ] -> [Farmer, Wolf, ]?[Z,A], [C,B]; 
+[Z], [A,B,C]; 
+[Z,C], [A,B]; 
+[Z], [B,A,C]; 
+[Z,A], [B,C]; 
+[Z], [C,B,A]; 
+[Z,Z], [B,C,A]; 
+[Z], [C,A]; 
+[Z,A], [Z,C,B,A]?[A,B,C,Z] ; [A,C,Z] ; [A,C,Z,A] ; [A,C,Z,A,B] ; [A,C,Z] ; [A,C,Z,A,B] ; [A,C,Z] ; [Z,A,C,Z] ; [Z,A,C] ; [Z,A,C,B]?[B, C, Z] -> [A, B, C, Z]
+[A, Z] -> [B, C, Z]
+[A, Z, B] -> [A, Z]
+[A, Z] -> [A, Z, C]
+[A, Z, C] -> [A, Z]
+[A, Z, B] -> [A, Z, C, B]
+[B, Z, C] -> [B, Z, C, B]?[A, B, C, Z] -> [A, Z, B]
+[A, Z, B] -> [A, Z]
+[A, Z, B] -> [A, Z]
+[A, Z, B] -> [A, C, Z, B]
+[A, Z, B] -> [A, C, Z]
+[A, C, Z, B] -> [A, C, Z]
+[A, C, Z] -> [A, C, B, Z]
+[A, C, Z] -> [A, C, B]?Here is the revised solution:
+
+[A,B,C,Z] -> [B,Z]
+[B,Z] -> [A,B,Z]
+[A,B,Z] -> [A,B,A,Z]
+[B,Z] -> [B,Z,A]
+[A,B,A,Z] -> [A,B,C,Z]
+[A,B,C,Z] -> [A,B,C]
+[A,B,C] -> []?[A,B,C,Z] -> [A,B,C]
+Z [A,B,C,Z] -> Z [A,B,C]
+
+Z [A,B,C,Z] -> Z [A,C]
+Z [A,C,Z] -> Z [A,C,B]
+
+Z [A,C,B,Z] -> Z [A,C]
+Z [A,C] -> Z [A,C,Z]
+
+Z [A,C,Z] -> A [B,C,Z]
+A [B,C,Z] -> A [C,Z]
+
+A [C,Z] -> B [A,Z]
+B [A,Z] -> B [A,C,Z]
+
+B [A,C,Z] -> B [A,C]
+B [A,C] -> B [A,C,Z]
+
+B [A,C,Z] -> Z [A,C]
+Z [A,C,Z] -> A [C,Z]
+
+A [C,Z] -> B [C,Z]
+B [C,Z] -> C [B,Z]
+
+C [B,Z] -> C [ ]
+Z [ ] ->?A -> [Cabbage, Farmer]
+B -> [Goat, Farmer]
+Z -> [Farmer, Cabbage]
+
+A -> []
+B -> [Goat, Farmer]
+Z -> [Goat, Farmer, Cabbage]
+
+B -> [Goat, Farmer]
+Z -> [Goat, Wolf, Farmer, Cabbage]
+
+A -> [Cabbage, Farmer]
+B -> [Goat]
+Z -> [Goat, Wolf, Farmer, Cabbage]
+
+A -> [Cabbage, Farmer, Wolf]
+B -> []
+Z -> []?[A, B, C, Z] -> []
+A -> [B, C, Z]
+[ A ] -> [] ; [B, C, Z] -> [B, C]
+
+[B, C, Z] -> [A, C]
+Z -> [B, C]
+[B, C] -> []
+
+[A, C] -> [B, Z]
+C -> []
+[B, C] -> [B, Z]
+[C] -> [] ; [B, Z] -> [B]
+
+[B, Z] -> [A, B]
+Z -> []
+[B, Z] -> [A, B]
+[Z] -> []?[ Z, A, C ] -> [ ]
+A -> []
+B -> [C]
+C -> [ ]
+
+[ ] -> [ Z, A, C ]
+Z -> []
+
+[ Z, A, C ] -> [ Z, A ]
+B -> [C]
+
+[ Z, A ] -> [ Z ]
+B -> [C]
+C -> []
+
+[ Z ] -> [ Z, A, C ]
+B -> []
+C -> []
+
+[ Z, A, C ] -> [ Z, A ]
+B -> []
+
+[ Z, A ] -> [ ]
+B -> [C]
+C -> [Z]?[A, B, C, Z] -> [B, C, Z]
+[A, B, C, Z] -> [A, B, Z]
+[A, B, C, Z] -> [A, C, Z]
+[A, B, C, Z] -> [A, C, B, Z]
+[A, B, C, Z] -> [B, A, Z]
+[A, B, C, Z] -> [A, B, Z]
+[A, B, C, Z] -> [A, C, B, Z]?[A,Z] -> [A,Z]
+[B] -> [B,C,Z]
+[C,A,Z] -> [C,B,Z]
+[C,A] -> [C,A,Z]
+[B,C,Z] -> [B,C,A]
+[A,Z] -> [A,B,C]
+[A,B,C] -> [B,C,A]
+[B,C,A] -> [B,C,Z]
+[B,C,Z] -> [A,B,C]?[A, B, C, Z] ; [ , A, C, Z ]
+; [ , A, C, Z ] ; [B, , Z]
+; [B, A, C, Z] ; [A, , C, Z]
+; [A, C, C, Z] ; [B, , Z]
+; [A, C, C, Z] ; [B, , Z ]
+; [B, , Z ] ; [A, C, C, Z]
+; [A, C, C, Z] ; [B, A, ]
+; [ , C, A, ] ; [B, B, Z]
+; [ , C, A, ] ; [A, C, , Z]
+; [A, C, , Z] ; [B, , ]
+; [B, , ] ; [A, C, , Z]
+; [A, C, , Z] ; [B, A, ]
+; [B, A, ] ; []?[A,B,C,Z] -> []
+; [A,B,C,Z]
+; [A,B,C,Z]
+; [A,Z], [B,C]
+; [A,Z], []
+; [B,Z], [A,C]
+; [B,Z], [C,A]
+; [[],Z], [B,C,A]
+; [[],Z], []?A, B, C, Z; A, C, Z; [B, Z]; A, C; [B, Z]; [A, C, Z]; [A, C]; [B, Z]; A, C, Z; [A, C]; [B, Z]; A, C; [B, Z]; A, C, A; [A, B]; [C, Z]; A, B, C; [Z]?[ A, C, Z ] -> [ A, Z ]; 
+[ B, C ] -> [] 
+
+[ A, Z ] -> [ A, C ]; 
+[ B, Z ] 
+
+[ A, C, Z ] -> [ A, C, B ]; 
+[ Z ]
+
+[ A, C, B ] -> [ A, C ]; 
+[ B, Z ]
+
+[ A, C ] -> [ A, B ]; 
+[ C, Z ]
+
+[ A, B ] -> [ A, Z ]; 
+[ B, C ]
+
+[ A, Z ] -> [ A, C ]; 
+[ B, Z ]
+
+[ A, C, B ]?[A,C,Z] -> [B,A,Z]
+[B,A,Z] -> [A,B,Z]
+[A,B,Z] -> [B,C,Z]
+[B,C,Z] -> [A,B,Z]
+[A,B,Z] -> [A,C,B,Z]?[A, B, C, Z]; [A, Z] and [B, C]; 
+[A, Z] and [B, C, Z]; 
+[A, Z] and [B, Z], and [C]; 
+[A, Z] and [B, Z] and [C, Z];?[A, B, C, Z] -> [B, Z]
+[B, Z] -> [A, C]
+[A, C] -> [B, Z]
+[B, Z] -> [A, B, Z]
+[A, B, Z] -> [A, Z]
+[A, Z] -> [B, Z, A]
+[B, Z, A] -> [A, B, Z]
+[A, B, Z] -> [B, C, Z]
+[B, C, Z] -> [A, B]
+[A, B] -> [B, C, Z]
+[B, C, Z] -> [B, C]
+[B, C] -> [B, C, Z, A]?[A,B,C,Z] -> [A,B,Z]
+[A,B,Z] -> [C,A,Z]
+[C,A,Z] -> [B,Z]
+[B,Z] -> [A,Z]
+[A,Z] -> [C,A]
+[C,A] -> [B,Z]
+[B,Z] -> [A,Z]
+[A,Z] -> [C,B,Z]
+[C,B,Z] -> [B,A,C]?[A,B,C,Z] -> [A,B,C]
+[A,B,C] -> [A,B]
+[A,B] -> [A,B,C,Z]
+[A,B,C] -> [A]
+[A,B] -> [A,B,Z]
+[A] -> [B,C,Z]
+[A,B] -> [B,C,Z]
+[B,C,Z] -> [B,C,Z]
+[A] -> [A,B]
+[A,B] -> [A,B,Z]
+[A,B,Z] -> [B,Z]
+[A] -> [A,B]
+[A,B] -> [A,B,Z]
+[A,B,Z] -> [B,Z]
+[B,Z] -> [B,Z]
+[A,B] -> [A,B,C,Z]
+[A,B,C,Z] -> []
+[A,B] -> [A]
+[A] -> [A,B]
+[A] -> [A]
+[A,B] -> [A,B,C,Z]
+[A,B,C,Z] -> [A]
+[B,C] -> [B,C,Z]
+[B,C,Z] -> [B,Z]
+[B] -> [B]
+[B,C] -> [B]
+[B] -> [B]
+[B] -> [B]
+[ ] -> [A,B,C,Z]?[ A, Z ]; [ B, C ]
+[ B, Z ]; [ A, C ]
+[ A, C ]; [ B, Z ]
+[ A, B ]; [ C, Z ]
+[ C, Z ]; [ A, B ]
+[ A, B ]; [ C, Z ]
+[ B, Z ]; [ A, C ]
+[ A, C ]; [ B, Z ]
+[ A, B ]; [ C, Z ]
+[ A, C ]; [ B, Z ]?[A, B, C, Z]; [A, Z, B]; [B, A, Z]; [A, Z, B]; [B, Z, A]; [A, B, Z]; [C, Z]; [B, A, C, Z]; [A, B, C, Z]?A -> [ A, B, C, Z ]
+C -> [ A, Z, B, C ]
+A -> [ A, Z, C, B ]
+B -> [ C, A, B, Z ]
+A -> [ A, C, Z, B ] 
+C -> [ A, C, Z, B ]?[Z,A,B,C] -> [B,C]
+Z -> [B]
+A -> []
+C -> [A,Z]
+
+[B,C] -> [B,Z]
+[A,Z] -> []
+
+[B] -> [B,Z]
+[C -> [A,Z]
+
+[B] -> []
+[A,C,Z] -> []
+
+[ ] -> [A,C,Z]
+[B] -> []?[ A, Z ] -> [    , B ]
+[ A, C ] -> [   , Z ]
+[    , Z ] -> [   , C ]
+[   , C ] -> [   , B, C ]
+[   ,   ] -> [ A, Z, B, C ]?[A,Z]; [B,Z]; [A,C,B,Z]
+[B,Z]; [A,C];
+[B,Z]; [A,C,A,Z]
+[B,C,A,Z]; [B,Z]
+[A,C,Z]; [B,Z]
+[A,C]?[A,B,C,Z] -> [A, Z]
+[A, Z] -> [B, C; A]
+[B, C] -> [B, C; A]
+[B, C] -> [B, C;Z]
+[B, C;Z] -> [B,Z;C,A]
+[B, C;Z] -> [B;C,A;Z]
+[B;C,A;Z] -> [B;A,C;Z]
+[B;C,A;Z] -> [B;Z,C;A]
+
+Final configuration: [B;Z,C;A]?Here is the reformatted output:
+
+A -> [B,C,Z]
+A -> [A,B,C]
+Z -> [A]
+A -> [A,B]
+Z -> [B]
+A -> []
+B -> [Z]
+C -> [A]
+A -> [] 
+B -> [Z] 
+C -> [A]?A -> [A,Z]
+[A] -> [A,B,Z]
+[B,A,Z] -> [B,Z]
+[B,A] -> [A,B,Z]
+[B,C,Z] -> [A,B,Z]
+[ A,Z ] -> [A,B,Z]
+[A,Z,C] -> [A,Z]
+[A,Z] -> [A,Z,C]
+[A,Z,C] -> [A,Z]
+[A,Z] -> [A,Z,C]
+[A,Z,C] -> [A,B,Z]
+
+Final configuration: 
+[A,B,Z]?A -> [Z]
+C -> [A,C]
+[A,C] -> [B,Z]
+[ B,Z ] -> [ A,Z ]
+A -> [ Z,A ]
+B -> [Z,A,B]
+[ Z,A ] -> [Z,A,C]
+[ Z,A,C ] -> [Z,A]
+
+Final configuration: 
+[Z,A]?[ A, Z ] -> [ A, Z ]
+[ A, Z ] -> [ B, C ]
+[ A, Z, B ] -> [ A, Z, C ]
+[ A, Z, C ] -> [ A ]
+[ A, Z, C ] -> [ B, C, Z ]
+[ A, Z, C, B ] -> [ A, Z, C, B ]?[A,B,C,Z] -> [A,Z,B]
+[ A,Z,B ] -> [A,C]
+[ A,C ] -> [B,Z]
+[ B,Z ] -> [B,Z]
+[ B,Z ] -> [A,Z,C,B]
+[ A,Z,C,B ] -> []?A -> [Z]
+B -> []
+C -> [Z]
+Z -> []
+
+A -> [Z, C]
+B -> []
+C -> [Z]
+Z -> [A, C]
+
+A -> [Z, C]
+B -> []
+C -> [Z]
+Z -> []
+
+A -> [Z]
+B -> [Z, C]
+C -> [Z]
+Z -> [A, B]
+
+A -> [Z]
+B -> []
+C -> [Z]
+Z -> [B, A]
+
+A -> [Z]
+B -> []
+C -> []?Here is the revised output:
+
+A -> [A, B, C, Z]
+B -> [Z, A, C];
+A -> [];
+B -> [Z, A, C];
+A -> [C, Z];
+B -> [A, C];
+A -> [C, B, Z];
+B -> [Z, A, C]; 
+A -> [];?[A,B,C,Z] -> []
+Z -> [A,Z]
+B -> [ , Z]
+C -> [A,Z]
+
+[A,C,Z], B -> [ , Z]
+ move cabbage to the other side
+[A,C] -> [B,Z]
+
+[A] -> [B,Z]
+[ , A, C] -> [C,Z]
+Z -> [A,Z]
+
+[A,Z], C -> [A,C]
+ move wolf to the other side
+[A,B,Z] -> [ , Z]
+
+[A,B,C] -> [A,Z]
+ move farmer and wolf back
+[A,Z] -> [ , Z]
+
+[C,Z], A -> [B,Z]
+ move cabbage to the other side?[A, B, C, Z] -> [A, Z]
+[B, C] -> [B, Z]
+[C] -> [B, Z]
+[A, Z] -> [A, B, Z]
+[A, Z] -> [A, B, C, Z]?A -> [ A, B, Z ]
+B -> [ A, C ]
+
+A -> [ A, B, Z ]
+A -> [ A, C, Z ]
+
+A -> [ A, B, Z, A ]
+A -> [ A, C, Z ]
+
+A -> [ A, B, Z, A, C ]
+A -> [ A, Z ]
+
+A -> [ A, B, Z, A, C ]
+A -> []?[A,B,C,Z]; 
+[Z,A,C,Z]
+[Z,A,C,Z] -> [A,C,Z,A]
+[B,C,A,Z] -> [B,C,Z,A]
+[B,C,Z,A] -> [B,C,Z,A]
+[B,C,Z,A] -> [C,Z,B,A]
+
+Final configuration: 
+[C,Z,B,A]?[A,B,C,Z] -> []
+A,B,C -> A,Z
+B,C,A,Z -> B,Z,A,C
+B,Z,A,C -> A,Z
+A,Z -> A,B,C
+B,C,A,Z -> C,A,B
+C,A,B -> C,A,B,Z
+C,A,B,Z -> B,Z,C,A
+B,Z,C,A -> 
+B,Z,C,A -> A,Z
+A,Z -> A,B,C,Z?[Z,A,C] -> [A,B,Z]
+Z -> Z
+B -> B
+Z -> A,B
+Z -> Z
+C -> C
+Z -> A,C
+Z -> Z
+B -> B
+A,C,B -> A,C,B,Z?A -> [ A, B, C, Z ]
+[ ] -> [ A, B, C, Z ]
+
+A, Z -> [ A, Z ]
+[ B, C ]
+
+B -> [ A, B, Z ]
+[ C ]
+
+C -> [ A, B, C, Z ]
+[ ]?A, C, B, Z -> 
+A, Z, C, B; 
+C, B, Z -> A, Z, C, B; 
+C, B, Z, A -> 
+B, Z, C -> A, Z, B, C; 
+A, Z, B -> 
+A, B, Z, C ->?[ A, C, B, Z ] ; [ A, B, C, Z ]; 
+[ A, B, C, Z ] ; [ A, B, C, Z ];
+[ A, C, B, Z ] ; [ A, B, C, Z ];
+[ A, C, B, Z ] ; [ A, B, C, Z ];
+[ A, C, B, Z ] ; [ A, B, C, Z ];?Here is the reformatted output:
+
+[A, B, C, Z] -> [A, B, Z]
+[B, C, Z] -> [B, Z]
+[A, C, Z] -> [A, B, Z]
+[B, Z] -> [A, C, Z]
+[A, B, Z] -> [A, C, Z]
+[B, C, Z] -> [A, B, Z]?A -> [Cabbage]
+B -> [Goat]
+C -> [Wolf]
+Z -> [Farmer]
+
+[A,B,C,Z] ; 
+[B,A,C,Z] 
+
+[B,A,C,Z] -> [A,C,Z]
+
+A -> [Cabbage]
+B -> [Goat]
+C -> [Wolf]
+Z -> [Farmer]
+
+
+[ A , B , C , Z ] ; [A , C , Z ]
+ 
+[A,C,Z] -> [B,Z]
+A -> [Cabbage]
+B -> [Goat]
+C -> [Wolf]
+Z -> [Farmer]
+
+[B,Z] -> [A , C , Z ]
+
+[B,A,C,Z] -> [B,Z]
+A -> [Cabbage]
+B -> [Goat]
+C -> [Wolf]
+Z -> [Farmer]
+
+[A,B,Z] -> [B,A,C]
+
+B -> [Goat]
+A -> [Cabbage]
+C -> [Wolf]
+Z -> [Farmer]
+
+
+[B , A , C , Z ] ; [B , A , C ]
+
+[B,A,C,Z] -> [B,A,C]
+ 
+B -> [Farmer]
+A -> [Cabbage]
+C -> [Wolf]
+Z -> [Goat]
+
+[B,A,C,Z] -> [B,Farmer]
+
+
+[A,B,C,Z] -> [B,Farmer]
+ 
+B -> [Farmer]
+A -> [Cabbage]
+C -> [Wolf]
+Z -> [Goat]
+
+[ B , F , A , C ] ; [B,F,A,C ]
+
+[B,F,A,C] -> [B,F,A,C]?[A,Z] -> [A,C,Z]
+[C,A,Z] -> [B,Z]
+[B,A,C,Z] -> [C,B,A,Z]
+[B,A,C,Z] -> [C,B,A,Z]
+
+Note: I corrected the steps to match the initial configuration and intermediate steps described earlier.?Z,A,C -> Z,B,C
+B -> [A,Z]
+Z,A,C -> Z,B,C
+B -> A,Z
+Z,A,C -> Z,B 
+A,Z -> A,Z
+Z,A,C -> Z,B 
+B,Z -> B,Z
+Z -> Z 
+Z,B,C -> Z,A,C?[A, B, C, Z] -> [A, B, Z]
+[B, A, C, Z] -> [A, B, C, Z]
+[A, B, C, Z] -> []
+[A, B, Z] -> [B, A, C, Z]
+[A, B, C, Z] -> [B, A, C, Z]
+[A, B, Z] -> [B, A, C, Z]
+[B, A, C, Z] -> [A, B, C, Z]
+[A, B, C, Z] -> []
+[A, C, B, Z] -> [A, C, B]
+[ A, C, B, Z ] -> [B, A, C, Z]
+[ B, A, C, Z ] -> [A, B, C, Z]
+[A, C, B, Z] -> [A, C, B]
+[B, A, C, Z] -> [A, C, B, Z]
+[A, C, B, Z] -> [A, C, B]
+[A, C, B, Z] -> [B, A, C, Z]
+[B, A, C, Z] -> [B, A, C, Z]
+[ A, C, B ] -> [A, C, B, Z]
+[A, C, B, Z] -> [A, C, B]
+[A, C, B, Z] -> [B, A, C, Z]
+[B, A, C, Z] -> [B, A, C, Z]
+[A, C, B, Z] -> [A, C, B]?[A, B, C, Z] -> [A, Z]
+[B, C] -> [B, Z]
+[A, Z] -> [A, Z]
+[B, A, C] -> [B, Z]
+[A, Z] -> [A, Z]
+[B, A, C] -> [B, Z]
+[A, Z] -> [A, Z]
+[B, A, C] -> [B, Z]
+[Z, B, C, A] -> [Z, B, C]
+[Z, B, C] -> [Z, B, C]
+[Z, B, C, A] -> [Z, B, C, A]
+
+ Corrected step to bring the farmer back:
+[A, Z] -> [A, B, Z]
+Corrected step to move the goat again:
+[B, A, C] -> [B, A, C]
+Corrected steps for final move:
+[Z, B, C, A] -> [Z, B, C, A]?A, B, Z; A, B, C, Z; A, B, Z; [B, Z]; A, B, Z?[C,Z] -> []
+[Z,C] -> [B,Z]
+[Z,C] -> [B,Z]
+[Z,C,Z] -> []
+[Z,C,G,Z] -> [] 
+[C,B,G,Z] -> []
+[B,C,G,Z] -> [C,Z]
+[C,Z] -> []
+[B,C,G,Z] -> []?A -> [B,C,A,Z]
+[B,C,A,Z] -> [B,C,Z,A]
+B -> [C,A,Z,B]
+[C,A,Z,B] -> [A,C,Z,B]
+[A,C,Z,B] -> [A,C,Z,B]
+A -> [A,C,Z,B]?[A, B, C, Z] -> [A, B, Z]
+[A, B, Z] -> [A, C, B, Z]
+[A, C, B, Z] -> [A, C]
+[A, C] -> [B, Z]
+[B, Z] -> [B]
+[A, C, B, Z] -> [A, C, B]
+[A, C, B] -> [C, B]
+[C, B] -> []?I'll assume you're referring to my formatting instructions for output. I won't have an initial answer to format, as this is the start of our conversation. Please provide your first question or prompt. I will follow the formatting instruction once we begin discussing a topic that requires multiple steps in my response.?[A,C] -> []
+; 
+[ ] -> [A]
+; 
+[ ] -> [ ]
+; [A] -> [C]
+; [A] -> []
+; [ ] -> [A,C,W]
+; [ ] -> [G]
+; [A,C,W] -> [B,G]
+; [A,C,W] -> [B,G,A]
+; [B,G] -> [Z,B]
+; [Z,B] -> [Z,G]
+; [Z,G] -> [Z]?[A, B, C, Z] ; [B, C, A, Z]
+[B, C, A, Z] ; [A, B, C, Z]
+[A, B, C, Z] ; [A, C, B, Z]
+[A, C, B, Z] ; [A, C, B, Z]
+[A, C, B, Z] ; [Z, A, B, C]?[A, B, C] -> [A, Z]
+[B, C] -> [A, B, C]
+[A, B, C] -> [A, Z]
+[B] -> [B, Z]
+[A, B, Z] -> [C, Z]
+[C, Z] -> [A, C, Z]
+[B] -> [A, C, Z]?A -> [ A, C, Z ]
+C, Z -> [ C, Z ]
+A -> [ C, Z ]
+B, Z -> [ B, Z ]
+A, C -> [ B, Z ]
+C, Z -> [ C, Z ]
+A, B -> [ A, C, B, Z ]
+C, Z -> []?A, B, C, Z; A, B, C; [ A, B, C ]; [ A, B, C, Z ]; [ A, B, C, Z ]; [ A, B, C, Z ]; [ A, B, C, Z ]; [ A, B, C, Z ]; [ A, B, C, Z ];?A,B,C,Z -> [C,Z]
+A,B -> [B,Z]
+A,B,C,Z -> A,B,C
+B,A,Z -> B,A,Z
+A,B,C,Z -> A,B,C,Z 
+B,A -> B,A,Z
+A -> [A,B]?[A, B, C, Z] ; [B, C, Z]
+[B, C, Z] ; [A, B, C, Z]
+[A, B, C, Z] ; [A, B, C, Z]
+[A, B, C, Z] ; [A, C, Z, B]
+[A, B, C, Z] ; [A, B, C, Z]
+[A, B, C, Z] ; [A, B, Z, C]
+[A, B, C, Z] ; [A, B, C, Z]
+[A, B, C, Z] ; [A, B, C, Z]
+[A, B, C, Z] ; [A, G, C, Z]?[A,B,C,Z] -> [B,C,Z]
+[B,C,Z] -> [A,Z]
+[A,Z] -> [B,C,Z]
+[B,C,Z] -> [A,Z]
+[A,Z] -> [A,W,Z]
+[A,W,Z] -> [C,Z]
+[A,Z] -> [A,G,C,Z]
+[A,G,C,Z] -> [B,Z]
+[A,Z] -> [A,W,Z]
+[A,W,Z] -> [A,B,W,Z]
+[C,Z] -> [A,B,W,Z]?[A,B,C,Z] ; [A] [B,C,Z]
+[A,B,C,Z] ; [A,B] [C,Z]
+[A,B,C,Z] ; [A,C] [B,Z]
+[A,B,C,Z] ; [A] [B,C,Z]
+[A,B,C,Z] ; [A,B] [C,Z]
+[A,B,C,Z] ; [A,B,C] [Z]?[A, B, C, Z] -> [A, Z]
+[B, C] -> [A, Z; B, C]
+
+[B, C] -> [B, C, Z]
+[A, Z] -> [A, B, C, Z]
+[A, Z] -> [A, B, C, Z]
+[B, C] -> [B, C, Z]
+[A, Z] -> [A, B, C, Z]
+
+[A, B, C, Z] -> [A, B, C, Z]
+[Z] -> [A, B, C, Z]
+[A, Z] -> [A, B, C, Z]?A, B, C, Z; 
+[B, Z] -> [A, C, Z]; 
+[A, B]; 
+[A, C] -> [A, Z]; 
+[A, Z] -> [B, A, Z]; 
+[B, C] -> [B, Z]; 
+[B, Z] -> [C, B, Z]; 
+[A, C]; 
+[C, A, Z]; 
+[A, C] -> [C, B, A, Z]; 
+[C, A] -> [C, B, A, Z]; 
+[A, C] -> [A, C, B, Z]; 
+[C, B] -> [A, C, B, Z];?[A, B, C, Z] -> [B, Z]
+[B, Z] -> [A, C]
+[A, C] -> [B, Z]
+[Z, B, A] -> [Z, B, A]
+[C] -> [C, Z]
+[A, B, Z] -> [A, B, Z]
+[C] -> [C, Z]
+[A, B, Z] -> [A, Z]
+[A, Z] -> [B, Z]
+[B, C] -> [B, C, Z]
+[Z, A, B] -> [Z, A, B]
+[A, C] -> [A, B, Z]
+[B] -> [B, C, Z]
+[A, B, Z] -> []?[[], [B, C], [], Z]; 
+[[], [B, C], Z, []]; 
+[[], [C], Z, []]; 
+[[A], [C], [], Z]; 
+[[], [C], Z, []]; 
+[[B], [], [A], Z]; 
+[[], [B, C], [A], Z]; 
+[[], [B], [A], Z]; 
+[[B], [], [A], Z]; 
+[[], [B, C], [A], []];?[A, B, C, Z] -> [B, C, Z]
+[B, C, Z] -> [A, B, C, Z]
+[A, B, C, Z] -> [A, B, C, Z]
+[A, B, C, Z] -> [A, Z]
+[B, C, Z] -> [A, B, C, Z]
+[A, B, C, Z] -> [A, B, Z]
+[A, B, Z] -> [B, C, Z]
+[A, B, C, Z] -> [A, B, C, Z]?A -> [ A, Z ]
+A, B -> [ A, Z, B ]
+B, C -> [ A, Z, B, C ]
+C, -> [ A, Z, , C ]
+, -> [ A, , , ]?Initial configuration:
+[A, B, C, Z]
+ 
+Z -> A
+[B, C, Z] -> [A, B, C, Z]
+
+Z -> B
+[A, B, C, Z] -> [B, C, Z]
+[A] -> []
+
+Z -> A
+[B, C, Z] -> [B, C, A, Z]
+[A] -> []
+[A] -> []
+
+Z -> B
+[B, C, A, Z] -> [B, C, A, Z]
+[B] -> []
+[B] -> []
+
+Z -> C
+[B, C, A, Z] -> [B, C, A, Z]
+[C] -> []
+[C] -> []
+ 
+Z -> B
+[B, C, A, Z] -> [B, C, A, Z]
+[B] -> []
+[B] -> []
+ 
+Z -> A
+[B, C, A, Z] -> [A, C, Z]
+[A] -> []
+[A] -> []
+
+Z -> B
+[A, C, Z] -> [A, C, B, Z]
+[B] -> []
+[B] -> []?[A, B, C, Z]; [A, B, C]
+[Z, A] -> [A, B, C];
+[B, Z] -> [A, C, B, Z];
+[C, Z] -> [A, B, C, Z];
+[A, C, Z] -> [A, B, C, Z];
+[A, B, Z] -> [A, C, B, Z];
+[A, B, Z] -> [A, C, B, Z];?[A, B, C, Z] -> []
+[[], B, C, Z] -> [A, B, C, Z]
+[[], B, C, Z] -> [A, B, [], Z]
+[[], B, C, Z] -> [A, B, [], Z]
+[[], B, [], Z] -> [A, B, C, Z]
+[[], B, [], Z] -> [A, B, [], Z]
+[[], B, [], Z] -> []
+[] -> []?[Z,A] -> [Z,C]
+[Z,C], [A,B]
+[Z], [A,C,B]
+[Z,A,B], []?[A, B, C, Z] -> [C]
+[C] -> [B, Z]
+[B, Z] -> [B, Z]
+[B, Z] -> [C, B]
+[C, B] -> [A, C]
+[A, C] -> [A, B]
+[A, B] -> [B, A]?[A,B,C,Z] -> [A,B,Z]
+[B,C,Z] -> [B,C,Z]
+[B,C,Z,B] -> [B,C,Z]
+[C,Z] -> [C,Z]
+[C,Z,C] -> [Z,C]
+[Z,C] -> [Z,C]
+[Z,C,B,A] -> []?A -> [Z]
+B -> []
+C -> []
+
+A -> [Z, A]
+B -> [Z]
+
+A -> [Z, A, B]
+B -> [Z]
+
+A -> [Z, A, B]
+B -> [Z, A]
+
+A -> [Z, A, B]
+B -> [Z, A, C]
+
+A -> [Z, A]
+B -> [Z, A, C]
+C -> [Z]
+
+A -> [Z, A, B, C]?[A,B,C,Z] -> [A]
+; [ behaviors: Z,A,C]
+[ behaviors: B ]
+; [ behaviors: Z,C ]
+; [ behaviors: B ]
+; [A,Z]
+; [ behaviors: Z,C]
+; [ behaviors: B ]
+; [A,Z,C]
+; [ behaviors: Z ]
+; [ behaviors: C ]
+; [A,Z,C]?[A,B,C,Z] -> []
+A,B,C -> [B,Z]
+A,B,C,Z -> [A,B,C]
+[A,B,C,Z] -> [A,B,C]
+B -> [B]
+[ A ] [ B,C,Z ] -> [ A ] [B]
+[ A ] [ B ] [ C,Z ] -> 
+[A] -> [ ]
+[B] -> [B,[C]]
+[C] -> [B,[C]]?Here is the revised format:
+
+[A, B, C, Z] -> [B, Z]
+[B, Z] -> [A, C]
+
+[B, Z] -> [A, C, Z]
+[A, C, Z] -> [A, Z]
+[A, Z] -> [B, C]
+[B, Z] -> [A, C]
+
+[B, Z] -> [A, C]
+[A, C, Z] -> [B, Z]
+[A, C] -> [B, Z]
+[B, Z] -> [A, C]?A -> [Cabbage]
+B -> []
+Z -> []
+
+A -> [Z]
+B -> [Cabbage]
+
+A -> [Z]
+B -> [Cabbage, Z]
+
+A -> [Z]
+B -> [Cabbage, Wolf, Z]
+
+A -> []
+B -> [Cabbage, Goat, Wolf, Z]?[A,C,Z] -> [A]
+[A] -> [C,Z]
+[C,Z] -> [B,Z]
+[B,Z] -> [A,C,Z]
+[ A ] -> [ C ]
+[B,C,Z] -> [ B,C ]
+[B,C,Z] -> [ A,B,C,Z]
+[ A ] -> [ B,A,C,Z ]
+[B,A,C,Z] -> [ B,C,A,Z ]
+[B] -> [ A,C ]
+[B] -> [ C,A,Z ]
+[B] -> [  ]?[A, B, C, Z] -> [B, Z]
+A, B, C, Z -> []
+[B, Z] -> [A, C, B, Z]
+
+[A, B, C, Z] -> [A, C, B, Z]
+[A, B, C, Z] -> []
+
+[A, B, C, Z] -> [B, A, C, Z]
+[B, A, C, Z] -> [B, A, C, Z]
+
+[A, B, C, Z] -> [B, A, B, Z]
+[B, A, C, Z] -> [B, A, B, Z]
+
+[B, A, B, Z] -> [B, A, C, Z]
+
+[B, A, C, Z] -> []
+
+Note: The final configuration is already empty as per the initial condition.?Here is the reformatted output:
+
+A,B,C,Z -> A,C,Z
+A,C,Z -> A,Z
+A,Z -> A
+B,C -> []
+A,B,Z -> A
+A,B -> B
+B -> 
+A,C,Z -> A?[A, B, C, Z]; [B, Z]
+[A, B, C, Z]; [A, C]
+
+[A, B, C, Z]; [A, B, C, Z]
+[A, B, C, Z]; [A, Z]
+[A, B, C, Z]; [B, A, Z]
+[A, B, C, Z]; [B, Z]
+[A, B, C, Z]; []
+
+[A, B, C, Z]; [A, C]?A,B,C,Z -> A,B,C
+Z -> [A,B,C]
+[A,B,C] -> [A,B,C]
+[A,B,C] -> [A,B,C,Z]
+[B,A,Z] -> [A,B,Z]
+[C] -> [A,B,Z,C]
+[B,A,Z] -> [B,A,Z,C]
+[A,B,Z,C] -> [A,B,Z]
+[Z,C] -> [Z,C,A,B]
+[C,A,B] -> [C,A,B,Z]
+[A,B,Z] -> [A,B,Z,C]
+[A,B,Z] -> [ , ]
+[ , ] -> []?A,B,C,Z -> 
+[  , A,C,Z ]; 
+A, , Z; 
+A,B,C,Z ; 
+A,B,C,Z ; 
+A,B, ,Z ;?A,B,C,Z; A,B,C,Z; A,C,Z; A,C,Z; B,A; A,B,Z; C,Z; B,C,Z; A,B,Z; Z; B,C,Z; A,C,Z 
+
+Note: I removed the extra steps that were not part of the original solution.?A -> [C]
+B -> []
+C -> [Z]
+Z -> []
+
+A -> []
+B -> [A, Z]
+C -> [Z]
+Z -> []
+
+A -> [A, Z]
+B -> []
+C -> [Z]
+
+A -> []
+B -> [C, Z]
+C -> []
+Z -> []
+
+A -> []
+B -> [B, Z]
+C -> []
+Z -> []?Here is the reformatted list:
+
+[ A, B, C, Z ] -> [ A, B, Z ]
+A, B, C, Z ; [ A, B, Z ] -> [ A, C, Z ]
+A, B, C, Z ; [ A, C, Z ] -> [ A, C, Z ]
+A, B, C, Z ; [ A, C, Z ] -> [ A, C, Z ]
+A, B, C, Z ; [ A, C, Z ] -> [ A, C, Z ]
+A, B, C, Z ; [ A, C, Z ] -> [ A, C, Z ]
+A, B, C, Z ; [ A, C, Z ] -> [ A, C, Z ]
+A, B, C, Z ; [ A, C, Z ] -> [ A, C, Z ]
+A, B, C, Z ; [ A, C, Z ] -> [ A, C, Z ]
+A, B, C, Z ; [ A, C, Z ] -> [ A, C, Z ]
+A, B, C, Z ; [ A, C, Z ] -> [ A, C, Z ]
+A, B, C, Z ; [ A, C, Z ] -> [ A, C, Z ]
+A, B, C, Z ; [ A, C, Z ] -> [ A, G, Z ]
+A, B, C, Z ; [ A, G, Z ] -> [ B, W, Z ]
+A, B, C, Z ; [ B, W, Z ] -> [ A, C, Z ]
+A, B, C, Z ; [ A, C, Z ] -> [ B, W, Z ]
+A, B, C, Z ; [ B, W, Z ] -> [ B,C,W ]
+A, B, C, Z ; [ B,C,W ] -> [ B, C, Z ]
+A, B, C, Z ; [ B, C, Z ] -> [ A, G, W ]
+A, B, C, Z ; [ A, G, W ] -> [ B, C, Z ]?[A,B,C,Z] ; [B,A,C,Z]
+[B,A,C,Z] ; [A,B,C,Z]
+[A,B,C,Z] ; [A,B,Z]
+[A,B,Z] ; [A,B,C]
+[A,B,C,Z] ; [A,C,B]
+[A,C,B,Z] ; [A,C,Z]
+[A,C,Z] ; [A,C,B]
+[A,C,B,Z] ; [A,B,C]
+[B,A,C,Z] ; [B,A,C,W]
+[B,A,C,W] ; [A,B,C,W] 
+[A,B,C,W] ; []?[A,B,C,Z] -> []
+[A,C,Z] ; [B,Z]
+[B,C,Z] ; [A,C ]
+[A,C ] ; [ ,B ]
+[ ,B ] ; [A,C ] 
+[A,C ] ; [B,Z ]
+[A,Z] ; [C,B ]
+[B,Z,A] ; [A ]
+[A ] ; [B,C,Z ]
+[A,C] ; [Z,B ]
+[A ] ; [C,Z,B]
+[A ] ; [B,C,Z]?A -> [Cabbage]
+B -> [Goat]
+C -> [Wolf]
+Z -> []
+
+A -> [Cabbage]
+B -> [Goat]
+C -> []
+Z -> [Farmer]
+
+A -> [Cabbage]
+B -> [Goat]
+C -> [Wolf]
+Z -> [Farmer]
+
+A -> []
+B -> [Goat]
+C -> [Wolf]
+Z -> [Farmer]
+
+A -> [Cabbage]
+B -> []
+C -> [Wolf]
+Z -> [Farmer]
+
+A -> [Cabbage]
+B -> [Goat]
+C -> []
+Z -> [Farmer]
+
+B -> [Goat]
+A -> [Cabbage]
+C -> []
+Z -> [Farmer]
+
+B -> []
+A -> [Cabbage]
+C -> [Wolf]
+Z -> [Farmer]
+
+A -> [Cabbage]
+B -> []
+C -> [Wolf]
+Z -> [Farmer]
+
+A -> []
+B -> [Goat]
+C -> [Wolf]
+Z -> [Farmer]
+
+A -> [Cabbage]
+B -> [Goat]
+C -> []
+Z -> [Farmer]
+
+B -> [Goat]
+A -> [Cabbage]
+C -> []
+Z -> [Farmer]
+
+A -> []
+B -> []
+C -> [Wolf]
+Z -> [Farmer]
+
+A -> [Cabbage]
+B -> []
+C -> [Wolf]
+Z -> [Farmer]?[Z,A] -> [Z,B]
+[Z,B] -> [A,C]
+[Z], [A,C,B]
+[Z,A] -> [B,C]
+[Z,B], [A,C]
+[B,C] -> [B,A]
+[Z,C,B], [A]
+[Z,C,A] 
+[Z,C,A], [B]?A -> [ A, Z ]
+B -> [ B, C ]
+A, Z -> [ A, Z, C ]
+B -> [ B ]
+A, Z, C -> [ A, Z, C, B ]
+A -> [ A, B ]
+C -> [ C ]
+A, B, Z -> [ A, B, C ]?[A,C,Z] -> [B,Z]
+[B,A,Z] -> []
+A = [Cabbage, Farmer]
+B = [Goat, Wolf]
+C = [Wolf]
+
+[B,A,Z] -> []
+A = [Cabbage, Farmer]
+B = [Goat]
+C = [Wolf]
+
+[A,B,Z] -> []
+
+[A,C,Z] -> [B,Z]
+B = [Goat, Wolf]
+C = [Wolf]
+
+[A,B,Z] -> []?A -> [  , B, Z ]
+A -> [ A, B, Z ]
+B -> [ A,  , Z ]
+A -> [  , B, Z ]
+A -> [ A, C, Z ]?A -> [B,Z]
+[ B, Z ]
+[ A, C ]; 
+C -> [B,Z]
+[ B, Z ]
+[ A, C ]; 
+[ A, C ]
+[ B ]
+[ C, Z ]; 
+[ B, C, Z ]?[ A, C, B, Z ] -> [ C, B, Z ]
+[A] -> []
+
+[ C, B, Z ] -> [ A, C, B, Z ]
+[A,B] -> [ A, C, B, Z ]
+
+[ A, C, B, Z ] -> [ A, C, Z ]
+[A,B,C] -> [ A, C, B, Z ]
+
+[ A, C, B, Z ] -> [ A, B, Z ]
+[C,B] -> [ A, C, B, Z ]
+
+[ A, C, B, Z ] -> [ A, C, B ]
+[A,C,B] -> [ A, C, B, Z ]
+
+[ A, C, B, Z ] -> [ C, A, Z ]
+[A,C] -> [ A, C, B, Z ]
+
+[ A, C, B, Z ] -> []
+[C,B,Z] -> []?A, Y, C, Z -> A, B, X;
+A, B, C, Z -> A, Y;
+A, Y, C, Z -> A, Y;
+A, Y, C, Z -> A, B; 
+A, B, X -> B, X?[A,B,C,Z] ; [A,B,C] ; [A,Z] ; [B,Z] ; [A,Z] ; [A,C] ; [A,B] ; [Z,A] ; [A,B,Z] ; [Z,A,C] ; [Z,A,B,C]?[A,B,C,Z] -> [A,Z]
+[B,C,Z] -> [B,C]
+[B] -> [C,B]
+[C] -> [B,Z]
+[B,Z] -> [B]
+[C,B] -> [C]
+[A,Z] -> [C,B]
+[C,B,A,Z]?A -> [Cabbage, A]
+B -> [Goat, B]
+C -> [Wolf, C, Wolf, Z]
+
+A -> []
+B -> [Goat, B, Z]
+C -> [Wolf, C, Wolf, Z]
+
+A -> [Cabbage, Z]
+B -> [Goat, Z]
+C -> [Wolf, C, A, Z]
+Z -> [Goat, B]
+
+A -> [Cabbage, Z]
+B -> []
+C -> [Wolf, C, A, B]
+Z -> [Goat, B]
+
+A -> [Cabbage, A]
+B -> [Goat, B, Z]
+C -> [Wolf, A, Z]
+Z -> []
+
+A -> [Cabbage, A, Z]
+B -> [Goat, B]
+C -> []
+A -> []?[A, B, C, Z] -> [A, Z]
+
+[B, C] -> [B, Z]
+
+[A, Z] -> [A, B, Z]
+
+[A, Z] -> [A, C]
+
+[A, B, Z] -> [A, C, B]
+ 
+[A, Z] -> []
+
+[A, B, C, Z] -> [A, C, B, Z]?[A, B, C, Z] -> []
+[ZC] -> []
+[A, B, C] -> [Z]
+[ZB] -> []
+[A, C, B] -> [Z]
+[ZA] -> []
+[B, C, A] -> [Z]
+[ZB] -> []
+[A, C, B] -> [Z]
+[ZC] -> []
+[A, B, C] -> [Z]
+[ZB] -> []
+[A, B] -> [C]
+[] -> [A, B, C, Z]
+[ZB] -> []
+[A, C] -> [B]
+[] -> [A, B, C, Z]
+[A, B] -> []?A, C, Z; A, Z; A, C, Z; A, Z; A, B, Z; A, Z?[A,B,C,Z] -> [B,C,Z,A]
+[B,C,Z] -> [A,Z]
+[A,Z] -> [B,C,Z]
+[A,B,C] -> [B,C,Z,A]
+[A,B,Z] -> [A,Z]
+[A,B,C,Z] -> [A,B,Z,C]
+[A,B,Z,C] -> [B,Z,A,C]
+[B,C,Z] -> [Z,B,C]
+[Z,B,C] -> [B,C,Z]
+[B,C,Z] -> [C,B,Z]
+[C,B,Z] -> [B,C,Z]
+[B,C,Z] -> [B,C,Z]
+ [],C,Z -> [C,B,Z]
+[B,A,C]?A,Z,C -> A,Z,A
+A,Z,A -> A,Z,C
+A,Z,C -> A,Z,B
+A,Z,B -> A,Z,C,B
+A,Z,C,B -> A,Z,C 
+A,Z,C -> A,Z,B,C?A, B, C, Z; -> [B,C]
+Z, A; -> [B,C]
+Z, B; -> [A,C]
+Z, C; -> [A,B]
+B, Z; -> [A,C]
+B, C; -> []?[A,Z] -> [];
+[A,Z] -> [B,Z]
+[[],Z] -> [A,Z]
+[B,Z] -> [A,Z]
+[B,Z] -> [B,C,Z]
+[Z] -> [B]
+[B] -> [A,B,C]?A, B, C, Z -> A, B, Z
+A, B, C, Z -> A, B, Z;
+A, B, Z, C -> A, B, Z;
+A, B, Z, C -> A, B, C, Z
+B, C, Z, A -> B, Z, C, A;
+C, Z, A, B -> C, Z, A, B;?I'm ready to help. What is the input you would like me to process?A -> [B,Z]
+[B,C] -> [A,Z]
+
+[A,Z] -> []
+[B,C] -> [A,Z]
+
+[A,Z] -> [A,B,Z]
+
+[A,Z] -> [A,B,C,Z]
+
+[A,Z] -> [A,B,C]
+
+[A,Z] -> [A,B,A,C]
+
+[A,Z] -> [B,A,C]?[Cabbage, Goat, Wolf, Farmer] -> [Goat]
+[Farmer] -> [Cabbage, Wolf, Goat, Farmer]
+[A, C] -> [B, Z]
+[B, Goat] -> [A, B, Wolf, Cabbage, Farmer]
+[A, C] -> [B, Z]
+[A, B, C, W] -> []
+[A, W] -> [B, C, A, F]
+[B, F] -> [A, C, G, W]
+[Farmer] -> [Cabbage, Goat, Wolf]?[A,Z] -> []
+[B,C] [C]
+[Z,A] -> [A] [B] [C,Z]
+[Z,A,C,Z] -> [A] [B] 
+[A,C,Z] [B]?[ A, B, Z, C ] -> [ ]
+[ A, B, Z, C, A ] -> [ C ]
+[ A, B, Z, C, A, Z ] -> [ B ]
+[ A, B, Z, C, A, B ] -> [ C ]
+[ A, B, Z, C, A, B, Z ] -> [ 
+[ A, B, Z, C, A, B, Z, A ] -> [ C ]
+[ A, B, Z, C, A, B, Z, A, C ] -> [ ]?[A, B, C, Z] -> [A, Z]
+[A, Z] -> [B, Z]
+[B, C] -> [B, Z]
+[B, Z] -> [B, C]
+[B, C] -> [A, Z]
+[A, Z] -> [A, C]
+[A, C] -> [B, Z]
+[B, Z] -> [B, C]
+[B, C] -> [B, C, A]
+[B, C, A] -> [B, C, A, Z]?A[0], B -> A[1], A[0], B;
+B -> [Goat]
+A[0], B -> A[1], C, B;
+A[1] -> A[1], Z;
+C, B[0] -> A[1], C, Z;
+B[0] -> B;?A -> [A, Z]
+C -> [B, C, Z]
+A -> []
+B -> [A, Z]
+
+A -> [A, Z]
+B -> 
+C -> [B, C, Z]
+
+A -> [Z]
+B -> [C, B, Z]
+C -> []
+
+A -> [Z]
+B -> [Z]
+C -> [Z, B]?[C,B,C,Z] -> [C,B,Z]
+[A,C,Z] -> [B,Z]
+[C,B,Z] -> [B,Z]
+[A,B,Z] -> []
+[B,C,Z] -> []
+[C,B,Z] -> [B,Z]
+[A,B,Z] -> []?A -> [B,C,Z]
+C -> [A,B,Z]
+
+A -> [A,C,Z]
+B -> [A,C,Z]
+
+A -> [A,Z]
+B -> [C,Z]
+
+B -> [C,Z]
+A -> [C,Z,B]
+
+A -> [A,C,Z]
+C -> [B,Z]?A -> [ A, C, B, Z ]
+C -> [ A, C, Z, B ]
+A -> [ A, C, Z, B ; A, B, C, Z ]
+Z -> [ A, C, Z, B ; A, B, C, Z ; A, Z, B, C ]
+B -> [ A, C, Z, B ; A, B, C, Z ; A, Z, B, C ; A, Z, B, C, A ]
+C -> [ A, C, Z, B ; A, B, C, Z ; A, Z, B, C ; A, Z, B, C, A ; A, Z, B, C, A, B ] 
+Z -> [ A, C, Z, B ; A, B, C, Z ; A, Z, B, C ; A, Z, B, C, A ; A, Z, B, C, A, B ; A, Z, B, C, A, B, C ]
+A -> [ A, C, Z, B ; A, B, C, Z ; A, Z, B, C ; A, Z, B, C, A ; A, Z, B, C, A, B ; A, Z, B, C, A, B, C ; A, B, C, Z ]
+B -> [ A, C, Z, B ; A, B, C, Z ; A, Z, B, C ; A, Z, B, C, A ; A, Z, B, C, A, B ; A, Z, B, C, A, B, C ; A, Z, B, C, A, B, C, A ]?A -> [ A, Z ]
+B, C -> [ B, C]
+A, Z -> [ A, Z ]
+A, C -> [ A, C ]
+B, C -> [ B, C ]
+Z, A -> [ Z, A ]
+A, C -> [ A, C ]
+A, B -> [ A, B ]
+C, B -> [ C, B ]
+Z, A -> [ Z, A ]?[B,C,Z] -> [A,B,C,Z]
+[A,B,C,Z] -> [B,C,Z,A]
+[B,C,Z] -> [A,B,Z]
+[A,B,Z] -> [A,B,C,Z]
+[A,B,Z] -> [A,C,Z]
+[B,C,Z] -> [A,C,Z]
+[A,C,Z] -> [B,C,Z]
+[A,C,Z] -> [A,C]
+[B,C,Z] -> [B,C]
+[A,C] -> [A,B,C,Z]
+[A,C] -> [A,C,Z]
+[B,C,Z] -> [B,C,A]
+[A,C,Z] -> [A,B,C,Z]
+[A,C,Z] -> [A,C,Z]
+[A,B,C,Z]?[A, Z] ; [B, C]
+[B, C, Z] ; [A, Z]
+[A, Z, B] ; [C, Z]
+[A, Z, C, B] ; [A, Z]
+[A, Z, B, C] ; [A, Z]
+
+Note that I removed the intermediate step where the farmer returns to the initial bank with cabbage (A), as it's not necessary for the format you requested.?[A,B,C,Z] -> [A]
+[A,B,C,Z] -> [A,C]
+[A,B,C,Z] -> [A,C,Z]
+[A,B,C,Z] -> [A,C,B,Z]?[A, B, C, Z] -> []
+[A, B, C, Z]; [  , A, , ]
+
+[A, B, C, Z] -> [A, , , ]
+[A, B, C, Z]; [  , A, , ]
+
+[A, B, C, Z] -> [B, , , Z]
+[A, B, C, Z]; [B, , , Z]
+
+[B, , , Z] -> [B, , ]
+[B, , , Z]; [B, , ]
+
+[  , B, A, ] -> [A, B, , ]
+[  , B, A, ]; [  , B, A, ]
+
+[  , B, A, ] -> [C, B, A, ]
+[  , B, A, ]; [C, B, A, ]
+
+[C, B, A, ] -> [C, B, , Z]
+[C, B, A, ]; [C, B, A, ]
+
+[C, B, A, ] -> [B, C, A, Z]
+[C, B, A, ]; [B, C, A, Z]
+
+[B, C, A, Z] -> [A, B, , ]
+[B, C, A, Z]; [A, B, , ]
+
+[A, B, , ] -> [  , B, A, ]
+[A, B, , ]; [  , B, A, ]
+
+[  , B, A, ] -> [C, , Z]
+[  , B, A, ]; [C, , Z]
+
+[C, , Z] -> [C, , ]
+[C, , Z]; [C, , ]
+
+Final Configuration:
+[B, A, C, ]?[A, B, C, Z]; [B, Z]
+[Z, A];
+[B, A, C, Z]; [B, Z]
+[A, C, Z]; [A, Z]
+[A, B]; [A, Z]
+[A, B, Z, Z]; [A, B]
+[A, C, Z]; [A, C]
+[B, A, C, Z]; [B, A, Z]
+[A, B, Z, Z]; [A, B, Z]
+[A, C, W]; [A, C, W]
+[B, A, C, W]; [B, A, W, Z]?[A, B, C, Z] -> [A]
+[A, B, C, Z] -> [A, B, C, Z]
+[A, B, C, Z] -> [B, A, C, Z]
+[B, A, C, Z] -> [A, B, C, Z]
+[B, A, C, Z] -> [B, C, Z]
+[B, C, Z] -> [B, C, A, Z]?[] -> [A, Z]
+[A, Z] -> [A, B, C, Z]
+[A, B, C, Z] -> [Z]
+[Z] -> []
+[ ] -> [B, Z]
+[B, Z] -> [B, C, Z]
+[B, C, Z] -> [C, Z]
+[C, Z] -> [C]
+[C] -> [A, B, Z]
+[A, B, Z] -> [C, A, B]
+[C, A, B] -> [C, A, B, Z]
+[C, A, B, Z] -> [B, C, Z]
+[B, C, Z] -> [B, C, Z]?Z; [Z, A, B, C]
+Z -> [Z, B, A, C]
+Z returns to near side
+Z; [Z, A, B]
+Z -> [Z, B, A]
+Z returns to far side with wolf
+Invalid move: cannot leave goat and wolf on same bank
+Z; [Z]
+Z returns to far side with wolf (invalid)
+Z; [Z]
+Z leaves wolf on near side and takes cabbage back to far side
+Z; [Z]
+Z returns to near side with goat
+Z -> [Z, B, C]
+Z leaves goat on near side and takes wolf across river
+Z; [Z, C]
+Z returns to near side with goat again
+Z -> [Z, B, C]?[A, B, C, Z]; [A, Z], [B, C]
+[A, B, Z], [C]; [A, B, Z], [C]
+[B, A, Z], [C]; [B, A, C, Z]?[A,B,C,Z] ; [A,C,Z] [B,Z]
+[A,C,Z] [B,Z] ; [A,B,Z] [C,Z]
+[A,B,Z] [C,Z] ; [A,B,Z] [C,A]
+[A,B,Z] [C,A] ; [B,C,Z] [A,Z]
+[B,C,Z] [A,Z] ; [C,B,Z] [A,Z]
+[C,B,Z] [A,Z] ; [C,B] [A,Z]?[A,Z] -> []
+[Z,B] -> [A]
+[Z,B] -> []
+[A,Z,B] -> []
+[Z,C,A] -> [B]
+[Z,C] -> [Z,A,B]
+[Z,A,B] -> []
+[C,Z,B] -> [A]
+[] -> [C,Z,B,A]?A -> B; 
+B -> C; 
+C -> A; 
+A -> B; 
+B -> C; 
+C -> A; 
+A -> B; 
+B -> A?A -> [B,Z]
+A -> [C,Z]
+C -> [B,A,Z] 
+A -> [A,C,B,Z]?A -> [ A, B, Z ]
+C -> [ A, C, Z ]
+
+A -> [ A, B, Z ]
+A -> [ A, C, Z ]
+
+A -> [ A, C, Z ]
+A -> [ A, B ]
+
+A -> [ A, B, Z ]
+A -> [ B, A ]
+
+A -> [ B, A ]
+C -> [ A, C, W ]
+
+Final?A -> [B, C, Z]
+[B, C] -> [A, B, Z]
+
+[A, B, Z] -> [A, B, C, Z]; [B, C]
+[B, C] -> [B, Z]; [C, Z]
+[C, Z] -> [A, C, Z]; [B, Z]
+[B, Z] -> [A, C, Z]
+[A, C, Z] -> [A, B, Z]; [C, Z]
+[A, C, Z] -> [A, B, C, Z]; [B, Z]
+[C, Z] -> [A, B, C, Z]; 
+A -> [B, C, Z]
+[B, C] -> [A, B, Z]
+[A, B, Z] -> [C]?Here is the reformatted output:
+
+[A, B, C, Z] -> [A, B, Z]
+[A, B, Z] -> [A, Z; B, Z]
+[A, Z; B, Z] -> [A, Z]
+[A, Z] -> [A, Z; B, C]
+[A, Z; B, C] -> [B, Z; A, C]
+[B, Z; A, C] -> [B, Z]
+[B, Z] -> [B, Z; A, C]
+[B, Z; A, C] -> [A, C; B, Z]
+[A, C; B, Z] -> [A, Z; C, Z]
+[A, Z; C, Z] -> [A, B; C, Z]
+[A, B; C, Z] -> [A, B, C, Z]
+
+Final Configuration:
+[A, B, C, Z]?A, B, C, Z -> []
+A, B, C -> [Z]
+A, B -> [C, Z]
+A -> [B, C, Z]
+B -> [A, C, Z]
+C -> [A, B, Z]
+A, C -> [B, Z]
+A -> [B, C, Z]
+A, B -> [C, Z]
+B -> [A, C, Z] 
+B, A -> [C, Z]?A -> [ A, C, Z ]
+[B] 
+A -> [ A, C, Z ; B ]
+
+B -> [ A, C, Z ; B,C ]
+A -> [ A, C,Z ] 
+B -> [B,A]
+
+B -> [A,B,Z]
+C -> [A,B,Z ; C]
+
+A -> [A,Z,B,C]?A -> [Z]
+B -> []
+C -> []
+Z -> []
+
+A -> [A]
+B -> [B]
+C -> [C]
+Z -> []
+
+B -> [Z]
+A -> []
+C -> []
+Z -> [B]
+
+A -> [A]
+B -> []
+C -> []
+Z -> [B]
+
+C -> [Z]
+A -> []
+B -> []
+Z -> [C]
+
+A -> [A]
+B -> []
+C -> []
+Z -> [Z]
+
+B -> [Z]
+A -> []
+C -> []
+Z -> [B]
+
+B -> [Z]
+A -> []
+C -> []
+Z -> [B]?[A,B,C,Z] -> [A, B, C] 
+[A, B, C] -> [A, Z]
+[A, B, C] -> [ A, Z ]
+[ A, Z ] -> [A, B, Z]
+[A, B, Z] -> [A, Z]
+[A, Z] -> [A, B, Z]
+[A, B, Z] -> [A,C,Z]
+[A,C,Z] -> [A,C,Z]?A -> [B,C,Z]
+[C,Z] -> [B,Z]
+[A,Z] -> [B,Z]
+[B,Z] -> [C,Z]
+[A,Z] -> [B,W]
+[B,W] -> [C]
+[A,Z] -> [B,W]
+[A,C] -> [B,Z]
+[B,Z] -> [W]
+[A,C,Z] -> [B]?[A,B,C,Z] -> [A,B,C]
+[B,C,Z] -> [B,C,Z]
+[A] -> [B,C,Z,A]
+[B,C] -> [B,C,Z,A]
+[C] -> [B,C,Z,A,C]
+[ B ] -> [ A,B,C,A,C ]
+[] -> []?A -> [B, C]
+[A, B, C, Z] -> 
+[B, Z]
+[A, C] ->
+[B, Z]
+[A, C] ->
+[A, B, C, Z] 
+[B, Z]
+[A, C] ->
+[A, Z]
+[C, B] ->
+[A, Z]
+[B, C]?[A,C,Z] ; [B,Z]
+[A,C,Z] ; [B,Z]
+[B,A,Z,C] ; [A,Z]
+[C,B,Z] ; [A,Z]
+[B,A,Z] ; [C,Z]
+[A,C,Z] ; [B,Z]
+[A,B,Z,C]?[A, B, C, Z] -> []
+[Z, A] ; [A, B, C, Z]
+
+[Z, A] -> [] ; [A, B, C, Z]
+[A, B, C, Z] -> []
+
+[Z, A] -> [] ; [B, Z, A]
+[Z, B, A] -> []
+
+[B, Z, A] -> [] ; [Z, B, A]
+[Z, B, A] -> []
+[B, Z, A] -> [Z, B]
+
+[Z, B] -> [] ; [B, Z, C]
+[B, Z, C] -> []
+
+[B, Z, C] -> [] ; [Z, B, C]
+[Z, B, C] -> []
+
+[Z, B, C] -> [] ; [B, Z, C]
+[B, Z, C] -> []
+[Z, B, C] -> [Z, B]
+
+[Z, B] -> [] ; [B, Z, C]
+[B, Z, C] -> [Z, B]
+
+[Z, B, C] -> [] ; [Z, A, B]
+[Z, A, B] -> []
+
+[Z, A, B] -> [] ; [A, B, C]
+[A, B, C] -> []
+
+[A, B, C] -> [] ; [Z, A, B]
+[A, B, C] -> []
+[Z, A, B] -> [Z, A]
+
+[Z, A] -> [] ; [B, Z, C]
+[B, Z, C] -> [Z, B]
+
+[Z, B] -> [] ; [A, B, C]
+[A, B, C] -> []
+
+[Z, A] -> []?[A,B,C,Z] ; [B,Z,A,C]
+[B,Z,A,C] ; [A,C,B,Z]
+[A,C,B,Z] ; [B,Z,A,C]
+[B,Z,A,C] ; [A,C]
+[A,C] ; [B,Z]
+[A,Z] ; [B,C]
+[B,C] ; [A,Z]
+[A,Z] ; [B]
+[B,Z] ; [A,C]
+[B,Z,A,C] ; [A]
+[A,C,B,Z] ;?A -> [ A, B, C, Z ]
+[ A, B, C, Z ] -> [ A, B, C, Z ]; 
+B -> [ A, B, C, Z ]; [ A, C, Z ]
+[ A, B, C, Z ]; [ A, C, Z ] -> [ A, C, Z ]; 
+A -> [ A, C, Z ]; [ A, B, C, Z ];
+[ A, C, Z ]; [ A, B, C, Z ] -> [ A, B, Z ]; 
+B -> [ A, B, Z ]; [ A, C, Z ]; 
+[ A, B, Z ]; [ A, C, Z ] -> [ A, C, Z ]; 
+A -> [ A, C, Z ]; [ A, B, Z ];
+[ A, C, Z ]; [ A, B, Z ] -> [ A, B, Z ]; 
+C -> [ A, B, Z ]; [ A, C, Z ]; 
+[ A, B, Z ]; [ A, C, Z ] -> [ A, C, Z ]; 
+A -> [ A, C, Z ]; [ A, B, Z ];
+[ A, C, Z ]; [ A, B, Z ] -> [ A, B, C, Z ];?[A, B, C, Z] -> [A]
+[B, A, C, Z] -> [C, B, Z]
+
+[C, B, Z] -> [B, C, Z]
+ 
+[B, C, Z] -> [B, ]
+[Z, B, C] -> [Z, ]
+
+[ ] -> [A]?[A,B,C,Z] ; [B,C,A]
+[B,C,Z] ; [B,C,A]
+[B,C,A] ; [B,Z]
+[B,Z] ; [B,C]
+[B,C,A] ; [B,C,Z]
+[B,C,Z] ; [B,C,A]
+[B,C,A] ; []
+[B,C] ; [A,C]
+[B,C,A] ; [B,C]
+[B,C] ; [B,A]
+[B,C] ; [B,C]
+[B,C,Z] ; []?A -> [B,C,Z]
+B -> [A,C,Z]
+Z -> [B,C]
+
+B -> [A,C,Z]
+C -> [A,Z]
+
+A -> [B,C]
+Z -> [B,A]
+
+A -> []
+B -> [A]
+C -> [A,Z]
+
+A -> []
+B -> [A]
+C -> []
+
+A -> [B,C]
+Z -> [B,A]
+
+A -> [B,C]
+Z -> [B]?I'll keep this in mind for future answers. Please go ahead and ask your question. I will format my response as requested.?[A, C, Z] -> [A, B, C, Z]
+[A, B, C, Z] -> [B, A, C, Z]
+[B, A, C, Z] -> [A, B, C, Z]
+[A, B, C, Z] -> [B, C, A, Z]
+[B, A, C, Z] -> [C, Z, B, A]
+[A, B, C, Z] -> [Z, A, B, C]?[A, B, C, Z] ; [A] [B, C, Z]
+[A] [B, C, Z] ; [A] [B, C]
+[A] [B, C] ; [A] [B, C, Z]
+[A] [B, C, Z] ; [A] [B, C]
+[A] [B, C] ; [A] [C, Z]
+[A] [B, C, Z] ; [A] [B]
+[A] [B] ; [A, B] [C, Z]?[A,Z] ; [A]
+[A] ; [B,Z]
+[B,Z] ; [B]
+[B] ; [C,B,Z]
+[C,B,Z] ; [C]
+[C,B,Z] ; [A,C,B,Z]?[A, B, C, Z] -> [B, C, Z]
+[B, C, Z] -> [A, B, C, Z]
+[A, B, C, Z] -> [A, B, C]
+[Z] -> []
+[A, B, C] -> [A, C, B, Z]
+[A, C, B, Z] -> [B, Z]
+[B, Z] -> [A, C]
+[A, C, B, Z] -> [A, B, C, Z]
+[A, B, C, Z] -> [A, C, B, Z]
+[A, C, B, Z] -> [A, C]
+[B, Z] -> [A, C, B, Z]
+[A, C, B, Z] -> [A, C, B]
+[A, C, B] -> [B, Z]
+[A, C, B, Z] -> [B, Z]?A, C, Z; B, C;
+B, A; A, C, Z;
+A, B, Z; C;
+A, B, Z; B, A;
+A, B, Z; B, A?[B, Z]; [A, C]
+[A, C, Z]; [B, A, C, Z] 
+[A, B, C, Z]; [B, Z]; [C]?[A, Z] -> [B, C, Z]; 
+[B, C, Z] -> [A, B, Z]; 
+[A, B, Z] -> [ A, B, Z ]; 
+[ A, B, Z ] -> [ B, C, Z ]; 
+[B, C, Z] -> [A, C, Z]; 
+[A, C, Z] -> [A, B, C, Z];?[A,B,C,Z] -> []
+[A,Z] ; [B,C]
+[A,Z] ; [A,Z] 
+[Z,A,B] ; [A,C]
+[Z,A,B] ; [Z,A,B,C]
+[Z,A,B] ; [C,A,B,Z]
+[B,Z] ; [A,C]
+[B,Z] ; [B,Z] 
+[Z,A,B] ; [A,B,Z]
+[A,B] ; [C,Z]
+[A,B] ; [B,Z] 
+[C,A,B] ; [Z,A,B]
+[A,B,C,Z] -> []?[A,B,C,Z] ; [A,Z] ; [B,C,Z] ; [B,Z] ; [A,C,Z] ; [A,C] ; [B,C,Z] ; [B,A,Z] ; [A,C,Z] ; [A,B,Z] ; [A,Z] ; [B,A]?A -> [B,C]
+Z -> []
+
+B stays on right bank.
+C -> [A,Z]
+
+[ A ,   B ,  C ,  Z ] -> [ B ,   C ,  Z ]
+
+Z leaves with C on the right bank. 
+C -> [A]
+Z -> []
+
+[ A ,   B ,  C ,  Z ] -> [ B ,   C ,  Z ]
+[ C ,   A ,  Z ] -> [ B ,   C ,  ]
+
+Z leaves with A on the left bank again. 
+A -> []
+Z -> [B,C]
+
+[ A ,   B ,  C ,  Z ] -> [ B ,   C ,  Z ]
+[ A ,     ,  Z ] -> [    ,   C ,  ]
+
+Z leaves with B on the right bank. 
+B -> []
+Z -> [A,C]
+
+[ A ,   B ,  C ,  Z ] -> [ B ,   C ,  Z ]
+[ A ,     ,  Z ] -> [    ,   C ,  ]
+[ B ,   ,   A ,  C] -> []
+
+Z leaves with A on the left bank. 
+A -> [C]
+Z -> [B]
+
+[ A ,   B ,  C ,  Z ] -> [ B ,   C ,  Z ]
+[ A ,     ,  Z ] -> [    ,   C ,  ]
+[ B ,   ,   A ,  C] -> []
+[ A ,   C ,  Z ] -> []
+
+Z leaves with C on the right bank again. 
+C -> []
+Z -> [B,A]
+
+[ A ,   B ,  C ,  Z ] -> [ B ,   C ,  Z ]
+[ A ,     ,  Z ] -> [    ,   C ,  ]
+[ B ,   ,   A ,  C] -> []
+[ A ,   C ,  Z ] -> []
+[ B ,   ,   A ,  C] -> []
+
+Z leaves with B on the right bank. 
+B -> []
+Z -> [A,C]
+
+[ A ,   B ,  C ,  Z ] -> [ B ,   C ,  Z ]
+[ A ,     ,  Z ] -> [    ,   C ,  ]
+[ B ,   ,   A ,  C] -> []
+[ A ,   C ,  Z ] -> []
+[ B ,   ,   A ,  C] -> []
+
+A -> [C,Z]
+Z -> []
+
+[ A ,   B ,  C ,  Z ] -> [ B ,   C ,  Z ]
+[ A ,     ,  Z ] -> [    ,   C ,  ]
+[ B ,   ,   A ,  C] -> []
+[ A ,   C ,  Z ] -> []
+[ B ,   ,   A ,  C] -> []
+[ A ,   C ,  Z ] -> []?[A, B, C, Z] -> []
+[A, B, C] -> [B, Z]
+[A, B, empty] -> [B, C, Z]
+[empty, B, C] -> [C, Z]
+[B, C] -> [B, empty]
+[B, empty] -> [A, B, Z]
+[A, B] -> [A]
+[A] -> [B, A, Z]
+[B, A, Z] -> [B, Z, A, Z]
+[B, Z, A] -> [C, Z, A]
+[C, Z, A] -> [C, A, Z, B]
+[C, A, Z, B] -> [B, C, A, Z]?[A,B,C,Z] -> [A,C,Z]
+A,C,Z -> B,Z
+B,Z -> A,B,Z 
+A,B,Z -> A,B,C,Z 
+A,B,C,Z -> A,B,Z 
+A,B,Z -> A,B,C,Z 
+A,B,C,Z -> A,C,Z 
+A,C,Z -> A,C,Z 
+A,C,Z -> A,C,Z 
+A,C,Z -> A,C,Z?A -> [ A, C, B, Z ]; 
+B -> [ B, Z ]
+; 
+[ A, C ] -> [ B, Z ]; 
+B -> [ A, C, Z ]; 
+[ B ] -> [ A, C, Z ]; 
+[ A, C, Z ] -> [ A, C, B, Z ];?A -> [Z]
+B -> []
+C -> []
+
+A -> [Z], B -> [], C -> []
+; A -> [Z]
+B -> [], C -> []
+
+B -> [Z]
+C -> []
+; B -> []
+C -> [Z]
+
+B -> []
+C -> [Z]
+; B -> []
+C -> []
+
+B -> []
+C -> [Z]
+; B -> []
+A -> [Z]
+
+B -> []
+C -> [Z]
+; A -> []?A -> [ B, C, Z ]
+[ A, Z ] -> [ B, C, Z ]
+
+Z -> [ A, Z ]
+[ B, C ] -> [ B, C, Z ]
+
+Z -> [ B, C ]
+[ A, Z ] -> [ A, Z ]
+
+Z -> [ A, Z ]
+[ B, C, Z ] -> [ B, C, Z ]
+
+Z -> [ B, Z ]
+[ A, Z ] -> [ A, Z ]
+
+Z -> [ B, Z ]
+[ C, Z ] -> [ B, C, Z ]
+
+Note: The last step was not part of the original solution and was mentioned in error.?A -> [ A , Z ]
+B -> [ B , C ]
+
+A -> [ A , B , C , Z ]
+; 
+A -> [ A , Z ]
+; 
+B -> [ A , Z ]
+; 
+B -> [ A , B , C , Z ] 
+
+A -> [ A , B , C , Z ]?[A, B, C, Z]; [B, Z]
+[B, Z]; [A, C]
+[A, A, C, Z]; [A, C]
+[A, A, C, Z]; [A, B]
+[A, A, C, Z]; [A, B, C]
+[A, B, C, Z]; [C]
+[C]; [B, C, Z]
+[B, C, Z]; [A]?[B, A, C, Z] -> [B, A, C, Z]
+[B, A, C] -> [A, B, C, Z]
+[A, B, C, Z] -> [A, B, C, Z]
+[B, A, C, Z] -> [B, A, Z]
+[B, A, C] -> [A, B, C, Z]
+[B, A, C, Z] -> [A, B, Z]
+[A, B, C, Z] -> [A, B, Z]
+[A, B, C, Z] -> [A, B, C]
+[B, A, C, Z] -> [B, A, C, Z]
+[B, A, C] -> [A, B, C, Z]
+[B, A, Z] -> [B, A, C, Z]
+[A, B, C, Z] -> [A, G, W, Z]
+[A, B, C, Z] -> [B, A, C, W]
+[B, A, C, Z] -> [B, G, C, Z]
+[A, B, C, Z] -> [B, G, C, Z]
+[B, A, C, Z] -> [B, G, W]
+[B, A, C, Z] -> [B, A, G, W]
+[B, A, G, C, Z] -> [B, A, G, W]
+[A, B, C, W] -> [A, B, G, W]
+[A, B, G, W] -> []
+[A, B, G, W]?[A, B, C, Z] -> [Z, A]
+[Z, A] -> [A, B, C, Z]
+[A, B, C, Z] -> [B, Z]
+[B, Z] -> [A, Z]
+[A, Z] -> [A, B, Z]
+[A, B, Z] -> [B, Z]
+[B, Z] -> [Z, A, B]
+[Z, A, B] -> [Z, A, B, C]
+[Z, A, B, C] -> [A, Z, B, C]
+[A, Z, B, C] -> [Z, A, B, C]
+[Z, A, B, C] -> [Z, A, B, C]?A -> [B]
+C -> [A,C,Z]
+A,B -> []
+B -> [Z]
+A,C,Z -> [B]
+B,A,C -> [Z]
+B -> [A,B,Z]
+A,B,Z -> [C]?[A,B,C,Z] -> [A,Z]
+[B,Z] -> [A,Z;B,Z]
+[A,Z] -> [A,Z;B,Z]
+[Z,A] -> [B,Z;Z,A]
+[A,Z] -> [B,Z;A,Z]
+[B,Z] -> [B,Z;A,Z]?A, C, B, Z -> [ A, Z ]
+; 
+[ A, Z ] -> [ A, B, C, Z ]
+;
+[ A, Z ] -> [ A, B, C, Z ]
+; 
+[ A, B, C, Z ] -> [ A, B, C, Z ]
+; 
+[ A, B, C, Z ] -> [ A, B, Z ]
+; 
+[ A, B, Z ] -> [ A, Z ]
+;
+[ A, Z ] -> [ B, C, Z ]?[A, B, C, Z] -> [A, Z] ; [B, C]
+[B, C, Z] -> [B, Z] ; [A, C]
+[A, B, C, Z] -> [B, Z] ; [A, C]
+[A, B, C, Z] -> [A, Z] ; [B, C]
+[B, C, Z] -> [C, Z] ; [A, B]
+[A, B, C, Z] -> [B, Z] ; [A, C]
+[B, C, Z] -> [C, Z] ; [B, A]
+[A, B, C, Z] -> [B, Z] ; [A, C]
+[C, Z] -> [C, Z] ; [A, B]
+[A, B, C, Z] -> [B, Z] ; [A, C]?[B, A, C, Z] ; [B, A, C, Z]
+[B, A, C] ; [B, A, C, Z]
+[A, B, C] ; [A, B, C, Z]
+[C, B, Z] ; [A, B, C, Z]
+[A, B, C] ; [C, B, Z]
+[C, B, Z] ; [A, B, C, Z]
+
+Final configuration: []?A -> [ A, C, Z ]
+B -> [ B, Z ] 
+A -> [ A, C ]
+
+B -> [ B, Z ] 
+A -> [ A, C ]
+C -> [ B, Z ] 
+
+A -> [ A, C ] 
+C -> [ B, Z ]?A -> [ A, Z ]
+B -> [ B, C ]
+A, Z -> [ A, C, B, Z ]
+A, Z -> [ A, Z ]
+B, C -> [ B, C ]
+A, B, C, Z -> [ A, B, C, Z ]
+A, Z -> [ A, Z ]
+Z -> [ Z ]
+A, Z -> [ A, Z ]
+A, Z -> [ A, B, C ]?A -> [B,C,Z]
+[A,Z] -> [A,B,C]
+[A] -> [B,C,Z]
+[B,C] -> [A,Z]
+[A,Z] -> [A,B]
+[B,C] -> [A,Z]
+[B] -> [C,Z]
+[C] -> [B,Z]
+[A,B,Z] -> [A,C,B]
+[A,C,B,Z]?[ A, Z ] -> [ , A, Z ]
+[ B, C ] -> [ B, C, A, Z ]
+[ B, C, A, Z ] -> [ B, C, A, Z ]
+[ B, C, A, Z ] -> [ B, C, A, Z ]
+[ B, C, A, Z ] -> [ , B, C, A, Z ]
+[ , B, C, A, Z ] -> [ B, C, Z ]
+[ B, C, Z ] -> [ B, C, Z ]
+[ B, C, Z ] -> [ B, , Z ]
+[ B, , Z ] -> [ B, C, Z ]
+[ B, C, Z ] -> [ B, C, Z ]
+[ B, C, Z ] -> [ B, C, Z ]
+[ B, C, Z ] -> [ , B, C, Z ]
+[ , B, C, Z ] -> [ B, C, Z ]
+[ B, C, Z ] -> [ B, C, Z ]
+[ B, C, Z ] -> [ B, , Z ]
+[ B, , Z ] -> [ B, C, Z ]
+ 
+This configuration is still not correct since the farmer and wolf could be on each other's sides.?[C, Z] -> [A, B]
+[A, B, Z] -> [C, Z]
+[B, Z, C] -> [A]
+[A, Z] -> [B, Z, C]
+[C, B, Z] -> [A]
+[A, C, B, Z] -> []?[A,Z], [B,Z], [C,Z]; 
+[A,B,C,Z] -> [];
+[A,C] -> [B,Z];
+[ A ,B,Z], [A,Z]; 
+[ C ,B,Z], [  ,Z ]; 
+[ A ,C,Z], [  ,B];
+[ C ,B,A], [C,Z];
+[A,Z], [C ,]; 
+[]?A,B,C,Z; 
+B,C,Z;
+A,B,C,Z; 
+A,B,C,Z; 
+B,A,C,Z; 
+B,A,C,Z; 
+A,C,Z;?A -> [ A, B, C, Z ]; 
+C -> [ A, Z, B, C ]; 
+Z -> [ A, C, B, Z ]; 
+B -> [ A, Z, C, B ]; 
+Z -> [ A, C, B, Z ]; 
+A -> [ A, Z, C, B ]; 
+Z -> [ A, B, C, Z ];?[A, B, C, Z] -> [B, Z]
+[B, Z] -> [A, B, C, Z]
+[A, B, C, Z] -> [A, Z]
+[A, B, C, Z] -> [A, Z, B]
+[A, Z, C] -> [A, B, C, Z]
+[A, Z, C] -> [B, Z, A]
+[A, Z, C] -> []
+[]?[A,B,C,Z] -> []
+[B,Z] -> [B,Z]
+[B,Z] -> [B]
+[Z] -> [C]
+[C] -> [C,A]
+[C,A] -> [A,C]
+[A,C] -> [B,A,C]
+[B,A,C] -> [A,B,C]
+[A,B,C] -> [A,B,C]?A -> [B, C, Z]
+A -> [A, C, Z]
+Z -> A
+B -> [C, Z]
+A -> [A, Z, C]
+Z -> A
+B -> [A, Z, C]
+A -> [B, C, A, Z]
+B -> [C, A, Z]
+C -> [A, B, Z]
+A -> [B, Z]?[A,B,C,Z] -> [B,C,Z] and [A]
+[B,C,Z] and [A] -> [C,Z] and [A,B]
+[C,Z] and [A] -> [Z] and [A,B,C]
+[Z] and [A,B,C] -> [Z,A,B,C]?[ , B, C, Z]; [A, Z, C, ]; [ , A, Z, C];
+[A, , ]; [A, Z, C, ];
+[ , A, Z, C]; [A, , B, Z]
+[ , B, , ]?[A,B,C,Z] -> [A]
+[A] -> [C,Z]
+[C,Z] -> [B]
+[A,B,Z] -> [C]
+[A,C] -> [B,Z]
+[A] -> [C,Z]
+[B,C,Z] -> [Z]
+[B,Z] -> [C,B]
+[A,Z] -> [C,B]
+[A,Z] -> []?A, C, Z -> []
+A, C -> [B, Z]
+[A, B, C, Z] -> [B, Z]
+[B, C, Z] -> [A, B, Z]
+[ A, B, Z ] -> [C, Z]
+[C, B, Z] -> [A, C, Z]
+[A, C, Z] -> [B, C]
+[B, C, Z] -> [C, A, Z]
+[A, C, Z] -> [B, C, Z]?[A,B,C,Z] -> [A,B]
+A,B,C,Z -> A,C
+A,B,C,Z -> A,C,Z
+A,C -> A,C,Z
+A,C -> A,B,C
+A,B,C -> A,C
+A,B,C -> A,C,Z
+A,C -> A?A, C, Z -> 
+A, Z; C
+C -> A, C, Z
+B, Z; A, C 
+B, C, Z; A?A -> [Cabbage, A, Z]; B -> [Goat, B, Z]
+B -> [Cabbage, B, Z]; 
+A -> [Z, A]; B -> []
+B -> [Cabbage, B, Z]; 
+C -> [Wolf, C, Z]
+C -> [Wolf, A, Z]; 
+B -> [Goat, Z]; 
+A -> [Z, A, Goat]; 
+A -> [Z, A, Goat, Z]; 
+B -> [Cabbage, A]?[ A, B, C, Z ] -> [ A, C, B, Z ]
+[ A, C, B, Z ] -> [ A, B, Z ]
+[ A, B, Z ] -> [ A, G, B, Z ]
+[ A, B, Z ] -> [ A, G, C, Z ]
+[ A, G, C, Z ] -> [ A, G, B, Z ]
+[ A, G, B, Z ] -> [ A, G, C ]?[A, B, C, Z] -> [A, C, Z; B]
+A (Farmer) -> B
+[B, C, Z] -> [B, A, C; Z]
+Z (Farmer) -> B
+[A, C] -> [B, A, C; Z]
+A (Farmer) -> B
+[A, B, C] -> [C, Z]
+C (Farmer) -> A
+[C, A, Z] -> [B; Z]
+Z (Farmer) -> B
+[C, A, B, Z] -> []
+[C, A, B] -> [Z]
+C (Farmer) -> A
+[A, C, B, Z] -> []
+A (Farmer) -> C
+[A, C, B, Z] -> []
+[A, B, C] -> [Z]
+A (Farmer) -> C
+[A, C, Z] -> [B; Z]
+C (Farmer) -> A
+[A, C, B, Z] -> []?A, B, C, Z -> [ A, B, C, Z ]
+B, A, Z -> 
+A, B, C, Z -> [ A, B, C, Z ]
+[ A, B, C, Z ] -> [ A, B, C, Z ]; [ A, B, C, Z ]
+
+A, B, C, Z -> [ A, B, C, Z ]
+B, A, Z -> 
+A, B, C, Z -> [ A, B, C, Z ]
+[ A, B, C, Z ] -> [ A, B, C, Z ]; [ A, B, C, Z ]
+
+A, B, C, Z -> [ A, B, C, Z ]
+B, Z, C -> 
+A, B, C, Z -> [ A, B, C, Z ]
+[ A, B, C, Z ] -> [ B, Z, C ]; [ A, B, Z ]
+
+B, Z, C -> 
+A, B, C, Z -> [ A, B, C, Z ]
+[ B, Z, C ] -> [ B, Z, C ]; [ A, B, Z ]
+
+A, B, C, Z -> [ A, B, C, Z ]
+B, Z, A, C -> 
+[ A, B, C, Z ] -> [ B, Z, A, C ]; [ B, Z, C ]; [ A, B, Z ]
+
+B, Z, A, C -> 
+A, B, C, Z -> [ A, B, C, Z ]
+[ B, Z, A, C ] -> [ B, Z, A, C ]; [ A, B, C, Z ]?[ A, C, Z ] -> [ B ]
+A, C, Z ] -> [ A, C, B, Z ]
+A, C, B, Z ] -> [ A, C, B ]
+A, C, B, Z ] -> [ A ]
+A, C, Z ] -> [ B, A, C, Z ]
+B, A, C, Z ] -> [ A, B, C, Z ]
+A, B, C, Z ] -> [ A, B ]
+A, B, C, Z ] -> [ B, A, C, Z ]
+B, A, C, Z ] -> [ A, C, Z ]
+A, C, Z ] -> [ A, C ]
+A, C, Z ] -> [ C, Z ]
+C, Z ] -> [ B, Z ]
+[ B, Z ] -> []?A -> [B,C,Z]; A -> [A,B,Z]; B -> [A,B]
+; A -> [C,Z] -> [B,Z]
+
+A -> [A,B] -> [A,B,Z] 
+;  C -> [A,C,Z]
+;  A -> [A,C] 
+
+A -> [A,C] -> [A]
+; B -> [A,B,Z]
+; C -> [C,Z]
+
+A -> [A] -> []
+; B -> [B,Z]
+; C -> [C,Z]
+
+A -> [B,Z] -> [B]
+; C -> [B,Z] -> [B,C]
+
+B -> [B] -> [B]
+; A -> [B,Z] -> [B,A,Z]
+
+A -> [B,A,Z] -> [A,B,Z]
+; C -> [B,C,Z] -> [C,B,Z]
+
+C -> [B,C,Z] -> [C,B,Z]
+; B -> [B,C,Z] -> [B,C] 
+
+B -> [B,C] -> []
+; A -> [B,C] -> [A,B,C]
+; Z -> []?[A] Z; [Z, B, C]
+[Z, B, C] -> [A, Z]; [B, A, Z];
+[B, A, Z] -> [A] Z; [Z, B, C, A];
+[A] Z; [Z, B, C, A] -> [Z, B, C, A, Z];
+[Z, B, C, A, Z] -> [B, A, C, Z]; [A, Z];
+[B, A, C, Z]; [A, Z] -> [A] Z; [C, B, A, Z];
+[A] Z; [C, B, A, Z] -> [B] Z; [A, C, Z];
+[B] Z; [A, C, Z] -> [A, C, B, Z]; [Z]
+[A, C, B, Z] -> [A, Z]; [C, B, Z]; 
+[Z, A, C, B, Z] -> [B, A, C, Z];?[ Z, A, B, C ]; [ Z, A, Z, B, C ]; 
+[ Z, B, C ]; [ Z, A, Z, B, C ]; 
+[ Z, B, Z, A, C ]; [ Z, B, Z, A, C ]; 
+[ A, Z, C ]; [ A, Z, C ];?[A, B, C, Z] ; [A, B, C] ; [A, B, C, Z] ; [A, B, C, Z] ; [A, B, C, Z] ; [C, B, A, Z] ; [C, B, A, Z, Z]?[A,Z]; [B,Z,C,A]
+[B,Z,C,A]; [A]?[Z,A,C,B] -> [Z,A,C]
+
+[Z,A,C] -> [B,Z]
+
+[B,Z] -> [A,Z]
+
+[A,Z] -> [B,Z]?[A,Z] -> [A,B,C,Z]
+[B,Z] -> [A,C]
+[A] -> [B,C,Z]
+[A,Z] -> [A]
+[B,C] -> [A,B,C]
+[C,Z] -> [A]
+[A] -> [A,Z]
+[B,C] -> [B]
+[C,Z] -> [C]
+[A,Z] -> [A]
+[B] -> [B,C]
+[A,Z] -> [A]
+[A,C] -> [A,Z,B]
+[B] -> [B]
+[C] -> [A,C,Z]
+[A,C,Z] -> [A,C]?[A,B,C,Z] -> [A,B,C]
+[A,B,C] -> [A,Z]
+[A,Z] -> [A]
+[A] -> [Z,A]
+[Z,A] -> [B,Z]
+[B,Z] -> [B]
+[B] -> [Z,B]
+[Z,B] -> [B,Z]
+[B,Z] -> [A,B]
+[A,B] -> [A,B,C]
+[A,B,C] -> [A,C,Z]?[A, B, C, Z] -> [A, B, Z]
+[A, B, Z] -> [A, Z]
+[A, B, Z] -> [A, G, Z]
+[A, B, Z] -> [A, G, Z]
+[A, G, Z] -> [B, Z]
+[A, G, Z] -> [A, G, Z]
+[A, G, Z] -> [A, B, Z]
+[A, B, Z] -> [A, C, Z]
+[A, B, Z] -> [A, C, Z]
+[A, C, Z] -> [B, C, Z]?[A,B,C,Z] -> []
+[B,Z] -> [A,Z]
+[A,Z] -> []
+
+[B,C] -> []
+[B,Z] -> [A,C]
+
+[Z,A,C] -> []
+[B,Z] -> [A,C]
+
+[A,B,Z] -> [] 
+
+[A,Z] -> []
+[A,C] -> []
+
+[A,B,Z] -> [B,C]?A,B,C,Z; 
+Z,A,B,C;
+[A,Z,A] and [B,C]; Z,A,B,C; Z,A;
+[Z,A,B,C] -> [A,Z]; [A,Z,A] and [B,C];
+[A,Z,A] -> [B,Z]; [B,Z], [A,Z]
+[A,Z] -> [B,Z]?[A,B,C,Z] ; [B,C,Z] ; [A,B,Z] ; [A,C,Z] ; [B,A,Z] ; [B,C,Z]?[A,B,C,Z] -> [C,A,Z]
+[C,A,Z] -> [A,C,Z]
+[A,C,Z] -> [A,Z]
+[A,Z] -> [Z,A,C]
+[Z,A,C] -> [B,Z,A,C]
+[B,Z,A,C] -> [Z,A,C,B]
+[Z,A,C,B] -> [B,Z,A,C]
+[B,Z,A,C] -> [C,B,A,Z]
+[C,B,A,Z] -> [A,C,B,Z]
+[A,C,B,Z] -> [A,Z,C,B]
+[A,Z,C,B] -> [Z,A,C,B]
+[Z,A,C,B] -> []
+[A,B,C,Z]?A,B,C,Z; Z,A,B,C; A,B,Z; A,C,Z; A,Z; A,B,C,Z; A,B,C,Z; A,B,C,Z?A -> [Cabbage]
+B -> [Goat]
+C -> [Wolf]
+Z -> []
+
+A -> []
+B -> [Goat, Farmer]
+C -> [Wolf, Farmer]
+
+C -> []
+A -> [Farmer, Goat, Wolf]
+B -> [Wolf, Farmer]
+
+B -> [Farmer, Goat, Wolf]
+A -> [Goat, Wolf]
+C -> [Farmer]
+
+A -> [Goat, Wolf, Farmer]
+B -> []
+C -> []?A -> [Z, A]
+B -> [B, Z]
+C -> []
+
+A -> []
+B -> [B, Z]
+C -> [Z]
+
+B -> []
+A -> [Z, A]
+C -> [Z]
+
+B -> [B, Z, A]
+C -> []
+
+B -> []
+A -> [Z, A, B]
+C -> [Z]?Here is the reformatted output:
+
+A,Z -> [ A, Z ]
+Z -> []
+B,Z -> [ B, Z ]
+[B,Z] -> [A, C]
+[B,Z] -> [ A,C ]
+[ B,Z ] -> [A,C,Z]
+[Z,B] -> [B,Z]
+[A,C] -> [A,B,Z]
+[Z] -> []
+[A,B,Z] -> [A]
+[A] -> [A,C]
+
+Note: I corrected the final step to move C with A, as it was not explicitly stated in the original solution.?[A,Z]; [B,Z]; [C,A]; [Z,C,A]; [Z,C,B]; [A,C,Z]; [B,C,Z]?[A,B,C,Z] -> [ ,B,C,Z]
+[ ,B,C,Z] -> [A ,Z]
+[ A ,Z ] -> [ ,B,C]
+[ ,B,C] -> [ A ,Z]
+[ A ,Z ] -> [ ,B,C]
+[ ,B,C] -> [C ]
+[C ] -> [ A ,Z]
+[A ,Z] -> [ B ,C]
+[B ,C] -> [ ,B,Z]
+[ ,B,Z] -> [A ,B,Z]
+[A,B,C,Z] -> [ ,B,Z]?[A,C,Z] -> [C,A]
+[C,A] -> [A,Z]
+[A,Z] -> [Z,A]
+[Z,A] -> [A,B]
+[A,B] -> [B,Z]
+[B,Z] -> [Z,B]
+[Z,B] -> [B,C]
+[B,C] -> [C,A]
+[C,A] -> [A,C]
+[A,C] -> [Z,A]
+[Z,A] -> [A,Z]
+[A,Z] -> []?[A, B, C, Z] ; [B] [A, C, Z]
+[A, B, C, Z] ; [A, C, Z]
+[B, A, C, Z] ; [B, Z]
+[B, A, C, Z] ; [A, B, Z]
+[A, B, C, Z] ; [A, B]
+[A, B, C, Z] ; [A, B, C]
+
+[A, B, C, Z] ; []?Here are the steps:
+
+[A, B, C, Z] -> [A, C, Z]
+[B] -> [A, C, Z; B]
+
+[A, C, Z] -> [A, C]
+[B, Z] -> [A, C; B, Z]
+
+[A, C] -> [B, A, Z]
+[B, Z] -> [A, C; B, Z]
+
+[A, B, C, Z] is not possible so we move the farmer back and put him on the left bank.
+[A, C, B, Z] -> [A,C,B,Z] 
+Now we move the farmer from the left to the right side with the goat.
+[A, C]
+[B, A, Z] -> [B,A,Z]
+
+Now let's bring the wolf with the farmer 
+[A, B, C, Z] -> [A, B, C, Z; A, B, Z]
+
+[A, B, C, Z] -> [A, B, C]
+[B, A, Z] is not possible so we move the farmer from the left to the right side with the goat.
+[A, B, C, Z] -> [B,A,Z]
+Now let's bring the wolf with the farmer 
+[A, B, C, Z] -> [A,B,C,Z]
+
+[A, B, C, Z] -> [A, B, C]
+[B, A, Z] is not possible so we move the farmer from the left to the right side with the goat.
+Now we are on [B, A, Z]
+Now let's bring the wolf with the farmer 
+[A, B, C, Z] -> [A,B,C,Z]
+
+[A, B, C, Z] -> [A, B, C]?[A C Z] -> [B]
+[B Z] -> [A C Z]
+[A C] -> [B Z]
+[A ] -> [B C Z]
+[B C Z] -> [ A ]?[B,A,Z] -> [C,Z]
+[A,C] -> [B,Z]
+[_,B,Z] -> [A,C]
+[B,A,Z] -> [C]
+[A,C,B] -> [_,Z]
+[B,A,Z] -> [C]
+[A,C,B,Z] -> [A,C,B,Z]?A,Z; B,Z,A; C,B,Z; A,C?A,B,C,Z -> [B,C,Z]
+A,Z -> [A,Z]
+A,Z -> A,[B,C,Z]
+B,Z -> B,[A,C,Z]
+[A,C,Z] -> [A,C,Z]
+[A,C,Z] -> A,[B,C,Z]?A, B, C, Z; A, Z; [B, Z]; [C, Z]; A, Z; [B, Z];?[A,B,C,Z] -> [A] ; [B,C,Z]
+[A] ; [B,C,Z] -> [A,Z] ; [B,C]
+[A,Z] ; [B,C] -> [A,B] ; [Z,C]
+[A,B] ; [Z,C] -> [Z,A,C] ; [B]
+[Z,A,C] ; [B] -> [B,Z] ; [A,C]
+[B,Z] ; [A,C] -> [Z,A,B] ; [C]
+[Z,A,B] ; [C] -> [A,C,Z] ; [B]?[A, B, C, Z] -> [A] ; [B, C, Z]
+[A, B, C, Z] -> [A, B, C, Z] 
+[A, B, C, Z] -> [A, B, C, Z] 
+[A, B, C, Z] -> [A, B, C, Z] 
+[A, B, C, Z] -> [B] ; [A, C, Z]
+[A, B, C, Z] -> [A, B, C, Z] 
+[A, B, C, Z] -> [C] ; [A, B, Z]
+[A, B, C, Z] -> [A, B, C, Z] 
+[A, B, C, Z] -> [A, B, Z]?[A,B,C,Z] ; [A,C,Z]
+ [A,B,Z]; [A,C,Z]
+ [B,C,Z]; [A,A,Z]
+ [A,B,Z]; [A,B,C]
+ [A,B,C,Z]; [A,A,Z]?A, B, C, Z; 
+B, C, Z; 
+[B, Z]; 
+[A, B, C, Z]; 
+B, C, Z; 
+[A, B, Z]; 
+[A, C, Z]; 
+[B, A, Z]; 
+[A, C, Z]; 
+[A, B, C, Z]?[A,Z,B,C] -> [B,Z,C]
+[B,Z,C] -> [Z,C,Z]
+[Z,C,Z] -> [Z,A,C]
+[Z,A,C] -> [C,Z,A] 
+[C,Z,A] -> []?[B,A,C,Z] -> [B,C,Z]
+B,C,Z -> B,C,Z,A,B
+B,C,Z,A,B -> B,C,Z,A
+B,C,Z,A,W -> B,C,Z,A
+B,C,Z,A -> A,Z,C,B
+A,Z,C,B -> A,Z,C,B,A?[A,Z] -> [A,C,Z]
+[B,C] -> [A,C,Z]
+[A,C,Z] -> [B,Z]
+[B,Z] -> [B,C]
+[B,C,Z] -> [B,C,A]
+[B,C,A] -> [B,C]
+[B,C] -> [B,C,A,Z]
+[B,C,A] -> [B,C,A,Z]?A,Z -> [B,C]
+B,Z -> [A,C,Z]
+A,C,Z -> [B,A]
+C,A,Z -> [B,C]
+B,C,Z -> [A,B]
+A,B,Z -> [C,A]
+A,C,Z -> [B,A]
+C,A,Z -> [B,C]?A, B, C, Z -> [ A, B, C ] [Z]
+[ A, B, C ] [Z] -> [B, A] [C, Z]
+[B, A] [C, Z] -> [A, C] [B, Z]
+[A, C] [B, Z] -> [A, B] [C, Z]
+[A, B] [C, Z] -> [B, A, C] [Z]
+[B, A, C] [Z] -> [] [A, B, C, Z]?A, C, Z -> 
+[A, , Z]
+[B, A]
+
+B, A -> [A, , Z]
+[A, C, ]
+
+B,  -> [A, C, ]
+[B, A, Z]
+
+,  -> [A, C, B]
+[B, ]
+
+, C, A -> [A, , B]
+[ , C, A]
+
+, -> [A, C, B]
+[] 
+
+,  -> [A, C, ]
+[A, , B]
+
+C, A -> [A, , B]
+[A, C, Z]
+
+C, -> [A, , B]
+[B, A]?[C,B,Z] -> [Z]
+[Z,C] -> [B,Z]
+[Z,C] -> [B,Z]
+[Z] -> []
+[C,Z] -> [B,Z]
+[B,C,Z] -> [C,Z,B]
+[Z,C,Z] -> [Z,B]
+[Z,Z,B] -> [A,Z,Z,B]
+[A,Z,Z,B] -> [A,B,Z]?A, B, Z -> [ A, B, Z ]
+[ C ] -> [ A, B, Z ]
+[ A, C ] -> [ A, B, Z ]
+[ A, C ] -> [ A, B, Z ]
+[ A, B, C, Z ] -> [ A, B, C, Z ]
+[ A ] -> [ B, C, Z ]
+[ A ] -> [ B, C, Z ]?[A,B,C,Z] -> []
+[_,B,C,Z] 
+[_,C,Z]
+[_,C,Z] -> [A,B,Z]
+[B,_,_] 
+[_,B,A,Z]
+[_,_C,Z] -> [B,A,Z]?[A,B,C,Z]; [A,C] -> [B,Z]
+[B,A,Z]; [A,C] -> [B,C]
+[B,C] -> [B,Z]
+[B,Z]; [B,C] -> [B,A,Z]
+[A] -> [B,Z]
+[B,B,C,Z]; [A] -> [A,B,C,Z]?

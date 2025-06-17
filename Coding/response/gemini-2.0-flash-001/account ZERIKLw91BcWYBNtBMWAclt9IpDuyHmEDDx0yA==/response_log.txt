@@ -1,0 +1,160 @@
+This file explains when the tests were carried out, the dates are expressed: [year-month-day].
+
+Question101
+	2025-04-14
+		COT 69
+		OS 69
+		POT 70
+	2025-04-13
+		POT 30
+		COT 31
+		OS 32
+	2025-04-12
+		POT 6
+		COT 8
+		OS 10
+	2025-04-11
+		POT 40
+		COT 40
+		OS 40
+	2025-04-10
+		POT 37
+		COT 38
+		OS 38
+
+Question102
+	2025-04-15
+		COT 73
+		OS 73
+		POT 74
+	2025-04-14
+		POT 26
+		COT 27
+		OS 27
+
+Question103
+	2025-04-16
+		OS 84
+		POT 85
+		COT 85
+	2025-04-15
+		POT 15
+		COT 15
+		OS 16
+
+Question104
+	2025-04-19
+		POT 72
+		COT 72
+		OS 72
+	2025-04-18
+		COT 94
+		OS 95
+		POT 95
+	2025-04-17
+		POT 28
+		COT 29
+		OS 31
+
+Question105
+	2025-04-20
+		OS 81
+		POT 82
+		COT 82
+	2025-04-19
+		POT 18
+		COT 18
+		OS 19
+
+Question106
+	2025-04-22
+		OS 82
+		POT 83
+		COT 83
+	2025-04-21
+		POT 17
+		COT 17
+		OS 18
+
+Question201
+	2025-04-23
+		COT 25
+		OS 25
+	2025-04-22
+		COT 75
+		OS 75
+
+Question202
+	2025-04-23
+		OS 100
+
+Question203
+	2025-04-24
+		OS 101
+
+Question204
+	2025-04-24
+		OS 100
+
+Question205
+	2025-04-24
+		OS 100
+
+Question206
+	2025-04-24
+		OS 100
+
+Question301
+	2025-04-25
+		COT 88
+	2025-04-24
+		COT 12
+
+Question302
+	2025-04-26
+		COT 39
+	2025-04-25
+		COT 61
+
+Question303
+	2025-04-29
+		COT 125
+	2025-04-26
+		COT 100
+
+Question304
+	2025-04-30
+		COT 100
+	2025-04-27
+		COT 78
+
+Question305
+	2025-05-01
+		COT 45
+	2025-04-30
+		COT 41
+
+Question306
+	2025-05-01
+		COT 100
+
+Question307
+	2025-05-02
+		COT 78
+	2025-05-01
+		COT 22
+
+Question308
+	2025-05-02
+		COT 100
+
+Question309
+	2025-05-03
+		COT 93
+	2025-05-02
+		COT 7
+
+Question310
+	2025-05-03
+		COT 100
+
