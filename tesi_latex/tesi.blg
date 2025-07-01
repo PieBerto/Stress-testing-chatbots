@@ -1,0 +1,78 @@
+This is BibTeX, Version 0.99d (TeX Live 2025)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tesi.aux
+The style file: biblatex.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: tesi-blx.bib
+Database file #2: llm.bib
+Biblatex version: 3.20
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Warning--you've exceeded 500, the entry-string-size, for entry openai2024gpt4technicalreport
+while executing--line 2700 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry openai2024gpt4technicalreport
+while executing--line 2700 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry openai2024gpt4technicalreport
+while executing--line 2714 of file biblatex.bst
+*Please notify the bibstyle designer*
+Warning--you've exceeded 500, the entry-string-size, for entry openai2024gpt4technicalreport
+while executing--line 2728 of file biblatex.bst
+*Please notify the bibstyle designer*
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 10 entries,
+            6402 wiz_defined-function locations,
+            1257 strings with 15504 characters,
+and the built_in function-call counts, 595520 in all, are:
+= -- 58051
+> -- 6413
+< -- 463
++ -- 26300
+- -- 3597
+* -- 42756
+:= -- 87198
+add.period$ -- 0
+call.type$ -- 10
+change.case$ -- 92
+chr.to.int$ -- 50
+cite$ -- 18
+duplicate$ -- 65759
+empty$ -- 41315
+format.name$ -- 5344
+if$ -- 107795
+int.to.chr$ -- 0
+int.to.str$ -- 21
+missing$ -- 0
+newline$ -- 2008
+num.names$ -- 391
+pop$ -- 9176
+preamble$ -- 1
+purify$ -- 995
+quote$ -- 0
+skip$ -- 4644
+stack$ -- 0
+substring$ -- 113471
+swap$ -- 5451
+text.length$ -- 764
+text.prefix$ -- 9
+top$ -- 1
+type$ -- 328
+warning$ -- 0
+while$ -- 11100
+width$ -- 0
+write$ -- 1999
+(There were 4 warnings)
