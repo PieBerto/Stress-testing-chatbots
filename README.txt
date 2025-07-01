@@ -1,6 +1,6 @@
 Folder Structure:
 in the root folder can be found
-- the final version of the thesis
+- the last version of the thesis
 - Slideshow folder in which is present a slide presentation of the thesis
 - Coding folder in which can be found the used programs, the submitted questions and the raw results
 - Results folder containing the .ods files with the final Plot Boxes and the final data used
