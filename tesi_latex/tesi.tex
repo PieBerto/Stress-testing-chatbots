@@ -87,7 +87,9 @@ Data may be labeled, so given an input the right output is known, in this case t
     \end{figure}
 
 The complexity of this model does not allow for motivation of the answers produced. In fact NNs are black boxes: by giving an input the corresponding output cannot be explained by analyzing the internal mechanisms of the NN.
-
+		\subsubsection{RNNs and LSTMs}
+		RNNs: \url{https://towardsdatascience.com/illustrated-guide-to-recurrent-neural-networks-79e5eb8049c9}\\
+		LSTMs: \url{https://colah.github.io/posts/2015-08-Understanding-LSTMs/}
 
         \subsubsection{Generative Pre-trained Transformers (GPTs), Tokens and Embeddings}
 A Generative Pre-trained transformer is a widespread type of modern LLM. The term GPT was taken from OpenAi's commercial series, which in 2018 released the first version of its product then named sequentially as: "GPT-n," which is still the core of ChatGPT today.\\
@@ -132,15 +134,16 @@ The pre-training phase of transformers determines the weights of the NN, that ar
 Once produced, the pretrained model can be further fine-tuned with a smaller dataset, spending significantly less time and computational effort. Fine-tuning is a technique in which the model is trained again with a dataset specific to the scope of deployment, allowing to produce considerably better quality results.\\
 
         \subsubsection{Transformers Architecture}
-The transformer architecture was introduced in 2017, it is an architectural improvement of previously Seq2Seq models. Instead of traditional recurrent neural networks that process sequences sequentially, the new architecture introduced self-attention allowing the model to weigh the importance of different words in the input sequence, improving the understanding of the context.\\
-"Self-attention, sometimes called intra-attention is an attention mechanism relating different positions
-of a single sequence in order to compute a representation of the sequence."\cite{vaswani2023attentionneed}\\
+The transformer architecture was introduced in 2017, it is an architectural improvement of previous Seq2Seq models. Instead of traditional recurrent neural networks that process sequences sequentially, the new architecture introduced self-attention %TODO: SICURO?
+allowing the model to weigh the importance of different words in the input sequence, improving the understanding of the context.\\
+"Self-attention, sometimes called intra-attention is an attention mechanism relating different positions of a single sequence in order to compute a representation of the sequence."\cite{vaswani2023attentionneed}\\
 	\begin{figure}[H]
     \centering
             \includegraphics[width=0.6\textwidth]{transformer.png}
     \caption{Transformer architecture: the \textbf{encoder} is the left halve and \textbf{decoder} the right one, source: \cite{vaswani2023attentionneed}}
     \end{figure}
-The encoder processes the input sequence creating a context vector: a representation that capture the meaning of words in their specific context. The decoder, instead, processes the context vector of the encoder with a self-produced representation created using a masking policy. This policy deny the prediction of the current embedding using future entries, but only previous ones.
+The encoder processes the input sequence creating a context vector: a representation that capture the meaning of words in their specific context and introduce latency.\\
+The decoder, instead, processes the context vector of the encoder with a self-produced representation created using a masking policy. This policy deny the prediction of the current embedding using future entries, but only previous ones.
 
 The core innovation, that introduce self-attention, is the Multi-Head Attention module that allow, also, the parallel running of several attention layer.
 	\begin{figure}[H]
@@ -152,6 +155,9 @@ The core innovation, that introduce self-attention, is the Multi-Head Attention 
     
     	\subsubsection{Sequence-to-Sequence (Seq2Seq)}
 seq$2$seq\\ \url{https://medium.com/@tom_21755/understanding-causal-llms-masked-llm-s-and-seq2seq-a-guide-to-language-model-training-d4457bbd07fa}\\
+\url{https://arxiv.org/abs/1409.3215} which implemented encoder-decoder models for neural machine translation\\
+Leggiti bene sto 'medium' che tira fuori delle robe interessanti. 
+\url{https://medium.com/analytics-vidhya/encoder-decoder-seq2seq-models-clearly-explained-c34186fbf49b}
     	
         \subsubsection{Masked Language Modeling (MLM)}    	
     	Masked Language Modeling (MLM) \cite{devlin2019bertpretrainingdeepbidirectional}
