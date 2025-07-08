@@ -26,70 +26,70 @@ def question_select(filename: Path, out_file: Path, model:str, account:str):
     folder_name = filename.stem
     match folder_name:
         case "Question101":
-            iterate(filename,out_file,q101, model, account)
+            #iterate(filename,out_file,q101, model, account)
             pass
         case "Question102":
-            iterate(filename,out_file,q102, model, account)
+            #iterate(filename,out_file,q102, model, account)
             pass
         case "Question103":
             iterate(filename,out_file, q103, model, account)
             pass
         case "Question104":
-            iterate(filename,out_file, q104, model, account)
+            #iterate(filename,out_file, q104, model, account)
             pass
         case "Question105":
-            iterate(filename,out_file, q105, model, account)
+            #iterate(filename,out_file, q105, model, account)
             pass
         case "Question106":
-            iterate(filename,out_file, q106, model, account)
+            #iterate(filename,out_file, q106, model, account)
             pass
         case "Question201":
-            iterate(filename,out_file, q201, model, account)
+            #iterate(filename,out_file, q201, model, account)
             pass
         case "Question202":
-            iterate(filename,out_file, q202, model, account)
+            #iterate(filename,out_file, q202, model, account)
             pass
         case "Question203":
-            iterate(filename,out_file, q203, model, account)
+            #iterate(filename,out_file, q203, model, account)
             pass
         case "Question204":
-            iterate(filename,out_file, q204, model, account)
+            #iterate(filename,out_file, q204, model, account)
             pass
         case "Question205":
-            iterate(filename,out_file, q205, model, account)
+            #iterate(filename,out_file, q205, model, account)
             pass
         case "Question206":
-            iterate(filename,out_file, q206, model, account)
+            #iterate(filename,out_file, q206, model, account)
             pass
         case "Question301":
-            iterate(filename,out_file, q301, model, account)
+            #iterate(filename,out_file, q301, model, account)
             pass
         case "Question302":
-            iterate(filename,out_file, q302, model, account)
+            #iterate(filename,out_file, q302, model, account)
             pass
         case "Question303":
-            iterate(filename,out_file, q303, model, account)
+            #iterate(filename,out_file, q303, model, account)
             pass
         case "Question304":
-            iterate(filename,out_file, q304, model, account)
+            #iterate(filename,out_file, q304, model, account)
             pass
         case "Question305":
-            iterate(filename,out_file, q305, model, account)
+            #iterate(filename,out_file, q305, model, account)
             pass
         case "Question306":
-            iterate(filename,out_file, q306, model, account)
+            #iterate(filename,out_file, q306, model, account)
             pass
         case "Question307":
-            iterate(filename,out_file, q307, model, account)
+            #iterate(filename,out_file, q307, model, account)
             pass
         case "Question308":
-            iterate(filename,out_file, q308, model, account)
+            #iterate(filename,out_file, q308, model, account)
             pass
         case "Question309":
-            iterate(filename,out_file, q309, model, account)
+            #iterate(filename,out_file, q309, model, account)
             pass
         case "Question310":
-            iterate(filename,out_file, q310, model, account)
+            #iterate(filename,out_file, q310, model, account)
             pass
         case _:
             raise ValueError("folder name: " + folder_name + " has not been recognized.")
@@ -212,7 +212,7 @@ def q102(entries: list[str], out_path: Path, model:str, account:str, q_type:str)
 
 def q103(entries: list[str], out_path: Path, model:str, account:str, q_type:str):
     q_name = "q103"
-    solution = 90704
+    solution = 90717.956
     header = "Model,Type,Account,Answer,Correct,Repetition per Account(Model),Repetition per Type(Model),Repetition per Question(Model),Account(Model) Cumulative,Type(Model) Cumulative,Question(Model) Cumulative,Account(Model) Percentual,Type(Model) Percentual,Question(Model) Percentual,Type and Account Percentual\n"
     for entry in entries:
         new_entry = entry.replace(" ", "").replace("\n", "").replace("\r", "").replace("\t", "").replace("$","").replace("€","").replace(",","")

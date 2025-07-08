@@ -183,7 +183,15 @@ Modern GPTs are fine-tuned via Reinforce Learning from Human Feedback (RLHF). RL
     \end{figure}
 \noindent In RLHF, the Policy specifies how to select actions in a state, choosing between actions and their probability to reach the desired state, while the Reward Model is trained by the human Labeler feedback. This allow the human in the process to provide feedback asynchronously and to not provide personally a response per each action.\cite{kaufmann2024surveyreinforcementlearninghuman}\\
 
+	\subsection{Agentic Benchmarks}
+     %TODO: lo lasciamo qua questo capitolo
+"Establishing Best Practices for Building Rigorous Agentic Benchmarks"\\
+\url{https://arxiv.org/html/2507.02825v1}\\
+This is a very recent and critical paper. It doesn't benchmark specific models, but it provides a framework (Agentic Benchmark Checklist - ABC) for how to build reliable agentic benchmarks. It highlights common pitfalls and threats to rigorous evaluation. Understanding these principles is crucial for interpreting any agentic benchmark results. It touches upon complex task setup, unstructured task outcomes, tool integration, and environment simulation.
 
+"Gemini 2.5 Pro - Google DeepMind" (Technical Report/Blog Post)\\
+\url{https://deepmind.google/models/gemini/pro/}\\
+While not a standalone ArXiv paper introducing a benchmark, this official release details Gemini 2.5's capabilities, including its performance on "Agentic coding" benchmarks like SWE-bench Verified. It explicitly mentions its "reasoning through their thoughts" and being "designed to power a new era of agentic systems" with features like long context and tool integration. It lists concrete performance numbers for agentic coding.
 
     \subsection{ChatGPT}
 ChatGPT is a generative chatbot developed by OpenAI and it is actually based on GPT-4 that “is a Transformer-style model pre-trained to predict the next token in a document, using both publicly available data (such as internet data) and data licensed from third-party providers. The model was then fine-tuned using Reinforcement Learning from Human Feedback (RLHF)”.\cite{openai2024gpt4technicalreport}\\
@@ -198,25 +206,20 @@ The adversarial testing with domain experts is used to identifies and mitigate G
     \end{figure}
 %TODO: parla di GPT3, https://arxiv.org/abs/2005.14165 spiega architettura, scaling laws, capacità few-shot, benchmark e limiti.
     \subsection{Gemini}
-%TODO: rinomina i modelli senza la notazione da programmatore e capisci se ha senso fare delle subsection o vengono troppo corte.
-        \subsubsection{gemini-1.5-flash-002}
-        \subsubsection{gemini-1.5-flash-8b-001}
-        \subsubsection{gemini-2.0-flash-001}
-        \subsubsection{gemini-2.0-flash-lite-001}
-        \subsubsection{gemini-2.0-flash-thinking-exp}   
+    Come strutturare queste sezioni:\\
+Architettura se pubblica (per gemini non la trovi)\\
+Per ogni LLM ci metti i benchmark agentici così che poi confronti con i tuoi risultati\\
     \subsection{Gemma}
-        \subsubsection{gemma3:1b}
-        \subsubsection{gemma3:4b}   
+         
     \subsection{Llama}
-        \subsubsection{llama3.1:8b}
-        \subsubsection{llama3.2:1b}
-        \subsubsection{llama3.2:3b} 
+        
     
     \subsection{Artificial General Intelligence (AGI) and AI main goals}
     
     \subsection{National Institute of Standard and Technology (NIST) AI risk management framework}
 
-     %TODO: lo lasciamo qua questo capitolo
+     
+     
 \clearpage
 \section{Methodology}
     \subsection{Analyzed categories}
