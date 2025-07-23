@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.30)  1 JUL 2025 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.30)  15 JUL 2025 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -607,17 +607,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
-
-
-[3
-
-])
+)
 \tf@toc=\write5
 \openout5 = `tesi.toc'.
 
 
 
-[4]
+[3
+
+]
+
+[4
+
+]
 
 [5
 
@@ -626,16 +628,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [6
 
 ]
-
-[7
-
-]
 Overfull \hbox (6.4916pt too wide) in paragraph at lines 63--65
 \OT1/cmr/m/n/12 The most ca-pa-ble LLMs are \OT1/cmr/bx/n/12 gen-er-a-tive pre-
 trained trans-form-ers (GPTs)\OT1/cmr/m/n/12 ,
  []
 
-<./img/DeepNeuralNetwork.png, id=211, 1124.2pt x 633.36626pt>
+<./img/DeepNeuralNetwork.png, id=166, 1124.2pt x 633.36626pt>
 File: ./img/DeepNeuralNetwork.png Graphic file (type png)
 <use ./img/DeepNeuralNetwork.png>
 Package pdftex.def Info: ./img/DeepNeuralNetwork.png  used on input line 69.
@@ -645,140 +643,168 @@ Overfull \hbox (117.00119pt too wide) in paragraph at lines 69--70
  [][] 
  []
 
-<./img/nodeNN.png, id=214, 141.6492pt x 63.5976pt>
+<./img/nodeNN.png, id=169, 141.6492pt x 63.5976pt>
 File: ./img/nodeNN.png Graphic file (type png)
 <use ./img/nodeNN.png>
 Package pdftex.def Info: ./img/nodeNN.png  used on input line 76.
 (pdftex.def)             Requested size: 195.0pt x 87.55515pt.
 
 
-[8
+[7
 
  <./img/DeepNeuralNetwork.png>]
-<./img/trainingNN.png, id=222, 186.4566pt x 177.3024pt>
+<./img/trainingNN.png, id=178, 186.4566pt x 177.3024pt>
 File: ./img/trainingNN.png Graphic file (type png)
 <use ./img/trainingNN.png>
 Package pdftex.def Info: ./img/trainingNN.png  used on input line 85.
 (pdftex.def)             Requested size: 272.99881pt x 259.61954pt.
 
 
-[9 <./img/nodeNN.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
+[8 <./img/nodeNN.png>]
+Overfull \hbox (207.48183pt too wide) in paragraph at lines 91--93
+\OT1/cmr/m/n/12 RNNs: []$\OT1/cmtt/m/n/12 https : / / towardsdatascience . com 
+/ illustrated-[]guide-[]to-[]recurrent-[]neural-[]networks-[]79e5eb8049c9$[] 
+ []
+
+
+Overfull \hbox (15.23999pt too wide) in paragraph at lines 91--93
+\OT1/cmr/m/n/12 LSTMs: []$\OT1/cmtt/m/n/12 https : / / colah . github . io / po
+sts / 2015-[]08-[]Understanding-[]LSTMs/$[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
 
 
-[10 <./img/trainingNN.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 101--106
+[9 <./img/trainingNN.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 103--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--115
+Underfull \hbox (badness 10000) in paragraph at lines 111--117
 
  []
 
-<./img/WordEmbeddingTableEx.png, id=247, 1204.5pt x 724.7075pt>
+
+
+[10]
+<./img/WordEmbeddingTableEx.png, id=214, 1204.5pt x 724.7075pt>
 File: ./img/WordEmbeddingTableEx.png Graphic file (type png)
 <use ./img/WordEmbeddingTableEx.png>
-Package pdftex.def Info: ./img/WordEmbeddingTableEx.png  used on input line 121
+Package pdftex.def Info: ./img/WordEmbeddingTableEx.png  used on input line 123
 .
 (pdftex.def)             Requested size: 507.00119pt x 305.04962pt.
 
-Overfull \hbox (117.00119pt too wide) in paragraph at lines 121--122
+Overfull \hbox (117.00119pt too wide) in paragraph at lines 123--124
  [][] 
  []
 
 
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 131--133
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
 
  []
 
 
 
-[12 <./img/WordEmbeddingTableEx.png (PNG copy)>]
-<./img/transformer.png, id=264, 282.30469pt x 430.60875pt>
+[11 <./img/WordEmbeddingTableEx.png (PNG copy)>]
+<./img/transformer.png, id=223, 282.30469pt x 430.60875pt>
 File: ./img/transformer.png Graphic file (type png)
 <use ./img/transformer.png>
-Package pdftex.def Info: ./img/transformer.png  used on input line 140.
+Package pdftex.def Info: ./img/transformer.png  used on input line 142.
 (pdftex.def)             Requested size: 234.00238pt x 356.93864pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--142
+Underfull \hbox (badness 10000) in paragraph at lines 137--144
 
  []
 
 
 
-[13]
-<./img/attention.png, id=273, 502.87875pt x 290.58563pt>
+[12]
+<./img/attention.png, id=231, 502.87875pt x 290.58563pt>
 File: ./img/attention.png Graphic file (type png)
 <use ./img/attention.png>
-Package pdftex.def Info: ./img/attention.png  used on input line 148.
+Package pdftex.def Info: ./img/attention.png  used on input line 151.
 (pdftex.def)             Requested size: 390.0pt x 225.35672pt.
 
 
-[14 <./img/transformer.png>]
-Overfull \hbox (407.40039pt too wide) in paragraph at lines 154--155
+[13 <./img/transformer.png>]
+Overfull \hbox (407.40039pt too wide) in paragraph at lines 157--161
 []$\OT1/cmtt/m/n/12 https : / / medium . com / @tom _ 21755 / understanding-[]c
 ausal-[]llms-[]masked-[]llm-[]s-[]and-[]seq2seq-[]a-[]guide-[]to-[]language-[]m
 odel-[]training-[]d4457bbd07fa$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-
+Overfull \hbox (16.51314pt too wide) in paragraph at lines 157--161
+[]$\OT1/cmtt/m/n/12 https : / / arxiv . org / abs / 1409 . 3215$[] \OT1/cmr/m/n
+/12 which im-ple-mented encoder-decoder mod-
  []
 
 
-Overfull \hbox (6.53416pt too wide) in paragraph at lines 160--163
+Overfull \hbox (163.07527pt too wide) in paragraph at lines 157--161
+\OT1/cmtt/m/n/12 medium . com / analytics-[]vidhya / encoder-[]decoder-[]seq2se
+q-[]models-[]clearly-[]explained-[]c34186fbf49b$[] 
+ []
+
+
+
+[14 <./img/attention.png>]
+Overfull \hbox (6.53416pt too wide) in paragraph at lines 166--169
 \OT1/cmr/m/n/12 with also and []$\OT1/cmtt/m/n/12 https : / / colab . research 
 . google . com / github / huggingface /
  []
 
 
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 160--163
+Overfull \hbox (5.2002pt too wide) in paragraph at lines 166--169
 \OT1/cmtt/m/n/12 notebooks / blob / main / transformers _ doc / en / pytorch / 
 masked _ language _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--163
+Underfull \hbox (badness 10000) in paragraph at lines 166--169
 
  []
 
 
-
-[15 <./img/attention.png>]
-Overfull \hbox (15.757pt too wide) in paragraph at lines 170--171
+Overfull \hbox (15.757pt too wide) in paragraph at lines 176--177
 \OT1/cmr/m/n/12 crit-i-cal human-in-the-loop com-po-nent to the stan-dard RL le
 arn-ing paradigm".[[]4[]] 
  []
 
-<./img/RL_and_RLHF.png, id=300, 770.88pt x 217.81375pt>
+<./img/RL_and_RLHF.png, id=260, 770.88pt x 217.81375pt>
 File: ./img/RL_and_RLHF.png Graphic file (type png)
 <use ./img/RL_and_RLHF.png>
-Package pdftex.def Info: ./img/RL_and_RLHF.png  used on input line 175.
+Package pdftex.def Info: ./img/RL_and_RLHF.png  used on input line 181.
 (pdftex.def)             Requested size: 390.0pt x 110.19281pt.
 
 
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
-<./img/adversarialTestingChemestry.png, id=315, 597.73312pt x 190.46156pt>
+
+
+[16 <./img/RL_and_RLHF.png>]
+<./img/adversarialTestingChemestry.png, id=285, 597.73312pt x 190.46156pt>
 File: ./img/adversarialTestingChemestry.png Graphic file (type png)
 <use ./img/adversarialTestingChemestry.png>
 Package pdftex.def Info: ./img/adversarialTestingChemestry.png  used on input l
-ine 190.
+ine 204.
 (pdftex.def)             Requested size: 390.0pt x 124.26933pt.
 
 
-[17 <./img/RL_and_RLHF.png>]
-Overfull \hbox (25.09782pt too wide) in paragraph at lines 211--211
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 209--212
+
+ []
+
+
+Overfull \hbox (25.09782pt too wide) in paragraph at lines 219--219
 []\OT1/cmr/bx/n/14.4 National In-sti-tute of Stan-dard and Tech-nol-ogy (NIST)
  []
 
@@ -786,7 +812,9 @@ Overfull \hbox (25.09782pt too wide) in paragraph at lines 211--211
 
 [18 <./img/adversarialTestingChemestry.png>]
 
-[19]
+[19
+
+]
 
 [20
 
@@ -795,60 +823,56 @@ Overfull \hbox (25.09782pt too wide) in paragraph at lines 211--211
 [21
 
 ]
-
-[22
-
-]
-Overfull \hbox (11.17564pt too wide) in paragraph at lines 230--230
+Overfull \hbox (11.17564pt too wide) in paragraph at lines 239--239
 \OT1/cmr/m/n/12 Ilge Akkaya, Flo-ren-cia Leoni Ale-man, Diogo Almeida, Janko Al
 -tenschmidt,
  []
 
 
-Overfull \hbox (5.63097pt too wide) in paragraph at lines 230--230
+Overfull \hbox (5.63097pt too wide) in paragraph at lines 239--239
 \OT1/cmr/m/n/12 Makanju, Kim Mal-facini, Sam Man-ning, Todor Markov, Yaniv Mark
 ovski,
  []
 
 
-Overfull \hbox (6.9321pt too wide) in paragraph at lines 230--230
+Overfull \hbox (6.9321pt too wide) in paragraph at lines 239--239
 \OT1/cmr/m/n/12 Mu, Mira Mu-rati, Oleg Murk, David M^^Sely, Ashvin Nair, Rei-ic
 hiro Nakano,
  []
 
 
-Overfull \hbox (17.0131pt too wide) in paragraph at lines 230--230
+Overfull \hbox (17.0131pt too wide) in paragraph at lines 239--239
 \OT1/cmr/m/n/12 Ash-ley Pan-tu-liano, Gi-ambat-tista Paras-can-dolo, Joel Paris
 h, Emy Parparita,
  []
 
 
 
-[23
+[22
 
 ]
 
-[24]
+[23]
 
-[25] (./tesi.aux)
+[24] (./tesi.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
  ***********
 Package rerunfilecheck Info: File `tesi.out' has not changed.
-(rerunfilecheck)             Checksum: CA320EE2CA835CF478AE92E35D385057;6082.
+(rerunfilecheck)             Checksum: B1B43A3698ED501702A4AE7B70F5F03C;4857.
 Package logreq Info: Writing requests to 'tesi.run.xml'.
 \openout1 = `tesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17776 strings out of 467888
- 316436 string characters out of 5438240
- 997657 words of memory out of 5000000
- 46090 multiletter control sequences out of 15000+600000
+ 17760 strings out of 467888
+ 316108 string characters out of 5438240
+ 997656 words of memory out of 5000000
+ 46083 multiletter control sequences out of 15000+600000
  632810 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,1871b,2224s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,79p,1871b,1811s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
 live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/202
 5/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-d
@@ -858,10 +882,10 @@ lic/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
 .pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/
 texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tesi.pdf (25 pages, 701913 bytes).
+Output written on tesi.pdf (24 pages, 702938 bytes).
 PDF statistics:
- 449 PDF objects out of 1000 (max. 8388607)
- 377 compressed objects within 4 object streams
- 79 named destinations out of 1000 (max. 500000)
- 313 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 408 PDF objects out of 1000 (max. 8388607)
+ 337 compressed objects within 4 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 249 words of extra memory for PDF output out of 10000 (max. 10000000)
 
