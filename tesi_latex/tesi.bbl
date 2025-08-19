@@ -17,50 +17,136 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global/global}
-  \entry{devlin2019bertpretrainingdeepbidirectional}{misc}{}{}
+  \entry{inproceedings}{inproceedings}{}{}
     \name{author}{4}{}{%
-      {{hash=DJ}{%
-         family={Devlin},
-         familyi={D\bibinitperiod},
-         given={Jacob},
-         giveni={J\bibinitperiod},
+      {{hash=BE}{%
+         family={Bender},
+         familyi={B\bibinitperiod},
+         given={Emily},
+         giveni={E\bibinitperiod},
       }}%
-      {{hash=CMW}{%
-         family={Chang},
-         familyi={C\bibinitperiod},
-         given={Ming-Wei},
-         giveni={M\bibinithyphendelim W\bibinitperiod},
+      {{hash=GT}{%
+         family={Gebru},
+         familyi={G\bibinitperiod},
+         given={Timnit},
+         giveni={T\bibinitperiod},
       }}%
-      {{hash=LK}{%
-         family={Lee},
-         familyi={L\bibinitperiod},
-         given={Kenton},
-         giveni={K\bibinitperiod},
+      {{hash=MMA}{%
+         family={McMillan-Major},
+         familyi={M\bibinithyphendelim M\bibinitperiod},
+         given={Angelina},
+         giveni={A\bibinitperiod},
       }}%
-      {{hash=TK}{%
-         family={Toutanova},
-         familyi={T\bibinitperiod},
-         given={Kristina},
-         giveni={K\bibinitperiod},
+      {{hash=SS}{%
+         family={Shmitchell},
+         familyi={S\bibinitperiod},
+         given={Shmargaret},
+         giveni={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{DJCMWLKTK1}
-    \strng{fullhash}{DJCMWLKTK1}
+    \strng{namehash}{BEGTMMASS1}
+    \strng{fullhash}{BEGTMMASS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \verb{eprint}
-    \verb 1810.04805
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1145/3442188.3445922
     \endverb
-    \field{title}{BERT: Pre-training of Deep Bidirectional Transformers for
-  Language Understanding}
+    \field{pages}{610\bibrangedash 623}
+    \field{title}{On the Dangers of Stochastic Parrots: Can Language Models Be
+  Too Big?}
+    \field{month}{03}
+    \field{year}{2021}
+  \endentry
+
+  \entry{AGIOpenAI}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=BAyAPN}{%
+         prefix={Blaise Agüera\bibnamedelima y},
+         prefixi={B\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  y\bibinitperiod},
+         family={Arcas},
+         familyi={A\bibinitperiod},
+         given={Peter\bibnamedelima Norvig},
+         giveni={P\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \keyw{Computation and Language, Artificial Intelligence, AGI}
+    \strng{namehash}{BAyAPN1}
+    \strng{fullhash}{BAyAPN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{Artificial General Intelligence Is Already Here}
     \verb{url}
-    \verb https://arxiv.org/abs/1810.04805
+    \verb https://www.noemamag.com/artificial-general-intelligence-is-already-h
+    \verb ere/
     \endverb
-    \field{eprinttype}{arXiv}
-    \field{eprintclass}{cs.CL}
-    \field{year}{2019}
+    \field{journaltitle}{Noema}
+    \field{year}{2023}
+  \endentry
+
+  \entry{Chomsky}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=CN}{%
+         family={Chomsky},
+         familyi={C\bibinitperiod},
+         given={Noam},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CN1}
+    \strng{fullhash}{CN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{title}{Noam Chomsky: The False Promise of ChatGPT}
+    \verb{url}
+    \verb https://www.nytimes.com/2023/03/08/opinion/noam-chomsky-chatgpt-ai.ht
+    \verb ml
+    \endverb
+    \field{journaltitle}{The New York Times}
+    \field{year}{2023}
+  \endentry
+
+  \entry{arstechnica5tier}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=EB}{%
+         family={Edwards},
+         familyi={E\bibinitperiod},
+         given={Benj},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{Computation and Language, Artificial Intelligence}
+    \strng{namehash}{EB1}
+    \strng{fullhash}{EB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{addendum}{(accessed: 06.24.2025)}
+    \field{title}{OpenAI reportedly nears breakthrough with “reasoning” AI,
+  reveals progress framework}
+    \verb{url}
+    \verb https://arstechnica.com/information-technology/2024/07/openai-reporte
+    \verb dly-nears-breakthrough-with-reasoning-ai-reveals-progress-framework/#
+    \verb gsc.tab=0
+    \endverb
+  \endentry
+
+  \entry{FireRedFishWalkthrough}{online}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{addendum}{(accessed: 19.08.2025)}
+    \field{title}{Fish Play Pokemon}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=BEMJBHT5zBg
+    \endverb
   \endentry
 
   \entry{GoogleEmbeddings}{online}{}{}
@@ -83,6 +169,32 @@
     \endverb
   \endentry
 
+  \entry{comanici2025gemini25pushingfrontier}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={Google},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \verb{eprint}
+    \verb 2507.06261
+    \endverb
+    \field{title}{Gemini 2.5: Pushing the Frontier with Advanced Reasoning,
+  Multimodality, Long Context, and Next Generation Agentic Capabilities}
+    \verb{url}
+    \verb https://arxiv.org/abs/2507.06261
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.CL}
+    \field{year}{2025}
+  \endentry
+
   \entry{GoogleContextWindow}{online}{}{}
     \name{author}{1}{}{%
       {{hash=G}{%
@@ -101,6 +213,46 @@
     \verb{url}
     \verb https://ai.google.dev/gemini-api/docs/long-context
     \endverb
+  \endentry
+
+  \entry{AgenticAITrend}{online}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{addendum}{(accessed: 07.08.2025)}
+    \field{title}{Google Trends: Agentic AI}
+    \verb{url}
+    \verb https://trends.google.com/trends/explore?q=%2Fg%2F11x2wlnqn_
+    \endverb
+  \endentry
+
+  \entry{ethicalAi}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=JMSB}{%
+         family={JAIN},
+         familyi={J\bibinitperiod},
+         given={MS. SONAL\bibnamedelima BORDIA},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  B\bibinitperiod},
+      }}%
+    }
+    \keyw{artificial intelligence, computer, government, ethics, accounts}
+    \strng{namehash}{JMSB1}
+    \strng{fullhash}{JMSB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{number}{3}
+    \field{title}{Ethical Considerations in Artificial Intelligence: Navigating
+  Bias, Fairness and Accountability}
+    \verb{url}
+    \verb https://www.ijirset.com/upload/2015/march/138_Ethical.pdf
+    \endverb
+    \field{volume}{4}
+    \field{journaltitle}{International Journal of Innovative Research in
+  Science,Engineering and Technology}
+    \field{year}{2015}
   \endentry
 
   \entry{kaufmann2024surveyreinforcementlearninghuman}{misc}{}{}
@@ -148,6 +300,31 @@
     \field{year}{2024}
   \endentry
 
+  \entry{bloomberg5tier}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=MR}{%
+         family={Metz},
+         familyi={M\bibinitperiod},
+         given={Rachel},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{Computation and Language, Artificial Intelligence}
+    \strng{namehash}{MR1}
+    \strng{fullhash}{MR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{OpenAI Scale Ranks Progress Toward ‘Human-Level’ Problem
+  Solving}
+    \verb{url}
+    \verb https://www.bloomberg.com/news/articles/2024-07-11/openai-sets-levels
+    \verb -to-track-progress-toward-superintelligent-ai
+    \endverb
+    \field{year}{2024}
+  \endentry
+
   \entry{MicrosoftTokens}{online}{}{}
     \name{author}{1}{}{%
       {{hash=M}{%
@@ -166,6 +343,47 @@
     \verb{url}
     \verb https://learn.microsoft.com/en-us/dotnet/ai/conceptual/understanding-
     \verb tokens
+    \endverb
+  \endentry
+
+  \entry{OpenAIGPT-5SystemCard}{misc}{}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={OpenAI},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{title}{GPT-5 System Card}
+    \verb{url}
+    \verb https://openai.com/index/gpt-5-system-card/
+    \endverb
+    \field{year}{2025}
+  \endentry
+
+  \entry{OpenAICharter}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=O}{%
+         family={OpenAI},
+         familyi={O\bibinitperiod},
+      }}%
+    }
+    \keyw{Computation and Language, Artificial Intelligence}
+    \strng{namehash}{O1}
+    \strng{fullhash}{O1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{addendum}{(accessed: 06.24.2025)}
+    \field{title}{OpenAI Charter}
+    \verb{url}
+    \verb https://openai.com/charter/
     \endverb
   \endentry
 
@@ -1910,6 +2128,101 @@
     \field{year}{2023}
   \endentry
 
+  \entry{FireRedHumanWalkthrough}{online}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{addendum}{(accessed: 19.08.2025)}
+    \field{title}{Pokemon Fire Red - Full Game Walkthrough}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=1MOjNA7I98g
+    \endverb
+  \endentry
+
+  \entry{shazeer2017outrageouslylargeneuralnetworks}{misc}{}{}
+    \name{author}{7}{}{%
+      {{hash=SN}{%
+         family={Shazeer},
+         familyi={S\bibinitperiod},
+         given={Noam},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mirhoseini},
+         familyi={M\bibinitperiod},
+         given={Azalia},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Maziarz},
+         familyi={M\bibinitperiod},
+         given={Krzysztof},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Andy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LQ}{%
+         family={Le},
+         familyi={L\bibinitperiod},
+         given={Quoc},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Hinton},
+         familyi={H\bibinitperiod},
+         given={Geoffrey},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dean},
+         familyi={D\bibinitperiod},
+         given={Jeff},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SNMAMKDALQHGDJ1}
+    \strng{fullhash}{SNMAMKDALQHGDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \verb{eprint}
+    \verb 1701.06538
+    \endverb
+    \field{title}{Outrageously Large Neural Networks: The Sparsely-Gated
+  Mixture-of-Experts Layer}
+    \verb{url}
+    \verb https://arxiv.org/abs/1701.06538
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.LG}
+    \field{year}{2017}
+  \endentry
+
+  \entry{aiindex}{online}{}{}
+    \name{author}{1}{}{%
+      {{hash=S}{%
+         family={Stanford},
+         familyi={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{S1}
+    \strng{fullhash}{S1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{addendum}{(accessed: 06.24.2025)}
+    \field{title}{The 2025 AI Index Report}
+    \verb{url}
+    \verb https://hai.stanford.edu/ai-index
+    \endverb
+  \endentry
+
   \entry{ReinforcementLearningAnIntroduction}{book}{}{}
     \name{author}{2}{}{%
       {{hash=SRS}{%
@@ -2007,6 +2320,189 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{cs.CL}
     \field{year}{2023}
+  \endentry
+
+  \entry{RedHatAgenticAI}{online}{}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{addendum}{(accessed: 07.08.2025)}
+    \field{title}{What is agentic AI?}
+    \verb{url}
+    \verb https://www.redhat.com/en/topics/ai/what-is-agentic-ai
+    \endverb
+  \endentry
+
+  \entry{zhu2025establishingbestpracticesbuilding}{misc}{}{}
+    \name{author}{25}{}{%
+      {{hash=ZY}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Yuxuan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=JT}{%
+         family={Jin},
+         familyi={J\bibinitperiod},
+         given={Tengjun},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PY}{%
+         family={Pruksachatkun},
+         familyi={P\bibinitperiod},
+         given={Yada},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=ZA}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Andy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Shu},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Cui},
+         familyi={C\bibinitperiod},
+         given={Sasha},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kapoor},
+         familyi={K\bibinitperiod},
+         given={Sayash},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Longpre},
+         familyi={L\bibinitperiod},
+         given={Shayne},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Meng},
+         familyi={M\bibinitperiod},
+         given={Kevin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Weiss},
+         familyi={W\bibinitperiod},
+         given={Rebecca},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BF}{%
+         family={Barez},
+         familyi={B\bibinitperiod},
+         given={Fazl},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Gupta},
+         familyi={G\bibinitperiod},
+         given={Rahul},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Dhamala},
+         familyi={D\bibinitperiod},
+         given={Jwala},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Merizian},
+         familyi={M\bibinitperiod},
+         given={Jacob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Giulianelli},
+         familyi={G\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Coppock},
+         familyi={C\bibinitperiod},
+         given={Harry},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=UC}{%
+         family={Ududec},
+         familyi={U\bibinitperiod},
+         given={Cozmin},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Sekhon},
+         familyi={S\bibinitperiod},
+         given={Jasjeet},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Steinhardt},
+         familyi={S\bibinitperiod},
+         given={Jacob},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kellermann},
+         familyi={K\bibinitperiod},
+         given={Antony},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Schwettmann},
+         familyi={S\bibinitperiod},
+         given={Sarah},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ZM}{%
+         family={Zaharia},
+         familyi={Z\bibinitperiod},
+         given={Matei},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SI}{%
+         family={Stoica},
+         familyi={S\bibinitperiod},
+         given={Ion},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Percy},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kang},
+         familyi={K\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZYJTPYZALSCSKSLSMKWRBFGRDJMJGMCHUCSJSJKASSZMSILPKD1}
+    \strng{fullhash}{ZYJTPYZALSCSKSLSMKWRBFGRDJMJGMCHUCSJSJKASSZMSILPKD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \verb{eprint}
+    \verb 2507.02825
+    \endverb
+    \field{title}{Establishing Best Practices for Building Rigorous Agentic
+  Benchmarks}
+    \verb{url}
+    \verb https://arxiv.org/abs/2507.02825
+    \endverb
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{cs.AI}
+    \field{year}{2025}
   \endentry
 \enddatalist
 \endinput
