@@ -34,45 +34,45 @@ Warning--you've exceeded 500, the entry-string-size, for entry openai2024gpt4tec
 while executing--line 2728 of file biblatex.bst
 *Please notify the bibstyle designer*
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 25 entries,
+You've used 32 entries,
             6402 wiz_defined-function locations,
-            1334 strings with 18528 characters,
-and the built_in function-call counts, 709686 in all, are:
-= -- 66760
-> -- 8234
-< -- 936
-+ -- 29907
-- -- 4481
-* -- 51076
-:= -- 100319
+            1368 strings with 23692 characters,
+and the built_in function-call counts, 1174891 in all, are:
+= -- 112221
+> -- 13017
+< -- 1311
++ -- 50173
+- -- 7140
+* -- 84891
+:= -- 168077
 add.period$ -- 0
-call.type$ -- 25
-change.case$ -- 215
+call.type$ -- 32
+change.case$ -- 282
 chr.to.int$ -- 56
-cite$ -- 48
-duplicate$ -- 78456
-empty$ -- 51102
-format.name$ -- 6675
-if$ -- 130466
+cite$ -- 62
+duplicate$ -- 129551
+empty$ -- 83565
+format.name$ -- 10856
+if$ -- 214965
 int.to.chr$ -- 0
-int.to.str$ -- 51
+int.to.str$ -- 64
 missing$ -- 0
-newline$ -- 2495
-num.names$ -- 854
-pop$ -- 14917
+newline$ -- 4027
+num.names$ -- 1100
+pop$ -- 22060
 preamble$ -- 1
-purify$ -- 1216
+purify$ -- 1971
 quote$ -- 0
-skip$ -- 7227
+skip$ -- 10726
 stack$ -- 0
-substring$ -- 129223
-swap$ -- 7617
-text.length$ -- 1261
-text.prefix$ -- 24
+substring$ -- 218641
+swap$ -- 11832
+text.length$ -- 1864
+text.prefix$ -- 31
 top$ -- 1
-type$ -- 838
+type$ -- 1076
 warning$ -- 0
-while$ -- 12734
+while$ -- 21302
 width$ -- 0
-write$ -- 2471
+write$ -- 3996
 (There were 4 warnings)

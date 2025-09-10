@@ -6,6 +6,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage[backend=bibtex,style=trad-plain,bibencoding=utf8]{biblatex}
+\usepackage{pythonhighlight}
 
 \usepackage{csquotes}
 \usepackage{comment}
@@ -330,13 +331,26 @@ To give a measure of comparison, in the first walkthrough found on YouTube, a pa
 To find a negative comparison, by pressing keys at random, the game can be completed in about 3,600 hours, as demonstrated by a goldfish that activates commands in the game through its random movements thanks to a device that converts the fish's position in the aquarium into a predefined command.\cite{FireRedFishWalkthrough}\\
 So, the human-assisted Gemini run is 40 times slower than a quick completion and 9 times faster than complete randomness. It's certainly not the expected result, but it can help formulate a judgment on the actual level of agenticity of current LLMs.
 
-
     \subsection{Gemma}
+Gemma is an LLM developed by Google. It is a multimodal lightweight open model, ranging in scale from 1 to 27 billion parameters.\\
+The models in Gemma family "are designed to run on standard
+consumer-grade hardware such as phones, laptops, and high-end GPUs."\cite{gemmateam2025gemma3technicalreport}\\
+Gemma3 models follows the general decoder-only transformer architecture.\cite{vaswani2023attentionneed} They are long context: the models supports a length of 128K tokens, with the exception of the 1B model, which has a 32K context window.\\
+The final models (students) are obtained by distilling the original model (teacher), during the pre-training, by reducing to the 256 most probable outputs (logits) per token. This has been performed minimizing the prediction loss in the probability function by cross-entropy loss.\\
+"We sample 256 logits per token, weighted by teacher probabilities. The student learns the teacher’s distribution within these samples via cross-entropy loss. The teacher’s target distribution is set to zero probability for non-sampled logits, and renormalized."\cite{gemmateam2025gemma3technicalreport}\\
+After the initial pre-training, the models were produced by fine-tuning the raw checkpoint in standard formats: Gemma3 1B, 4B, 12, and 27B, using Quantization Aware Training (QAT).
 
-Gemma3 techinical report: \url{https://arxiv.org/pdf/2503.19786}\\
+Gemma3 has improved significantly compared to the previous version. However, even the new version is not comparable to Gemini, especially with the decreasing of parameters, as shown in benchmarks.\\
+
+    \begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{Gemma3Benchmarks.png}
+    \caption[Gemma3 benchmarks]{Performance of instruction fine-tuned (IT) models compared to Gemini 1.5, Gemini 2.0, and Gemma 2 on zero-shot benchmarks across different abilities. Source: \cite{gemmateam2025gemma3technicalreport}}
+    \end{figure}    
 
     \subsection{Llama}
-        
+    
+Gemma3 techinical report: \url{https://arxiv.org/pdf/2503.19786}\\
 Llama3 technical report: \url{https://arxiv.org/abs/2407.21783}\\
 
 
@@ -347,60 +361,667 @@ Come strutturare queste sezioni:\\
 - (opzionale) Qualche breve considerazione tipo quella dei Pokemon\\
     
     \subsection{National Institute of Standard and Technology (NIST) AI risk management framework}
-    prendi dalla versione precedente della tesi, incollalo e aggiustalo
-
+The NIST is an agency part of the U.S. department of Commerce which part of its purpose is to provide standards and guidelines. Since 2014, when it published the NIST cybersecurity framework, it began to deal with managing and reduce cybersecurity risks.\\
+NIST has developed the AI risk management framework, the first publication was in January 2023, which purpose is to manage risks to individuals, organizations and society associated with artificial intelligence.\cite{AIRiskManagementFramework}
+In this framework the last available publication is NIST AI 600-1 of July 2024 \cite{NIST-AI-600-1}, in which GAI risks are categorized as follow:
+\begin{enumerate}
+	\item \textit{CBRN information or capabilities:} provide information or capabilities related to chemical, biological, radiological or nuclear (CBRN) weapons and make it easier for individuals without specialized knowledge the access.
+	\item \textit{Confabulation:} also known as hallucinations, the production of false content presented as fact.
+	\item \textit{Dangerous, violent or hateful content:} provide violent, inciting, radicalizing, or threatening content.
+	\item \textit{Data privacy:} leakage of sensitive data that can be reproduced from the training data.
+	\item \textit{Environmental impact:} Impacts due to high compute resource utilization in training or operating GAI models, and related outcomes.
+	\item \textit{Harmful biases or homogenization:} amplification of biases possibly due to non-representative training data, undesired homogeneity which may lead to ill-founded decision-making.
+	\item \textit{Human-AI configuration:} interactions which can result in the human inappropriately anthropomorphizing GAI systems.
+	\item \textit{Information integrity:} generate content which may not distinguish fact from opinion or fiction.
+	\item \textit{Information security:} simplify cyber attacks using GAI systems as a tool.
+	\item \textit{Intellectual property:} production of licensed content without authorization, which may be present in the training data.
+	\item \textit{Obscene, degrading and/or abusive content:} production of child sexual abuse material or non consensual intimate images.
+	\item \textit{Value chain and component integration:} non-transparent integration of third-party components.
+\end{enumerate}
      
+Confabulation can also be defined as hallucination, which can be described as “similar to how humans sometimes see figures in the clouds or faces on the moon.”\cite{IBMhallucinations} Both terms risk anthropomorphizing the LLM, so the name \textit{bullshitting} has been proposed to describe when it invents false information.\cite{bullshit}\\
+The term bullshit has been introduced into the philosophical lexicon by G. Frankfurt in the book \textit{On Bullshit}, in which he “understands bullshit to be characterized not by an intent to deceive but instead by a reckless disregard for the truth,” thus defining bullshitting as “any utterance produced where a speaker has indifference towards the truth of the utterance” and knowing that “ChatGPT is not designed to produce true utterances; rather, it is designed to produce text which is indistinguishable from the text produced by humans. It is aimed at being convincing rather than accurate. The basic architecture of these models reveals this: they are designed to come up with a likely continuation of a string of text,” the conclusion must be that “ChatGPT is a bullshit machine” because the outputs it produces are indifferent to the truth.\cite{bullshit}
      
 \clearpage
 \section{Methodology}
-    \subsection{Analyzed categories}
-    Categorie prese in consigerazione: presenta tutte le sotto-sezioni che hai introdotto nella presentazione.\\
-    Sono state analizzate le seguenti categorie: Reasoning, Factuality and Sequential Problem Solving.\\
-    \\
-    sotto-categorie:\\
-    - Mathematical Reasoning; Common Math Problems; Sudoku\\
-    - Factual Pitfalls; Russel’s theory of descriptions\\
-    - Wolf, Goat and Cabbage; Blocks World; Hanoi Tower; Ordered Stack\\
+
+    In this study, 22 questions were formulated and submitted multiple times to different LLMs.\\
+The questions can be divided into three main categories: reasoning, factuality, and sequential problem solving.\\
+Reasoning is a category that seeks to understand problem-solving skills in logic and math problems. This category can be divided into three subcategories: mathematical reasoning with some exponential problems, common math problems containing some math exercises, and sudoku, which investigates the agent's ability to solve them.\\
+Factuality contains some questions on general knowledge, reasoning, and understanding of reality. It can be divided into factual pitfalls, which contains some general knowledge traps, and Russell's theory of description, which investigates the understanding of the logic of human language.\\
+Sequential problem solving, on the other hand, is inspired by Sussman's anomaly to understand the agent's ability to solve problems that require interleaved planning. The problems investigated in this category are: block world, Hanoi tower, reordering stacks, and wolf, goat, and cabbage.\\
+
+
+    \begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{AnalyzedCategory.png}
+    \caption[Categories of questions formulated]{Categories and subcategories of questions submitted to LLMs.}
+    \label{fig:AnalyzedCategory}
+    \end{figure}    
     
-    \subsubsection{GAI Goals}
-    Che trovano il proprio corrispettivo nei seguenti GOALS: Reasoning and problem solving, Knowledge representation, Planning and decision making Natural language processing.\\
-    parla brevemente dei GOAL(prendi da 'slide v3.odp') e spiega la relazione con le 3 categorie individuate.
+    
+    \subsection{GAI Goals}
+    The categories analyzed can be traced back to certain AI goals, the most relevant of which are: knowledge representation, natural language processing, reasoning and problem solving, planning and decision making.\\
+Knowledge representation is the ability to make deductions based on real-world facts and represent objects, concepts, and relationships in a domain of knowledge. This goal also includes common sense logic, which is difficult to acquire as it is very extensive and is formed in humans over several years and is not expressed verbally, and default logic, which are assumptions that, if omitted, are considered true by default, i.e., if X is a bird, we assume that it flies unless otherwise specified.\\
+Natural language processing (NLP) allows the agent to read, write, and communicate in human language. This is probably the most advanced goal,\cite{aiindex} even though agents are often unable to process the common sense contained in language.
+
+    \begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{NLPCommonSense.png}
+    \caption[NLP and common sense]{In the context of NLP, an example of how a verbal pitfall causes a misinterpretation of the meaning of the word 'survivors'.}
+    \end{figure}
+    
+Reasoning and problem solving is the ability to solve puzzles and make logical deductions.\\
+Planning and decision making consists of an agent's ability to assign to each possible entry in the solution space, an expected utility that indicates its desirability. In classical planning, the agent knows exactly what the effect of any action will be. In most real-world problems, however, the solution may be unobservable and the action may not be deterministic, so the agent must choose an action by making a probabilistic guess and then reassess the situation.\\
+
+The categories assigned to the questions in this study can be assigned to one or more of the above goals.
+
+    \begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{GoalsAndCategory.png}
+    \caption[AI goals and questions category]{How the defined categories can fall within the goals}
+    \end{figure}
     
     \subsection{Prompt Engineering Strategies}
-    one-shot, CoT, PoT. Prima spiega cosa sono poi come sono state applicate.
-    \subsubsection{Chain of Thought (CoT)}
-    \subsubsection{Programming of Thought (PoT)}
+    Prompting methodologies are techniques used to route LLMs reasoning in certain directions with the aim of achieving more accurate outputs.\\
+    In this study, three prompting methodologies were applied: one-shot (OS), Chain of Thought (CoT), and Programming of Thought (PoT).\\
+In all three methodologies, no examples of solutions were provided, nor were any solutions suggested, but the problems submitted were explained extensively. In some questions, the nature of the problem was concealed to prevent the LLM from tracing the solution back to a predetermined algorithm. An example is the ‘Tower of Hanoi’ problem, which in one case was obscured behind another name but still provided a complete explanation of the rules.\\
+The ‘one-shot’ methodology involves asking the LLM to provide a direct answer in a predetermined format, without producing extensive reasoning, as is the default for most LLMs.\\
+    \begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{MyOneShot.png}
+    \caption[Example of one-shot methodology as used]{This image is an example of the one-shot (OS) methodology as used in this study.}
+    \end{figure} 
     
-    \subsection{Experimental Design}
-    Come hai condotto l'esperimento?\\
-    - categorie e sotto-categorie\\
-    - domande formulate\\
-    - LLMs utilizzati e come ("final\_presentation\_v.1.odp", slide 7)\\
-    - prompt engineering strategies ("final\_presentation\_v.1.odp", slide 8)\\
-    - come sono stati processati i dati ("final\_presentation\_v.1.odp", slide 9 e 10(sulla 10 capisci cosa inserire, molta roba sarà in Results))\\
+    \subsubsection{Chain of Thought (CoT)}
+    Chain of thoughts is a prompting methodology that encourages extended thinking by the LLM.
+The two contrasting methodologies are \textit{few-shot-CoT} and \textit{one-shot-CoT}.
+    
+    \begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{CoTTheory.png}
+    \caption[Few-shot and one-shot CoT]{Example inputs and outputs of GPT-3 with (a) standard Few-shot, (b) Few-shot-CoT, (c) standard Zero-shot, and (d) Zero-shot-CoT. Source: \cite{kojima2023largelanguagemodelszeroshot}}
+    \end{figure} 
+    
+    The two contrasting methodologies are few-shot-CoT and one-shot-CoT.\\
+Few-shot involves providing a small set of examples to enable “in-context learning” and thus show the model the solution patterns to follow.\\
+One-shot, on the other hand, does not provide examples but asks the model to engage in extensive reasoning to arrive at the solution and can be applied by “simply adding ‘Let's think step by step’ before each answer.”\cite{kojima2023largelanguagemodelszeroshot}
+
+Zero-shot CoT was used in this study. In fact, CoT was first applied by asking the model to respond step-by-step with extensive reasoning, and in a subsequent question, it was asked to refine the output by keeping only the final result so that the answer could be interpreted more simply.\\
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{MyCoT.png}
+    \caption[Example of Chain of Thought methodology as used]{This image is an example of the chain of thought (CoT) methodology as used in this study.}
+    \end{figure} 
+ 
+    \subsubsection{Programming of Thought (PoT)}
+    Programming of Thought is a prompting methodology that consists of asking the model to generate code that solves the problem. The code produced will then be executed by an external compiler. \\
+This methodology allows the LLM to be freed from the computation and syntax of human language, which is much more complex than that of machines, and instead focus on reasoning.  \\
+  
+    \begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{PoTTheory.png}
+    \caption[Comparison between Chain of Thought and Programming of Thought]{Comparison between Chain of Thought and Programming of Thought. Source: \cite{chen2023programthoughtspromptingdisentangling}}
+    \end{figure} 
+    
+    Programming of thought was used in this study by asking the model to generate Python code, which was then directly executed externally using the \textit{exec()} function inserted in a \textit{‘try: ... except Exception as e:’} block in order to handle any errors in the generated code. An 80 seconds timeout was also used to prevent infinite executions.
+    
+    \begin{python}
+import multiprocessing
+import queue
+import re
+from contextlib import redirect_stdout
+from io import StringIO
+from multiprocessing import Process
+
+
+
+def exec_generated_code(my_queue: multiprocessing.Queue, code: str):
+    answer = re.sub(r"```python" + "|" + r"`", "", code)
+    try:
+        out = StringIO()
+        with redirect_stdout(out):
+            exec(answer,dict())
+        solution = re.sub("[#@?]", "", out.getvalue())
+    except Exception as e:
+        print("The LLM wrote a wrong src, the following exception has raise:\n" + str(e) + "\n", flush=True)
+        solution = "#"
+    my_queue.put(solution)
+
+
+def launch_generated_code(answer: str, account: str) -> str:
+    my_queue = multiprocessing.Queue()
+    exec_p = Process(target=exec_generated_code, args=(my_queue,answer), name =account + "_exec_generated_code")
+    exec_p.start()
+    try:
+        new_answer = my_queue.get(timeout=78.0)
+    except queue.Empty:
+        new_answer = "@"
+        print("In PoT the execution of the code timeout, no code produced.", flush=True)
+    exec_p.join(timeout=2.0)
+    if exec_p.is_alive():
+        exec_p.terminate()
+        exec_p.join(10)
+        if exec_p.is_alive():
+            exec_p.kill()
+        print("exec killed.",flush=True)
+    exec_p.close()
+    return new_answer
+\end{python}
+
+    
+    \subsection{Experimental Design} 
+    The study consists of a total of 22 questions, categorized as shown in Figure \ref{fig:AnalyzedCategory}.\\
+Reasoning consists of 6 questions, 3 of which are mathematical reasoning questions that mainly consist of exponential problems that cannot be found online and whose solutions are not obvious.\\
+Common math problems, on the other hand, are two problems on calculating interest that are easy to solve, as they only require the application of a formula.\\
+The last category, ‘Sudoku’, consists of a single, very easy sudoku puzzle that must be solved.
+For the ‘Reasoning’ category, it was possible to apply the prompting methodologies: Chain of Thought and Programming of Thought.\\
+Factuality consists of 6 questions: 4 in factuality pitfalls and 2 in Russell's Theory of Descriptions. The latter is a theory of the philosophy of language, which for simplicity in this field of application can be summarized by stating that if an entity does not exist and a description is assigned to it, the resulting assertion cannot be defined as either false or correct but belonging to a third category.\\
+Sequential problem solving, on the other hand, contains 10 questions: 2 on the wolf, goat, and cabbage problem, 2 on Blocks world, 4 on the Hanoi tower, and 2 problems on reordering a stack.\\
+All these problems have in common the need to manage multiple steps that can cancel each other out, as in Sussman's anomaly. The puzzles have varying degrees of difficulty and obfuscation of the problem.\\
+In this latter category, the chain of thoughts methodology was used for prompting.
+    
+    This 22 questions were submitted to 3 models. \\
+Gemini was accessed via the exposed APIs, using 13 Google ‘free tier’ accounts in parallel to exceed the rate limits. The following versions were tested: 1.5 flash 002, 1.5 flash 8B 001, 2.0 flash lite 001, 2.0 flash 001, and 2.0 flash thinking exp.\\
+Gemma and Llama, on the other hand, were hosted locally using Ollama, an open-source software that simplifies deployment and management. The versions tested are Gemma 3 1B and 4B, Llama 3.1 8B, Llama 3.2 1B and 3B.
+
+More than 270,000 responses were obtained, and multiple prompting methodologies were used for questions where possible.\\
+Prompting was carried out using three methods:
+\begin{itemize}
+	\item One Shot (OS): the LLM was prompted to provide only the final answer directly in a single turn.\\
+	\fbox{
+    \parbox{\textwidth}{
+        What is the maximum point in the interval x = 0 and x = pi of the function y = x*sin(x) ? \textbf{Answer only with the coordinates in the form: (x0, y0) and avoiding adding more text!}
+    }}
+	\item Chain of Thought (CoT): involved a two-turn interaction:
+	\begin{enumerate}
+		\item The LLM was first prompted to exhibit extensive reasoning
+		\item A subsequent, separate prompt then instructed the LLM to output only the final correct result
+	\end{enumerate}
+	\fbox{
+    \parbox{\textwidth}{
+    \textit{$1$- First turn}\\
+        What is the maximum point in the interval x = 0 and x = pi of the function y = x*sin(x) ? \textbf{Decompose the problem as you solve it} and then print the coordinates in the form: (x0, y0).
+        
+     \textit{$2$- Second turn}\\
+     Write only the coordinates in the form: (x0, y0) and avoiding adding more text!
+    }}
+	\item Programming of Thought (PoT): the LLM was prompted to generate a complete Python program designed to solve the given problem. The generated code was then run externally in a controlled environment to obtain and verify the final solution.\\
+	\fbox{
+    \parbox{\textwidth}{
+        What is the maximum point in the interval x = 0 and x = pi of the function y = x*sin(x) ?  \textbf{Write a Python program} to solve this problem; the answer must be formatted so that an external compiler can run it as is. Just write the code! The submitted code should return only the solution as output, avoiding adding other characters.
+    }}
+\end{itemize}
+
+The process was automated using a Python program, which also compared the correctness of the responses, taking into account acceptable margins of error.\\
         
 \clearpage
 \section{Results}
-Presenta i risultati. \\
-INTRODUZIONE: presenta cosa sono i grafici che verranno mostrati, cioè i PlotBox\\
+
+The results and programs used, which will be presented below, can be found in the GitHub linked to this project. \\
+Requests made to LLMs were automated using a Python program that manages remote connections with Gemini APIs and local connections with Ollama. The results produced are collected by the same program in a text file.\\
+The raw response files are then processed by another Python script that compares the LLMs' responses with the correct answers and returns a CSV file that is subsequently processed by Basic macros to obtain the aggregated data and graphical results.
+
+For each LLM examined, graphs are presented whose data may have different levels of aggregation:
+\begin{enumerate}
+\item \textbf{Individual Question Accuracy}: for each question, the percentage of accuracy was calculated based on multiple repetitions or attempts of the same.
+\item \textbf{Account-Level Aggregation}: the median accuracy for each question was then determined by considering the results across different accounts.
+\item \textbf{Category-Level Aggregation}: finally, the mean of these median accuracies was calculated for all questions within each specific problem category.
+\end{enumerate}
+The graphs will have account-level aggregation for category and category-level aggregation for the final benchmarks.
+
+The following questions omit requests for output formatting and prompting methodology. For more details, see the complete questions in “Coding/Questions” in the GitHub repository.\\
+
+\subsection{Reasoning}
+Introduzione brevissima della categoria e considerazione sui risultati complessivi della categoria. (ragiona se inserire gia i  benchmark solo sulla categoria)
+\subsubsection{Mathematical Reasoning} %101, 104, 105
+This category has three questions:
+
+\fbox{
+    \parbox{\textwidth}{
+    We want to fill a stadium with golf balls (whose volume can be aproximated to 40cm\textasciicircum 3). The balls inserted double with each insertion: 1 ball in the first insertion, 2 balls in the second, 4 in the third, .... If at the 30th insertion the stage is exactly half full, how may insertions are left to fill it?
+    }
+}
+
+    \begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q101Gemini.png}
+            \includegraphics[width=1\textwidth]{q101Other.png}
+    \caption[Accuracy on Question 1 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\fbox{
+    \parbox{\textwidth}{
+    What is the maximum point in the interval x = 0 and x = pi of the function y = x*sin(x) ?
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q104Gemini.png}
+            \includegraphics[width=1\textwidth]{q104Other.png}
+    \caption[Accuracy on Question 2 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\fbox{
+    \parbox{\textwidth}{
+    In a population, births are decreasing by 30 000 per year while annual deaths are stable at 350 000. The current population is 60 000 000 and the number of current births 350 000. How many years are required for the population to halve assuming stability in trends?
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q105Gemini.png}
+            \includegraphics[width=1\textwidth]{q105Other.png}
+    \caption[Accuracy on Question 3 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\subsubsection{Common Math Problems} %102, 103
+\fbox{
+    \parbox{\textwidth}{
+    A 25-year-old person invests money with an annual interest rate of 5\%. How much must he invest now to have \$1 milion when he retires at age 65?
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q102Gemini.png}
+            \includegraphics[width=1\textwidth]{q102Other.png}
+    \caption[Accuracy on Question 4 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\fbox{
+    \parbox{\textwidth}{
+    A 25-year-old person invests money with an annual interest of 6 compounded continuously. How much must he invest now to have \$1 milion when he retires at age 65?
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q103Gemini.png}
+            \includegraphics[width=1\textwidth]{q103Other.png}
+    \caption[Accuracy on Question 5 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+\subsubsection{Sudoku} %106
+\fbox{
+    \parbox{\textwidth}{
+    Solve the sudoku in the image.
+    
+     \includegraphics[width=1\textwidth]{img106.png}
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q106Gemini.png}
+    \caption[Accuracy on Question 6 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+\subsection{Factuality}
+\subsubsection{Factual Pitfalls} %201, 202, 203, 204
+\fbox{
+    \parbox{\textwidth}{
+    How many subsections of Article 140 of the Italian Constitution are there?
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q201Gemini.png}
+            \includegraphics[width=1\textwidth]{q201Other.png}
+    \caption[Accuracy on Question 7 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\fbox{
+    \parbox{\textwidth}{
+    How many months did it take Salvini to get a bachelor degree?
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q202Gemini.png}
+            \includegraphics[width=1\textwidth]{q202Other.png}
+    \caption[Accuracy on Question 8 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\fbox{
+    \parbox{\textwidth}{
+    What is the sum of the different colors and columns in the flag of Moldova?
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q203Gemini.png}
+            \includegraphics[width=1\textwidth]{q203Other.png}
+    \caption[Accuracy on Question 9 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\fbox{
+    \parbox{\textwidth}{
+    Sum the number of horizontal stripes and the number of different colors in the flag of Mozambique.
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q204Gemini.png}
+            \includegraphics[width=1\textwidth]{q204Other.png}
+    \caption[Accuracy on Question 10 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+\subsubsection{Russel’s theory of descriptions} %205, 206
+\fbox{
+    \parbox{\textwidth}{
+    The current king of France is dead.\\
+Evaluate whether this statement is:\\
+1- True
+2- false
+3- other
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q205Gemini.png}
+            \includegraphics[width=1\textwidth]{q205Other.png}
+    \caption[Accuracy on Question 11 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\fbox{
+    \parbox{\textwidth}{
+    I find it pleasant to yawn as soon as I am awake, while yawning as soon as I am asleep does not appeal to me.\\
+Assuming that the interlocutor is not lying, the following statement is to be considered:\\
+1-True
+2-false
+3-other
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q206Gemini.png}
+            \includegraphics[width=1\textwidth]{q206Other.png}
+    \caption[Accuracy on Question 12 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\subsection{Sequential Problem Solving}
+\subsubsection{Wolf, Goat and Cabbage} %301, 302
+\fbox{
+    \parbox{\textwidth}{
+   A farmer must carry a cabbage, a goat and a wolf across the river. The farmer can carry only himself or himself together with only one of the other 3 at a time.
+The cabbage, the goat and the wolf cannot cross the river without the farmer.
+The cabbage and the goat cannot stay on the same bank in the absence of the farmer.
+The goat and the wolf cannot stay on the same bank in the absence of the farmer.
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q301Gemini.png}
+            \includegraphics[width=1\textwidth]{q301Other.png}
+    \caption[Accuracy on Question 13 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\fbox{
+    \parbox{\textwidth}{
+Z must carry A, B and a C across two arrays, so that all three are on the second array. Z can carry only himself or himself together with only one of the other 3 at a time.
+A, B and C cannot change array without Z.
+A and B cannot stay on the same array in the absence of Z.
+B and C cannot stay on the same array in the absence of Z.
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q302Gemini.png}
+            \includegraphics[width=1\textwidth]{q302Other.png}
+    \caption[Accuracy on Question 14 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\subsubsection{Blocks World} %303, 304
+\fbox{
+    \parbox{\textwidth}{
+Three blocks (labeled A, B, and C) rest on a table. The blocks must be stacked such that block A is atop block B, and block B is atop block C. The problem starts with the following configuration:\\
+
+[B], [A, C], []\\
+
+    Block B is on the table in Stack 1 at the first position.\\
+    Block C (second position in stack2) is atop block A (first position), both in Stack 2.\\
+    Stack 3 is empty.\\
+
+A valid move is popping C from Stack 2 and pushing it onto Stack 3:\\
+
+[B], [A], [C]\\
+
+An INVALID move would be popping A because it is not at the end of the array.\\
+
+The goal configuration is [C, B, A] in one of the stacks, where C is at the bottom, B is in the middle, and A is on top. Blocks can only be moved one at a time, and each move follows a LIFO (Last In, First Out) policy:\\
+
+    A push operation adds an element only at the end of the array (no insertion in the middle).\\
+    A pop operation removes an element only from the end of the array.\\
+
+Solve this problem, following the restraints and going on untill the exact solution is reached or the 19th step is reached.
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q303Gemini.png}
+            \includegraphics[width=1\textwidth]{q303Other.png}
+    \caption[Accuracy on Question 15 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\fbox{
+    \parbox{\textwidth}{
+The following exercise is about the 'Sussman anomaly': three blocks (labeled A, B, and C) rest on a table. The blocks must be stacked such that block A is atop block B, and block B is atop block C. The problem starts with the following configuration:\\
+
+[B], [A, C], []\\
+
+    Block B is on the table in Stack 1 at the first position.\\
+    Block C (second position in stack2) is atop block A (first position), both in Stack 2.\\
+    Stack 3 is empty.\\
+
+A valid move is popping C from Stack 2 and pushing it onto Stack 3:\\
+
+[B], [A], [C]\\
+
+An INVALID move would be popping A because it is not at the end of the array.\\
+
+The goal configuration is [C, B, A] in one of the stacks, where C is at the bottom, B is in the middle, and A is on top. Blocks can only be moved one at a time, and each move follows a LIFO (Last In, First Out) policy:\\
+
+    A push operation adds an element only at the end of the array (no insertion in the middle).\\
+    A pop operation removes an element only from the end of the array.\\
+
+Solve this problem, following the restraints and going on untill the exact solution is reached or the 19th step is reached.
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q304Gemini.png}
+            \includegraphics[width=1\textwidth]{q304Other.png}
+    \caption[Accuracy on Question 16 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+\subsubsection{Hanoi Tower} %305, 306, 307, 310
+
+\fbox{
+    \parbox{\textwidth}{
+Solve the example in the image of the Hanoi tower, in which three cylinders are stacked on the first of three columns. Renaming L the largest disk, M the medium one and S smallest one and Stack1 the source tower, stack2 the helper and stack3 the destination. Write a maximum of 19 steps.
+\includegraphics[width=1\textwidth]{img305.png}
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q305Gemini.png}
+    \caption[Accuracy on Question 17 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\fbox{
+    \parbox{\textwidth}{
+Solve this exercise of the Hanoi tower: there are three rods called stack1, stack2 and stack3. Stack2 and stack3 are empty while in stack1 are stacked three disks on the bottom the largest called L, on top of this one the medium called M and on the top of the stack the smallest called S. The goal is to stack in the same order all the disks in stack3. Solve the problem writing a maxium of 19 steps
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q306Gemini.png}
+            \includegraphics[width=1\textwidth]{q306Other.png}
+    \caption[Accuracy on Question 18 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\fbox{
+    \parbox{\textwidth}{
+Solve this problem that I just invented and called "poles and cylinders": there are three poles called stack1, stack2 and stack3. Stack2 and stack3 are empty while in stack1 are stacked three cylinders on the bottom The largest one called L, on top of this one the medium called M and on the top of the stack the smallest called S. The goal is to stack in the same order all the cylinders.
+In order to move cylinders, certain rules must be followed: cylinders can only be stacked in order of width from largest to smallest so S or M can be on top of L, only S can be on top of M, and no cylinder can be on top of S. In addition, cylinders can be moved from one pole to any of the other two, but only the cylinder from the top of a pole can be removed in order to move it, while those below are blocked as long as there is one on top. Solve the problem writing a maxium of 19 steps
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q307Gemini.png}
+            \includegraphics[width=1\textwidth]{q307Other.png}
+    \caption[Accuracy on Question 19 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\fbox{
+    \parbox{\textwidth}{
+Solve the tower of Hanoi with 4 disks, naming the disks, from largest to smallest: d1, d2, d3 and d4. Also name the source peg stack1, the auxiliary peg stack2 and the destination peg stack3.
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q310Gemini.png}
+            \includegraphics[width=1\textwidth]{q310Other.png}
+    \caption[Accuracy on Question 20 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+\subsubsection{Ordered Stack} %308, 309
+\fbox{
+    \parbox{\textwidth}{
+Stacks are ordered queues whose main feature in computer science are the two operations: pop and push. Push inserts an element at the end of the stack so that it is the last one, while pop removes the last inserted element. Example: by pushing an element B into a stack from the initial configuration [A] the result will be: [A,B]\\
+
+There are three corresponding stacks:\\
+Stack1: [A,B,C] (Any pop will remove C, which is the last element.\\
+Stack2: []\\
+Stack3: []\\
+
+The problem must be solved by executing the pop and the corresponding push in the same step, since they must be considered as a single transaction.\\
+
+The target configuration is [],[],[A,B,C].\\
+
+There is an additional rule: elements must always be stacked alphabetically in each stack, so the valid configurations of a stack are only: [] or [A] or [A,B] or [A,C] or [A,B,C] (The order of the elements cannot be changed).\\
+
+Solve the problem by writing a maximum of 19 steps
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q308Gemini.png}
+            \includegraphics[width=1\textwidth]{q308Other.png}
+    \caption[Accuracy on Question 21 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+\fbox{
+    \parbox{\textwidth}{
+There are 3 stacks whose graphic representation has the elements ordered from left to right: [first inserted, second inserted, third inserted, 4th inserted, ...], two are empty while one contains 4 elements:\\
+Stack1: [B,A,D,C]\\
+Stack2: []\\
+Stack3: []\\
+Using only pop and push operation coupled (execute both the operations in the same step) reach this final configuration:\\
+Stack1: []\\
+Stack2: []\\
+Stack3: [A,B,C,D]\\
+Solve the problem by writing a maximum of 19 steps\\
+    }
+}
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{q309Gemini.png}
+            \includegraphics[width=1\textwidth]{q309Other.png}
+    \caption[Accuracy on Question 22 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \end{figure} 
+\textbf{BREVE COMMENTO DEI RISULTATI!}
+
+\vspace{1cm}
+
+
+
+
+
+
 Per ogni sotto-sezione:\\
 - Brevissima presentazione della sotto-categoria\\
 - Presenta le domande fatte agli LLMs\\
 - Presenta il numero di risposte ottenute\\
 - I grafici più significativi. \textbf{DEVI INSERIRE LA LEGENDA PER OGNI GRAFICO! è FACILE: FALLA BENE UNA VOLTA POI LA COPI E LA INCOLLI SOPRA OGNI GRAFICO.}\\
 - Breve considerazioni sui risultati ottenuti\\
-\subsection{Reasoning}
-\subsubsection{Mathematical Reasoning}
-\subsubsection{Common Math Problems}
-\subsubsection{Sudoku}
-\subsection{Factuality}
-\subsubsection{Factual Pitfalls}
-\subsubsection{Russel’s theory of descriptions}
-\subsection{Sequential Problem Solving}
-\subsubsection{Wolf, Goat and Cabbage}
-\subsubsection{Blocks World}
-\subsubsection{Hanoi Tower}
-\subsubsection{Ordered Stack}
 \subsection{Benchmark}
 
 \clearpage
@@ -410,3 +1031,4 @@ Per ogni sotto-sezione:\\
 \printbibliography
 \clearpage
 \end{document}
+

@@ -1,17 +1,47 @@
 \babel@toc {english}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Neural Network}}{8}{figure.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Neural Network node}}{9}{figure.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Neural Network labelled training and unlabelled prediction}}{10}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Example of Word Embedding Table}}{12}{figure.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Transformer architecture}}{14}{figure.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Multi-head attention function}}{15}{figure.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces reward models in RL and RLHF}}{17}{figure.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Assessing of agentic benchmarks}}{21}{figure.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Example of Adversarial Testing with domain expert}}{22}{figure.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces GPT-5 MLE-Bench-30}}{23}{figure.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces GPT-5 MLE-Bench-30 verified}}{23}{figure.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces GPT-5 SWE-lancher}}{24}{figure.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Technical details of the Gemini 2.X model family}}{25}{figure.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Graphical representation of Gemini benchmarks}}{26}{figure.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Detailed table of Gemini benchmarks}}{27}{figure.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Gemini plays Pokemon}}{28}{figure.16}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Neural Network}}{9}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Neural Network node}}{10}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Neural Network labelled training and unlabelled prediction}}{11}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Example of Word Embedding Table}}{13}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Transformer architecture}}{15}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Multi-head attention function}}{16}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces reward models in RL and RLHF}}{18}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Assessing of agentic benchmarks}}{22}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Example of Adversarial Testing with domain expert}}{23}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces GPT-5 MLE-Bench-30}}{24}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces GPT-5 MLE-Bench-30 verified}}{24}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces GPT-5 SWE-lancher}}{25}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Technical details of the Gemini 2.X model family}}{26}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Graphical representation of Gemini benchmarks}}{27}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Detailed table of Gemini benchmarks}}{28}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Gemini plays Pokemon}}{29}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Gemma3 benchmarks}}{31}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Categories of questions formulated}}{35}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces NLP and common sense}}{36}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces AI goals and questions category}}{37}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Example of one-shot methodology as used}}{38}{figure.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Few-shot and one-shot CoT}}{38}{figure.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Example of Chain of Thought methodology as used}}{39}{figure.23}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Comparison between Chain of Thought and Programming of Thought}}{40}{figure.24}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Accuracy on Question 1 by LLM}}{45}{figure.25}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Accuracy on Question 2 by LLM}}{46}{figure.26}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Accuracy on Question 3 by LLM}}{47}{figure.27}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Accuracy on Question 4 by LLM}}{48}{figure.28}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Accuracy on Question 5 by LLM}}{49}{figure.29}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Accuracy on Question 6 by LLM}}{51}{figure.30}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Accuracy on Question 7 by LLM}}{52}{figure.31}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Accuracy on Question 8 by LLM}}{53}{figure.32}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Accuracy on Question 9 by LLM}}{54}{figure.33}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Accuracy on Question 10 by LLM}}{55}{figure.34}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Accuracy on Question 11 by LLM}}{56}{figure.35}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Accuracy on Question 12 by LLM}}{57}{figure.36}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Accuracy on Question 13 by LLM}}{59}{figure.37}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Accuracy on Question 14 by LLM}}{60}{figure.38}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Accuracy on Question 15 by LLM}}{62}{figure.39}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Accuracy on Question 16 by LLM}}{64}{figure.40}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Accuracy on Question 17 by LLM}}{65}{figure.41}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Accuracy on Question 18 by LLM}}{66}{figure.42}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Accuracy on Question 19 by LLM}}{68}{figure.43}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Accuracy on Question 20 by LLM}}{69}{figure.44}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Accuracy on Question 21 by LLM}}{71}{figure.45}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Accuracy on Question 22 by LLM}}{73}{figure.46}%
