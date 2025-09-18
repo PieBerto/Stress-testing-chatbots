@@ -8,6 +8,8 @@
 \usepackage[backend=bibtex,style=trad-plain,bibencoding=utf8]{biblatex}
 \usepackage{pythonhighlight}
 
+
+
 \usepackage{csquotes}
 \usepackage{comment}
 
@@ -20,43 +22,56 @@
 \date{June 2025}
 
 \begin{document}
-
-\maketitle
-supervisore
-
-co-supervisore
-
-logo
-
-dipartimento
-
-politecnico
-
-anno accademico
+\input{titlepage}
 
 \clearpage
-\textbf{Abstract}
+\begin{abstract}
+The widespread use of Large Language Models (LLMs) in complex tasks has highlighted significant risks, including misinformation and biases. Moreover, the introduction of 'agentic AI' concept- autonomous systems capable of performing tasks without human intervention, encourages the use of LLMs for tasks they are not designed for due to their probabilistic nature. In response, agentic benchmarks were introduced to assess the reliability of these models on real-world tasks.
 
-Di cosa parla la tesi?\\
-Quali sono gli obiettivi?\\ 
-Quali tecnologie riguarda?\\
-In breve.
+This thesis proposes a benchmark with the aim of understanding the state-of-the-art in complex planning, factual accuracy and mathematical problem-solving, by analyzing the most popular chatbots from a technical point of view and the risks they entail.
 
-\textbf{Acknolegments}
+The benchmark tests were performed on Gemini, Gemma, and Llama, spanning 10 different versions of these models. This benchmark consists of 22 questions repeated more than 273,000 times using different prompting methodologies, such as zero-shot Chain of Thought (CoT), in which the model is asked to solve the problem step-by-step, and Programming of Thought (PoT), which requires writing a Python code that solves the problem.
 
-ringraziamenti\\
+The benchmark results identify several limitations in the tasks analyzed and the direction of development of some models. Specifically, the resolution of mathematical tasks with Gemini has improved significantly with the progress of versions and, in general, all analyzed models were more accurate in this category than in planning. Some limitations in the use of the PoT methodology can also be identified in real-world mathematical problems, where the use of 0-shot CoT improves accuracy.\\ 
+Testing the factuality category revealed that LLMs struggle to recognize an incorrect statement or a trick question. Meanwhile, analysis of planning ability revealed an incapability to handle overlapping plans in the submitted questions. For instance, all LLMs achieved results close to $0\%$ accuracy when the problems involved performing seemingly contradictory sub-actions to achieve the result, as in 'Tower of Hanoi' or 'Blocks World'.
+
+The findings highlight some of LLMs' current challenges to achieve agency, such as their inability to handle complex planning and factual nuances. Even in the mathematical domain, where the best results were achieved, the necessity of a third-party intervention has been shown. The findings also show that a more granular study of LLMs' capabilities is needed to ensure their responsible use.
+
+\end{abstract}
+
+\clearpage
+
+\textbf{Acknowledgments}
+
+I would like to thank my parents for all their support during my years of study, my family and my friends for being there for me when I needed them, and my comrades for everything we have achieved together.
 \clearpage
 \tableofcontents
 \clearpage
 \listoffigures
 \clearpage
-\textbf{List of Tables}
 
-Lista delle tabelle con corrispettive pagine di riferimento
-\clearpage
 \section{Introduction}
 
-Obiettivo, focus e introduzione dei risultati raggiunti dal progetto
+Large Language Models (LLMs) are stochastic systems that produce outputs by drawing relevant content from their datasets, based on patterns they've autonomously identified during training. By their very nature, these probabilistic tools shouldn't have widespread applicability. However, thanks to marketing campaigns over the last few years, they've been introduced as multi-purpose tools aimed at replacing humans in a wide range of tasks.\\
+Indeed, free mass access and their excellent performance in certain tasks make them appealing, but the new concept of \textbf{Agentic AI}, adopted by most producing companies, goes further, hypothesizing their use in any task without human supervision.\\
+The challenge lies in measuring their true reliability. Currently, this is relegated to benchmarks, which are often incomprehensible to the end-user and are used as a metric for improvement by a niche of industry professionals.
+
+This thesis proposes an \textbf{agentic benchmark} that, while limited, can clearly identify the strengths and weaknesses of current models by creating novel problems across three main categories: \textbf{reasoning}, \textbf{factuality}, and \textbf{sequential problem solving}. This last category is designed to test planning abilities on problems of discrete complexity.\\ 
+Given the generality of these three categories, the questions are grouped into sub-categories by problem type for greater data clarity, as shown in Figure \ref{fig:finalBench}.\\
+The thesis is divided into three chapters:
+\begin{itemize}
+\item \textbf{Background}: Analyzes the foundational technologies of LLMs, the concept of agentic benchmarks, and the results available in the technical reports of recent models on various benchmarks.
+\item \textbf{Methodology}: Explains how the question categories were identified, the prompting methodologies used, and how the experiment was set up.
+\item \textbf{Results}: Presents the findings obtained during the testing phase.
+\end{itemize}
+
+The models tested include the Gemini 1.5 and 2.0 families, Gemma 3 with 1B and 4B parameters, and Llama 3.1 8B and Llama 3.2 1B and 3B.\\
+The findings reveal a clear performance hierarchy. On classic math problems, Gemini models achieve an accuracy close to $100\%$ using the PoT (Programming-of-Thought) methodology. The larger parameter versions of Gemma and Llama also get approximately $50\%$ of accuracy in the same category. \\
+As the math problems increase in complexity, Gemini's latest versions maintain decent results, while the 1.5 family's performance degrades. The open models struggle, with scores dropping to nearly $0\%$.\\
+Sudoku solving was only tested on Gemini models, and all provided solutions were incorrect.\\
+In factuality category, when presented with logical trick questions, all models had an accuracy close to $0\%$.\\
+In sequential problem solving, open models consistently gave incorrect answers. Gemini models also had $0\%$ accuracy, except for Gemini 2.0 Flash, which achieved an average of about $10\%$.
+
 \clearpage
 \section{Background}
     \subsection{Large Language Models (LLMs)}
@@ -64,9 +79,9 @@ A Large Language Model (LLM) is a computational model, based on \textbf{neural n
 The most capable LLMs are \textbf{generative pretrained transformers (GPTs)}, which are largely used in generative chatbots such as \textbf{ChatGPT} and \textbf{Gemini}. GPT consists of an artificial neural network, pre-trained on large data sets of unlabeled text and based on the \textbf{transformer architecture}.
 
     \subsubsection{Neural Networks (NNs)}
-A neural network is a model that consists in different layers of nodes connected one another.\begin{figure}[H]
+A neural network is a model that consists of different layers of nodes connected one another.\begin{figure}[H]
 \centering
-        \includegraphics[width=1.3\textwidth]{DeepNeuralNetwork.png}
+        \includegraphics[width=1\textwidth]{DeepNeuralNetwork.png}
 \caption[Neural Network]{Neural Network. Source: \href{https://www.ibm.com/topics/neural-networks}{IBM}}
 \label{fig:nodeNN}
 \end{figure}
@@ -76,10 +91,10 @@ Each layer is a network of nodes and each node has its own linear regression fun
             \includegraphics[width=0.5\textwidth]{nodeNN.png}
     \caption[Neural Network node]{Neural Network node. Source: \href{https://www.briandolhansky.com/blog/artificial-neural-networks-linear-regression-part-1}{Brian Dolhansky blog}}
     \end{figure}
-Several activation function can be used. An example is the linear one, also called identicy:
+Several activation functions can be used. An example is the linear one, also called identicy:
 $$ \phi \left( \sum_i w_i a_i \right) =  \sum_i w_i a_i $$
-During the training phase the $a_i$ parameter can be modified to strengthen a path and so increase the probability of a certain output or viceversa.\\
-Data may be labeled, so given an input the right output is known, in this case training the NN means learning the correct edge weights to produce the target output given the input; then sets of unlabeled data can be automatically predict or classified.
+During the training phase the $a_i$ parameter can be modified to strengthen a path and so increasing the probability of a certain output or vice versa.\\
+Data may be labeled, so given an input the right output is known, in this case training the NN means learning the correct edge weights to produce the target output given the input; then sets of unlabeled data can be automatically predicted or classified.
     \begin{figure}[H]
     \centering
             \includegraphics[width=0.7\textwidth]{trainingNN.png}
@@ -94,7 +109,7 @@ The complexity of this model does not allow for motivation of the answers produc
 \end{comment}
 
         \subsubsection{Generative Pre-trained Transformers (GPTs), Tokens and Embeddings}
-A Generative Pre-trained transformer is a widespread type of modern LLM. The term GPT was taken from OpenAi's commercial series, which in 2018 released the first version of its product then named sequentially as: "GPT-n," which is still the core of ChatGPT today.\\
+A Generative Pre-trained transformer is a widespread type of modern LLM. The term GPT was taken from OpenAI's commercial series, which in 2018 released the first version of its product then named sequentially as: "GPT-n," which is still the core of ChatGPT today.\\
 GPTs are \textbf{deep learning transformers} trained as language models. This means that a huge set of human written text is given to a transformer, that processes and divide the text into a representation called \textbf{tokens}.\\
 
 \vspace{2mm}
@@ -122,10 +137,10 @@ The size of the set of tokens accepted as input is called context window, for ex
 The resulting set of tensors may be graphically interpreted via a word embedding table.
     \begin{figure}[H]
     \centering
-            \includegraphics[width=1.3\textwidth]{WordEmbeddingTableEx.png}
+            \includegraphics[width=1\textwidth]{WordEmbeddingTableEx.png}
     \caption[Example of Word Embedding Table]{Example of Word Embedding Table about republican vs democratic speeches. Source: \href{https://www.innerdoc.com/periodic-table-of-nlp-tasks/78-word-embedding-visualization/}{Rob Van Zoest article}}
     \end{figure}
-\noindent The word embedding table represent the semantic similarity between different words or tokens, by the distance between points.
+\noindent The word embedding table represents the semantic similarity between different words or tokens, by the distance between points.
 %TODO sei sicuro della frase che segue? Secondo me non ha senso, puoi rimuoverla. Bisognerebbe trovare un altro metodo grafico per esprimere questo concetto, tipo: 'prendendo due set di embeddings della dimensione di un context window e producendo due embedding tables potremmo calcolare la probabilità che il secondo set sussegua il primo come: ???
 %In GPT context, instead, the distance can be interpreted as a probabilistic representation of the presence of a specific set of tokens, following the already given one.\\
 
@@ -142,13 +157,13 @@ allowing the model to weigh the importance of different words in the input seque
 	\begin{figure}[H]
     \centering
             \includegraphics[width=0.6\textwidth]{transformer.png}
-    \caption[Transformer architecture]{Transformer architecture: the \textbf{encoder} is the left halve and \textbf{decoder} the right one. Source: \cite{vaswani2023attentionneed}}
+    \caption[Transformer architecture]{Transformer architecture: the \textbf{encoder} is the left half and \textbf{decoder} the right one. Source: \cite{vaswani2023attentionneed}}
     \end{figure}
 The encoder processes the input sequence creating a context vector: a representation that capture the meaning of words in their specific context. This representation is created in the \textit{Multi-Head Attention} module, in which multiple attention headers are produced in parallel per different semantic relations between words using the \textit{Self-Attention} mechanism. It consists in calculating per each word how much 'attention' should be paid to every other word in the sentence by creating \textit{Query}, \textit{Key} and \textit{Value} vectors for each word.
 
-The decoder, instead, processes the context vector of the encoder with a self-produced representation of the expected output, created using a shifted right masking policy. This policy deny to create the prediction of the current embedding using future entries, but only previous ones. This is performed by allowing the decoder to access only the previously generated tokens.
+The decoder, instead, processes the context vector of the encoder with a self-produced representation of the expected output, created using a shifted right masking policy. This policy prevents to create the prediction of the current embedding using future entries, but only previous ones. This is performed by allowing the decoder to access only the previously generated tokens.
 
-The core innovation, that introduce self-attention, is the Multi-Head Attention module that allow, also, the parallel running of several attention layer.
+The core innovation, that introduced self-attention, is the Multi-Head Attention module that also allows the parallel running of several attention layer.
 	\begin{figure}[H]
     \centering
             \includegraphics[width=1\textwidth]{attention.png}
@@ -239,7 +254,7 @@ Recent studies have tested the reliability of agentic benchmarks and then propos
 Applying this checklist to evaluate the agentic benchmarks in the above figure, it can be seen that 7 benchmarks violate task validity, 7 violate outcome validity, and all 10 have limitations in reporting.\cite{zhu2025establishingbestpracticesbuilding}\\
 
 
-My paper does not claim to create a reliable benchmark, but rather tests a small number of features.
+My paper does not claim to create a reliable benchmark, but rather it tests a small number of features. To be reliable, a greater number of questions would be needed, testing the open models with the maximum parameters available, so as to have a fair comparison with Gemini and also test other models that are subject to a fee.
 	
 
 
@@ -349,16 +364,14 @@ Gemma3 has improved significantly compared to the previous version. However, eve
     \end{figure}    
 
     \subsection{Llama}
-    
-Gemma3 techinical report: \url{https://arxiv.org/pdf/2503.19786}\\
-Llama3 technical report: \url{https://arxiv.org/abs/2407.21783}\\
+    Llama is a multimodal LLM owned by Meta and based on the Transformer architecture. 
+Llama 3 is one of the latest models available, with a context window of 128K tokens and versions scaled to 8B, 70B, and 405B. It was pre-trained on approximately 15T multilingual tokens, and a standard dense Transformer model architecture was used instead of a mixture-of-experts model to scale the model development process. Post-training is relatively simple and consists of supervised fine-tuning (SFT), rejection sampling (RS), and direct preference optimization (DPO).\cite{grattafiori2024llama3herdmodels}
 
-
-Come strutturare queste sezioni:\\
-- Common Knowledge: propietario (Google / Meta), è Open, è multimodal, etc...\\
-- Architettura\\
-- Benchmark agentici così da confrontarli con i tuoi risultati\\
-- (opzionale) Qualche breve considerazione tipo quella dei Pokemon\\
+    \begin{figure}[H]
+    \centering
+            \includegraphics[width=1\textwidth]{Llama3Benchmarks.png}
+    \caption[Llama 3 benchmarks]{The table compares the performance of the 8B, 70B, and 405B versions of Llama 3 with that of competing models. We boldface the best-performing model in each of three model-size equivalence classes. $\Delta$ Results obtained using 5-shot prompting (no CoT). $\triangleleft$ Results obtained without CoT. $\diamond$ Results obtained using zero-shot prompting. Source: \cite{grattafiori2024llama3herdmodels}}
+    \end{figure}    
     
     \subsection{National Institute of Standard and Technology (NIST) AI risk management framework}
 The NIST is an agency part of the U.S. department of Commerce which part of its purpose is to provide standards and guidelines. Since 2014, when it published the NIST cybersecurity framework, it began to deal with managing and reduce cybersecurity risks.\\
@@ -559,24 +572,27 @@ The process was automated using a Python program, which also compared the correc
 \clearpage
 \section{Results}
 
-The results and programs used, which will be presented below, can be found in the GitHub linked to this project. \\
+The results and programs used, which will be presented below, can be found in the \href{https://github.com/PieBerto/Stress-testing-chatbots}{GitHub} linked to this project. \\
 Requests made to LLMs were automated using a Python program that manages remote connections with Gemini APIs and local connections with Ollama. The results produced are collected by the same program in a text file.\\
 The raw response files are then processed by another Python script that compares the LLMs' responses with the correct answers and returns a CSV file that is subsequently processed by Basic macros to obtain the aggregated data and graphical results.
 
-For each LLM examined, graphs are presented whose data may have different levels of aggregation:
+For each LLM examined, graphs are presented whose data may have different levels of aggregation and are prepared as follow:
 \begin{enumerate}
 \item \textbf{Individual Question Accuracy}: for each question, the percentage of accuracy was calculated based on multiple repetitions or attempts of the same.
 \item \textbf{Account-Level Aggregation}: the median accuracy for each question was then determined by considering the results across different accounts.
 \item \textbf{Category-Level Aggregation}: finally, the mean of these median accuracies was calculated for all questions within each specific problem category.
 \end{enumerate}
-The graphs will have account-level aggregation for category and category-level aggregation for the final benchmarks.
+The graphs will have \textit{account-level aggregation} for the categories presented below and \textit{category-level aggregation} for the final benchmarks.
 
-The following questions omit requests for output formatting and prompting methodology. For more details, see the complete questions in “Coding/Questions” in the GitHub repository.\\
+The following questions omit requests for output formatting and prompting methodology. For more details, see the complete questions in “Coding/Questions” in the GitHub \href{https://github.com/PieBerto/Stress-testing-chatbots}{repository}.\\
+Furthermore, the questions are invented to avoid them being found in the model's dataset.\\
 
 \subsection{Reasoning}
-Introduzione brevissima della categoria e considerazione sui risultati complessivi della categoria. (ragiona se inserire gia i  benchmark solo sulla categoria)
+This category contains various types of mathematical problems and was solved using OS, CoT, and PoT methodologies.\\
+Gemini 2.0 flash thinking exp data with PoT is not available due to a data loss and a subsequent further restriction of the rate limit for free tier accounts.\\
 \subsubsection{Mathematical Reasoning} %101, 104, 105
-This category has three questions:
+This category contains rather complex mathematical problems that are similar to real-world problems.\\ 
+The three questions belonging to this category are as follows:\\
 
 \fbox{
     \parbox{\textwidth}{
@@ -588,11 +604,13 @@ This category has three questions:
     \centering
             \includegraphics[width=1\textwidth]{q101Gemini.png}
             \includegraphics[width=1\textwidth]{q101Other.png}
-    \caption[Accuracy on Question 1 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 1 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 1. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
+On Gemini models, a clear improvement in results can be seen as versions progress, but it should also be noted that this question has been tested on Gemini since before the release of the 2.0 family and is likely to have been included in the dataset for the new versions.\\
+In Gemma and Llama, inconsistent results can be seen as the number of parameters improves, with a prevalence of correct answers using the CoT methodology, probably due to the simplicity of providing an intuitive answer and the difficulty of creating an effective solution algorithm.\\
 
-\vspace{1cm}
+
+\vspace{2cm}
 
 \fbox{
     \parbox{\textwidth}{
@@ -604,11 +622,12 @@ This category has three questions:
     \centering
             \includegraphics[width=1\textwidth]{q104Gemini.png}
             \includegraphics[width=1\textwidth]{q104Other.png}
-    \caption[Accuracy on Question 2 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 2 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 2. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
+Good results can be seen with the CoT methodology and sometimes with OS on the Gemini and Gemma models; it is likely that the solution can be found directly in the dataset.\\
+It is almost impossible to produce a working algorithm with the PoT methodology in all models.\\
 
-\vspace{1cm}
+\vspace{2cm}
 
 \fbox{
     \parbox{\textwidth}{
@@ -620,16 +639,20 @@ This category has three questions:
     \centering
             \includegraphics[width=1\textwidth]{q105Gemini.png}
             \includegraphics[width=1\textwidth]{q105Other.png}
-    \caption[Accuracy on Question 3 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 3 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 3. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
+The problem is quite complex and only produces good results with PoT in Gemini 2.0 flash.\\ 
+The good results obtained with OS in Gemini 2.0 flash thinking exp are probably random, given the results obtained with CoT in the same model.\\
 
-\vspace{1cm}
+\vspace{2cm}
 
 \subsubsection{Common Math Problems} %102, 103
+The following problems are classic and can be solved by simply applying a formula.\\
+Here are the two questions in this category:\\
+
 \fbox{
     \parbox{\textwidth}{
-    A 25-year-old person invests money with an annual interest rate of 5\%. How much must he invest now to have \$1 milion when he retires at age 65?
+    A 25-year-old person invests money with an annual interest rate of 5\%. How much must he invest now to have \$1 million when he retires at age 65?
     }
 }
 
@@ -637,15 +660,15 @@ This category has three questions:
     \centering
             \includegraphics[width=1\textwidth]{q102Gemini.png}
             \includegraphics[width=1\textwidth]{q102Other.png}
-    \caption[Accuracy on Question 4 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 4 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 4. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
+The results are excellent when using PoT with Gemini and with open models with a sufficient number of parameters.\\
 
-\vspace{1cm}
+\vspace{2cm}
 
 \fbox{
     \parbox{\textwidth}{
-    A 25-year-old person invests money with an annual interest of 6 compounded continuously. How much must he invest now to have \$1 milion when he retires at age 65?
+    A 25-year-old person invests money with an annual interest of 6 compounded continuously. How much must he invest now to have \$1 million when he retires at age 65?
     }
 }
 
@@ -653,11 +676,11 @@ This category has three questions:
     \centering
             \includegraphics[width=1\textwidth]{q103Gemini.png}
             \includegraphics[width=1\textwidth]{q103Other.png}
-    \caption[Accuracy on Question 5 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 5 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 5. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
+As with the previous question, the results are excellent when using PoT with Gemini and with open models with a sufficient number of parameters.\\
 
-\vspace{1cm}
+\vspace{2cm}
 \subsubsection{Sudoku} %106
 \fbox{
     \parbox{\textwidth}{
@@ -670,13 +693,18 @@ This category has three questions:
 \begin{figure}[H]
     \centering
             \includegraphics[width=1\textwidth]{q106Gemini.png}
-    \caption[Accuracy on Question 6 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 6 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 6. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
+Gemini does not seem capable of solving Sudoku, even though it provides a partially coherent, invented answer each time.\\
+Open models were not used with images for technical simplicity.\\
 
-\vspace{1cm}
+\vspace{2cm}
 \subsection{Factuality}
+The questions in this category were resolved using the OS methodology, except for the first one, for which CoT was also used.\\
+Data relating to Gemini 2.0 flash thinking exp is only available for certain questions due to a speed limit restriction for free accounts introduced during the testing phase.\\
 \subsubsection{Factual Pitfalls} %201, 202, 203, 204
+This category contains some complex questions that aim to verify the accuracy of details and adherence to reality.\\
+
 \fbox{
     \parbox{\textwidth}{
     How many subsections of Article 140 of the Italian Constitution are there?
@@ -687,11 +715,11 @@ This category has three questions:
     \centering
             \includegraphics[width=1\textwidth]{q201Gemini.png}
             \includegraphics[width=1\textwidth]{q201Other.png}
-    \caption[Accuracy on Question 7 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 7 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 7. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
+A trick question that yields acceptable results, especially when using the CoT methodology.\\
 
-\vspace{1cm}
+\vspace{2cm}
 
 \fbox{
     \parbox{\textwidth}{
@@ -703,11 +731,11 @@ This category has three questions:
     \centering
             \includegraphics[width=1\textwidth]{q202Gemini.png}
             \includegraphics[width=1\textwidth]{q202Other.png}
-    \caption[Accuracy on Question 8 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 8 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 8. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
+The results are inconsistent; it is likely that there is an overestimation of correct responses caused by considering the model to be right when it does not know or refuses to respond.\\
 
-\vspace{1cm}
+\vspace{2cm}
 
 \fbox{
     \parbox{\textwidth}{
@@ -719,11 +747,11 @@ This category has three questions:
     \centering
             \includegraphics[width=1\textwidth]{q203Gemini.png}
             \includegraphics[width=1\textwidth]{q203Other.png}
-    \caption[Accuracy on Question 9 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 9 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 9. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
+All models show difficulty interpreting flags with complex sections.\\
 
-\vspace{1cm}
+\vspace{2cm}
 
 \fbox{
     \parbox{\textwidth}{
@@ -735,12 +763,14 @@ This category has three questions:
     \centering
             \includegraphics[width=1\textwidth]{q204Gemini.png}
             \includegraphics[width=1\textwidth]{q204Other.png}
-    \caption[Accuracy on Question 10 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 10 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 10. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
+As in the previous question, the models show difficulty interpreting flags with complex sections.\\
 
-\vspace{1cm}
+\vspace{2cm}
 \subsubsection{Russel’s theory of descriptions} %205, 206
+In questions in this category, the correct answer is the third option, as the assumption is incorrect.\\
+
 \fbox{
     \parbox{\textwidth}{
     The current king of France is dead.\\
@@ -755,11 +785,11 @@ Evaluate whether this statement is:\\
     \centering
             \includegraphics[width=1\textwidth]{q205Gemini.png}
             \includegraphics[width=1\textwidth]{q205Other.png}
-    \caption[Accuracy on Question 11 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 11 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 11. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
+Despite all of Gemini's incorrect answers, the open models achieve good results.\\
 
-\vspace{1cm}
+\vspace{2cm}
 
 \fbox{
     \parbox{\textwidth}{
@@ -775,13 +805,16 @@ Assuming that the interlocutor is not lying, the following statement is to be co
     \centering
             \includegraphics[width=1\textwidth]{q206Gemini.png}
             \includegraphics[width=1\textwidth]{q206Other.png}
-    \caption[Accuracy on Question 12 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 12 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 12. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
+Very similar to the previous question, but with the total accuracy of the latest Gemini model taken into account.\\
 
-\vspace{1cm}
+\vspace{2cm}
 
 \subsection{Sequential Problem Solving}
+This category contains a total of 10 questions and shows how LLMs struggle to plan when faced with overlapping plans.\\
+Open LLMs and the Gemini 1.5 family did not achieve significant results, having an accuracy close to zero.\\
+
 \subsubsection{Wolf, Goat and Cabbage} %301, 302
 \fbox{
     \parbox{\textwidth}{
@@ -796,11 +829,11 @@ The goat and the wolf cannot stay on the same bank in the absence of the farmer.
     \centering
             \includegraphics[width=1\textwidth]{q301Gemini.png}
             \includegraphics[width=1\textwidth]{q301Other.png}
-    \caption[Accuracy on Question 13 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 13 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 13. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
+The Gemini 2.0 family seems to show some interesting improvements, but as shown by the following question, when the problem is obscured, there is a complete change of pace.\\
 
-\vspace{1cm}
+\vspace{2cm}
 
 \fbox{
     \parbox{\textwidth}{
@@ -815,13 +848,14 @@ B and C cannot stay on the same array in the absence of Z.
     \centering
             \includegraphics[width=1\textwidth]{q302Gemini.png}
             \includegraphics[width=1\textwidth]{q302Other.png}
-    \caption[Accuracy on Question 14 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 14 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 14. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
+The results obtained in this question show that by not allowing the model to refer back to a known problem, the quality of the proposed solution decreases significantly.\\
 
-\vspace{1cm}
+\vspace{2cm}
 
 \subsubsection{Blocks World} %303, 304
+In this category too, the results of the two questions asked are rather disappointing.\\
 \fbox{
     \parbox{\textwidth}{
 Three blocks (labeled A, B, and C) rest on a table. The blocks must be stacked such that block A is atop block B, and block B is atop block C. The problem starts with the following configuration:\\
@@ -851,11 +885,10 @@ Solve this problem, following the restraints and going on untill the exact solut
     \centering
             \includegraphics[width=1\textwidth]{q303Gemini.png}
             \includegraphics[width=1\textwidth]{q303Other.png}
-    \caption[Accuracy on Question 15 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 15 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 15. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
 
-\vspace{1cm}
+\vspace{2cm}
 
 \fbox{
     \parbox{\textwidth}{
@@ -886,12 +919,12 @@ Solve this problem, following the restraints and going on untill the exact solut
     \centering
             \includegraphics[width=1\textwidth]{q304Gemini.png}
             \includegraphics[width=1\textwidth]{q304Other.png}
-    \caption[Accuracy on Question 16 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 16 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 16. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
 
-\vspace{1cm}
+\vspace{2cm}
 \subsubsection{Hanoi Tower} %305, 306, 307, 310
+In the following category, simplifying the consideration of poles as stacks allows for an improvement in results in the most recent model among those tested of Gemini.\\
 
 \fbox{
     \parbox{\textwidth}{
@@ -903,11 +936,10 @@ Solve the example in the image of the Hanoi tower, in which three cylinders are 
 \begin{figure}[H]
     \centering
             \includegraphics[width=1\textwidth]{q305Gemini.png}
-    \caption[Accuracy on Question 17 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 17 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 17. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
 
-\vspace{1cm}
+\vspace{2cm}
 
 \fbox{
     \parbox{\textwidth}{
@@ -919,11 +951,10 @@ Solve this exercise of the Hanoi tower: there are three rods called stack1, stac
     \centering
             \includegraphics[width=1\textwidth]{q306Gemini.png}
             \includegraphics[width=1\textwidth]{q306Other.png}
-    \caption[Accuracy on Question 18 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 18 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 18. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
 
-\vspace{1cm}
+\vspace{2cm}
 
 \fbox{
     \parbox{\textwidth}{
@@ -936,11 +967,10 @@ In order to move cylinders, certain rules must be followed: cylinders can only b
     \centering
             \includegraphics[width=1\textwidth]{q307Gemini.png}
             \includegraphics[width=1\textwidth]{q307Other.png}
-    \caption[Accuracy on Question 19 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 19 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 19. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
 
-\vspace{1cm}
+\vspace{2cm}
 
 \fbox{
     \parbox{\textwidth}{
@@ -952,12 +982,12 @@ Solve the tower of Hanoi with 4 disks, naming the disks, from largest to smalles
     \centering
             \includegraphics[width=1\textwidth]{q310Gemini.png}
             \includegraphics[width=1\textwidth]{q310Other.png}
-    \caption[Accuracy on Question 20 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 20 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 20. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
-
-\vspace{1cm}
+Adding a cylinder and thus complicating the problem causes correctness to collapse, despite the simplification of considering the poles as stacks.\\
+\vspace{2cm}
 \subsubsection{Ordered Stack} %308, 309
+A slightly modified version of Hanoi Tower is now proposed. Accuracy is noted to be consistently close to zero.\\
 \fbox{
     \parbox{\textwidth}{
 Stacks are ordered queues whose main feature in computer science are the two operations: pop and push. Push inserts an element at the end of the stack so that it is the last one, while pop removes the last inserted element. Example: by pushing an element B into a stack from the initial configuration [A] the result will be: [A,B]\\
@@ -981,11 +1011,10 @@ Solve the problem by writing a maximum of 19 steps
     \centering
             \includegraphics[width=1\textwidth]{q308Gemini.png}
             \includegraphics[width=1\textwidth]{q308Other.png}
-    \caption[Accuracy on Question 21 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 21 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 21. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
 
-\vspace{1cm}
+\vspace{2cm}
 
 \fbox{
     \parbox{\textwidth}{
@@ -1005,24 +1034,22 @@ Solve the problem by writing a maximum of 19 steps\\
     \centering
             \includegraphics[width=1\textwidth]{q309Gemini.png}
             \includegraphics[width=1\textwidth]{q309Other.png}
-    \caption[Accuracy on Question 22 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on the preceding question}
+    \caption[Accuracy on Question 22 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 22. Graph's data are account-level aggregation.}
     \end{figure} 
-\textbf{BREVE COMMENTO DEI RISULTATI!}
 
-\vspace{1cm}
+\vspace{2cm}
 
-
-
-
-
-
-Per ogni sotto-sezione:\\
-- Brevissima presentazione della sotto-categoria\\
-- Presenta le domande fatte agli LLMs\\
-- Presenta il numero di risposte ottenute\\
-- I grafici più significativi. \textbf{DEVI INSERIRE LA LEGENDA PER OGNI GRAFICO! è FACILE: FALLA BENE UNA VOLTA POI LA COPI E LA INCOLLI SOPRA OGNI GRAFICO.}\\
-- Breve considerazioni sui risultati ottenuti\\
 \subsection{Benchmark}
+By resizing the data to category-level aggregates, it is possible to obtain more general benchmarks which, when applied only to the most recent versions of the models, can show us the state of the art.\\
+
+\begin{figure}[H]
+    \centering
+            \includegraphics[width=0.75\textwidth]{MyGemini2Flash.png}
+            \includegraphics[width=0.75\textwidth]{MyGemma3_8BBenchmarks.png}
+            \includegraphics[width=0.75\textwidth]{MyLlama3_2_3B.png}
+    \caption[My benchmark: accuracy by question category]{Impact of Prompting Strategies on Cumulative Accuracy by Problem Categories. Graph's data are category-level aggregation.}
+    \label{fig:finalBench}
+    \end{figure} 
 
 \clearpage
 \section{Conclusions}
