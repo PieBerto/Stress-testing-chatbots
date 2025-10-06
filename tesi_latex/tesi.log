@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.30)  15 JUL 2025 15:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.30)  6 OCT 2025 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -491,15 +491,66 @@ Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
+(c:/texlive/2025/texmf-dist/tex/latex/pythonhighlight/pythonhighlight.sty
+Package: pythonhighlight 2024/03/18 python code highlighting; provided by Olivi
+er Verdier <olivier.verdier@gmail.com>
+
+(c:/texlive/2025/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count425
+\lst@gtempboxa=\box55
+\lst@token=\toks22
+\lst@length=\count426
+\lst@currlwidth=\dimen156
+\lst@column=\count427
+\lst@pos=\count428
+\lst@lostspace=\dimen157
+\lst@width=\dimen158
+\lst@newlines=\count429
+\lst@lineno=\count430
+\lst@maxwidth=\dimen159
+
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count431
+\lst@skipnumbers=\count432
+\lst@framebox=\box56
+)
+(c:/texlive/2025/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
+))
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+(c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(c:/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+))
 (c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count425
-\csq@gtype=\count426
-\csq@glevel=\count427
-\csq@qlevel=\count428
-\csq@maxlvl=\count429
-\csq@tshold=\count430
-\csq@ltx@everypar=\toks22
+\csq@reset=\count433
+\csq@gtype=\count434
+\csq@glevel=\count435
+\csq@qlevel=\count436
+\csq@maxlvl=\count437
+\csq@tshold=\count438
+\csq@ltx@everypar=\toks23
 
 (c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
@@ -510,6 +561,10 @@ Package csquotes Info: ... configuration file loaded successfully.
 (c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
+(c:/texlive/2025/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+
+Excluding comment 'comment')
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -517,38 +572,38 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
  (./tesi.aux)
 \openout1 = `tesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count431
-\scratchdimen=\dimen156
-\scratchbox=\box55
-\nofMPsegments=\count432
-\nofMParguments=\count433
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count434
-\MPscratchDim=\dimen157
-\MPnumerator=\count435
-\makeMPintoPDFobject=\count436
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count439
+\scratchdimen=\dimen160
+\scratchbox=\box57
+\nofMPsegments=\count440
+\nofMParguments=\count441
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count442
+\MPscratchDim=\dimen161
+\MPnumerator=\count443
+\makeMPintoPDFobject=\count444
+\everyMPtoPDFconversion=\toks25
 ) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -558,11 +613,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 20.
+Package hyperref Info: Link coloring OFF on input line 26.
 
 (./tesi.out) (./tesi.out)
-\@outlinefile=\write4
-\openout4 = `tesi.out'.
+\@outlinefile=\write5
+\openout5 = `tesi.out'.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -570,35 +625,70 @@ Package biblatex Info: ... file 'english.lbx' found.
 (c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 )
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+
+
+Package biblatex Warning: Initial guess for file encoding (utf8)
+(biblatex)                and new guess (ascii) do not match.
+(biblatex)                Please set up your document encoding *before*
+(biblatex)                loading biblatex.
+(biblatex)                The case changing code might not work as expected.
+
 Package biblatex Info: Data encoding 'utf8' specified.
-(biblatex)             No need to reencode data.
+(biblatex)             Backend will reencode on the fly.
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+
+Package biblatex Warning: Initial guess for file encoding (utf8)
+(biblatex)                and new guess (ascii) do not match.
+(biblatex)                Please set up your document encoding *before*
+(biblatex)                loading biblatex.
+(biblatex)                The case changing code might not work as expected.
+
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             Backend will reencode on the fly.
 \openout3 = `tesi-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tesi.bbl' found.
- (./tesi.bbl)
-Package biblatex Info: Reference section=0 on input line 20.
-Package biblatex Info: Reference segment=0 on input line 20.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 23.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 23.
+(./tesi.bbl)
+Package biblatex Info: Reference section=0 on input line 26.
+Package biblatex Info: Reference segment=0 on input line 26.
+\c@lstlisting=\count445
+ (./titlepage.tex
+<./img/Logo_PoliTo_dal_2021_blu.png, id=144, 703.9098pt x 309.7974pt>
+File: ./img/Logo_PoliTo_dal_2021_blu.png Graphic file (type png)
+<use ./img/Logo_PoliTo_dal_2021_blu.png>
+Package pdftex.def Info: ./img/Logo_PoliTo_dal_2021_blu.png  used on input line
+ 6.
+(pdftex.def)             Requested size: 234.00238pt x 102.98506pt.
 
 
 [1
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
-
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/Logo_Poli
+To_dal_2021_blu.png>])
+Overfull \hbox (42.11449pt too wide) in paragraph at lines 31--32
+\OT1/cmr/m/n/10.95 autonomous sys-tems ca-pa-ble of per-form-ing tasks with-out
+ hu-man intervention---
  []
 
 
 
-[2
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.43 
+      [1
+
+]
+
+[2]
+
+[3
 
 ] (./tesi.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -607,285 +697,1579 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 4.
-)
-\tf@toc=\write5
-\openout5 = `tesi.toc'.
+
+Overfull \hbox (0.74057pt too wide) in paragraph at lines 9--9
+ [][] [][]\OT1/cmr/m/n/12 Artificial Gen-eral In-tel-li-gence (AGI), Agen-tic A
+I and AI's main 
+ []
 
 
-
-[3
-
-]
 
 [4
 
-]
+])
+\tf@toc=\write6
+\openout6 = `tesi.toc'.
 
-[5
 
-]
+
+[5] (./tesi.lof
 
 [6
 
-]
-Overfull \hbox (6.4916pt too wide) in paragraph at lines 63--65
+])
+\tf@lof=\write7
+\openout7 = `tesi.lof'.
+
+
+
+[7]
+
+[8
+
+{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+[9]
+Overfull \hbox (6.4916pt too wide) in paragraph at lines 83--85
 \OT1/cmr/m/n/12 The most ca-pa-ble LLMs are \OT1/cmr/bx/n/12 gen-er-a-tive pre-
 trained trans-form-ers (GPTs)\OT1/cmr/m/n/12 ,
  []
 
-<./img/DeepNeuralNetwork.png, id=166, 1124.2pt x 633.36626pt>
-File: ./img/DeepNeuralNetwork.png Graphic file (type png)
-<use ./img/DeepNeuralNetwork.png>
-Package pdftex.def Info: ./img/DeepNeuralNetwork.png  used on input line 69.
-(pdftex.def)             Requested size: 507.00119pt x 285.64037pt.
 
-Overfull \hbox (117.00119pt too wide) in paragraph at lines 69--70
- [][] 
+Overfull \hbox (0.73602pt too wide) in paragraph at lines 83--85
+\OT1/cmr/bx/n/12 ini\OT1/cmr/m/n/12 . GPT con-sists of an ar-ti-fi-cial neu-ral
+ net-work, pre-trained on large datasets
  []
 
-<./img/nodeNN.png, id=169, 141.6492pt x 63.5976pt>
+<./img/DeepNeuralNetwork.png, id=332, 1124.2pt x 633.36626pt>
+File: ./img/DeepNeuralNetwork.png Graphic file (type png)
+<use ./img/DeepNeuralNetwork.png>
+Package pdftex.def Info: ./img/DeepNeuralNetwork.png  used on input line 89.
+(pdftex.def)             Requested size: 390.0pt x 219.71964pt.
+<./img/nodeNN.png, id=334, 141.6492pt x 63.5976pt>
 File: ./img/nodeNN.png Graphic file (type png)
 <use ./img/nodeNN.png>
-Package pdftex.def Info: ./img/nodeNN.png  used on input line 76.
+Package pdftex.def Info: ./img/nodeNN.png  used on input line 96.
 (pdftex.def)             Requested size: 195.0pt x 87.55515pt.
 
 
-[7
+[10
 
  <./img/DeepNeuralNetwork.png>]
-<./img/trainingNN.png, id=178, 186.4566pt x 177.3024pt>
+<./img/trainingNN.png, id=342, 186.4566pt x 177.3024pt>
 File: ./img/trainingNN.png Graphic file (type png)
 <use ./img/trainingNN.png>
-Package pdftex.def Info: ./img/trainingNN.png  used on input line 85.
+Package pdftex.def Info: ./img/trainingNN.png  used on input line 105.
 (pdftex.def)             Requested size: 272.99881pt x 259.61954pt.
 
 
-[8 <./img/nodeNN.png>]
-Overfull \hbox (207.48183pt too wide) in paragraph at lines 91--93
-\OT1/cmr/m/n/12 RNNs: []$\OT1/cmtt/m/n/12 https : / / towardsdatascience . com 
-/ illustrated-[]guide-[]to-[]recurrent-[]neural-[]networks-[]79e5eb8049c9$[] 
- []
-
-
-Overfull \hbox (15.23999pt too wide) in paragraph at lines 91--93
-\OT1/cmr/m/n/12 LSTMs: []$\OT1/cmtt/m/n/12 https : / / colah . github . io / po
-sts / 2015-[]08-[]Understanding-[]LSTMs/$[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--97
+[11 <./img/nodeNN.png>] Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
 
 
-[9 <./img/trainingNN.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 103--108
+[12 <./img/trainingNN.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 125--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--117
+Underfull \hbox (badness 10000) in paragraph at lines 133--139
 
  []
 
-
-
-[10]
-<./img/WordEmbeddingTableEx.png, id=214, 1204.5pt x 724.7075pt>
+<./img/WordEmbeddingTableEx.png, id=366, 1204.5pt x 724.7075pt>
 File: ./img/WordEmbeddingTableEx.png Graphic file (type png)
 <use ./img/WordEmbeddingTableEx.png>
-Package pdftex.def Info: ./img/WordEmbeddingTableEx.png  used on input line 123
+Package pdftex.def Info: ./img/WordEmbeddingTableEx.png  used on input line 145
 .
-(pdftex.def)             Requested size: 507.00119pt x 305.04962pt.
-
-Overfull \hbox (117.00119pt too wide) in paragraph at lines 123--124
- [][] 
- []
+(pdftex.def)             Requested size: 390.0pt x 234.65355pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--135
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
 
  []
 
-
-
-[11 <./img/WordEmbeddingTableEx.png (PNG copy)>]
-<./img/transformer.png, id=223, 282.30469pt x 430.60875pt>
+<./img/transformer.png, id=378, 282.30469pt x 430.60875pt>
 File: ./img/transformer.png Graphic file (type png)
 <use ./img/transformer.png>
-Package pdftex.def Info: ./img/transformer.png  used on input line 142.
+Package pdftex.def Info: ./img/transformer.png  used on input line 164.
 (pdftex.def)             Requested size: 234.00238pt x 356.93864pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--144
+Underfull \hbox (badness 10000) in paragraph at lines 159--166
 
  []
 
 
 
-[12]
-<./img/attention.png, id=231, 502.87875pt x 290.58563pt>
+[14 <./img/WordEmbeddingTableEx.png (PNG copy)>]
+
+[15]
+
+[16 <./img/transformer.png>]
+<./img/attention.png, id=396, 502.87875pt x 290.58563pt>
 File: ./img/attention.png Graphic file (type png)
 <use ./img/attention.png>
-Package pdftex.def Info: ./img/attention.png  used on input line 151.
+Package pdftex.def Info: ./img/attention.png  used on input line 174.
 (pdftex.def)             Requested size: 390.0pt x 225.35672pt.
 
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
 
-[13 <./img/transformer.png>]
-Overfull \hbox (407.40039pt too wide) in paragraph at lines 157--161
-[]$\OT1/cmtt/m/n/12 https : / / medium . com / @tom _ 21755 / understanding-[]c
-ausal-[]llms-[]masked-[]llm-[]s-[]and-[]seq2seq-[]a-[]guide-[]to-[]language-[]m
-odel-[]training-[]d4457bbd07fa$[] 
+
+[17 <./img/attention.png>] Excluding 'comment' comment.
+Overfull \hbox (3.3598pt too wide) in paragraph at lines 202--203
+\OT1/cmr/m/n/12 from hu-man feed-back in-stead of re-ly-ing on an en-gi-neered 
+re-ward func-tion.''[[]16[]] 
  []
 
 
-Overfull \hbox (16.51314pt too wide) in paragraph at lines 157--161
-[]$\OT1/cmtt/m/n/12 https : / / arxiv . org / abs / 1409 . 3215$[] \OT1/cmr/m/n
-/12 which im-ple-mented encoder-decoder mod-
- []
-
-
-Overfull \hbox (163.07527pt too wide) in paragraph at lines 157--161
-\OT1/cmtt/m/n/12 medium . com / analytics-[]vidhya / encoder-[]decoder-[]seq2se
-q-[]models-[]clearly-[]explained-[]c34186fbf49b$[] 
- []
-
-
-
-[14 <./img/attention.png>]
-Overfull \hbox (6.53416pt too wide) in paragraph at lines 166--169
-\OT1/cmr/m/n/12 with also and []$\OT1/cmtt/m/n/12 https : / / colab . research 
-. google . com / github / huggingface /
- []
-
-
-Overfull \hbox (5.2002pt too wide) in paragraph at lines 166--169
-\OT1/cmtt/m/n/12 notebooks / blob / main / transformers _ doc / en / pytorch / 
-masked _ language _
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--169
-
- []
-
-
-Overfull \hbox (15.757pt too wide) in paragraph at lines 176--177
+Overfull \hbox (21.63194pt too wide) in paragraph at lines 202--203
 \OT1/cmr/m/n/12 crit-i-cal human-in-the-loop com-po-nent to the stan-dard RL le
-arn-ing paradigm".[[]4[]] 
+arn-ing paradigm''.[[]16[]] 
  []
 
-<./img/RL_and_RLHF.png, id=260, 770.88pt x 217.81375pt>
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+<./img/RL_and_RLHF.png, id=410, 770.88pt x 217.81375pt>
 File: ./img/RL_and_RLHF.png Graphic file (type png)
 <use ./img/RL_and_RLHF.png>
-Package pdftex.def Info: ./img/RL_and_RLHF.png  used on input line 181.
+Package pdftex.def Info: ./img/RL_and_RLHF.png  used on input line 207.
 (pdftex.def)             Requested size: 390.0pt x 110.19281pt.
 
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
 
 
 
-[16 <./img/RL_and_RLHF.png>]
-<./img/adversarialTestingChemestry.png, id=285, 597.73312pt x 190.46156pt>
+[19 <./img/RL_and_RLHF.png>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+
+[20]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+
+
+[21]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+<./img/AgenticBenchmarksAssessment.png, id=465, 508.14844pt x 326.72063pt>
+File: ./img/AgenticBenchmarksAssessment.png Graphic file (type png)
+<use ./img/AgenticBenchmarksAssessment.png>
+Package pdftex.def Info: ./img/AgenticBenchmarksAssessment.png  used on input l
+ine 256.
+(pdftex.def)             Requested size: 390.0pt x 250.76303pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--258
+
+ []
+
+
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 259--260
+
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+<./img/adversarialTestingChemestry.png, id=479, 597.73312pt x 190.46156pt>
 File: ./img/adversarialTestingChemestry.png Graphic file (type png)
 <use ./img/adversarialTestingChemestry.png>
 Package pdftex.def Info: ./img/adversarialTestingChemestry.png  used on input l
-ine 204.
+ine 274.
 (pdftex.def)             Requested size: 390.0pt x 124.26933pt.
 
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 209--212
+[23 <./img/AgenticBenchmarksAssessment.png>]
+<./img/SWE-bench-verifiedChatGPT.png, id=487, 580.41844pt x 281.55188pt>
+File: ./img/SWE-bench-verifiedChatGPT.png Graphic file (type png)
+<use ./img/SWE-bench-verifiedChatGPT.png>
+Package pdftex.def Info: ./img/SWE-bench-verifiedChatGPT.png  used on input lin
+e 282.
+(pdftex.def)             Requested size: 390.0pt x 189.18437pt.
+
+
+[24 <./img/adversarialTestingChemestry.png>]
+<./img/MLE-bench-30ChatGPT.png, id=497, 569.12625pt x 285.31593pt>
+File: ./img/MLE-bench-30ChatGPT.png Graphic file (type png)
+<use ./img/MLE-bench-30ChatGPT.png>
+Package pdftex.def Info: ./img/MLE-bench-30ChatGPT.png  used on input line 288.
+
+(pdftex.def)             Requested size: 390.0pt x 195.52295pt.
+
+
+[25 <./img/SWE-bench-verifiedChatGPT.png> <./img/MLE-bench-30ChatGPT.png>]
+<./img/SWE-lancerChatGPT.png, id=507, 569.12625pt x 182.18062pt>
+File: ./img/SWE-lancerChatGPT.png Graphic file (type png)
+<use ./img/SWE-lancerChatGPT.png>
+Package pdftex.def Info: ./img/SWE-lancerChatGPT.png  used on input line 296.
+(pdftex.def)             Requested size: 390.0pt x 124.84578pt.
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--310
 
  []
 
 
-Overfull \hbox (25.09782pt too wide) in paragraph at lines 219--219
-[]\OT1/cmr/bx/n/14.4 National In-sti-tute of Stan-dard and Tech-nol-ogy (NIST)
+
+[26 <./img/SWE-lancerChatGPT.png>]
+<./img/GeminiGenerations.png, id=520, 602.25pt x 225.84375pt>
+File: ./img/GeminiGenerations.png Graphic file (type png)
+<use ./img/GeminiGenerations.png>
+Package pdftex.def Info: ./img/GeminiGenerations.png  used on input line 313.
+(pdftex.def)             Requested size: 390.0pt x 146.25565pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+<./img/GeminiBenchmarks.png, id=523, 490.83376pt x 302.63063pt>
+File: ./img/GeminiBenchmarks.png Graphic file (type png)
+<use ./img/GeminiBenchmarks.png>
+Package pdftex.def Info: ./img/GeminiBenchmarks.png  used on input line 323.
+(pdftex.def)             Requested size: 390.0pt x 240.46552pt.
+
+
+[27 <./img/GeminiGenerations.png>]
+<./img/TableGeminiBenchmarks.png, id=532, 609.02531pt x 548.80031pt>
+File: ./img/TableGeminiBenchmarks.png Graphic file (type png)
+<use ./img/TableGeminiBenchmarks.png>
+Package pdftex.def Info: ./img/TableGeminiBenchmarks.png  used on input line 33
+4.
+(pdftex.def)             Requested size: 390.0pt x 351.44034pt.
+
+
+[28 <./img/GeminiBenchmarks.png>]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no © in font cmr12!
+<./img/GeminiFireRed.png, id=540, 662.475pt x 538.26094pt>
+File: ./img/GeminiFireRed.png Graphic file (type png)
+<use ./img/GeminiFireRed.png>
+Package pdftex.def Info: ./img/GeminiFireRed.png  used on input line 346.
+(pdftex.def)             Requested size: 390.0pt x 316.87308pt.
+Missing character: There is no √ in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no © in font cmr12!
+
+
+[29 <./img/TableGeminiBenchmarks.png>]
+
+[30 <./img/GeminiFireRed.png>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Overfull \hbox (4.87646pt too wide) in paragraph at lines 355--362
+\OT1/cmr/m/n/12 Gemma3 mod-els fol-lows the gen-eral decoder-only trans-former 
+ar-chi-tec-ture.[[]30[]]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 363--364
+
+ []
+
+<./img/Gemma3Benchmarks.png, id=560, 568.37344pt x 237.13594pt>
+File: ./img/Gemma3Benchmarks.png Graphic file (type png)
+<use ./img/Gemma3Benchmarks.png>
+Package pdftex.def Info: ./img/Gemma3Benchmarks.png  used on input line 367.
+(pdftex.def)             Requested size: 390.0pt x 162.72298pt.
+
+
+[31]
+<./img/Llama3Benchmarks.png, id=570, 1040.38687pt x 510.40688pt>
+File: ./img/Llama3Benchmarks.png Graphic file (type png)
+<use ./img/Llama3Benchmarks.png>
+Package pdftex.def Info: ./img/Llama3Benchmarks.png  used on input line 377.
+(pdftex.def)             Requested size: 390.0pt x 191.332pt.
+
+
+[32 <./img/Gemma3Benchmarks.png>]
+
+[33 <./img/Llama3Benchmarks.png>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+
+[34]
+
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 406--411
+
+ []
+
+<./img/AnalyzedCategory.png, id=614, 750.55406pt x 475.7775pt>
+File: ./img/AnalyzedCategory.png Graphic file (type png)
+<use ./img/AnalyzedCategory.png>
+Package pdftex.def Info: ./img/AnalyzedCategory.png  used on input line 415.
+(pdftex.def)             Requested size: 390.0pt x 247.22421pt.
+
+
+[36
+
+]
+<./img/NLPCommonSense.png, id=621, 808.52063pt x 597.73312pt>
+File: ./img/NLPCommonSense.png Graphic file (type png)
+<use ./img/NLPCommonSense.png>
+Package pdftex.def Info: ./img/NLPCommonSense.png  used on input line 428.
+(pdftex.def)             Requested size: 390.0pt x 288.32234pt.
+
+
+[37 <./img/AnalyzedCategory.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 432--434
+
+ []
+
+<./img/GoalsAndCategory.png, id=627, 768.62157pt x 485.56406pt>
+File: ./img/GoalsAndCategory.png Graphic file (type png)
+<use ./img/GoalsAndCategory.png>
+Package pdftex.def Info: ./img/GoalsAndCategory.png  used on input line 439.
+(pdftex.def)             Requested size: 390.0pt x 246.38225pt.
+
+
+[38 <./img/NLPCommonSense.png>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+<./img/MyOneShot.png, id=634, 557.08125pt x 202.50656pt>
+File: ./img/MyOneShot.png Graphic file (type png)
+<use ./img/MyOneShot.png>
+Package pdftex.def Info: ./img/MyOneShot.png  used on input line 450.
+(pdftex.def)             Requested size: 390.0pt x 141.77214pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--452
+
  []
 
 
 
-[18 <./img/adversarialTestingChemestry.png>]
+[39 <./img/GoalsAndCategory.png>]
+<./img/CoTTheory.png, id=640, 502.87875pt x 258.21469pt>
+File: ./img/CoTTheory.png Graphic file (type png)
+<use ./img/CoTTheory.png>
+Package pdftex.def Info: ./img/CoTTheory.png  used on input line 460.
+(pdftex.def)             Requested size: 390.0pt x 200.25221pt.
 
-[19
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
 
-]
 
-[20
+[40 <./img/MyOneShot.png> <./img/CoTTheory.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 468--469
 
-]
+ []
 
-[21
+<./img/MyCoT.png, id=651, 466.74374pt x 402.75468pt>
+File: ./img/MyCoT.png Graphic file (type png)
+<use ./img/MyCoT.png>
+Package pdftex.def Info: ./img/MyCoT.png  used on input line 472.
+(pdftex.def)             Requested size: 390.0pt x 336.54785pt.
 
-]
-Overfull \hbox (11.17564pt too wide) in paragraph at lines 239--239
-\OT1/cmr/m/n/12 Ilge Akkaya, Flo-ren-cia Leoni Ale-man, Diogo Almeida, Janko Al
--tenschmidt,
+Underfull \hbox (badness 10000) in paragraph at lines 477--479
+
  []
 
 
-Overfull \hbox (5.63097pt too wide) in paragraph at lines 239--239
+
+[41 <./img/MyCoT.png>]
+<./img/PoTTheory.png, id=657, 596.98032pt x 387.69844pt>
+File: ./img/PoTTheory.png Graphic file (type png)
+<use ./img/PoTTheory.png>
+Package pdftex.def Info: ./img/PoTTheory.png  used on input line 482.
+(pdftex.def)             Requested size: 390.0pt x 253.2788pt.
+
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ò in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ô in font cmti12!
+(c:/texlive/2025/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
+)
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 489.
+
+
+[42 <./img/PoTTheory.png>]
+
+[43]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+
+[44]
+Overfull \hbox (40.09131pt too wide) in paragraph at lines 550--555
+[] 
+ []
+
+
+Overfull \hbox (40.09131pt too wide) in paragraph at lines 567--568
+[] 
+ []
+
+
+Overfull \hbox (40.09131pt too wide) in paragraph at lines 568--573
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 575--576
+
+ []
+
+
+
+[45]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--594
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 596--598
+
+ []
+
+
+
+[46
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 599--601
+
+ []
+
+
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 606--607
+[][] 
+ []
+
+<./img/q101Gemini.png, id=733, 1207.51125pt x 604.50844pt>
+File: ./img/q101Gemini.png Graphic file (type png)
+<use ./img/q101Gemini.png>
+Package pdftex.def Info: ./img/q101Gemini.png  used on input line 610.
+(pdftex.def)             Requested size: 390.0pt x 195.23611pt.
+<./img/q101Other.png, id=734, 1211.27531pt x 593.21625pt>
+File: ./img/q101Other.png Graphic file (type png)
+<use ./img/q101Other.png>
+Package pdftex.def Info: ./img/q101Other.png  used on input line 611.
+(pdftex.def)             Requested size: 390.0pt x 191.00075pt.
+
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 614--616
+
+ []
+
+
+
+[48 <./img/q101Gemini.png> <./img/q101Other.png>]
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 624--625
+[][] 
+ []
+
+<./img/q104Gemini.png, id=746, 1205.2528pt x 603.0028pt>
+File: ./img/q104Gemini.png Graphic file (type png)
+<use ./img/q104Gemini.png>
+Package pdftex.def Info: ./img/q104Gemini.png  used on input line 628.
+(pdftex.def)             Requested size: 390.0pt x 195.11789pt.
+<./img/q104Other.png, id=747, 1209.01688pt x 599.99156pt>
+File: ./img/q104Other.png Graphic file (type png)
+<use ./img/q104Other.png>
+Package pdftex.def Info: ./img/q104Other.png  used on input line 629.
+(pdftex.def)             Requested size: 390.0pt x 193.53928pt.
+
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 633--635
+
+ []
+
+
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 642--643
+[][] 
+ []
+
+<./img/q105Gemini.png, id=753, 1215.79219pt x 597.73312pt>
+File: ./img/q105Gemini.png Graphic file (type png)
+<use ./img/q105Gemini.png>
+Package pdftex.def Info: ./img/q105Gemini.png  used on input line 646.
+(pdftex.def)             Requested size: 390.0pt x 191.73453pt.
+<./img/q105Other.png, id=754, 1206.00563pt x 594.72188pt>
+File: ./img/q105Other.png Graphic file (type png)
+<use ./img/q105Other.png>
+Package pdftex.def Info: ./img/q105Other.png  used on input line 647.
+(pdftex.def)             Requested size: 390.0pt x 192.3204pt.
+
+
+[50 <./img/q104Gemini.png> <./img/q104Other.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 650--652
+
+ []
+
+
+
+[51 <./img/q105Gemini.png> <./img/q105Other.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 656--658
+
+ []
+
+
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 663--664
+[][] 
+ []
+
+<./img/q102Gemini.png, id=767, 1207.51125pt x 601.4972pt>
+File: ./img/q102Gemini.png Graphic file (type png)
+<use ./img/q102Gemini.png>
+Package pdftex.def Info: ./img/q102Gemini.png  used on input line 667.
+(pdftex.def)             Requested size: 390.0pt x 194.26358pt.
+<./img/q102Other.png, id=768, 1207.51125pt x 596.2275pt>
+File: ./img/q102Other.png Graphic file (type png)
+<use ./img/q102Other.png>
+Package pdftex.def Info: ./img/q102Other.png  used on input line 668.
+(pdftex.def)             Requested size: 390.0pt x 192.56165pt.
+
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 671--672
+
+ []
+
+
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 679--680
+[][] 
+ []
+
+<./img/q103Gemini.png, id=773, 1206.75844pt x 604.50844pt>
+File: ./img/q103Gemini.png Graphic file (type png)
+<use ./img/q103Gemini.png>
+Package pdftex.def Info: ./img/q103Gemini.png  used on input line 683.
+(pdftex.def)             Requested size: 390.0pt x 195.36525pt.
+<./img/q103Other.png, id=774, 1208.26407pt x 603.0028pt>
+File: ./img/q103Other.png Graphic file (type png)
+<use ./img/q103Other.png>
+Package pdftex.def Info: ./img/q103Other.png  used on input line 684.
+(pdftex.def)             Requested size: 390.0pt x 194.63023pt.
+
+
+[53 <./img/q102Gemini.png> <./img/q102Other.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 687--688
+
+ []
+
+
+
+[54 <./img/q103Gemini.png> <./img/q103Other.png>]
+<./img/img106.png, id=788, 403.5075pt x 394.47375pt>
+File: ./img/img106.png Graphic file (type png)
+<use ./img/img106.png>
+Package pdftex.def Info: ./img/img106.png  used on input line 697.
+(pdftex.def)             Requested size: 390.0pt x 381.27272pt.
+
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 697--698
+[] 
+ []
+
+<./img/q106Gemini.png, id=789, 1208.26407pt x 599.99156pt>
+File: ./img/q106Gemini.png Graphic file (type png)
+<use ./img/q106Gemini.png>
+Package pdftex.def Info: ./img/q106Gemini.png  used on input line 701.
+(pdftex.def)             Requested size: 390.0pt x 193.6583pt.
+
+
+[55 <./img/img106.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 704--706
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 709--711
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 712--713
+
+ []
+
+
+
+[56 <./img/q106Gemini.png>]
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 718--719
+[][] 
+ []
+
+<./img/q201Gemini.png, id=800, 1206.00563pt x 591.71063pt>
+File: ./img/q201Gemini.png Graphic file (type png)
+<use ./img/q201Gemini.png>
+Package pdftex.def Info: ./img/q201Gemini.png  used on input line 722.
+(pdftex.def)             Requested size: 390.0pt x 191.34662pt.
+<./img/q201Other.png, id=801, 1207.51125pt x 599.99156pt>
+File: ./img/q201Other.png Graphic file (type png)
+<use ./img/q201Other.png>
+Package pdftex.def Info: ./img/q201Other.png  used on input line 723.
+(pdftex.def)             Requested size: 390.0pt x 193.77731pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 727--728
+
+ []
+
+
+
+[57 <./img/q201Gemini.png> <./img/q201Other.png>]
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 735--736
+[][] 
+ []
+
+<./img/q202Gemini.png, id=808, 1204.5pt x 603.0028pt>
+File: ./img/q202Gemini.png Graphic file (type png)
+<use ./img/q202Gemini.png>
+Package pdftex.def Info: ./img/q202Gemini.png  used on input line 739.
+(pdftex.def)             Requested size: 390.0pt x 195.2467pt.
+<./img/q202Other.png, id=809, 1212.78094pt x 606.01407pt>
+File: ./img/q202Other.png Graphic file (type png)
+<use ./img/q202Other.png>
+Package pdftex.def Info: ./img/q202Other.png  used on input line 740.
+(pdftex.def)             Requested size: 390.0pt x 194.8809pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 744--745
+
+ []
+
+
+
+[58 <./img/q202Gemini.png> <./img/q202Other.png>]
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 752--753
+[][] 
+ []
+
+<./img/q203Gemini.png, id=816, 1210.5225pt x 593.96906pt>
+File: ./img/q203Gemini.png Graphic file (type png)
+<use ./img/q203Gemini.png>
+Package pdftex.def Info: ./img/q203Gemini.png  used on input line 756.
+(pdftex.def)             Requested size: 390.0pt x 191.36096pt.
+<./img/q203Other.png, id=817, 1200.73593pt x 599.23875pt>
+File: ./img/q203Other.png Graphic file (type png)
+<use ./img/q203Other.png>
+Package pdftex.def Info: ./img/q203Other.png  used on input line 757.
+(pdftex.def)             Requested size: 390.0pt x 194.63141pt.
+
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 760--761
+
+ []
+
+
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 768--769
+[][] 
+ []
+
+<./img/q204Gemini.png, id=822, 1208.26407pt x 593.96906pt>
+File: ./img/q204Gemini.png Graphic file (type png)
+<use ./img/q204Gemini.png>
+Package pdftex.def Info: ./img/q204Gemini.png  used on input line 772.
+(pdftex.def)             Requested size: 390.0pt x 191.71442pt.
+<./img/q204Other.png, id=823, 1207.51125pt x 604.50844pt>
+File: ./img/q204Other.png Graphic file (type png)
+<use ./img/q204Other.png>
+Package pdftex.def Info: ./img/q204Other.png  used on input line 773.
+(pdftex.def)             Requested size: 390.0pt x 195.23611pt.
+
+
+[60 <./img/q203Gemini.png> <./img/q203Other.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 776--777
+
+ []
+
+
+
+[61 <./img/q204Gemini.png> <./img/q204Other.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 780--782
+
+ []
+
+
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 791--792
+[][] 
+ []
+
+<./img/q205Gemini.png, id=837, 1214.28656pt x 606.01407pt>
+File: ./img/q205Gemini.png Graphic file (type png)
+<use ./img/q205Gemini.png>
+Package pdftex.def Info: ./img/q205Gemini.png  used on input line 795.
+(pdftex.def)             Requested size: 390.0pt x 194.63123pt.
+<./img/q205Other.png, id=838, 1209.76968pt x 597.73312pt>
+File: ./img/q205Other.png Graphic file (type png)
+<use ./img/q205Other.png>
+Package pdftex.def Info: ./img/q205Other.png  used on input line 796.
+(pdftex.def)             Requested size: 390.0pt x 192.6922pt.
+
+
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 799--800
+
+ []
+
+
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 811--812
+[][] 
+ []
+
+<./img/q206Gemini.png, id=843, 1205.2528pt x 599.23875pt>
+File: ./img/q206Gemini.png Graphic file (type png)
+<use ./img/q206Gemini.png>
+Package pdftex.def Info: ./img/q206Gemini.png  used on input line 815.
+(pdftex.def)             Requested size: 390.0pt x 193.89992pt.
+<./img/q206Other.png, id=844, 1208.26407pt x 593.21625pt>
+File: ./img/q206Other.png Graphic file (type png)
+<use ./img/q206Other.png>
+Package pdftex.def Info: ./img/q206Other.png  used on input line 816.
+(pdftex.def)             Requested size: 390.0pt x 191.47144pt.
+
+
+[63 <./img/q205Gemini.png> <./img/q205Other.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 819--820
+
+ []
+
+
+
+[64 <./img/q206Gemini.png> <./img/q206Other.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 824--826
+
+ []
+
+
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 835--836
+[] 
+ []
+
+<./img/q301Gemini.png, id=857, 1211.27531pt x 597.73312pt>
+File: ./img/q301Gemini.png Graphic file (type png)
+<use ./img/q301Gemini.png>
+Package pdftex.def Info: ./img/q301Gemini.png  used on input line 839.
+(pdftex.def)             Requested size: 390.0pt x 192.45506pt.
+<./img/q301Other.png, id=858, 1209.76968pt x 599.99156pt>
+File: ./img/q301Other.png Graphic file (type png)
+<use ./img/q301Other.png>
+Package pdftex.def Info: ./img/q301Other.png  used on input line 840.
+(pdftex.def)             Requested size: 390.0pt x 193.42026pt.
+
+
+[65]
+Underfull \hbox (badness 10000) in paragraph at lines 844--845
+
+ []
+
+
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 855--856
+[][] 
+ []
+
+<./img/q302Gemini.png, id=863, 1211.27531pt x 604.50844pt>
+File: ./img/q302Gemini.png Graphic file (type png)
+<use ./img/q302Gemini.png>
+Package pdftex.def Info: ./img/q302Gemini.png  used on input line 859.
+(pdftex.def)             Requested size: 390.0pt x 194.63655pt.
+<./img/q302Other.png, id=864, 1206.00563pt x 603.75563pt>
+File: ./img/q302Other.png Graphic file (type png)
+<use ./img/q302Other.png>
+Package pdftex.def Info: ./img/q302Other.png  used on input line 860.
+(pdftex.def)             Requested size: 390.0pt x 195.24171pt.
+
+
+[66 <./img/q301Gemini.png> <./img/q301Other.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 863--864
+
+ []
+
+
+
+[67 <./img/q302Gemini.png> <./img/q302Other.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 892--892
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 892--892
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 892--892
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 892--892
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 892--892
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 892--892
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 892--892
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 892--892
+
+ []
+
+
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 868--893
+[] 
+ []
+
+<./img/q303Gemini.png, id=878, 1212.02812pt x 599.99156pt>
+File: ./img/q303Gemini.png Graphic file (type png)
+<use ./img/q303Gemini.png>
+Package pdftex.def Info: ./img/q303Gemini.png  used on input line 896.
+(pdftex.def)             Requested size: 390.0pt x 193.06322pt.
+<./img/q303Other.png, id=879, 1205.2528pt x 596.2275pt>
+File: ./img/q303Other.png Graphic file (type png)
+<use ./img/q303Other.png>
+Package pdftex.def Info: ./img/q303Other.png  used on input line 897.
+(pdftex.def)             Requested size: 390.0pt x 192.92555pt.
+
+
+[68]
+
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 926--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 926--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 926--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 926--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 926--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 926--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 926--926
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 926--926
+
+ []
+
+
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 926--927
+[][] 
+ []
+
+<./img/q304Gemini.png, id=888, 1207.51125pt x 597.73312pt>
+File: ./img/q304Gemini.png Graphic file (type png)
+<use ./img/q304Gemini.png>
+Package pdftex.def Info: ./img/q304Gemini.png  used on input line 930.
+(pdftex.def)             Requested size: 390.0pt x 193.04791pt.
+<./img/q304Other.png, id=889, 1207.51125pt x 603.0028pt>
+File: ./img/q304Other.png Graphic file (type png)
+<use ./img/q304Other.png>
+Package pdftex.def Info: ./img/q304Other.png  used on input line 931.
+(pdftex.def)             Requested size: 390.0pt x 194.74985pt.
+
+
+[70 <./img/q303Gemini.png> <./img/q303Other.png>]
+
+[71]
+Underfull \hbox (badness 10000) in paragraph at lines 937--938
+
+ []
+
+
+
+[72 <./img/q304Gemini.png> <./img/q304Other.png>]
+<./img/img305.png, id=907, 753.81625pt x 332.74312pt>
+File: ./img/img305.png Graphic file (type png)
+<use ./img/img305.png>
+Package pdftex.def Info: ./img/img305.png  used on input line 944.
+(pdftex.def)             Requested size: 390.0pt x 172.14905pt.
+
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 944--945
+[][] 
+ []
+
+<./img/q305Gemini.png, id=908, 1210.5225pt x 603.0028pt>
+File: ./img/q305Gemini.png Graphic file (type png)
+<use ./img/q305Gemini.png>
+Package pdftex.def Info: ./img/q305Gemini.png  used on input line 948.
+(pdftex.def)             Requested size: 390.0pt x 194.2714pt.
+
+
+[73 <./img/img305.png>]
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 958--959
+[][] 
+ []
+
+<./img/q306Gemini.png, id=914, 1210.5225pt x 599.23875pt>
+File: ./img/q306Gemini.png Graphic file (type png)
+<use ./img/q306Gemini.png>
+Package pdftex.def Info: ./img/q306Gemini.png  used on input line 962.
+(pdftex.def)             Requested size: 390.0pt x 193.05872pt.
+<./img/q306Other.png, id=915, 1209.76968pt x 601.4972pt>
+File: ./img/q306Other.png Graphic file (type png)
+<use ./img/q306Other.png>
+Package pdftex.def Info: ./img/q306Other.png  used on input line 963.
+(pdftex.def)             Requested size: 390.0pt x 193.90564pt.
+
+
+[74 <./img/q305Gemini.png>]
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 975--976
+[][] 
+ []
+
+<./img/q307Gemini.png, id=922, 1209.01688pt x 593.96906pt>
+File: ./img/q307Gemini.png Graphic file (type png)
+<use ./img/q307Gemini.png>
+Package pdftex.def Info: ./img/q307Gemini.png  used on input line 979.
+(pdftex.def)             Requested size: 390.0pt x 191.5966pt.
+<./img/q307Other.png, id=923, 1212.02812pt x 592.46344pt>
+File: ./img/q307Other.png Graphic file (type png)
+<use ./img/q307Other.png>
+Package pdftex.def Info: ./img/q307Other.png  used on input line 980.
+(pdftex.def)             Requested size: 390.0pt x 190.64084pt.
+
+
+[75 <./img/q306Gemini.png> <./img/q306Other.png>]
+
+[76]
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 991--992
+[][] 
+ []
+
+<./img/q310Gemini.png, id=934, 1209.76968pt x 597.73312pt>
+File: ./img/q310Gemini.png Graphic file (type png)
+<use ./img/q310Gemini.png>
+Package pdftex.def Info: ./img/q310Gemini.png  used on input line 995.
+(pdftex.def)             Requested size: 390.0pt x 192.6922pt.
+<./img/q310Other.png, id=935, 1202.99437pt x 597.73312pt>
+File: ./img/q310Other.png Graphic file (type png)
+<use ./img/q310Other.png>
+Package pdftex.def Info: ./img/q310Other.png  used on input line 996.
+(pdftex.def)             Requested size: 390.0pt x 193.77756pt.
+
+
+[77 <./img/q307Gemini.png> <./img/q307Other.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1020
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1020
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1020
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1020
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1020--1020
+
+ []
+
+
+Overfull \hbox (14.63324pt too wide) in paragraph at lines 1002--1021
+[] 
+ []
+
+
+
+[78 <./img/q310Gemini.png> <./img/q310Other.png>]
+<./img/q308Gemini.png, id=949, 1207.51125pt x 603.75563pt>
+File: ./img/q308Gemini.png Graphic file (type png)
+<use ./img/q308Gemini.png>
+Package pdftex.def Info: ./img/q308Gemini.png  used on input line 1024.
+(pdftex.def)             Requested size: 390.0pt x 194.99298pt.
+<./img/q308Other.png, id=950, 1210.5225pt x 599.99156pt>
+File: ./img/q308Other.png Graphic file (type png)
+<use ./img/q308Other.png>
+Package pdftex.def Info: ./img/q308Other.png  used on input line 1025.
+(pdftex.def)             Requested size: 390.0pt x 193.30124pt.
+
+
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 1043--1043
+
+ []
+
+
+Overfull \hbox (32.25806pt too wide) in paragraph at lines 1043--1044
+[][] 
+ []
+
+<./img/q309Gemini.png, id=955, 1210.5225pt x 603.75563pt>
+File: ./img/q309Gemini.png Graphic file (type png)
+<use ./img/q309Gemini.png>
+Package pdftex.def Info: ./img/q309Gemini.png  used on input line 1047.
+(pdftex.def)             Requested size: 390.0pt x 194.51393pt.
+<./img/q309Other.png, id=956, 1209.76968pt x 597.73312pt>
+File: ./img/q309Other.png Graphic file (type png)
+<use ./img/q309Other.png>
+Package pdftex.def Info: ./img/q309Other.png  used on input line 1048.
+(pdftex.def)             Requested size: 390.0pt x 192.6922pt.
+
+
+[80 <./img/q308Gemini.png> <./img/q308Other.png>]
+
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1056
+
+ []
+
+
+
+[82 <./img/q309Gemini.png> <./img/q309Other.png>]
+<./img/MyGemini2Flash.png, id=973, 1203.7472pt x 682.04813pt>
+File: ./img/MyGemini2Flash.png Graphic file (type png)
+<use ./img/MyGemini2Flash.png>
+Package pdftex.def Info: ./img/MyGemini2Flash.png  used on input line 1059.
+(pdftex.def)             Requested size: 292.5pt x 165.7347pt.
+<./img/MyGemma3_8BBenchmarks.png, id=974, 1209.76968pt x 684.30656pt>
+File: ./img/MyGemma3_8BBenchmarks.png Graphic file (type png)
+<use ./img/MyGemma3_8BBenchmarks.png>
+Package pdftex.def Info: ./img/MyGemma3_8BBenchmarks.png  used on input line 10
+60.
+(pdftex.def)             Requested size: 292.5pt x 165.44815pt.
+<./img/MyLlama3_2_3B.png, id=975, 1211.27531pt x 684.30656pt>
+File: ./img/MyLlama3_2_3B.png Graphic file (type png)
+<use ./img/MyLlama3_2_3B.png>
+Package pdftex.def Info: ./img/MyLlama3_2_3B.png  used on input line 1061.
+(pdftex.def)             Requested size: 292.5pt x 165.24977pt.
+
+
+[83]
+
+[84 <./img/MyGemini2Flash.png> <./img/MyGemma3_8BBenchmarks.png> <./img/MyLlama
+3_2_3B.png>]
+
+[85
+
+]
+
+[86]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no º in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+
+[87
+
+]
+Overfull \hbox (0.49216pt too wide) in paragraph at lines 1104--1104
+[]\OT1/cmr/m/n/12 Google trends: agen-tic ai. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/
+12 : []$\OT1/cmtt/m/n/12 https : / / trends . google . com / trends /
+ []
+
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no á in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ≠ in font cmr12!
+
+Overfull \hbox (9.07567pt too wide) in paragraph at lines 1104--1104
+[]\OT1/cmr/m/n/12 Aaron Grattafiori, Ab-hi-manyu Dubey, Ab-hi-nav Jauhri, Ab-hi
+-nav Pandey,
+ []
+
+
+Overfull \hbox (15.36563pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Niko-laidis, Damien Al-lon-sius, Daniel Song, Danielle Pintz, D
+anny Livshits,
+ []
+
+
+Overfull \hbox (2.70187pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Danny Wy-att, David Es-iobu, Dhruv Choud-hary, Dhruv Ma-ha-jan,
+ Diego
+ []
+
+
+Overfull \hbox (3.7741pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Rade-n-ovic, Fran-cisco Guzmn, Frank Zhang, Gabriel Syn-naeve, 
+Gabrielle
+ []
+
+
+Overfull \hbox (6.17265pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Gold-stand, Ajay Menon, Ajay Sharma, Alex Boe-sen-berg, Alexei 
+Baevski,
+ []
+
+
+Overfull \hbox (1.67963pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Al-lie Fe-in-stein, Amanda Kallet, Amit San-gani, Amos Teo, Ana
+m Yunus,
+ []
+
+
+Overfull \hbox (3.431pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 He-len Suk, Henry As-pe-gren, Hunter Gold-man, Hongyuan Zhan, I
+brahim
+ []
+
+
+Overfull \hbox (10.42677pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Damlaj, Igor Moly-bog, Igor Tu-fanov, Il-ias Leon-tiadis, Irina
+-Elena Veliche,
+ []
+
+
+Overfull \hbox (11.0307pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Jian Jin, Jingyi Yang, Joe Cum-mings, Jon Carvill, Jon Shep-ard
+, Jonathan
+ []
+
+
+Overfull \hbox (2.30605pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Liang, Rachad Alao, Rachel Ro-driguez, Rafi Ayub, Raghotham Mur
+thy,
+ []
+
+
+Overfull \hbox (18.53387pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Saurabh Ma-ha-jan, Saurabh Verma, Seiji Ya-mamoto, Sharadh Ra-m
+aswamy,
+ []
+
+
+
+[88]
+
+[89]
+
+[90]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no º in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+
+[91]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+Missing character: There is no ≈ in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no ≈ in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ≥ in font cmr12!
+
+Overfull \hbox (9.62122pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 tenschmidt, Sam Alt-man, Shya-mal Anad-kat, Red Avila, Igor Bab
+uschkin,
+ []
+
+
+Overfull \hbox (12.67401pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 mad Bavar-ian, Jeff Bel-gum, Ir-wan Bello, Jake Berdine, Gabrie
+l Bernadett-
+ []
+
+
+Overfull \hbox (14.85178pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Chris-tian Gib-son, Vik Goel, Tarun Gogi-neni, Gabriel Goh, Rap
+ha Gontijo-
+ []
+
+
+Overfull \hbox (5.4965pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Ali Ka-mali, In-g-mar Kan-itschei-der, Ni-tish Shirish Keskar, 
+Tabarak Khan,
+ []
+
+
+Overfull \hbox (13.41423pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Kon-draciuk, An-drew Kon-drich, Aris Kon-stan-tini-dis, Kyle Ko
+sic, Gretchen
+ []
+
+
+Overfull \hbox (14.05984pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Jade Le-ung, Daniel Levy, Chak Ming Li, Rachel Lim, Molly Lin, 
+Stephanie
+ []
+
+
+Overfull \hbox (11.5059pt too wide) in paragraph at lines 1104--1104
 \OT1/cmr/m/n/12 Makanju, Kim Mal-facini, Sam Man-ning, Todor Markov, Yaniv Mark
 ovski,
  []
 
 
-Overfull \hbox (6.9321pt too wide) in paragraph at lines 239--239
-\OT1/cmr/m/n/12 Mu, Mira Mu-rati, Oleg Murk, David M^^Sely, Ashvin Nair, Rei-ic
-hiro Nakano,
+Overfull \hbox (26.35022pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 David Med-ina, Aalok Mehta, Ja-cob Menick, Luke Metz, An-drey M
+ishchenko,
  []
 
 
-Overfull \hbox (17.0131pt too wide) in paragraph at lines 239--239
-\OT1/cmr/m/n/12 Ash-ley Pan-tu-liano, Gi-ambat-tista Paras-can-dolo, Joel Paris
-h, Emy Parparita,
+Overfull \hbox (17.19362pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Na-talie Stau-dacher, Fe-lipe Pet-roski Such, Na-talie Sum-mers
+, Ilya Sutskever,
+ []
+
+
+Overfull \hbox (6.72679pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Mar-vin Zhang, Shengjia Zhao, Tian-hao Zheng, Jun-tang Zhuang, 
+William
  []
 
 
 
-[22
+[92]
 
-]
+[93]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ü in font cmr12!
 
-[23]
+Overfull \hbox (2.47504pt too wide) in paragraph at lines 1104--1104
+[]\OT1/cmr/m/n/12 Pokemon fire red - full game walk-through. \OT1/cmr/m/sc/12 u
+rl\OT1/cmr/m/n/12 : []$\OT1/cmtt/m/n/12 https : / / www . youtube .
+ []
 
-[24] (./tesi.aux)
+Missing character: There is no √ in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ® in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ´ in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ∂ in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no ≈ in font cmr12!
+Missing character: There is no Ñ in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no © in font cmr12!
+
+Overfull \hbox (1.65741pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Vieil-lard, Ra-mona Mer-hej, Sarah Per-rin, Ta-tiana Mate-jovi-
+cova, Alexan-
+ []
+
+
+Overfull \hbox (22.18108pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Ab-han-shu Sharma, Ab-heesht Sharma, Adi Mayrav Gi-lady, Adrian
+ Goedeck-
+ []
+
+
+Overfull \hbox (1.27411pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Eisen-bud, Dee Cat-tle, Derek Cheng, Dim-itris Pa-paras, Di-vya
+shree Shiv-
+ []
+
+
+Overfull \hbox (11.81729pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Amirkhanyan, Glenn Cameron, Hadi Hashemi, Hanna Klimczak-Plucis
+ka,
+ []
+
+
+Overfull \hbox (2.62825pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Ian Bal-lan-tyne, Idan Szpek-tor, Ivan Nar-dini, Jean Pouget-Ab
+adie, Jetha
+ []
+
+
+Overfull \hbox (0.83519pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 cella Valen-tine, Ma-rina Coelho, Mar-vin Rit-ter, Matt Hoff-ma
+n, Matthew
+ []
+
+
+Overfull \hbox (7.09763pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Wat-son, Mayank Chaturvedi, Michael Moyni-han, Min Ma, Nabila B
+abar,
+ []
+
+
+Overfull \hbox (5.62682pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Natasha Noy, Nathan Byrd, Nick Roy, Nikola Mom-chev, Ni-lay Cha
+uhan,
+ []
+
+
+Overfull \hbox (1.08965pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Kis-han Ruben-stein, Phil Cul-li-ton, Philipp Schmid, Pier Gius
+eppe Sessa,
+ []
+
+
+Overfull \hbox (5.32544pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Shashir Reddy, Shruti Sheth, Siim Pder, Si-jal Bhat-na-gar, Sin
+dhu Raghu-
+ []
+
+
+Overfull \hbox (4.05501pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 Hussenot. Gemma 3 tech-ni-cal re-port, 2025. arXiv: []$\OT1/cmt
+t/m/n/12 2503 . 19786$ [cs.CL][]\OT1/cmr/m/n/12 .
+ []
+
+
+
+[94]
+
+[95]
+Overfull \hbox (9.80594pt too wide) in paragraph at lines 1104--1104
+\OT1/cmr/m/n/12 izian, Mario Giu-lianelli, Harry Cop-pock, Cozmin Ududec, Jas-j
+eet Sekhon,
+ []
+
+
+
+[96] (./tesi.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-06-09>
  ***********
 Package rerunfilecheck Info: File `tesi.out' has not changed.
-(rerunfilecheck)             Checksum: B1B43A3698ED501702A4AE7B70F5F03C;4857.
+(rerunfilecheck)             Checksum: 66AF3D910D3DA91B6195D3B45AC930B3;6045.
 Package logreq Info: Writing requests to 'tesi.run.xml'.
 \openout1 = `tesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 17760 strings out of 467888
- 316108 string characters out of 5438240
- 997656 words of memory out of 5000000
- 46083 multiletter control sequences out of 15000+600000
- 632810 words of font info for 60 fonts, out of 8000000 for 9000
+ 20931 strings out of 467888
+ 372297 string characters out of 5438240
+ 1487888 words of memory out of 5000000
+ 49004 multiletter control sequences out of 15000+600000
+ 634221 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,1871b,1811s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/tex
-live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/202
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
-.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/
-texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on tesi.pdf (24 pages, 702938 bytes).
+ 75i,7n,79p,1878b,2490s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/tex
+live/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2025/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:
+/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/20
+25/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2025/texmf-dist/font
+s/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-
+super/sfrm1200.pfb>
+Output written on tesi.pdf (97 pages, 4087744 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 337 compressed objects within 4 object streams
- 70 named destinations out of 1000 (max. 500000)
- 249 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1250 PDF objects out of 1440 (max. 8388607)
+ 951 compressed objects within 10 object streams
+ 280 named destinations out of 1000 (max. 500000)
+ 646 words of extra memory for PDF output out of 10000 (max. 10000000)
 

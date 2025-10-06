@@ -1,0 +1,451 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.6.30)  1 OCT 2025 19:38
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**titlepage.tex
+(./titlepage.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-06-09>
+
+! LaTeX Error: Environment titlepage undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \begin{titlepage}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4     \begin{center}
+                      
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 4--4
+[] 
+ []
+
+! Undefined control sequence.
+l.6         \includegraphics
+                            [width=0.60\textwidth]{Logo_PoliTo_dal_2021_blu....
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.6         \includegraphics[width=0.60\textwidth]
+                                                  {Logo_PoliTo_dal_2021_blu....
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.6         \includegraphics[width=0.60\textwidth]
+                                                  {Logo_PoliTo_dal_2021_blu....
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+Missing character: There is no ] in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no o in font nullfont!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.6 ...includegraphics[width=0.60\textwidth]{Logo_
+                                                  PoliTo_dal_2021_blu.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 6.
+! Extra }, or forgotten $.
+l.6 ...60\textwidth]{Logo_PoliTo_dal_2021_blu.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.7 
+    
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.7 
+    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (94.50092pt too wide) in paragraph at lines 6--7
+ []\OML/cmm/m/it/10 oliTo[]al[]\OT1/cmr/m/n/10 021[]\OML/cmm/m/it/10 lu:png[]$ 
+
+ []
+
+! Undefined control sequence.
+l.10         \LARGE
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (54.97888pt too wide) in paragraph at lines 11--12
+ []\OT1/cmr/bx/n/10 Politecnico 
+ []
+
+
+Overfull \hbox (9.58328pt too wide) in paragraph at lines 11--12
+ \OT1/cmr/bx/n/10 di 
+ []
+
+
+Overfull \hbox (32.86095pt too wide) in paragraph at lines 11--12
+ \OT1/cmr/bx/n/10 Torino 
+ []
+
+! Undefined control sequence.
+l.14         \LARGE
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+! Undefined control sequence.
+l.19         \Huge
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (29.94011pt too wide) in paragraph at lines 20--21
+ []\OT1/cmr/bx/n/10 Stress 
+ []
+
+
+Overfull \hbox (22.5846pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 test- 
+ []
+
+
+Overfull \hbox (15.33325pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 ing 
+ []
+
+
+Overfull \hbox (25.07623pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 chat- 
+ []
+
+
+Overfull \hbox (24.66096pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 bots: 
+ []
+
+
+Overfull \hbox (23.3193pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 eval- 
+ []
+
+
+Overfull \hbox (10.22217pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 u- 
+ []
+
+
+Overfull \hbox (13.89574pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 at- 
+ []
+
+
+Overfull \hbox (15.33325pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 ing 
+ []
+
+
+Overfull \hbox (18.0485pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 fac- 
+ []
+
+
+Overfull \hbox (14.69437pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 tu- 
+ []
+
+
+Overfull \hbox (12.61797pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 al- 
+ []
+
+
+Overfull \hbox (15.6527pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 ity, 
+ []
+
+
+Overfull \hbox (19.43045pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 rea- 
+ []
+
+
+Overfull \hbox (20.50821pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 son- 
+ []
+
+
+Overfull \hbox (18.52768pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 ing, 
+ []
+
+
+Overfull \hbox (15.8124pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 ab- 
+ []
+
+
+Overfull \hbox (28.27899pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 strac- 
+ []
+
+
+Overfull \hbox (22.99988pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 tion, 
+ []
+
+
+Overfull \hbox (18.36794pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 and 
+ []
+
+
+Overfull \hbox (26.61794pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 other 
+ []
+
+
+Overfull \hbox (29.13315pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 safety 
+ []
+
+
+Overfull \hbox (23.79846pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 chal- 
+ []
+
+
+Overfull \hbox (30.41095pt too wide) in paragraph at lines 20--21
+ \OT1/cmr/bx/n/10 lenges 
+ []
+
+! Undefined control sequence.
+l.25         \Large
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (54.7844pt too wide) in paragraph at lines 27--28
+[]\OT1/cmr/bx/n/10 Candidate: 
+ []
+
+Missing character: There is no P in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+! Undefined control sequence.
+l.39         \Large
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (61.5094pt too wide) in paragraph at lines 41--42
+[]\OT1/cmr/bx/n/10 Supervisors: 
+ []
+
+Missing character: There is no A in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+LaTeX Font Info:    Trying to load font information for +cmr on input line 46.
+LaTeX Font Info:    No file cmr.fd. on input line 46.
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 46.
+
+! Corrupted NFSS tables.
+wrong@fontshape ...message {Corrupted NFSS tables}
+                                                  error@fontshape else let f...
+l.46             Antonio Vetr\'o
+                                \\
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 46.
+
+
+Overfull \hbox (10.00003pt too wide) in paragraph at lines 46--46
+ \/cmr/m/n/10 ^^So
+ []
+
+Missing character: There is no M in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{titlepage}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \end{titlepage}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+! Emergency stop.
+<*> titlepage.tex
+                 
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 36 strings out of 467888
+ 679 string characters out of 5438240
+ 426021 words of memory out of 5000000
+ 28689 multiletter control sequences out of 15000+600000
+ 627133 words of font info for 41 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 23i,3n,32p,174b,215s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
