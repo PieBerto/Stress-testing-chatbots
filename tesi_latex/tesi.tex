@@ -333,6 +333,7 @@ The benchmarks are divided into more detailed categories below.
     \centering
             \includegraphics[width=1\textwidth]{TableGeminiBenchmarks.png}
     \caption[Detailed table of Gemini benchmarks]{Benchmark results divided by categories. Source: \cite{comanici2025gemini25pushingfrontier}}
+    \label{fig:15}
     \end{figure}    
     
 This figure is particularly useful because Factuality and Reasoning are categories also considered in this study, while Code was addressed using the Program of Thoughts methodology.    
@@ -610,6 +611,7 @@ The three questions belonging to this category are as follows:\\
             \includegraphics[width=1\textwidth]{q101Gemini.png}
             \includegraphics[width=1\textwidth]{q101Other.png}
     \caption[Accuracy on Question 1 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 1. Graph's data are account-level aggregation.}
+    \label{fig:26}
     \end{figure} 
 On Gemini models, a clear improvement in results can be seen as versions progress, but it should also be noted that this question has been tested on Gemini since before the release of the 2.0 family and is likely to have been included in the dataset for the new versions.\\
 In Gemma and Llama, inconsistent results can be seen as the number of parameters improves, with a prevalence of correct answers using the CoT methodology, probably due to the simplicity of providing an intuitive answer and the difficulty of creating an effective solution algorithm.\\
@@ -646,6 +648,7 @@ It is almost impossible to produce a working algorithm with the PoT methodology 
             \includegraphics[width=1\textwidth]{q105Gemini.png}
             \includegraphics[width=1\textwidth]{q105Other.png}
     \caption[Accuracy on Question 3 by LLM]{Impact of prompting strategies on cumulative accuracy by large language model on question 3. Graph's data are account-level aggregation.}
+    \label{fig:28}
     \end{figure} 
 The problem is quite complex and only produces good results with PoT in Gemini 2.0 flash.\\ 
 The good results obtained with OS in Gemini 2.0 flash thinking exp are probably random, given the results obtained with CoT in the same model.\\
@@ -1065,13 +1068,6 @@ By resizing the data to category-level aggregates, it is possible to obtain more
 
 \clearpage
 \section{Conclusions}
-%TODO Riprendiamo l'abstract spiegando di nuovo cosa abbiamo ottenuto, confrontiamolo con i benchmark dei technical report.
-
-%The benchmark results identify several limitations in the tasks analyzed and the direction of development of some models. Specifically, the resolution of mathematical tasks with Gemini has improved significantly with the progress of versions and, in general, all analyzed models were more accurate in this category than in planning. Some limitations in the use of the PoT methodology can also be identified in real-world mathematical problems, where the use of 0-shot CoT improves accuracy.\\ 
-%Testing the factuality category revealed that LLMs struggle to recognize an incorrect statement or a trick question. Meanwhile, analysis of planning ability revealed an incapability to handle overlapping plans in the submitted questions. For instance, all LLMs achieved results close to 0\% accuracy when the problems involved performing seemingly contradictory sub-actions to achieve the result, as in 'Tower of Hanoi' or 'Blocks World'.
-
-%The findings highlight some of LLMs' current challenges to achieve agency, such as their inability to handle complex planning and factual nuances. Even in the mathematical domain, where the best results were achieved, the necessity of a third-party intervention has been shown.
-
 The results, analyzed by area, show that in \textbf{mathematical reasoning}, all tests show an improvement in Gemini's mathematical problem-solving skills as versions progress. 
 Figure \ref{fig:27} is a clear example of a mathematical question for which Program of Thought (PoT) is inefficient and other prompting methods achieve excellent results.
 In this category, Gemma and Llama obtain inconclusive results, likely  because the tests' difficulty is not adequate for the parameters of the models used.
@@ -1097,7 +1093,12 @@ The study presented has considerable room for improvement:
 \item There are few questions proposed for each category.
 \item The LLMs analyzed are only those that do not require payment and can be hosted on low-cost hardware architecture.
 \end{itemize}
-Furthermore, the areas of use of LLMs are constantly increasing, often without studies to guarantee their safety.
+Furthermore, the areas of use of LLMs are constantly increasing, often without studies to guarantee their safety. The tests conducted in this study seek to move toward better identifying the level of robustness of new LLMs.
+
+Given the limitations described above, it is challenging to compare the tests performed in this study with public benchmarks. 
+By analyzing Gemini, figure \ref{fig:15}, we can see a clear improvement in mathematical problem-solving ability: between version Flash 1.5 and Flash 2.0, there was a 46\% increase in HiddenMath-Hard and a 102\% increase in AIME 2025. Similarly, a significant improvement between the two models can also be seen in figures \ref{fig:26} and \ref{fig:28} of the benchmark presented here.\\
+Instead, the peculiar nature of the questions in the factuality category and the impossibility of finding a counterpart for sequential problem solving make it impossible to compare them with public benchmarks.
+
 
 \clearpage
 \printbibliography
